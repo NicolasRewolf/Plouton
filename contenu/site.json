@@ -1,0 +1,21 @@
+{
+  "url": "https://www.jplouton-avocat.fr",
+  "name": "Cabinet Plouton",
+  "legalName": "SELAS Julien Plouton (Cabinet d'Avocats Julien Plouton)",
+  "tagline": "Avocats pénalistes à Bordeaux",
+  "title": "Avocat à Bordeaux : pénal, victimes, famille | Plouton",
+  "description": "Cabinet Plouton — avocats pénalistes à Bordeaux. Défense pénale, indemnisation des victimes, droit de la famille. 15 Pl. Sainte-Eulalie.",
+  "phone": { "display": "05 56 44 35 96", "href": "tel:+33556443596", "e164": "+33556443596" },
+  "email": "accueil@jplouton-avocat.fr",
+  "address": {
+    "street": "15 Pl. Sainte-Eulalie",
+    "postalCode": "33000",
+    "city": "Bordeaux",
+    "country": "FR"
+  },
+  "hours": "Ouvert du lundi au vendredi, de 9h00 à 19h30",
+  "rating": { "value": "4.6", "count": 193 },
+  "googleReviewsUrl": "https://www.google.com/maps?cid=13977668972170869158",
+  "cabinetId": "https://www.jplouton-avocat.fr/#cabinet",
+  "founderId": "https://www.jplouton-avocat.fr/#julien-plouton"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Quand faut-il appeler un avocat pénaliste ?",
+    "answer": "Dès la convocation à une audition libre, une garde à vue, ou dès que vous apprenez qu'une enquête vous concerne — ou si vous êtes victime d'une infraction. Plus l'intervention est précoce, plus la défense est efficace.",
+    "sousExpertise": "Procédure"
+  },
+  {
+    "question": "Le cabinet intervient-il hors de Bordeaux ?",
+    "answer": "Oui. Basé à Bordeaux, le Cabinet Plouton plaide devant les juridictions de toute la France, y compris les cours d'assises et les JIRS.",
+    "sousExpertise": "Cabinet"
+  },
+  {
+    "question": "Que faire en cas de garde à vue ?",
+    "answer": "Demandez immédiatement l'assistance d'un avocat, gardez le silence si besoin jusqu'à son arrivée, et ne signez rien sans conseil. Le cabinet assure une réactivité pour les urgences.",
+    "sousExpertise": "Garde à vue"
+  },
+  {
+    "question": "Puis-je contester une détention provisoire ?",
+    "answer": "Oui, devant le JLD puis éventuellement la chambre de l'instruction. L'avocat vérifie que les conditions de l'article 144 du CPP sont réunies et plaide la remise en liberté ou un aménagement.",
+    "sousExpertise": "Détention"
+  }
+]

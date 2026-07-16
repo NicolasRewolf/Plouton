@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Divorce",
+    "domaineFiltre": "Contrats",
+    "url": "/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux",
+    "synthese": "Accompagnement divorce amiable ou contentieux, mesures provisoires, négociation chiffrée."
+  },
+  {
+    "title": "Droit pénal",
+    "domaineFiltre": "Défense",
+    "url": "/defense-penale/droit-penal",
+    "synthese": "De la garde à vue au jugement : défense structurée, humaine et combative."
+  },
+  {
+    "title": "Accidents de la route",
+    "domaineFiltre": "Indemnisation",
+    "url": "/indemnisation-des-victimes/accidents-de-la-route",
+    "synthese": "Volet pénal et indemnisation complète des préjudices après un accident."
+  },
+  {
+    "title": "Droit pénal des affaires",
+    "domaineFiltre": "Défense",
+    "url": "/defense-penale/droit-penal-des-affaires",
+    "synthese": "Dirigeants, élus, dossiers financiers complexes — stratégies sur mesure."
+  },
+  {
+    "title": "Victimes de délits ou de crimes",
+    "domaineFiltre": "Indemnisation",
+    "url": "/indemnisation-des-victimes/victimes-de-delits-ou-crimes",
+    "synthese": "Plainte, expertise, indemnisation, procès : une stratégie pour faire reconnaître vos droits."
+  },
+  {
+    "title": "Droit de la famille",
+    "domaineFiltre": "Contrats",
+    "url": "/droit-des-contrats-et-des-personnes/droit-de-la-famille",
+    "synthese": "Divorce, pension, garde, violences intrafamiliales — expertise et humanité."
+  }
+]

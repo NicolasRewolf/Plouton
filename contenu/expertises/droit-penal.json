@@ -1,0 +1,98 @@
+{
+  "slug": "defense-penale/droit-penal",
+  "pole": "defense-penale",
+  "poleLabel": "Défense pénale",
+  "title": "Avocat droit pénal",
+  "metaTitle": "Avocat Pénaliste Bordeaux | Cabinet Plouton",
+  "metaDescription": "Avocat droit pénal à Bordeaux. Garde à vue, correctionnel, cour d'assises. Le Cabinet Plouton défend accusés et victimes à chaque étape de la procédure.",
+  "intro": "Confronté à une accusation pénale ou victime d'une infraction ? Le cabinet Plouton, avocats pénalistes à Bordeaux, vous offre une expertise pointue et un accompagnement personnalisé. Forts de plus de 20 ans d'expérience, Maître Julien Plouton et son équipe interviennent à tous les stades — de la garde à vue au procès.",
+  "formObjet": "Droit Pénal",
+  "faqExpertise": "Droit Pénal",
+  "blogCategories": ["Droit Pénal"],
+  "toc": [
+    { "id": "defendre", "label": "Défendre vos intérêts" },
+    { "id": "strategie", "label": "Notre stratégie" },
+    { "id": "complexes", "label": "Affaires complexes" },
+    { "id": "equipe", "label": "Une équipe expérimentée" },
+    { "id": "methodes", "label": "Méthodes clés" },
+    { "id": "faq", "label": "FAQ" },
+    { "id": "affaires", "label": "Nos affaires" },
+    { "id": "contact", "label": "Rendez-vous" }
+  ],
+  "sections": [
+    {
+      "id": "defendre",
+      "title": "Défendre vos intérêts à chaque étape de la procédure pénale",
+      "blocks": [
+        {
+          "heading": "Assistance pendant les auditions libres, gardes à vue ou confrontations",
+          "body": "Que vous soyez convoqué pour une audition libre, placé en garde à vue ou confronté à une perquisition, il est essentiel d'être assisté dès le début. L'avocat conseille sur vos droits, assiste aux interrogatoires et veille au respect des procédures. Même en audition libre, si une peine d'emprisonnement est encourue, vous avez droit à l'assistance d'un avocat."
+        },
+        {
+          "heading": "Recours contre un classement sans suite ou plainte avec constitution de partie civile",
+          "body": "Si vous êtes victime et que votre plainte est classée sans suite, vous pouvez saisir le juge d'instruction par plainte avec constitution de partie civile. Sans réponse sous 3 mois, la même voie est ouverte. En matière de crimes, délits de presse ou Code électoral, saisine directe possible. La citation directe permet aussi, pour contraventions et délits, de saisir le tribunal avec les preuves nécessaires."
+        },
+        {
+          "heading": "JLD et Chambre de l'instruction",
+          "body": "Le cabinet vous assiste devant le Juge des libertés et de la détention pour contester une détention provisoire, et devant la chambre de l'instruction. La détention ne peut être ordonnée que si le contrôle judiciaire ou l'ARSE ne suffisent pas (art. 144 CPP)."
+        },
+        {
+          "heading": "Tribunal correctionnel et cour d'appel",
+          "body": "Défense en comparution immédiate ou audiences collégiales, jusqu'à la chambre des appels correctionnels. Vérification du consentement, exposé des faits, audition, plaidoirie."
+        },
+        {
+          "heading": "Cour d'assises",
+          "body": "Intervention en défense des accusés et indemnisation des victimes devant la cour d'assises — de l'instruction au procès, avec une défense habituée aux jurys populaires et aux enjeux criminels."
+        }
+      ]
+    },
+    {
+      "id": "strategie",
+      "title": "Une stratégie de défense adaptée à votre situation",
+      "blocks": [
+        {
+          "heading": "Innocence, atténuation ou statut de victime",
+          "body": "Stratégie personnalisée selon que vous êtes mis en cause ou victime : simulations d'audience, conclusions de nullité ou de relaxe, conclusions de partie civile, analyse des preuves et des vices de procédure."
+        },
+        {
+          "heading": "Limiter les sanctions",
+          "body": "Contester la matérialité des faits ou l'intention, plaider les circonstances atténuantes, négocier avec le parquet lorsque c'est opportun."
+        }
+      ]
+    },
+    {
+      "id": "complexes",
+      "title": "Spécialistes des affaires pénales complexes",
+      "blocks": [
+        {
+          "heading": "Atteintes aux personnes et aux biens",
+          "body": "Agressions sexuelles, harcèlement, violences, vols aggravés, abus de faiblesse ; cambriolages, escroqueries, recels, abus de confiance."
+        },
+        {
+          "heading": "Délinquance organisée et cybercriminalité",
+          "body": "Trafic de stupéfiants, association de malfaiteurs, blanchiment ; harcèlement en ligne, escroqueries crypto ou FOVI, diffamation."
+        }
+      ]
+    },
+    {
+      "id": "equipe",
+      "title": "Une équipe rompue aux affaires sensibles",
+      "blocks": [
+        {
+          "heading": "20 ans devant les juridictions d'exception",
+          "body": "Interventions régulières devant les JIRS et pôles financiers. Gestion de dossiers médiatisés avec discrétion et professionnalisme. Approche humaine, comptes rendus réguliers, disponibilité pour les urgences (garde à vue, convocations)."
+        }
+      ]
+    },
+    {
+      "id": "methodes",
+      "title": "Méthodes clés pour une défense efficace",
+      "blocks": [
+        {
+          "heading": "Personnalisation et alternatives",
+          "body": "Contextualisation des faits, négociation d'alternatives (médiation pénale, composition pénale), audit du dossier pour vices de procédure (perquisitions, notification des droits, assistance avocat)."
+        }
+      ]
+    }
+  ]
+}
