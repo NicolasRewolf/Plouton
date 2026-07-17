@@ -5,7 +5,10 @@
   "publishedAt": "2026-06-23T00:00:00.000Z",
   "status": "published",
   "author": "Julien Plouton - Avocat à la Cour",
-  "categories": ["Ressources et notions juridiques", "Accidents de la route"],
+  "categories": [
+    "Ressources et notions juridiques",
+    "Accidents de la route"
+  ],
   "coverImage": "https://static.wixstatic.com/media/d05c9e_00d9f136d94c415281878fad71bd02be~mv2.jpg",
   "minutesToRead": 16,
   "body": [
@@ -20,5 +23,16 @@
     "## La procédure",
     "Déclarer l'accident, constituer le dossier médical, expertise (amiable ou judiciaire), offre de l'assureur, négociation ou contentieux. Le Cabinet Plouton accompagne ces étapes depuis Bordeaux et la Nouvelle-Aquitaine depuis plus de vingt ans.",
     "Premier échange sans engagement : complétez le formulaire de contact ou appelez le 05 56 44 35 96."
-  ]
+  ],
+  "authorId": "julien-plouton",
+  "tags": [
+    "indemnisation",
+    "accident-route"
+  ],
+  "updatedAt": "2026-06-15T00:00:00.000Z",
+  "stats": {
+    "views": 67,
+    "likes": 1,
+    "comments": 0
+  }
 }

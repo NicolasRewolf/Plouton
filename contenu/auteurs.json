@@ -1,0 +1,23 @@
+[
+  {
+    "id": "julien-plouton",
+    "displayName": "Julien Plouton - Avocat à la Cour",
+    "shortName": "Julien Plouton",
+    "avatar": "/brand/avatars/julien-plouton.jpg",
+    "bio": "Maître Julien Plouton — avocat au Barreau de Bordeaux, a prêté serment en 2004 après une formation à l'École de Formation du Barreau de Paris (EFB). Diplômé d'un DESS en droit des affaires et fiscalité, d'un DEA en droit européen et d'un master spécialisé HEC en droit et management international, il a fondé le Cabinet Plouton en 2009."
+  },
+  {
+    "id": "axelle-fresneau",
+    "displayName": "Axelle Fresneau - Avocat à la cour",
+    "shortName": "Axelle Fresneau",
+    "avatar": "/brand/avatars/axelle-fresneau.jpg",
+    "bio": ""
+  },
+  {
+    "id": "andeol-brachanet",
+    "displayName": "Andéol Brachanet - Avocat à la Cour",
+    "shortName": "Andéol Brachanet",
+    "avatar": "/brand/avatars/andeol-brachanet.jpg",
+    "bio": ""
+  }
+]

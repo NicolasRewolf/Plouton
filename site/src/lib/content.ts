@@ -36,12 +36,25 @@ export interface Article {
   title: string
   excerpt: string
   publishedAt: string
+  updatedAt?: string
   status: "draft" | "published"
   author: string
+  authorId?: string
   categories: string[]
+  tags?: string[]
   coverImage?: string
   minutesToRead?: number
+  /** Compteurs sociaux Wix — remplis par l'import, puis Cooked/Supabase */
+  stats?: { views: number; likes: number; comments: number }
   body: string[]
+}
+
+export interface Author {
+  id: string
+  displayName: string
+  shortName: string
+  avatar: string
+  bio: string
 }
 
 export interface ExpertisePage {
@@ -108,6 +121,19 @@ export function getFaq(expertiseKey: string): FaqItem[] {
   return readJson<FaqItem[]>(path.join("faq", `${expertiseKey}.json`))
 }
 
+export function listAuthors(): Author[] {
+  return readJson<Author[]>("auteurs.json")
+}
+
+export function getAuthor(article: Article): Author | null {
+  const authors = listAuthors()
+  return (
+    authors.find((a) => a.id === article.authorId) ??
+    authors.find((a) => a.displayName === article.author) ??
+    null
+  )
+}
+
 export function getExpertiseCards() {
   return readJson<
     { title: string; domaineFiltre: string; url: string; synthese: string }[]
@@ -116,6 +142,11 @@ export function getExpertiseCards() {
 
 export function getEquipe() {
   return readJson<{ name: string; role: string }[]>("equipe.json")
+}
+
+/** Slug catégorie façon Wix : minuscules, espaces → tirets, accents conservés */
+export function categorySlug(label: string): string {
+  return label.toLowerCase().replace(/\s+/g, "-")
 }
 
 export function publishedArticles(): Article[] {
