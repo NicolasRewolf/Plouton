@@ -150,8 +150,12 @@ function comparePair(live, local, { tier, aliases, props }) {
       if (d > 8) out.push({ prop: 'x', live: live.x, local: local.x, sev: 'major', delta: d });
       else if (d > 2) out.push({ prop: 'x', live: live.x, local: local.x, sev: 'minor', delta: d });
     }
-    if (has('textAlign') && ls.textAlign !== cs.textAlign)
-      out.push({ prop: 'textAlign', live: ls.textAlign, local: cs.textAlign, sev: 'major' });
+    if (has('textAlign')) {
+      // start≡left et end≡right en LTR — équivalence visuelle, pas un écart.
+      const normAlign = (v) => (v === 'start' ? 'left' : v === 'end' ? 'right' : v);
+      if (normAlign(ls.textAlign) !== normAlign(cs.textAlign))
+        out.push({ prop: 'textAlign', live: ls.textAlign, local: cs.textAlign, sev: 'major' });
+    }
     if (has('borderRadius') && ls.borderRadius !== cs.borderRadius) {
       const d = Math.abs((px(ls.borderRadius) || 0) - (px(cs.borderRadius) || 0));
       out.push({ prop: 'borderRadius', live: ls.borderRadius, local: cs.borderRadius, sev: d > 2 ? 'major' : 'minor', delta: d });

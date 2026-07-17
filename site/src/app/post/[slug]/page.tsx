@@ -10,9 +10,12 @@ import {
   categorySlug,
   getArticle,
   getAuthor,
+  getRicos,
   getSite,
   publishedArticles,
 } from "@/lib/content"
+import { RicosBody } from "@/lib/ricos/render"
+import type { RicosDoc } from "@/lib/ricos/types"
 import { JsonLd, organizationSchema } from "@/lib/seo"
 
 export const dynamicParams = true
@@ -72,6 +75,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const { slug } = await params
   const article = getArticle(slug)
   if (!article || article.status !== "published") notFound()
+  const ricos = getRicos(article.slug)
   const site = getSite()
   const url = `${site.url}/post/${article.slug}`
   const author = getAuthor(article)
@@ -172,7 +176,13 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             </div>
           </header>
 
-          {article.bodyHtml ? (
+          {ricos ? (
+            /* Arbre Ricos exact du live (Phase 3) — structure fidèle :
+             * liens, couleurs, tableaux, listes, accordéons, embeds. */
+            <div className="prose-plouton prose-blog mt-8">
+              <RicosBody doc={ricos.ricos as RicosDoc} slug={article.slug} />
+            </div>
+          ) : article.bodyHtml ? (
             <div
               className="prose-plouton prose-blog mt-8"
               dangerouslySetInnerHTML={{ __html: article.bodyHtml }}
