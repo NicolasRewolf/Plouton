@@ -1,0 +1,55 @@
+{
+  "proces-criminel": {
+    "path": "/brand/expertises/proces-criminel.jpg",
+    "sourceUrl": "https://static.wixstatic.com/media/d05c9e_8b854df7815144d5a3d45664ba075b05~mv2.jpg/v1/fill/w_1050,h_700,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Droit%20Criminel%20-%20Julien%20Plouton%20Avocat.jpg"
+  },
+  "trafic-de-stupefiants": {
+    "path": "/brand/expertises/trafic-de-stupefiants.jpg",
+    "sourceUrl": "https://static.wixstatic.com/media/nsplsh_f3b24cf4c500405b857e68eb364bc165~mv2.jpg/v1/fill/w_1202,h_308,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20de%20Richard%20Horne.jpg"
+  },
+  "violences-conjugales-et-feminicides": {
+    "path": "/brand/expertises/violences-conjugales-et-feminicides.jpg",
+    "sourceUrl": "https://static.wixstatic.com/media/d05c9e_4f4921f54599435e97be80f4bd378dc4~mv2.jpg/v1/fill/w_614,h_458,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Violence%20Conjugale%20-%20Avocat%20Julien%20Plouton.jpg"
+  },
+  "droit-penal-des-affaires": {
+    "path": "/brand/expertises/droit-penal-des-affaires.jpg",
+    "sourceUrl": "https://static.wixstatic.com/media/d05c9e_a36ec3655b714c1eaf401d34043ca647~mv2.jpg/v1/fill/w_1292,h_862,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Droit%20P%C3%A9nal%20des%20affaires%20-%20Avocat%20Julien%20Plouton.jpg"
+  },
+  "victimes-de-delits-ou-crimes": {
+    "path": "/brand/expertises/victimes-de-delits-ou-crimes.jpg",
+    "sourceUrl": "https://static.wixstatic.com/media/d05c9e_1d4314b6d0d74595a4495fbf61f4d894~mv2.jpg/v1/fill/w_1292,h_862,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Indemnisation%20de%20la%20victime%20d'une%20infraction%20p%C3%A9nale%20-%20Avocat%20Julien%20Plouton.jpg"
+  },
+  "accidents-de-la-route": {
+    "path": "/brand/expertises/accidents-de-la-route.jpg",
+    "sourceUrl": "https://static.wixstatic.com/media/d05c9e_75eb8b18d2b247eab8afa1356a161f79%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/d05c9e_75eb8b18d2b247eab8afa1356a161f79%7Emv2.jpg",
+    "note": "Extracted via og:image fallback (masked hero, no visible img tag)"
+  },
+  "droit-et-accidents-du-travail": {
+    "path": "/brand/expertises/droit-et-accidents-du-travail.jpg",
+    "sourceUrl": "https://static.wixstatic.com/media/d05c9e_f6a70afc31e44895905c45568850bf0d~mv2.jpg/v1/fill/w_1292,h_862,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Droit%20et%20accident%20du%20travail%20-%20Avocat%20Julien%20Plouton.jpg"
+  },
+  "accidents-et-erreurs-medicales": {
+    "path": "/brand/expertises/accidents-et-erreurs-medicales.jpg",
+    "sourceUrl": "https://static.wixstatic.com/media/d05c9e_093883f0c2a14b78a199e38d7515a265~mv2.jpg/v1/fill/w_1248,h_832,fp_0.47_0.24,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Droit%20M%C3%A9dical%20-%20Julien%20Plouton%20Avocat.jpg"
+  },
+  "accidents-de-la-vie-courante": {
+    "path": "/brand/expertises/accidents-de-la-vie-courante.jpg",
+    "sourceUrl": "https://static.wixstatic.com/media/d05c9e_20a0374d917c43eaa27e9190f9285120~mv2.jpg/v1/fill/w_1292,h_862,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Accident%20de%20la%20vie%20courante%20-%20Avocat%20Julien%20Plouton.jpg"
+  },
+  "droit-assurances-particuliers-professionnels": {
+    "path": "/brand/expertises/droit-assurances-particuliers-professionnels.jpg",
+    "sourceUrl": "https://static.wixstatic.com/media/d05c9e_6593e840f39c42f49c2fded0528a62e4~mv2.jpg/v1/fill/w_1292,h_862,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Droit%20des%20assurances%20particuler%20et%20professionnel%20-%20Avocat%20Julien%20Plouton.jpg"
+  },
+  "defense-des-consommateurs": {
+    "path": "/brand/expertises/defense-des-consommateurs.jpg",
+    "sourceUrl": "https://static.wixstatic.com/media/d05c9e_b1e07563b0564597ac2337790b24e814~mv2.jpg/v1/fill/w_1292,h_862,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Droit%20du%20consommateur%20-%20Julien%20Plouton%20Avocat.jpg"
+  },
+  "droit-de-la-famille": {
+    "path": "/brand/expertises/droit-de-la-famille.jpg",
+    "sourceUrl": "https://static.wixstatic.com/media/d05c9e_b0a3c78cd4c447f8b7ab0ecdd054c039~mv2.jpg/v1/fill/w_972,h_648,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Droit%20de%20la%20famille%20-%20Avocat%20Julien%20Plouton.jpg"
+  },
+  "divorce": {
+    "path": "/brand/expertises/divorce.jpg",
+    "sourceUrl": "https://static.wixstatic.com/media/d05c9e_0a34199aa5894ca28e7cceae0a1c8782~mv2.jpg/v1/fill/w_2994,h_1290,fp_0.70_0.49,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Divorce%20Good.jpg"
+  }
+}

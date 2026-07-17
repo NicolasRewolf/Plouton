@@ -1,6 +1,10 @@
 # base/
 
-Mémoire technique du projet (schémas, migrations).
+Mémoire technique : schémas SQL, migrations Supabase, seed.
 
-Explications métier → `docs/04-donnees.md`.  
-**Pas encore branché.**
+| | |
+|--|--|
+| **État** | Placeholder — pas encore branché |
+| **Doc** | `docs/04-donnees.md` + `docs/11-stack-technique.md` |
+
+Quand on crée le projet Supabase : migrations ici, contenu migré depuis `contenu/`.

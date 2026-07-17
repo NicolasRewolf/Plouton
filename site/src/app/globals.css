@@ -37,6 +37,15 @@ body {
   outline-offset: 2px;
 }
 
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
 /* Masque 3 barres diagonales (motif logo) */
 .mask-stripes {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 927 691'%3E%3Cpolygon fill='black' points='927 82 927 245 0 601 0 438'/%3E%3Cpolygon fill='black' points='927 308 927 472 354 691 354 530'/%3E%3Cpolygon fill='black' points='574 0 572 162 0 383 0 220'/%3E%3C/svg%3E");

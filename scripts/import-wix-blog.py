@@ -16,9 +16,10 @@ csv.field_size_limit(sys.maxsize)
 ROOT = Path(__file__).resolve().parents[1]
 CONTENU = ROOT / "contenu"
 ARTICLES_DIR = CONTENU / "articles"
-POSTS_CSV = ARTICLES_DIR / "Posts.csv"
-CATS_CSV = ARTICLES_DIR / "Categories.csv"
-EQUIPE_CSV = CONTENU / "Équipe.csv"
+SOURCES_WIX = CONTENU / "sources" / "wix"
+POSTS_CSV = SOURCES_WIX / "Posts.csv"
+CATS_CSV = SOURCES_WIX / "Categories.csv"
+EQUIPE_CSV = SOURCES_WIX / "Equipe.csv"
 SITE_ORIGIN = "https://www.jplouton-avocat.fr"
 
 

@@ -12,8 +12,9 @@ from typing import Any
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 BASE = "https://www.jplouton-avocat.fr"
-EXPERTISES_DIR = Path("/Users/nicolas/Desktop/Plouton/contenu/expertises")
-PAGES_DIR = Path("/Users/nicolas/Desktop/Plouton/contenu/pages")
+ROOT = Path(__file__).resolve().parents[1]
+EXPERTISES_DIR = ROOT / "contenu" / "expertises"
+PAGES_DIR = ROOT / "contenu" / "pages"
 
 EXPERTISES: list[dict[str, str]] = [
     {

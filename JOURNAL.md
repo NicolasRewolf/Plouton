@@ -5,6 +5,22 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-17 — Grand ménage repo (pré-migration)
+
+- Sources Wix isolées dans `contenu/sources/wix/`
+- `.gitignore` racine solide (node_modules, .next, PII, .claude…)
+- Docs indexées (`docs/00-INDEX.md`), LIRE-MOI partout
+- Brand sans doublons ; scripts sans chemins machine
+- Prêt pour Supabase / Vercel / GitHub propre
+
+---
+
+## 2026-07-17 — Expertises pixel-close
+
+- Gabarit unique aligné live : hero 3 barres, TOC pastilles, colonne 680px
+- Heroes Wix téléchargés pour les 14 expertises
+- À peaufiner : FAQ live complète, liens dans les textes, micro-espacements
+
 ## 2026-07-17 — Site structure presque complet
 
 - Honoraires & RDV : `/honoraires-rendez-vous` (textes live)
