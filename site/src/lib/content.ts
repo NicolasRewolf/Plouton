@@ -52,6 +52,9 @@ export interface Article {
   viewCount?: number
   url?: string
   wixId?: string
+  /** Title / meta live Wix (baseline) — servis tels quels pour la continuité SEO */
+  metaTitle?: string
+  metaDescription?: string
   /** HTML structuré (titres, listes, liens) depuis Rich Content Wix */
   bodyHtml?: string
   /** Fallback texte / édition admin */
@@ -76,6 +79,8 @@ export interface Category {
   description: string
   postCount: number
   url: string
+  metaTitle?: string
+  metaDescription?: string
   coverImage?: string | null
   language: string
 }

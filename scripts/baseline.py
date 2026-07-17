@@ -110,6 +110,13 @@ def cmd_crawl() -> None:
             print(f"  {r['status']} {r['path']}")
 
 
+def text_of(s: str) -> str:
+    """Texte nu — le live Wix truffe ses H1 de <span>, on compare le contenu."""
+    s = re.sub(r"<[^>]+>", "", s or "")
+    s = html.unescape(s)
+    return unicodedata.normalize("NFC", re.sub(r"\s+", " ", s)).strip()
+
+
 def cmd_diff(origin: str) -> None:
     base = {r["path"]: r for r in json.loads(BASELINE.read_text())}
     results = crawl_all(origin)
@@ -123,10 +130,10 @@ def cmd_diff(origin: str) -> None:
             continue
         if b["status"] != 200:
             continue
-        if b["h1"] and r["h1"] != b["h1"]:
-            soft.append(f"H1  {r['path']}\n      live: {b['h1'][:70]}\n      new : {r['h1'][:70]}")
-        if b["title"] and r["title"] != b["title"]:
-            soft.append(f"TIT {r['path']}\n      live: {b['title'][:70]}\n      new : {r['title'][:70]}")
+        if text_of(b["h1"]) and text_of(r["h1"]) != text_of(b["h1"]):
+            soft.append(f"H1  {r['path']}\n      live: {text_of(b['h1'])[:70]}\n      new : {text_of(r['h1'])[:70]}")
+        if text_of(b["title"]) and text_of(r["title"]) != text_of(b["title"]):
+            soft.append(f"TIT {r['path']}\n      live: {text_of(b['title'])[:70]}\n      new : {text_of(r['title'])[:70]}")
         if b["words"] > 300 and r["words"] < b["words"] * 0.6:
             soft.append(f"TXT {r['path']} : {b['words']} mots live → {r['words']} (‑40 %+)")
     print(f"\n=== {len(hard)} écarts bloquants (200 live → erreur) ===")

@@ -22,8 +22,9 @@ export async function generateMetadata({
   const category = findCategory(slug)
   if (!category) return {}
   return {
-    title: `${category.label} — Blog`,
+    title: { absolute: category.metaTitle ?? `Nos affaires | ${category.label}` },
     description:
+      category.metaDescription ||
       category.description ||
       `Articles ${category.label} du Cabinet Plouton, avocats à Bordeaux.`,
   }

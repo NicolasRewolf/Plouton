@@ -7,7 +7,7 @@ import { getSite } from "@/lib/content"
 import { JsonLd, organizationSchema } from "@/lib/seo"
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: { absolute: "Blog | Cabinet Plouton - Avocats pénalistes" },
   description:
     "Toutes les actualités, affaires et ressources juridiques du Cabinet Plouton — avocats pénalistes à Bordeaux.",
 }

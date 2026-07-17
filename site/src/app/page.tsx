@@ -45,7 +45,9 @@ export default function HomePage() {
                       : "block text-navy-soft"
                   }
                 >
-                  {line.text}
+                  {/* Espace insécable en fin de ligne : les <span> block se collent
+                      dans le texte accessible (H1 lu « PloutonAvocats » sinon) */}
+                  {line.text}{" "}
                 </span>
               ))}
             </h1>
