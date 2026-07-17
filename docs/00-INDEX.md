@@ -7,6 +7,7 @@ Lis dans cet ordre selon le besoin.
 | Doc | Contenu |
 |-----|---------|
 | [`../LIRE-MOI.md`](../LIRE-MOI.md) | Plan de la maison |
+| [`14-etat.md`](14-etat.md) | 👉 **Où on en est** (état d'avancement) |
 | [`../JOURNAL.md`](../JOURNAL.md) | Dernières livraisons |
 | [`05-decisions.md`](05-decisions.md) | Décisions figées |
 | [`06-ne-pas-perdre.md`](06-ne-pas-perdre.md) | Ce qu’il ne faut pas casser |
