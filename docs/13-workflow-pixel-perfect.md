@@ -1,23 +1,64 @@
-# Workflow pixel-perfect (validé sur l’accueil)
+# Workflow pixel-perfect v2 — boucle de convergence outillée
 
-Objectif : **copié-collé** du site live — textes complets + mise en page proche.
+Remplace le workflow manuel (« screenshot, corriger écart par écart à l'œil »).
+Principe : la vérité terrain du live Wix est **figée dans le repo** et chaque
+template converge via un **diff automatique numérique**, jamais à l'impression.
 
-## Étapes (toujours dans cet ordre)
+## Vérité terrain (figée, committée)
 
-1. **Capture live** — ouvrir la page Wix, screenshot desktop (~1440–1800px).
-2. **Textes complets** — extraire le contenu affiché (DOM / dump), **sans résumer**. Stocker dans `contenu/pages/….json`.
-3. **Mesures** — couleurs, polices, tailles via styles calculés (inspecteur / CDP).
-4. **Assets** — images / logos exacts depuis Wix ou Drive.
-5. **Reconstruction** — coder la page à partir du JSON + tokens.
-6. **Comparaison** — screenshot POC vs live, même largeur, corriger écart par écart.
+| Artefact | Emplacement | Régénération |
+|---|---|---|
+| Specs de styles calculés + screenshots live (13 pages × 3-4 viewports) | `contenu/reference/<page>/<vw>/` | `node scripts/visual/capture.mjs --target live --page all --viewport all` |
+| CSS Wix brut + tokens parsés | `contenu/reference/tokens/` | `node scripts/visual/extract-tokens.mjs` |
+| Polices réelles du live (woff2 + alias) | `site/public/fonts/wix/` + `site/src/app/fonts.wix.css` | `node scripts/visual/fetch-fonts.mjs` |
+| Tokens thème générés | `site/src/app/theme.wix.css` | `extract-tokens.mjs` (AUTO-GÉNÉRÉ, ne pas éditer) |
+| Écarts volontaires (améliorations assumées) | `contenu/reference/deviations.json` | à la main, une entrée par déviation |
 
-## Accueil (2026-07-17)
+Le live disparaîtra après la bascule DNS : ne JAMAIS supprimer `contenu/reference/`.
 
-- Source contenu : `contenu/pages/accueil.json`
-- Tokens : navy `#17475e`, navySoft `#3f6e84`, accent `#fe4b42`
-- Layout hero desktop : texte gauche + photo 3 barres droite + ticker ACTUALITÉS + « Lire »
+## La boucle (une itération)
 
-## Hors scope pour l’instant
+```
+1. node scripts/visual/diff.mjs --page <id> --viewport 1440
+2. Lire reports/visual/<page>/1440/spec-diff.md → prendre le cluster n°1
+3. Corriger UNE cause racine, dans cet ordre de préférence :
+   token global (theme.wix.css / globals.css) > style de composant > structure JSX
+   OU si l'écart est une amélioration voulue : entrée dans deviations.json
+   (charger d'abord la skill design pertinente : better-ui / better-typography / better-colors)
+4. Relancer le diff → vérifier que le nombre de majeurs BAISSE
+5. Répéter jusqu'à PASS, puis valider 375 et 768
+6. Marquer la page convergée + commit (résumé du diff dans le message)
+```
 
-- Blog ticker = articles locaux POC (pas encore les 422 posts Wix)
-- Bios équipe (photos + textes longs) à importer ensuite
+## Garde-fous
+
+- Ne jamais chasser le ratio pixel tant que `majeurs > 0` — le spec-diff d'abord.
+- Une cause racine par itération (les clusters regroupent les symptômes).
+- Interdit de transformer un fix de token global en override par composant.
+- Next 16 = APIs différentes du training data → lire `site/node_modules/next/dist/docs/`
+  avant de toucher `site/` (cf. `site/AGENTS.md`).
+- Le contenu texte doit être identique au live (les ancres s'apparient par texte) —
+  si des ancres ne s'apparient pas, vérifier d'abord le CONTENU, pas le style.
+- `deviations.json` : jamais d'entrée « fourre-tout » (`keyPattern: "*"` interdit
+  sauf raison écrite) ; chaque entrée cite sa règle design.
+
+## Gates d'acceptation (diff.mjs les applique, exit code 0/1)
+
+| Classe | Définition (extrait) | Gate |
+|---|---|---|
+| Majeur | famille résolue fausse ; font-size > 1px ; graisse ; ΔE couleur > 2 ; deltaY > 8px ; largeur > 8px ; ancre manquante | 0 non couvert par déviation |
+| Mineur | line-height ≤ 2px ; letter-spacing ≤ 0.2px ; deltaY 2–8px | ≤ 10 / page |
+| Pixel/section | texte ≤ 1.5 % (posts 2 %) ; image ≤ 4 % non bloquant si 0 majeur | |
+| Hauteur page | vs live | ± 2 % |
+
+## Ordre de convergence (plan approuvé 2026-07-18)
+
+Briques d'abord (Header → Footer → CTA/boutons → FAQ → cartes → bannières),
+puis templates : expertise (18 p.) → hubs de pôles → article (422 p.) →
+feed blog (18 p.) → accueil → one-offs. Détail : plan
+`~/.claude/plans/comme-tu-sais-mon-synthetic-crown.md`.
+
+## Captures locales
+
+`capture.mjs --target local` suppose `npm run dev` actif dans `site/` (port 3000).
+Le diff relance sa propre capture locale à chaque run (`--skip-capture` pour réutiliser).
