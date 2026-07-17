@@ -279,25 +279,42 @@ for (const vwId of vwIds) {
   const mismatches = []; const assumed = []; const pairs = [];
   const unmatchedLive = []; const unmatchedLocal = new Map();
 
+  // Clé d'appariement = texte casse-insensible + index d'occurrence, SANS le
+  // rôle : le live balise souvent en <p> ce que nous balisons en <a>/<h*>
+  // (amélioration sémantique voulue), et le live met la casse via CSS
+  // text-transform là où nous l'écrivons en dur. Le rôle divergent est signalé
+  // en mineur, il ne casse pas l'appariement.
+  const indexByText = (list) => {
+    const occ = new Map();
+    return list.map((e) => {
+      const base = (e.text || e.anchor || '').toLowerCase();
+      const n = (occ.get(base) || 0) + 1;
+      occ.set(base, n);
+      return { e, mkey: `${base}#${n}`, prefix: base.slice(0, 40) };
+    });
+  };
   for (const tier of ['blocks', 'inlines', 'images']) {
-    const liveList = liveSpec[tier]; const localList = localSpec[tier];
-    const localByKey = new Map(localList.map((e) => [e.key, e]));
+    const liveIdx = indexByText(liveSpec[tier]);
+    const localIdx = indexByText(localSpec[tier]);
+    const localByKey = new Map(localIdx.map((x) => [x.mkey, x]));
     const usedLocal = new Set();
     const tierPairs = [];
-    for (const le of liveList) {
-      let ce = localByKey.get(le.key);
-      if (!ce || usedLocal.has(ce.key)) {
-        // repli : même tier/role + préfixe de 40 chars
-        const prefix = (le.text || le.anchor || '').slice(0, 40);
-        ce = localList.find(
-          (c) => !usedLocal.has(c.key) && c.role === le.role && (c.text || c.anchor || '').slice(0, 40) === prefix
-        );
-      }
-      if (ce) { usedLocal.add(ce.key); tierPairs.push([le, ce]); }
-      else unmatchedLive.push({ tier, key: le.key });
+    for (const lx of liveIdx) {
+      let cx = localByKey.get(lx.mkey);
+      if (cx && usedLocal.has(cx)) cx = null;
+      if (!cx) cx = localIdx.find((c) => !usedLocal.has(c) && c.prefix === lx.prefix && c.prefix.length >= 8);
+      if (cx) {
+        usedLocal.add(cx);
+        tierPairs.push([lx.e, cx.e]);
+        if (tier !== 'images' && lx.e.role !== cx.e.role) {
+          const rec = { tier, key: lx.e.key, text: (lx.e.text || '').slice(0, 60), prop: 'role', live: lx.e.role, local: cx.e.role, sev: 'minor' };
+          const dev = deviations.find((x) => deviationCovers(x, { ...ctx, key: lx.e.key, prop: 'role' }));
+          if (dev) assumed.push({ ...rec, reason: dev.reason }); else mismatches.push(rec);
+        }
+      } else unmatchedLive.push({ tier, key: lx.e.key });
     }
-    for (const c of localList) if (!usedLocal.has(c.key)) {
-      unmatchedLocal.set(`${tier}:${c.key}`, { tier, key: c.key });
+    for (const c of localIdx) if (!usedLocal.has(c)) {
+      unmatchedLocal.set(`${tier}:${c.e.key}`, { tier, key: c.e.key });
     }
     pairs.push({ tier, tierPairs });
   }
