@@ -5,6 +5,15 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-17 — Audit santé du site (repo au clair)
+
+- Site public **sain** : archi propre (9 composants, 5 modules), **422 articles** OK, SEO préservé
+- Câblage Supabase **correct** (clé serveur, clés en prod) — test bout-en-bout à faire
+- **Limites connues** notées : backoffice Demandes à construire, auth admin absente, pièces jointes + email pas branchés
+- Détail complet : `docs/15-audit-sante.md`
+
+---
+
 ## 2026-07-17 — 🟢 EN LIGNE : Supabase + prod Vercel
 
 - **Base** : migration appliquée → table `demandes` créée (RLS + index), vérifiée

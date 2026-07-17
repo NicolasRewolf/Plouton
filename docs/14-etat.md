@@ -4,6 +4,7 @@ _Mis à jour : 2026-07-17_
 
 Vue unique de « où on en est ». À relire en premier, mettre à jour à chaque grande étape.
 Détail des livraisons dans [`../JOURNAL.md`](../JOURNAL.md).
+Audit santé détaillé (archi, contenu, limites connues) : [`15-audit-sante.md`](15-audit-sante.md).
 
 ---
 
