@@ -1,0 +1,807 @@
+[
+  {
+    "source": "/accidents-et-erreurs-médicales",
+    "destination": "/indemnisation-des-victimes/accidents-et-erreurs-medicales",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-avocats-bordeaux",
+    "destination": "/nos-affaires",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-contrat-defense-consommateurs",
+    "destination": "/nos-affaires/categories/défense-des-consommateurs",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-contrat-defense-consommateurs/defense-consommateurs",
+    "destination": "/nos-affaires/categories/défense-du-consommateur",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-contrat-defense-consommateurs/nullite-des-contrats-de-vente-et-de-pret",
+    "destination": "/post/nullité-d-un-contrat-de-vente-de-panneaux-solaires-le-cabinet-fait-réaliser-à-ses-clients-une-écon",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-contrat-defense-consommateurs/pret-argent-reconnaissance-de-dette",
+    "destination": "/post/prêt-d-argent-entre-concubins-sans-reconnaissance-de-dette-le-tribunal-judiciaire-retient-l-imposs",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-contrat-defense-consommateurs/vente-maison-infestation-termites-indemnisation",
+    "destination": "/post/vente-d-une-maison-infestée-par-les-termites-90-000-de-dommages-et-intérêts-pour-l-acheteur",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-cour-assises",
+    "destination": "/blog/categories/droit-criminel",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-droit-penal-defense-penale",
+    "destination": "/nos-affaires/categories/droit-penal",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-droit-penal-defense-penale/meurtre-grenoble",
+    "destination": "/post/tueur-à-trottinette-à-grenoble-le-cabinet-saisi-par-la-famille-de-la-victime",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-droit-penal-trafic-stupefiants",
+    "destination": "/nos-affaires/categories/trafic-de-stupefiants",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-droit-penal-trafic-stupefiants/dossier-air-cocaine-pays-basque-importation-stupefiants-bande-organisee",
+    "destination": "/post/dossier-air-cocaine-au-pays-basque-maître-plouton-intervient-en-défense-pour-l-un-des-11-prévenus",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-droit-penal-trafic-stupefiants/test-salivaire-positif-stupefiant-nullite-procedure",
+    "destination": "/post/test-salivaire-positif-au-stupéfiant-et-cbd-le-cabinet-obtient-la-nullité-de-la-procédure-et-la-rel",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-droit-penal-trafic-stupefiants/trafic-international-de-cocaine",
+    "destination": "/post/dossier-air-cocaïne-notre-client-reste-libre-avec-une-peine-de-4-ans-d-emprisonnement-1",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-droit-penal-violences-conjugales",
+    "destination": "/nos-affaires/categories/violences-conjugales-feminicides",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-du-cabinet-plouton",
+    "destination": "/nos-affaires",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-du-cabinet/cbd-cour-justice-europeenne-legalite-commercialisation",
+    "destination": "/post/vente-de-produits-à-base-de-chanvre-contenant-du-cbd-et-du-thc-le-cabinet-obtient-la-1ère-décision",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-du-cabinet/cbd-tribunal-correctionnel-bordeaux",
+    "destination": "/post/cbd-le-tribunal-correctionnel-de-bordeaux-confirme-sa-position-sur-la-fleur-de-chanvre",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-du-cabinet/chahinez-daoud-assassinat",
+    "destination": "/post/affaire-chahinez-daoud-mise-en-accusation-pour-assassinat-confirmée",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-du-cabinet/digue-du-cap-ferret",
+    "destination": "/post/cap-ferret-relaxe-pour-benoît-bartherotte",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-du-cabinet/dossier-descroquerie",
+    "destination": "/post/dossier-d-escroquerie",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-du-cabinet/ouverture-commerce-cbd-bordeaux",
+    "destination": "/post/commerce-de-cbd-assemblée-nationale-le-jugement-d-inconventionnalité-obtenu-par-le-cabinet-inspir",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-du-cabinet/vente-produits-cannabidiol-thc-decision-reglementation-francaise",
+    "destination": "/post/vente-de-produits-à-base-de-chanvre-contenant-du-cbd-et-du-thc-le-cabinet-obtient-la-1ère-décision",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-indemnisations-accidents-medicaux",
+    "destination": "/nos-affaires/categories/accidents-erreurs-medicales",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-indemnisations-accidents-route-circulation",
+    "destination": "/nos-affaires/categories/accidents-de-la-route",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-indemnisations-accidents-route-circulation/accident-de-la-circulation-de-chaniers-le-cabinet-saisi-en-defense-par-les-familles-des-victimes",
+    "destination": "/post/accident-de-la-circulation-de-chaniers-le-cabinet-saisi-en-défense-par-les-familles-des-victimes",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-indemnisations-accidents-route-circulation/homicide-involontaire-partie-civile-reforme-permis-conduire",
+    "destination": "/post/accident-mortel-de-la-circulation-causé-par-une-personne-âgée-de-la-nécessaire-réforme-du-permis-d",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-indemnisations-accidents-travail",
+    "destination": "/blog/categories/droit-et-accidents-du-travail",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-indemnisations-accidents-vie-courante",
+    "destination": "/nos-affaires/categories/accidents-de-la-vie-courante",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-indemnisations-victimes-infractions-penales",
+    "destination": "/nos-affaires/categories/indemnisation-des-victimes-pénale",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-indemnisations-victimes-infractions-penales/indemnisation-victime-meurtre",
+    "destination": "/post/100-000-d-indemnisation-pour-la-famille-de-la-victime-d-un-meurtre-jugé-par-la-cour-d-assises-de-l",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-media/meurtre-crime-faits-divers-cour-assises-gironde",
+    "destination": "/post/meurtre-a-coups-de-talon-passage-de-maître-plouton-dans-l-émission-crime-et-faits-divers",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-penal-affaires-delinquance-economique-financiere",
+    "destination": "/nos-affaires/categories/droit-pénal-des-affaires",
+    "permanent": true
+  },
+  {
+    "source": "/actualites-penal-affaires-delinquance-economique-financiere/saisie-meubles-pas-debiteurs",
+    "destination": "/post/une-saisie-de-meubles-qui-n-appartenaient-pas-aux-débiteurs",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-a-bordeaux/avocat-divorce-bordeaux",
+    "destination": "/droit-des-contrats-et-des-personnes/droit-de-la-famille",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-accident-de-la-route",
+    "destination": "/indemnisation-des-victimes/accidents-de-la-route",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-accident-de-la-route-bordeaux",
+    "destination": "/indemnisation-des-victimes/accidents-de-la-route",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-accident-de-moto",
+    "destination": "/indemnisation-des-victimes/accidents-de-la-route",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-accident-de-velo",
+    "destination": "/indemnisation-des-victimes/accidents-de-la-route",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-cour-dassises-bordeaux",
+    "destination": "/defense-penale/proces-criminel",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-divorce-bordeaux",
+    "destination": "/droit-des-contrats-et-des-personnes/droit-de-la-famille",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-droit-contrats",
+    "destination": "/droit-des-contrats-et-des-personnes/defense-des-consommateurs",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-droit-medical",
+    "destination": "/indemnisation-des-victimes/accidents-et-erreurs-medicales",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-droit-penal",
+    "destination": "/defense-penale/droit-penal",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-penaliste-defense-droit-penal/droit-penal-penaliste-defense",
+    "destination": "/indemnisation-des-victimes/victimes-de-delits-ou-crimes",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-trafic-stupefiants-bordeaux",
+    "destination": "/defense-penale/trafic-de-stupefiant",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-victime-bordeaux",
+    "destination": "/indemnisation-des-victimes/victimes-de-delits-ou-crimes",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-victime-bordeaux/accident-de-la-circulation-loi-badinter",
+    "destination": "/indemnisation-des-victimes/accidents-de-la-route",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-victime-bordeaux/accidents-du-travail",
+    "destination": "/indemnisation-des-victimes/droit-et-accidents-du-travail",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-victime-bordeaux/accidents-medicaux",
+    "destination": "/indemnisation-des-victimes/accidents-et-erreurs-medicales",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-victime-bordeaux/accidents-vie-courante",
+    "destination": "/indemnisation-des-victimes/accidents-de-la-vie-courante",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-victime-bordeaux/infractions-penales",
+    "destination": "/indemnisation-des-victimes/victimes-de-delits-ou-crimes",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-victime-bordeaux/responsabilite-medicale-alea-therapeutique",
+    "destination": "/indemnisation-des-victimes/accidents-et-erreurs-medicales",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-victime-bordeaux/responsabilite-medicale-faute-technique",
+    "destination": "/indemnisation-des-victimes/accidents-et-erreurs-medicales",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-victime-bordeaux/responsabilite-medicale-infection-nosocomiale",
+    "destination": "/indemnisation-des-victimes/accidents-et-erreurs-medicales",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-victime-bordeaux/responsabilite-medicale-obligation-dinformation",
+    "destination": "/indemnisation-des-victimes/accidents-et-erreurs-medicales",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-victime-bordeaux/victimes-infractions-penales",
+    "destination": "/indemnisation-des-victimes/victimes-de-delits-ou-crimes",
+    "permanent": true
+  },
+  {
+    "source": "/avocat-violences-conjugales-a-bordeaux",
+    "destination": "/defense-penale/violences-conjugales-et-feminicides",
+    "permanent": true
+  },
+  {
+    "source": "/blank",
+    "destination": "/cabinet-v2",
+    "permanent": true
+  },
+  {
+    "source": "/cabinet/cabinet-avocats-bordeaux",
+    "destination": "/notre-cabinet",
+    "permanent": true
+  },
+  {
+    "source": "/cabinet/equipe-avocats",
+    "destination": "/notre-cabinet",
+    "permanent": true
+  },
+  {
+    "source": "/cabinet/honoraires-cabinet-avocats",
+    "destination": "/notre-cabinet",
+    "permanent": true
+  },
+  {
+    "source": "/contact",
+    "destination": "/notre-cabinet",
+    "permanent": true
+  },
+  {
+    "source": "/defense-penale-par-un-avocat-penaliste/avocat-droit-penal-affaires",
+    "destination": "/defense-penale/droit-penal-des-affaires",
+    "permanent": true
+  },
+  {
+    "source": "/defense-penale-par-un-avocat-penaliste/droit-penal-penaliste-defense",
+    "destination": "/defense-penale/droit-penal",
+    "permanent": true
+  },
+  {
+    "source": "/defense-penale/detention-provisoire",
+    "destination": "/defense-penale/droit-penal",
+    "permanent": true
+  },
+  {
+    "source": "/defense-penale/droit-penal'",
+    "destination": "/defense-penale/droit-penal",
+    "permanent": true
+  },
+  {
+    "source": "/defense-penale/droit-pénal",
+    "destination": "/defense-penale/droit-penal",
+    "permanent": true
+  },
+  {
+    "source": "/defense-penale/droit-pénal-des-affaires",
+    "destination": "/defense-penale/droit-penal-des-affaires",
+    "permanent": true
+  },
+  {
+    "source": "/defense-penale/garde-a-vue",
+    "destination": "/post/la-garde-à-vue-définition-droits-et-conséquences",
+    "permanent": true
+  },
+  {
+    "source": "/defense-penale/proces-criminel'",
+    "destination": "/defense-penale/proces-criminel",
+    "permanent": true
+  },
+  {
+    "source": "/defense-penale/procès-criminel",
+    "destination": "/defense-penale/proces-criminel",
+    "permanent": true
+  },
+  {
+    "source": "/defense-penale/trafic-de-stupéfiant",
+    "destination": "/defense-penale/trafic-de-stupefiant",
+    "permanent": true
+  },
+  {
+    "source": "/defense-penale/violences-conjugales-et-féminicides",
+    "destination": "/defense-penale/violences-conjugales-et-feminicides",
+    "permanent": true
+  },
+  {
+    "source": "/droit-de-la-consommation-consommateur",
+    "destination": "/droit-des-contrats-et-des-personnes/defense-des-consommateurs",
+    "permanent": true
+  },
+  {
+    "source": "/droit-de-la-consommation-consommateur/droit-contrats-assurances-indemnisation",
+    "destination": "/droit-des-contrats-et-des-personnes/droit-assurances-particuliers-professionnels",
+    "permanent": true
+  },
+  {
+    "source": "/droit-de-la-consommation-consommateur/droit-travail",
+    "destination": "/indemnisation-des-victimes/droit-et-accidents-du-travail",
+    "permanent": true
+  },
+  {
+    "source": "/droit-de-la-famille",
+    "destination": "/droit-des-contrats-et-des-personnes",
+    "permanent": true
+  },
+  {
+    "source": "/droit-de-la-famille/divorce-droit-visite-hebergement",
+    "destination": "/droit-des-contrats-et-des-personnes",
+    "permanent": true
+  },
+  {
+    "source": "/droit-de-la-famille/divorce-garde-enfant",
+    "destination": "/droit-des-contrats-et-des-personnes/droit-de-la-famille",
+    "permanent": true
+  },
+  {
+    "source": "/droit-de-la-famille/garde-alternee",
+    "destination": "/droit-des-contrats-et-des-personnes/droit-de-la-famille",
+    "permanent": true
+  },
+  {
+    "source": "/droit-des-contrats-et-des-personnes/droit-du-consommateur",
+    "destination": "/droit-des-contrats-et-des-personnes/defense-des-consommateurs",
+    "permanent": true
+  },
+  {
+    "source": "/droit-des-contrats-et-des-personnes/défense-des-consommateurs",
+    "destination": "/droit-des-contrats-et-des-personnes/defense-des-consommateurs",
+    "permanent": true
+  },
+  {
+    "source": "/droit-penal-avocat-bordeaux",
+    "destination": "/defense-penale/droit-penal",
+    "permanent": true
+  },
+  {
+    "source": "/droit-pénal",
+    "destination": "/defense-penale/droit-penal",
+    "permanent": true
+  },
+  {
+    "source": "/défense-pénale",
+    "destination": "/defense-penale",
+    "permanent": true
+  },
+  {
+    "source": "/défense-pénale/droit-pénal",
+    "destination": "/defense-penale/droit-penal",
+    "permanent": true
+  },
+  {
+    "source": "/défense-pénale/droit-pénal-des-affaires",
+    "destination": "/defense-penale/droit-penal-des-affaires",
+    "permanent": true
+  },
+  {
+    "source": "/défense-pénale/procès-criminel",
+    "destination": "/defense-penale/proces-criminel",
+    "permanent": true
+  },
+  {
+    "source": "/défense-pénale/trafic-de-stupéfiant",
+    "destination": "/defense-penale/trafic-de-stupefiant",
+    "permanent": true
+  },
+  {
+    "source": "/défense-pénale/violences-conjugales-et-féminicides",
+    "destination": "/defense-penale/violences-conjugales-et-feminicides",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/abus-de-confiance",
+    "destination": "/post/l-abus-de-confiance-en-droit-français-ce-que-vous-devez-savoir-en-2025",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/assignation-a-residence-surveillance-electronique-arse",
+    "destination": "/post/l-assignation-à-résidence-sous-surveillance-électronique-arse-comprendre",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/bracelet-anti-rapprochement",
+    "destination": "/post/qu-est-ce-que-le-bracelet-anti-rapprochement",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/comparution-immediate",
+    "destination": "/post/qu-est-ce-que-la-comparution-immédiate",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/condamnation-peine-emprisonnement-eviter-incarceration",
+    "destination": "/post/l-aménagement-de-peine-comment-peut-il-s-appliquer",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/consequences-apres-garde-vue",
+    "destination": "/post/la-garde-à-vue-définition-droits-et-conséquences",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/cour-dassises",
+    "destination": "/defense-penale/proces-criminel",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/definition-casier-judiciaire",
+    "destination": "/post/casier-judiciaire-comprendre-et-effacer",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/definition-periode-de-surete",
+    "destination": "/post/qu-est-ce-qu-une-période-de-sureté",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/deposer-plainte-attente-reaction",
+    "destination": "/post/dépôt-de-plainte-en-france-comment-porter-plainte-efficacement",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/detention-a-domicile-ddse",
+    "destination": "/post/la-détention-domiciliaire-sous-surveillance-électronique-ddse-comprendre",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/differences-garde-a-vue-audition-libre",
+    "destination": "/post/garde-à-vue-ou-audition-libre-différences-essentielles-à-connaître",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/differences-temoin-assiste-examen-accuse",
+    "destination": "/post/mis-en-cause-temoin-assiste-prevenu-accuse-differences",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/infractions-droit-penal-affaires",
+    "destination": "/post/quelles-sont-les-principales-infractions-en-droit-pénal-des-affaires",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/itt-penale-explications-consequences",
+    "destination": "/post/itt-pénale-définition-en-2025",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/lutte-contre-violences-conjugales-cpca",
+    "destination": "/defense-penale/violences-conjugales-et-feminicides",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/peine-periode-de-surete",
+    "destination": "/post/qu-est-ce-qu-une-période-de-sureté",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/premeditation",
+    "destination": "/post/la-préméditation-en-droit-pénal-français-définition-et-conséquences-juridiques",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/presentation-reforme-prescription-penale",
+    "destination": "/post/réforme-de-la-prescription-pénale-comprendre-les-délais-et-les-nouvelles-règles",
+    "permanent": true
+  },
+  {
+    "source": "/faq/defense-droit-penal/responsabilite-penale-du-dirigeant-comment-proteger-votre-entreprise",
+    "destination": "/post/comprendre-et-prévenir-la-responsabilité-pénale-du-dirigeant",
+    "permanent": true
+  },
+  {
+    "source": "/faq/droit-contrats/bail-commercial-recours-exercer-preneur-a-lencontre-bailleur-cas-loyer-eleve",
+    "destination": "/post/bail-commercial-recours-exercer-preneur-a-lencontre-bailleur-cas-loyer-eleve",
+    "permanent": true
+  },
+  {
+    "source": "/faq/droit-contrats/delai-prescription-contrat-assurance",
+    "destination": "/droit-des-contrats-et-des-personnes/droit-assurances-particuliers-professionnels",
+    "permanent": true
+  },
+  {
+    "source": "/faq/droit-contrats/droit-commercial-interdiction-gerer",
+    "destination": "/post/l-interdiction-de-gérer-une-sanction-professionnelle-pour-dirigeants-d-entreprises-en-difficulté",
+    "permanent": true
+  },
+  {
+    "source": "/faq/droit-contrats/droit-travail-abandon-poste",
+    "destination": "/post/abandon-de-poste-quels-risques",
+    "permanent": true
+  },
+  {
+    "source": "/faq/droit-contrats/explication-garantie-perte-exploitation",
+    "destination": "/droit-des-contrats-et-des-personnes/droit-assurances-particuliers-professionnels",
+    "permanent": true
+  },
+  {
+    "source": "/faq/droit-contrats/sinistre-automobile-assurance-de-vehicule-me-reclamer-preuve-de-achat-de-mindemniser",
+    "destination": "/post/sinistre-automobile-mon-assurance-de-véhicule-me-réclame-la-preuve-achat",
+    "permanent": true
+  },
+  {
+    "source": "/faq/indemnisation-victimes-infractions-penales/bien-faire-evaluer-prejudices-laide-a-tierce-personne-dont-jai-besoin-lors-de-lexpertise-medicale",
+    "destination": "/indemnisation-des-victimes/accidents-et-erreurs-medicales",
+    "permanent": true
+  },
+  {
+    "source": "/faq/indemnisation-victimes-infractions-penales/conditions-recevabilite-action-portee-sarvi",
+    "destination": "/post/sarvi-comment-récupérer-vos-dommages-et-intérêts-après-une-condamnation-pénale",
+    "permanent": true
+  },
+  {
+    "source": "/faq/indemnisation-victimes-infractions-penales/explication-pretium-doloris",
+    "destination": "/post/le-pretium-doloris-guide-complet-pour-les-victimes-d-accidents",
+    "permanent": true
+  },
+  {
+    "source": "/faq/indemnisation-victimes-infractions-penales/indemnisation-accident-du-travail",
+    "destination": "/post/accident-du-travail-comment-obtenir-votre-indemnisation",
+    "permanent": true
+  },
+  {
+    "source": "/faq/indemnisation-victimes-infractions-penales/indemnisation-victime-civi",
+    "destination": "/post/indemnisation-civi-2025-guide-complet-pour-les-victimes-d-infractions",
+    "permanent": true
+  },
+  {
+    "source": "/faq/indemnisation-victimes-infractions-penales/jai-rdv-expertise-medicale-bien-preparer-dossier-medical",
+    "destination": "/post/comment-bien-préparer-mon-dossier-médical",
+    "permanent": true
+  },
+  {
+    "source": "/faq/indemnisation-victimes-infractions-penales/loi-85-accidents-circulation",
+    "destination": "/post/loi-badinter-85-comprendre-vos-droits-à-indemnisation-après-un-accident-de-la-route",
+    "permanent": true
+  },
+  {
+    "source": "/faq/indemnisation-victimes-infractions-penales/montant-indemnisation-pieton-renverse",
+    "destination": "/post/piéton-renversé-quel-est-le-montant-de-l-indemnisation",
+    "permanent": true
+  },
+  {
+    "source": "/faq/indemnisation-victimes-infractions-penales/procedure-de-reconnaissance-dune-maladie-professionnelle",
+    "destination": "/indemnisation-des-victimes/droit-et-accidents-du-travail",
+    "permanent": true
+  },
+  {
+    "source": "/faq/indemnisation-victimes-infractions-penales/traumatisme-cranien-accident-voiture",
+    "destination": "/post/traumatisme-cranien-accident-voiture",
+    "permanent": true
+  },
+  {
+    "source": "/faq/indemnisation-victimes-infractions-penales/victime-accident",
+    "destination": "/indemnisation-des-victimes/accidents-de-la-route",
+    "permanent": true
+  },
+  {
+    "source": "/foire-aux-questions",
+    "destination": "/comprendre-le-droit",
+    "permanent": true
+  },
+  {
+    "source": "/home",
+    "destination": "/",
+    "permanent": true
+  },
+  {
+    "source": "/indemnisation-des-victimes/accident-de-la-route",
+    "destination": "/indemnisation-des-victimes/accidents-de-la-route",
+    "permanent": true
+  },
+  {
+    "source": "/indemnisation-des-victimes/accidents-et-erreurs-médicales",
+    "destination": "/indemnisation-des-victimes/accidents-et-erreurs-medicales",
+    "permanent": true
+  },
+  {
+    "source": "/indemnisation-des-victimes/victimes-de-délits-ou-crimes",
+    "destination": "/indemnisation-des-victimes/victimes-de-delits-ou-crimes",
+    "permanent": true
+  },
+  {
+    "source": "/indemnisation-victimes",
+    "destination": "/indemnisation-des-victimes/victimes-de-delits-ou-crimes",
+    "permanent": true
+  },
+  {
+    "source": "/indemnisation-victimes/accident-circulation",
+    "destination": "/indemnisation-des-victimes/accidents-de-la-route",
+    "permanent": true
+  },
+  {
+    "source": "/indemnisation-victimes/accidents-du-travail",
+    "destination": "/indemnisation-des-victimes/droit-et-accidents-du-travail",
+    "permanent": true
+  },
+  {
+    "source": "/jurisprudence/erreur-diagnostic-pas-necessairement-fautive",
+    "destination": "/post/médical-l-erreur-de-diagnostic-n-est-pas-nécessairement-fautive",
+    "permanent": true
+  },
+  {
+    "source": "/la-détention-domiciliaire-sous-surveillance-électronique-ddse-comprendre-cette-alternative-à-l-i",
+    "destination": "/post/la-détention-domiciliaire-sous-surveillance-électronique-ddse-comprendre",
+    "permanent": true
+  },
+  {
+    "source": "/nos-affaires-1",
+    "destination": "/nos-affaires",
+    "permanent": true
+  },
+  {
+    "source": "/nos-affaires/categories/accidents-erreurs-médicales",
+    "destination": "/blog/categories/accidents-erreurs-médicales",
+    "permanent": true
+  },
+  {
+    "source": "/nos-affaires/categories/droit-criminel",
+    "destination": "/blog/categories/droit-criminel",
+    "permanent": true
+  },
+  {
+    "source": "/nos-affaires/categories/droit-des-assurances",
+    "destination": "/blog/categories/droit-des-assurances",
+    "permanent": true
+  },
+  {
+    "source": "/nos-affaires/categories/droit-et-accidents-du-travail",
+    "destination": "/blog/categories/droit-et-accidents-du-travail",
+    "permanent": true
+  },
+  {
+    "source": "/nos-affaires/categories/droit-pénal",
+    "destination": "/blog/categories/droit-pénal",
+    "permanent": true
+  },
+  {
+    "source": "/nos-affaires/categories/médias",
+    "destination": "/blog/categories/médias",
+    "permanent": true
+  },
+  {
+    "source": "/nos-affaires/categories/ressources-et-notions-juridiques",
+    "destination": "/comprendre-le-droit",
+    "permanent": true
+  },
+  {
+    "source": "/nos-affaires/categories/trafic-de-stupéfiants",
+    "destination": "/blog/categories/trafic-de-stupéfiants",
+    "permanent": true
+  },
+  {
+    "source": "/nos-affaires/categories/violences-conjugales-féminicides",
+    "destination": "/blog/categories/violences-conjugales-féminicides",
+    "permanent": true
+  },
+  {
+    "source": "/nos-dernieres-affaires",
+    "destination": "/nos-affaires",
+    "permanent": true
+  },
+  {
+    "source": "/nos-dernières-affaires",
+    "destination": "/nos-affaires",
+    "permanent": true
+  },
+  {
+    "source": "/plan-de-site",
+    "destination": "/",
+    "permanent": true
+  },
+  {
+    "source": "/post/cour-d-assises-d-appel-comment-une-défense-axée-sur-l-humain-a-permis-de-réduire-la-peine-d-un-bra",
+    "destination": "/post/notre-defense-permet-reduction-peine-recidiviste",
+    "permanent": true
+  },
+  {
+    "source": "/post/droits-en-garde-à-vue-la-liste-complète-et-expliquée-pour-vous-défendre",
+    "destination": "/post/la-garde-à-vue-définition-droits-et-conséquences",
+    "permanent": true
+  },
+  {
+    "source": "/post/l-avocat-est-en-première-ligne-pour-témoigner-des-conséquences-dévastatrices-de-l-inceste-sur-une-v",
+    "destination": "/post/inceste-avocat-plouton-temoignage-conséquences",
+    "permanent": true
+  },
+  {
+    "source": "/post/la-détention-domiciliaire-sous-surveillance-électronique-ddse-comprendre-cette-alternative-à-l-i",
+    "destination": "/post/la-détention-domiciliaire-sous-surveillance-électronique-ddse-comprendre",
+    "permanent": true
+  },
+  {
+    "source": "/post/mes-droits-en-garde-a-vue",
+    "destination": "/post/la-garde-à-vue-définition-droits-et-conséquences",
+    "permanent": true
+  },
+  {
+    "source": "/post/sarci-ou-civi-indemnisation-victimes",
+    "destination": "/post/sarvi-ou-civi-indemnisation-victimes",
+    "permanent": true
+  },
+  {
+    "source": "/post/sinistre-automobile-mon-assurance-de-véhicule-peut-elle-me-réclamer-la-preuve-de-mon-achat-avant-d",
+    "destination": "/post/sinistre-automobile-mon-assurance-de-véhicule-me-réclame-la-preuve-achat",
+    "permanent": true
+  },
+  {
+    "source": "/procès-criminel",
+    "destination": "/defense-penale/proces-criminel",
+    "permanent": true
+  },
+  {
+    "source": "/victimes-de-délits-ou-crimes",
+    "destination": "/indemnisation-des-victimes/victimes-de-delits-ou-crimes",
+    "permanent": true
+  },
+  {
+    "source": "/violences-conjugales-et-féminicides",
+    "destination": "/defense-penale/violences-conjugales-et-feminicides",
+    "permanent": true
+  }
+]

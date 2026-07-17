@@ -1,7 +1,11 @@
 import fs from "node:fs"
 import path from "node:path"
 
-const root = path.join(process.cwd(), "..", "contenu")
+/** Racine des données. Surchargée via CONTENT_ROOT (déploiement, tests). */
+export const contentRoot = process.env.CONTENT_ROOT
+  ? path.resolve(process.env.CONTENT_ROOT)
+  : path.join(process.cwd(), "..", "contenu")
+const root = contentRoot
 
 function readJson<T>(rel: string): T {
   const full = path.join(root, rel)

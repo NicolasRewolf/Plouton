@@ -1,18 +1,18 @@
 import { NextResponse } from "next/server"
-import fs from "node:fs"
-import path from "node:path"
+import { getStore, type DemandeInput } from "@/lib/store"
 
 export const runtime = "nodejs"
 
 export async function POST(req: Request) {
-  const data = await req.json()
-  const dir = path.join(process.cwd(), "..", "contenu", "demandes")
-  fs.mkdirSync(dir, { recursive: true })
-  const id = `demande-${Date.now()}`
-  const file = path.join(dir, `${id}.json`)
-  fs.writeFileSync(
-    file,
-    JSON.stringify({ id, receivedAt: new Date().toISOString(), ...data }, null, 2) + "\n"
-  )
-  return NextResponse.json({ ok: true, id })
+  const data = (await req.json()) as DemandeInput
+  try {
+    const { id } = await getStore().createDemande(data)
+    return NextResponse.json({ ok: true, id })
+  } catch (e) {
+    console.error("createDemande failed:", e)
+    return NextResponse.json(
+      { ok: false, error: "Enregistrement indisponible — appelez le cabinet." },
+      { status: 503 }
+    )
+  }
 }
