@@ -1,5 +1,6 @@
 import fs from "node:fs"
 import path from "node:path"
+import { createClient } from "@supabase/supabase-js"
 import { contentRoot, saveArticle, type Article } from "@/lib/content"
 
 /**
@@ -61,15 +62,45 @@ class FsStore implements ContentStore {
 }
 
 class SupabaseStore implements ContentStore {
-  async createDemande(): Promise<{ id: string }> {
-    throw new Error("SupabaseStore : implémentation à venir (tables demandes/posts + storage).")
+  private client() {
+    const url = process.env.NEXT_PUBLIC_SUPABASE_URL
+    const key = process.env.SUPABASE_SECRET_KEY
+    if (!url || !key) throw new Error("Supabase : NEXT_PUBLIC_SUPABASE_URL / SUPABASE_SECRET_KEY manquants.")
+    // Clé secrète — serveur uniquement (API routes), jamais exposée au client.
+    return createClient(url, key, { auth: { persistSession: false } })
   }
+
+  async createDemande(data: DemandeInput): Promise<{ id: string }> {
+    const { data: row, error } = await this.client()
+      .from("demandes")
+      .insert({
+        prenom: data.prenom,
+        nom: data.nom,
+        entreprise: data.entreprise,
+        email: data.email,
+        telephone: data.telephone,
+        objet: data.objet,
+        message: data.message,
+        page_source: data.page_source,
+        utm: data.utm ?? null,
+        cooked: data.cooked ?? null,
+        candidature: data.objet === "Nous rejoindre",
+      })
+      .select("id")
+      .single()
+    if (error) throw new Error(`Supabase demandes: ${error.message}`)
+    return { id: row.id }
+  }
+
   async saveArticle(): Promise<void> {
-    throw new Error("SupabaseStore : implémentation à venir (tables demandes/posts + storage).")
+    // V1 : les articles restent des fichiers git (publiés au déploiement).
+    // L'écriture admin en prod arrive avec la table `posts` + auth avocats.
+    throw new Error("Édition d'articles en prod : à venir avec la table posts + auth.")
   }
 }
 
 export function getStore(): ContentStore {
-  if (process.env.NEXT_PUBLIC_SUPABASE_URL) return new SupabaseStore()
+  if (process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.SUPABASE_SECRET_KEY)
+    return new SupabaseStore()
   return new FsStore()
 }

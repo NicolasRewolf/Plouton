@@ -41,3 +41,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Demandes de contact locales (PII — jamais en git)
+contenu/demandes/
