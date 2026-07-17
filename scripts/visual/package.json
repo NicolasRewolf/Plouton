@@ -1,0 +1,16 @@
+{
+  "name": "plouton-visual",
+  "private": true,
+  "type": "module",
+  "description": "Kit de fidélité visuelle Wix → Next.js : capture live/local (screenshots + specs de styles calculés), spec-diff, pixel-diff par section, rapport d'acceptation.",
+  "scripts": {
+    "capture:live": "node capture.mjs --target live --page all --viewport all",
+    "capture:local": "node capture.mjs --target local --page all --viewport all"
+  },
+  "dependencies": {
+    "pixelmatch": "^7.1.0",
+    "playwright": "^1.50.0",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.34.0"
+  }
+}

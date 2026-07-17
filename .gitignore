@@ -53,3 +53,8 @@ contenu/identite/Drive-*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Kit visuel : caches locaux et rapports (jamais committés)
+.cache/
+reports/
+scripts/visual/node_modules/

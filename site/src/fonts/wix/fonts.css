@@ -1,0 +1,125 @@
+/* AUTO-GÉNÉRÉ par scripts/visual/fetch-fonts.mjs — NE PAS ÉDITER À LA MAIN.
+ * Polices exactes du site live (ufonts wixstatic), déclarées sous tous leurs
+ * alias Wix pour que la font-family calculée soit identique verbatim au live.
+ * Les @font-face live sont tous en weight normal (le gras = famille dédiée ou
+ * synthèse navigateur) — ne pas mettre font-synthesis: none dans l’app. */
+
+@font-face {
+  font-family: "wfont_47d637_b856fe7b5486413b948b231a5f646ec2";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./orig_google_sans_medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "wf_b856fe7b5486413b948b231a5";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./orig_google_sans_medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "orig_google_sans_medium";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./orig_google_sans_medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "wfont_47d637_1cc7414a37a24324a4bb7b2bb59b2517";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./orig_google_sans_regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "wf_1cc7414a37a24324a4bb7b2bb";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./orig_google_sans_regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "orig_google_sans_regular";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./orig_google_sans_regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./orig_source_sans_3_regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "wf_fe1dbd76ea054b39b69516337";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./orig_source_sans_3_regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "orig_source_sans_3_regular";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./orig_source_sans_3_regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "wfont_fce596_d40b638b5ce241f6aa0faabeb83820e6";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./orig_source_sans_3_semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "wf_d40b638b5ce241f6aa0faabeb";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./orig_source_sans_3_semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "orig_source_sans_3_semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./orig_source_sans_3_semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "wfont_fce596_6f9b88ea5e194c5fbf036d955d4c28a7";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./orig_source_sans_3_medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "wf_6f9b88ea5e194c5fbf036d955";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./orig_source_sans_3_medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "orig_source_sans_3_medium";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./orig_source_sans_3_medium.woff2") format("woff2");
+}

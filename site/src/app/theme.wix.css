@@ -1,0 +1,213 @@
+/* AUTO-GÉNÉRÉ par scripts/visual/extract-tokens.mjs — NE PAS ÉDITER À LA MAIN.
+ * Source : CSS inline de https://www.jplouton-avocat.fr (2026-07-17T22:32:22.108Z)
+ * Régénérer : node scripts/visual/extract-tokens.mjs --from-cache */
+
+:root {
+  /* Réplique du ratio de typo fluide Wix Studio (référence 1500px).
+   * Chaîne live : --theme-spx-ratio: var(--scaling-factor) / 1500 ;
+   * --scaling-factor: clamp(var(--spx-stopper-min), var(--full-viewport), min(var(--spx-stopper-max), var(--section-max-width))) ;
+   * stoppers: min=0px max=9999px → effectif = 100vw. */
+  --theme-spx-ratio: calc(clamp(0px, 100vw, 9999px) / 1500);
+  --site-width: 980px;
+
+  --wix-color-0-rgb: 255,255,255;
+  --wix-color-0: rgb(255,255,255);
+  --wix-color-1-rgb: 255,255,255;
+  --wix-color-1: rgb(255,255,255);
+  --wix-color-2-rgb: 0,0,0;
+  --wix-color-2: rgb(0,0,0);
+  --wix-color-3-rgb: 237,28,36;
+  --wix-color-3: rgb(237,28,36);
+  --wix-color-4-rgb: 0,136,203;
+  --wix-color-4: rgb(0,136,203);
+  --wix-color-5-rgb: 255,203,5;
+  --wix-color-5: rgb(255,203,5);
+  --wix-color-6-rgb: 114,114,114;
+  --wix-color-6: rgb(114,114,114);
+  --wix-color-7-rgb: 176,176,176;
+  --wix-color-7: rgb(176,176,176);
+  --wix-color-8-rgb: 255,255,255;
+  --wix-color-8: rgb(255,255,255);
+  --wix-color-9-rgb: 114,114,114;
+  --wix-color-9: rgb(114,114,114);
+  --wix-color-10-rgb: 176,176,176;
+  --wix-color-10: rgb(176,176,176);
+  --wix-color-11-rgb: 255,255,255;
+  --wix-color-11: rgb(255,255,255);
+  --wix-color-12-rgb: 249,249,249;
+  --wix-color-12: rgb(249,249,249);
+  --wix-color-13-rgb: 217,217,217;
+  --wix-color-13: rgb(217,217,217);
+  --wix-color-14-rgb: 23,71,94;
+  --wix-color-14: rgb(23,71,94);
+  --wix-color-15-rgb: 23,71,94;
+  --wix-color-15: rgb(23,71,94);
+  --wix-color-16-rgb: 240,240,240;
+  --wix-color-16: rgb(240,240,240);
+  --wix-color-17-rgb: 193,177,162;
+  --wix-color-17: rgb(193,177,162);
+  --wix-color-18-rgb: 131,172,248;
+  --wix-color-18: rgb(131,172,248);
+  --wix-color-19-rgb: 63,110,132;
+  --wix-color-19: rgb(63,110,132);
+  --wix-color-20-rgb: 254,75,66;
+  --wix-color-20: rgb(254,75,66);
+  --wix-color-21-rgb: 23,71,94;
+  --wix-color-21: rgb(23,71,94);
+  --wix-color-22-rgb: 210,228,199;
+  --wix-color-22: rgb(210,228,199);
+  --wix-color-23-rgb: 146,176,121;
+  --wix-color-23: rgb(146,176,121);
+  --wix-color-24-rgb: 97,135,65;
+  --wix-color-24: rgb(97,135,65);
+  --wix-color-25-rgb: 57,100,29;
+  --wix-color-25: rgb(57,100,29);
+  --wix-color-26-rgb: 242,234,231;
+  --wix-color-26: rgb(242,234,231);
+  --wix-color-27-rgb: 229,206,192;
+  --wix-color-27: rgb(229,206,192);
+  --wix-color-28-rgb: 169,128,111;
+  --wix-color-28: rgb(169,128,111);
+  --wix-color-29-rgb: 139,97,79;
+  --wix-color-29: rgb(139,97,79);
+  --wix-color-30-rgb: 99,60,43;
+  --wix-color-30: rgb(99,60,43);
+  --wix-color-31-rgb: 255,233,223;
+  --wix-color-31: rgb(255,233,223);
+  --wix-color-32-rgb: 255,191,161;
+  --wix-color-32: rgb(255,191,161);
+  --wix-color-33-rgb: 250,133,79;
+  --wix-color-33: rgb(250,133,79);
+  --wix-color-34-rgb: 234,96,32;
+  --wix-color-34: rgb(234,96,32);
+  --wix-color-35-rgb: 201,64,1;
+  --wix-color-35: rgb(201,64,1);
+  --wix-color-36-rgb: 255,255,255;
+  --wix-color-36: rgb(255,255,255);
+  --wix-color-37-rgb: 23,71,94;
+  --wix-color-37: rgb(23,71,94);
+  --wix-color-38-rgb: 249,249,249;
+  --wix-color-38: rgb(249,249,249);
+  --wix-color-39-rgb: 217,217,217;
+  --wix-color-39: rgb(217,217,217);
+  --wix-color-40-rgb: 23,71,94;
+  --wix-color-40: rgb(23,71,94);
+  --wix-color-41-rgb: 131,172,248;
+  --wix-color-41: rgb(131,172,248);
+  --wix-color-42-rgb: 131,172,248;
+  --wix-color-42: rgb(131,172,248);
+  --wix-color-43-rgb: 131,172,248;
+  --wix-color-43: rgb(131,172,248);
+  --wix-color-44-rgb: 131,172,248;
+  --wix-color-44: rgb(131,172,248);
+  --wix-color-45-rgb: 23,71,94;
+  --wix-color-45: rgb(23,71,94);
+  --wix-color-46-rgb: 23,71,94;
+  --wix-color-46: rgb(23,71,94);
+  --wix-color-47-rgb: 23,71,94;
+  --wix-color-47: rgb(23,71,94);
+  --wix-color-48-rgb: 131,172,248;
+  --wix-color-48: rgb(131,172,248);
+  --wix-color-49-rgb: 131,172,248;
+  --wix-color-49: rgb(131,172,248);
+  --wix-color-50-rgb: 255,255,255;
+  --wix-color-50: rgb(255,255,255);
+  --wix-color-51-rgb: 131,172,248;
+  --wix-color-51: rgb(131,172,248);
+  --wix-color-52-rgb: 131,172,248;
+  --wix-color-52: rgb(131,172,248);
+  --wix-color-53-rgb: 255,255,255;
+  --wix-color-53: rgb(255,255,255);
+  --wix-color-54-rgb: 217,217,217;
+  --wix-color-54: rgb(217,217,217);
+  --wix-color-55-rgb: 217,217,217;
+  --wix-color-55: rgb(217,217,217);
+  --wix-color-56-rgb: 255,255,255;
+  --wix-color-56: rgb(255,255,255);
+  --wix-color-57-rgb: 255,255,255;
+  --wix-color-57: rgb(255,255,255);
+  --wix-color-58-rgb: 131,172,248;
+  --wix-color-58: rgb(131,172,248);
+  --wix-color-59-rgb: 131,172,248;
+  --wix-color-59: rgb(131,172,248);
+  --wix-color-60-rgb: 255,255,255;
+  --wix-color-60: rgb(255,255,255);
+  --wix-color-61-rgb: 131,172,248;
+  --wix-color-61: rgb(131,172,248);
+  --wix-color-62-rgb: 131,172,248;
+  --wix-color-62: rgb(131,172,248);
+  --wix-color-63-rgb: 255,255,255;
+  --wix-color-63: rgb(255,255,255);
+  --wix-color-64-rgb: 217,217,217;
+  --wix-color-64: rgb(217,217,217);
+  --wix-color-65-rgb: 217,217,217;
+  --wix-color-65: rgb(217,217,217);
+
+  --wix-font-0: normal normal 400 calc(39 * var(--theme-spx-ratio))/normal wfont_47d637_b856fe7b5486413b948b231a5f646ec2,wf_b856fe7b5486413b948b231a5,orig_google_sans_medium;
+  --wix-font-0-family: wfont_47d637_b856fe7b5486413b948b231a5f646ec2,wf_b856fe7b5486413b948b231a5,orig_google_sans_medium;
+  --wix-font-0-size: calc(39 * var(--theme-spx-ratio));
+  --wix-font-0-lh: normal;
+  --wix-font-0-weight: 400;
+  --wix-font-1: normal normal normal 16px/1.4em din-next-w01-light,sans-serif;
+  --wix-font-1-family: din-next-w01-light,sans-serif;
+  --wix-font-1-size: 16px;
+  --wix-font-1-lh: 1.4em;
+  --wix-font-1-weight: normal;
+  --wix-font-2: normal normal 400 calc(23 * var(--theme-spx-ratio))/normal wfont_47d637_b856fe7b5486413b948b231a5f646ec2,wf_b856fe7b5486413b948b231a5,orig_google_sans_medium;
+  --wix-font-2-family: wfont_47d637_b856fe7b5486413b948b231a5f646ec2,wf_b856fe7b5486413b948b231a5,orig_google_sans_medium;
+  --wix-font-2-size: calc(23 * var(--theme-spx-ratio));
+  --wix-font-2-lh: normal;
+  --wix-font-2-weight: 400;
+  --wix-font-3: normal normal 400 calc(19 * var(--theme-spx-ratio))/normal wfont_47d637_b856fe7b5486413b948b231a5f646ec2,wf_b856fe7b5486413b948b231a5,orig_google_sans_medium;
+  --wix-font-3-family: wfont_47d637_b856fe7b5486413b948b231a5f646ec2,wf_b856fe7b5486413b948b231a5,orig_google_sans_medium;
+  --wix-font-3-size: calc(19 * var(--theme-spx-ratio));
+  --wix-font-3-lh: normal;
+  --wix-font-3-weight: 400;
+  --wix-font-4: normal normal bold 14px/normal wfont_47d637_1cc7414a37a24324a4bb7b2bb59b2517,wf_1cc7414a37a24324a4bb7b2bb,orig_google_sans_regular;
+  --wix-font-4-family: wfont_47d637_1cc7414a37a24324a4bb7b2bb59b2517,wf_1cc7414a37a24324a4bb7b2bb,orig_google_sans_regular;
+  --wix-font-4-size: 14px;
+  --wix-font-4-lh: normal;
+  --wix-font-4-weight: bold;
+  --wix-font-5: normal normal normal calc(3 * var(--theme-spx-ratio))/1.3em wfont_47d637_1cc7414a37a24324a4bb7b2bb59b2517,wf_1cc7414a37a24324a4bb7b2bb,orig_google_sans_regular;
+  --wix-font-5-family: wfont_47d637_1cc7414a37a24324a4bb7b2bb59b2517,wf_1cc7414a37a24324a4bb7b2bb,orig_google_sans_regular;
+  --wix-font-5-size: calc(3 * var(--theme-spx-ratio));
+  --wix-font-5-lh: 1.3em;
+  --wix-font-5-weight: normal;
+  --wix-font-6: normal normal normal 10px/1.4em wfont_47d637_1cc7414a37a24324a4bb7b2bb59b2517,wf_1cc7414a37a24324a4bb7b2bb,orig_google_sans_regular;
+  --wix-font-6-family: wfont_47d637_1cc7414a37a24324a4bb7b2bb59b2517,wf_1cc7414a37a24324a4bb7b2bb,orig_google_sans_regular;
+  --wix-font-6-size: 10px;
+  --wix-font-6-lh: 1.4em;
+  --wix-font-6-weight: normal;
+  --wix-font-7: normal normal 400 14px/1.6em wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3,wf_fe1dbd76ea054b39b69516337,orig_source_sans_3_regular;
+  --wix-font-7-family: wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3,wf_fe1dbd76ea054b39b69516337,orig_source_sans_3_regular;
+  --wix-font-7-size: 14px;
+  --wix-font-7-lh: 1.6em;
+  --wix-font-7-weight: 400;
+  --wix-font-8: normal normal 400 12px/1.6em wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3,wf_fe1dbd76ea054b39b69516337,orig_source_sans_3_regular;
+  --wix-font-8-family: wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3,wf_fe1dbd76ea054b39b69516337,orig_source_sans_3_regular;
+  --wix-font-8-size: 12px;
+  --wix-font-8-lh: 1.6em;
+  --wix-font-8-weight: 400;
+  --wix-font-9: normal normal 400 10px/1.6em wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3,wf_fe1dbd76ea054b39b69516337,orig_source_sans_3_regular;
+  --wix-font-9-family: wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3,wf_fe1dbd76ea054b39b69516337,orig_source_sans_3_regular;
+  --wix-font-9-size: 10px;
+  --wix-font-9-lh: 1.6em;
+  --wix-font-9-weight: 400;
+  --wix-font-10: normal normal normal 12px/1.4em din-next-w01-light,sans-serif;
+  --wix-font-10-family: din-next-w01-light,sans-serif;
+  --wix-font-10-size: 12px;
+  --wix-font-10-lh: 1.4em;
+  --wix-font-10-weight: normal;
+}
+
+.wix-font-0 { font: var(--wix-font-0); }
+.wix-font-1 { font: var(--wix-font-1); }
+.wix-font-2 { font: var(--wix-font-2); }
+.wix-font-3 { font: var(--wix-font-3); }
+.wix-font-4 { font: var(--wix-font-4); }
+.wix-font-5 { font: var(--wix-font-5); }
+.wix-font-6 { font: var(--wix-font-6); }
+.wix-font-7 { font: var(--wix-font-7); }
+.wix-font-8 { font: var(--wix-font-8); }
+.wix-font-9 { font: var(--wix-font-9); }
+.wix-font-10 { font: var(--wix-font-10); }
