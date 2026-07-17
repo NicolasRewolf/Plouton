@@ -1,14 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  /* Charte site live jplouton-avocat.fr */
-  --color-navy: #1a2b3c;
-  --color-navy-soft: #2c3e50;
-  --color-accent: #fe4338;
+  /* Tokens mesurés sur jplouton-avocat.fr (CDP 2026-07-17) */
+  --color-navy: #17475e;
+  --color-navy-soft: #3f6e84;
+  --color-accent: #fe4b42;
   --color-accent-hover: #e53a30;
-  --color-muted: #5c6b73;
+  --color-muted: #6b7280;
   --color-line: #e6e8ea;
   --color-fog: #f2f2f2;
+  --color-citation: #d9d9d9;
   --color-white: #ffffff;
   --font-sans: var(--font-source), system-ui, sans-serif;
   --font-display: var(--font-google-sans), var(--font-source), system-ui, sans-serif;
@@ -88,23 +89,122 @@ body {
   line-height: 1;
 }
 
-.prose-plouton h2 {
+.prose-plouton h2,
+.prose-plouton h3,
+.prose-plouton h4 {
   font-family: var(--font-display);
-  font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem);
+  color: var(--color-navy);
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.prose-plouton h2 {
+  font-size: clamp(1.45rem, 1.15rem + 1vw, 1.85rem);
   margin-top: 2.5rem;
   margin-bottom: 0.85rem;
-  color: var(--color-navy);
-  line-height: 1.2;
+}
+
+.prose-plouton h3 {
+  font-size: clamp(1.2rem, 1.05rem + 0.6vw, 1.4rem);
+  margin-top: 2rem;
+  margin-bottom: 0.65rem;
+}
+
+.prose-plouton h4 {
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .prose-plouton p {
   margin-bottom: 1rem;
   line-height: 1.75;
-  color: var(--color-muted);
+  color: var(--color-navy);
 }
 
 .prose-plouton a {
-  color: var(--color-navy);
+  color: var(--color-accent);
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+.prose-plouton a:hover {
+  color: var(--color-navy);
+}
+
+.prose-plouton ul,
+.prose-plouton ol {
+  margin: 0 0 1.25rem 1.25rem;
+  color: var(--color-navy);
+  line-height: 1.7;
+}
+
+.prose-plouton ul {
+  list-style: disc;
+}
+
+.prose-plouton ol {
+  list-style: decimal;
+}
+
+.prose-plouton li {
+  margin-bottom: 0.4rem;
+}
+
+.prose-plouton blockquote {
+  margin: 1.5rem 0;
+  padding: 0.75rem 0 0.75rem 1.25rem;
+  border-left: 3px solid var(--color-accent);
+  color: var(--color-navy-soft);
+  font-style: italic;
+}
+
+.prose-plouton hr {
+  margin: 2rem 0;
+  border: 0;
+  border-top: 1px solid var(--color-line);
+}
+
+.prose-plouton strong {
+  font-weight: 650;
+  color: var(--color-navy);
+}
+
+.prose-plouton .table-wrap {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.prose-plouton table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.prose-plouton td,
+.prose-plouton th {
+  border: 1px solid var(--color-line);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+.prose-plouton details {
+  margin: 1rem 0;
+  border: 1px solid var(--color-line);
+  padding: 0.75rem 1rem;
+}
+
+.prose-plouton summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color-navy);
+}
+
+.prose-plouton .article-image {
+  margin: 1.5rem 0;
+}
+
+.prose-plouton .article-image img {
+  width: 100%;
+  height: auto;
 }

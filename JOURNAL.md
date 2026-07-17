@@ -5,6 +5,40 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-17 — Site structure presque complet
+
+- Honoraires & RDV : `/honoraires-rendez-vous` (textes live)
+- Équipe : `/notre-cabinet` (bios + photos)
+- **14** pages expertises branchées (3 pôles)
+- Affaires / Médias / Ressources / Mentions légales
+- Menu + footer mis à jour — site local : http://127.0.0.1:3000
+
+---
+
+## 2026-07-17 — Import blog + équipe Wix
+
+- **422** articles (`Posts.csv` → `contenu/articles/*.json`)
+- **17** catégories (`Categories.csv` → `categories.json`)
+- **6** membres (`Équipe.csv` → `equipe.json` bios complètes)
+- Script : `scripts/import-wix-blog.py`
+- Accueil / admin / sitemap branchés sur l’index
+
+---
+
+## 2026-07-17 — Workflow pixel-perfect (accueil)
+
+Méthode validée sur l’accueil :
+
+1. Capture + mesures live  
+2. Textes **complets** → `contenu/pages/accueil.json`  
+3. Reconstruction (hero split, nav, ticker « Lire »)  
+4. Comparaison screenshot
+
+Doc : `docs/13-workflow-pixel-perfect.md`  
+À peaufiner encore : espacements fins, import blog ticker, photos équipe.
+
+---
+
 ## 2026-07-17 — Visuel = site live (pas Outremer)
 
 Direction corrigée : **copie proche du site Wix actuel**, pas une nouvelle charte.

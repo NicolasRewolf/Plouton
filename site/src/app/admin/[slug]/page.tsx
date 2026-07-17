@@ -12,9 +12,12 @@ export default function EditPostPage() {
   const [error, setError] = useState("")
 
   useEffect(() => {
-    fetch("/api/posts")
+    fetch(`/api/posts?slug=${encodeURIComponent(slug)}`)
       .then((r) => r.json())
-      .then((list: Article[]) => setArticle(list.find((a) => a.slug === slug) || null))
+      .then((data: Article & { error?: string }) => {
+        if (data.error) setArticle(null)
+        else setArticle(data)
+      })
   }, [slug])
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {

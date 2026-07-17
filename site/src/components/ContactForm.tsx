@@ -39,7 +39,7 @@ export function ContactForm({ defaultObjet = "Droit Pénal", pageSource }: Conta
 
   if (sent)
     return (
-      <p className="rounded border border-petrol/20 bg-sand p-6 text-petrol">
+      <p className="rounded border border-line bg-fog p-6 text-navy">
         Merci. Votre demande est enregistrée (POC local). En prod, elle arrivera chez{" "}
         <strong>accueil@jplouton-avocat.fr</strong> et dans le backoffice Demandes.
       </p>
@@ -47,7 +47,7 @@ export function ContactForm({ defaultObjet = "Droit Pénal", pageSource }: Conta
 
   return (
     <form onSubmit={onSubmit} className="grid gap-4 max-w-xl">
-      <div className="grid sm:grid-cols-2 gap-4">
+      <div className="grid gap-4 sm:grid-cols-2">
         <label className="grid gap-1 text-sm">
           Prénom *
           <input required name="first_name" className="border border-line bg-white px-3 py-2" />
@@ -58,13 +58,19 @@ export function ContactForm({ defaultObjet = "Droit Pénal", pageSource }: Conta
         </label>
       </div>
       <label className="grid gap-1 text-sm">
-        Email *
-        <input required type="email" name="email" className="border border-line bg-white px-3 py-2" />
+        Nom de l&apos;entreprise (si concernée)
+        <input name="company" className="border border-line bg-white px-3 py-2" />
       </label>
-      <label className="grid gap-1 text-sm">
-        Téléphone *
-        <input required name="telephone" className="border border-line bg-white px-3 py-2" />
-      </label>
+      <div className="grid gap-4 sm:grid-cols-2">
+        <label className="grid gap-1 text-sm">
+          Email *
+          <input required type="email" name="email" className="border border-line bg-white px-3 py-2" />
+        </label>
+        <label className="grid gap-1 text-sm">
+          Téléphone *
+          <input required name="telephone" className="border border-line bg-white px-3 py-2" />
+        </label>
+      </div>
       <label className="grid gap-1 text-sm">
         Objet de ma demande
         <select name="objet" defaultValue={defaultObjet} className="border border-line bg-white px-3 py-2">

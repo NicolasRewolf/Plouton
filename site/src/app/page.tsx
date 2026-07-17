@@ -1,25 +1,16 @@
 import Image from "next/image"
 import Link from "next/link"
-import {
-  getEquipe,
-  getExpertiseCards,
-  getSite,
-  publishedArticles,
-} from "@/lib/content"
-import { Header } from "@/components/Header"
 import { Footer } from "@/components/Footer"
+import { Header } from "@/components/Header"
+import { getAccueil, getEquipe, getSite, publishedArticles } from "@/lib/content"
 import { JsonLd, organizationSchema } from "@/lib/seo"
 
 export default function HomePage() {
   const site = getSite()
-  const cards = getExpertiseCards()
+  const page = getAccueil()
   const team = getEquipe()
-  const posts = publishedArticles().slice(0, 12)
-  const byPole = {
-    Défense: cards.filter((c) => c.domaineFiltre === "Défense"),
-    Indemnisation: cards.filter((c) => c.domaineFiltre === "Indemnisation"),
-    Contrats: cards.filter((c) => c.domaineFiltre === "Contrats"),
-  }
+  const posts = publishedArticles()
+  const ticker = posts.slice(0, 24)
 
   const schemas = [
     organizationSchema(site),
@@ -36,13 +27,59 @@ export default function HomePage() {
 
   return (
     <>
-      <Header variant="home" />
+      {/* Desktop live = nav complète (pas burger) */}
+      <Header variant="site" />
       <JsonLd data={schemas} />
 
-      {/* Hero centré — copie Wix pixel-close */}
-      <section className="relative flex min-h-[100svh] flex-col bg-white">
-        <div className="mx-auto flex w-full max-w-[920px] flex-1 flex-col items-center justify-center px-5 pb-28 pt-24 text-center">
-          <div className="relative mb-8 aspect-[927/560] w-full max-w-[560px] sm:max-w-[640px]">
+      {/* Hero split — texte gauche / photo 3 barres droite */}
+      <section className="relative bg-white">
+        <div className="mx-auto grid min-h-[calc(100svh-64px-72px)] max-w-[1400px] items-center gap-10 px-6 pb-24 pt-10 lg:grid-cols-[minmax(280px,420px)_1fr] lg:gap-16 lg:px-12 lg:pb-28 lg:pt-6">
+          <div>
+            <h1 className="font-display text-[clamp(1.7rem,2.2vw,2.15rem)] font-medium leading-[1.2] tracking-[-0.03em]">
+              {page.hero.titleLines.map((line) => (
+                <span
+                  key={line.text}
+                  className={
+                    line.color === "accent"
+                      ? "block text-accent"
+                      : "block text-navy-soft"
+                  }
+                >
+                  {line.text}
+                </span>
+              ))}
+            </h1>
+
+            <p className="mt-5 text-[14px] text-navy">
+              <a href={site.phone.href} className="hover:text-accent">
+                {page.hero.phone}
+              </a>
+              <span className="mx-2 text-muted">—</span>
+              <a
+                href={`https://maps.google.com/?q=${encodeURIComponent(page.hero.address)}`}
+                className="hover:text-accent"
+              >
+                {page.hero.address}
+              </a>
+            </p>
+
+            <div className="mt-7 flex flex-wrap gap-3">
+              {page.hero.ctas.map((cta, i) => (
+                <Link
+                  key={cta.label}
+                  href={cta.href}
+                  className={`btn-pill ${i === 0 ? "text-accent" : "text-navy"}`}
+                >
+                  {cta.label}
+                  <span className="btn-pill-icon border-accent text-accent" aria-hidden>
+                    →
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div className="relative mx-auto aspect-[927/560] w-full max-w-[720px] lg:mx-0 lg:max-w-none">
             <div className="mask-stripes absolute inset-0">
               <Image
                 src="/brand/hero-home.jpg"
@@ -50,155 +87,148 @@ export default function HomePage() {
                 fill
                 priority
                 className="object-cover object-[center_40%]"
-                sizes="(max-width: 768px) 90vw, 640px"
+                sizes="(max-width: 1024px) 90vw, 55vw"
               />
             </div>
           </div>
-
-          <p className="text-[13px] tracking-wide text-muted">
-            <a
-              href={`https://maps.google.com/?q=${encodeURIComponent(`${site.address.street}, ${site.address.postalCode} ${site.address.city}`)}`}
-              className="hover:text-accent"
-            >
-              {site.address.street}, {site.address.postalCode} {site.address.city}
-            </a>
-            <span className="mx-2 text-line">—</span>
-            <a href={site.phone.href} className="hover:text-accent">
-              {site.phone.display}
-            </a>
-          </p>
-
-          <h1 className="mt-5 font-display text-[clamp(2rem,4.2vw,3.15rem)] font-semibold leading-[1.12] tracking-[-0.02em]">
-            <span className="block text-navy">Cabinet Plouton</span>
-            <span className="block text-accent">Avocats pénalistes</span>
-            <span className="block text-navy">à Bordeaux</span>
-          </h1>
-
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-            <Link href="/#expertises" className="btn-pill text-navy">
-              Domaines d&apos;expertises
-              <span className="btn-pill-icon border-accent text-accent" aria-hidden>
-                →
-              </span>
-            </Link>
-            <Link href="/#affaires" className="btn-pill text-navy">
-              Nos affaires
-              <span className="btn-pill-icon border-accent text-accent" aria-hidden>
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <circle cx="11" cy="11" r="6" stroke="currentColor" strokeWidth="2" />
-                  <path d="M20 20l-3.2-3.2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-                </svg>
-              </span>
-            </Link>
-          </div>
         </div>
 
-        {/* Ticker ACTUALITÉS — bas du premier écran */}
-        <div className="absolute inset-x-0 bottom-0 border-t border-line bg-fog">
-          <div className="mx-auto flex max-w-[1400px] items-stretch px-3 py-2.5 sm:px-5">
-            <div className="flex shrink-0 items-center pr-3 sm:pr-4">
-              <span className="text-[11px] font-bold tracking-[0.12em] text-accent">ACTUALITÉS</span>
-              <span className="ml-3 hidden h-4 w-px bg-line sm:block" aria-hidden />
-            </div>
-            <div className="min-w-0 flex-1 overflow-hidden rounded-full bg-white px-4 py-2.5 shadow-[0_0_0_1px_rgba(0,0,0,0.04)]">
-              <div className="flex gap-10 overflow-x-auto scrollbar-none">
-                {posts.map((p) => (
-                  <Link
-                    key={p.slug}
-                    href={`/post/${p.slug}`}
-                    className="shrink-0 whitespace-nowrap text-[13px] text-navy hover:text-accent"
-                  >
-                    <span className="mr-2 text-muted">
-                      {new Date(p.publishedAt).toLocaleDateString("fr-FR", {
-                        day: "2-digit",
-                        month: "2-digit",
-                        year: "2-digit",
-                      })}
-                    </span>
-                    {p.title.length > 90 ? `${p.title.slice(0, 90)}…` : p.title}
-                  </Link>
-                ))}
+        {/* Ticker ACTUALITÉS */}
+        <div className="absolute inset-x-0 bottom-0 bg-fog">
+          <div className="mx-auto flex max-w-[1400px] items-center gap-4 px-4 py-3 lg:px-8">
+            <span className="shrink-0 text-[16px] font-bold tracking-wide text-accent">
+              {page.tickerLabel}
+            </span>
+            <div className="min-w-0 flex-1 overflow-hidden">
+              <div className="flex gap-8 overflow-x-auto scrollbar-none">
+                {ticker.map((p) => (
+                    <Link
+                      key={p.slug}
+                      href={`/post/${p.slug}`}
+                      className="flex shrink-0 items-center gap-3 whitespace-nowrap text-[14px] font-bold text-navy hover:text-accent"
+                    >
+                      <span className="text-muted">
+                        {new Date(p.publishedAt).toLocaleDateString("fr-FR", {
+                          day: "2-digit",
+                          month: "2-digit",
+                          year: "2-digit",
+                        })}
+                      </span>
+                      <span>{p.title}</span>
+                      <span className="rounded-full bg-accent px-2.5 py-0.5 text-[11px] font-bold text-white">
+                        Lire
+                      </span>
+                    </Link>
+                  ))}
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Intro + expertises */}
-      <section id="expertises" className="mx-auto max-w-[1100px] px-5 py-20 text-center lg:px-8">
-        <h2 className="font-display text-[clamp(1.6rem,3vw,2.35rem)] font-semibold leading-snug tracking-tight text-navy">
-          À vos côtés depuis 20 ans pour défendre vos droits et lutter contre «&nbsp;un certain
-          sentiment d&apos;injustice&nbsp;»&nbsp;*
+      {/* Intro — textes complets live */}
+      <section className="mx-auto grid max-w-[1100px] gap-10 px-6 py-20 lg:grid-cols-2 lg:gap-16 lg:px-10 lg:py-28">
+        <h2 className="font-display text-[30px] font-normal leading-snug tracking-tight text-navy">
+          {page.intro.heading}
         </h2>
-        <p className="mx-auto mt-6 max-w-2xl text-[15px] leading-relaxed text-muted">
-          Il y a des moments où tout bascule. Une accusation, un accident, un conflit qui menace de
-          tout emporter. Dans ces moments, le Cabinet Plouton est à vos côtés. Implantés à Bordeaux
-          depuis plus de 20 ans.
-        </p>
-      </section>
-
-      <section className="mx-auto max-w-[1280px] px-5 pb-20 lg:px-8">
-        <div className="grid gap-16">
-          {Object.entries(byPole).map(([pole, items], i) => (
-            <div key={pole}>
-              <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-muted">
-                Pôle {i + 1}
-              </p>
-              <h3 className="mt-2 font-display text-2xl font-semibold text-navy md:text-3xl">
-                {pole === "Défense"
-                  ? "Défense pénale"
-                  : pole === "Indemnisation"
-                    ? "Indemnisation des victimes"
-                    : "Droit des contrats et des personnes"}
-              </h3>
-              <div className="mt-8 grid gap-x-10 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
-                {items.map((card) => (
-                  <Link key={card.url} href={card.url} className="group block">
-                    <h4 className="font-display text-lg font-semibold text-navy group-hover:text-accent">
-                      {card.title}
-                    </h4>
-                    <p className="mt-2 text-sm leading-relaxed text-muted">{card.synthese}</p>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          ))}
+        <div>
+          <p className="text-[16px] leading-relaxed text-navy">{page.intro.body}</p>
+          <p className="mt-8 whitespace-pre-line text-[12px] leading-relaxed text-citation">
+            {page.intro.citation}
+          </p>
         </div>
       </section>
 
-      <section id="equipe" className="border-y border-line bg-fog">
-        <div className="mx-auto max-w-[1280px] px-5 py-16 lg:px-8 lg:py-20">
-          <h2 className="mx-auto max-w-3xl text-center font-display text-[clamp(1.5rem,2.5vw,2.1rem)] font-semibold leading-snug text-navy">
-            Notre équipe d&apos;avocats pénalistes – des compétences complémentaires au service de
-            votre défense.
+      {/* Expertises */}
+      <section id="expertises" className="border-t border-line bg-white px-6 py-16 lg:px-10 lg:py-24">
+        <div className="mx-auto max-w-[1200px]">
+          <p className="text-[12px] font-bold tracking-[0.14em] text-muted">
+            {page.expertiseIntro.eyebrow}
+          </p>
+          <h2 className="mt-2 max-w-xl font-display text-[30px] font-normal leading-snug text-navy">
+            {page.expertiseIntro.heading}
           </h2>
-          <div className="mt-12 grid gap-8 sm:grid-cols-2 md:grid-cols-3">
-            {team.map((m) => (
-              <div key={m.name} className="text-center sm:text-left">
-                <p className="text-xs uppercase tracking-wider text-muted">{m.role}</p>
-                <p className="mt-1 font-display text-lg font-semibold text-navy">{m.name}</p>
+
+          <div className="mt-14 grid gap-14 lg:grid-cols-3 lg:gap-10">
+            {page.poles.map((pole) => (
+              <div key={pole.label}>
+                <p className="text-[11px] font-bold tracking-[0.12em] text-accent">{pole.label}</p>
+                <h3 className="mt-2 font-display text-[30px] font-normal text-navy">{pole.title}</h3>
+                <p className="mt-3 text-[16px] leading-relaxed text-navy">{pole.intro}</p>
+                <ul className="mt-6 space-y-2">
+                  {pole.items.map((item) => (
+                    <li key={item.title}>
+                      <Link href={item.href} className="text-[16px] text-navy hover:text-accent">
+                        {item.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section id="affaires" className="mx-auto max-w-[1280px] px-5 py-16 lg:px-8 lg:py-20">
-        <h2 className="font-display text-2xl font-semibold text-navy md:text-3xl">
-          Les dernières affaires juridiques traitées par notre cabinet
-        </h2>
-        <div className="mt-10 grid gap-8 md:grid-cols-2">
-          {posts.slice(0, 6).map((p) => (
-            <Link key={p.slug} href={`/post/${p.slug}`} className="group block">
-              <p className="text-xs text-muted">
-                {new Date(p.publishedAt).toLocaleDateString("fr-FR")} · {p.categories.join(" · ")}
-              </p>
-              <h3 className="mt-2 font-display text-lg font-semibold leading-snug text-navy group-hover:text-accent">
-                {p.title}
-              </h3>
-              <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">{p.excerpt}</p>
+      {/* Expertise forgée */}
+      <section className="border-t border-line px-6 py-16 lg:px-10 lg:py-24">
+        <div className="mx-auto grid max-w-[1100px] gap-8 lg:grid-cols-2 lg:gap-16">
+          <h2 className="font-display text-[30px] font-normal leading-snug text-navy">
+            {page.expertiseBlock.heading}
+          </h2>
+          <div>
+            <p className="text-[16px] leading-relaxed text-navy">{page.expertiseBlock.body}</p>
+            <Link
+              href={page.expertiseBlock.cta.href}
+              className="mt-8 inline-flex text-[15px] font-medium text-accent hover:underline"
+            >
+              {page.expertiseBlock.cta.label} →
             </Link>
-          ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Équipe */}
+      <section id="equipe" className="border-t border-line bg-fog px-6 py-16 lg:px-10 lg:py-24">
+        <div className="mx-auto max-w-[1200px]">
+          <h2 className="max-w-3xl font-display text-[clamp(1.4rem,2.2vw,1.9rem)] font-normal leading-snug text-navy">
+            {page.equipe.heading}
+          </h2>
+          <div className="mt-12 grid gap-10 sm:grid-cols-2 md:grid-cols-3">
+            {team.map((m) => (
+              <div key={m.id}>
+                <p className="text-[13px] text-muted">{m.role}</p>
+                <p className="mt-1 font-display text-[18px] text-navy">{m.name}</p>
+                {m.short ? (
+                  <p className="mt-3 text-[14px] leading-relaxed text-navy/80">{m.short}</p>
+                ) : null}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Affaires */}
+      <section id="affaires" className="px-6 py-16 lg:px-10 lg:py-24">
+        <div className="mx-auto max-w-[1200px]">
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <h2 className="font-display text-[30px] font-normal text-navy">
+              {page.affaires.heading}
+            </h2>
+            <Link href={page.affaires.cta.href} className="text-[14px] text-accent hover:underline">
+              {page.affaires.cta.label} →
+            </Link>
+          </div>
+          <div className="mt-10 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {posts.slice(0, 9).map((p) => (
+              <Link key={p.slug} href={`/post/${p.slug}`} className="group block">
+                <h3 className="font-display text-[18px] font-medium leading-snug text-navy group-hover:text-accent">
+                  {p.title}
+                </h3>
+                <p className="mt-2 line-clamp-3 text-[14px] leading-relaxed text-muted">{p.excerpt}</p>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 

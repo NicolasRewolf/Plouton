@@ -1,0 +1,35 @@
+import type { Metadata } from "next"
+import { notFound } from "next/navigation"
+import { ExpertiseRoutePage, expertiseMetadata } from "@/lib/expertise-route"
+import { getExpertise, listExpertises } from "@/lib/content"
+
+export function generateStaticParams() {
+  return listExpertises()
+    .filter(
+      (e) =>
+        e.pole === "droit-des-contrats-et-des-personnes" && e.slug !== "divorce"
+    )
+    .map((e) => ({ slug: e.slug }))
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}): Promise<Metadata> {
+  const { slug } = await params
+  return expertiseMetadata(slug)
+}
+
+export default async function ContratsSlugPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}) {
+  const { slug } = await params
+  const expertise = getExpertise(slug)
+  if (!expertise || expertise.pole !== "droit-des-contrats-et-des-personnes")
+    notFound()
+  if (slug === "divorce") notFound()
+  return <ExpertiseRoutePage slug={slug} />
+}
