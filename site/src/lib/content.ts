@@ -39,7 +39,9 @@ export interface Article {
   updatedAt?: string
   status: "draft" | "published"
   author: string
+  authorId?: string
   categories: string[]
+  tags?: string[]
   categoryIds?: string[]
   coverImage?: string | null
   minutesToRead?: number | null
@@ -84,6 +86,16 @@ export interface TeamMember {
   image?: string | null
   imageSquare?: string | null
   linkedin?: string | null
+}
+
+export interface Author {
+  id: string
+  /** GUID membre Wix (champ `author` des articles importés) */
+  wixId?: string
+  displayName: string
+  shortName: string
+  avatar: string
+  bio: string
 }
 
 export interface ExpertisePage {
@@ -225,6 +237,20 @@ export function getFaq(expertiseKey: string): FaqItem[] {
   return readJson<FaqItem[]>(path.join("faq", `${expertiseKey}.json`))
 }
 
+export function listAuthors(): Author[] {
+  return readJson<Author[]>("auteurs.json")
+}
+
+export function getAuthor(article: Article): Author | null {
+  const authors = listAuthors()
+  return (
+    authors.find((a) => a.wixId === article.author) ??
+    authors.find((a) => a.id === article.authorId) ??
+    authors.find((a) => a.displayName === article.author) ??
+    null
+  )
+}
+
 export function getExpertiseCards() {
   return readJson<
     { title: string; domaineFiltre: string; url: string; synthese: string }[]
@@ -233,6 +259,13 @@ export function getExpertiseCards() {
 
 export function getEquipe(): TeamMember[] {
   return readJson<TeamMember[]>("equipe.json")
+}
+
+/** Slug catégorie : celui du CMS importé si connu, sinon slugify façon Wix (accents conservés) */
+export function categorySlug(label: string): string {
+  const known = getCategories().find((c) => c.label === label)
+  if (known) return known.slug
+  return label.toLowerCase().replace(/\s+/g, "-")
 }
 
 export function getCategories(): Category[] {

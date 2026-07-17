@@ -5,6 +5,18 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-17 — Page article complète (copie du live)
+
+Gabarit `/post/[slug]` refait section par section d'après le site Wix live :
+
+- Feuille blanche sur fond gris, auteur avec photo (Drive, compressées), étoiles, encadrés « chiffres »
+- Barre CTA sticky (Nous appeler / Je prends rendez-vous), bio auteur, tags, catégories cliquables, partage, vues/likes, Posts similaires, Commentaires, bandeau équipe + avis Google
+- Données : articles enrichis (`authorId`, `tags`, `updatedAt`, `stats`) + `contenu/auteurs.json` — les compteurs seront remplis par l'import Wix puis Cooked/Supabase
+
+Lancer : `cd site && npm run dev` → http://localhost:3000
+
+---
+
 ## 2026-07-17 — Grand ménage repo (pré-migration)
 
 - Sources Wix isolées dans `contenu/sources/wix/`
