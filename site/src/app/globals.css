@@ -1,7 +1,11 @@
 @import "tailwindcss";
+@import "./theme.wix.css";
+@import "./fonts.wix.css";
 
 @theme {
-  /* Tokens mesurés sur jplouton-avocat.fr (CDP 2026-07-17) */
+  /* Tokens extraits du CSS live (scripts/visual/extract-tokens.mjs).
+   * Correspondances Wix : navy = --wix-color-14/15/21/37, navy-soft = 19,
+   * accent = 20, page = 12, citation = 13. Voir theme.wix.css (auto-généré). */
   --color-navy: #17475e;
   --color-navy-soft: #3f6e84;
   --color-accent: #fe4b42;
@@ -14,8 +18,11 @@
   --color-page: #f9f9f9;
   --color-citation: #d9d9d9;
   --color-white: #ffffff;
-  --font-sans: var(--font-source), system-ui, sans-serif;
-  --font-display: var(--font-google-sans), var(--font-source), system-ui, sans-serif;
+  /* Piles de familles VERBATIM du live (fonts.wix.css déclare chaque alias,
+   * binaire woff2 exact auto-hébergé). Corps = Source Sans 3, titres = Google
+   * Sans Medium — plus de police de substitution. */
+  --font-sans: wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular, sans-serif;
+  --font-display: wfont_47d637_b856fe7b5486413b948b231a5f646ec2, wf_b856fe7b5486413b948b231a5, orig_google_sans_medium, sans-serif;
 }
 
 html {
@@ -26,8 +33,9 @@ body {
   background: var(--color-white);
   color: var(--color-navy);
   font-family: var(--font-sans);
-  -webkit-font-smoothing: antialiased;
-  font-synthesis: none;
+  /* Pas de -webkit-font-smoothing:antialiased ni de font-synthesis:none :
+   * le live Wix rend en lissage par défaut et synthétise le gras — s'en
+   * écarter change visiblement la graisse apparente du texte. */
 }
 
 ::selection {

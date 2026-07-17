@@ -26,7 +26,10 @@ if (!fs.existsSync(rawCssPath)) {
 }
 const css = fs.readFileSync(rawCssPath, 'utf8');
 
-const outDir = path.join(REPO_ROOT, 'site', 'src', 'fonts', 'wix');
+// Binaires dans public/ (URLs stables → <link rel="preload"> possible dans le
+// layout) ; les @font-face dans src/app/fonts.wix.css (bundlé via globals.css).
+const outDir = path.join(REPO_ROOT, 'site', 'public', 'fonts', 'wix');
+const cssOutPath = path.join(REPO_ROOT, 'site', 'src', 'app', 'fonts.wix.css');
 fs.mkdirSync(outDir, { recursive: true });
 
 // Piles d'alias explicites du CSS live.
@@ -93,15 +96,15 @@ for (const t of triples) {
     cssLines.push('  font-weight: normal;');
     cssLines.push('  font-style: normal;');
     cssLines.push('  font-display: swap;');
-    cssLines.push(`  src: url("./${fileName}") format("woff2");`);
+    cssLines.push(`  src: url("/fonts/wix/${fileName}") format("woff2");`);
     cssLines.push('}');
     cssLines.push('');
   }
 }
 
 fs.writeFileSync(path.join(outDir, 'manifest.json'), JSON.stringify(manifest, null, 2));
-fs.writeFileSync(path.join(outDir, 'fonts.css'), cssLines.join('\n'));
+fs.writeFileSync(cssOutPath, cssLines.join('\n'));
 console.log(
-  `\n${manifest.length}/${triples.length} binaire(s) OK (${downloaded} téléchargé(s)), ${manifest.length * 3} @font-face → ${path.relative(REPO_ROOT, outDir)}/`
+  `\n${manifest.length}/${triples.length} binaire(s) OK (${downloaded} téléchargé(s)), ${manifest.length * 3} @font-face → ${path.relative(REPO_ROOT, cssOutPath)}`
 );
 if (manifest.length < triples.length) process.exit(1);

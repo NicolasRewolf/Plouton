@@ -9,7 +9,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("./orig_google_sans_medium.woff2") format("woff2");
+  src: url("/fonts/wix/orig_google_sans_medium.woff2") format("woff2");
 }
 
 @font-face {
@@ -17,7 +17,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("./orig_google_sans_medium.woff2") format("woff2");
+  src: url("/fonts/wix/orig_google_sans_medium.woff2") format("woff2");
 }
 
 @font-face {
@@ -25,7 +25,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("./orig_google_sans_medium.woff2") format("woff2");
+  src: url("/fonts/wix/orig_google_sans_medium.woff2") format("woff2");
 }
 
 @font-face {
@@ -33,7 +33,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("./orig_google_sans_regular.woff2") format("woff2");
+  src: url("/fonts/wix/orig_google_sans_regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -41,7 +41,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("./orig_google_sans_regular.woff2") format("woff2");
+  src: url("/fonts/wix/orig_google_sans_regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -49,7 +49,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("./orig_google_sans_regular.woff2") format("woff2");
+  src: url("/fonts/wix/orig_google_sans_regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -57,7 +57,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("./orig_source_sans_3_regular.woff2") format("woff2");
+  src: url("/fonts/wix/orig_source_sans_3_regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -65,7 +65,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("./orig_source_sans_3_regular.woff2") format("woff2");
+  src: url("/fonts/wix/orig_source_sans_3_regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -73,7 +73,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("./orig_source_sans_3_regular.woff2") format("woff2");
+  src: url("/fonts/wix/orig_source_sans_3_regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -81,7 +81,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("./orig_source_sans_3_semibold.woff2") format("woff2");
+  src: url("/fonts/wix/orig_source_sans_3_semibold.woff2") format("woff2");
 }
 
 @font-face {
@@ -89,7 +89,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("./orig_source_sans_3_semibold.woff2") format("woff2");
+  src: url("/fonts/wix/orig_source_sans_3_semibold.woff2") format("woff2");
 }
 
 @font-face {
@@ -97,7 +97,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("./orig_source_sans_3_semibold.woff2") format("woff2");
+  src: url("/fonts/wix/orig_source_sans_3_semibold.woff2") format("woff2");
 }
 
 @font-face {
@@ -105,7 +105,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("./orig_source_sans_3_medium.woff2") format("woff2");
+  src: url("/fonts/wix/orig_source_sans_3_medium.woff2") format("woff2");
 }
 
 @font-face {
@@ -113,7 +113,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("./orig_source_sans_3_medium.woff2") format("woff2");
+  src: url("/fonts/wix/orig_source_sans_3_medium.woff2") format("woff2");
 }
 
 @font-face {
@@ -121,5 +121,5 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("./orig_source_sans_3_medium.woff2") format("woff2");
+  src: url("/fonts/wix/orig_source_sans_3_medium.woff2") format("woff2");
 }
