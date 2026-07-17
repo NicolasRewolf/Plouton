@@ -1,0 +1,5327 @@
+{
+  "slug": "garde-à-vue-ou-audition-libre-différences-essentielles-à-connaître",
+  "sourcePath": "/post/garde-à-vue-ou-audition-libre-différences-essentielles-à-connaître",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "m5eu013124",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "garde à vue",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/post/la-garde-à-vue-définition-droits-et-conséquences",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et l'",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "audition libre",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " sont deux procédures distinctes dans le système judiciaire français qui génèrent souvent confusion et inquiétude. Fondamentalement, ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "la garde à vue constitue une mesure privative de liberté décidée par un officier de police judiciaire, tandis que l'audition libre permet d'être entendu sans contrainte avec la possibilité de quitter les locaux à tout moment.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#FFFFFF"
+                  }
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Ces nuances procédurales impliquent des droits et des obligations très différents qu'il est crucial de maîtriser",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "mry8f23657",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "5kw7l13130",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Définitions et cadre juridique : comprendre l'essentiel",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "myd3524934",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "5444h13132",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La garde à vue : une mesure contraignante",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nn2aw13134",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La garde à vue est une ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "mesure de contrainte",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " définie par ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "l'article 62-2 du Code de procédure pénale",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023865405/",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Elle permet à un officier de police judiciaire de retenir une personne suspectée d'avoir commis ou tenté de commettre un crime ou un délit puni d'emprisonnement. Cette mesure implique une ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "privation totale de liberté",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " sous le contrôle du procureur de la République ou du juge d'instruction.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "mcs6p24749",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "w61y613142",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'audition libre : une alternative moins restrictive",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "k1ycp13144",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'audition libre, encadrée par ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "l'article 61-1 du Code de procédure pénale",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028991696/",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", est une procédure qui permet aux enquêteurs d'entendre une personne soupçonnée sans la placer en garde à vue. La personne entendue conserve sa ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "liberté de mouvement",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et peut ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "quitter les locaux à tout moment",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Cette procédure a été développée pour les infractions moins graves ou lorsque la privation de liberté n'apparaît pas nécessaire.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2mr5z15468",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "bv0az13152",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Comparaison détaillée :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "garde à vue vs audition libre",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "r0htf13154",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le tableau ci-dessous présente de façon claire les principales différences entre ces deux procédures :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "TABLE",
+        "id": "5k97y13156",
+        "nodes": [
+          {
+            "type": "TABLE_ROW",
+            "id": "44voy13157",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "dzbmz13158",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "p1ul013159",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Critère",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "cuyjj13161",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "4mmgo13162",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Garde à vue",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "f88gn13164",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "7a7fy13165",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Audition libre",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "4ac1613167",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "ujlxc13168",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "tox6313169",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Nature juridique",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "uenqo13171",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "jq5pc13172",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Mesure de contrainte",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "pm33y13174",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "gmfhf13175",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Procédure non contraignante",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "muocm13177",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "w75ac13178",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "z4fqe13179",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Conditions de mise en œuvre",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "kaasg13181",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "x355n13182",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Soupçons relatifs à un crime ou délit puni d'emprisonnement",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "4e9au13184",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "dvmd413185",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Possible pour toute infraction",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "0hkdn13187",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "8e7d813188",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "38xud13189",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Liberté de mouvement",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "umo2u13191",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "x6p5v13192",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Aucune (détention dans les locaux)",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "22gsh13194",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "dj22v13195",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Totale (possibilité de partir à tout moment)",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "lrzu313197",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "60z3b13198",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "u5sct13199",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Durée maximale",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "uj25113201",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "4f47n13202",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "24h, renouvelable jusqu'à 48h ou 96h selon l'infraction",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "s6x9d13204",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "bamg813205",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Non limitée dans la loi, mais doit rester raisonnable",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "o13v913207",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "bllfx13208",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "n5flq13209",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Notification des droits",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "k80ld13211",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "mqmhs13212",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Immédiate et formelle",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ios7g13214",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "6alur13215",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Notification allégée",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "9e8v613217",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "gz9dk13218",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "hkast13219",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Droit au silence",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "kispg13221",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "2142n13222",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Oui, clairement notifié",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "mdeqi13224",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "n57a913225",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Oui, mais notification souvent moins explicite",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "ityx913227",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "qnu6h13228",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "6ar3g13229",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Présence de l'avocat",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "wk1zx13231",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "h6uxz13232",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Dès le début de la mesure",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "dxmar13234",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "zvel413235",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Possible uniquement sur demande",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "8a0tj13237",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "bfa2m13238",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "igpfe13239",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Avis à un proche",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "smk7j13241",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "7v6iy13242",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Droit de faire prévenir un proche",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "899oo13244",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "lxobd13245",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Non prévu par la loi",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "l70ze13247",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "00m4g13248",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "w6vku13249",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Examen médical",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "d7rqt13251",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "ryeif13252",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Possible sur demande",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "hhtqc13254",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "9kepu13255",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Non prévu par la loi",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "7luzg13257",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "zisnv13258",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "03zvl13259",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Conséquences sur le casier",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "grt5e13261",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "8wwmm13262",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Inscription possible au fichier TAJ",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "a5vnw13264",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "kexg113265",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Inscription possible au fichier TAJ",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          }
+        ],
+        "tableData": {
+          "dimensions": {
+            "colsWidthRatio": [
+              202.0,
+              269.0,
+              269.0
+            ],
+            "rowsHeight": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "colsMinWidth": [
+              120.0,
+              120.0,
+              120.0
+            ]
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "cxnmm26514",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "kww0a26513",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3ruhc26515",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "md1qy13267",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les droits spécifiques dans chaque procédure : ce que vous devez connaître",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "q26jv26789",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "x9l3t13269",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vos droits en garde à vue",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "w7e1v13271",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Lorsqu'une personne est placée en garde à vue, elle bénéficie de ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "droits fondamentaux",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " qui doivent être notifiés dès le début de la mesure :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "eoyd913275",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "h969913276",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "mjqpv13277",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "droit d'être informé",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " de la qualification, de la date et du lieu de l'infraction présumée",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ej7nw13281",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "p766g13282",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "droit au silence",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " et de ne pas s'auto-incriminer",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "4xqlz13286",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "zb3uq13287",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "droit à l'assistance d'un avocat",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " dès le début de la mesure et pendant les interrogatoires",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "6eiui13291",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "y6m1o13292",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "droit de faire prévenir",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " un proche et son employeur",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "h23oz13296",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "6o2jg13297",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "droit à un examen médical",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "g0e8r13300",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "68ils13301",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "droit à un interprète",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " si nécessaire",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "1g8ky13305",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "xb2ax13306",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "droit à consulter",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " certaines pièces du dossier",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "1epus27199",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "aggtk13310",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un non-respect de ces droits peut entraîner la nullité de la procédure, comme l'a rappelé la Cour de cassation dans plusieurs arrêts récents, notamment l'",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "arrêt n° 21-85.968 du 17 janvier 2023",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.courdecassation.fr/decision/63c8dfd196e3f51efddcb09b",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " qui a annulé une procédure pour défaut de notification du droit à l'assistance d'un avocat. Selon les statistiques du Ministère de la Justice, plus de ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "14% des procédures",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " initiées en garde à vue font l'objet de nullités procédurales. Le ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cabinet Plouton",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/droit-pénal",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " accompagne des clients dont les droits n'ont pas été correctement respectés lors de leur garde à vue",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/droit-pénal",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "83xnp27591",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "en97913318",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vos droits en audition libre",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tdbuz13320",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En audition libre, les droits sont moins étendus mais tout aussi importants à connaître :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "7vc4013322",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "3ju6513323",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "jwmr113324",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "droit d'être informé",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " de la qualification, de la date et du lieu de l'infraction présumée",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "vfla813328",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "k8h9c13329",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "droit de quitter les locaux à tout moment",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "gex7b13332",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "guccv13333",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "droit au silence",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "p11vd13336",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "3joi713337",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "droit à l'assistance d'un avocat",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " (sur demande)",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "3wzbj13341",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "47x3413342",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "droit à un interprète",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " si nécessaire",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "y9frr13346",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "m2ar832975",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "différence majeure",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " réside dans la liberté de partir à tout moment et dans le caractère facultatif de l'assistance d'un avocat, qui doit être expressément demandée. D'après les ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "données statistiques de 2023 du Ministère de l'Intérieur",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.interieur.gouv.fr/Publications/Statistiques/Insecurite-et-delinquance",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", les auditions libres représentent désormais ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "près de 60% des procédures d'audition",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " contre 40% pour les gardes à vue, montrant une évolution significative des pratiques policières vers des mesures moins contraignantes.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "6al4h28112",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "p1b3c28111",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4frim28113",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "m1baq13354",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conseils pratiques : comment réagir face à ces situations",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "k9ek827999",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "covu513356",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En cas de garde à vue",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "78z6413358",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "fclbx13359",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "55nvv13360",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Restez calme",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " et coopératif avec les forces de l'ordre",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "4aq0j13363",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "i2l5s13364",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Demandez immédiatement un avocat",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " avant toute déclaration importante",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "yri7713367",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "dvnu613368",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Exercez votre droit au silence",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " si vous n'êtes pas en état de répondre correctement",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "fyqi913371",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "hi44913372",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Demandez un examen médical",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " si vous avez des problèmes de santé",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "189tq13375",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "n9nny13376",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Vérifiez attentivement",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " le procès-verbal avant de le signer",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "b807v13379",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "thi1a13380",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Notez mentalement",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " tout manquement à vos droits pour en informer votre av",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "ocat",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jns3i28648",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "o570113383",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En cas d'audition libre",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "9i4bl13385",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "jzqle13386",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ltlx013387",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Comprenez bien votre statut",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : demandez confirmation que vous êtes entendu librement",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "tnd7h13390",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "0lzow13391",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "N'hésitez pas à demander un avocat",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ", même si cela n'est pas automatiquement proposé",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "1hz0x13394",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "tsuq613395",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Sachez que vous pouvez partir",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " si la pression devient trop forte",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ynop613398",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "x9f3z13399",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Soyez vigilant",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " sur la transformation potentielle en garde à vue",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "nqmv013402",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "4m1rp13403",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Restez factuel",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " dans vos déclarations",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "x29nd28940",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "dm45129083",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cas pratiques et jurisprudence récente",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wouhc30453",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "on5lh13408",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Jurisprudence significative",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "etd8w30647",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La Chambre criminelle de la Cour de cassation a rendu plusieurs décisions importantes concernant ces procédures :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "4mkic13412",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "2deep13413",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "50air13414",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Arrêt n°22-81.088 du 11 octobre 2023",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.courdecassation.fr/decision/65256ea23227887d11be9aa1",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : La Cour a confirmé qu'une personne entendue en audition libre qui devient le suspect principal doit immédiatement voir sa procédure requalifiée en garde à vue.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "i8vpr13417",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "xcp5t13418",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Arrêt n°23-80.095 du 12 décembre 2023",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.courdecassation.fr/decision/6589df07f3f27a18ad898b1a",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : Cette décision a rappelé l'obligation d'informer la personne gardée à vue du droit de consulter certaines pièces du dossier, sous peine de nullité.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "hms3613421",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "a2pdv13422",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Décision QPC n°2023-1064 du Conseil constitutionnel",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.conseil-constitutionnel.fr/decision/2023/20231064QPC.htm",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : Le Conseil a validé le dispositif de l'audition libre tout en renforçant les garanties procédurales requises, soulignant l'importance de la notification effective du droit de quitter les locaux.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "3c7il13425",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cas n°1 : Différence d'application selon la gravité des faits",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "o2ubh13427",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Thomas est convoqué pour une ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "audition libre",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " concernant une altercation verbale avec un voisin. Il peut venir accompagné de son avocat et quitter librement le commissariat après ses déclarations.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nwqyc13431",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À l'inverse, Marc est placé en ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "garde à vue",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour des violences ayant entraîné une ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "ITT",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/post/itt-pénale-définition-en-2025",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " de 15 jours. Il est retenu au commissariat, ses effets personnels sont confisqués, et il ne peut communiquer avec l'extérieur sans autorisation.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "n3vr531623",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "8jsry13435",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cas n°2 : Conversion d'une audition libre en garde à vue",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "98g7i13437",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Sophie se présente pour une audition libre concernant un litige commercial. Pendant l'entretien, de nouvelles preuves suggèrent une fraude significative. Les enquêteurs décident alors de la placer en garde à vue. Ses droits lui sont immédiatement notifiés, et la procédure change complètement.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2fqlw21774",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "pj3ke21773",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "DOUBLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "15y9p21516",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4tsrw21705",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette situation illustre ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "l'importance d'être accompagné",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/droit-p%C3%A9nal",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " d'un ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "avocat expérimenté comme ceux du Cabinet Plouton",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", même lors d'une simple audition libre, car la situation peut évoluer rapidement.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bsyjd32012",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "96b4t13443",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si vous êtes confronté à une garde à vue ou une audition libre, n'hésitez pas à contacter le ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cabinet Plouton",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " à Bordeaux, spécialisé en droit pénal. Notre expérience dans la défense des droits des personnes confrontées à la justice pénale nous permet de vous offrir un accompagnement juridique adapté à votre situation. ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Contactez-nous",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/notre-cabinet",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour une consultation ou en cas d'urgence pénale.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7h8is20017",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "qjo7s20016",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "DOUBLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "58zqk20182",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "FAQ sur la garde à vue et l'audition libre",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fsx5f13451",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quelle est la différence principale entre garde à vue et audition libre ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La différence essentielle réside dans la liberté de mouvement : en audition libre, vous pouvez quitter les locaux à tout moment, tandis qu'en garde à vue, vous êtes privé de liberté jusqu'à la fin de la mesure.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fxrt513454",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "8jl7w33423",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Puis-je refuser une audition libre ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Oui, vous pouvez refuser une audition libre, mais attention : si les soupçons sont suffisants, les enquêteurs peuvent décider de vous placer en garde à vue.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bwi6p13457",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0cnhm33619",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quelle est la durée maximale d'une garde à vue ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La durée initiale est de 24 heures, prolongeable à 48 heures sur autorisation du procureur. Pour certaines infractions (terrorisme, trafic de stupéfiants), elle peut atteindre 96 heures ou plus.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "uz4yd13460",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lu5pi33815",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ai-je droit à un avocat lors d'une audition libre ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Oui, vous avez droit à un avocat en audition libre, mais ce droit n'est pas automatique comme en garde à vue : vous devez expressément le demander.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xq6kh34587",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "voxlw13463",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Comment savoir si je suis en garde à vue ou en audition libre ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La notification de vos droits est différente : en garde à vue, la police vous informera formellement de votre placement en garde à vue et de tous vos droits associés. En audition libre, on vous précisera que vous êtes entendu librement et que vous pouvez partir à tout moment.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zgdrd34975",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "olp0g13466",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Que faire si mes droits ne sont pas respectés pendant une garde à vue ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Signalez immédiatement ces manquements à votre avocat qui pourra soulever des nullités de procédure. Ces violations peuvent entraîner l'annulation des actes concernés, voire de toute la procédure.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ime5z35363",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hs2nv13469",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quelles sont les conséquences d'une garde à vue sur mon casier judiciaire ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La garde à vue elle-même n'apparaît pas sur le casier judiciaire, mais est inscrite au fichier de Traitement des Antécédents Judiciaires (TAJ). Seule une condamnation ultérieure figurera sur votre casier.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3w9zs35559",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jo4kk13472",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un mineur peut-il être placé en garde à vue ou en audition libre ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Oui, mais avec des garanties supplémentaires : information obligatoire des parents, présence d'un avocat systématique, examen médical obligatoire, et durées réduites selon l'âge du mineur.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {}
+  }
+}

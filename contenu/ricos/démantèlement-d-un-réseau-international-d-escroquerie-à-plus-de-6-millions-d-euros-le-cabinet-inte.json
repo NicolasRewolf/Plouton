@@ -1,0 +1,1171 @@
+{
+  "slug": "démantèlement-d-un-réseau-international-d-escroquerie-à-plus-de-6-millions-d-euros-le-cabinet-inte",
+  "sourcePath": "/post/démantèlement-d-un-réseau-international-d-escroquerie-à-plus-de-6-millions-d-euros-le-cabinet-inte",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "hfuy6hz8ww",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En résumé",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " : le cabinet Plouton assure la défense de Monsieur B., mis en examen dans une affaire d'escroquerie en bande organisée à dimension internationale instruite par le Parquet de Bergerac depuis 2019. Plus de 80 sociétés françaises victimes, un préjudice estimé à plus de 6 millions d'euros, et des chefs de blanchiment, recel et participation à une association de malfaiteurs retenus contre notre client. L'affaire a été jugée en décembre 2022 devant le tribunal correctionnel de Bergerac.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lumixuayba",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "26vnorwmlg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le point de départ : une plainte d'un domaine viticole de Dordogne",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "elr4ojyjva",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'enquête initiée par le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Parquet de Bergerac en 2019",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " a mis au jour des faits d'",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "escroquerie en bande organisée",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " aux ramifications internationales. Les mis en cause opéraient depuis la France, le Maroc ou la Côte d'Ivoire.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "m8t34qaudq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0yqarrjsa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'affaire a débuté en ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "septembre 2019",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", après la plainte d'un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "domaine viticole de Sigoulès-et-Flaugeac",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", en Dordogne. Ce domaine n'avait jamais reçu le paiement d'une commande de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "3 000 bouteilles",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", d'une valeur de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "15 000 euros",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lqnaxcvyvq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "bi6ncx9jg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un modus operandi sophistiqué à l'échelle européenne",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wuwz6q47w",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Selon les enquêteurs, les protagonistes cherchaient à convaincre des fournisseurs implantés dans toute l'Europe d'expédier des commandes en très grosses quantités, sans jamais les honorer financièrement.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "46zcyryc0g",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rxshndxla",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les secteurs visés étaient multiples :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ouxt6jcq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "zol1td6yma",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "laufdefobq",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "phzpdatvsq",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "viticulture,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "acddmg32ga",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "gvrbjcvbq",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "agro-alimentaire,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "3ur6uitya",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "wqmgmsedrw",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "huiles de moteur,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "1q9fpjsqxq",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "amhlvdzrq",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "climatiseurs,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "1kgrd58tq",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "yki3i4tjw",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "produits d'hygiène.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "iqkxlcepzg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dwgrwzxtmw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le procédé est décrit ainsi par la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Substitut du Procureur Mathilde de Guérines",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " : « usurper la raison sociale d'une entreprise existante pour démarcher une entreprise, faire des commandes importantes avec un paiement différé, faire livrer la marchandise dans un entrepôt duquel elle était détournée vers l'étranger ».",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "si9kn3q8yw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "gutmmftwuw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Plus de 80 sociétés victimes, 6 millions d'euros de préjudice",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7zuclccow",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Plus de 80 sociétés françaises",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ont été victimes de ces agissements, pour un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "préjudice estimé à plus de 6 millions d'euros",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". L'ampleur du dossier explique sa qualification d'escroquerie en bande organisée et la mobilisation d'une enquête de longue haleine sous l'autorité du Parquet de Bergerac.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "q72pnxzeuq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "r9lwllskg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La défense de Monsieur B. par le cabinet Plouton",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ob45p30wua",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre client, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Monsieur B.",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", a été ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "mis en examen",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/mis-en-cause-temoin-assiste-prevenu-accuse-differences",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " dans ce dossier des chefs de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "blanchiment",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "recel",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "participation à une association de malfaiteurs",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Cette affaire relève du ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "droit pénal des affaires",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/defense-penale/droit-penal-des-affaires",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hln4gus4ja",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bunyszc3q",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans ce dossier tentaculaire, il convient de déterminer le rôle exact de notre client. Il bénéficie, à ce stade des investigations, de la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "présomption d'innocence",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Notre ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "défense pénale",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/defense-penale/droit-penal",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " s'attache à démontrer sa position particulière au sein d'une procédure mettant en cause de nombreux protagonistes opérant sur plusieurs juridictions et plusieurs pays.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fqva5mxaka",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "skzkep5lra",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'issue judiciaire devant le tribunal correctionnel de Bergerac",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "8enyfmnudw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'affaire a été jugée en ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "décembre 2022",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " devant le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "tribunal correctionnel de Bergerac",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Le parquet a requis :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jm1rcvqxw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "eubawemlg",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "ix24r4xgq",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "vdziihe3jg",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "des peines de prison allant jusqu'à ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "8 ans",
+                      "decorations": [
+                        {
+                          "type": "BOLD"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ",",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "oun4xpdxw",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "uweyxbcww",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "des amendes comprises entre ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "30 000 et 100 000 euros",
+                      "decorations": [
+                        {
+                          "type": "BOLD"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ".",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kwi5jwrr1g",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lgwt6kvgdw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour connaître l'issue exacte de cette affaire, qui a été jugée depuis la publication initiale de cet article, nous vous invitons à consulter notre compte rendu du procès.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0x4qudyvhq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      }
+    ],
+    "metadata": {
+      "version": 1.0,
+      "createdTimestamp": "2026-05-11T18:44:16.942Z",
+      "updatedTimestamp": "2026-05-11T18:44:16.942Z"
+    }
+  }
+}

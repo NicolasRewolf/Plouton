@@ -1,0 +1,5470 @@
+{
+  "slug": "sarvi-comment-récupérer-vos-dommages-et-intérêts-après-une-condamnation-pénale",
+  "sourcePath": "/post/sarvi-comment-récupérer-vos-dommages-et-intérêts-après-une-condamnation-pénale",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "adcba790",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vous avez obtenu gain de cause devant un tribunal pénal",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#FFFFFF"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", qui a condamné l'auteur de l'infraction à vous verser des dommages et intérêts. ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Mais après plusieurs mois, vous n'avez toujours rien reçu",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#FFFFFF"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Cette situation, malheureusement fréquente, peut générer un sentiment d'impuissance et d'injustice",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le Cabinet Plouton",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " vous présente le Service d'Aide au Recouvrement des Victimes d'Infractions (SARVI), un dispositif encore méconnu qui peut vous aider à obtenir votre indemnisation.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "v1e8m6640",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "waroe6639",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xld046641",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "pmxci792",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Qu'est-ce que le SARVI ?",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tr4wj794",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le Service d'Aide au Recouvrement des Victimes d'Infractions (SARVI) est un organisme créé par la loi du 1er juillet 2008 pour aider les victimes à obtenir le paiement des dommages et intérêts qui leur ont été accordés par une juridiction pénale, lorsque l'auteur de l'infraction ne procède pas volontairement au règlement de sa dette.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "eykb1796",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Géré par le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Fonds de Garantie des Victimes",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.fondsdegarantie.fr/",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (FGTI), le SARVI constitue un mécanisme essentiel dans le système français d'indemnisation des victimes, en venant combler une lacune importante : la difficulté d'exécution effective des décisions de justice pénale accordant des dommages et intérêts.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dutfl800",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le SARVI remplit deux fonctions principales :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "ood52802",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "yfr1s803",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "qitso804",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Verser rapidement à la victime une avance sur les sommes dues",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "22571806",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "f1oyb807",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Prendre en charge le recouvrement auprès du condamné des sommes versées à la victime, majorées d'une pénalité",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "n566z809",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "j9mte810",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Bon à savoir",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700.0
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " : Le SARVI est un service gratuit et confidentiel, accessible aux victimes qu'elles soient ou non assistées par un avocat.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0.0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "9f7e97455",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "j5o6a7454",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "724p97456",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "f1lrg813",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Qui peut bénéficier du SARVI ?",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "sfm2s815",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le SARVI ne s'adresse pas à toutes les victimes d'infractions. Pour pouvoir y recourir, vous devez remplir certaines conditions précises.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qpk963375",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "nj4jz817",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conditions d'éligibilité au SARVI",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "TABLE",
+        "id": "4kgsg819",
+        "nodes": [
+          {
+            "type": "TABLE_ROW",
+            "id": "u70kz820",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "qhz9p821",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "pdxti822",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Critères",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "j5pw2824",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "t2ux8825",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Conditions requises",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "503nj827",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "y5ure828",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Exclusions",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "q6hwh830",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "l8bvx831",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "oq2v5832",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Type de décision",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "goz4s834",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "425yw835",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Décision pénale définitive accordant des dommages et intérêts",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "2flv0837",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "fjvr5838",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Décisions civiles, transactions pénales, médiations pénales",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "kl5fv840",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "4mexm841",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "xftsj842",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Statut de la victime",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "m3b3h844",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "wrzez845",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Personne physique uniquement",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "1c8br847",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "dyuxl848",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Personnes morales (entreprises, associations)",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "3qu3b850",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "oo425851",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "bqtv3852",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Délai après la décision",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "9q6s8854",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "phsck855",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Après 2 mois sans paiement par l'auteur",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "8xxlz857",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "45fmy858",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Demande déposée plus d'un an après la décision définitive",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "zmllb860",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "st4f4861",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "367ye862",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Nature du préjudice",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "6u5vl864",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "f4krc865",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Tous dommages accordés par une juridiction pénale",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "5uskp867",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "01k8z868",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Amendes et frais de justice dus à l'État",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "0gq3k870",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "ki89i871",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "e0wwm872",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Éligibilité à la CIVI",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ohuop874",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "3cnpz875",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Victimes non éligibles à la CIVI (art. 706-3 CPP)<br>Victimes dont la demande à la CIVI a été rejetée",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "6fswj877",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "38vqc878",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Victimes éligibles à la CIVI n'ayant pas fait de demande",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "kxkk8880",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "um53i881",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "gwxty882",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Type d'infraction",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "w73z1884",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "kji57885",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Toutes infractions (sauf exceptions)",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "aqfqr887",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "1nuna888",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Accidents de la circulation (FGAO)",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          }
+        ],
+        "tableData": {
+          "dimensions": {
+            "colsWidthRatio": [
+              158.0,
+              291.0,
+              291.0
+            ],
+            "rowsHeight": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "colsMinWidth": [
+              120.0,
+              120.0,
+              120.0
+            ]
+          },
+          "cellPadding": []
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3gkkt890",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yp8b64738",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le SARVI intervient ainsi en complément du système d'indemnisation articulé autour des Commissions d'Indemnisation des Victimes d'Infractions (CIVI). Il s'adresse principalement aux victimes ayant subi des préjudices corporels légers (",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "ITT",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/post/itt-pénale-définition-en-2025",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " < 30 jours) ou certains dommages aux biens, qui ne peuvent pas être indemnisés par la CIVI.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "29c1g7703",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "76d1a892",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le SARVI vs la CIVI : quelle différence ?",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "TABLE",
+        "id": "kwpqs894",
+        "nodes": [
+          {
+            "type": "TABLE_ROW",
+            "id": "skg4k895",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "cwvxq896",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "wbdrf897",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Caractéristique",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "9pq2c899",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "6njgj900",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "SARVI",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "o74on902",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "chcw1903",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "CIVI",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "00ygx905",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "hn869906",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "5rz3v907",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Préjudices concernés",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "0umxb909",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "n2css910",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Tous dommages et intérêts accordés par une juridiction pénale",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "xgqgr912",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "ljswl913",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Préjudices corporels graves (",
+                          "decorations": []
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "ITT",
+                          "decorations": [
+                            {
+                              "type": "LINK",
+                              "linkData": {
+                                "link": {
+                                  "url": "/post/itt-pénale-définition-en-2025",
+                                  "target": "BLANK"
+                                }
+                              }
+                            },
+                            {
+                              "type": "UNDERLINE"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": " ≥ 30 jours), certains préjudices corporels légers et matériels",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "0zxvk915",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "sq9lo916",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "ms156917",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Condamnation préalable",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "bg632919",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "7mzdf920",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Nécessité d'une décision pénale définitive",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "mv3wl922",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "cfn1s923",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Pas nécessairement (même en cas de classement sans suite ou d'auteur non identifié)",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "o3j9t925",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "3t0of926",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "fuqt0927",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Montant de l'indemnisation",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "upyqi929",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "xvscs930",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Avance plafonnée selon le montant des dommages",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "5gmg7932",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "est04933",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Indemnisation intégrale possible (sans plafond)",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "yl75z935",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "pnyhy936",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "3ux64937",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Délai de saisine",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "vjkgu939",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "4xvml940",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "1 an à compter de la décision définitive",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "92pd5942",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "sdmd5943",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "3 ans à compter de l'infraction",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "b3qqi945",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "rp1hl946",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "j3xsl947",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Intervention",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "to5hb949",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "f0oye950",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Après tentative infructueuse d'obtenir paiement",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "k0f9r952",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "vq0kh953",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Dès la survenance du préjudice",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          }
+        ],
+        "tableData": {
+          "dimensions": {
+            "colsWidthRatio": [
+              246.0,
+              246.0,
+              246.0
+            ],
+            "rowsHeight": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "colsMinWidth": [
+              120.0,
+              120.0,
+              120.0
+            ]
+          },
+          "cellPadding": []
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "429yf5720",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le SARVI constitue donc une solution précieuse pour les victimes qui ne remplissent pas les conditions pour saisir la CIVI, ou dont la demande auprès de la CIVI a été rejetée.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "gqevl11557",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dvsjt11559",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "m1025957",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Comment fonctionne la procédure SARVI ?",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "x1zgd959",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La procédure SARVI comporte plusieurs étapes qu'il est important de bien comprendre pour maximiser vos chances d'obtenir une indemnisation.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "ycli9961",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Étapes et délais de la procédure",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "TABLE",
+        "id": "uzf3q963",
+        "nodes": [
+          {
+            "type": "TABLE_ROW",
+            "id": "1b7bw964",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "uktji965",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "nqu5f966",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Étape",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "7luuy968",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "qlej3969",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Description",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "3jhxh971",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "5gs68972",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Délai",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "eya2r974",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "cabh3975",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "i0l7t976",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "1. Décision de justice",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "wlpv4978",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "nw90j979",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Obtention d'un jugement définitif accordant des dommages et intérêts",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "276hk981",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "tewk6982",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "-",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "9560n984",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "f5q7r985",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "xgtxo986",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "2. Attente de paiement",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "2tucp988",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "2p2o1989",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Délai pendant lequel l'auteur peut payer volontairement",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "dpqic991",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "8rkgy992",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "2 mois à compter de la décision définitive",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "m4k54994",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "i88xj995",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "f0l2v996",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "3. Saisine du SARVI",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "klm8f998",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "u7f3d999",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Dépôt de la demande auprès du SARVI",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "vh6pi1001",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "zozsd1002",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Dans l'année suivant la décision définitive",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "dufzh1004",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "yam251005",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "wqjde1006",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "4. Examen du dossier",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "a4ahk1008",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "6womm1009",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Vérification de la recevabilité et de la complétude",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "cf1881011",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "ur6p01012",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "-",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "k4k4v1014",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "87vxc1015",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "dlhau1016",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "5. Versement initial",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "61f0e1018",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "bov8m1019",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Versement de l'avance par le SARVI",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ew2ev1021",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "3447x1022",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Dans les 2 mois suivant la réception d'un dossier complet",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "g5hcs1024",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "ykzg71025",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "6rvht1026",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "6. Recouvrement",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "tt2dg1028",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "i2qtg1029",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Démarches du SARVI pour récupérer les sommes auprès du condamné",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "3yt6w1031",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "66qva1032",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Information à la victime tous les 6 mois",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "7t4yz1034",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "srvkc1035",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "elkhk1036",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "7. Éventuel versement complémentaire",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ddamz1038",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "eqvr21039",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Si le SARVI récupère plus que l'avance versée",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "igmpo1041",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "e6mv61042",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Selon le recouvrement effectif",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          }
+        ],
+        "tableData": {
+          "dimensions": {
+            "colsWidthRatio": [
+              246.0,
+              246.0,
+              246.0
+            ],
+            "rowsHeight": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "colsMinWidth": [
+              120.0,
+              120.0,
+              120.0
+            ]
+          },
+          "cellPadding": []
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "84m3o6899",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "xn5bi1044",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Documents nécessaires pour constituer votre dossier",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "x9da61046",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour saisir le SARVI, vous devez constituer un dossier comprenant :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "u6fi91048",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "boctw1049",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "utc3m1050",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le formulaire de demande d'aide au recouvrement dûment rempli et signé",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ivzb91052",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "fnwnp1053",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une copie d'une pièce d'identité en cours de validité",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "6sw8o1055",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "7ce311056",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un relevé d'identité bancaire (RIB ou RIP) à votre nom",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "lkl8v1058",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "0qluf1059",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une attestation sur l'honneur datée de moins de deux mois certifiant l'absence de paiement ou le montant perçu",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "enqik1061",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "737f11062",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La copie intégrale de la décision pénale revêtue de la formule exécutoire",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "es8al1064",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "y0ev51065",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un certificat de non-recours (certificat de non-appel, de non-opposition et de non-pourvoi)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wkjqm7097",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "5zpbd1067",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "059c71068",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Conseil du Cabinet Plouton",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700.0
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " : Veillez à ce que votre dossier soit complet dès le premier envoi, pour éviter tout retard dans le traitement de votre demande. Notre cabinet peut vous accompagner dans la préparation de ces documents.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0.0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "8kmvi7289",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "46e1q1071",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Montants versés par le SARVI",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "doz3t1073",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le montant de l'aide financière versée par le SARVI dépend du montant total des dommages et intérêts qui vous ont été accordés par le juge pénal :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "TABLE",
+        "id": "i5bcf1075",
+        "nodes": [
+          {
+            "type": "TABLE_ROW",
+            "id": "yevf91076",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "3vvtc1077",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "6jao31078",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Montant des dommages et intérêts",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "q4tc91080",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "ruscb1081",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Aide versée par le SARVI",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ienj91083",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "dcsl41084",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Délai de versement",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "k4rrh1086",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "p23cr1087",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "q2igr1088",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "≤ 1 000 €",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "8xmm11090",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "xk1ls1091",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Totalité de la somme",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ewqdp1093",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "rzndh1094",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "2 mois après réception du dossier complet",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "rqxst1096",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "ne7ny1097",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "fb08f1098",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "> 1 000 €",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ffdj91100",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "nu7d91101",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "30% de la somme avec un minimum de 1 000 € et un maximum de 3 000 €",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "vcksy1103",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "40gvb1104",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "2 mois après réception du dossier complet",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          }
+        ],
+        "tableData": {
+          "dimensions": {
+            "colsWidthRatio": [
+              246.0,
+              246.0,
+              246.0
+            ],
+            "rowsHeight": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "colsMinWidth": [
+              120.0,
+              120.0,
+              120.0
+            ]
+          },
+          "cellPadding": []
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jscan1106",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hbqpv8065",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce versement initial constitue une avance sur les sommes dues. Le SARVI se charge ensuite de recouvrer auprès du condamné le montant versé à la victime, augmenté d'une pénalité de 30%.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "zzjfw10742",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "yiax510851",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Avantages et limites du SARVI",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "qs26g1110",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les bénéfices pour les victimes",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ofo2m1112",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le recours au SARVI présente plusieurs avantages significatifs :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "uwrwe1114",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "i7uqv1115",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "291w41116",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Aide financière rapide : vous obtenez un versement dans un délai relativement court (2 mois)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "pe0en1119",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "1hrnh1120",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Démarches simplifiées : le SARVI prend en charge le recouvrement, vous évitant les tracas administratifs et juridiques",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "esqgy1123",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "qk95b1124",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Évitement de la confrontation : vous n'avez pas à interagir directement avec l'auteur de l'infraction",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "wy77p1127",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ea3vc1128",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Service gratuit : aucun frais n'est demandé pour bénéficier de ce dispositif",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "qikle1131",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "0xe0w1132",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Professionnalisme : le recouvrement est confié à des spécialistes disposant de moyens juridiques efficaces",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "f0g5t8642",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "hbmzf1135",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les limites à connaître",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ksghg1137",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cependant, le SARVI présente certaines limitations dont vous devez être conscient :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "56v4f1139",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "pw2031140",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "wkam21141",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Plafonnement de l'avance : l'aide est limitée à 3 000 € maximum pour les sommes supérieures à 1 000 €",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ix05n1144",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "0ncqn1145",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Incertitude du recouvrement total : le succès du recouvrement dépend de la solvabilité du condamné",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "fxoo61148",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "c05wa1149",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Exclusivité de la procédure : une fois le SARVI saisi, vous ne pouvez plus recourir vous-même à un huissier",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "rok2q1152",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "bgbet1153",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Champ d'application limité : certaines situations restent exclues (accidents de la circulation, personnes morales)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ssgha1156",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "q5k9n1157",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Délai de saisine strict : la demande doit être déposée dans l'année suivant la décision définitive",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ckw5e8447",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "nzc408446",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xq0rs8448",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "qv2958570",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le rôle du SARVI dans le processus de recouvrement",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "k7hws1162",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une fois votre dossier accepté et l'avance versée, le SARVI devient votre mandataire légal pour le recouvrement de la créance auprès du condamné.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "sfy4j8841",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "ds3co1164",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les démarches entreprises par le SARVI",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hwbzh1166",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le SARVI procède généralement en deux temps :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "mlyt41168",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "77j6x1169",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ywm7i1170",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Phase amiable : Le SARVI contacte la personne condamnée pour lui demander le remboursement des sommes versées à la victime, majorées d'une pénalité de 30%. Cette majoration constitue une incitation forte au paiement.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "dsjr01173",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "jj6v01174",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Phase judiciaire (si nécessaire) : En cas d'échec de la phase amiable, le SARVI peut confier le dossier à un huissier de justice pour engager une procédure de recouvrement forcé. La dette est alors majorée des intérêts légaux à compter de la décision pénale.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "izyyw1177",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le SARVI vous informe régulièrement (tous les 6 mois) des démarches entreprises et des résultats obtenus. Si le recouvrement permet d'obtenir plus que l'avance qui vous a été versée, vous recevrez un versement complémentaire.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "g8x399036",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "qqr871179",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conséquences pour l'auteur de l'infraction",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "b1yhp1181",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour l'auteur de l'infraction, l'intervention du SARVI a plusieurs conséquences :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "40wyj1183",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "rj6r21184",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "dnhzs1185",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Application d'une pénalité de 30% sur les sommes versées à la victime",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "pt9431187",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ms75q1188",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Majoration de la dette avec l'ajout d'intérêts légaux",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "jwbo51190",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "8ce321191",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Risque de saisies sur ses biens ou ses revenus",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "p8n4n1193",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "mmasf1194",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Signalement possible au Juge de l'application des peines en cas de sursis probatoire",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "r0ava1196",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette procédure peut donc coûter bien plus cher au condamné que s'il avait payé volontairement les dommages et intérêts dans le délai de deux mois.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7ab3v9262",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "5o86q9261",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "apw8j9263",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "yk6po1198",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Questions fréquentes sur le SARVI",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "10v4b9234",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "dq13f1200",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Puis-je saisir le SARVI si j'ai déjà engagé un huissier de justice ?",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jnh3r1202",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Non, vous ne pouvez pas saisir le SARVI si vous avez déjà mandaté un huissier de justice pour le recouvrement de votre créance. Vous devez choisir entre les deux procédures. Si vous optez pour le SARVI, vous renoncez à poursuivre le recouvrement par vos propres moyens.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hntdf9426",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "7w5ym1204",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Que faire si le montant des dommages et intérêts est supérieur à 3 000 € ?",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zd7i61206",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si le montant des dommages et intérêts qui vous ont été accordés est supérieur à 3 000 €, le SARVI vous versera une avance de 3 000 € (le maximum prévu). Pour le reste de la somme, le SARVI entreprendra des démarches de recouvrement auprès du condamné. Si ces démarches aboutissent, vous recevrez un versement complémentaire.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3g2pj9618",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "xhxis1208",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le SARVI peut-il refuser ma demande ?",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "uf4vd1210",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Oui, le SARVI peut refuser votre demande si vous ne remplissez pas les conditions d'éligibilité ou si votre dossier est incomplet. Par exemple, si vous êtes éligible à une indemnisation par la CIVI et que vous n'avez pas préalablement saisi cette commission, le SARVI rejettera votre demande. De même, si vous déposez votre demande plus d'un an après la décision définitive, elle sera irrecevable.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "67mtq9810",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "2zlx41212",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Que faire si j'ai conclu un accord amiable avec le condamné ?",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "o1udx1214",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si vous avez déjà conclu un accord amiable avec le condamné (par exemple, un échéancier de paiement), vous ne pouvez pas saisir le SARVI tant que cet accord est en cours. Le SARVI n'intervient qu'en cas d'absence totale de paiement ou de paiement partiel sans accord sur le solde.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fwqm310002",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "t1z6a1216",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le SARVI s'applique-t-il aux décisions d'autres pays de l'Union européenne ?",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "otd9k1218",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le SARVI est un dispositif français qui s'applique uniquement aux décisions rendues par les juridictions pénales françaises. Pour les décisions rendues dans d'autres pays de l'Union européenne, d'autres mécanismes peuvent exister, mais ils varient selon les pays.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "18sud10194",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "pxpt21220",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Comment contester une décision du SARVI ?",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "967ie1222",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si vous contestez une décision du SARVI (par exemple, un rejet de votre demande), vous pouvez saisir la Commission d'Indemnisation des Victimes d'Infractions (CIVI) du tribunal judiciaire de votre domicile dans un délai de deux mois à compter de la notification de la décision contestée.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "00bdl9887",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "mbkxo9886",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "y3ne39888",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "7myv71224",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Comment le Cabinet Plouton peut vous aider",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "8qmpo1226",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Face à la complexité des démarches liées au SARVI, l'accompagnement par un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "avocat spécialisé en droit des victimes",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/indemnisation-des-victimes/victimes-de-d%C3%A9lits-ou-crimes",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " peut s'avérer précieux à plusieurs niveaux.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "a2xe510390",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "qjaoe1230",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre accompagnement dans la procédure SARVI",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "84yon1232",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le Cabinet Plouton peut vous assister à chaque étape :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "5xu7e1234",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "6o0191235",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "yipfa1236",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Analyse de votre éligibilité au dispositif SARVI",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ev5ly1239",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "yywpt1240",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Constitution du dossier complet avec tous les documents nécessaires",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "hbgqo1243",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "1lis61244",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Suivi rigoureux des délais pour garantir la recevabilité de votre demande",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "f7g421247",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "t3vd41248",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Dialogue avec le SARVI en cas de difficultés ou de questions spécifiques",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "weysr1251",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "wn7nm1252",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Conseil sur les alternatives si vous n'êtes pas éligible au SARVI",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "5c2hi1255",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "inpzr1256",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Assistance en cas de contentieux relatif à la décision du SARVI",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ebqp010588",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "piwdm1259",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Nos conseils pour maximiser vos chances d'indemnisation",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "mh9gg1261",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour optimiser votre démarche auprès du SARVI, voici quelques recommandations du Cabinet Plouton :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "vclc11263",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "c5ntr1264",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "sev471265",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Agissez rapidement après la décision de justice, sans attendre la fin du délai d'un an",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "g0t6x1268",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "0ro0t1269",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Conservez soigneusement tous les documents relatifs à la procédure pénale",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "zdhrn1272",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "9g3fw1273",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Documentez toute tentative de recouvrement direct auprès du condamné",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "i4cyb1276",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "0cbd01277",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Préparez un dossier complet dès le premier envoi au SARVI",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "57ttf1280",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "a1vl81281",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Restez disponible pour fournir tout complément d'information demandé par le SARVI",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "kvy1u1284",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "1q53i1285",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "L'avis du Cabinet Plouton",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700.0
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " : \"Le SARVI est un dispositif précieux mais souvent méconnu des victimes. En tant qu'avocats spécialisés dans la défense des ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "victimes d'infractions pénales",
+                  "decorations": [
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.jplouton-avocat.fr/indemnisation-des-victimes/victimes-de-d%C3%A9lits-ou-crimes",
+                          "target": "BLANK"
+                        }
+                      }
+                    },
+                    {
+                      "type": "UNDERLINE"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", nous constatons que de nombreuses personnes renoncent à leurs droits faute d'information suffisante. N'hésitez pas à nous consulter pour évaluer vos possibilités d'indemnisation.\"",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0.0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ud4mh12209",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "mzdia12208",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "es57o12210",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "iibug1290",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Alternatives au SARVI : quelles autres options ?",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jiht61292",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si vous n'êtes pas éligible au SARVI ou si vous recherchez d'autres solutions, plusieurs alternatives existent :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ys4gj10791",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "399mn1294",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La Commission d'Indemnisation des Victimes d'Infractions (CIVI)",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "slx5d1296",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les préjudices corporels graves (",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "ITT",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/post/itt-pénale-définition-en-2025",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ≥ 30 jours) ou certains préjudices spécifiques (comme les agressions sexuelles), la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "CIVI",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.service-public.fr/particuliers/vosdroits/F2313",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " peut offrir une indemnisation intégrale, même sans condamnation préalable de l'auteur.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zvxg510985",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "594q21300",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le Fonds de Garantie des Assurances Obligatoires (FGAO)",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "autta1302",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "accidents de la circulation",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/indemnisation-des-victimes/accidents-de-la-route",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", le FGAO peut intervenir lorsque l'auteur est inconnu, non assuré ou que l'assureur fait défaut.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "b605e11179",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "48wgb1306",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'exécution forcée par huissier",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "37lfb1308",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si le montant des dommages et intérêts est important et que vous avez des informations sur la solvabilité du condamné, le recours direct à un huissier de justice peut être plus avantageux que le SARVI.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "sofa811371",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "tyem41310",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'aide juridictionnelle",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bqhci1312",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si vos ressources sont limitées, vous pouvez bénéficier de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "l'aide juridictionnelle",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.service-public.fr/particuliers/vosdroits/F18074",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour couvrir les frais liés au recours à un huissier de justice.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yqy5x5549",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "iza3p5548",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "DOUBLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "itjkl5550",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "iv4391326",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Article rédigé par le Cabinet Plouton, avocats au Barreau de Bordeaux spécialisés en droit des victimes et indemnisation du préjudice. Les informations contenues dans cet article sont d'ordre général et ne sauraient constituer un avis juridique personnalisé.  Pour toute question spécifique, veuillez consulter un professionnel du droit.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bjsuz1328",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dernière mise à jour : mars 2025",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {
+      "paragraph": {
+        "decorations": [
+          {
+            "type": "FONT_SIZE",
+            "fontSizeData": {
+              "unit": "PX",
+              "value": 14.0
+            }
+          }
+        ],
+        "nodeStyle": {}
+      }
+    }
+  }
+}

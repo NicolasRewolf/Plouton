@@ -1,0 +1,1164 @@
+{
+  "slug": "accident-de-la-circulation-indemnisation-à-hauteur-de-2-millions-d-euros-pour-une-victime-tétraplég",
+  "sourcePath": "/post/accident-de-la-circulation-indemnisation-à-hauteur-de-2-millions-d-euros-pour-une-victime-tétraplég",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "7wo2p3874",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Tétraplégique à la suite d’un accident de voiture en 2007, un homme de 41 ans a obtenu une indemnisation de plus de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "2 millions d’euros",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", grâce à l’action du ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cabinet Plouton",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "avocat spécialiste en ",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/indemnisation-des-victimes/accidents-de-la-route",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "accidents de la route",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/indemnisation-des-victimes/accidents-de-la-route",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " à Bordeaux.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "j0srv3882",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le contexte : un drame de la circulation",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dedoc4628",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hdhg63884",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Artan, réfugié politique albanais arrivé en France en 2000, vivait à Cenon, en banlieue bordelaise. Sans emploi, séparé de ses enfants et sans proches à ses côtés, il menait une vie discrète.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yk0v63886",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "12 décembre 2007",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", sa vie bascule. ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Assis à l’arrière d’un véhicule conduit par un ami,",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " il est victime d’un accident à Tizac-de-Curton : un fourgon, conduit par un homme sous l’emprise de stupéfiants, grille un stop à l’intersection avec la RD 936. Le choc est violent. ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Artan est éjecté et grièvement blessé",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Ses co-passagers sont également touchés.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "01l2s4755",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "1uc5a3892",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L’intervention du cabinet Plouton",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "q3asd3894",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Après des mois de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "coma, hospitalisation",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " au CHU Pellegrin, et de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "rééducation à la Tour de Gassies",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "consolidation médicale",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est constatée. « ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Rappelons que consolidation ne veut pas dire guérison mais signifie que l'état n'évolue plus",
+              "decorations": [
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " », précise ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Me Julien Plouton",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/notre-cabinet",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", son avocat.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "15kbj5006",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "thmrm3904",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Artan vit désormais en fauteuil roulant, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "avec 75 % de déficit fonctionnel",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", dépendant d’une aide permanente. Sa mère et un cousin ont été à son chevet, mais il a traversé cette épreuve dans une grande solitude.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "52vho5130",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "t4xt73908",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Face à cette situation, Me Plouton a engagé une procédure contre ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "l’assurance du conducteur fautif",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Dans son combat pour une réparation juste, le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "cabinet Plouton",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/indemnisation-des-victimes/accidents-de-la-route",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " a obtenu une décision du ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "tribunal de grande instance de Nanterre",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", le 10 septembre dernier, condamnant l’assurance à verser une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "indemnisation globale supérieure à 2 millions d’euros",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "style": {
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        "blockquoteData": {
+          "indentation": 0.0
+        },
+        "id": "kf19a3918",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "d8zmn3919",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "• ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#17475E"
+                      }
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16.0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "811 161,48 €",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700.0
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#17475E"
+                      }
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16.0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " au titre de divers préjudices : assistance, aménagements, déficit fonctionnel, douleurs, préjudices d’agrément, sexuel, esthétique, etc.",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#17475E"
+                      }
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16.0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "\n",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "\n",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "• ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#17475E"
+                      }
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16.0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "1 201 293,12 €",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700.0
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#17475E"
+                      }
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16.0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " sous forme de ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#17475E"
+                      }
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16.0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "rente viagère trimestrielle",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700.0
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#17475E"
+                      }
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16.0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", pour couvrir les besoins permanents de la victime.",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#17475E"
+                      }
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16.0
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO",
+                "lineHeight": "1"
+              },
+              "indentation": 0.0
+            }
+          }
+        ],
+        "type": "BLOCKQUOTE"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wuyj73927",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "« ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Son préjudice physique est saisissant d’évidence",
+              "decorations": [
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " », déclare Me Plouton. Hélas, cet accident a aussi accru sa vulnérabilité : ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "trois mois avant le jugement",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", Artan a été ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "victime d’une agression",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " à Bordeaux, avenue Thiers.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "7eqn33935",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un combat judiciaire prolongé et un résultat probant",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3jyva3937",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Depuis ce jugement, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "le cabinet Plouton a obtenu une indemnisation complémentaire de plus de 500 000 €",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", au titre de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "l’assistance tierce personne",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", montant initialement réservé par le Tribunal.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5f7pw3943",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce type d'intervention illustre l'engagement du cabinet dans la défense des victimes d'accidents corporels graves",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Pour un autre exemple de cas traité :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "9tcqt9133",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "LINK_PREVIEW",
+        "id": "ime0a9134",
+        "nodes": [],
+        "linkPreviewData": {
+          "description": "Le cabinet obtient plus de deux millions d'euros en réparation du préjudice corporel et économique de son client.",
+          "link": {
+            "url": "https://www.jplouton-avocat.fr/post/accident-de-moto-en-corse-le-cabinet-obtient-une-indemnisation-%C3%A0-hauteur-de-2-millions-d-euros-pou",
+            "target": "BLANK"
+          },
+          "containerData": {
+            "width": {
+              "size": "CONTENT"
+            },
+            "alignment": "CENTER",
+            "textWrap": true
+          },
+          "title": "Accident de moto en Corse : Le cabinet obtient une indemnisation à hauteur de 2 millions d’euros pour son client après un long combat judiciaire",
+          "thumbnailUrl": "https://static.wixstatic.com/media/nsplsh_6a28b86d44b349a29a3dd2682cae4b26~mv2.jpg/v1/fill/w_667,h_1000,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_6a28b86d44b349a29a3dd2682cae4b26~mv2.jpg"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "k7s6q3950",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {}
+  }
+}

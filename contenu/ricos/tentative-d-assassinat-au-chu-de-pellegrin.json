@@ -1,0 +1,190 @@
+{
+  "slug": "tentative-d-assassinat-au-chu-de-pellegrin",
+  "sourcePath": "/post/tentative-d-assassinat-au-chu-de-pellegrin",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "HEADING",
+        "id": "ew55t6972818",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Découvrez l'interview de Maitre Julien PLOUTON sur France3 Nouvelle-Aquitaine",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "VIDEO",
+        "id": "9zh8a6972819",
+        "nodes": [],
+        "videoData": {
+          "video": {
+            "src": {
+              "url": "https://www.youtube.com/watch?v=E0zuDOowJSc"
+            },
+            "duration": 89.0
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "6bd4y6972820",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le 10 mai 2016, vers 4 heures du matin, une aide-soignante du CHU de BORDEAUX subissait une agression au couteau d'une violence inouïe.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2eqj26972821",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Alors qu'elle effectuait son service de nuit aux urgences de l'hôpital Pellegrin, Madame S. recevait la visite d'une ancienne collègue et ami.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "807yw6972822",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une discussion s'engageait lorsque, sans raison apparente, la visiteuse portait à la victime plusieurs coups de couteau au niveau de la carotide, lequel couteau avait été préalablement dissimulé dans son soutien-gorge.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fej306972823",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Prise en charge rapidement par les services d'urgence, Madame S. a miraculeusement survécu.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "iwjix6972824",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans ce douloureux dossier, Maître PLOUTON s'emploiera à porter la parole des parties civiles  particulièrement dignes nonobstant la peur et l'effroi qui les habitent toujours plusieurs années après les faits.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "6hbas6972825",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Sans haine, les parties civiles cherchent simplement à obtenir des réponses et tenter de comprendre ce qui a pu pousser l'auteur des faits à tenter de tuer la victime laquelle l'avait pourtant soutenue dans le passé.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "IMAGE",
+        "id": "ox1d16972826",
+        "nodes": [],
+        "imageData": {
+          "containerData": {
+            "width": {
+              "custom": "800"
+            },
+            "alignment": "CENTER"
+          },
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/d05c9e_966996fa1ef4418f91eb0ad0ec00c975~mv2.jpg"
+            },
+            "width": 800.0,
+            "height": 1686.0
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0w8sy634",
+        "nodes": [],
+        "paragraphData": {}
+      }
+    ],
+    "documentStyle": {}
+  }
+}

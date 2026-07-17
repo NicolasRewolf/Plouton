@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Que faire en cas de refus de plainte ?",
+    "answer": "En cas de refus de prendre votre plainte, vous disposez de recours concrets. L'article 15-3 du Code de procédure pénale oblige les forces de l'ordre à enregistrer toute plainte : vous pouvez rappeler cette obligation au guichet ou demander à parler au responsable de service.\n\nSi le refus persiste, adressez votre plainte directement au Procureur de la République par lettre recommandée avec accusé de réception, en exposant les faits et en joignant vos éléments de preuve. Le Procureur est compétent pour ordonner l'ouverture d'une enquête.\n\nVous pouvez également signaler le refus au Défenseur des droits, autorité indépendante habilitée à intervenir en cas de manquement des forces de l'ordre à leurs obligations légales.",
+    "sousExpertise": "Dépôt de plainte"
+  },
+  {
+    "question": "Quels sont les délais de prescription pour porter plainte ?",
+    "answer": "Les délais de prescription de l'action publique varient selon la gravité de l'infraction : 20 ans pour les crimes, 6 ans pour les délits et 1 an pour les contraventions. Ces délais courent en principe à compter du jour de l'infraction.\n\nCertains délais sont allongés par la loi. Pour les infractions sexuelles commises sur mineurs, le délai est de 30 ans à compter de la majorité de la victime. Pour les crimes contre l'humanité, l'action est imprescriptible.\n\nPassé ces délais, le dépôt de plainte reste possible mais les poursuites pénales ne pourront plus aboutir. Un avocat peut vous aider à identifier le délai applicable à votre situation avant qu'il ne soit trop tard.",
+    "sousExpertise": "Dépôt de plainte"
+  },
+  {
+    "question": "Quand faut-il déposer plainte après une infraction ?",
+    "answer": "Déposez plainte dès que vous êtes victime d'une infraction pénale : vol, escroquerie, violences, atteinte à la vie privée ou à l'honneur. Agir rapidement est essentiel pour ne pas dépasser le délai de prescription, au-delà duquel les poursuites deviennent impossibles.\n\nCes délais varient selon la gravité de l'infraction :\n\n— 3 ans pour les contraventions\n— 6 ans pour les délits\n— 20 ans pour les crimes (article 7 du Code de procédure pénale), avec des exceptions pouvant allonger ce délai\n\nPassé ces délais, le parquet ne peut plus engager de poursuites. En cas de doute sur la qualification de l'infraction ou sur le délai applicable à votre situation, un avocat pénaliste peut vous orienter avant qu'il ne soit trop tard.",
+    "sousExpertise": "Dépôt de plainte"
+  },
+  {
+    "question": "Comment déposer plainte ?",
+    "answer": "Vous pouvez déposer plainte dans nʼimporte quel commissariat de police ou brigade de gendarmerie, ou directement par courrier auprès du Procureur de la République. Les officiers de police judiciaire ont lʼobligation de recevoir votre plainte, même si les faits se sont produits hors de leur ressort territorial.\n\nVotre plainte doit préciser les faits, leur date et lieu, les circonstances, lʼidentité de lʼauteur si vous la connaissez, et les preuves dont vous disposez.\n\nUn récépissé vous est remis immédiatement. Il mentionne les délais de prescription applicables (1 an pour une contravention, 6 ans pour un délit, 20 ans pour un crime) et votre droit à vous constituer partie civile. Une copie du procès-verbal vous est délivrée sur demande.",
+    "sousExpertise": "Dépôt de plainte"
+  }
+]

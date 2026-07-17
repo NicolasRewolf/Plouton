@@ -1,0 +1,3259 @@
+{
+  "slug": "sinistre-habitation-recours-assurance",
+  "sourcePath": "/post/sinistre-habitation-recours-assurance",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "p1",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une fuite a traversé votre plafond. Un incendie a ravagé votre logement. Des fissures lézardent vos murs depuis la sécheresse. Vous avez déclaré, attendu, relancé — et en face, c'est le silence, un refus, ou un chèque qui ne couvre rien.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p2",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ih8xq1918",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "On ne vous a peut-être jamais dit que, face à votre assureur, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "vous avez des droits précis et des leviers concrets",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " — y compris pour le contraindre à payer. C'est normal de se sentir démuni : il connaît les règles, vous les découvrez dans l'urgence.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p3",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les dégâts des eaux représentent à eux seuls ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "43,7 % des sinistres habitation indemnisés en 2024",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "France Assureurs",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.franceassureurs.fr/wp-content/uploads/lassurance-habitation-en-2024.pdf",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ") ; l'incendie, rare, peut engloutir une vie entière ; et ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "10,4 millions de maisons",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " sont exposées au phénomène de sécheresse qui fissure les murs (",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "SDES / BRGM",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-risques-naturels/23-retrait-gonflement-des-argiles",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "). Derrière ces chiffres, des milliers de personnes bloquées comme vous l'êtes aujourd'hui.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p4",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "va9nd1707",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce que ce guide vous apporte :",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " les premiers réflexes et les délais à ne pas laisser filer ; comment réagir quand l'assureur traîne, refuse une garantie ou sous-indemnise ; vos leviers, de la mise en demeure au référé-provision, jusqu'au tribunal ; et les règles propres à la catastrophe naturelle et aux locaux professionnels.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p5",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Depuis plus de vingt ans, à Bordeaux, nous accompagnons des particuliers et des professionnels qui affrontent leur assureur — et nous obtenons leur indemnisation, parfois après l'avoir fait condamner.",
+              "decorations": [
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "bq7",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "p6",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Votre sinistre est au point mort, ou l'offre de l'assureur vous semble dérisoire ?",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " Ce guide couvre l'essentiel des situations que nous voyons au cabinet, et vous pouvez avancer seul sur beaucoup d'étapes. Mais pour les blocages lourds — refus de garantie, expertise sous-évaluée, dossier à fort enjeu — vous n'êtes pas obligé de rester seul face à la compagnie. C'est exactement là qu'un avocat fait la différence. ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Si vous voulez en parler, un premier échange est sans engagement.",
+                  "decorations": [
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.jplouton-avocat.fr/honoraires-rendez-vous",
+                          "target": "BLANK"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "d8",
+        "nodes": [],
+        "dividerData": {
+          "lineStyle": "SINGLE",
+          "width": "MEDIUM",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "h9",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pourquoi le rapport de force penche — et vos premiers réflexes",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p10",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Votre assureur n'est pas un ennemi par nature. Mais c'est une entreprise qui défend ses comptes, face à un assuré qui découvre les règles au pire moment de sa vie. Tout part d'un principe simple : l'assurance de dommages ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "répare votre préjudice, sans vous enrichir",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " — c'est le principe indemnitaire (",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "article L121-1",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006792236",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " du code des assurances). Délais, expertise, montant : les désaccords naissent tous dans l'application de cette règle.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p11",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dès les premiers jours, trois réflexes protègent vos droits.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "ul18",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "li12",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "p13",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Déclarez vite.",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Le délai minimum est de ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "5 jours ouvrés",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " (2 jours en cas de vol), porté à ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "30 jours après un arrêté de catastrophe naturelle",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " (",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "article L113-2",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006791998/",
+                              "target": "BLANK"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ").",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "li14",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "p15",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Conservez tout.",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Photos, vidéos, devis, factures d'achat : ne jetez rien avant le passage de l'expert. Pour un sinistre lourd, un constat d'huissier fige les dégâts.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "li16",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "p17",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Notez la date.",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Dès le sinistre, un compte à rebours démarre : vous avez ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "deux ans",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " pour agir (nous y revenons en fin de guide).",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "bq20",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "p19",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Les chiffres à connaître.",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " En 2024, les dégâts des eaux ont représenté 43,7 % des sinistres habitation indemnisés, pour 2,39 milliards d'euros (sur 8,0 milliards de charge totale) ; l'incendie, à peine 3,6 % des sinistres, en a concentré le quart (2,04 milliards) — rare, mais dévastateur ; les événements naturels ont coûté 4,9 milliards, dont 2,6 pour l'habitation. Source : ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "France Assureurs, « L'assurance habitation en 2024 »",
+                  "decorations": [
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.franceassureurs.fr/wp-content/uploads/lassurance-habitation-en-2024.pdf",
+                          "target": "BLANK"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ".",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "d21",
+        "nodes": [],
+        "dividerData": {
+          "lineStyle": "SINGLE",
+          "width": "MEDIUM",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "h22",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quand l'assureur traîne ou ne répond plus",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p23",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "« Trois mois, six mois, parfois des années sans nouvelle. » C'est le reproche que nous entendons le plus. Pendant ce temps, vous avancez le relogement et les réparations de votre poche. Vous n'êtes pas sans moyens.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "h24",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La mise en demeure, pour faire courir la pression",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p25",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Hors catastrophe naturelle, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "aucun délai légal général",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " n'impose à l'assureur de vous indemniser dans un temps donné : ce délai est fixé par votre contrat. D'où l'importance d'une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "mise en demeure par lettre recommandée",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Elle fait courir les ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "intérêts de retard",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et, surtout, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "interrompt la prescription",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "article L114-2",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006792205",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ").",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "h26",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le médiateur de l'Assurance, gratuit mais non décisif",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p27",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vous pouvez saisir gratuitement le Médiateur de l'Assurance. Le recours explose : ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "36 540 saisines en 2024",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (+19 %), et les assurés obtiennent satisfaction, en tout ou partie, dans ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "55 % des cas",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "LMA, rapport 2024",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.mediation-assurance.org/",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "). Une réserve, que les assureurs taisent volontiers : ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "son avis ne s'impose pas",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " à la compagnie, qui peut l'ignorer, et le délai moyen atteint sept mois. C'est une étape utile, rarement la dernière.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "h28",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le référé-provision, pour obtenir vite",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p29",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quand le principe de la garantie n'est pas sérieusement discutable, vous n'avez pas à attendre un procès complet pour toucher de l'argent.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "bq31",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "p30",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Définition. Référé-provision",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " — procédure d'urgence (",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "article 835 du code de procédure civile",
+                  "decorations": [
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042597284/",
+                          "target": "BLANK"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ") permettant d'obtenir rapidement une avance sur votre indemnité dès lors que l'obligation de l'assureur n'est pas sérieusement contestable, sans attendre le jugement sur le fond.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p32",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C'est souvent le levier décisif quand vous devez vous reloger et engager les premiers travaux. Pour faire le point, voyez ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "notre accompagnement en droit des assurances",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/droit-des-contrats-et-des-personnes/droit-assurances-particuliers-professionnels",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", pour les particuliers comme pour les professionnels.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "d33",
+        "nodes": [],
+        "dividerData": {
+          "lineStyle": "SINGLE",
+          "width": "MEDIUM",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "h34",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quand l'assureur refuse sa garantie",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p35",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un refus n'est pas le dernier mot. Deux motifs reviennent sans cesse, et tous deux se contestent.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "h36",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'exclusion de garantie",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p37",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour vous opposer une exclusion, l'assureur doit l'avoir rédigée de façon ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "formelle et limitée",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " : claire, précise, repérable dans le contrat. Une exclusion vague, ambiguë ou noyée dans les conditions générales s'interprète ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "contre celui qui l'a écrite",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " — donc en votre faveur.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "h38",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La « fausse déclaration »",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p39",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C'est le motif de refus le plus fréquent, et le plus surévalué. Pour annuler votre contrat (",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "article L113-8",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006792058/",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "), l'assureur doit réunir trois conditions : une fausse déclaration ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "intentionnelle",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", qui a ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "changé l'objet ou son opinion du risque",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", et — la Cour de cassation y veille — ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "la preuve qu'il vous a posé des questions précises",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (Cass. ch. mixte, 7 février 2014, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "n° 12-85.107",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000028574768/",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "). Une mention « lu et approuvé » ne suffit pas. Et sans mauvaise foi prouvée, il n'y a pas de nullité : seulement une réduction proportionnelle de l'indemnité (",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "article L113-9",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006792066",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ") — pas zéro.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "bq41",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "p40",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Ce qu'un juge a tranché.",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " Notre cabinet a fait condamner un assureur à verser ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "600 000 €",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " à notre cliente après l'incendie de sa maison en Gironde. L'assureur refusait toute garantie pour « fausse déclaration » — deux résiliations antérieures non signalées. Le tribunal a écarté ce refus : la compagnie ne démontrait pas que cette déclaration avait modifié le risque incendie. ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Lire cette affaire (TJ Bordeaux, 11 juillet 2024)",
+                  "decorations": [
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.jplouton-avocat.fr/post/sinistre-incendie-l-assurance-condamn%C3%A9-%C3%A0-indemniser-notre-cliente-%C3%A0-hauteur-de-600-000-malgr%C3%A9-son",
+                          "target": "BLANK"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ".",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "d42",
+        "nodes": [],
+        "dividerData": {
+          "lineStyle": "SINGLE",
+          "width": "MEDIUM",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "h43",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quand on vous sous-indemnise",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p44",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'assureur reconnaît le sinistre, mais le chiffre proposé vous semble dérisoire. Le plus souvent, deux mécanismes plombent l'offre : la vétusté et l'expertise.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "bq46",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "p45",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Définition. Vétusté",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " — dépréciation d'un bien liée à son ancienneté et à son usure. Déduite de l'indemnité en « valeur d'usage », elle est neutralisée, en tout ou partie, par une garantie « valeur à neuf ».",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "h47",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vétusté, valeur d'usage, valeur à neuf",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p48",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Par défaut, l'assureur indemnise en ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "valeur d'usage",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " : la reconstruction, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "vétusté déduite",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". La garantie ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "valeur à neuf",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " supprime cette décote — mais le complément est généralement ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "plafonné à 25 % de vétusté",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et suppose une reconstruction effective sous deux ans. Vérifiez ce que dit votre contrat : c'est lui qui commande.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "h49",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Reconstruction à l'identique, pas valeur vénale",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p50",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si votre contrat garantit la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "reconstruction à l'identique",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", l'assureur ne peut vous imposer la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "valeur vénale",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " du bien — c'est-à-dire son prix de revente, souvent bien inférieur, surtout en zone rurale. La confusion entre les deux est une source classique de sous-indemnisation.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "h51",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Contester l'expertise",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p52",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'expert qui chiffre les dommages est mandaté et payé par l'assureur. Vous pouvez lui opposer ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "votre propre expert",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (contre-expertise) ; en cas de désaccord persistant, une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "tierce expertise",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " départage, ses frais étant partagés. Le coût de votre expert reste à votre charge, sauf si votre contrat prévoit une clause « honoraires d'expert d'assuré ».",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "bq54",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "p53",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Vous trouvez l'offre sous-évaluée et vous ne savez pas comment la contester ? ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Faites le point avec notre cabinet",
+                  "decorations": [
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.jplouton-avocat.fr/droit-des-contrats-et-des-personnes/droit-assurances-particuliers-professionnels",
+                          "target": "BLANK"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " avant de signer quoi que ce soit.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "d55",
+        "nodes": [],
+        "dividerData": {
+          "lineStyle": "SINGLE",
+          "width": "MEDIUM",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "h56",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Catastrophe naturelle et sécheresse-fissures",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p57",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La sécheresse fait gonfler puis se rétracter les sols argileux, et fissure les maisons. Le phénomène est massif — et son régime d'indemnisation, semé de pièges.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "bq59",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "p58",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Les chiffres à connaître.",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " 10,4 millions de maisons individuelles, soit 54 % du parc, sont exposées au retrait-gonflement des argiles ; 48 % du territoire est concerné. Devenu le premier risque du régime catastrophe naturelle, il a coûté 3,5 milliards d'euros en 2022. Sources : ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "SDES",
+                  "decorations": [
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-risques-naturels/23-retrait-gonflement-des-argiles",
+                          "target": "BLANK"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", CCR, Mission Risques Naturels.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "h60",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le mécanisme catastrophe naturelle",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p61",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La garantie ne se déclenche qu'avec un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "arrêté interministériel",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " reconnaissant l'état de catastrophe naturelle pour votre commune, publié au Journal officiel. Sans arrêté, pas d'indemnisation cat-nat. Vous avez ensuite ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "30 jours",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour déclarer. L'assureur dispose d'",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "un mois",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour vous informer et missionner l'expert, d'",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "un mois",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour proposer une indemnisation après le rapport, et doit verser une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "provision sous deux mois",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "article L125-2",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044607736/",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ").",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "h62",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pourquoi des fissures sont refusées",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p63",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Depuis l'",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "ordonnance du 8 février 2023",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047106316",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (applicable depuis 2024), la garantie sécheresse ne couvre que les dommages qui ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "affectent la solidité du bâti",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ou ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "empêchent un usage normal",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " du logement. Les microfissures purement esthétiques sont écartées — d'où de nombreux refus. L'enjeu, en Nouvelle-Aquitaine comme ailleurs, est de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "démontrer par expertise",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " que les fissures menacent la structure, et non de se contenter du refus.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "d64",
+        "nodes": [],
+        "dividerData": {
+          "lineStyle": "SINGLE",
+          "width": "MEDIUM",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "h65",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Local professionnel et passage au judiciaire",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p66",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un commerce, un hôtel, une exploitation agricole frappés par un sinistre, ce sont les mêmes blocages — mais des enjeux décuplés, car s'y ajoute la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "perte d'exploitation",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " : la marge que vous ne réalisez plus pendant l'arrêt d'activité.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "bq68",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "p67",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Ce qu'un juge a tranché.",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " Après l'incendie d'une pâtisserie bordelaise, l'assureur n'avait versé qu'une fraction de l'indemnité de perte d'exploitation. Notre cabinet l'a fait condamner à verser l'",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "intégralité — 1 557 432 €",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " (TGI Bordeaux). ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Lire cette affaire",
+                  "decorations": [
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.jplouton-avocat.fr/post/perte-d-exploitation-de-la-patisserie-antoine-le-cabinet-fait-condamner-l-assureur-a-verser-plus-d",
+                          "target": "BLANK"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ".",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "h69",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Référé, fond, et le compte à rebours des deux ans",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p70",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Face à un blocage durable, deux voies se combinent : le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "référé-provision",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour obtenir vite une avance, et l'",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "action au fond",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (avec expertise judiciaire) pour le solde. Mais une échéance commande tout.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "bq72",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "p71",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Attention au délai.",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " Toute action contre votre assureur se prescrit par ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "deux ans",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " (",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "article L114-1",
+                  "decorations": [
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044607740",
+                          "target": "BLANK"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "). Vous pouvez l'",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "interrompre",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " par une lettre recommandée réclamant le règlement de l'indemnité, par la désignation d'un expert ou par une assignation. Et une arme méconnue : si votre contrat ne rappelle pas ce délai et ses causes d'interruption, l'assureur ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "ne peut pas vous l'opposer",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " (Cass. 2ᵉ civ., 28 avril 2011, n° 10-16.403).",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p73",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C'est souvent là qu'un avocat change la donne : construire la stratégie, choisir le bon levier, et ne pas laisser filer le délai.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "d74",
+        "nodes": [],
+        "dividerData": {
+          "lineStyle": "SINGLE",
+          "width": "MEDIUM",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "h75",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vous n'avez pas à affronter seul votre assureur",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p76",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un sinistre, c'est déjà une épreuve. Le combat avec l'assureur ne devrait pas en être une seconde. Aucun guide ne remplace l'examen d'un dossier réel : si le vôtre vous dépasse — refus, lenteur, offre sous-évaluée, fissures contestées — ne restez pas seul.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p77",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Depuis plus de vingt ans, à Bordeaux et en Nouvelle-Aquitaine, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "nous obtenons l'indemnisation des particuliers et des professionnels",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " face à leur compagnie, à l'amiable quand c'est possible, devant le juge quand il le faut. ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Prendre rendez-vous avec le Cabinet Plouton",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/honoraires-rendez-vous",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " — premier échange sans engagement.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "d78",
+        "nodes": [],
+        "dividerData": {
+          "lineStyle": "SINGLE",
+          "width": "MEDIUM",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "h79",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À propos de l'auteur",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "bq83",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "p80",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Maître Julien Plouton",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " — avocat au Barreau de Bordeaux, a prêté serment en 2004 après une formation à l'École de Formation du Barreau de Paris (EFB). Diplômé d'un ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "DESS en droit des affaires et fiscalité",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", d'un ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "DEA en droit européen",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " et d'un ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "master spécialisé HEC en droit et management international",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", il a fondé le ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Cabinet Plouton en 2009",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", situé au 45 Cours d'Alsace-et-Lorraine à Bordeaux.",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "\n",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Il est membre de l'",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Institut du Dommage Corporel (IDC)",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", de l'",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Association des Avocats Pénalistes (ADAP)",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " et de l'",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Institut du Droit des Affaires du Barreau de Bordeaux (IDA)",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ". Depuis plus de vingt ans, il accompagne les particuliers et les professionnels en litige avec leur assureur en Nouvelle-Aquitaine et au-delà.",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "\n",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "En savoir plus sur le cabinet",
+                  "decorations": [
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.jplouton-avocat.fr/notre-cabinet",
+                          "target": "BLANK"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " • ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Demander un premier rendez-vous",
+                  "decorations": [
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.jplouton-avocat.fr/honoraires-rendez-vous",
+                          "target": "BLANK"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p84",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dernière mise à jour : juin 2026.",
+              "decorations": [
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {}
+      }
+    ],
+    "documentStyle": {}
+  }
+}

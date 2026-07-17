@@ -1,0 +1,841 @@
+{
+  "slug": "dossier-air-cocaïne-notre-client-reste-libre-avec-une-peine-de-4-ans-d-emprisonnement",
+  "sourcePath": "/post/dossier-air-cocaïne-notre-client-reste-libre-avec-une-peine-de-4-ans-d-emprisonnement",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "jo1623430",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Bordeaux, JIRS, du 4 au 15 janvier 2021 – Au terme de trois semaines d'audience intense, le deuxième volet de l'affaire \"Air Cocaïne\" s'est achevé devant la Juridiction Interrégionale Spécialisée de Bordeaux. Face à des réquisitions extrêmement lourdes, le cabinet a obtenu pour son client une relaxe partielle et une peine largement inférieure, lui permettant de rester libre.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "v29q13734",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "n1uvz3432",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Contexte : une affaire internationale, 1,2 tonne de cocaïne saisie",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3j7sh3434",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour rappel, ce procès jugeait 24 prévenus de diverses nationalités pour leur rôle présumé dans un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "trafic international de stupéfiants",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/trafic-de-stup%C3%A9fiant",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " en provenance de Colombie. L'enquête, menée conjointement par les services français et américains, avait abouti en novembre 2017 à une vague d’interpellations à Bordeaux et Lacanau, avec la saisie de 1,2 tonne de cocaïne et 350 000 euros.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gk0dy3438",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre client, Monsieur P., comparaissait libre à l'audience après avoir déjà effectué près de trois ans de détention provisoire.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "qcssd3440",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Des réquisitions démesurées face à un rôle marginal",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tls8m3442",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Contre notre client, le Ministère Public avait formulé des réquisitions d'une sévérité extrême :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "l0wx23444",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "84etr3445",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "xsbhs3446",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "9 ans d’emprisonnement",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " avec mandat de dépôt.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ck9yu3449",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "e0ci33450",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "200 000 euros d’amende",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ".",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "tdejx3453",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "rhs023454",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "interdiction définitive du territoire français",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ".",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "h6wdm3458",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ces demandes semblaient totalement déconnectées de la réalité du dossier et du rôle véritable de Monsieur P.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "8qs253460",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La stratégie de défense : Rétablir la vérité du dossier",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "28mkh3462",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La plaidoirie de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Maître Plouton",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " s'est attachée à démontrer deux points essentiels :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "z9zq53466",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "muq9p3467",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "cr0vd3468",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le véritable rôle de Monsieur P. :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Contrairement aux accusations portées par l'un de ses co-prévenus, notre client n'avait qu'un rôle marginal dans cette affaire.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "f38fr3471",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "s15rk3472",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'absence de preuves :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Aucun élément matériel dans le dossier ne permettait de caractériser l'infraction la plus grave, l'importation de produits stupéfiants, à son encontre.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "009a83475",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le verdict : Relaxe, condamnation allégée et pas de retour en prison",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "y5deu3477",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le tribunal a suivi l'argumentaire de la défense. Monsieur P. a été ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "relaxé du chef d’importation",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et reconnu coupable de trafic de stupéfiants et d'association de malfaiteurs.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jv5a83481",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La peine prononcée est bien en deçà des réquisitions :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "x7qkj3483",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "73o433484",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "p9h5a3485",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "4 ans d’emprisonnement sans mandat de dépôt",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ".",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "o2b813488",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "06bk63489",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "28 000 euros d’amende",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ".",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "1xjfc3492",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "2bzw13493",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Aucune interdiction du territoire français",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ".",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "f820y3496",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Compte tenu de la détention provisoire déjà effectuée et des remises de peine, seuls quelques mois resteront à aménager. Monsieur P. est donc ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "resté libre à l'issue de l'audience",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", un véritable soulagement qui vient clore une longue procédure judiciaire.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {}
+  }
+}

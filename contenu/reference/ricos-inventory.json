@@ -1,0 +1,272 @@
+{
+  "generatedAt": "2026-07-17",
+  "postsScanned": 422,
+  "nodeTypes": {
+    "BLOCKQUOTE": {
+      "count": 133,
+      "exampleSlug": "abandon-de-poste-quels-risques"
+    },
+    "BULLETED_LIST": {
+      "count": 977,
+      "exampleSlug": "100-000-d-indemnisation-pour-la-famille-de-la-victime-d-un-meurtre-jugé-par-la-cour-d-assises-de-l"
+    },
+    "BUTTON": {
+      "count": 17,
+      "exampleSlug": "affaire-christophe-b-gironde-une-enquête-criminelle-d-envergure"
+    },
+    "CAPTION": {
+      "count": 5,
+      "exampleSlug": "affaire-baquey-maître-plouton-l-heure-du-crime-rtl"
+    },
+    "CODE_BLOCK": {
+      "count": 1,
+      "exampleSlug": "casier-judiciaire-comprendre-et-effacer"
+    },
+    "COLLAPSIBLE_ITEM": {
+      "count": 104,
+      "exampleSlug": "arnaque-en-ligne-victime-escroquerie-recours"
+    },
+    "COLLAPSIBLE_ITEM_BODY": {
+      "count": 104,
+      "exampleSlug": "arnaque-en-ligne-victime-escroquerie-recours"
+    },
+    "COLLAPSIBLE_ITEM_TITLE": {
+      "count": 104,
+      "exampleSlug": "arnaque-en-ligne-victime-escroquerie-recours"
+    },
+    "COLLAPSIBLE_LIST": {
+      "count": 18,
+      "exampleSlug": "arnaque-en-ligne-victime-escroquerie-recours"
+    },
+    "DIVIDER": {
+      "count": 412,
+      "exampleSlug": "abandon-de-poste-quels-risques"
+    },
+    "FILE": {
+      "count": 1,
+      "exampleSlug": "féminicide-de-nasrine-à-cenon"
+    },
+    "GALLERY": {
+      "count": 9,
+      "exampleSlug": "affaire-chahinez-daoud-mise-en-accusation-pour-assassinat-confirmée"
+    },
+    "HEADING": {
+      "count": 3057,
+      "exampleSlug": "100-000-d-indemnisation-pour-la-famille-de-la-victime-d-un-meurtre-jugé-par-la-cour-d-assises-de-l"
+    },
+    "HTML": {
+      "count": 6,
+      "exampleSlug": "affaire-chahinez-un-féminicide-qui-aurait-pu-être-évité"
+    },
+    "IMAGE": {
+      "count": 74,
+      "exampleSlug": "accusé-de-viol-il-avait-été-incarcéré-trois-ans-avant-d-être-acquitté-par-la-cour-d-assises"
+    },
+    "LAYOUT": {
+      "count": 2,
+      "exampleSlug": "sarvi-ou-civi-indemnisation-victimes"
+    },
+    "LAYOUT_CELL": {
+      "count": 3,
+      "exampleSlug": "sarvi-ou-civi-indemnisation-victimes"
+    },
+    "LINK_PREVIEW": {
+      "count": 45,
+      "exampleSlug": "accident-de-la-circulation-indemnisation-à-hauteur-de-2-millions-d-euros-pour-une-victime-tétraplég"
+    },
+    "LIST_ITEM": {
+      "count": 3622,
+      "exampleSlug": "100-000-d-indemnisation-pour-la-famille-de-la-victime-d-un-meurtre-jugé-par-la-cour-d-assises-de-l"
+    },
+    "ORDERED_LIST": {
+      "count": 173,
+      "exampleSlug": "abandon-de-poste-quels-risques"
+    },
+    "PARAGRAPH": {
+      "count": 20790,
+      "exampleSlug": "100-000-d-indemnisation-pour-la-famille-de-la-victime-d-un-meurtre-jugé-par-la-cour-d-assises-de-l"
+    },
+    "TABLE": {
+      "count": 76,
+      "exampleSlug": "abandon-de-poste-quels-risques"
+    },
+    "TABLE_CELL": {
+      "count": 1379,
+      "exampleSlug": "abandon-de-poste-quels-risques"
+    },
+    "TABLE_ROW": {
+      "count": 436,
+      "exampleSlug": "abandon-de-poste-quels-risques"
+    },
+    "TEXT": {
+      "count": 36394,
+      "exampleSlug": "100-000-d-indemnisation-pour-la-famille-de-la-victime-d-un-meurtre-jugé-par-la-cour-d-assises-de-l"
+    },
+    "VIDEO": {
+      "count": 16,
+      "exampleSlug": "affaire-baquey-maître-plouton-l-heure-du-crime-rtl"
+    }
+  },
+  "decorationTypes": {
+    "ANCHOR": {
+      "count": 71,
+      "exampleSlug": "accident-du-travail-comment-obtenir-votre-indemnisation"
+    },
+    "BOLD": {
+      "count": 7382,
+      "exampleSlug": "100-000-d-indemnisation-pour-la-famille-de-la-victime-d-un-meurtre-jugé-par-la-cour-d-assises-de-l"
+    },
+    "COLOR": {
+      "count": 4929,
+      "exampleSlug": "abandon-de-poste-quels-risques"
+    },
+    "FONT_SIZE": {
+      "count": 1007,
+      "exampleSlug": "abandon-de-poste-quels-risques"
+    },
+    "ITALIC": {
+      "count": 553,
+      "exampleSlug": "5-8-millions-d-euros-détournés-chez-des-notaires"
+    },
+    "LINK": {
+      "count": 1758,
+      "exampleSlug": "100-000-d-indemnisation-pour-la-famille-de-la-victime-d-un-meurtre-jugé-par-la-cour-d-assises-de-l"
+    },
+    "SUPERSCRIPT": {
+      "count": 23,
+      "exampleSlug": "accident-du-travail-comment-obtenir-votre-indemnisation"
+    },
+    "UNDERLINE": {
+      "count": 1785,
+      "exampleSlug": "100-000-d-indemnisation-pour-la-famille-de-la-victime-d-un-meurtre-jugé-par-la-cour-d-assises-de-l"
+    }
+  },
+  "nodeDataKeys": {
+    "blockquoteData": {
+      "count": 133,
+      "exampleSlug": "abandon-de-poste-quels-risques"
+    },
+    "bulletedListData": {
+      "count": 977,
+      "exampleSlug": "100-000-d-indemnisation-pour-la-famille-de-la-victime-d-un-meurtre-jugé-par-la-cour-d-assises-de-l"
+    },
+    "buttonData": {
+      "count": 17,
+      "exampleSlug": "affaire-christophe-b-gironde-une-enquête-criminelle-d-envergure"
+    },
+    "captionData": {
+      "count": 1,
+      "exampleSlug": "affaire-sylvia-iannello-à-martigues-un-féminicide-doublé-de-carences-dans-la-prise-en-charge-des-a"
+    },
+    "codeBlockData": {
+      "count": 1,
+      "exampleSlug": "casier-judiciaire-comprendre-et-effacer"
+    },
+    "collapsibleListData": {
+      "count": 18,
+      "exampleSlug": "arnaque-en-ligne-victime-escroquerie-recours"
+    },
+    "dividerData": {
+      "count": 412,
+      "exampleSlug": "abandon-de-poste-quels-risques"
+    },
+    "fileData": {
+      "count": 1,
+      "exampleSlug": "féminicide-de-nasrine-à-cenon"
+    },
+    "galleryData": {
+      "count": 9,
+      "exampleSlug": "affaire-chahinez-daoud-mise-en-accusation-pour-assassinat-confirmée"
+    },
+    "headingData": {
+      "count": 3057,
+      "exampleSlug": "100-000-d-indemnisation-pour-la-famille-de-la-victime-d-un-meurtre-jugé-par-la-cour-d-assises-de-l"
+    },
+    "htmlData": {
+      "count": 6,
+      "exampleSlug": "affaire-chahinez-un-féminicide-qui-aurait-pu-être-évité"
+    },
+    "imageData": {
+      "count": 74,
+      "exampleSlug": "accusé-de-viol-il-avait-été-incarcéré-trois-ans-avant-d-être-acquitté-par-la-cour-d-assises"
+    },
+    "layoutCellData": {
+      "count": 3,
+      "exampleSlug": "sarvi-ou-civi-indemnisation-victimes"
+    },
+    "layoutData": {
+      "count": 2,
+      "exampleSlug": "sarvi-ou-civi-indemnisation-victimes"
+    },
+    "linkPreviewData": {
+      "count": 45,
+      "exampleSlug": "accident-de-la-circulation-indemnisation-à-hauteur-de-2-millions-d-euros-pour-une-victime-tétraplég"
+    },
+    "orderedListData": {
+      "count": 173,
+      "exampleSlug": "abandon-de-poste-quels-risques"
+    },
+    "paragraphData": {
+      "count": 20790,
+      "exampleSlug": "100-000-d-indemnisation-pour-la-famille-de-la-victime-d-un-meurtre-jugé-par-la-cour-d-assises-de-l"
+    },
+    "tableCellData": {
+      "count": 1379,
+      "exampleSlug": "abandon-de-poste-quels-risques"
+    },
+    "tableData": {
+      "count": 76,
+      "exampleSlug": "abandon-de-poste-quels-risques"
+    },
+    "videoData": {
+      "count": 16,
+      "exampleSlug": "affaire-baquey-maître-plouton-l-heure-du-crime-rtl"
+    }
+  },
+  "visualTestRepresentatives": {
+    "mostTableNodes": [
+      {
+        "slug": "mis-en-cause-temoin-assiste-prevenu-accuse-differences",
+        "tables": 10
+      },
+      {
+        "slug": "la-détention-domiciliaire-sous-surveillance-électronique-ddse-comprendre",
+        "tables": 6
+      },
+      {
+        "slug": "loi-badinter-85-comprendre-vos-droits-à-indemnisation-après-un-accident-de-la-route",
+        "tables": 6
+      },
+      {
+        "slug": "l-assignation-à-résidence-sous-surveillance-électronique-arse-comprendre",
+        "tables": 5
+      },
+      {
+        "slug": "sarvi-comment-récupérer-vos-dommages-et-intérêts-après-une-condamnation-pénale",
+        "tables": 4
+      }
+    ],
+    "mostImageAndListNodes": [
+      {
+        "slug": "bail-commercial-la-révision-du-loyer-comment-est-ce-que-cela-fonctionne",
+        "imagePlusListNodes": 32
+      },
+      {
+        "slug": "contrôle-coercitif-reconnaître-agir",
+        "imagePlusListNodes": 31
+      },
+      {
+        "slug": "demander-une-ordonnance-de-protection-en-2025",
+        "imagePlusListNodes": 29
+      },
+      {
+        "slug": "indemnisation-accident-moto-motard",
+        "imagePlusListNodes": 19
+      },
+      {
+        "slug": "l-aménagement-de-peine-comment-peut-il-s-appliquer",
+        "imagePlusListNodes": 19
+      }
+    ]
+  }
+}

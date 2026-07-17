@@ -1,0 +1,691 @@
+{
+  "slug": "maitre-plouton-interview-france3-affaire-cantat",
+  "sourcePath": "/post/maitre-plouton-interview-france3-affaire-cantat",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "aiww410",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le 24 juillet 2025, le Parquet de Bordeaux a annoncé la réouverture de l’enquête sur la mort de Krisztina Rády, l’ex-compagne de Bertrand Cantat, survenue en 2010. Cette décision, jugée « exceptionnelle » par de nombreuses associations de défense des femmes, fait suite à la diffusion du documentaire Netflix « De Rockstar à tueur : le cas Cantat », qui a mis en lumière de nouveaux témoignages.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pnewb12",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ghiq613",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À la demande de France 3, Me Julien Plouton, avocat pénaliste à Bordeaux, est intervenu pour analyser les enjeux juridiques de cette affaire, notamment la question de la prescription et des investigations possibles.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "q7pl815",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HTML",
+        "id": "2wyl6804",
+        "nodes": [],
+        "htmlData": {
+          "containerData": {
+            "textWrap": true,
+            "height": {
+              "custom": "319"
+            },
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {
+              "custom": "940"
+            }
+          },
+          "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Q7duFVEGrtM?si=47QT4LPJW9mMxc_c\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+          "source": "HTML"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "cejmz19",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "t9d0p20",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "5vanj21",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une enquête rouverte 15 ans après le drame",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ae1vc25",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À l’initiative du procureur de la République de Bordeaux, Renaud Gaudeul, le dossier de Krisztina Rády a été rouvert. Les témoignages révélés par le documentaire, notamment celui d’un infirmier affirmant avoir constaté des traces de blessures graves sur la victime, ont été jugés suffisamment sérieux pour motiver de nouvelles vérifications.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vpvkg27",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5689c28",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Me Julien Plouton rappelle que chaque acte d’enquête interrompt le délai de prescription :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hroxn30",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "a46nu31",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "« Une loi entrée en vigueur en mars 2017 a étendu les délais de prescription à six ans pour les violences volontaires. Chaque nouvel acte d'enquête fait repartir ce délai à zéro, ce qui signifie que la justice peut encore vérifier si les faits sont prescrits ou non. »",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nmhnp33",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "s4tpk34",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La question centrale est de déterminer si des violences volontaires antérieures au suicide de Krisztina Rády peuvent encore être poursuivies. Ces investigations pourraient aussi permettre de recueillir de nouveaux témoignages ou d’éclairer d’autres volets de l’affaire.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "cr57t38",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lksjn39",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "2o5pw40",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le commentaire de Me Plouton sur la prescription et les suites possibles",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "90opc43",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "v9vhm44",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans l’interview accordée à France 3, Me Julien Plouton souligne trois points majeurs :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yprx246",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "8w9i747",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "z2gic48",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "vzz2m49",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L’importance du délai de prescription, qui sera examiné à la lumière des actes de procédure déjà engagés depuis 2010 et des ouvertures d’enquête successives (2010, 2014 et 2018).",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "4i4nq1346",
+                "nodes": [],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "8gw241319",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "fjbyp1320",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La réouverture d'investigations malgré une prescription apparente peut, le cas échéant, permettre d'identifier d'autres victimes pour lesquelles il n'y aurait pas de prescription, cette technique ayant déjà été utilisée dans certaines affaires de violences sexuelles.",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "xafde51",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "wnvun52",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le rôle de la présomption d’innocence, qui demeure un principe fondamental, même dans un contexte médiatisé :",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ad9eo55",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "id0s856",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "« Même en cas de prescription, l’enquête peut se poursuivre afin de vérifier d’autres éléments, ou de permettre à la personne mise en cause d’apporter des explications. »",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kpnsw1249",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "6ogls59",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre cabinet rappelle par ailleurs que les infractions relatives au harcèlement ayant conduit au suicide d’une victime sont aujourd’hui sévèrement punies (jusqu’à 10 ans d’emprisonnement et 150 000 € d’amende), mais que la loi ne peut pas s’appliquer rétroactivement à des faits survenus avant 2020.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0h5uy62",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yxt8q63",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xd0az64",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "👉 ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Voir l’interview de Me Julien Plouton sur France 3",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://youtu.be/Q7duFVEGrtM?si=gIy8L-Q0JR2bAb-V",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ja63r587",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2wz7k67",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour en savoir plus sur l’accompagnement du Cabinet Plouton en droit pénal :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "b583y69",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "lm1iv70",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "addg171",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "4vqyj72",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Notre expertise en droit pénal",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "cc6r374",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "7htem75",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Prendre rendez-vous avec le cabinet",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/notre-cabinet",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hrmmb82",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {}
+  }
+}

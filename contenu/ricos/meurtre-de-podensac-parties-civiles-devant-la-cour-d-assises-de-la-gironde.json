@@ -1,0 +1,862 @@
+{
+  "slug": "meurtre-de-podensac-parties-civiles-devant-la-cour-d-assises-de-la-gironde",
+  "sourcePath": "/post/meurtre-de-podensac-parties-civiles-devant-la-cour-d-assises-de-la-gironde",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "HEADING",
+        "id": "n11hvtqdmw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'essentiel du verdict",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xnsap55umg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ogvukqbhcw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "1er avril 2022",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cour d'assises de la Gironde",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " a rendu son verdict dans le dossier dit du meurtre de Podensac. Les ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "3 principaux accusés",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ont été ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "condamnés à des peines de 25 et 18 ans de prison",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Sur les 12 accusés comparaissant, 4 étaient poursuivis pour des faits criminels. Les parties civiles estiment que le délibéré est à la hauteur de la gravité des faits.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tqdpxeetdw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xykuszx75g",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Article dans Sud Ouest",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "n1dmhdko1g",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nbv35l6pea",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Article dans France Bleu",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0rjbld8g0w",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "okdcxznmuq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cour d'assises de la Gironde",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/defense-penale/proces-criminel",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "mjvccw6ptg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "a78auuwwma",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Procès du 7 mars au 1er avril 2022",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jnglk2xytg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "igkm0f5msg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un dossier criminel à 12 accusés devant la Cour d'assises de la Gironde",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5603zullaa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rqigleu7ja",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans ce volumineux dossier où pas moins de 12 accusés comparaissaient devant la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cour d'assises",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", dont 4 pour des ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "faits criminels",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", le verdict a été rendu vendredi 1er avril en toute fin d'après-midi.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qv3awxruog",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ql9vzk8vmg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un délibéré dont les parties civiles ont le sentiment qu'il est à la hauteur de la gravité des faits",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " commis puisque les 3 principaux accusés ont été respectivement ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "condamnés à 25 et 18 ans de prison",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "h6r4q8nrrq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "lpfbq8ueng",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le sort de l'auteure des tirs : acquittement pour homicide volontaire",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "momdpcoapw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "i3elhifrwg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La jeune femme qui a tiré à deux reprises et ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "donné la mort à la victime",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " a finalement été acquittée des faits ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "d'homicide volontaire",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", au vu de la tournure des débats et des déclarations de ses co-accusés. La contrainte morale a été retenue en sa faveur.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "oi3ockgwbq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gcokknqgw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Sa responsabilité dans le déroulement des faits a néanmoins été retenue et sanctionnée via sa ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "condamnation pour association de malfaiteurs",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " à une peine de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "5 années de prison",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "blh7mbrzsg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "6w42iw3ojg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Réincarcération des accusés sous contrôle judiciaire",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "1mvwg5ig",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lcosegjbg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les 4 accusés qui étaient sous contrôle judiciaire depuis plus de 2 ans ont tous été réincarcérés à l'issue de l'audience. Ces accusés avaient bénéficié d'une improbable remise en liberté compte tenu de la durée déraisonnable de leur détention provisoire, liée à un audiencement trop tardif.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vdctyy8vuw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "n7dd6btua",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une décision qui ouvre la voie de l'apaisement pour les parties civiles",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kh3wdnztha",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "uijjq3lqpa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette décision a le mérite de replacer chacun des accusés à son juste niveau de responsabilité. Elle ouvre la voie de l'apaisement pour la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "famille de la victime",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/indemnisation-des-victimes/victimes-de-delits-ou-crimes",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", à l'issue d'un long parcours et combat judiciaire.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "44qjv71jqg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      }
+    ],
+    "metadata": {
+      "version": 1.0,
+      "createdTimestamp": "2026-05-06T07:41:17.418Z",
+      "updatedTimestamp": "2026-05-06T07:41:17.418Z"
+    }
+  }
+}

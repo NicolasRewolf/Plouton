@@ -1,0 +1,321 @@
+{
+  "slug": "assassinats-et-tentative-d-assassinat-devant-la-cour-d-assises-de-la-gironde",
+  "sourcePath": "/post/assassinats-et-tentative-d-assassinat-devant-la-cour-d-assises-de-la-gironde",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "le3x57011612",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cour d'assises de la Gironde du 18 au 22 mars 2019",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ja0vg7011616",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7qthd7011617",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "xtb017011618",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "SUIVEZ LE PROCÈS JOUR APRÈS JOUR",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jr7887011619",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "19 mars 2019 - Sud Ouest",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "mvqy27011620",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Jugé à Bordeaux pour avoir tué sa mère et sa fille : un accusé à la fois ange et démon",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.sudouest.fr/2019/03/19/juge-a-bordeaux-pour-avoir-tue-sa-mere-et-sa-fille-un-accuse-a-la-fois-ange-et-demon-5911286-2780.php?fromsar=true)",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "8b12p7011621",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "k6j7e1026",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "21 mars 2019 - Sud Ouest",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p8si17011622",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Jugé à Bordeaux pour avoir tué sa fille et sa mère : le fils, survivant de la fusillade, témoigne",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.sudouest.fr/2019/03/21/le-fils-seul-survivant-de-la-fusillade-temoigne-5916425-4585.php?fromsar=true)",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dill27011623",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Jugé à Bordeaux pour avoir tué sa mère et sa fille : un expert psychiatre de renom à la barre",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.sudouest.fr/2019/03/21/juge-a-bordeaux-pour-avoir-tue-sa-mere-et-sa-fille-un-expert-psychiatre-de-renom-a-la-barre-5918033-2780.php?fromsar=true)",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zx3ul7011624",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "46nul1040",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "22 mars 2019 - Sud Ouest",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "w26e67011625",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Bordeaux : pour le meurtre de sa mère et de sa fille, Bruno Genet condamné à la prison à perpétuité",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.sudouest.fr/2019/03/22/bordeaux-pour-le-meurtre-de-sa-mere-et-de-sa-fille-bruno-genet-condamne-a-la-prison-a-perpetuite-5921888-4697.php?fromsar=true)",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0hscx7011626",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hb1zo1054",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Crédit photo : Sud Ouest",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {}
+  }
+}

@@ -1,0 +1,4021 @@
+{
+  "slug": "de-la-tentative-de-meurtre-aux-violences-aggravées-une-défense-méthodique-validée",
+  "sourcePath": "/post/de-la-tentative-de-meurtre-aux-violences-aggravées-une-défense-méthodique-validée",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "i5k6x1804",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Bordeaux, 5ᵉ chambre, 21 août 2025",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "RIGHT"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5nh4s57388",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "s8ovi59136",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Résumé de l’affaire.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Un dossier d’information judiciaire a été ouvert sur la qualification criminelle de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "tentative de meurtre aggravée",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " après une rixe opposant 2 individus à un troisième homme, filmée en partie par vidéoprotection. Notre client, filmé en train de faire ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "usage d'une arme blanche (de type machette",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ") sur la victime est ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "mis en examen pour tentative de meurtre",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Il ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "contestait initialement",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "sa participation et avoir fait usage d'une arme",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Notre travail a consisté à ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "l’accompagner tout au long de l’instruction",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", à objectiver les ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "charges",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", à ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "faire évoluer ses déclarations vers la reconnaissance de la matérialité",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " de certains faits, tout en ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "contestant l’intention criminelle",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zafbc59436",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ekeby57407",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Contexte factuel.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "27 mai 2024",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", aux abords du ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "foyer ADOMA (rue Poyenne, Bordeaux)",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", une altercation oppose ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "trois hommes",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Les images capturent des ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "coups portés avec une machette",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "un homme ensanglanté",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et la présence d’un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "enfant de 5 ans",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " assistant à la scène.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qvyvh59728",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zl21357418",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À l’issue de l’instruction, notre argumentation a été ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "validée par le juge d’instruction",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " : ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "requalification",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " en ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "violences volontaires aggravées",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (arme, en réunion) et ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "renvoi devant le tribunal correctionnel",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". À l’audience du ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "21 août 2025 (5ᵉ chambre correctionnelle, 14 h)",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", le tribunal a prononcé à l’encontre de notre client une peine de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "3 ans d’emprisonnement dont 1 an avec sursis",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (son frère, absent, a été condamné à ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "3 ans ferme",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " avec mandat d’arrêt).",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "3suib60829",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "MEDIUM",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "rbxzp60874",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Chronologie de la défense (vue rapide)",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ass3p57444",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "27/05/2024 — Les faits.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Rixe devant le foyer ADOMA (rue Poyenne, Bordeaux). Des images partielles de vidéoprotection montrent notre client vêtu d'un pantalon noir et d'un T Shirt rouge et blanc faisant usage d’une machette sur un autre homme porteur d'un survêtement bleu, un enfant assiste à la scène.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3nic857447",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "13/06/2024 — Mise en examen.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Instruction ouverte : auditions, analyses vidéo, éléments médico‑légaux. Notre client évolue vers la reconnaissance de la matérialité des coups de machette.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "64ytr57450",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "06/05/2025 — Ordonnance de requalification et de renvoi devant le Tribunal correctionnel. ",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le magistrat instructeur ordonne la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "requalification des faits",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " en ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "violences aggravées",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", retenant l’absence d’intention homicide.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7cb3i57457",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "a6dbi95277",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "21/08/2025 — Audience devant le Tribunal correctionnel de Bordeaux (5ᵉ chambre, 14 h).",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Plaidoirie : contexte, dynamique de rixe, gestes retenus, rôle du frère, personnalité de la victime, personnalité du prévenu. La décision",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " :",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "trois ans",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " d’emprisonnement dont ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "un an avec sursis",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour notre client ; ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "trois ans ferme",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " avec mandat d’arrêt pour le frère.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "4ygi661419",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "vy56161485",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les enjeux pénaux initiaux",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "teab257471",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Au stade de l’ouverture de l’information, la procédure visait la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "tentative de meurtre",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " : une infraction ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "criminelle",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " lourde. La distinction était donc déterminante entre ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "intention de tuer",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "violences",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (même graves) sans intention homicide.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "rgszs57519",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre méthode pendant l’information judiciaire",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "n2igs6277",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "qgpe16278",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "188h457521",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Accompagner et clarifier :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Dès l’ouverture, nous avons travaillé le lien avocat–client : expliquer les charges et les risques, sortir du déni, installer une parole responsable.",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "gdcqb8102",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "222q257524",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Relire objectivement les preuves :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Nous avons recomposé la séquence grâce aux pièces : 15 premières secondes non filmées, ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "sac ACTION",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " contenant des ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "courses",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " (et non une arme), ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "couteau Opinel",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " côté partie civile, arrivée décalée du frère. Côté médico‑légal : ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "plaies superficielles",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ", ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "gestes retenus",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ", ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "zones non vitales",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ", ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "ITT",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "/post/itt-pénale-définition-en-2025",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " 30 jours",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ".",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "69c9s8900",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "jizqz57541",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Qualifier justement :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " À partir de ces éléments, nous avons construit l’argument d’",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "absence d’intention homicide",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " et sollicité une ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "lecture délictuelle",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " (violences aggravées). Cette analyse sera validée par la suite.",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "5qp1e57548",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce que disent les pièces (vidéo & médico‑légal)",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "sssgn57550",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les enregistrements sont ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "incomplets",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " au déclenchement : il manque la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "séquence initiale (~15 s)",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". On y voit notre client avec un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "sac de courses",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (chocolatines, lait). La victime est ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "armée d’un couteau",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ; le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "frère",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " apparaît ensuite. Les images montrent des ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "coups à la machette",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " portés ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "sans force maximale",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", compatibles avec des ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "gestes retenus",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "intervention en second temps",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vdjvr57570",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "certificat médical",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " fixe l’",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "ITT",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/post/itt-pénale-définition-en-2025",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " à 30 jours",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Le légiste décrit des ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "plaies superficielles",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", sans atteinte vitale, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "compatibles avec un usage peu appuyé",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " d’un objet tranchant. Ces éléments s’accordent avec l’hypothèse d’une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "absence d’intention de donner la mort",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "9fxvs68198",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "xi3j968337",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "fhfln68473",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Audience du 21 août 2025 (5ᵉ chambre correctionnelle) : notre plaidoirie",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zksp757584",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Maître Plouton a su replacer le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "conflit initial",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (contentieux entre le frère et la partie civile), souligné la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "personnalité",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " de cette dernière (port d’une arme blanche, antécédents judiciaires) et rappelé que notre client avait ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "acheté des courses",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " juste avant les faits, ce qui est ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "incompatible",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " avec une préparation homicide. Nous avons exposé la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "dynamique de rixe",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " : notre client ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "intervient dans un second temps",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "récupère",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " l’arme et ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "repousse",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " avec des ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "coups retenus",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Nous avons enfin distingué les ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "responsabilités",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " : le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "frère non comparant",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (mandat d’arrêt) ne pouvait faire peser sur notre client l’entièreté des violences.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "3mxyo57608",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Décision et suites",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "iegg857623",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le tribunal a prononcé une peine de :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "etuui57626",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "zjd9h57627",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "1z8f157628",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "3 ans d’emprisonnement dont 1 an avec sursis",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " à l’égard de notre client ;",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "t3ynd57631",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "cvp0957632",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "3 ans ferme",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " avec ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "mandat d’arrêt",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " à l’égard de son frère (absent).",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gtqcj185782",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "z9bgc186285",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre client",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ayant effectué près d",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "'un an de détention provisoire",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", il est désormais ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "éligible à un",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "aménagement de sa peine",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "TABLE",
+        "id": "ni8jc74213",
+        "nodes": [
+          {
+            "type": "TABLE_ROW",
+            "id": "1m4wg74414",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "iuygu75452",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "sda5a75453",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Aménagements de peine",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": " (selon situation et modalités d’exécution) : ",
+                          "decorations": [
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "DDSE",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": ", ",
+                          "decorations": [
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "ARSE",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": ", ",
+                          "decorations": [
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "semi‑liberté",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": ", ",
+                          "decorations": [
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "placement extérieur",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": ", etc. À lire : ",
+                          "decorations": [
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "L’aménagement de peine",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            },
+                            {
+                              "type": "LINK",
+                              "linkData": {
+                                "link": {
+                                  "url": "https://www.jplouton-avocat.fr/post/l-am%C3%A9nagement-de-peine-comment-peut-il-s-appliquer",
+                                  "target": "BLANK"
+                                }
+                              }
+                            },
+                            {
+                              "type": "UNDERLINE"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": ", ",
+                          "decorations": [
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Assignation à résidence sous surveillance électronique (ARSE)",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            },
+                            {
+                              "type": "LINK",
+                              "linkData": {
+                                "link": {
+                                  "url": "https://www.jplouton-avocat.fr/post/l-assignation-%C3%A0-r%C3%A9sidence-sous-surveillance-%C3%A9lectronique-arse-comprendre",
+                                  "target": "BLANK"
+                                }
+                              }
+                            },
+                            {
+                              "type": "UNDERLINE"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": " et ",
+                          "decorations": [
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Détention à domicile sous surveillance électronique (DDSE)",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            },
+                            {
+                              "type": "LINK",
+                              "linkData": {
+                                "link": {
+                                  "url": "https://www.jplouton-avocat.fr/post/la-d%C3%A9tention-domiciliaire-sous-surveillance-%C3%A9lectronique-ddse-comprendre",
+                                  "target": "BLANK"
+                                }
+                              }
+                            },
+                            {
+                              "type": "UNDERLINE"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": ".",
+                          "decorations": [
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#ECEFF3"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "tableData": {
+          "dimensions": {
+            "colsWidthRatio": [
+              739
+            ],
+            "rowsHeight": [
+              47
+            ],
+            "colsMinWidth": [
+              120
+            ]
+          },
+          "cellPadding": []
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "crghu79514",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "dy7zv79714",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce qu’il faut retenir de l'intervention du cabinet Plouton",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "2aqun57656",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "e1dn457657",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "v59dp57658",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "lecture froide",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " des images ne suffit pas : l’",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "intention",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " se ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "démontre",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " juridiquement, elle ne se ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "présume",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " pas.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "s045357668",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "a4jvm57669",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L’",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "instruction",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " est ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "un temps utile",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : elle permet de ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "requalifier",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " des faits initialement poursuivis comme crimes.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "4cde757677",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "w4xkb57678",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "défense structurée",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " (accompagnement du client, analyse probatoire, médico‑légal) peut ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "faire évoluer",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " la qualification et ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "rééquilibrer",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " la réponse pénale.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "wk7af57686",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "wtv2957687",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "contextualisation complète",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " (personnalités, antécédents, dynamique de rixe, responsabilités distinguées) ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "oriente",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " utilement la décision et favorise une peine adaptée.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "ennn778459",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "f0qz278690",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Aller plus loin",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "aey0057695",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "o8ogw57696",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "k398h57697",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Catégories « Nos affaires » :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Droit pénal",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/nos-affaires/categories/droit-p%C3%A9nal",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " • ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Droit criminel",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/nos-affaires/categories/droit-criminel",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "mcn2057703",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "a9pg557704",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Ressources utiles",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Dépôt de plainte",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/post/d%C3%A9p%C3%B4t-de-plainte-en-france-comment-porter-plainte-efficacement",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " • ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Que se passe-t-il après une garde à vue ?",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/post/que-se-passe-t-il-apr%C3%A8s-une-garde-%C3%A0-vue",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ytc6c57710",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "hxg3e57711",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Nos expertises",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Défense pénale — Droit pénal",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/droit-p%C3%A9nal",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " • ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Victimes de délits ou crimes",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/indemnisation-des-victimes/victimes-de-d%C3%A9lits-ou-crimes",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "bzww557717",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "8piv557718",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Nous rencontrer",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Découvrir l’équipe",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/notre-cabinet",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " • ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Prendre rendez-vous",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/honoraires-rendez-vous",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " • ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Accueil",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "49215e3b-f05c-4e39-b84e-b96acb9e58f0",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "gocw311241",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fdfc230e-18f2-4159-9ccc-6455b7d6e606",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yoqos11512",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La qualification initiale de tentative de meurtre soulève des enjeux procéduraux distincts selon le cadre dans lequel elle est traitée, comme l'illustre une autre affaire bordelaise impliquant une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "défense en comparution immédiate pour tentative de meurtre",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/jugé-en-comparution-immédiate-après-une-garde-à-vue-pour-tentative-de-meurtre",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false,
+                        "noreferrer": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "f470ee6c-3990-4585-96e1-78ad78bc1c3f",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2e805c8e-4530-4a23-995a-8dbf37365b09",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "834833e0-17af-4a82-a8b9-664a4633ce43",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Retrouvez également nos ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "fiches pratiques pour comprendre le droit pénal",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/comprendre-le-droit",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false,
+                        "noreferrer": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", rédigées par nos avocats pénalistes pour vous accompagner à chaque étape de votre procédure.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      }
+    ],
+    "documentStyle": {}
+  }
+}

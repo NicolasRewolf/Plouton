@@ -1,0 +1,3449 @@
+{
+  "slug": "qu-est-ce-qu-une-période-de-sureté",
+  "sourcePath": "/post/qu-est-ce-qu-une-période-de-sureté",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "id": "bh8k617032",
+        "nodes": [],
+        "imageData": {
+          "containerData": {
+            "width": {
+              "size": "SMALL"
+            },
+            "alignment": "RIGHT",
+            "textWrap": true
+          },
+          "image": {
+            "src": {
+              "id": "d05c9e_f27d9c21cd264c48a1b7f6f5977dfc81~mv2.jpg"
+            },
+            "width": 2000.0,
+            "height": 1125.0
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dixoz21147",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jkczz528",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " période de sûreté ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#FFFFFF"
+                  }
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "est une ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "durée pendant laquelle une personne condamnée à une peine de prison ferme ne peut pas bénéficier de certains aménagements de peine",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#FFFFFF"
+                  }
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", tels que :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "0ui7e7643",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "2ql2f7644",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "6ubgv7645",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Permissions de sortir",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "xdnfc7647",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ttxc47648",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Placement à l'extérieur",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "wmltx7650",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "6d4pr7651",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Régime de semi-liberté",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "zgvbr7653",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "cnmkd7654",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Libération conditionnelle",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "iqmx37656",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette mesure vise à assurer une durée minimale d'incarcération obligatoire pour des infractions graves afin de protéger la société et lutter contre la récidive.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "1gvf623384",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jfujb23460",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour en savoir plus sur les procédures en droit pénal, consultez ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "la page sur le droit pénal dédiée du cabinet Plouton",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/droit-p%C3%A9nal",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "5m0vc7755",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "wfx2t8240",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les deux types de périodes de sûreté",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fqpk312568",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "mi80d12446",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "1. ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La sûreté légale (ou automatique)",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "te8wf12449",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "pn7zo12450",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "bjni712451",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Quand s’applique-t-elle ?",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Automatiquement, dès que la peine prononcée est supérieure ou égale à 10 ans pour certaines infractions graves.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "elbge12454",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "y71ph12455",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Durée standard :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Moitié de la peine prononcée, ou 18 ans en cas de réclusion criminelle à perpétuité.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "r96vm12458",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "taaho12459",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Exemples d’infractions concernées :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "uzway12461",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "mynkt12462",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "fokqv12463",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Assassinat",
+                              "decorations": [
+                                {
+                                  "type": "FONT_SIZE",
+                                  "fontSizeData": {
+                                    "unit": "PX",
+                                    "value": 14.0
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "paragraphData": {
+                          "textStyle": {
+                            "textAlignment": "AUTO"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "3uzyu12465",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "23mas12466",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Viol ayant entraîné la mort",
+                              "decorations": [
+                                {
+                                  "type": "FONT_SIZE",
+                                  "fontSizeData": {
+                                    "unit": "PX",
+                                    "value": 14.0
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "paragraphData": {
+                          "textStyle": {
+                            "textAlignment": "AUTO"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "huz5412468",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "k2u7j12469",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Crimes contre l'humanité",
+                              "decorations": [
+                                {
+                                  "type": "FONT_SIZE",
+                                  "fontSizeData": {
+                                    "unit": "PX",
+                                    "value": 14.0
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "paragraphData": {
+                          "textStyle": {
+                            "textAlignment": "AUTO"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "00vvt12471",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "dip5v12472",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Terrorisme",
+                              "decorations": [
+                                {
+                                  "type": "FONT_SIZE",
+                                  "fontSizeData": {
+                                    "unit": "PX",
+                                    "value": 14.0
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "paragraphData": {
+                          "textStyle": {
+                            "textAlignment": "AUTO"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "406uk12474",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "w1ww012475",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Trafic de stupéfiants aggravé",
+                              "decorations": [
+                                {
+                                  "type": "FONT_SIZE",
+                                  "fontSizeData": {
+                                    "unit": "PX",
+                                    "value": 14.0
+                                  }
+                                },
+                                {
+                                  "type": "LINK",
+                                  "linkData": {
+                                    "link": {
+                                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/trafic-de-stup%C3%A9fiant",
+                                      "target": "TOP"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "UNDERLINE"
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "paragraphData": {
+                          "textStyle": {
+                            "textAlignment": "AUTO"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "9atmj12477",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "z79ha12478",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Actes de torture et barbarie",
+                              "decorations": [
+                                {
+                                  "type": "FONT_SIZE",
+                                  "fontSizeData": {
+                                    "unit": "PX",
+                                    "value": 14.0
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "paragraphData": {
+                          "textStyle": {
+                            "textAlignment": "AUTO"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "s048y12480",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "1iebc12481",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Vol avec violences graves ou avec arme",
+                              "decorations": [
+                                {
+                                  "type": "FONT_SIZE",
+                                  "fontSizeData": {
+                                    "unit": "PX",
+                                    "value": 14.0
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "\n",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {
+                          "textStyle": {
+                            "textAlignment": "AUTO"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0.0
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "ip5h512483",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "2. ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La sûreté spéciale (ou décidée par le juge)",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "0ihpx12486",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "igz5v12487",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "t8vuw12488",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Quand s’applique-t-elle ?",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " À la discrétion du juge, dès que la peine dépasse 5 ans de prison ferme.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "jhebg12491",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "koimp12492",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Durée maximale :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Jusqu’aux deux tiers de la peine prononcée, ou jusqu’à 22 ans en cas de perpétuité.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "g8fvx13277",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "aswfs13276",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "31otd13278",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cas particulier : la perpétuité réelle",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "8u6km960",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5304s13559",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans des cas exceptionnels, une période de sûreté peut être perpétuelle (\"perpétuité réelle\"), sans possibilité immédiate d’aménagement. Elle concerne notamment :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "3awx113363",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "am37x13364",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "nppev13365",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Assassinat d'un mineur de moins de 15 ans avec viol ou torture",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "jbdqc13367",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "1spw813368",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Assassinat d'un policier, gendarme ou magistrat",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "cx9bl13370",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "frdep13371",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Crimes terroristes très graves",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yr4oy13373",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans ces cas, un relèvement (levée) peut être demandé après 30 ans de détention.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "f4q8y13900",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "lc0fn13902",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Peut-on obtenir un relèvement (levée) de la période de sûreté ?",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ilyzj1358",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lnd9i13998",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Oui, à certaines conditions :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "tsd0g14000",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "bkl3q14001",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "9e0h114002",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Durée inférieure à 30 ans :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Demande possible à tout moment.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "cyf0714005",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ku18r14006",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Durée égale à 30 ans :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Demande possible après 20 ans de détention.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "eawi514009",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "rcxo414010",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Perpétuité réelle :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Demande possible après 30 ans de détention.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "n63z814306",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "style": {},
+        "id": "5ai3525045",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Que faire une fois le relèvement obtenu ?",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "tg58v5615",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dès lors que la personne condamnée obtient un relèvement de la période de sûreté, il redevient éligible aux aménagements de peine et pourra les solliciter devant le Juge d’application des peines ou le Tribunal d’application des peines.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "ansjq14819",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "2vnk314820",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "hi5cj14821",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Prouver des efforts sérieux de réinsertion (formation, emploi, suivi psychologique, indemnisation des victimes)",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "e351p14823",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "w38p514824",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Expertise médicale favorable sur l’absence de dangerosité",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "mxfp026061",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "DIVIDER",
+        "id": "xagri15939",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "DASHED",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "dqjcr15594",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Résumé en tableau ",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "TABLE",
+        "id": "j8usa15707",
+        "nodes": [
+          {
+            "type": "TABLE_ROW",
+            "id": "bd64x15708",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "93xa915709",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "s90b515710",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Type de période",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "6ys0a15712",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "bciez15713",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Quand ?",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "30d7p15715",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "roiee15716",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Durée",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "h189315718",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "qchjt15719",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Relèvement possible ?",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "vwuh915721",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "0sdl615722",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "gi15t15723",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Légale",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "kbq2i15725",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "j082015726",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Peine ≥ 10 ans (infractions graves)",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "q3fd615728",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "cqfvc15729",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Automatique (moitié ou 18 ans perpétuité)",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "g044315731",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "rcwy215732",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Oui, à tout moment",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "1vt8w15734",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "2l43x15735",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "zigwj15736",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Spéciale",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "io4gi15738",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "3d7vp15739",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Peine ≥ 5 ans décidée par le juge",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "7jm4m15741",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "e18im15742",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Jusqu’à 2/3 de la peine ou 22 ans perpétuité",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "h19vp15744",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "u4xtv15745",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Oui, à tout moment",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "nlenf15747",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "2xw6d15748",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "xcei415749",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Perpétuité réelle",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "dj7lq15751",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "aarz915752",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Cas exceptionnels graves",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "8xp9415754",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "7b8el15755",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Perpétuelle ou jusqu’à 30 ans",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "qfj8u15757",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "eblvs15758",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Après 30 ans servis",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          }
+        ],
+        "tableData": {
+          "dimensions": {
+            "colsWidthRatio": [
+              178.0,
+              178.0,
+              178.0,
+              178.0
+            ],
+            "rowsHeight": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "colsMinWidth": [
+              120.0,
+              120.0,
+              120.0,
+              120.0
+            ]
+          },
+          "cellPadding": []
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "4dga315188",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "26t8215190",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "rôle de l’avocat",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#FFFFFF"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " face à une période de sûreté",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yn0987546",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La période de sûreté est une restriction majeure dans l’exécution d’une peine. Elle fixe une durée pendant laquelle aucun aménagement de peine n’est possible, même en cas de bonne conduite. Dans ce contexte, l’intervention de notre ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cabinet Plouton, avocats pénalistes expérimentés est déterminante",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/nos-affaires/categories/droit-p%C3%A9nal",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Il ne s’agit pas seulement de défendre un client au procès, mais de l’accompagner dans le temps, pour protéger ses droits et préparer chaque étape.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "g8jqv7548",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "1 Avant la condamnation : contester ou limiter la période de sûreté",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zt2h97550",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Lorsqu’une peine d’au moins cinq ans est envisagée, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "le juge peut imposer une période de sûreté spéciale",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L’avocat peut alors intervenir pour :",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#FFFFFF"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "8twmx7554",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "h5ix77555",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "uytxi7556",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Plaider contre son application, notamment lorsque le profil du condamné ne le justifie pas ;",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "o66pe7558",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "mcn6g7559",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Contester sa durée, si elle excède ce qui paraît proportionné à la gravité des faits.",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "6k9387561",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une défense bien menée à ce stade peut éviter une restriction lourde de conséquences. C’est notamment crucial dans le cadre de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "procès criminels",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/proc%C3%A8s-criminel",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ou d’",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "affaires liées à des violences conjugales ou féminicides",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/violences-conjugales-et-f%C3%A9minicides",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", où les enjeux de peine sont souvent très élevés.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "bid2i7563",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "2 Pendant l’incarcération : préparer la demande de relèvement",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xhuk27565",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si une période de sûreté est en cours, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "l’avocat suit le détenu dans la durée",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Il évalue avec lui les possibilités de demander un relèvement anticipé, en constituant un dossier solide :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "06wvm7569",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "4fybp7570",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "nsvgn7571",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Justificatifs de formation, de travail ou de suivi thérapeutique en détention ;",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "giu8n7573",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "bquai7574",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Engagements en faveur des victimes (lettre d’excuse, indemnisation) ;",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "hm43b7576",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "4bh6j7577",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Expertise psychiatrique ou psychologique sur l’évolution du risque.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ilqm419902",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "IMAGE",
+        "id": "p1fap19900",
+        "nodes": [],
+        "imageData": {
+          "containerData": {
+            "width": {
+              "size": "SMALL"
+            },
+            "alignment": "LEFT",
+            "textWrap": true
+          },
+          "image": {
+            "src": {
+              "id": "d05c9e_e093e5d9c5f74f62abae067cf32d5572~mv2.webp"
+            },
+            "width": 5339.0,
+            "height": 6867.0
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "1181e19903",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "vf4ih20012",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "3 Après le relèvement : solliciter un aménagement de peine",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2r6tj7585",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une fois le relèvement accordé, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "le condamné retrouve la possibilité de bénéficier d’un aménagement de peine",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". L’avocat intervient alors pour :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "dtx7a7589",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "jhrqy7590",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "g7spo7591",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Élaborer une stratégie adaptée (semi-liberté, libération conditionnelle, placement extérieur) ;",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "o239d7593",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "mqtyc7594",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Défendre ce projet devant le juge ou le tribunal de l’application des peines.",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "s5llg7596",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ces démarches exigent une parfaite connaissance du droit pénal, mais aussi une grande rigueur dans la présentation du projet de réinsertion. Le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cabinet Plouton",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", reconnu pour sa pratique approfondie de la défense pénale, assure un suivi humain et stratégique tout au long de ce parcours complexe, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "contactez-nous ! ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#FFFFFF"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/notre-cabinet",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "mpesv7709",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yu3gh20967",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "nzfoa20966",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4o5lh20968",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "uhzlt21089",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Historique et contexte ",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ebl1z6536",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "6jf7o22019",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "55b8u22020",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "opku922021",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La période de sûreté a été introduite en 1978 pour répondre à une augmentation de la criminalité grave.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "aeh4l22023",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "5eeov22024",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Elle constitue une réponse sévère et symbolique après l’abolition de la peine de mort en 1981.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "5qzhc22026",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "658dz22027",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Son usage s’est progressivement étendu à davantage de crimes graves, notamment le terrorisme.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2vms012998",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {}
+  }
+}

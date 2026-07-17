@@ -1,0 +1,1117 @@
+{
+  "slug": "proposition-de-loi-inceste-et-imprescriptibilité-le-cabinet-plouton-au-cœur-des-avancées-législati",
+  "sourcePath": "/post/proposition-de-loi-inceste-et-imprescriptibilité-le-cabinet-plouton-au-cœur-des-avancées-législati",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "9i17w432",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce mercredi 19 novembre 2025 marque une étape décisive dans la ",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "protection de l'enfance",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/demander-une-ordonnance-de-protection-en-2025",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". La sénatrice Annick Billon, en collaboration avec l'association ",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Face à l'Inceste",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", a rendu publique une proposition de loi historique visant à la pleine reconnaissance de l'inceste et à l'imprescriptibilité des crimes sexuels commis sur mineurs. Associé aux réunions de travail préparatoires, le Cabinet Plouton salue ce texte qui répond à l'urgence de nommer et de sanctionner ces crimes à la hauteur de leur gravité.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "w1v7g547",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "IMAGE",
+        "id": "ngfe41187",
+        "nodes": [],
+        "imageData": {
+          "containerData": {
+            "width": {
+              "size": "CONTENT"
+            },
+            "alignment": "CENTER",
+            "textWrap": true
+          },
+          "image": {
+            "src": {
+              "id": "d05c9e_99d9780cb9a34563aa5a6cfa857263e3~mv2.png"
+            },
+            "width": 5712,
+            "height": 4284
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jltwi1024",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "56dpc436",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une loi pour briser le silence et l'impunité",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gjxvb438",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette proposition de loi (PPL) s'inscrit dans le sillage des travaux de la CIIVISE et porte des revendications attendues depuis des décennies. Elle repose sur un constat alarmant : aujourd'hui, moins de 1% des plaintes pour viol ou agression sexuelle incestueux aboutissent à une condamnation. Pour inverser cette tendance, le texte s'articule autour de trois piliers majeurs :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "ok1d41020",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "1. La reconnaissance de l'inceste comme crime spécifique",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "v10ey1022",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Jusqu'à présent, l'inceste n'est pas défini en tant que tel par la loi pénale française ; il ne constitue qu'une circonstance aggravante. L'objectif de ce texte est de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "créer une infraction autonome",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " en rétablissant un paragraphe dédié \"De l'inceste\" dans le Code pénal.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "dtvyg1026",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "9cozh1027",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "mbxpv1028",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Pourquoi c'est essentiel :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Comme le souligne l'exposé des motifs, \"l'inceste tire sa violence de ce qu'il trahit le lien familial\". Il est impératif de nommer ce crime spécifique pour mieux le combattre et reconnaître la singularité de cette atteinte à la filiation.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "8tkql1031",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "2. L'intégration des cousins germains dans la définition pénale",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "8hj9o1033",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C'est une avancée sociétale majeure soutenue par 90% des Français. La loi propose d'élargir la liste des auteurs potentiels d'inceste aux cousins et cousines germains.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "4xi281035",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "nxr841036",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "9yqsc1037",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La réalité des chiffres :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Cette mesure aligne le droit sur la réalité des violences, puisqu'on estime qu'",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "un agresseur sur cinq est un cousin",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ". Le texte prend soin de distinguer cette qualification pénale (qui protège le mineur contraint) des règles civiles sur le mariage, levant ainsi les ambiguïtés juridiques.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "okb3x1042",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "3. L'imprescriptibilité des crimes sexuels sur mineurs",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dupcj1044",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C'est la mesure phare et la plus attendue. Actuellement, la prescription organise ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "de facto",
+              "decorations": [
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " l'impunité des agresseurs, ignorant les mécanismes traumatiques qui réduisent les victimes au silence.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "6lfui1048",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "vlnm51049",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "9lbgg1050",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'argument de la mémoire :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Les données médicales sont formelles : près de ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "50% des victimes d'inceste souffrent d'amnésie dissociative",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ", un verrou qui ne saute souvent que des décennies après les faits, bien après les délais légaux actuels.",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "8gjza1055",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "rwske1056",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un changement de paradigme :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " En rendant ces crimes imprescriptibles, la loi affirme que le temps ne doit plus jamais jouer en faveur des criminels. Comme le rappelle la proposition, \"le viol d'un mineur est un crime contre l'humanité de la personne\" qui exige une justice sans date de péremption.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "i6kbf1059",
+        "nodes": [],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "4bi89455",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'engagement du Cabinet Plouton",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4rjyx457",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Sollicité pour son expertise en matière de défense des victimes de crimes sexuels, Maître Julien Plouton a participé aux échanges ayant abouti à la consolidation de ce texte, aux côtés de la sénatrice Annick Billon, de l'association ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Face à l'Inceste",
+              "decorations": [
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et d'autres confrères spécialisés.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "m7w8l461",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette contribution s'inscrit dans la continuité de l'engagement quotidien du cabinet. ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Comme l'a souvent souligné Maître Plouton dans la presse",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.sudouest.fr/gironde/bordeaux/justice-l-avocat-est-un-temoin-de-premiere-ligne-des-ravages-de-l-inceste-sur-une-victime-ou-dans-sa-famille-19332552.php",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "l'avocat est un témoin de première ligne",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " des ravages de l'inceste, une violence qui \"s'attaque aux premiers mots du bébé\" et disloque les familles sur plusieurs générations.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "6m86q465",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "De la théorie à la pratique judiciaire",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yol04467",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La nécessité de cette réforme se vérifie chaque jour dans les prétoires. Trop de dossiers se heurtent encore au ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "mur de la prescription ",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/r%C3%A9forme-de-la-prescription-p%C3%A9nale-comprendre-les-d%C3%A9lais-et-les-nouvelles-r%C3%A8gles",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "ou à des qualifications pénales inadaptées.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "osjey469",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le cabinet est récemment ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "intervenu devant le Tribunal correctionnel d'Alès",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/agressions-sexuelles-incestueuses-sur-mineur-de-quinze-ans-le-cabinet-intervient",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour faire condamner un père coupable d'agressions sexuelles incestueuses, une affaire qui illustre la complexité de ces parcours judiciaires où la parole de l'enfant a longtemps été étouffée.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "926to473",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Au-delà de la sanction pénale, c'est toute la question de la reconstruction des victimes qui est en jeu. Que ce soit à travers ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "l'accompagnement devant la Commission d'Indemnisation des Victimes d'Infractions (CIVI)",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/accompagnement-d%C3%A9fense-et-indemnisation-des-victimes-d-inceste",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ou lors des procès d'assises, notre rôle est de porter la voix de ceux que l'on a voulu faire taire.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette proposition de loi est porteuse d'espoir. Elle envoie un message puissant aux victimes : ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "« On vous croit, et ",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "le droit est de votre côté",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/indemnisation-des-victimes/victimes-de-d%C3%A9lits-ou-crimes",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". »",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {}
+  }
+}

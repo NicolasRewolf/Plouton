@@ -1,0 +1,1257 @@
+{
+  "slug": "décès-d-un-supporter-nantais-avant-le-match-fc-nantes-ogc-nice",
+  "sourcePath": "/post/décès-d-un-supporter-nantais-avant-le-match-fc-nantes-ogc-nice",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "jf8yimqdta",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "REVUE DE PRESSE",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " | Articles consacrés à cette affaire par ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Sud Ouest",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le Parisien",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "BFM RMC Sport",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le Monde",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ei5tkxkmnq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "GALLERY",
+        "id": "ena9d834",
+        "nodes": [],
+        "galleryData": {
+          "containerData": {
+            "width": {
+              "size": "CONTENT"
+            },
+            "alignment": "CENTER",
+            "height": {},
+            "textWrap": true
+          },
+          "items": [
+            {
+              "image": {
+                "media": {
+                  "src": {
+                    "url": "d05c9e_2a4f9f761ded4c6ba00f99932d746270~mv2.png"
+                  },
+                  "width": 1080.0,
+                  "height": 1080.0
+                }
+              }
+            },
+            {
+              "image": {
+                "media": {
+                  "src": {
+                    "url": "d05c9e_d7865c240cfc46189ab321ea935ba6fa~mv2.png"
+                  },
+                  "width": 1080.0,
+                  "height": 1080.0
+                }
+              }
+            },
+            {
+              "image": {
+                "media": {
+                  "src": {
+                    "url": "d05c9e_0c1e662346214dfbbea483ee0ac1a61d~mv2.png"
+                  },
+                  "width": 1080.0,
+                  "height": 1080.0
+                }
+              }
+            },
+            {
+              "image": {
+                "media": {
+                  "src": {
+                    "url": "d05c9e_8e2ced75f7fe4f768ab024cee793ac92~mv2.png"
+                  },
+                  "width": 1080.0,
+                  "height": 1080.0
+                }
+              }
+            }
+          ],
+          "options": {
+            "layout": {
+              "type": "GRID",
+              "horizontalScroll": false,
+              "orientation": "COLUMNS",
+              "numberOfColumns": 4.0
+            },
+            "item": {
+              "ratio": 1.0,
+              "crop": "FILL"
+            },
+            "thumbnails": {
+              "placement": "NONE"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qjfqaud4ow",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "btdbg8iiaa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce que nous défendons dans ce dossier",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "y2120ahnla",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre cabinet intervient en ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "défense pénale",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/defense-penale/droit-penal",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "chauffeur VTC",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " mis en examen après le décès d'un supporter nantais de 31 ans, le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "samedi 2 décembre 2023",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", aux abords du ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "stade de la Beaujoire",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", avant le match FC Nantes/OGC Nice. Le coup de couteau mortel a été porté alors que le véhicule de notre client avait été pris pour cible et dégradé, et que ses passagers subissaient des violences d'agresseurs tentant de les extraire de force du véhicule. Un autre chauffeur VTC a également été blessé et transporté à l'hôpital lors de ces violences.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "frhvqpimw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "kagwnjc0g",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les faits du 2 décembre 2023 près du stade de la Beaujoire",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pqjm0wwfha",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le drame s'est produit avant le match FC Nantes/OGC Nice. De nombreux supporters nantais ont pris à parti un convoi de supporters niçois qui se rendait au stade en VTC. Un supporter nantais de 31 ans a perdu la vie après avoir reçu des coups de couteau lors de ces violences. Un second chauffeur VTC du convoi a été blessé et hospitalisé.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "i1rtsu2tjg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "a3anpcodq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La procédure judiciaire en cours",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "flrsfacayq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre client a été ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "mis en examen",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/mis-en-cause-temoin-assiste-prevenu-accuse-differences",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", comme l'a indiqué ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Monsieur le Procureur de la République",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " lors de sa conférence de presse, pour ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "homicide volontaire et extorsion de fonds",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". L'information judiciaire dans laquelle notre client est mis en examen aura notamment pour but de déterminer les conditions précises du passage à l'acte, mais également le contexte des faits.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "q2lgoporg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "iad1frkew",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La qualification pénale retenue par le parquet et le magistrat instructeur fera l'objet de discussions, s'agissant notamment de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "l'intention homicide, qui est contestée par notre client",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Les éléments de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "défense",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/mes-droits-en-garde-a-vue",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " que nous développons visent à établir une qualification plus juste des faits.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ys5dn1dwg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "rzvbzkkhpw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une seconde information judiciaire pour violences aggravées avec guet-apens",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xpwiquyraq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le parquet de Nantes a d'ores et déjà indiqué qu'une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "autre information judiciaire",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " était ouverte, visant cette fois des supporters nantais impliqués dans les violences commises à l'encontre des ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "supporters niçois",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/indemnisation-des-victimes/victimes-de-delits-ou-crimes",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", mais également des chauffeurs VTC du convoi dont faisait partie notre client.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nozrzdajiw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "t83vxxzvaq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette seconde information judiciaire a été ouverte sous la qualification de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "violences aggravées avec guet-apens",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Les éléments qui pourront être mis en évidence dans le cadre de cette enquête seront particulièrement utiles à la compréhension globale de cette affaire et du passage à l'acte de notre client.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lcrqsxp9tg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yaultzgwa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ces faits mettent une nouvelle fois en lumière, et de manière particulièrement dramatique, la récurrence et la place inappropriée des violences à l'occasion de matchs de football. Ils ont reçu un large écho dans la presse et suscité un émoi légitime, notamment chez les passionnés de football.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nie4ft44g",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "iwdu4vhkla",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre communiqué de presse et les déclarations du chauffeur VTC",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zoaav2eow",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ci-dessous le communiqué de presse que nous avons publié à la suite de la conférence de presse de Monsieur le Procureur de la République :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "njtptpj9vq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "i0ibcodeg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "« Notre client s'est exprimé hier soir devant le magistrat instructeur dans le cadre de longues déclarations spontanées. Il est dévasté par l'issue tragique de cette funeste soirée et a souhaité réserver ses premiers mots à la victime et à sa famille. Il conteste fermement avoir eu une quelconque intention homicide et espère que l'information judiciaire permettra de restituer aux faits une plus juste qualification juridique.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dc8tpbwxa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ik2e8f8a",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Il entend en outre rappeler qu'il exerçait ce soir-là son travail de chauffeur VTC lorsque le convoi dans lequel il circulait a été encerclé puis violemment agressé, par ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "une centaine de personnes",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", dont certains ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "individus cagoulés",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", à son arrivée aux abords du stade. Ces individus souhaitaient manifestement en découdre avec ses passagers qu'il a tenté de protéger.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pyjyb5sw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vcdobsct2g",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "De nombreux coups (coups de poings portés au visage, bouteille en verre reçue en pleine tête…) lui ont à cette occasion été assénés comme le démontrent d'ailleurs les vidéos versées au dossier. C'est donc dans ce contexte d'ultra violence, auquel il n'avait jamais imaginé devoir un jour être confronté, que les faits se sont déroulés alors qu'il devait le soir même rejoindre sa famille et ses proches pour ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "fêter son anniversaire",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "35gkhfazjg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nbdxxefr8a",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les chauffeurs VTC du convoi avaient pourtant pris la peine de contacter préalablement à leur déplacement ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "la police pour se faire communiquer l'itinéraire le plus sûr",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Qu'un tel drame puisse se produire à l'occasion d'un match de football qui par essence est une fête, nous interroge tous. Nous ne pouvons que faire nôtres les mots de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Madame la Ministre des sports : ça suffit !",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pkrhl8onta",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "efr4rftzdw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Enfin, au regard du contexte bien particulier de ce dossier et de son légitime traitement médiatique, nous appelons au calme et à la retenue. Afin de permettre à l'institution judiciaire d'œuvrer dans les meilleures conditions. »",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xpvwkfq52q",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "2cgd9yhiq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La poursuite de la défense",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0ow8izy4pw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre cabinet continue de défendre les intérêts de notre client dans cette ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "procédure pénale",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/qu-est-ce-que-la-comparution-imm%C3%A9diate",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " complexe, en veillant au respect de ses droits et à l'établissement de la vérité judiciaire.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "d3qvfltrg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      }
+    ],
+    "metadata": {
+      "version": 1.0,
+      "createdTimestamp": "2026-05-10T22:42:40.482Z",
+      "updatedTimestamp": "2026-05-10T22:42:40.482Z"
+    }
+  }
+}

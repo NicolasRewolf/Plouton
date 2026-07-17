@@ -1,0 +1,928 @@
+{
+  "slug": "saisie-record-de-772-kg-de-cocaïne-au-pays-basque-le-cabinet-plouton-assure-la-défense",
+  "sourcePath": "/post/saisie-record-de-772-kg-de-cocaïne-au-pays-basque-le-cabinet-plouton-assure-la-défense",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "87yad6959",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans le cadre d'une saisie exceptionnelle de stupéfiants réalisée par les douanes d'Hendaye, une information judiciaire a été ouverte par la JIRS de Bordeaux. Notre cabinet a été saisi pour assurer la défense de l'un des chauffeurs mis en cause dans ce dossier d'envergure internationale.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ytfjd8057",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "LINK_PREVIEW",
+        "id": "9h5dc8184",
+        "nodes": [],
+        "linkPreviewData": {
+          "description": "Le parquet de Bordeaux alerte sur l’augmentation alarmante du trafic de cocaïne entre l’Espagne et la France, illustrée par une saisie record de 772 kilos à Anglet. Plus de 600 kilos de cannabis ont aussi été saisis dans la Vienne",
+          "link": {
+            "url": "https://www.sudouest.fr/pyrenees-atlantiques/bayonne/saisie-de-drogue-au-pays-basque-772-kilos-de-cocaine-interceptes-par-les-douaniers-d-hendaye-sur-l-a63-a-anglet-26094724.php",
+            "target": "BLANK"
+          },
+          "containerData": {
+            "width": {
+              "size": "CONTENT"
+            },
+            "alignment": "CENTER",
+            "textWrap": true
+          },
+          "title": "Saisies de drogue record dans le Sud-Ouest : 772 kilos de cocaïne et 608 kilos de cannabis",
+          "thumbnailUrl": "https://media.sudouest.fr/26094724/1200x-1/so-5f18140066a4bd573ed490c9-ph0.jpg"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xtfr48185",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "c0rtz7180",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "c4cvz6961",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les faits : une saisie historique sur l'A63",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "22co26963",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'affaire fait grand bruit dans la presse régionale et nationale. Dans la nuit du 21 au 22 septembre, les services des douanes ont intercepté un poids lourd en provenance d'Espagne au niveau du péage de la Négresse à Anglet.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "leqga7302",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jrr2f6965",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Lors de ce contrôle, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "772 kilos de cocaïne",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ont été découverts, dissimulés dans une cache aménagée au sein de la remorque. Parallèlement, une seconde opération menée dans la Vienne a permis la saisie de plus de 600 kilos de cannabis, les enquêteurs soupçonnant un lien logistique entre les deux convois.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rq7tg7265",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "55nd86969",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Face à l'ampleur de la saisie et la complexité du réseau présumé, le parquet de Bayonne s'est dessaisi au profit de la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Juridiction Interrégionale Spécialisée (JIRS) de Bordeaux",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", compétente en matière de criminalité organisée.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pzb3w7939",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dw6hz7980",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "ei7r06973",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une instruction criminelle complexe s'ouvre à Bordeaux",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fgoa56975",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre client, un chauffeur de nationalité marocaine âgé d'une quarantaine d'années, a été interpellé puis ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "mis en examen",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " des chefs d'importation de stupéfiants en bande organisée, trafic de stupéfiants et association de malfaiteurs.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zl1xb6979",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Il a été placé en détention provisoire le temps de l'instruction.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "349n67353",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ag9l16981",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans ce type de dossiers de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "trafic de stupéfiants",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/trafic-de-stup%C3%A9fiant",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " international, l'enjeu juridique est majeur. La procédure, qui s'annonce longue, devra déterminer avec précision le rôle de chaque protagoniste.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2azce7396",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gep0d6985",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les investigations, désormais menées sous commission rogatoire, auront pour but de remonter les filières, d'identifier les commanditaires et de tracer les flux financiers.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "l1e0r7437",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "3gyxk6987",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le rôle de la défense : au-delà des apparences",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "6jnxd6989",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans des affaires impliquant des quantités aussi massives, la pression médiatique et judiciaire est immense. Il est toutefois primordial de rappeler les principes fondamentaux de notre droit pénal, et en premier lieu la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "présomption d'innocence",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7dra66993",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le rôle de l'avocat pénaliste est ici crucial pour s'assurer que l'instruction ne se fasse pas uniquement à charge. Dans le transport international routier, la problématique de la connaissance réelle du chargement par le chauffeur est souvent centrale. La distinction entre un acteur conscient d'un réseau criminel et une \"mule\" ou un transporteur instrumentalisé doit être établie avec rigueur par la justice.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "g3fun7482",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4b8fk6995",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le Cabinet Plouton accompagnera son client tout au long de cette procédure criminelle devant le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Tribunal Judiciaire de Bordeaux",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/proc%C3%A8s-criminel",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", veillant au respect scrupuleux de ses droits et à l'examen minutieux des éléments constitutifs du dossier.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "owjom7525",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "2dyjh6999",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour aller plus loin sur les procédures pénales :",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "li8kb7001",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "3o5447002",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "kufjq7003",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Comprendre les statuts :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Mis en cause, témoin assisté, mis en examen : quelles différences ?",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/post/mis-en-cause-temoin-assiste-prevenu-accuse-differences",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "hefxz7007",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "3benq7008",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La privation de liberté :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Tout savoir sur la détention provisoire et ses alternatives",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/post/l-assignation-à-résidence-sous-surveillance-électronique-arse-comprendre",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "yoaw27012",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "6l4n37013",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le début de la procédure :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les droits en Garde à Vue",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/post/droits-en-garde-à-vue-la-liste-complète-et-expliquée-pour-vous-défendre",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gctjy7017",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ds94h7575",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vous ou l'un de vos proches êtes mis en cause dans une affaire de stupéfiants ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Le Cabinet Julien Plouton intervient en urgence et à tous les stades de la procédure pénale. ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Prendre rendez-vous avec le cabinet",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/honoraires-rendez-vous",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "f072f8bd-2457-45a6-a018-852f4012071b",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "f5bbfefa-f4ad-4a62-ab75-100d2a43cf89",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour mieux comprendre les enjeux de ces procédures complexes, explorez ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "nos affaires de trafic de stupéfiants",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/blog/categories/trafic-de-stupéfiants",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false,
+                        "noreferrer": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " traitées par le Cabinet Plouton au fil des années.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      }
+    ],
+    "documentStyle": {}
+  }
+}

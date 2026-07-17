@@ -1,0 +1,1291 @@
+{
+  "slug": "l-interdiction-de-gérer-une-sanction-professionnelle-pour-dirigeants-d-entreprises-en-difficulté",
+  "sourcePath": "/post/l-interdiction-de-gérer-une-sanction-professionnelle-pour-dirigeants-d-entreprises-en-difficulté",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "HEADING",
+        "id": "lphct2480",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le contexte juridique de cette sanction",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2qea12482",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Lorsqu'une entreprise rencontre des difficultés économiques significatives, elle peut être placée sous contrôle judiciaire par l'ouverture d'une procédure de sauvegarde, de redressement ou de liquidation judiciaire.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#FFFFFF"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Ces procédures visent notamment à garantir le règlement des créances en cas de cessation de paiement.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "1dd3n2484",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'ouverture de ces procédures collectives permet d'analyser le parcours de l'entreprise avant les difficultés et d'identifier les circonstances et décisions du dirigeant qui ont pu conduire à la cessation des paiements.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "k7v362486",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans certains cas, des comportements fautifs apparaissent comme étant à l'origine des difficultés ou ayant contribué à leur aggravation. Ces fautes peuvent alors être sanctionnées de différentes manières : ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "sanctions patrimoniales, professionnelles et/ou pénales",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/droit-p%C3%A9nal-des-affaires",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "29mud2490",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Parmi les sanctions professionnelles figure l'interdiction de gérer, qui vise à écarter temporairement du circuit économique la personne physique responsable des difficultés. L'article L.653-8 du Code de commerce précise que le tribunal de commerce « peut prononcer l'interdiction de diriger, gérer, administrer ou contrôler, directement ou indirectement, soit toute entreprise commerciale ou artisanale, toute exploitation agricole et toute personne morale, soit une ou plusieurs de celles-ci ».",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "6j2iy2979",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "1mr662992",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les conditions nécessaires au prononcé de l'interdiction",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zo0jf2496",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Deux conditions préalables doivent être réunies pour qu'une interdiction de gérer puisse être prononcée :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "2w4vc2498",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "j1ntm2499",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "cy0k52500",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'ouverture préalable d'une procédure collective",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : Cette sanction ne peut être prononcée que dans le cadre d'une procédure de redressement ou de liquidation judiciaire déjà ouverte (article L.653-1 du Code de commerce).",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ke67s2503",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "2n2q42504",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La commission de faits fautifs spécifiques",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : Le tribunal de commerce ne peut prononcer cette sanction que pour les comportements limitativement énumérés par les articles L.653-3 à L.653-6 du Code de commerce, notamment :",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "laq5c2507",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "caada2508",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "l2mrd2509",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "La poursuite abusive d'une exploitation déficitaire vouée à la cessation des paiements",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "0lozi2511",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "oghdv2512",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Le détournement ou la dissimulation d'actifs, ou l'augmentation frauduleuse du passif",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "4ktlf2514",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "j421w2515",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "L'utilisation des biens de la personne morale comme des biens personnels",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "h672n2517",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "j4cy82518",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "La réalisation d'actes de commerce dans un intérêt personnel",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "rt33o2520",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "spw3d2521",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "L'usage des biens ou du crédit de la personne morale contraire à l'intérêt de celle-ci",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "1mw2f2523",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "zap492524",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "L'achat en vue d'une revente à perte ou l'emploi de moyens ruineux pour se procurer des fonds",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "fkiy92526",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "wos1u2527",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "La souscription d'engagements disproportionnés pour le compte d'autrui",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "ginua2529",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "4ryz32530",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Le paiement préférentiel de certains créanciers après cessation des paiements",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "hedrs2532",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "yut0m2533",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "L'obstruction au bon déroulement de la procédure collective",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "s3pl52535",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "v2sxx2536",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Les irrégularités comptables (disparition de documents, absence de comptabilité obligatoire, comptabilité fictive)",
+                              "decorations": []
+                            }
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "\n",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0.0
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qbowq2538",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ces situations peuvent également faire l'objet de poursuites relevant du ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "droit pénal des affaires",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/droit-p%C3%A9nal-des-affaires",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", domaine dans lequel une défense juridique spécialisée est essentielle.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "s4jwa3242",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "qrh7c3272",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les décisions possibles du tribunal",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jf13z2544",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le tribunal de commerce dispose d'une palette de sanctions et peut préférer l'interdiction de gérer à la faillite personnelle. Cette dernière constitue une sanction globale, tandis que l'interdiction de gérer peut être partielle et limitée à certaines activités.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2plus2546",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'interdiction de gérer apparaît ainsi comme une mesure plus proportionnée dans certains cas, permettant notamment le reclassement du dirigeant dans un secteur d'activité plus adapté à ses compétences.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "y1p2t2548",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette sanction professionnelle entraîne plusieurs conséquences :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "q5ly62550",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "sql412551",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "xnpa32552",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'exclusion temporaire du dirigeant de la vie des affaires",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "h3vrt2554",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "gy8uv2555",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La privation du droit de vote dans la société débitrice",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "01gq52557",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ndxd32558",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La possibilité pour le tribunal d'ordonner la cession des actions ou des parts sociales détenues par le dirigeant (leur valeur venant en déduction du passif)",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "z73i32560",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La durée de l'interdiction est déterminée par le tribunal et ne peut excéder 15 ans (article L.653-11 du Code de commerce).",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "vupef3403",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "vruuf3441",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les voies de sortie de l'interdiction",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "775wd2564",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pendant l'exécution de cette sanction, le dirigeant concerné dispose de possibilités pour en demander la levée anticipée :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "2ueux2566",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "417ra2567",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "vwnzt2568",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "En adressant une requête à la juridiction qui a prononcé l'interdiction",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "uqty42570",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "unsb12571",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "En démontrant avoir apporté une contribution suffisante au remboursement du passif",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "h7f9y2573",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "o5ndk2574",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "En présentant des garanties attestant sa capacité retrouvée à diriger ou contrôler une entreprise (par exemple, après avoir suivi une formation professionnelle adaptée)",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4irvw2576",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans tous les cas, l'interdiction de gérer prend fin automatiquement :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "bkv6z2578",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "j94dh2579",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "cvpwj2580",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "À l'expiration du délai fixé par le tribunal",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "didvp2582",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "zjs5o2583",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "En cas de jugement constatant l'extinction du passif exigible",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "eetkc3614",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "DOUBLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "yeab93660",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Protection juridique et accompagnement",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "l00ka2587",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Face au risque d'interdiction de gérer, un accompagnement juridique spécialisé est essentiel dès les premiers signes de difficultés économiques. Notre ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "cabinet Plouton",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " intervient régulièrement dans la",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " défense pénale des dirigeants d'entreprise ",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/droit-p%C3%A9nal-des-affaires",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "et dans les dossiers relevant du droit des contrats et des personnes.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5axdw2593",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En cas de procédure collective, une stratégie de défense appropriée peut permettre d'éviter les sanctions professionnelles ou d'en limiter la portée et la durée. N'hésitez pas à nous consulter pour une analyse de votre situation.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {
+      "paragraph": {
+        "decorations": [
+          {
+            "type": "FONT_SIZE",
+            "fontSizeData": {
+              "unit": "PX",
+              "value": 14.0
+            }
+          }
+        ],
+        "nodeStyle": {}
+      }
+    }
+  }
+}

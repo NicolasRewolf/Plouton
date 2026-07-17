@@ -1,0 +1,1206 @@
+{
+  "slug": "trafic-de-cocaïne-à-bordeaux-5-ans-de-prison-au-lieu-de-8-ans-requis-par-le-parquet",
+  "sourcePath": "/post/trafic-de-cocaïne-à-bordeaux-5-ans-de-prison-au-lieu-de-8-ans-requis-par-le-parquet",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "eto5ettsa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En résumé :",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Devant la JIRS de Bordeaux les 14 et 15 septembre 2023, notre client \"Miguel\", poursuivi en état de triple récidive légale pour trafic et importation de cocaïne, a été condamné à cinq ans d'emprisonnement. Le parquet requérait huit ans. Le Cabinet a obtenu cette réduction en démontrant que la qualification d'organisateur d'un trafic d'envergure, soutenue par l'accusation, ne résistait pas à une analyse approfondie des écoutes téléphoniques.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bwhgbv9gg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "b13005t84a",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le contexte : une dénonciation anonyme et un client visé comme \"tête de réseau\"",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7rmcxiv3cw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'affaire s'ouvre sur la dénonciation d'un témoin anonyme. Ce dernier désigne \"Miguel\", originaire de Côte d'Ivoire et résidant en France depuis plus de 25 ans, comme étant à la tête d'un important ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "trafic de drogue",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/defense-penale/droit-penal",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " sévissant à Bordeaux, particulièrement dans le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "quartier des Capucins",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rn1hktrrw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "oihkv1kqsa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Selon le témoin, notre client dirigeait une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "organisation structurée",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", s'appuyant sur des lieutenants et impliquant principalement des membres de la communauté africaine et afro-antillaise. Le témoin précisait également qu'une partie de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "la cocaïne était importée depuis la Guyane via des mules",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wzhiyrfjiq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "cvbkhhmulq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette dénonciation a servi de matrice à l'ensemble de l'enquête.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ybqzhbzcq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "zijxrlb8w",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'enquête : écoutes téléphoniques et poursuite du trafic depuis la détention",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ii4kojn33g",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les enquêteurs identifient rapidement une des lignes téléphoniques de notre client et procèdent à des ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "interceptions téléphoniques",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Celles-ci confirment son implication dans un trafic portant sur la cocaïne.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "y6odsxl3bw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "k4m1fhi8cw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quelques semaines après le début de la surveillance, \"Miguel\" est interpellé en exécution d'un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "mandat d'arrêt",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " délivré à la suite d'une précédente condamnation pour ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "trafic de stupéfiants",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Il est alors ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "incarcéré dans un centre de détention",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " de la région.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "af6jfqlhba",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wavqjoo8ha",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les enquêteurs, qui avaient également placé certains de ses contacts sur écoute, constatent que l'incarcération n'a pas mis fin à l'activité. Le trafic semblait se poursuivre depuis le lieu de détention, avec le concours d'une jeune femme et d'un ami de longue date, présenté comme \"goûteur\" de cocaïne.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5p5ex3ndga",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "4dergtilfw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La thèse du parquet : un dirigeant entouré de lieutenants",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lciy49qlca",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'accusation imputait à notre client la livraison de plusieurs kilos de cocaïne. Le ministère public le présentait comme l'organisateur et le dirigeant de plusieurs revendeurs.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gt1juwza",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5t3w5ugxqq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour soutenir cette construction, le parquet sélectionnait, avec une certaine habileté, quelques écoutes téléphoniques parmi des centaines d'autres. L'objectif : donner aux conversations entre notre client et ses interlocuteurs une apparence de continuité et de cohérence hiérarchique.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hcn2dbf1pg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "838mnolbvw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le juge d'instruction, dans son ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "ordonnance de renvoi devant le tribunal correctionnel",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", allait jusqu'à recourir à un champ lexical militaire pour qualifier les échanges. Une manière, selon nous, de calquer artificiellement la procédure sur le scénario livré par le témoin anonyme.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5sorvq7zvg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "nwur7kmza",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La stratégie de défense : démontrer le détournement de réalité du dossier",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "javjumzy1g",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le Cabinet a opposé à cette thèse une lecture complète et minutieuse des éléments de procédure. Les retranscriptions intégrales des conversations téléphoniques et la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "sonorisation du véhicule",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " de l'un des individus présentés comme lieutenant révélaient une réalité très différente :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jxjgqvreq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "3r9thbb1rw",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "fxf9me3xw",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "uxwafntmw",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "À la suite de son incarcération, notre client avait contacté des amis à l'extérieur pour tenter de récupérer de l'argent issu du trafic entreposé à son domicile.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "7iwbzdb9qg",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ttipzubmtw",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Il leur avait transféré ses contacts dans l'espoir de toucher quelques commissions, car il se trouvait dans un dénuement total en détention.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ipbkrh460a",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "jz15u3ql0a",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Ceux que le parquet présentait comme ses fidèles lieutenants avaient en réalité profité de son incarcération pour développer leur propre trafic, préexistant, en reprenant une partie de sa clientèle.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "kgpembw71w",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "aom3ydsmdw",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Notre client ne touchait qu'une petite commission, le prix de revente étant majoré de quelques euros par gramme de cocaïne.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ol2avxdcq",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "nfc4ag9kww",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Contrairement aux affirmations du parquet, aucune menace ni pression n'apparaissait dans les échanges : les interlocuteurs apparaissaient comme des amis, non comme des subordonnés.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vw5algr9ka",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rzfjx1wrqg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les conversations interceptées mettaient au contraire en évidence des relations amicales et d'affection.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xxxbdxeoka",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "fdrjynpza",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'argument décisif : les surnoms et la référence à Alain Mabanckou",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fblgmynxna",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour soutenir ses réquisitions de huit ans d'emprisonnement, le procureur de la République s'appuyait également sur les surnoms utilisés dans la procédure. Le domicile de notre client, où s'était trouvée entreposée une partie de la cocaïne, était surnommé la \"maison blanche\". Lui-même était désigné sous les sobriquets de \"El Presidente\" et \"",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "le roi de la coke à Bordeaux",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\". Selon le parquet, ces appellations soulignaient son importance dans le milieu du ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "trafic de cocaïne à Bordeaux",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/defense-penale/trafic-de-stupefiant",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qjv522miw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tzhh66oqmg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Nous avons battu en brèche cette argumentation en citant Alain Mabanckou. Dans son livre ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Black Bazar",
+              "decorations": [
+                {
+                  "type": "ITALIC"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", l'auteur met en scène des personnages d'origine africaine émigrés en région parisienne, dont certains appartiennent à la communauté des Sapeurs (Société des ambianceurs et des personnes élégantes).",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "mopwfu6asq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "laovhlbj7q",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Leur sens de l'humour, leur verve et leur art de manier la langue française les conduisent à affubler leurs compagnons de surnoms drolatiques, évoquant de façon caricaturale une particularité physique ou un trait de caractère. Une manière de magnifier, par la dérision et l'auto-dérision, des conditions d'existence parfois difficiles.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5uhpy4owkw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pk1q5l71w",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Or, certaines écoutes téléphoniques de cette procédure mettaient en évidence des échanges qui n'auraient pas dépareillé dans l'ouvrage d'Alain Mabanckou. Cet éclairage culturel situait le dossier à des années-lumière d'un trafic d'envergure.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ps5yfdqlaq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "wgu7s2mwgg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La décision : cinq ans au lieu de huit, le tribunal redonne au dossier sa juste proportion",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ydcgmxaqiw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le Tribunal a paru animé par ce souci de cohérence. Il a écarté la construction intellectuelle, certes attrayante mais injustifiée, du parquet et a redonné à ce dossier de trafic de cocaïne sa juste proportion.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vcr5phcdya",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bg9txvcp0a",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Malgré l'état de triple ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "récidive légale",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " dans lequel comparaissait notre client, la peine prononcée a été de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "cinq ans d'emprisonnement",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", soit trois ans de moins que les huit années requises par le ministère public.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pxmeivoww",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      }
+    ],
+    "metadata": {
+      "version": 1.0,
+      "createdTimestamp": "2026-05-12T09:35:08.811Z",
+      "updatedTimestamp": "2026-05-12T09:35:08.811Z"
+    }
+  }
+}

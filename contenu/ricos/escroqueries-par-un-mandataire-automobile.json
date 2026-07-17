@@ -1,0 +1,1026 @@
+{
+  "slug": "escroqueries-par-un-mandataire-automobile",
+  "sourcePath": "/post/escroqueries-par-un-mandataire-automobile",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "qbjkoyhiiw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En résumé.",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Le cabinet Plouton a déposé une série de plaintes pénales pour abus de confiance auprès du procureur de la République de Bordeaux, au nom d'un collectif de victimes de la société ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C.",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", mandataire automobile. Le préjudice global estimé dépasse 100 000 euros. Les victimes confiaient leur véhicule en dépôt-vente ; les ventes étaient réalisées, mais les fonds n'étaient jamais reversés.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jafixdfu6q",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "vb66tofmg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une escroquerie organisée autour du dépôt-vente automobile",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kwxcuevbta",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La société ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C.",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", spécialisée comme mandataire automobile, opérait selon un schéma répétitif visant à multiplier les victimes en un temps record. Le procédé s'appuyait sur les codes classiques du dépôt-vente, détournés à des fins frauduleuses.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "m8cvloh8a",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "p5lqj8qhbg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le mécanisme du stratagème",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "t9dss4eyag",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "69oxgpl1a",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "vt0396nw0q",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Démarchage commercial attractif :",
+                      "decorations": [
+                        {
+                          "type": "BOLD"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " les victimes étaient approchées par un discours commercial rassurant et concluaient un mandat de vente avec la société C., lui confiant leur véhicule, les clés et les documents d'immatriculation.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "mmluledxhw",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "kelhq8ufkw",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Engagement contractuel apparent :",
+                      "decorations": [
+                        {
+                          "type": "BOLD"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " la société s'engageait à trouver un acquéreur et à procéder à la cession, en prélevant une commission sur le prix de vente.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "frvgde2pig",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "dj46ytqrha",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Disparition après encaissement :",
+                      "decorations": [
+                        {
+                          "type": "BOLD"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " les commerciaux maintenaient d'abord un contact rassurant sur l'imminence de la vente. Ce contact s'éteignait rapidement, laissant place à un silence total une fois le véhicule cédé.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ge0znxmrhg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "4jn4g9uha",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les conséquences financières pour les victimes",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pkgzwqn4va",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une consultation rapide de la page Internet de l'entreprise révélait que de nombreuses personnes avaient subi des agissements identiques. Les véhicules confiés en dépôt-vente avaient bien été vendus, mais les fonds n'étaient pas reversés aux propriétaires légitimes.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qrwdwrxsa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "at3pzbmt0g",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "a24lz4prmw",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "6r3ry68j7q",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Préjudice estimé à plus de 100 000 euros",
+                      "decorations": [
+                        {
+                          "type": "BOLD"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " pour l'ensemble du collectif identifié.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "wybcmksijw",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "srmdelqfvq",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Victimes privées à la fois de leur véhicule et de toute contrepartie financière.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ddaaknrpng",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "nvkjzqtng",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Difficulté à obtenir une réponse civile rapide face à une structure commerciale opaque, d'où le choix de la voie pénale.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tcpxk3tcvq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "zgah5kodug",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'action du cabinet : plaintes pénales pour abus de confiance",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "noxqhlfwg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Saisi par plusieurs propriétaires lésés, le cabinet a déposé une série de plaintes pénales entre les mains du procureur de la République de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Bordeaux",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", sur le fondement de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "l'abus de confiance",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/l-abus-de-confiance-en-droit-français-ce-que-vous-devez-savoir-en-2025",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "aybnq76sga",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fotxlbtng",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La qualification d'abus de confiance s'imposait : les véhicules avaient été remis volontairement à la société C. dans le cadre précis d'un mandat de vente, à charge pour elle d'en restituer le prix après cession. Le détournement de ces fonds caractérise l'infraction prévue par le Code pénal.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "auzqrh6zzg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "6kqyafy7zw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une stratégie procédurale coordonnée",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "rbufup96kg",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "0kvmokriuq",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "8w7zitgb2g",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Mandat d'enquête unique sollicité :",
+                      "decorations": [
+                        {
+                          "type": "BOLD"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " le cabinet a demandé qu'un même service d'enquête soit saisi de l'ensemble des plaintes, afin d'assurer la cohérence des investigations et d'éviter la dispersion des dossiers.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "uprr8np97g",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "zu9z0rmtea",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Objectif de cessation immédiate :",
+                      "decorations": [
+                        {
+                          "type": "BOLD"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " la démarche vise à faire cesser les agissements frauduleux en cours de la société C.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "bgxa1xsuta",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "canq5gy0xw",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Prévention de la réitération :",
+                      "decorations": [
+                        {
+                          "type": "BOLD"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " le regroupement des plaintes doit également empêcher la reprise des mêmes pratiques sous une autre enseigne commerciale.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4dm4zml9jw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "asdv7ty0ig",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Que faire si vous êtes victime d'un mandataire automobile défaillant",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yyyjecq2ra",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les affaires d'escroquerie via mandat de vente automobile se développent. Les indices d'alerte pour les propriétaires sont récurrents :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "c4v80bpowa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "cbg3yvgoq",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "duuayfrsa",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "rdp00poca",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Absence de virement après la cession annoncée du véhicule.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "e3bmylpmg",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "erxtaf2urg",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Interlocuteurs commerciaux qui deviennent injoignables.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "cn3ca3bsw",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "gcvibdfnzq",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Avis négatifs convergents en ligne décrivant le même schéma.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "yp1tujpnyw",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "c3n1fpv7ew",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Refus de communiquer le justificatif de vente ou l'identité de l'acquéreur.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "cmzws9ftfq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ruxzoltzew",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans ces situations, le dépôt d'une plainte pénale pour abus de confiance, voire pour escroquerie, est généralement plus efficace que la voie civile seule, en particulier lorsque plusieurs victimes peuvent agir de concert.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "voaajgbza",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "4ktszwasq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour aller plus loin",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zwyh2krxrq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour une autre affaire d'arnaque liée à la vente de véhicule automobile, consultez : ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Accident de la circulation – Loi Badinter",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/loi-badinter-85-comprendre-vos-droits-à-indemnisation-après-un-accident-de-la-route",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "q0jgt1kg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2026-05-11T18:45:34.758Z",
+      "updatedTimestamp": "2026-05-11T18:45:34.758Z"
+    }
+  }
+}

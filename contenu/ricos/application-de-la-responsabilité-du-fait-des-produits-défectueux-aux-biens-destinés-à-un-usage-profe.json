@@ -1,0 +1,1602 @@
+{
+  "slug": "application-de-la-responsabilité-du-fait-des-produits-défectueux-aux-biens-destinés-à-un-usage-profe",
+  "sourcePath": "/post/application-de-la-responsabilité-du-fait-des-produits-défectueux-aux-biens-destinés-à-un-usage-profe",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "ifiyhrgiya",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En résumé :",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Quand un produit défectueux endommage un bien, même professionnel, c'est le régime spécial de la responsabilité du fait des produits défectueux qui s'applique (articles 1245-1 et suivants du Code civil), avec une prescription courte de trois ans. Impossible de se rabattre sur la responsabilité du fait des choses pour gagner du délai : la Cour de cassation l'a verrouillé dans son arrêt du 11 juillet 2018 (1ʳᵉ chambre civile, n° 17-20.154).",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "n5oqbpd9wa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "caaykvtbqw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quand un produit défaillant cause un dommage à un bien utilisé pour le travail — un transformateur électrique, une machine industrielle, un équipement agricole — la victime se trouve face à un choix qui semble purement technique. Pourtant, ce choix commande l'issue de toute l'action en réparation : sur quel fondement agir ?",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0vjh0amkaw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "6gpir12ipw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "D'un côté, la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "responsabilité du fait des produits défectueux",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", régime spécial issu du droit européen, soumis à une prescription courte de trois ans. De l'autre, la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "responsabilité du fait des choses",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", régime de droit commun à la prescription plus longue. La tentation est forte, en cas d'expertise tardive ou de procédure ralentie, de se rabattre sur le second pour échapper aux délais du premier.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zmvvcusxg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7ofw8ctsq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La Cour de cassation a fermé cette porte dans un arrêt du 11 juillet 2018 (1ʳᵉ chambre civile, n° 17-20.154). Décryptage.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3lanpbztg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "arpsxma3qw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Deux régimes de responsabilité, deux logiques",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yb40gymfw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La responsabilité du fait des produits défectueux trouve sa source dans la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Directive 85/374/CEE du 25 juillet 1985",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", transposée en droit français par la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "loi du 19 mai 1998",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Elle figure aujourd'hui aux articles ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "1245-1 et suivants du Code civil",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (anciennement 1386-1 et suivants).",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nqvrc3ifeg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qloktnfvqw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Son principe est protecteur : le producteur est responsable du dommage causé par le défaut de son produit, c'est-à-dire d'un produit qui n'offre pas la sécurité à laquelle on peut légitimement s'attendre. La victime n'a pas à démontrer une faute. Elle doit seulement prouver trois éléments :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rq2vzft30g",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "2fllfzvxw",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "bqzwltpxa",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "qmrillwh5g",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "le dommage subi,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "nsnnsvoisw",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "da7mteeila",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "le défaut du produit,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "bkont63h0q",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "00z1kubpaw",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "le lien de causalité entre les deux.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3kpcdfbabg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ja280mpnjw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En contrepartie de cette facilité de preuve, le législateur a prévu un délai de prescription court : ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "trois ans à compter de la date à laquelle le demandeur a eu ou aurait dû avoir connaissance du dommage, du défaut et de l'identité du producteur",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (article 1245-16 du Code civil).",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "b4bxrjjphq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7e2pkjfgmw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À côté de ce régime spécial coexiste la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "responsabilité générale du fait des choses",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (article 1242 alinéa 1ᵉʳ du Code civil, anciennement 1384 alinéa 1ᵉʳ), qui permet d'engager la responsabilité du gardien d'une chose ayant causé un dommage. La prescription y est de cinq ans (article 2224 du Code civil). L'enjeu apparaît clairement : selon le fondement choisi, la même action peut être recevable ou prescrite.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pbkq9j3nhq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "jtfgsqgegg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les faits : un transformateur, un incendie, une procédure tardive",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "whkp48x9q",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le 25 juin 2008, un incendie se déclare sur une propriété voisine de celle de M. X. Le sinistre s'étend et embrase son bâtiment d'exploitation agricole. Un rapport établi en 2009 met en évidence l'origine du feu : une surtension sur le réseau électrique ayant provoqué l'explosion d'un transformateur.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "np9egftyyg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qsdhogtdgq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "M. X et son assureur attendent 2013 pour assigner la société ERDF, en sa qualité de producteur. Ils choisissent expressément de fonder leur action sur la responsabilité du fait des choses (article 1242 alinéa 1ᵉʳ du Code civil).",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "9obtqgexw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hxbobd3ta",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "ERDF oppose une fin de non-recevoir : le défaut allégué étant celui d'un produit, c'est le régime spécial de la responsabilité du fait des produits défectueux qui doit s'appliquer — et l'action est prescrite, le délai de trois ans étant largement dépassé. La Cour d'appel de Versailles suit ce raisonnement le 30 mars 2017 et déclare l'action irrecevable.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wayd9ynqq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "j8xnjiqokg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La question : pouvait-on contourner le régime spécial ?",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pytnq3mh2q",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Devant la Cour de cassation, M. X et son assureur soulèvent un argument inspiré du droit européen : la directive de 1985 vise, selon la Cour de justice de l'Union européenne, la réparation des biens à usage privé. Le bâtiment endommagé étant à usage professionnel, ils estiment que le régime spécial ne leur est pas applicable, et qu'ils peuvent donc librement choisir d'agir sur le fondement du droit commun.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "diwpzluolg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kucqaygdg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La question juridique posée à la haute juridiction était donc double :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "cqnqsx4yoa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "jeq2oy7k1w",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "dkdzrdqira",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "xouw8zgagw",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "le régime de la responsabilité du fait des produits défectueux peut-il s'appliquer à des biens à usage professionnel ?",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "uxwixta3ha",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "tok9fak4q",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "si oui, la victime peut-elle néanmoins opter pour le droit commun afin de bénéficier d'une prescription plus longue ?",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wowxhogdaa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "lpp3dqqjla",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La réponse de la Cour de cassation : régime spécial, exclusivement",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "glofomdmq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Par son arrêt de rejet du 11 juillet 2018, la première chambre civile apporte deux réponses claires.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "broywu3za",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kbchx2lh8q",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Premier point : le droit français peut étendre le régime aux biens professionnels.",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " La Cour rappelle la position de la Cour de justice exprimée dans l'arrêt ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Moteurs Leroy Somer",
+              "decorations": [
+                {
+                  "type": "ITALIC"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " du 4 juin 2009 (C-285/08) : si la directive de 1985 limite son champ d'application matériel aux biens privés, le législateur européen n'interdit pas aux États membres d'étendre, par leur droit interne, ce régime aux dommages causés à des biens destinés à un usage professionnel. En droit français, dès lors que la preuve du dommage, du défaut et du lien de causalité est rapportée, le régime spécial s'applique — peu importe l'usage du bien.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "cz11bua5cw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "od4c667k2a",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Deuxième point : le régime spécial évince le droit commun.",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Lorsque les conditions de la responsabilité du fait des produits défectueux sont réunies, la victime ne peut pas se prévaloir parallèlement de la responsabilité générale du fait des choses, dès lors qu'elle n'invoque pas un fondement distinct du défaut du produit lui-même. Autrement dit : on ne peut pas habiller le défaut d'un produit en simple fait d'une chose pour gagner deux années de prescription.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wvmx6zw6rg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "x55wpxvp4w",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La conséquence pratique pour M. X est sans appel. L'action est soumise à la prescription de trois ans prévue à l'article 1245-16 du Code civil. Les faits datant de juin 2008 et le rapport ayant révélé le défaut en 2009, l'action introduite en 2013 dépassait largement ce délai. Le pourvoi est rejeté, l'action reste prescrite.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "agobiwazxw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "k7gxsdglbg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce qu'il faut retenir",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ba4krzcbaa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cet arrêt confirme une ligne jurisprudentielle exigeante mais cohérente, qui appelle plusieurs points de vigilance pour les victimes — qu'elles soient consommateurs ou professionnels.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "stxx42prng",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "r19kfiatra",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le régime spécial s'impose dès qu'un défaut de produit est en cause, quel que soit l'usage du bien endommagé.",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Que vous soyez un particulier dont le téléviseur a pris feu ou un agriculteur dont le bâtiment d'exploitation a été détruit par un transformateur défaillant, c'est le régime des articles 1245-1 et suivants qui s'applique.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ygf3uufvtg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rafbvxb42q",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La prescription court vite, et elle court tôt.",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Le point de départ n'est pas la date du dommage mais celle à laquelle vous avez eu — ou auriez dû avoir — connaissance de trois éléments : le dommage subi, le défaut du produit et l'identité du producteur. Dans la pratique, ce point de départ est souvent fixé à la date du rapport d'expertise qui établit l'origine du sinistre.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0axzvet0mw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "z5qb4mqnxg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Trois ans, ce n'est pas long.",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Entre l'expertise initiale, les contre-expertises, l'identification précise du producteur (qui peut être un fabricant étranger, un sous-traitant, un assembleur), les négociations amiables avec les assureurs et la rédaction de l'assignation, le délai s'épuise rapidement. La victime qui tarde à saisir un avocat prend un risque réel : voir son action déclarée irrecevable avant même d'avoir été examinée au fond.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "samcfyxz0a",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ium7ib0rdq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le choix du fondement n'est pas libre.",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " L'arrêt de 2018 verrouille la possibilité de contourner la prescription courte en invoquant la responsabilité du fait des choses. Le seul moyen d'échapper au régime spécial est de démontrer un fondement véritablement distinct — une faute personnelle du fabricant ou une obligation contractuelle spécifique, par exemple.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xqlhaz91iw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "hzzasikkiw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les réflexes pratiques en cas de dommage",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "cwosocoba",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dès qu'un dommage matériel laisse soupçonner le défaut d'un produit, deux réflexes s'imposent :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bf6tpc6bw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "m1ezzb34sg",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "x5ylxhwwkq",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "qayhdqghq",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "sécuriser la preuve du défaut par expertise, en conservant le produit en cause et en faisant établir un rapport technique au plus vite,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "vsi9wmsrlq",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "t8umoq8e2q",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "engager les démarches judiciaires sans attendre, en identifiant précisément le producteur et en interrompant la prescription par une assignation ou une mise en demeure formelle.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wxw3xy36hq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "uvv30ajjpq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le cabinet Plouton accompagne particuliers et professionnels dans l'évaluation du fondement le plus pertinent et la conduite de leur action en réparation.",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/droit-des-contrats-et-des-personnes/defense-des-consommateurs",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ei4p6ykyya",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "hbnlt72pia",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Références",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "ite6efxkwg",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "5ve0fblbw",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "pxbkexy7g",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Cass. 1ʳᵉ civ., 11 juillet 2018, n° 17-20.154",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "2hdc4qeh9w",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "qxn95sbxg",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "CA Versailles, 30 mars 2017",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "vupj5esbbq",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "9nysl1bivq",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "CJCE, 4 juin 2009, ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Moteurs Leroy Somer",
+                      "decorations": [
+                        {
+                          "type": "ITALIC"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ", aff. C-285/08",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "nw32n7bijw",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "tyb9q0njgq",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Directive 85/374/CEE du Conseil du 25 juillet 1985",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "n3chj1bo2a",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "betbwdoimq",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Loi n° 98-389 du 19 mai 1998 relative à la responsabilité du fait des produits défectueux",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "rio5leaidq",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "hhioje7oaw",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Code civil, articles 1245-1 et suivants (anciens 1386-1 et suivants) ; article 1242 alinéa 1ᵉʳ ; article 2224 ; article 1245-16",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wodg51miqw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2026-05-11T17:57:50.104Z",
+      "updatedTimestamp": "2026-05-11T17:57:50.104Z"
+    }
+  }
+}

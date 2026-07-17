@@ -1,0 +1,971 @@
+{
+  "slug": "chute-dans-un-parking-public-à-bordeaux-indemnisation-de-plus-de-30-000-pour-la-victime",
+  "sourcePath": "/post/chute-dans-un-parking-public-à-bordeaux-indemnisation-de-plus-de-30-000-pour-la-victime",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "k5m8y9374",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre cabinet a obtenu ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "plus de 30 000 euros",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " d'indemnisation pour notre cliente victime d'un accident dans un parking public bordelais. Cette transaction avec l'assureur de la société ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "PARCUB REGIE COMMUNAUTAIRE D'EXPLOITATION DES PARCS de STATIONNEMENT de BORDEAUX",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " illustre notre engagement à défendre efficacement les droits des victimes d'",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "accidents de la vie courante",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/indemnisation-des-victimes/accidents-de-la-vie-courante",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lm4x89524",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "wgyjp9382",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les faits et notre intervention",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ztxql9384",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Madame C",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", assistante de direction âgée de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "42 ans",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", a été victime d'un accident le ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "6 janvier 2015",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " en chutant dans une flaque d'eau dans le parking situé à proximité de son lieu de travail. Cette chute lui a occasionné une ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "fracture déplacée de la rotule droite",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " nécessitant une intervention chirurgicale et entraînant un arrêt de son activité professionnelle.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "gphvz9393",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Face à la complexité de l'indemnisation du préjudice corporel, nous avons sollicité ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "deux mesures d'expertises médico-légales",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ordonnées par le Tribunal de Grande Instance en référé. Notre cliente avait reçu à ce stade une provision de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "7 000 euros",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", outre le remboursement des frais d'avocat et d'expertise par la partie adverse.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gpev29493",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "u5uf09399",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La procédure d'expertise et l'évaluation des préjudices",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "wqbkf9401",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'expert a déposé un premier rapport d'expertise le ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "6 décembre 2015",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", puis un second le ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "20 janvier 2017",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " après consolidation de l'état de santé de Madame C — moment où celui-ci n'est plus susceptible ni d'aggravation ni d'amélioration.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "rcv2o9407",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'expertise a révélé des ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "séquelles définitives à hauteur de 5 %",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (Déficit Fonctionnel Permanent), indemnisées à hauteur de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "8 050 euros",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Ces séquelles handicapent notamment notre cliente dans l'exercice d'activités sportives, préjudice d'agrément indemnisé à hauteur de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "5 000 euros",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Pour optimiser votre dossier médical lors d'une expertise, consultez notre guide sur ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "comment bien préparer son dossier médical",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/comment-bien-pr%C3%A9parer-mon-dossier-m%C3%A9dical",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "t738p9463",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "o4ikc9417",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le résultat obtenu",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "cn22q9419",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre cabinet se réjouit de la transaction intervenue entre les parties ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "fin 2018",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", après deux procédures judiciaires et mesures d'expertise médicales. L'indemnisation obtenue s'avère particulièrement satisfaisante et conforme à la jurisprudence rendue en la matière, démontrant l'importance d'un accompagnement juridique spécialisé dans ce type de dossier.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "uwy9l6815590",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "e60h39602",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour un autre exemple de dossier d'",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "accident de la vie courante",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " traité par le cabinet:",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tpvyh6815591",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "https://www.jplouton-avocat.fr/actualites-du-cabinet/chute-piscine-publique-obligation-securite-indemnisation-victime",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/post/chute-au-sol-dans-une-piscine-publique-à-salles-33-le-cabinet-obtient-près-de-70-000-d-indemni",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {}
+  }
+}

@@ -1,0 +1,2439 @@
+{
+  "slug": "comment-assigner-l-état-en-responsabilité-pour-faute-lourde",
+  "sourcePath": "/post/comment-assigner-l-état-en-responsabilité-pour-faute-lourde",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "rghin418",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pourquoi engager la responsabilité de l’État ? ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Lorsqu’un drame survient malgré des alertes répétées, la question de la responsabilité des institutions peut se poser",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "féminicide de ",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/post/revue-de-presse-affaire-chahinez-daoud-plouton",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Chahinez Daoud",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/post/revue-de-presse-affaire-chahinez-daoud-plouton",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", commis le 4 mai 2021 à ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Mérignac",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", en est une illustration tragique. Malgré plusieurs plaintes et signalements, aucune mesure de protection efficace n’a empêché le passage à l’acte.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "y3yf7699",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "a4yjh428",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans ce contexte, une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "action en responsabilité pour ",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/post/féminicide-de-mérignac-le-cabinet-lance-une-action-pour-faute-lourde-contre-l-etat",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "faute lourde",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/post/féminicide-de-mérignac-le-cabinet-lance-une-action-pour-faute-lourde-contre-l-etat",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " peut être engagée contre l’État lorsqu’un",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " dysfonctionnement grave du service public ",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "(police, justice…) a contribué au dommage.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "muo5n1081",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "pclpd32499",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "no9n532500",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "vnibl432",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Qu’est-ce qu’une faute lourde ?",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 2.0,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7j0im434",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La faute lourde est une faute d’une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "gravité exceptionnelle",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", révélant une défaillance caractérisée du service public dans l’exercice de sa mission.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3e2va1696",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zqsbh438",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Elle ne correspond pas à une simple erreur d’appréciation.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yn6261780",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "cwj6n1864",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Elle suppose :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "6zsv9440",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "ny2zn441",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "yfj05442",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une accumulation de manquements",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "h37jv444",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ma783445",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une inaction prolongée malgré des alertes claires",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "y2718447",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "mak5l448",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une désorganisation ou une carence manifeste du service",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "7dla81953",
+                "nodes": [],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "s5vdw450",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En matière judiciaire, le fondement juridique se trouve à l",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "’article L.141-1 du Code de l’organisation judiciaire",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " : L’État est tenu de réparer les dommages causés par un fonctionnement défectueux du service public de la justice, notamment en cas de faute lourde.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "i3yvk38131",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ckdmlg1",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À noter : la lenteur excessive de la justice relève du même fondement — ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "obtenir une indemnisation pour le délai déraisonnable de votre procédure",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/post/ma-procédure-judiciaire-n-avance-pas-puis-je-obtenir-une-indemnisation-pour-ce-délai-déraisonnable",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ne nécessite pas de prouver une faute lourde.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ckdmlg2",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "3b2dy1785",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "ou4iy1786",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "quifl452",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L’exemple du féminicide de Chahinez Daoud à Mérignac",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 2.0,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "09yds40385",
+                "nodes": [],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  },
+                  "level": 2.0
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0,
+          "start": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "j4wuo454",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans l’affaire Chahinez Daoud :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "my2m62290",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "907bc456",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "cb2ox457",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ho0tv458",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Plusieurs plaintes avaient été déposées",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "rok9n460",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "kkqip461",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Des signaux de dangerosité étaient identifiés",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "8mxr5463",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "mmyxs464",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Des mesures de contrôle n’ont pas été mises en œuvre",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "xb3ei2378",
+                "nodes": [],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "t7b92466",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les inspections administratives ont relevé une série d’erreurs et de défaillances dans le traitement du dossier.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tfjdf2546",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "n1jjf468",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L’action engagée repose sur l’idée que ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "le cumul de ces manquements a diminué les chances de protection et de survie de la victime",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", constituant ainsi une faute lourde.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "08ue82633",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "q2q932256",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "8pw3g2257",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "yfyzj472",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Quelles sont les étapes pour assigner l’État ?",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 2.0,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0,
+          "start": 3.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5dxqt41259",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "507zg41518",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "lxqfd41519",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "d1won474",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Identifier le fondement juridique",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3.0,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ek0nl476",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Il faut déterminer si l’on se situe :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "1wcfa2972",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "0tyca45063",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "1r54q45064",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "27pok480",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Devant le ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "tribunal judiciaire",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " (fonctionnement défectueux du service public de la justice ou de la police judiciaire)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "zxq9845327",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "7cmbp485",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Devant le ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "tribunal administratif",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " (autres services administratifs de l’État)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "u1ir92727",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "jxyiw42566",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "o3zmr42567",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "k69ck489",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Rassembler les preuves",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3.0,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qw71o491",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le dossier doit démontrer :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "n84s53147",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "txxac44208",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "x1ere44209",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "lalca495",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les signalements effectués",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "woh77497",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "vxouq498",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les décisions prises (ou non prises)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "o35j3500",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "2jxbo501",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les dysfonctionnements constatés",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "as861503",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "bvpp0504",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le lien entre ces manquements et le préjudice subi",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "qyys33236",
+                "nodes": [],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "f0gzm506",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La preuve est centrale : la faute lourde ne se présume pas.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "9y42v3404",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "nuul245424",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "jimfw45425",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "8kwyv508",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Effectuer une demande préalable (selon la juridiction)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3.0,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nspca510",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En matière administrative, une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "demande indemnitaire préalable",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est obligatoire.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "8eaz33576",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ctvoc3661",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Devant le tribunal judiciaire, l’action peut être introduite directement par assignation.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "h7lw73492",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "ofg5h46121",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "680oa46122",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "f1sos514",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Assigner l’État",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3.0,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hn570516",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L’assignation doit exposer :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "u3ps9518",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "d4by3519",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "yzz80520",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les faits",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "eid7u522",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "t924y523",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les fautes reprochées",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ck7rr525",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "o1t70526",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le lien de causalité",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "xmg54528",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "lyeh2529",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le préjudice (moral, matériel, perte de chance…)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "djvb4531",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ou0s3532",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le montant de l’indemnisation demandée",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "h4jja3960",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "r6w793022",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "dp3l93023",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "udadd534",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Que peut-on obtenir ?",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 2.0,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0,
+          "start": 4.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7w54u536",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le juge peut accorder :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qfqmc4300",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "pof3y538",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "zjlzl539",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "39aya540",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Des dommages et intérêts",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "0o4qw542",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "dr55f543",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La reconnaissance officielle des manquements",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "vdn6b545",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "r8d1j546",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le remboursement de frais de procédure",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "l4hy24389",
+                "nodes": [],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0hg24548",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Au-delà de l’indemnisation, ces actions ont aussi une portée institutionnelle : elles permettent de mettre en lumière des dysfonctionnements systémiques et d’améliorer les pratiques.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "agjdo4559",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "2qobq3950",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "0nrxp3951",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "3lw9v550",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Points de vigilance",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 2.0,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "m4dt5560",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "1. La faute lourde est difficile à caractériser",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "g2plt557",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "2. Les délais de prescription doivent être respectés",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "d6ik55825",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "3. La stratégie juridique doit être rigoureuse",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "vuuu74649",
+                "nodes": [],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0,
+          "start": 5.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4tokz562",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ces dossiers sont complexes, tant sur le plan humain que juridique.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fquho4904",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "t81xv4989",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Il est essentiel, et procéduralement obligatoire, d'être assisté d'un Cabinet d'avocats dans cette démarche.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lfljo4819",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "eos9p564",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En résumé",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "TABLE",
+        "id": "gmvjy566",
+        "nodes": [
+          {
+            "type": "TABLE_ROW",
+            "id": "0athk567",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "8qggw568",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "sztpv569",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Étape",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "00h9l571",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "9yoyz572",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Action",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "ta2kb574",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "hkb90575",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "fz005576",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "1",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "f618t578",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "xkpvk579",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Identifier la juridiction compétente",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "jcxu9581",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "dt5qk582",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "l2ire583",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "2",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "hdcqj585",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "qcyzm586",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Prouver un dysfonctionnement grave",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "ifsvg588",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "zfrd4589",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "vkiwt590",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "3",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "zo07c592",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "o4uqn593",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Démontrer le lien de causalité",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "cbn3c595",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "iax6s596",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "ptvl4597",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "4",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "11qaw599",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "0ktgc600",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Chiffrer précisément le préjudice",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "uf4ht602",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "hq8kv603",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "c9hq0604",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "5",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "6wgqq606",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "ivivm607",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Engager l’action dans les délais",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          }
+        ],
+        "tableData": {
+          "dimensions": {
+            "colsWidthRatio": [
+              78.0,
+              662.0
+            ],
+            "rowsHeight": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "colsMinWidth": [
+              78.0,
+              120.0
+            ]
+          },
+          "cellPadding": []
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3f8i8609",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si vous êtes confronté(e) à une situation comparable ou si vous vous interrogez sur la responsabilité de l’État dans un dossier sensible, le cabinet se tient à votre disposition pour ",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "analyser votre situation et vous accompagner dans vos démarches",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/honoraires-rendez-vous",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {}
+  }
+}

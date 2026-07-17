@@ -1,0 +1,130 @@
+{
+  "slug": "accident-de-la-circulation-à-angoulême-le-cabinet-obtient-une-indemnisation-de-90-000-pour-ses-cl",
+  "sourcePath": "/post/accident-de-la-circulation-à-angoulême-le-cabinet-obtient-une-indemnisation-de-90-000-pour-ses-cl",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "q5rva6886425",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Accident mortel de la circulation dans le quartier de la Grande Garenne à Angoulême :",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " le cabinet obtient pour la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "famille du jeune piéton décédé après avoir été écrasé par un automobiliste",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/avocat-accident-de-la-route-bordeaux",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " une indemnisation de près de 90 000 € en réparation de leurs préjudices.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rdsty5340",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "aky3e6886426",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Alors que l’auteur de l’accident de la circulation est toujours écroué et vient de faire l’objet d’une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "ordonnance de renvoi devant le Tribunal correctionnel d’Angoulême pour Homicide involontaire par conducteur de véhicule terrestre à moteur ayant fait usage de stupéfiants en récidive",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/defense-penale-par-un-avocat-penaliste/droit-penal-penaliste-defense",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", le cabinet a d’ores et déjà pu obtenir l’indemnisation de la famille de la victime dans le cadre d’un protocole transactionnel avec l’assureur du propriétaire du véhicule impliqué.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {}
+  }
+}

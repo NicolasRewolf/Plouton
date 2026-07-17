@@ -1,0 +1,1965 @@
+{
+  "slug": "assassinat-sur-conjoint-la-défense-fait-écarter-la-réclusion-criminelle-à-perpétuité",
+  "sourcePath": "/post/assassinat-sur-conjoint-la-défense-fait-écarter-la-réclusion-criminelle-à-perpétuité",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "6ptz543676",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans ce dossier douloureux et délicat d'",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "assassinat sur un conjoint",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", notre Cabinet a été confronté à l'un des défis les plus complexes du droit pénal : défendre un homme qui reconnaissait sa culpabilité tout en contestant la qualification retenue par l'accusation. ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Monsieur S.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " était jugé devant la ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cour d'Assises de la Gironde",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " du ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "17 au 19 février 2020",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour des faits commis le ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "4 février 2015",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Cette affaire illustre parfaitement les enjeux cruciaux qui entourent les questions de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "violences conjugales",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/violences-conjugales-et-f%C3%A9minicides",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et la nécessité d'une défense pénale rigoureuse face aux accusations les plus graves.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2dj4n43984",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "kjq4343690",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les faits et l'intervention de notre Cabinet",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ctuxz43692",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Il n'était pas question pour la défense de contester la culpabilité de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Monsieur S.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " En effet, ce dernier reconnaissait avoir commis un ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "assassinat sur un conjoint",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " sans pouvoir s'expliquer sur son passage à l'acte. Cette reconnaissance des faits, loin de simplifier notre mission, nous plaçait face à un défi juridique majeur : comment défendre efficacement un client qui assume sa responsabilité dans un crime aussi grave ?",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "1nu1u43698",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "xvu0q44461",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La particularité de cette affaire résidait dans les circonstances entourant le passage à l'acte. ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Monsieur S.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " arguait d'une ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "amnésie consécutive",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " à une prise médicamenteuse et d'une ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "tentative de suicide",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " après les faits. Ces éléments, loin d'être anecdotiques, constituaient le cœur de notre stratégie défensive. Ils soulevaient des questions fondamentales sur l'état mental de notre client au moment des faits et sur sa capacité de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "discernement",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "rb1oj43708",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre positionnement était clair : si les faits matériels ne pouvaient être contestés, les circonstances de leur commission et l'état psychologique de l'accusé devaient être minutieusement analysés. Cette approche nous permettait d'aborder la question centrale qui allait dominer les débats : celle de la ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "préméditation",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/la-pr%C3%A9m%C3%A9ditation-en-droit-p%C3%A9nal-fran%C3%A7ais-d%C3%A9finition-et-cons%C3%A9quences-juridiques",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2fhxu44097",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "b28qw43712",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La procédure et les arguments développés",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "f0xo643714",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C'est donc la question de la ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "préméditation",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et du ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "discernement",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " de l'accusé qui était au cœur du débat judiciaire lors de ce ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "procès criminel",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/proc%C3%A8s-criminel",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". L'accusation soutenait que l'accusé n'était atteint d'aucune abolition du discernement au moment des faits. Elle se basait sur les rapports d'",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "expertises psychiatriques et médico-légaux",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Ces derniers indiquaient que la prise médicamenteuse avait pu avoir lieu après le crime et juste avant sa ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "tentative de suicide",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "vmo3e43726",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Face à cette thèse accusatoire, notre défense a développé une argumentation rigoureuse. Il était pourtant parfaitement possible d'envisager une prise de toxiques antérieurement aux faits. Ainsi, certaines déclarations de témoins ayant vu l'accusé lors de son départ de son domicile allaient dans ce sens. De même, le rapport d'",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "expertise toxicologique",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ne permettait pas d'exclure une telle hypothèse.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "zur3n43730",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ooi4b44394",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Monsieur l'Avocat Général",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " insistait dans son ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "réquisitoire",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " sur le passé de violences de l'accusé à l'égard de ses anciennes compagnes. Il présentait son parcours de vie comme la ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\"chronique annoncée d'un féminicide, d'un assassinat sur un conjoint\"",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Il requérait à son encontre la ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "réclusion criminelle à perpétuité",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " en reprenant la thèse des parties civiles. Lesquelles avaient soutenu que la dernière relation sexuelle pouvait avoir eu lieu sous la contrainte d'une arme. Pourtant l'accusé n'était pas poursuivi pour de tels faits.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "xi91k43739",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "b4y6p44308",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quant à la défense, elle soulignait que ces réquisitions ne laissaient aucune place à l'existence de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "circonstances atténuantes",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Qui pourtant lui semblaient bien réels comptes tenu de l'enfance carencée de l'accusé et de sa volonté de s'amender en recourant à des traitements pour canaliser ses angoisses.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "wp73a44781",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "llyvw43743",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Enfin, ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Maître Plouton",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " rappelait que les faits avaient manifestement été commis par un homme qui n'était pas lui-même et dont le discernement soulevait une question, et que la ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "préméditation",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " paraissait difficilement compatible avec un acte commis sous une intense émotion. Dans un contexte social marqué par une forte mobilisation de l'opinion publique sur la question des féminicides, ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Maître Plouton",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " a énoncé sa crainte d'un ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\"verdict rendu pour l'exemple\"",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "au20z44226",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "mypos43753",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La décision et ses enseignements",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "3en1343755",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Finalement, la ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cour d'Assises",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " décidait de condamner ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Monsieur S.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " à une peine de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "30 ans de réclusion criminelle",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Cette décision, bien qu'elle sanctionnât sévèrement les faits commis, constituait néanmoins une victoire relative pour la défense. Nous avons ainsi pu éviter une condamnation à ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "réclusion criminelle à perpétuité",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/qu-est-ce-qu-une-p%C3%A9riode-de-suret%C3%A9",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " à notre client pour ce crime d'",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "assassinat sur conjoint",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "yjbpc43767",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette condamnation à ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "30 ans de réclusion criminelle",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " plutôt qu'à la perpétuité revêt une importance capitale. Elle signifie que la Cour a reconnu l'existence de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "circonstances atténuantes",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " dans cette affaire. L'enfance carencée de notre client, sa volonté manifeste de s'amender par le recours à des traitements, et les questions soulevées quant à son état de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "discernement",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " au moment des faits ont été prises en considération par les jurés.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "g86lz43775",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "f4xb944621",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Plus fondamentalement, cette décision préserve ce que ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Maître Plouton",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " considérait comme essentiel : ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\"Sa capacité à s'amender, sur le long terme, n'est ainsi pas écartée\"",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Cette perspective de réinsertion, même lointaine, constitue un élément crucial dans notre conception de la justice pénale. Elle témoigne de la possibilité, même dans les affaires les plus graves, de concilier la nécessaire sanction des faits avec l'espoir d'un amendement futur.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "oqxoc43781",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "3p1kj44720",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette affaire illustre parfaitement les défis auxquels notre Cabinet est confronté dans la défense des dossiers de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "violences conjugales",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " les plus graves. Elle démontre l'importance d'une analyse minutieuse des circonstances de chaque affaire, au-delà des faits bruts, pour identifier les éléments susceptibles d'éclairer la personnalité de l'accusé et les conditions de son passage à l'acte. Notre mission ne consiste pas à nier la gravité des faits, mais à garantir que chaque accusé bénéficie d'une défense pleine et entière, respectueuse de ses droits et attentive à sa situation personnelle.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      }
+    ],
+    "documentStyle": {}
+  }
+}

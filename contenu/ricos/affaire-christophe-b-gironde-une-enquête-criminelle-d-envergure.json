@@ -1,0 +1,1091 @@
+{
+  "slug": "affaire-christophe-b-gironde-une-enquête-criminelle-d-envergure",
+  "sourcePath": "/post/affaire-christophe-b-gironde-une-enquête-criminelle-d-envergure",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "HEADING",
+        "id": "ags0e50ola",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'essentiel de l'affaire",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vwbv5clzga",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une information judiciaire d'une ampleur inédite est instruite par le pôle criminel du Tribunal judiciaire de Bordeaux. Les faits, présumés de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "viols collectifs avec actes de torture ou de barbarie",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", se seraient déroulés sur treize ans, entre 2011 et 2024. Quatre hommes ont été ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "mis en examen",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/mis-en-cause-temoin-assiste-prevenu-accuse-differences",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", dont notre client, présenté comme le principal suspect. Tous sont placés en détention provisoire. Le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cabinet Plouton assure la défense de Christophe B.",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/defense-penale/droit-penal",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "napxdggb6w",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "TABLE",
+        "id": "wfemt1442",
+        "nodes": [
+          {
+            "type": "TABLE_ROW",
+            "id": "ppah31455",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "zwq1i1456",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "pzd0f1588",
+                    "nodes": [],
+                    "paragraphData": {}
+                  },
+                  {
+                    "type": "BUTTON",
+                    "id": "xsba21587",
+                    "nodes": [],
+                    "buttonData": {
+                      "text": "Reportage sur France 3",
+                      "styles": {
+                        "borderRadius": 5,
+                        "backgroundColor": "#012055"
+                      },
+                      "link": {
+                        "url": "https://france3-regions.francetvinfo.fr/nouvelle-aquitaine/gironde/bordeaux/viols-collectifs-avec-actes-de-torture-et-de-barbarie-des-hurlements-de-douleur-etaient-entendus-les-prevenus-peinent-a-reconnaitre-l-absence-de-consentement-3137605.html",
+                        "target": "BLANK",
+                        "rel": {}
+                      },
+                      "containerData": {
+                        "textWrap": true,
+                        "height": {},
+                        "spoiler": {},
+                        "alignment": "CENTER",
+                        "width": {
+                          "size": "ORIGINAL"
+                        }
+                      },
+                      "type": "LINK"
+                    }
+                  }
+                ],
+                "tableCellData": {
+                  "borderColors": {
+                    "left": "#FFFFFF",
+                    "top": "#FFFFFF",
+                    "bottom": "#FFFFFF"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "puro21458",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "nc8801681",
+                    "nodes": [],
+                    "paragraphData": {}
+                  },
+                  {
+                    "type": "BUTTON",
+                    "id": "glhc63014",
+                    "nodes": [],
+                    "buttonData": {
+                      "text": "Article Le Monde",
+                      "styles": {
+                        "borderRadius": 5,
+                        "backgroundColor": "#012055"
+                      },
+                      "link": {
+                        "url": "https://www.lemonde.fr/societe/article/2025/04/11/dans-la-gironde-la-crainte-d-une-affaire-de-viols-collectifs-de-grande-ampleur-c-etait-comme-faire-passer-sa-femme-a-l-abattoir_6594283_3224.html",
+                        "target": "BLANK",
+                        "rel": {}
+                      },
+                      "containerData": {
+                        "textWrap": true,
+                        "height": {},
+                        "spoiler": {},
+                        "alignment": "CENTER",
+                        "width": {
+                          "size": "ORIGINAL"
+                        }
+                      },
+                      "type": "LINK"
+                    }
+                  }
+                ],
+                "tableCellData": {
+                  "borderColors": {
+                    "top": "#FFFFFF",
+                    "bottom": "#FFFFFF"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "rcgz71460",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "n3tcm1774",
+                    "nodes": [],
+                    "paragraphData": {}
+                  },
+                  {
+                    "type": "BUTTON",
+                    "id": "j6v7m5172",
+                    "nodes": [],
+                    "buttonData": {
+                      "text": "Article Le Parisien",
+                      "styles": {
+                        "borderRadius": 5,
+                        "backgroundColor": "#012055"
+                      },
+                      "link": {
+                        "url": "https://www.leparisien.fr/faits-divers/linquietant-christophe-b-lhomme-a-la-tete-dun-reseau-organise-de-violences-sexuelles-11-04-2025-6SOGKSIVMZEH5A2GFTOJ6TFJ2U.php",
+                        "target": "BLANK",
+                        "rel": {}
+                      },
+                      "containerData": {
+                        "textWrap": true,
+                        "height": {},
+                        "spoiler": {},
+                        "alignment": "CENTER",
+                        "width": {
+                          "size": "ORIGINAL"
+                        }
+                      },
+                      "type": "LINK"
+                    }
+                  }
+                ],
+                "tableCellData": {
+                  "borderColors": {
+                    "right": "#FFFFFF",
+                    "top": "#FFFFFF",
+                    "bottom": "#FFFFFF"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "tableData": {
+          "dimensions": {
+            "colsWidthRatio": [
+              246,
+              246,
+              246
+            ],
+            "rowsHeight": [
+              47
+            ],
+            "colsMinWidth": [
+              120,
+              120,
+              120
+            ]
+          },
+          "cellPadding": []
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qcelqosajq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "vowarplg",
+        "nodes": [],
+        "dividerData": {
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "w419w8iqa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "jvr8ly4rhq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une plainte déposée en novembre 2023, point de départ de l'enquête",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jgaclvxp4g",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À l'origine de la procédure, une plainte déposée en novembre 2023 par une ex-compagne de Christophe B. Elle dénonce des viols collectifs qu'elle aurait subis entre 2020 et 2023, dans un contexte qu'elle décrit comme celui d'une emprise psychologique exercée par son compagnon.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "luewwirdtq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "h9fitrromq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette plainte a conduit à l'ouverture d'une enquête approfondie par les services de gendarmerie.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ffisyv3rgq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "uv56wst0ig",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les faits présumés selon le parquet de Bordeaux",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lcgr4daoog",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le procureur de la République de Bordeaux, Monsieur Renaud Gaudeul, a déclaré le 11 avril 2025 que les faits se seraient déroulés à différents endroits :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "czxv7ulvxa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "narzhskzng",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "jp0kpyquvg",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "7m9l9y4r9a",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "au domicile du principal mis en cause ;",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ijstwxnbw",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "n6coertxwg",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "dans des clubs libertins de la région bordelaise ;",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "gyvwobn0pw",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "fy3hugkuhw",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "dans l'espace public, en Gironde mais également dans l'Hérault et le Gard.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5tzlmxxl0w",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ts72tiivwg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À ce stade de la procédure, cinq femmes ont été identifiées comme victimes.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zusu35c3w",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gm36girlba",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les trois autres hommes mis en examen sont âgés de 40 à 57 ans. Selon le parquet, ils auraient agi comme facilitateurs et participants lors de certaines scènes.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "njw55fv0pg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "8nw9m9t0wq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une instruction d'envergure, confiée à deux juges",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zu8m1n128a",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Depuis février 2025, deux juges d'instruction sont saisis pour diriger les investigations. Le procureur de la République a précisé que l'analyse des supports vidéo aurait déjà permis d'identifier une cinquantaine d'auteurs potentiels, ce qui confère à cette affaire un caractère tentaculaire.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kpzc7jqguw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "lv5u21phg",
+        "nodes": [],
+        "dividerData": {
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fza24zhf4g",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "m0i0bzkdqa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La défense de Christophe B. : position du Cabinet Plouton",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fpxrhvbwag",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cabinet Plouton assure la défense de Christophe B.",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/defense-penale/droit-penal",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", principal mis en examen. Son avocat, Maître Julien Plouton, indique que son client ne reconnaît pas la qualification pénale des faits, tout en ne contestant pas la réalité de certaines pratiques sexuelles évoquées dans le dossier.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xislid01lw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dda8huixgg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Christophe B. soutient que ces pratiques se sont inscrites dans un cadre libertin librement consenti, même si elles peuvent paraître extrêmes. L'avocat dénonce un « ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "décalage abyssal",
+              "decorations": [
+                {
+                  "type": "ITALIC"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " » entre les faits reprochés et la perception qu'en a son client, qui affirme ne s'être jamais vécu comme un auteur d'infractions pénales.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2cgjidaxzg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "ojnwofztw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les enjeux du débat judiciaire à venir",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vjyfywfh0a",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans ses premières déclarations, Maître Plouton a souligné ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "« l'importance de ne pas réduire cette enquête à la seule personne de son client ou aux quatre mis en examen actuels »",
+              "decorations": [
+                {
+                  "type": "ITALIC"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Il appelle à une approche plus large, interrogeant les pratiques existantes dans certains cercles libertins.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "i0vrnwv1jq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zvi5xhvia",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette affaire soulève des enjeux profonds autour de plusieurs questions :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "cibi2jkf1a",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "hb8dy0anw",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "ttqwoar1mq",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "52din15wxw",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "le consentement dans les rapports sexuels collectifs ;",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "rvpspqzixq",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "tpnaxvde0a",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "l'emprise psychologique au sein du couple ;",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "fr4dfp5kha",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "oiycdl0lg",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "les limites juridiques du libertinage.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p4qcrteznw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "h7cp4thkog",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'instruction se poursuit. Elle vise à faire toute la lumière sur les responsabilités de chacun, dans le respect des droits de la défense et de la présomption d'innocence. Par son ampleur et sa gravité, cette procédure interroge durablement les cadres juridiques, sociaux et moraux de certaines pratiques sexuelles contemporaines.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bkqgqovozq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2026-05-11T18:23:24.118Z",
+      "updatedTimestamp": "2026-05-11T18:23:24.118Z"
+    }
+  }
+}

@@ -1,0 +1,5632 @@
+{
+  "slug": "indemnisation-tetraplegie",
+  "sourcePath": "/post/indemnisation-tetraplegie",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "c07221653",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vous venez d'apprendre qu'un ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "proche",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " — ou ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "vous-même ",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "— ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "restera",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "tétraplégique",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". À cet instant, l'indemnisation est sans doute le dernier de vos soucis. Pourtant, c'est elle qui décidera, demain, du quotidien : l'aide humaine, le logement adapté, le fauteuil, les revenus qui manqueront.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "4k10x18440",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "qa7ti3516",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "On vous a peut-être déjà parlé de « ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "consolidation",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " », de « ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "tierce personne",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " », d'une « offre » de l'assureur — sans vraiment vous expliquer ce que ces mots changent pour vous. C'est normal de s'y perdre. Ces dossiers comptent parmi les plus lourds et les plus techniques du droit du dommage corporel.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "e4i5t25485",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "edvxb1657",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les accidents de la route sont la première cause de tétraplégie en France. Chaque année, on dénombre entre 1 000 et 2 000 nouvelles lésions médullaires traumatiques selon les critères retenus, dont 30 à 50 % liées à un accident de la route. Derrière chaque chiffre, une vie bascule.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "g5njj19210",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "IMAGE",
+        "id": "e66af17967",
+        "nodes": [],
+        "imageData": {
+          "containerData": {
+            "width": {
+              "size": "SMALL"
+            },
+            "alignment": "LEFT",
+            "textWrap": true
+          },
+          "image": {
+            "src": {
+              "id": "nsplsh_14babf0c6da4404b97dd65ce26abcfa7~mv2.jpg"
+            },
+            "width": 4050,
+            "height": 4050
+          }
+        }
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "79w6c19402",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce que ce guide vous apporte :",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ce que votre indemnisation doit réellement couvrir, poste par poste ; comment se calcule l'aide humaine à vie ; pourquoi une première offre est souvent très en dessous de vos droits ; et à quel moment vous faire accompagner.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "2sab724055",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "verir1662",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Nous accompagnons depuis plus de vingt ans, à Bordeaux, des personnes qui traversent ce que vous traversez aujourd'hui.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                },
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/indemnisation-des-victimes/victimes-de-delits-ou-crimes",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "esq6e21017",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rq8jf1664",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vous accompagnez un proche devenu tétraplégique, ou vous l'êtes vous-même ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "rgb(20, 73, 91)"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Ce guide couvre l'essentiel pour ne pas avancer à l'aveugle. Mais sur un dossier de cette gravité — chiffrage de l'aide humaine, contestation d'une offre, expertise médicale — vous n'avez pas à rester seul. ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "rgb(20, 73, 91)"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si vous voulez en parler, un premier échange est sans engagement.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "rgb(20, 73, 91)"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/honoraires-rendez-vous",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "0yzw121209",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ba7jr21401",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "style": {},
+        "id": "euopt1669",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Sommaire",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "t1wv61671",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "fttfr1672",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "6q49f1673",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Tétraplégie : ce que ça change, et pourquoi l'indemnisation est un combat à part",
+                      "decorations": [
+                        {
+                          "type": "ANCHOR",
+                          "anchorData": {
+                            "anchor": "5nnb31690"
+                          }
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "u5xnu1675",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "vcq1e1676",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le principe qui gouverne tout : la réparation intégrale",
+                      "decorations": [
+                        {
+                          "type": "ANCHOR",
+                          "anchorData": {
+                            "anchor": "a809h1715"
+                          }
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "skwnx1678",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "wg2qx1679",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les postes de préjudice d'une tétraplégie, un par un",
+                      "decorations": [
+                        {
+                          "type": "ANCHOR",
+                          "anchorData": {
+                            "anchor": "lxe9a1742"
+                          }
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "gfje81681",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "33tw41682",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Combien, concrètement ? L'éclairage d'un dossier réel",
+                      "decorations": [
+                        {
+                          "type": "ANCHOR",
+                          "anchorData": {
+                            "anchor": "rhkm81811"
+                          }
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "sy5sy1684",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "sl7yv1685",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "« La première offre est rarement la dernière »",
+                      "decorations": [
+                        {
+                          "type": "ANCHOR",
+                          "anchorData": {
+                            "anchor": "jzydh1828"
+                          }
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "p7nvq1687",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "lai2p1688",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Selon la cause de l'accident — et comment nous vous accompagnons",
+                      "decorations": [
+                        {
+                          "type": "ANCHOR",
+                          "anchorData": {
+                            "anchor": "y0ce61847"
+                          }
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "r1zsj3913",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "5nnb31690",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Tétraplégie : ce que ça change, et pourquoi l'indemnisation est un combat à part",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "grlr01692",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "4k1nc4295",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une tétraplégie naît d'une lésion de la moelle épinière au niveau du cou (les vertèbres cervicales). Cette atteinte haute prive de mobilité les quatre membres — d'où « tétra ». Quand la lésion est plus basse (dos ou lombaires), elle touche le bas du corps : on parle alors de paraplégie.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "style": {},
+        "blockquoteData": {
+          "indentation": 0
+        },
+        "id": "fk5b71694",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "8e31x1695",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Définition. Tétraplégie",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " — paralysie des quatre membres consécutive à une lésion médullaire cervicale. Elle s'accompagne souvent de troubles respiratoires, urinaires, sexuels et d'une dépendance à une aide humaine permanente.",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "type": "BLOCKQUOTE"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "frpnx1698",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette gravité explique des montants sans commune mesure avec un accident ordinaire : il ne s'agit pas de réparer quelques mois d'arrêt, mais une vie entière transformée — dépendance quotidienne, perte de revenus durable, logement et véhicule à repenser.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "style": {},
+        "blockquoteData": {
+          "indentation": 0
+        },
+        "id": "vmmpe1700",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "xd1lc1701",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Les chiffres à connaître.",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " Les accidents de la route sont la première cause de lésion médullaire traumatique (30 à 50 % des cas), devant les chutes et le sport. La tétraplégie représente environ la moitié de ces lésions. On compte entre 1 000 et 2 000 nouveaux cas par an selon les critères retenus, et de l'ordre de 130 000 personnes vivant avec une lésion médullaire en France — en majorité des hommes jeunes.",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Sources : ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    },
+                    {
+                      "type": "ITALIC",
+                      "italicData": true
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Académie nationale de médecine",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    },
+                    {
+                      "type": "ITALIC",
+                      "italicData": true
+                    },
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.academie-medecine.fr/les-lesions-traumatiques-de-la-moelle-epiniere-epidemiologie-et-prise-en-charge-pre-hospitaliere/",
+                          "target": "BLANK",
+                          "rel": {
+                            "noreferrer": true
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "UNDERLINE"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", CNCR (programme Brain Health), Urofrance ; ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    },
+                    {
+                      "type": "ITALIC",
+                      "italicData": true
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "OMS",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    },
+                    {
+                      "type": "ITALIC",
+                      "italicData": true
+                    },
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.who.int/fr/news-room/fact-sheets/detail/spinal-cord-injury",
+                          "target": "BLANK",
+                          "rel": {
+                            "noreferrer": true
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "UNDERLINE"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ".",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    },
+                    {
+                      "type": "ITALIC",
+                      "italicData": true
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "type": "BLOCKQUOTE"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "lh9e41709",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour situer l'ampleur du choc : environ 16 000 personnes sont gravement blessées sur les routes chaque année (",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "ONISR, 2024",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.onisr.securite-routiere.gouv.fr/sites/default/files/2025-06/2025%2005%2028_ONISR_Accidentalit%C3%A9_Bilan_d%C3%A9finitif_2024_v2.pdf",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ") ; une partie en gardera une lésion médullaire, dont la gravité initiale se mesure souvent à l'",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "échelle de Glasgow",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/echelle-de-glasgow",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bo1374502",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "a809h1715",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le principe qui gouverne tout : la réparation intégrale {#reparation-integrale}",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "4eirp1717",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Tout part d'une règle simple à énoncer, exigeante à appliquer : la ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "réparation intégrale",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Vous devez être indemnisé de tout votre préjudice, rien que votre préjudice — sans forfait, sans enrichissement. Chaque conséquence est évaluée au cas par cas, à partir de votre situation réelle.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "style": {},
+        "blockquoteData": {
+          "indentation": 0
+        },
+        "id": "3feu61721",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "0qaww1722",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Définition. Réparation intégrale",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " — principe selon lequel on répare « tout le préjudice, rien que le préjudice ». Pas de tarif automatique : l'indemnisation se construit poste par poste, in concreto. (Voir le cadre de l'",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "indemnisation du préjudice corporel sur ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    },
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.service-public.fr/particuliers/vosdroits/F1423",
+                          "target": "BLANK",
+                          "rel": {
+                            "noreferrer": true
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "UNDERLINE"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Service-Public.fr",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    },
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "http://Service-Public.fr",
+                          "target": "BLANK",
+                          "rel": {
+                            "noreferrer": true
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "UNDERLINE"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ".)",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "type": "BLOCKQUOTE"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "bfntg1728",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une conséquence essentielle en découle : ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "il n'existe pas de barème légal",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " qui dirait « un tétraplégique touche X euros ». Méfiez-vous des simulateurs qui promettent un montant en trois clics. Les juridictions s'appuient sur des ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "référentiels seulement indicatifs",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", notamment le référentiel du conseiller Benoît Mornet, utilisé par les cours d'appel — mais aucun ne s'impose au juge ni à vous.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "style": {},
+        "blockquoteData": {
+          "indentation": 0
+        },
+        "id": "i4e721734",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "09gnw1735",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Définition. Consolidation",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " — moment où l'état de santé est stabilisé : il n'évolue plus, sans signifier la guérison. C'est elle qui déclenche l'évaluation définitive des préjudices permanents.",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "type": "BLOCKQUOTE"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "9zj9l1738",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Retenez-le : vous avez droit à la réparation de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "chaque",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                },
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " conséquence de l'accident, pas à une somme négociée à la baisse.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "1lkcw4712",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "lxe9a1742",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les postes de préjudice d'une tétraplégie, un par un {#postes-prejudice}",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "vnk8k1744",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "sftsk5477",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'indemnisation se décompose en « postes de préjudice » issus de la ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "nomenclature Dintilhac",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (2005). Pour une tétraplégie, certains pèsent particulièrement lourd.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ngp5b5289",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "anysk1748",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La tierce personne : le poste qui pèse le plus",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "0y7qw1750",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C'est, presque toujours, le premier poste d'une tétraplégie. L'aide humaine — la « tierce personne » — indemnise votre ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "perte d'autonomie pour l'ensemble des actes de la vie quotidienne",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", pas seulement les besoins vitaux : se lever, se laver, se déplacer, manger, communiquer.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ysh221754",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "qnkuh5102",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le calcul part de vos besoins réels en heures, valorisés à un coût horaire (souvent le SMIC majoré des congés et charges pour une aide non spécialisée), ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "sept jours sur sept, toute l'année",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Pour l'avenir, ces besoins sont ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "capitalisés en viager",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " — on convertit une aide à vie en capital, à l'aide du barème de capitalisation de la Gazette du Palais 2025 (taux d'actualisation de 0,5 %, fondé sur les tables de mortalité de l'INSEE), l'un des plus protecteurs pour les victimes de dommages graves.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ael7758917",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "vk8ch1760",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Deux points sont décisifs, et souvent ignorés. D'abord, ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "votre indemnité n'est pas réduite si l'aide vous est apportée par un proche",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " plutôt que par un professionnel. Ensuite — et c'est capital — ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "la prestation de compensation du handicap (PCH) ne se déduit pas",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " de cette indemnité : la Cour de cassation juge qu'elle n'ouvre ni recours ni imputation sur votre préjudice (Cass. 2ᵉ civ., 2 juillet 2015, n° 14-19.797, confirmé le 6 février 2020, n° 18-19.518). Autrement dit : l'aide publique que vous percevez ne vient pas en déduction de ce que l'assureur vous doit.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ok9dt1766",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C'est l'expertise médicale qui fixe le nombre d'heures retenu — d'où l'importance de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "bien préparer votre dossier médical",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/comment-bien-pr%C3%A9parer-mon-dossier-m%C3%A9dical",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qgahp4924",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "el9n81770",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Déficit fonctionnel permanent, souffrances et préjudices personnels",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "82yno1772",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "déficit fonctionnel permanent (DFP)",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " indemnise l'atteinte définitive de vos fonctions, les douleurs qui persistent et la perte de qualité de vie après consolidation. Il s'exprime par un taux, multiplié par une valeur du point qui augmente avec la gravité et varie selon l'âge. Pour une tétraplégie, ce taux est très élevé, de 75 à 90 %. À titre indicatif, le référentiel Mornet situe la valeur du point, pour de tels taux, autour de 6 000 à 7 000 € chez l'adulte jeune, décroissante avec l'âge. Le seul déficit fonctionnel permanent atteint donc déjà plusieurs centaines de milliers d'euros. Mais ces repères ne s'imposent pas au juge : pour des séquelles exceptionnelles, les tribunaux individualisent souvent à la hausse.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "sax4958721",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "z80jf1776",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À cela s'ajoutent les ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "souffrances endurées",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (cotées de 1 à 7 — voir notre ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "guide du pretium doloris",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/le-pretium-doloris-guide-complet-pour-les-victimes-d-accidents",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "), les ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "préjudices d'agrément, esthétique et sexuel",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", et le ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "préjudice d'établissement",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (projet de vie familiale compromis).",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "odlcn5701",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "az8eo1786",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pertes financières et adaptation du quotidien",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "zyp621788",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Viennent enfin les postes économiques et matériels, eux aussi lourds dans la durée :",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "6a43232639",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "fskun1790",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "zrurt1791",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "7q6ja1792",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Pertes de gains professionnels futurs",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " — les revenus que vous ne percevrez plus.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "6bu7b1795",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "j7xn81796",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Incidence professionnelle",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " — la dévalorisation sur le marché du travail, la pénibilité accrue.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "c9pih1799",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "h4cjd1800",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Frais de logement adapté",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " — domotique, accès, salle d'eau, ascenseur.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "3n1k91803",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "zb0re1804",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Frais de véhicule adapté",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " — aménagement ou acquisition d'un véhicule accessible.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "bayke1807",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ta3jq1808",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Dépenses de santé futures",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " — soins, matériel médical, renouvellements à vie.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ocgr75904",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "rhkm81811",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Combien, concrètement ? L'éclairage d'un dossier réel",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "0dlqg1813",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un dossier vaut mieux qu'un barème. Voici ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "l'un des nôtres",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/accident-de-la-circulation-indemnisation-%C3%A0-hauteur-de-2-millions-d-euros-pour-une-victime-t%C3%A9trapl%C3%A9g",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", anonymisé.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "swwyf48485",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "6i78747844",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Monsieur A.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", 41 ans, était passager arrière du véhicule d'un ami lorsqu'un fourgon, conduit par un homme sous l'emprise de stupéfiants, a grillé un stop à Tizac-de-Curton, en Gironde. Après des mois de coma, une hospitalisation au CHU Pellegrin de Bordeaux et une rééducation à la Tour de Gassies, son état s'est consolidé : tétraplégie, 75 % de déficit fonctionnel, dépendance à une aide permanente.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "style": {},
+        "blockquoteData": {
+          "indentation": 0
+        },
+        "id": "d0v0t47847",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "yj6m147848",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "« Rappelons que consolidation ne veut pas dire guérison, mais signifie que l'état n'évolue plus »",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    },
+                    {
+                      "type": "ITALIC",
+                      "italicData": true
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", rappelle Maître Julien Plouton, son avocat.",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "type": "BLOCKQUOTE"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ndge547851",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le détail d'une indemnisation à plus de 2 millions d'euros.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Le tribunal de grande instance de Nanterre a condamné l'assureur du conducteur fautif, en 2015, à verser 811 161,48 € en capital — aide humaine, aménagements, déficit fonctionnel, douleurs, préjudices d'agrément, sexuel et esthétique — auxquels s'ajoutent 1 201 293,12 € sous forme de rente viagère trimestrielle, pour couvrir les besoins permanents.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "a9jxl48913",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "0pwjm47855",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ces montants donnent un ordre de grandeur, pas un tarif. Chaque dossier dépend de l'âge, des séquelles, des revenus. Mais ils montrent une chose : pour une tétraplégie, la réparation juste se compte en centaines de milliers, parfois en millions d'euros — et la rente viagère y occupe une place centrale.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "84pha6866",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "jzydh1828",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "« La première offre est rarement la dernière »",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "itaqx47644",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'histoire de Monsieur A. ne s'arrête pas au jugement de 2015. Le poste de l'aide humaine avait été en partie ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "réservé",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " par le tribunal. Une fois liquidé, ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "il a donné lieu à ",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "un complément de plus de 500 000 €",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/accident-de-la-circulation-indemnisation-%C3%A0-hauteur-de-2-millions-d-euros-pour-une-victime-t%C3%A9trapl%C3%A9g",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Le premier montant n'était donc pas le dernier mot.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "t9pai47445",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "o88fj46382",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette mécanique est fréquente. Les premières évaluations d'assureur sous-estiment souvent l'aide humaine (heures minorées, capitalisation discutée), oublient des postes, ou déduisent à tort la PCH. Or ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "vous avez le droit de refuser une offre que vous jugez sous-évaluée",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", et de demander une expertise contradictoire.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "atg8f47236",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "s9ejs46386",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Aucun guide ne remplace l'examen d'un dossier réel. Mais une règle vaut presque toujours : ne signez pas une transaction définitive sans avoir fait vérifier, poste par poste, ce qu'elle couvre — et ce qu'elle oublie.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "style": {},
+        "blockquoteData": {
+          "indentation": 0
+        },
+        "id": "j1mwu1842",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "fi72b1843",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Pour comprendre comment nous défendons les victimes d'accidents corporels graves, voyez ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "notre accompagnement en indemnisation des accidents de la route",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    },
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.jplouton-avocat.fr/indemnisation-des-victimes/accidents-de-la-route",
+                          "target": "BLANK",
+                          "rel": {
+                            "noreferrer": true
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "UNDERLINE"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ".",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "type": "BLOCKQUOTE"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p2fvb7451",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "y0ce61847",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Selon la cause de l'accident — et comment nous vous accompagnons",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "qijvk1849",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La tétraplégie ouvre des droits différents selon son origine, mais le principe de réparation intégrale demeure.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "a9p3x1851",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "zniy41852",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "muyeq1853",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Accident de la route",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : si vous êtes victime non conductrice (passager, piéton, cycliste), la ",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "loi Badinter du 5 juillet 1985",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/post/loi-badinter-85-comprendre-vos-droits-%C3%A0-indemnisation-apr%C3%A8s-un-accident-de-la-route",
+                              "target": "BLANK",
+                              "rel": {
+                                "noreferrer": true
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " vous protège : votre indemnisation est due quasi inconditionnellement. C'était le cas de Monsieur A., passager. Voir aussi nos guides sur le ",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "traumatisme crânien",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/post/traumatisme-cranien-accident-voiture",
+                              "target": "BLANK",
+                              "rel": {
+                                "noreferrer": true
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " et le ",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "piéton renversé",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/post/pi%C3%A9ton-renvers%C3%A9-quel-est-le-montant-de-l-indemnisation",
+                              "target": "BLANK",
+                              "rel": {
+                                "noreferrer": true
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ".",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "5slnu1862",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "zmr5o1863",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Accident de la vie courante",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " (une chute, par exemple) : l'indemnisation passe par la responsabilité civile, une ",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "garantie accidents de la vie",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/indemnisation-des-victimes/accidents-de-la-vie-courante",
+                              "target": "BLANK",
+                              "rel": {
+                                "noreferrer": true
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " ou la ",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "responsabilité du fait des choses",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/post/responsabilit%C3%A9-du-fait-des-choses-quels-recours-en-cas-de-chute-d-objet-tomb%C3%A9-ou-d-%C3%A9quipement-d%C3%A9f",
+                              "target": "BLANK",
+                              "rel": {
+                                "noreferrer": true
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ".",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "8f3ps1870",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ws6nc1871",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Agression",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : quand la tétraplégie résulte d'une infraction et que l'auteur est insolvable ou inconnu, la ",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "CIVI ou le SARVI",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/post/sarvi-ou-civi-indemnisation-victimes",
+                              "target": "BLANK",
+                              "rel": {
+                                "noreferrer": true
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " prennent le relais (",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "guide CIVI",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/post/indemnisation-civi-2025-guide-complet-pour-les-victimes-d-infractions",
+                              "target": "BLANK",
+                              "rel": {
+                                "noreferrer": true
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ").",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "foreground": "#14495B"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ijg1n1878",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "nxgz234123",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Voilà pour le cadre. Mais une tétraplégie ne se résume jamais à une procédure : derrière chaque dossier, une famille reconstruit un quotidien face à des assureurs aguerris. ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Nous menons ce combat à vos côtés depuis plus de vingt ans, à Bordeaux et en Nouvelle-Aquitaine.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "49am38619",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "4nsew1881",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vos questions fréquentes",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "type": "COLLAPSIBLE_LIST",
+        "id": "e5xvl34815",
+        "nodes": [
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "pkaqh34974",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "8002934975",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "rfvlg34976",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Combien touche une victime tétraplégique ?",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "jkzch34977",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "i33xc1885",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Aucun montant type n'existe : l'indemnisation est intégrale et calculée au cas par cas. En pratique, pour une tétraplégie, elle se chiffre en centaines de milliers d'euros, et fréquemment au-delà du million lorsque l'aide humaine à vie est capitalisée. Le montant dépend de l'âge, des séquelles, des revenus et de la situation de chacun.",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "kstb936001",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "cpvp936002",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "owl7j36003",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Existe-t-il un barème d'indemnisation de la tétraplégie ?",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "4o8ld36004",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "vgkru1889",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Non. Aucun barème légal ne fixe l'indemnisation d'un préjudice corporel en France. Les juridictions utilisent des référentiels seulement indicatifs, comme le référentiel Mornet des cours d'appel. Ils aident à évaluer certains postes, mais ne s'imposent ni au juge ni à la victime, qui conserve droit à la réparation intégrale.",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "18z0m37635",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "k4r8k37636",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "ybkhc37637",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "La PCH ou l'AAH sont-elles déduites de mon indemnisation ?",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "pc0og37638",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "ujkem1893",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Non. La prestation de compensation du handicap ne se déduit pas de l'indemnité due par le responsable. La Cour de cassation juge qu'elle n'ouvre ni recours subrogatoire ni imputation sur le préjudice (Cass. 2ᵉ civ., 2 juillet 2015, n° 14-19.797). L'aide publique perçue s'ajoute donc à votre indemnisation, elle ne la diminue pas.",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "6i24v38455",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "6r6gl38456",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "7w17838457",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Comment se calcule l'indemnisation de la tierce personne ?",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "ek1tj38458",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "lswnw1897",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Elle part de vos besoins réels en heures d'aide, valorisés à un coût horaire, sept jours sur sept. Pour l'avenir, ces besoins sont capitalisés en viager (barème de la Gazette du Palais). Le nombre d'heures retenu dépend de l'expertise médicale : c'est l'un des enjeux majeurs de votre dossier.",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "hevy839480",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "el6d439481",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "f44e239482",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Si un proche m'aide gratuitement, ai-je quand même droit à la tierce personne ?",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "4rgmj39483",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "50m4y1901",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Oui. L'indemnité d'aide humaine n'est pas réduite parce que l'assistance est apportée par un membre de la famille plutôt qu'un professionnel. Le préjudice indemnisé est votre perte d'autonomie, indépendamment de la personne qui vous aide au quotidien.",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "nbhmv40505",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "u2dei40506",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "yrg0c40507",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Peut-on obtenir un complément après une première indemnisation ?",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "nqqd340508",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "vbqz41905",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Oui, dans plusieurs cas : lorsqu'un poste a été réservé par le juge puis liquidé ensuite, ou en cas d'aggravation de votre état. Dans l'un de nos dossiers, un complément de plus de 500 000 € a ainsi été obtenu après le jugement initial, au titre de l'aide humaine.",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "u17tx41734",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "o3nz141735",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "27w4t41736",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Qu'est-ce que la consolidation et pourquoi est-elle décisive ?",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "n1dm641737",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "d5xp11909",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "La consolidation est le moment où votre état est stabilisé : il n'évolue plus, sans être guéri. Elle est décisive car elle déclenche l'évaluation définitive des préjudices permanents (déficit fonctionnel, aide humaine, pertes futures). Avant elle, on peut demander des provisions pour faire face aux dépenses immédiates.",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "2kjzq42758",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "6azo842759",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "e277e42760",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Faut-il accepter la première offre de l'assureur ?",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "ombkv42761",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "ayrkp1913",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Pas sans l'avoir fait vérifier. Les premières offres sous-estiment souvent l'aide humaine, la capitalisation ou certains postes. Vous avez le droit de refuser une offre sous-évaluée et de demander une expertise contradictoire. Une fois une transaction signée, il est beaucoup plus difficile de revenir en arrière.",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "bkfgj43782",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "p210i43783",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "ns3mc43784",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Qui indemnise selon la cause de l'accident ?",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "0p3na43785",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "37rtc1917",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Pour un accident de la route, l'assureur intervient au titre de la loi Badinter (protection forte des passagers, piétons et cyclistes). Pour un accident de la vie courante, ce sont la responsabilité civile ou une garantie accidents de la vie. Pour une agression, la CIVI ou le SARVI prennent le relais si l'auteur est insolvable ou inconnu.",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "foreground": "rgb(20, 73, 91)"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "collapsibleListData": {
+          "containerData": {
+            "alignment": "CENTER",
+            "textWrap": true
+          },
+          "initialExpandedItems": "FIRST",
+          "direction": "LTR"
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "a2x4w56289",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "6f1sy57276",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "n8ppm1919",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Faire le point sur votre dossier avec notre cabinet Plouton",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "9bv001921",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une tétraplégie bouleverse une vie ; son indemnisation ne devrait pas, en plus, être une bataille que vous menez seul. Si vous faites face à une offre que vous pressentez insuffisante, prenons le temps d'en parler — nous examinerons votre situation poste par poste, franchement.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "lyj9z1923",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "dchnq34350",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Parler à un avocat du Cabinet Plouton",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/honoraires-rendez-vous",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " — Bordeaux et toute la Nouvelle-Aquitaine. Premier échange sans engagement.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "DIVIDER",
+        "id": "sgc9r56604",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zerdo57072",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "9oixz1926",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À propos de l'auteur, Me Plouton, avocat pénaliste à Bordeaux",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "RIGHT"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "style": {},
+        "blockquoteData": {
+          "indentation": 0
+        },
+        "id": "4ktob1928",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "qkrv41929",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Maître Julien Plouton",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " — avocat au Barreau de Bordeaux, a prêté serment en 2004 après une formation à l'École de Formation du Barreau de Paris (EFB). Diplômé d'un ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "DESS en droit des affaires et fiscalité",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", d'un ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "DEA en droit européen",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " et d'un ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "master spécialisé HEC en droit et management international",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", il a fondé le ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Cabinet Plouton en 2009",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", situé au 45 Cours d'Alsace-et-Lorraine à ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Bordeaux.Il",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    },
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "http://Bordeaux.Il",
+                          "target": "BLANK",
+                          "rel": {
+                            "noreferrer": true
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " est membre de l'",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Institut du Dommage Corporel (IDC)",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", de l'",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Association des Avocats Pénalistes (ADAP)",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " et de l'",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Institut du Droit des Affaires du Barreau de Bordeaux (IDA)",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ". Depuis plus de vingt ans, il accompagne les victimes d'accidents de la route et de dommages corporels graves en Nouvelle-Aquitaine et au-delà.",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "En savoir plus sur le cabinet",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    },
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.jplouton-avocat.fr/notre-cabinet",
+                          "target": "BLANK",
+                          "rel": {
+                            "noreferrer": true
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "UNDERLINE"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " • ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Demander un premier rendez-vous",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#14495B"
+                      }
+                    },
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.jplouton-avocat.fr/honoraires-rendez-vous",
+                          "target": "BLANK",
+                          "rel": {
+                            "noreferrer": true
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "UNDERLINE"
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "type": "BLOCKQUOTE"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "i74a41951",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dernière mise à jour : juin 2026.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#14495B"
+                  }
+                },
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      }
+    ],
+    "documentStyle": {}
+  }
+}

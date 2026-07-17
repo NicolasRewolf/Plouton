@@ -1,0 +1,177 @@
+[
+  {
+    "question": "Comment se déroule une procédure d'indemnisation avec l'ONIAM ?",
+    "answer": "La procédure d'indemnisation avec l'ONIAM peut être amiable ou contentieuse. En voie amiable, la victime saisit une CCI (Commission de Conciliation et d'Indemnisation) : l'ONIAM dispose alors de quatre mois suivant la réception de l'avis de la CCI pour formuler une offre d'indemnisation.\n\nSi la victime accepte l'offre, le règlement intervient dans le délai d'un mois. L'ONIAM n'est pas lié par l'avis de la CCI et peut donc proposer une offre différente, voire ne pas en formuler.\n\nEn cas de refus de l'offre ou d'absence d'offre, la victime peut saisir le tribunal administratif (pour un accident survenu dans un établissement public) ou le tribunal judiciaire (établissement privé) pour engager une procédure contentieuse.",
+    "sousExpertise": "ONIAM"
+  },
+  {
+    "question": "L'établissement de santé est-il toujours responsable en cas d'infection nosocomiale ?",
+    "answer": "Les établissements de santé sont présumés responsables des infections nosocomiales sans qu'une faute soit nécessaire à prouver. Cette présomption est toutefois réfragable : l'établissement peut s'exonérer en démontrant une cause étrangère, c'est-à-dire un événement imprévisible, irrésistible et extérieur.\n\nL'article L. 1142-1-1 du Code de la santé publique organise ensuite un partage selon la gravité du dommage :\n\n— Si le déficit fonctionnel permanent (DFP) est inférieur ou égal à 25 %, l'assureur de l'établissement indemnise la victime.\n\n— Si le DFP est supérieur à 25 %, l'ONIAM prend en charge l'indemnisation au titre de la solidarité nationale. L'ONIAM peut toutefois se retourner contre l'assureur de l'établissement lorsqu'une faute est à l'origine de l'infection.",
+    "sousExpertise": "Infection nosocomiale"
+  },
+  {
+    "question": "Qu'est-ce que le DFP (Déficit Fonctionnel Permanent) ?",
+    "answer": "Le Déficit Fonctionnel Permanent (DFP) désigne les séquelles physiques et/ou psychiques définitives conservées par une victime après la consolidation de son état de santé. Il est exprimé en pourcentage — de 1 % à 100 % — et reflète la réduction durable des capacités de la personne dans sa vie quotidienne.\n\nCe taux est fixé par un médecin expert, souvent lors d'une expertise judiciaire ou amiable. Il conditionne directement le montant de l'indemnisation versée par l'assureur ou l'ONIAM (Office National d'Indemnisation des Accidents Médicaux) en cas d'erreur médicale.\n\nLe barème indicatif utilisé est le Barème médical indicatif publié par le Concours Médical. Un avocat peut contester le taux retenu si l'évaluation sous-estime les séquelles réelles.",
+    "sousExpertise": "DFP"
+  },
+  {
+    "question": "Qu'est-ce que l'obligation d'information du médecin envers son patient ?",
+    "answer": "L'obligation d'information médicale est le droit de tout patient d'être informé de son état de santé, des investigations et traitements proposés, de leur utilité, de leurs risques fréquents ou graves normalement prévisibles, des alternatives thérapeutiques et des conséquences prévisibles d'un éventuel refus.\n\nCette obligation est prévue par l'article L. 1111-2 du Code de la santé publique. Elle s'impose à tout professionnel de santé et doit être délivrée en termes accessibles, par un entretien individuel. L'information est présumée non délivrée si le médecin ne peut en rapporter la preuve.\n\nEn cas de manquement, le patient peut obtenir réparation du préjudice de perte de chance ou du préjudice moral lié à l'absence de consentement éclairé.",
+    "sousExpertise": "Obligation d'information"
+  },
+  {
+    "question": "Qu'est-ce que la consolidation en droit médical ?",
+    "answer": "La consolidation est le moment où l'état de santé de la victime est considéré comme stabilisé : les lésions ne sont plus susceptibles d'évolution significative, et les séquelles permanentes sont fixées. C'est à partir de cette date que l'indemnisation définitive peut être calculée.\n\nAvant la consolidation, seuls les préjudices temporaires sont indemnisables (arrêt de travail, soins, assistance). Après, les préjudices permanents entrent en jeu : déficit fonctionnel permanent (DFP), préjudice esthétique, perte de gains professionnels futurs.\n\nLa date de consolidation est établie par expertise médicale — amiable ou judiciaire. En cas d'accident médical, c'est souvent l'ONIAM ou un expert judiciaire qui la fixe. Elle conditionne directement le montant de l'indemnisation.",
+    "sousExpertise": "Consolidation"
+  },
+  {
+    "question": "Comment le préjudice moral est-il évalué et indemnisé ?",
+    "answer": "Le préjudice moral recouvre les souffrances psychologiques causées par un accident ou une erreur médicale : anxiété, stress post-traumatique, dépression, altération de la qualité de vie. Son indemnisation est distincte du préjudice physique et repose sur une évaluation médicale.\n\nLes souffrances endurées (pretium doloris) sont cotées sur une échelle de 1 à 7, le niveau 7 correspondant aux douleurs les plus intenses. Plus la cote est élevée, plus l'indemnisation sera importante.\n\nD'autres postes peuvent s'y ajouter : le préjudice d'agrément (impossibilité de pratiquer une activité antérieure), le préjudice esthétique ou encore le préjudice sexuel. L'évaluation est confiée à un médecin expert, dont les conclusions orientent directement le montant alloué par le juge ou la commission (CRCI/ONIAM).",
+    "sousExpertise": "Préjudice"
+  },
+  {
+    "question": "Que dois-je faire si je pense avoir contracté une infection nosocomiale ?",
+    "answer": "En cas de suspicion d'infection nosocomiale, signalez-la immédiatement à l'établissement de santé et demandez votre dossier médical complet — vous y avez droit sous 8 jours (article L. 1111-7 du Code de la santé publique). Conservez tous les documents : comptes rendus d'hospitalisation, résultats d'analyses, ordonnances, arrêts de travail.\n\nParallèlement, déposez une déclaration auprès de la Commission de Conciliation et d'Indemnisation (CCI) de votre région : cette procédure gratuite permet une expertise médicale indépendante. Si l'infection est avérée, l'ONIAM peut indemniser sans qu'une faute soit prouvée, dès lors que l'infection présente un caractère anormal au regard de votre état de santé initial.\n\nUn avocat spécialisé en droit médical peut vous aider à constituer le dossier et à évaluer l'opportunité d'une action complémentaire devant le tribunal administratif ou civil selon le statut de l'établissement.",
+    "sousExpertise": "Infection nosocomiale"
+  },
+  {
+    "question": "Comment puis-je documenter au mieux mes différents préjudices en vue d'une expertise médicale ?",
+    "answer": "Pour documenter vos préjudices avant une expertise médicale, constituez un dossier complet rassemblant : comptes rendus médicaux, bilans d'imagerie, ordonnances et résultats d'examens depuis l'accident ou l'erreur médicale. Conservez tous les justificatifs financiers : factures, arrêts de travail, bulletins de salaire attestant d'une perte de revenus.\n\nTenez également un journal personnel décrivant vos douleurs quotidiennes, vos limitations fonctionnelles et les répercussions sur votre vie familiale, professionnelle et sociale. Ce document, daté et régulier, est souvent décisif pour l'expert.\n\nLes préjudices retenus par la nomenclature Dintilhac (déficit fonctionnel temporaire ou permanent, pretium doloris, préjudice esthétique, perte de gains professionnels…) doivent chacun être étayés par des pièces distinctes. Un avocat spécialisé peut vous aider à structurer ce dossier avant l'expertise pour éviter toute sous-évaluation.",
+    "sousExpertise": "Préjudice"
+  },
+  {
+    "question": "Qu'est-ce que le préjudice corporel et comment est-il évalué ?",
+    "answer": "Le préjudice corporel désigne l'ensemble des atteintes à l'intégrité physique et psychique d'une personne. En matière d'erreur médicale, il est évalué par un médecin expert selon la nomenclature Dintilhac, qui distingue les préjudices patrimoniaux (pertes de revenus, frais médicaux, assistance par tierce personne) des préjudices extrapatrimoniaux (souffrances endurées, préjudice esthétique, déficit fonctionnel permanent).\n\nL'expertise médicale, ordonnée par le juge ou réalisée amiablement devant une Commission de Conciliation et d'Indemnisation (CCI), fixe notamment le taux de Déficit Fonctionnel Permanent (DFP), point central du calcul de l'indemnisation.\n\nUn avocat spécialisé peut vous assister lors de cette expertise afin que l'ensemble des chefs de préjudice soient correctement identifiés et chiffrés.",
+    "sousExpertise": "Préjudice"
+  },
+  {
+    "question": "Comment savoir si mon cas relève de l'aléa thérapeutique ?",
+    "answer": "L'aléa thérapeutique est reconnu lorsqu'un dommage survient sans faute du professionnel de santé, à condition de remplir des critères cumulatifs précis fixés par la loi du 4 mars 2002. Le fait générateur doit être postérieur au 5 septembre 2001, et le dommage doit résulter directement des soins.\n\nIl faut également que ce dommage présente des conséquences anormales au regard de votre état de santé initial, et qu'il atteigne un seuil de gravité défini par l'article D1142-1 du Code de la santé publique (notamment un taux d'incapacité permanente supérieur à 24 % ou des conséquences particulièrement graves sur la vie de la victime).\n\nL'appréciation de ces critères repose sur une expertise médicale, conduite dans le cadre d'une commission de conciliation et d'indemnisation (CCI), anciennement CRCI. Si les critères sont réunis, l'indemnisation est prise en charge par l'ONIAM.",
+    "sousExpertise": "Aléa thérapeutique"
+  },
+  {
+    "question": "Qui indemnise les victimes dʼaléa thérapeutique et quelles sont les conditions ?",
+    "answer": "Cʼest lʼOffice National dʼIndemnisation des Accidents Médicaux (ONIAM) qui indemnise les victimes dʼaléa thérapeutique, au titre de la solidarité nationale, en lʼabsence de toute faute médicale. Cette procédure concerne les actes réalisés après le 5 septembre 2001.\n\nPour être pris en charge, le dommage doit réunir plusieurs conditions cumulatives :\n\n— être directement imputable à un acte de prévention, de diagnostic ou de soins ;\n— présenter des conséquences anormales au regard de lʼétat de santé initial du patient et de son évolution prévisible ;\n— atteindre un seuil de gravité suffisant, soit : un déficit fonctionnel permanent (DFP) ≥ 24 %, une incapacité temporaire totale (ITT) dʼau moins 6 mois consécutifs ou non consécutifs sur 12 mois, ou, à titre exceptionnel, des troubles graves dans les conditions dʼexistence ou une inaptitude définitive à lʼactivité professionnelle antérieure.",
+    "sousExpertise": "ONIAM"
+  },
+  {
+    "question": "Dans quels cas l'ONIAM intervient-il pour l'indemnisation ?",
+    "answer": "L'ONIAM indemnise les victimes d'accidents médicaux graves lorsque la responsabilité d'un professionnel n'est pas engagée ou ne suffit pas à couvrir le préjudice. Il intervient dans six situations principales.\n\nAléa thérapeutique : accident médical non fautif entraînant un dommage anormal et grave (taux d'incapacité ≥ 24 % ou décès, durée d'arrêt de travail ≥ 6 mois).\n\nInfection nosocomiale grave : lorsque le déficit fonctionnel permanent (DFP) est strictement supérieur à 25 %.\n\nVaccinations obligatoires, contaminations par produits sanguins (VIH, hépatite C) ou certains traitements spécifiques (Mediator, Dépakine…).\n\nResponsabilité partielle d'un professionnel ou d'un établissement, en complément de l'assureur.\n\nRefus d'offre : si l'assureur d'un professionnel ou d'un établissement refuse de formuler une offre d'indemnisation dans le cadre de la procédure CRCI, l'ONIAM se substitue à lui.\n\nIntervention hors champ médical : dommages causés par un professionnel de santé agissant en dehors de son activité habituelle.",
+    "sousExpertise": "ONIAM"
+  },
+  {
+    "question": "Quel est le rôle de lʼONIAM dans lʼindemnisation du DFP ?",
+    "answer": "LʼONIAM intervient dans lʼindemnisation du déficit fonctionnel permanent (DFP) dans plusieurs cas précis, sans qu'une faute médicale soit nécessaire.\n\nPour les aléas thérapeutiques, lʼONIAM prend en charge lʼindemnisation si les conditions légales sont réunies (article L. 1142-1 II du Code de la santé publique).\n\nPour les infections nosocomiales, lʼONIAM intervient de plein droit lorsque le DFP est strictement supérieur à 25 %. Il peut ensuite se retourner contre lʼassureur de lʼétablissement si une faute est établie.\n\nEnfin, dans le cadre dʼune procédure devant la CRCI, si la responsabilité du professionnel ou de lʼétablissement est reconnue mais que lʼassureur refuse de formuler une offre, lʼONIAM peut se substituer à cet assureur pour indemniser la victime.",
+    "sousExpertise": "DFP"
+  },
+  {
+    "question": "Y a-t-il des exceptions à l'obligation d'information du médecin ?",
+    "answer": "Oui, le médecin peut être dispensé de son obligation d'information dans quatre situations prévues par la loi.\n\nL'urgence : lorsque l'état du patient impose une intervention immédiate sans délai d'information possible.\n\nLe refus d'être informé : le patient peut expressément demander à ne pas connaître son diagnostic ou son pronostic (article L. 1111-2 du Code de la santé publique).\n\nL'impossibilité d'informer : si le patient est inconscient ou hors d'état de recevoir l'information, le médecin s'adresse alors à la personne de confiance ou aux proches.\n\nLe risque totalement inconnu : le médecin ne peut informer que des risques connus au moment de l'acte ; un risque ignoré de la science ne peut lui être reproché.",
+    "sousExpertise": "Obligation d'information"
+  },
+  {
+    "question": "Le DFP est-il le seul élément pris en compte pour le calcul de l'indemnisation ?",
+    "answer": "Non, le déficit fonctionnel permanent (DFP) n'est qu'un poste parmi d'autres dans l'évaluation du préjudice corporel. La nomenclature Dintilhac, référence des juridictions françaises, distingue plusieurs postes distincts qui s'ajoutent au DFP.\n\nOn retient notamment : les souffrances endurées (pretium doloris, cotées de 1 à 7), le préjudice esthétique permanent, le préjudice d'agrément (impossibilité de pratiquer une activité antérieure), le préjudice professionnel (perte de gains, incidence professionnelle), ainsi que les frais médicaux et d'assistance.\n\nChaque poste est évalué séparément, puis additionné pour former l'indemnisation globale. L'accompagnement d'un avocat permet de s'assurer qu'aucun poste n'est oublié ou sous-évalué.",
+    "sousExpertise": "DFP"
+  },
+  {
+    "question": "Comment se déroule une expertise médicale après un accident ?",
+    "answer": "Lors d'une expertise médicale, un médecin expert — désigné par l'assureur ou le tribunal — examine votre état de santé pour évaluer l'étendue de vos préjudices. Il s'appuie sur votre dossier médical et des barèmes médico-légaux pour chiffrer vos séquelles.\n\nL'expert fixe notamment votre taux de déficit fonctionnel permanent (DFP) et, si votre état le permet, une date de consolidation à partir de laquelle vos préjudices sont considérés comme stabilisés. Son rapport servira de base au calcul de votre indemnisation.\n\nVous avez le droit d'être assisté lors de l'expertise par un médecin conseil de votre choix — et par un avocat. Cette assistance est fortement recommandée : un médecin expert mandaté par l'assureur défend les intérêts de son mandant, pas les vôtres.",
+    "sousExpertise": "Préjudice"
+  },
+  {
+    "question": "Pourquoi le DFP est-il déterminant pour calculer votre indemnisation ?",
+    "answer": "Le déficit fonctionnel permanent (DFP) est le critère central du calcul indemnitaire après un dommage corporel : exprimé en pourcentage (de 1 % à 100 %), il mesure les séquelles définitives conservées après consolidation et conditionne directement le montant alloué par le juge ou l'assureur.\n\nPlus le taux de DFP est élevé, plus l'indemnisation est importante. Ce taux est fixé par un médecin expert selon le barème indicatif publié par le Concours Médical. Il sert de base aux référentiels indemnitaires utilisés par les juridictions civiles, la CIVI ou les fonds de garantie comme le FGTI.\n\nUn avocat spécialisé peut contester un taux sous-évalué en demandant une contre-expertise ou une expertise judiciaire, ce qui peut significativement faire évoluer le montant final de l'indemnisation.",
+    "sousExpertise": "DFP"
+  },
+  {
+    "question": "Ai-je besoin d'un avocat dans le cas d'un aléa thérapeutique ?",
+    "answer": "Un avocat nʼest pas obligatoire, mais il est fortement recommandé : lʼindemnisation dʼun aléa thérapeutique repose sur des règles complexes (loi du 4 mars 2002, dite loi Kouchner) et nécessite de prouver un accident médical non fautif, une consolidation du dommage et un seuil de gravité suffisant.\n\nLa première étape est généralement la saisine de la Commission de Conciliation et dʼIndemnisation (CCI) compétente, qui rend un avis amiable. Si lʼONIAM refuse ou si lʼoffre est insuffisante, un recours judiciaire devient nécessaire.\n\nUn avocat spécialisé vous aide à constituer le dossier médical, à préparer lʼexpertise et à évaluer le montant de votre préjudice corporel. Son intervention est particulièrement utile dès la phase amiable pour ne pas accepter une indemnisation sous-évaluée.",
+    "sousExpertise": "Aléa thérapeutique"
+  },
+  {
+    "question": "Qu'est-ce que la CRCI et quel est son intérêt pour les victimes ?",
+    "answer": "La CRCI (Commission de conciliation et d'indemnisation des accidents médicaux) est une procédure amiable permettant aux victimes d'accidents médicaux, d'affections iatrogènes ou d'infections nosocomiales d'obtenir une indemnisation rapide, sans passer par un tribunal.\n\nPour saisir la CRCI, le dossier doit remplir des critères de gravité définis à l'article D1142-1 du code de la santé publique (critères alternatifs) :\n\n— taux d'incapacité permanente ≥ 24 %\n— incapacité temporaire de travail ≥ 6 mois consécutifs ou non sur 12 mois\n— déficit fonctionnel temporaire ≥ 50 % pendant 6 mois\n— inaptitude définitive à l'activité professionnelle antérieure\n— troubles dans les conditions d'existence particulièrement graves\n\nSi ces critères sont réunis, la commission diligente une expertise médicale pour évaluer les préjudices imputables à l'accident. Elle rend son avis dans un délai de 6 mois. Si une responsabilité est retenue, le régleur — ONIAM et/ou l'assureur — dispose de 4 mois pour formuler une offre d'indemnisation, laquelle doit être versée dans le mois suivant son acceptation.",
+    "sousExpertise": "CRCI"
+  },
+  {
+    "question": "Quels sont les impacts de la consolidation sur l'indemnisation ?",
+    "answer": "Lʼindemnisation définitive ne peut intervenir quʼaprès la date de consolidation, qui fige lʼétat de santé de la victime et permet de chiffrer lʼensemble des préjudices de façon certaine.\n\nAvant cette date, seuls des provisions peuvent être versées. Une fois consolidée, la victime peut réclamer lʼintégralité des postes de préjudice prévus par la nomenclature Dintilhac : déficit fonctionnel permanent (DFP), préjudice dʼagrément, préjudice professionnel, préjudices extra-patrimoniaux, etc.\n\nFixer une date de consolidation trop précoce peut minorer significativement lʼindemnisation : un avocat peut contester cette date en sollicitant une contre-expertise médicale.",
+    "sousExpertise": "Consolidation"
+  },
+  {
+    "question": "Qu'est-ce que l'ONIAM et quel est son rôle principal ?",
+    "answer": "LʼONIAM (Office National dʼIndemnisation des Accidents Médicaux) est un établissement public chargé dʼindemniser les victimes dʼaccidents médicaux au titre de la solidarité nationale, lorsque la responsabilité dʼun professionnel ou dʼun établissement de santé nʼest pas engagée.\n\nIl intervient notamment dans trois situations : les aléas thérapeutiques (dommage grave sans faute), les infections nosocomiales graves, et certains dommages liés à des vaccinations obligatoires ou à des contaminations par des produits sanguins.\n\nLa saisine de lʼONIAM passe en premier lieu par une Commission de Conciliation et dʼIndemnisation (CCI), qui instruit le dossier et formule une offre dʼindemnisation amiable.",
+    "sousExpertise": "ONIAM"
+  },
+  {
+    "question": "Qu'est-ce qu'une infection nosocomiale ?",
+    "answer": "Une infection nosocomiale est une infection contractée dans un établissement de santé — hôpital, clinique ou cabinet libéral — qui n'était ni présente ni en incubation au moment de l'admission du patient. Elle est reconnue comme telle quel que soit le soin pratiqué.\n\nPar convention, un délai de 48 heures après l'admission est généralement retenu pour distinguer une infection nosocomiale d'une infection communautaire préexistante. Pour les infections du site opératoire, ce délai est porté à 30 jours, voire 1 an en cas de pose de prothèse.\n\nDepuis la loi du 4 mars 2002 (dite loi Kouchner) et la loi du 30 décembre 2002, les établissements de santé sont présumés responsables des infections nosocomiales causées à leurs patients, sauf preuve d'une cause étrangère. La victime peut obtenir réparation via l'ONIAM (Office national d'indemnisation des accidents médicaux) lorsque le dommage atteint un certain seuil de gravité.",
+    "sousExpertise": "Infection nosocomiale"
+  },
+  {
+    "question": "Que se passe-t-il si le médecin ne respecte pas son obligation d'information ?",
+    "answer": "Si un médecin manque à son obligation d'information, il engage sa responsabilité civile et vous pouvez obtenir réparation. Deux préjudices sont indemnisables : la perte de chance d'avoir refusé l'acte ou choisi une alternative, et le préjudice d'impréparation, reconnu par la Cour de cassation depuis 2010, qui couvre le bouleversement psychologique causé par la survenance d'un risque que vous ignoriez.\n\nLa preuve du défaut d'information incombe au médecin (article L. 1111-2 du Code de la santé publique). La réclamation peut être portée devant la commission de conciliation et d'indemnisation (CCI) ou directement devant les tribunaux. Un avocat spécialisé peut vous aider à chiffrer et défendre ces deux chefs de préjudice.",
+    "sousExpertise": "Obligation d'information"
+  },
+  {
+    "question": "Quelle différence entre l'aléa thérapeutique et  une faute médicale ?",
+    "answer": "La faute médicale résulte d'un manquement aux règles de l'art ou aux données acquises de la science : elle engage la responsabilité du médecin ou de l'établissement de santé. L'aléa thérapeutique, au contraire, est une complication anormale et imprévisible survenue sans aucune faute.\n\nDans ce second cas, aucune responsabilité n'est engagée, mais la victime peut être indemnisée par la solidarité nationale, via l'ONIAM (Office national d'indemnisation des accidents médicaux), à condition que le dommage soit suffisamment grave (atteinte au taux d'incapacité permanente partielle supérieure à 24 % ou critères équivalents fixés par l'article L. 1142-1 II du Code de la santé publique).",
+    "sousExpertise": "Aléa thérapeutique"
+  },
+  {
+    "question": "Comment est déterminée la date de consolidation ?",
+    "answer": "La date de consolidation est fixée par un médecin expert, désigné amiablement par l'assureur ou judiciellement par le tribunal. Elle correspond au moment où les lésions sont stabilisées : l'état de la victime n'est plus susceptible d'évoluer significativement, même si des séquelles persistent.\n\nCette date est déterminante : aucun préjudice permanent (incapacité permanente partielle, préjudice esthétique, pretium doloris définitif…) ne peut être chiffré avant qu'elle soit acquise. Une consolidation prononcée trop tôt peut minorer l'indemnisation.\n\nEn cas de désaccord avec la date retenue par l'expert de l'assureur, la victime peut solliciter une contre-expertise ou saisir le juge pour en contester le bien-fondé.",
+    "sousExpertise": "Consolidation"
+  },
+  {
+    "question": "Comment savoir si j'ai été victime d'une faute médicale ?",
+    "answer": "Une faute médicale suppose la réunion de trois éléments : une faute du professionnel de santé, un préjudice subi par le patient, et un lien de causalité entre les deux. Plusieurs situations peuvent révéler une telle faute.\n\nErreur de diagnostic : un diagnostic erroné ou tardif ayant conduit à un traitement inadapté ou à l'absence de prise en charge.\n\nFaute thérapeutique : prescription incorrecte, erreur dans la réalisation d'un geste chirurgical ou d'un acte de soin.\n\nManquement à l'obligation d'information : absence d'information sur les risques d'un traitement ou d'une intervention, en violation de l'article L. 1111-2 du Code de la santé publique.\n\nNégligence : examen insuffisant, surveillance post-opératoire défaillante ou non-respect des protocoles.\n\nEn cas de doute, une expertise médicale indépendante peut être sollicitée, notamment via la CRCI (Commission de Règlement des Litiges et de l'Indemnisation) ou l'ONIAM.",
+    "sousExpertise": "Faute médicale"
+  },
+  {
+    "question": "Si ma carrière est impactée, comment le préjudice professionnel sera-t-il indemnisé ?",
+    "answer": "Le préjudice professionnel recouvre deux postes distincts : les pertes de gains professionnels (actuels et futurs) et l'incidence professionnelle, qui indemnise les répercussions périphériques sur la sphère professionnelle indépendamment de toute perte de revenus directe.\n\nL'incidence professionnelle comprend notamment : la dévalorisation sur le marché du travail, la perte de la profession antérieure, la perte de chance professionnelle, la perte de sens au travail, l'augmentation de la pénibilité de l'emploi occupé, et la perte de droits à la retraite.\n\nCes préjudices sont évalués à partir de justificatifs concrets : bulletins de salaire, contrats de travail, attestations employeur, bilans de compétences. Un avocat spécialisé peut vous aider à constituer ce dossier et à en maximiser l'indemnisation.",
+    "sousExpertise": "Préjudice"
+  },
+  {
+    "question": "Quels sont les préjudices indemnisables dans le cadre d'une infection nosocomiale ?",
+    "answer": "Une infection nosocomiale ouvre droit à l'indemnisation de l'ensemble des préjudices subis, qu'ils soient financiers ou personnels. La nomenclature Dintilhac, référence en matière de réparation du dommage corporel, distingue plusieurs postes.\n\nLes préjudices patrimoniaux couvrent les frais médicaux actuels et futurs, la perte de revenus, les frais d'adaptation du logement ou du véhicule, la tierce personne (aide humaine), et les frais de reconversion professionnelle.\n\nLes préjudices extra-patrimoniaux comprennent les souffrances endurées, le déficit fonctionnel temporaire et permanent, le préjudice esthétique, le préjudice d'agrément (perte d'activités de loisir) et, le cas échéant, le préjudice sexuel.\n\nLes proches peuvent également être indemnisés au titre du préjudice d'accompagnement ou du préjudice d'affection en cas de décès. La demande s'adresse à l'établissement de santé, à son assureur, ou à l'ONIAM en cas d'infection particulièrement grave.",
+    "sousExpertise": "Infection nosocomiale"
+  },
+  {
+    "question": "Pourquoi la consolidation est-elle importante pour lʼindemnisation ?",
+    "answer": "La consolidation est le moment à partir duquel les séquelles de la victime sont considérées comme définitives. Elle joue un double rôle central dans lʼindemnisation : elle permet dʼévaluer les préjudices permanents (incapacité, souffrances, préjudice esthétique…) et elle constitue le point de départ du délai de prescription de 10 ans pour agir en réparation, prévu par lʼarticle 2226 du Code civil.\n\nTant que la consolidation nʼest pas acquise, aucun délai de prescription ne peut être opposé à la victime. Elle peut toutefois agir avant cette date si elle le souhaite, notamment pour obtenir une provision.",
+    "sousExpertise": "Consolidation"
+  },
+  {
+    "question": "Qu'est-ce qu'une faute médicale ?",
+    "answer": "Une faute médicale est établie lorsquʼun professionnel de santé nʼa pas respecté les données acquises de la science ou les règles de lʼart médical, que ce soit lors du diagnostic, du choix du traitement ou de la prescription médicamenteuse.\n\nToute erreur nʼest pas automatiquement une faute : encore faut-il quʼelle résulte dʼune négligence, dʼune imprudence ou dʼun manquement caractérisé. À lʼinverse, un aléa thérapeutique — complication imprévisible sans faute du praticien — peut ouvrir droit à indemnisation via lʼONIAM, sans nécessité de prouver une faute.\n\nLa charge de la preuve pèse sur le patient. Un avocat pénaliste peut accompagner la procédure lorsque la faute revêt un caractère pénal (blessures involontaires, mise en danger).",
+    "sousExpertise": "Faute médicale"
+  },
+  {
+    "question": "Quels sont les éléments précis que le médecin doit me communiquer ?",
+    "answer": "Le médecin est tenu de vous communiquer, avant tout acte, une information loyale, claire et adaptée sur votre état de santé, les investigations ou traitements envisagés, leur utilité, leur urgence éventuelle, leurs conséquences et les risques fréquents ou graves normalement prévisibles (article L. 1111-2 du Code de la santé publique).\n\nConcrètement, cette information doit porter sur :\n\n— votre diagnostic et votre état de santé ;\n— les différentes options thérapeutiques ou d'investigation disponibles ;\n— l'utilité et l'urgence éventuelle de chaque option ;\n— les conséquences et les risques fréquents ou graves normalement prévisibles ;\n— les alternatives possibles et les conséquences d'un refus de traitement.\n\nLe médecin doit également vous informer des risques découverts après l'acte s'ils sont susceptibles de vous affecter. En cas de manquement à cette obligation, sa responsabilité peut être engagée devant la commission de conciliation et d'indemnisation (CCI) ou devant les tribunaux.",
+    "sousExpertise": "Obligation d'information"
+  },
+  {
+    "question": "Comment le DFP est-il déterminé ?",
+    "answer": "Le déficit fonctionnel permanent (DFP) est évalué par un médecin expert lors d'une expertise médicale contradictoire, à partir de la date de consolidation — moment où les séquelles se stabilisent et prennent un caractère définitif. L'expert se base sur des barèmes médicaux de référence (barème indicatif des déficits fonctionnels séquellaires en droit commun) pour chiffrer le taux de DFP en pourcentage.\n\nCe taux intègre les atteintes aux fonctions physiologiques, sensorielles ou cognitives, ainsi que leur retentissement sur les actes de la vie courante. Plus le taux est élevé, plus l'indemnisation est importante.\n\nFaire appel à un médecin-conseil de recours aux côtés de la victime, avant ou pendant l'expertise, permet de contester un taux sous-évalué par l'expert mandaté par l'assureur.",
+    "sousExpertise": "DFP"
+  },
+  {
+    "question": "Mes proches peuvent-ils être indemnisés après un accident médical ?",
+    "answer": "Oui, les proches d'une victime d'accident médical peuvent obtenir une indemnisation pour leurs propres préjudices, même s'ils nʼont pas subi de dommage physique direct.\n\nTrois préjudices leur sont principalement reconnus :\n\nLe préjudice dʼaffection : douleur morale causée par les souffrances ou le décès de la victime. Il est indemnisé selon le degré de proximité affective.\n\nLe préjudice dʼaccompagnement : altération des conditions de vie du proche qui assiste quotidiennement la victime gravement atteinte.\n\nLe préjudice économique : perte de revenus ou de soutien financier, notamment lorsque la victime décédée pourvoyait aux besoins du foyer.\n\nCes demandes peuvent être présentées devant la commission de conciliation et dʼindemnisation (CCI) ou directement en justice.",
+    "sousExpertise": "Préjudice"
+  },
+  {
+    "question": "Comment se déroule l'indemnisation en cas d'infection nosocomiale ?",
+    "answer": "L'indemnisation d'une infection nosocomiale dépend du seuil de Déficit Fonctionnel Permanent (DFP) retenu par l'expertise médicale.\n\nSi le DFP est inférieur ou égal à 25 %, l'indemnisation est prise en charge par l'assureur de l'établissement de santé. Si le DFP est strictement supérieur à 25 %, ou en cas de décès, c'est l'ONIAM (Office National d'Indemnisation des Accidents Médicaux) qui indemnise au titre de la solidarité nationale.\n\nLorsqu'une faute de l'établissement est établie et que le DFP dépasse 25 %, la victime peut choisir d'agir directement contre l'établissement fautif ou de saisir l'ONIAM, qui dispose ensuite d'un recours contre l'assureur.\n\nSi l'infection a été contractée dans le cabinet d'un praticien libéral, le régime est différent : la victime doit obligatoirement rapporter la preuve d'une faute à l'origine de l'infection.",
+    "sousExpertise": "Infection nosocomiale"
+  },
+  {
+    "question": "Qu'est-ce que l'aléa thérapeutique ?",
+    "answer": "L'aléa thérapeutique désigne la survenue d'un accident médical sans faute du professionnel de santé : le risque est inhérent à l'acte lui-même et ne pouvait être maîtrisé, même avec une prise en charge conforme aux données acquises de la science.\n\nDepuis la loi du 4 mars 2002 (loi Kouchner), les victimes d'un aléa thérapeutique peuvent être indemnisées par la solidarité nationale, sans avoir à prouver une faute. La demande s'adresse à une Commission de Conciliation et d'Indemnisation (CCI), qui saisit ensuite l'ONIAM (Office National d'Indemnisation des Accidents Médicaux).\n\nPour ouvrir droit à indemnisation, le dommage doit être grave (taux d'atteinte permanente à l'intégrité physique supérieur à 24 % ou conditions équivalentes), anormal et directement imputable à un acte de prévention, de diagnostic ou de soin.",
+    "sousExpertise": "Aléa thérapeutique"
+  }
+]

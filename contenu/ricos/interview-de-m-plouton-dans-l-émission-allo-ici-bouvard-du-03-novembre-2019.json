@@ -1,0 +1,95 @@
+{
+  "slug": "interview-de-m-plouton-dans-l-émission-allo-ici-bouvard-du-03-novembre-2019",
+  "sourcePath": "/post/interview-de-m-plouton-dans-l-émission-allo-ici-bouvard-du-03-novembre-2019",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "8joqh3395",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Maitre Julien PLOUTON répond aux questions de Philippe BOUVARD sur le ",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Bracelet électronique",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/defense-penale-par-un-avocat-penaliste/droit-penal-penaliste-defense",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", son utilisation par les magistrats, les avantages et limites d’un tel dispositif et l’arrivée prochaine du Bracelet Anti Rapprochement dans le cadre de la ",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "lutte contre les violences faites aux femmes.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/avocat-violences-conjugales-a-bordeaux",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {}
+  }
+}

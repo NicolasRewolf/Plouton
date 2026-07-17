@@ -1,0 +1,983 @@
+{
+  "slug": "relaxe-pour-un-chef-d-entreprise-poursuivi-pour-travail-dissimulé-aggravé",
+  "sourcePath": "/post/relaxe-pour-un-chef-d-entreprise-poursuivi-pour-travail-dissimulé-aggravé",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "7gpa320512",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "24 novembre 2022",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", le Tribunal correctionnel de Bordeaux, dans sa 4ème chambre économique et financière, a rendu une décision de relaxe complète en faveur du gérant d’une entreprise générale du bâtiment que notre Cabinet Plouton défendait. Cette décision met un terme à une procédure éprouvante, initiée sur la base d’accusations graves de travail dissimulé qui menaçaient non seulement la réputation de notre client, mais aussi la pérennité de son entreprise.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wslgv20567",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "v59o320516",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les faits et notre intervention : une accusation fragile",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "4q3sp20518",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre client, un entrepreneur respecté au parcours exemplaire, s’est retrouvé brutalement dans le viseur de la justice suite à la plainte d’un individu de nationalité étrangère, dépourvu de titre de travail. Ce dernier affirmait avoir été employé sur plusieurs chantiers sans contrat ni bulletin de paie, et prétendait ne pas avoir été intégralement rémunéré. Pour étayer ses dires, il a fourni le nom et le numéro de téléphone du gérant, ainsi que des preuves de chèques de la société encaissés sur son compte personnel. Face à ces allégations, une enquête préliminaire a été ouverte pour trois infractions principales : ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "travail dissimulé aggravé par dissimulation de salariés",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "travail dissimulé aggravé par minoration d’horaires",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", et ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "emploi d’un étranger non muni d’une autorisation de travail",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Dès notre saisine, nous avons contesté fermement ces accusations. Notre client a toujours maintenu n’avoir jamais employé directement le plaignant, expliquant que celui-ci avait été recruté par une entreprise sous-traitante. Les chèques en question, remis non endossés au sous-traitant pour le paiement de ses prestations, auraient pu être transmis par ce dernier à son propre salarié.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "je5n720616",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "0cba720528",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'enquête et ses carences : une instruction à charge",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "eretw20530",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'un des axes majeurs de notre stratégie de défense a été de mettre en lumière les nombreuses et surprenantes lacunes de l'enquête. Alors que la plainte initiale était particulièrement vague — sans précision sur les horaires, les lieux de travail ou les conditions d'intervention — les enquêteurs n'ont procédé à aucune vérification élémentaire pour corroborer les dires du plaignant. Aucune analyse téléphonique pour confirmer des contacts réguliers, aucune vérification sur les locations de véhicules prétendument effectuées.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "h8k6520532",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "nlhlu20778",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pire encore, les déclarations de notre client et de sa responsable de service ont été ignorées. Le sous-traitant désigné comme le véritable employeur du plaignant n'a jamais été entendu. À l'inverse, les enquêteurs ont procédé à une analyse exhaustive des comptes bancaires de la société, établissant une liste de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "79 personnes",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " considérées comme des salariés non déclarés sur le simple fait qu'elles avaient encaissé des chèques de l'entreprise. La plupart de ces personnes, pourtant identifiées, n'ont jamais été interrogées sur la nature de leur relation avec notre client. Cette approche illustre une vision parcellaire de la ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "procédure pénale",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/droit-p%C3%A9nal",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", qui doit être menée à charge et à décharge.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "krq9a20663",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "f90u720538",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre stratégie de défense : rétablir la vérité factuelle",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ug4o420540",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Face à une enquête aussi manifestement à charge, notre rôle a été de rétablir la vérité factuelle, pièce par pièce. Nous avons fourni au tribunal les factures et les numéros SIREN de nombreux artisans figurant sur la liste des prétendus salariés dissimulés, prouvant ainsi leur statut de sous-traitants indépendants. Nous avons également expliqué que certains chèques, remis sans ordre, avaient pu être transmis par ces artisans à leurs propres proches ou employés, ce qui expliquait les encaissements par des tiers. Nous avons mis en avant le parcours de notre client : un ancien compagnon du devoir, au casier judiciaire vierge, qui a bâti son entreprise à force de travail. Confronté à une croissance rapide et à la pression d'un client majeur représentant ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "80 % de son chiffre d'affaires",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", il a dû recourir à la sous-traitance en urgence pour honorer ses commandes. Ce contexte économique, loin de révéler une intention de fraude, expliquait les pratiques de gestion qui, bien que perfectibles, ne relevaient pas du ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "droit pénal des affaires",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/droit-p%C3%A9nal-des-affaires",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Notre argumentation visait à démontrer que la ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "responsabilité pénale du dirigeant",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/comprendre-et-pr%C3%A9venir-la-responsabilit%C3%A9-p%C3%A9nale-du-dirigeant",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ne pouvait être engagée sur la base de simples présomptions.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "q0b6f20712",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "sj5q420550",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La décision du tribunal et ses conséquences : une relaxe totale",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "5421w20552",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Malgré les réquisitions sévères du parquet — qui demandait une peine de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "huit mois d'emprisonnement avec sursis",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "15 000 € d’amende",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et une ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "interdiction de gérer",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/l-interdiction-de-g%C3%A9rer-une-sanction-professionnelle-pour-dirigeants-d-entreprises-en-difficult%C3%A9",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pendant deux ans — et la constitution de partie civile de l'URSSAF réclamant près de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "200 000 €",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", le tribunal a suivi notre argumentation. Dans sa grande sagesse, la juridiction a reconnu les carences manifestes de l'enquête et a retenu le doute en faveur de notre client.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "krla9673",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "LINK_PREVIEW",
+        "id": "nbn6j7514",
+        "nodes": [],
+        "linkPreviewData": {
+          "description": "Dans le cadre notre activité en droit pénal des affaires, nous avons récemment représenté un chef d'entreprise accusé de travail dissimulé. ",
+          "link": {
+            "url": "https://www.jplouton-avocat.fr/post/d%C3%A9fense-p%C3%A9nale-d-un-chef-d-entreprise",
+            "target": "BLANK"
+          },
+          "containerData": {
+            "alignment": "CENTER",
+            "textWrap": true
+          },
+          "title": "Travail dissimulé dans le BTP : défense d'un chef d'entreprise devant le Tribunal correctionnel de Bordeaux",
+          "thumbnailUrl": "https://static.wixstatic.com/media/nsplsh_d36a47fd47a743fdbcaa691cfb05d6f4~mv2.jpg/v1/fill/w_667,h_1000,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_d36a47fd47a743fdbcaa691cfb05d6f4~mv2.jpg"
+        }
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "g71tx7469",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "fq2nl20762",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La relaxe a été prononcée pour l'ensemble des chefs de prévention. En conséquence, la demande de redressement de l'URSSAF a été intégralement rejetée. Cette victoire est essentielle : elle permet à notre client de poursuivre son activité avec un casier judiciaire vierge, de préserver la stabilité de son entreprise et d'envisager l'avenir avec sérénité. Cette affaire rappelle l'importance d'une défense pénale rigoureuse pour faire face à des accusations qui peuvent injustement détruire une vie professionnelle. Notre Cabinet Plouton est fier d'avoir porté la voix de cet entrepreneur et d'avoir fait triompher la justice.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "364f7b7a-aed1-42e0-8ee5-a77be57cdeac",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "3090413e-534d-405d-b0f3-51d576ce318d",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "06955eed-668e-4f3f-b91c-c8dae568f388",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "ba338827-ef28-4597-980c-f094331be01f",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bf660938-2a70-46c9-8791-b776b3a8a8b8",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "6a7181e9-5190-4427-a6e0-51d002860b50",
+            "nodes": [],
+            "textData": {
+              "text": "Cette décision s'inscrit dans une série de victoires du cabinet devant les juridictions pénales économiques, comme en témoigne cette autre affaire de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "6c2591e1-760e-4c41-8fac-5add90aa63b0",
+            "nodes": [],
+            "textData": {
+              "text": "relaxe obtenue en matière de pratiques commerciales trompeuses",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/droit-penal-relaxe-pratiques-commerciales-trompeuses-meubles",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false,
+                        "noreferrer": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "60050467-4284-4007-96eb-ffefba8db7ce",
+            "nodes": [],
+            "textData": {
+              "text": ", où un salarié avait été injustement accusé d'escroquerie.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      }
+    ],
+    "documentStyle": {}
+  }
+}

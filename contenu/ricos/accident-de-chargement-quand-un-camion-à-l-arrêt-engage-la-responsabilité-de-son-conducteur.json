@@ -1,0 +1,1513 @@
+{
+  "slug": "accident-de-chargement-quand-un-camion-à-l-arrêt-engage-la-responsabilité-de-son-conducteur",
+  "sourcePath": "/post/accident-de-chargement-quand-un-camion-à-l-arrêt-engage-la-responsabilité-de-son-conducteur",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "b32sk1812",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Tribunal Judiciaire de Bordeaux — Jugement du 3 septembre 2025",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "s0dvi1961",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "wztca1814",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le 23 janvier 2021, la vie de notre client bascule. Alors qu'il assiste au chargement d'un conteneur de plusieurs tonnes sur un camion plateau à son domicile, sur la commune de Sadirac en Gironde, le conteneur chute et écrase son pied droit. Le diagnostic est terrible : \"délabrement majeur du pied\", de multiples fractures ouvertes et une destruction des tissus qui nécessiteront des mois d'hospitalisation, de multiples opérations de reconstruction et une rééducation longue et douloureuse.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "e8nsx2003",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "bci5f1816",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Face à un tel drame,",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " une question juridique complexe se pose : qui est responsable ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'affaire semble se situer à la frontière entre l'",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "accident de la vie courante",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/indemnisation-des-victimes/accidents-de-la-vie-courante",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et l'",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "accident de la circulation",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/indemnisation-des-victimes/accidents-de-la-route",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Pour ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "notre cabinet Plouton",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/notre-cabinet",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", l'enjeu était de taille : choisir le bon fondement juridique pour garantir à la victime son droit à une indemnisation intégrale.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "0cep42051",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "style": {},
+        "id": "nrfen1824",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre stratégie : la Loi Badinter face à la responsabilité du fait des choses",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "nbj8k1826",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dès le début, la défense, assurée par la compagnie MMA IARD, a tenté d'écarter sa responsabilité en soutenant deux arguments principaux :",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "auqgq2094",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "4dlqn1828",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "q9o5e1829",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "b0mzd1830",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'accident ne serait pas un \"accident de la circulation\"",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : Selon l'assureur, le camion était à l'arrêt, moteur allumé, et utilisé comme un simple \"outil\" de levage. La ",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "loi Badinter du 5 juillet 1985",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/post/loi-badinter-85-comprendre-vos-droits-%C3%A0-indemnisation-apr%C3%A8s-un-accident-de-la-route",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ", très protectrice pour les victimes, ne devrait donc pas s'appliquer.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              },
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "gutop2140",
+                "nodes": [],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ygcx41835",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "m184v1836",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La faute serait celle de la victime",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : La défense a prétendu, sans aucune preuve, que notre client aurait commis une imprudence en montant sur le plateau et en utilisant une planche pour faire levier, provoquant lui-même la chute.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "vuw7q2184",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "je3ya1839",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre cabinet a immédiatement contesté cette analyse et a bâti une argumentation solide sur deux niveaux :",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "2m0pa2306",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "en7ds1841",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À titre principal, nous avons plaidé l'application de la Loi Badinter.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Nous avons soutenu qu'",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "une opération de chargement ou de déchargement d'un camion, moteur allumé et qui n'est pas dans sa fonction outil constitue bien un \"fait de circulation\", même sur une propriété privée et même si le véhicule est immobile",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Notre client, n'étant pas le conducteur, devait bénéficier du régime le plus favorable : son indemnisation ne pouvait être remise en cause, sauf à prouver sa \"faute inexcusable\", ce qui était loin d'être le cas.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "m50w32349",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "vm09m1844",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À titre subsidiaire, nous avons engagé la responsabilité du fait des choses.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Le conducteur du camion avait la garde du véhicule et du conteneur. Le rôle actif de la chose dans la survenance du dommage était évident. Nous avons par ailleurs balayé l'argument de la faute de la victime, en soulignant que la défense se basait sur les seules déclarations de son assuré et en produisant une attestation cruciale de la compagne de notre client, qui réfutait cette version des faits.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ij0za2392",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "style": {},
+        "id": "zdcto1847",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La décision du tribunal : une victoire décisive pour la victime",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "vpk021849",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Par un jugement rendu le 3 septembre 2025, le Tribunal Judiciaire de Bordeaux a suivi en tous points l'argumentation du cabinet.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "cs81j2435",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "8wq161851",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La décision est une reconnaissance claire du droit de notre client :",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "lp6g82477",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "0450e1853",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "x295b1854",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "hojjy1855",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La Loi Badinter est applicable",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : Le juge a confirmé que l'opération de chargement constituait bien un fait de circulation, offrant à notre client la protection maximale prévue par la loi.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "7l9b91858",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "csrv91859",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La responsabilité du conducteur et de son assureur est totale",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : ",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le tribunal a écarté toute faute de la victime",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ", faute de preuves, et a déclaré le conducteur et la MMA IARD \"entièrement responsable\" du préjudice subi.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "yt3p31862",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "of4i51863",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une expertise médicale est ordonnée",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : Pour évaluer avec précision l'ensemble des préjudices subis par notre client, une ",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "expertise médicale judiciaire",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.google.com/search?q=https://www.jplouton-avocat.fr/post/j-ai-rdv-pour-une-expertise-m%C3%A9dicale-comment-bien-pr%C3%A9parer-mon-dossier-m%C3%A9dical",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " a été désignée.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "c5m6r1868",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "8c9vr1869",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une provision de 25 000 € est allouée",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : Conscient de la gravité des blessures et de l'absence de contestation sérieuse sur le droit à indemnisation, le tribunal a condamné solidairement le conducteur et son assureur à verser immédiatement une provision de 25 000 € à notre client.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "style": {},
+        "id": "xq5ep1872",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce que cela change pour la victime",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "hfqgp1874",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette décision est une étape fondamentale. Elle établit sans équivoque la responsabilité de l'auteur du dommage et de son assurance,",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " sécurisant ainsi le droit de notre client à une réparation complète de ses préjudices",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". L'obtention d'une provision significative lui permet de faire face aux conséquences financières de l'accident sans attendre la fin de la procédure.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "wyckh1876",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce dossier illustre parfaitement la technicité du droit du dommage corporel et l'importance d'une stratégie juridique rigoureuse pour déjouer les arguments des compagnies d'",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "assurance",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/droit-des-contrats-et-des-personnes/droit-assurances-particuliers-professionnels",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Notre cabinet poursuit son accompagnement auprès de la victime pour la phase d'expertise médicale, afin que chaque ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "poste de préjudice soit justement évalué et indemnisé",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/indemnisation-des-victimes/victimes-de-délits-ou-crimes",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      }
+    ],
+    "documentStyle": {}
+  }
+}

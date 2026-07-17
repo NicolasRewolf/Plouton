@@ -1,0 +1,3785 @@
+{
+  "slug": "le-pretium-doloris-guide-complet-pour-les-victimes-d-accidents",
+  "sourcePath": "/post/le-pretium-doloris-guide-complet-pour-les-victimes-d-accidents",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "40i521503",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "e6d89298",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vous avez été victime d'un ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "accident de la route",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/indemnisation-des-victimes/accidents-de-la-route",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "accident à domicile",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/indemnisation-des-victimes/accidents-de-la-vie-courante",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "violences criminels",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/indemnisation-des-victimes/victimes-de-délits-ou-crimes",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ",",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "violences conjugales",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/défense-pénale/violences-conjugales-et-féminicides",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ?",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#F4F7FF"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Il existe un terme juridique : pretium doloris",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#F4F7FF"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#F4F7FF"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "(ou quantum doloris)  ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#000624"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "signifiant ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#F4F7FF"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\"prix de la douleur\"",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#F4F7FF"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#F4F7FF"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Ce terme juridique désigne un calcul fait par un juge qui donnera, en fonction de son résultat, lieu à une indemnisation accordée à la victime. ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#FFFFFF",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'objectif principal est de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "compenser la victime",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour les douleurs qu'elle a subies et qu'elle continuera à subir en raison de ses blessures. Il s'agit d'une réparation morale, visant à apaiser la souffrance et reconnaître l'épreuve vécue par la victime.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "⚠️ ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgb(255, 255, 255)",
+                    "foreground": "rgb(71, 71, 71)"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Il constitue un poste de préjudice corporel distinct des autres préjudices tels que :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "zon35307",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "zx0oo308",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "wcuiv309",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le préjudice esthétique",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "x94vj311",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "mhlt2312",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le préjudice économique",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "eid9o314",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "t7ks2315",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le préjudice d'agrément",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "37x4q17366",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "06i6o17365",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tn4ut17367",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "dp0nj17391",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quand et comment une victime peut-elle être indemnisée pour sa douleur ?",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "96mtr332",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une victime peut demander une indemnisation dès que la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "consolidation de ses blessures",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est atteinte. La consolidation représente le moment où l'état de la victime ne devrait plus évoluer de manière significative. À partir de ce moment, l'expertise médicale peut évaluer de manière permanente l'impact des blessures et des douleurs.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "lh2cj336",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le processus d'indemnisation",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "26qkl338",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0kyc0339",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour comprendre les ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "conditions d'indemnisation des victimes",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " après un accident, plusieurs aspects clés doivent être considérés :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "kfc98343",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "1dn97344",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "y9gl9345",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'évaluation médicale",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " par un expert qui établit un rapport détaillant la nature et l'ampleur des dommages corporels, incluant l'AIPP (Atteinte à l'Intégrité Physique et Psychique).",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "mvk52348",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "0g0mx349",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'accompagnement juridique",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " par un cabinet d'avocats spécialisé dans les dommages corporels, qui aide à naviguer dans les complexités du droit et de l'assurance.",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "rx9ql352",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "h0agi353",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'indemnisation couvre différents postes de préjudice",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " :",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "l91rx356",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "60z04357",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "ptk9r358",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Les dépenses de santé actuelles (hospitalisation, traitement médical) et futures",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "j8mrz360",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "05rvn361",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "La perte de revenus",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "qibyx363",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "lp1ry364",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Les préjudices esthétiques et moraux",
+                              "decorations": []
+                            }
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "\n",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pmx2t366",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La douleur, quantifiée sous le terme \"pretium doloris\", est évaluée sur ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#FFFFFF"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "une échelle de 1 à 7",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#FFFFFF"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", le chiffre le plus élevé représentant les douleurs les plus intenses.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#FFFFFF"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "heod116809",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "am33g16811",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "0i63n16862",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le mode de calcul du pretium doloris",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "irr6v372",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dgj69373",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le montant du pretium doloris est fixé par un juge en fonction de plusieurs critères importants :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "6avpg375",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Critères d'évaluation",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "2t0sp377",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "he290378",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "thwd5379",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La gravité des souffrances",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : évaluée par un médecin expert qui prend en compte :",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "t1owr382",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "ecncd383",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "l1110384",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "La gravité des blessures initiales",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "giwd2386",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "yk5nl387",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "La nature, l'importance et la durée des soins",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "qn9eg389",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "ox80p390",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Les circonstances du fait dommageable",
+                              "decorations": []
+                            }
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "\n",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "7csrx392",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "2tope393",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'âge de la victime",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : les victimes plus jeunes ou plus âgées sont généralement considérées comme plus fragiles et donc plus sensibles à la douleur.",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "yiwh5396",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "d5nwd397",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le mode de vie et la sensibilité de la victime",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : la capacité personnelle d'endurer une souffrance varie fortement d'un individu à l'autre.",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "twf24400",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "w4d57401",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'existence de séquelles",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : la présence de séquelles fonctionnelles permanentes peut indiquer des souffrances endurées importantes.",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "8c46f404",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le calcul s'effectue habituellement à l'aide de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "barèmes indicatifs",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " établis par la Cour de cassation. Ces barèmes fixent des montants de référence en fonction de la gravité des souffrances endurées. Il est important de noter que ces barèmes ne sont qu'indicatifs et que le juge n'est pas tenu de les suivre.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wsuyf16252",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "j0wje16251",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7v0qk16253",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "yq0ns16325",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les barèmes indicatifs",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wvja6410",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les barèmes indicatifs jouent un rôle crucial dans l'évaluation des indemnités pour les souffrances endurées. Voici une vue d'ensemble de la manière dont ces montants sont généralement accordés :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "TABLE",
+        "id": "zu9n4412",
+        "nodes": [
+          {
+            "type": "TABLE_ROW",
+            "id": "vuu9p413",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "gghrc414",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "b026a415",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Niveau",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "vqqgt417",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "2t16y418",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Qualification",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "8amha420",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "49bow421",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Montant indicatif",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "6g99u423",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "vtff5424",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Description",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "ow9q4426",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "6tgcz427",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "mn6pt428",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "1/7",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "fhu5r430",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "gvkkw431",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Très léger",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "p6tij433",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "lgyd5434",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "jusqu'à 2.000 €",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "2b07s436",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "o509y437",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Douleur temporaire sans séquelles permanentes, récupération rapide",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "wrfqt439",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "jlojr440",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "5hd6y441",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "2/7",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "5ys8t443",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "a3w5x444",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Léger",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "dxob3446",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "swh16447",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "2.000 € à 4.000 €",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "x5slw449",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "hhegy450",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Douleur plus significative mais sans séquelles permanentes",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "dv7n5452",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "mribw453",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "a49xd454",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "3/7",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "umu7e456",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "qeclz457",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Modéré",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "e6nyz459",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "2rn32460",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "4.000 € à 8.000 €",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "2r3nh462",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "37f0x463",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Blessures plus sérieuses sans handicap permanent, périodes d'hospitalisation",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "tw0za465",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "1cn04466",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "w9wjf467",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "4/7",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "celri469",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "rkus7470",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Moyen",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "uh01i472",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "3z28h473",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "8.000 € à 20.000 €",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "1vvt9475",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "cwe0p476",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Souffrances nécessitant des soins prolongés sans handicaps majeurs",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "yc3t7478",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "xovxe479",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "e0gbv480",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "5/7",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "j1y4t482",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "qhmvm483",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Assez important",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "dau3t485",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "08blq486",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "20.000 € à 35.000 €",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "zouto488",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "2aylt489",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Douleurs et préjudices corporels significatifs nécessitant une expertise approfondie",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "t9cvf491",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "3nzr9492",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "mknik493",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "6/7",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "d88xg495",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "fbnv7496",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Important",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "6zss3498",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "2zc3r499",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "35.000 € à 50.000 €",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "2nl9d501",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "ktiwx502",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Blessures graves et permanentes affectant significativement la qualité de vie",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "1n77w504",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "mt3dl505",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "1wk5j506",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "7/7",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "qat40508",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "b258v509",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Très important",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "8wwrw511",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "68jsq512",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "50.000 € à 80.000 €",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "d1cw0514",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "k7fuj515",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Souffrances extrêmes, douleurs chroniques ou handicaps majeurs",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "bi8lg517",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "o6neg518",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "w8rhc519",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "+",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "bfxs6521",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "3ey1a522",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Exceptionnel",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "eq614524",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "mja55525",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "> 80.000 €",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ews9r527",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "cav28528",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Souffrances extrêmement sévères, dommages particulièrement graves et permanents",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          }
+        ],
+        "tableData": {
+          "dimensions": {
+            "colsWidthRatio": [
+              113,
+              209,
+              209,
+              209
+            ],
+            "rowsHeight": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "colsMinWidth": [
+              113,
+              120,
+              120,
+              120
+            ]
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rirh4530",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ces barèmes sont utilisés par les experts et les avocats pour guider les juges et les compagnies d'assurance dans la détermination des montants d'indemnisation appropriés.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "om8ev15691",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "0d1k915690",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3yvad15692",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "ks5h815805",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les démarches à suivre pour obtenir une indemnisation",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "s9oon534",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Obtenir une indemnisation après avoir subi des blessures nécessite de suivre ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "des démarches précises pour constituer un dossier solide.",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/indemnisation-des-victimes/victimes-de-d%C3%A9lits-ou-crimes",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "qpml9536",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "1. Documentation de l'accident et des blessures",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vogzk538",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Immédiatement après l'accident, documentez tous les détails pertinents :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "oltad540",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "r5sa6541",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "mcbra542",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Photos de la scène de l'accident",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "7v12n544",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "wych2545",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Photos des blessures et des dommages matériels",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "x37mf547",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "2r0a4548",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Rapports de police et d'accident de route",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "wk6wb550",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "y5c8h551",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Documents médicaux relatifs aux blessures et à l'hospitalisation",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "og5m0553",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "2. Consultation médicale",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3fbg9555",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Consultez rapidement un médecin pour évaluer l'étendue de vos blessures corporelles. Ce médecin fournira un rapport médical qui jouera un rôle vital dans :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "gnhd0557",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "9r2rx558",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "3i3uy559",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La cotation de vos préjudices physiques",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "qytw7561",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "m1eza562",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La détermination de l'AIPP (Atteinte à l'Intégrité Physique et Psychique)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "24i0k564",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ooepx565",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'évaluation du pretium doloris",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "9rahl567",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "3. Engagement d'un avocat spécialisé",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "1o6sn569",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Contactez un cabinet d'avocats spécialisé dans les dommages corporels et les accidents. ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre cabinet est compétent pour ce type de situation",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/indemnisation-des-victimes/victimes-de-d%C3%A9lits-ou-crimes",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et peut offrir l'expertise nécessaire pour :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "easoi571",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "w12xn572",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "32fgx573",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Naviguer dans le processus d'indemnisation",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "1wnd2575",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "3j9dx576",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Superviser l'expertise médicale",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "s9ldo578",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "jgzdr579",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Assurer la consolidation du dossier",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "mgjyd581",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "4. Expertise",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "knda4583",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'avocat peut organiser une expertise judiciaire",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/notre-cabinet",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour évaluer précisément les préjudices. Un expert indépendant évaluera :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "u69l4585",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "mmxih586",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ig7lo587",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les souffrances endurées",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "hs9lb589",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "vuk6u590",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les préjudices corporels et moraux",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "9oapy592",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "2dvoi593",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La gravité des séquelles",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "ztmvm595",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "5. Préparation du dossier",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "v53ga597",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Votre avocat vous aidera à rassembler tous les documents nécessaires :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "yxbqo599",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "qi80a600",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "equ36601",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Preuves de vos préjudices",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "m9om9603",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ix2gp604",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Évaluations d'experts",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "os7rt606",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "gwnju607",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Justificatifs des dépenses liées à l'accident",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "pr2fo609",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "6. Procédure judiciaire",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "r22ed611",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si une indemnisation à l'amiable avec les assurances n'est pas possible, votre avocat peut déposer une plainte en justice, nécessitant :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "mgvrg613",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "lhxo1614",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "kpsi2615",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une présentation détaillée de votre cas",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "vbzq3617",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "9qxqv618",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les preuves des dommages subis",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ks6tv620",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "qvl64621",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'impact de ces dommages sur votre vie",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "vbo9r623",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "7. Négociation et indemnisation",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bo248625",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Enfin,",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " votre avocat négociera avec la compagnie d'assurance",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/droit-des-contrats-et-des-personnes/droit-assurances-particuliers-professionnels",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ou plaidera votre cause devant le tribunal pour obtenir la meilleure indemnisation possible.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {}
+  }
+}

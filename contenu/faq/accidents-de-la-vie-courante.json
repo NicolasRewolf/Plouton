@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Qu'est-ce que le DFP (Déficit Fonctionnel Permanent) ?",
+    "answer": "Le Déficit Fonctionnel Permanent (DFP) désigne les séquelles physiques et/ou psychiques définitives conservées par une victime après la consolidation de son état de santé. Il est exprimé en pourcentage — de 1 % à 100 % — et reflète la réduction durable des capacités de la personne dans sa vie quotidienne.\n\nCe taux est fixé par un médecin expert, souvent lors d'une expertise judiciaire ou amiable. Il conditionne directement le montant de l'indemnisation versée par l'assureur ou l'ONIAM (Office National d'Indemnisation des Accidents Médicaux) en cas d'erreur médicale.\n\nLe barème indicatif utilisé est le Barème médical indicatif publié par le Concours Médical. Un avocat peut contester le taux retenu si l'évaluation sous-estime les séquelles réelles.",
+    "sousExpertise": "DFP"
+  },
+  {
+    "question": "Que faire en cas d'accident de la vie courante avec un tiers impliqué ?",
+    "answer": "Lorsqu'un tiers est impliqué dans un accident de la vie courante, c'est son assurance responsabilité civile qui prend en charge votre indemnisation. Encore faut-il établir sa responsabilité : l'assureur conteste parfois sa garantie en niant toute faute de son assuré.\n\nLa responsabilité du tiers peut être engagée sur plusieurs fondements :\n\n— Pour faute (articles 1240 et 1241 du Code civil) : défaut d'entretien d'un sol glissant, absence de signalisation du danger, défaut de prudence lors d'une activité sportive, animal mal surveillé, produit défectueux…\n\n— Du fait des choses (article 1242, alinéa 1 du Code civil) : le gardien d'une chose qui cause un dommage en est responsable.\n\n— Du fait des animaux (article 1243) ou des bâtiments en ruine (article 1244).\n\n— Du fait du préposé (article 1242, alinéa 5) ou des enfants mineurs (article 1242, alinéa 4).\n\nIdentifier le bon régime de responsabilité conditionne la stratégie d'indemnisation : un avocat peut vous aider à réunir les preuves et à contester un refus de garantie.",
+    "sousExpertise": "Tiers responsable"
+  },
+  {
+    "question": "Qu'est-ce que la consolidation en droit médical ?",
+    "answer": "La consolidation est le moment où l'état de santé de la victime est considéré comme stabilisé : les lésions ne sont plus susceptibles d'évolution significative, et les séquelles permanentes sont fixées. C'est à partir de cette date que l'indemnisation définitive peut être calculée.\n\nAvant la consolidation, seuls les préjudices temporaires sont indemnisables (arrêt de travail, soins, assistance). Après, les préjudices permanents entrent en jeu : déficit fonctionnel permanent (DFP), préjudice esthétique, perte de gains professionnels futurs.\n\nLa date de consolidation est établie par expertise médicale — amiable ou judiciaire. En cas d'accident médical, c'est souvent l'ONIAM ou un expert judiciaire qui la fixe. Elle conditionne directement le montant de l'indemnisation.",
+    "sousExpertise": "Consolidation"
+  },
+  {
+    "question": "Que faire en cas d'accident sans tiers responsable?",
+    "answer": "Sans tiers responsable, la réparation de vos préjudices dépend de votre couverture personnelle. Si vous avez souscrit une garantie des accidents de la vie (GAV), votre assureur peut intervenir — mais les postes de préjudice indemnisables et les plafonds varient selon le contrat. Sans GAV, aucune indemnisation automatique nʼexiste.\n\nLa GAV couvre généralement les atteintes graves à lʼintégrité physique (invalidité, incapacité) à partir dʼun certain seuil, souvent un taux dʼIPP de 30 %. En deçà, la prise en charge peut être nulle ou très partielle.\n\nDʼautres garanties peuvent compléter : prévoyance individuelle, garantie invalidité dʼune mutuelle, ou couverture liée à une carte bancaire haut de gamme. Faire un point sur lʼensemble de vos contrats est la première démarche utile.",
+    "sousExpertise": "Accident"
+  },
+  {
+    "question": "Comment se déroule une expertise médicale après un accident ?",
+    "answer": "Lors d'une expertise médicale, un médecin expert — désigné par l'assureur ou le tribunal — examine votre état de santé pour évaluer l'étendue de vos préjudices. Il s'appuie sur votre dossier médical et des barèmes médico-légaux pour chiffrer vos séquelles.\n\nL'expert fixe notamment votre taux de déficit fonctionnel permanent (DFP) et, si votre état le permet, une date de consolidation à partir de laquelle vos préjudices sont considérés comme stabilisés. Son rapport servira de base au calcul de votre indemnisation.\n\nVous avez le droit d'être assisté lors de l'expertise par un médecin conseil de votre choix — et par un avocat. Cette assistance est fortement recommandée : un médecin expert mandaté par l'assureur défend les intérêts de son mandant, pas les vôtres.",
+    "sousExpertise": "Préjudice"
+  },
+  {
+    "question": "Comment un avocat peut-il aider une victime dʼaccident sportif ?",
+    "answer": "Un avocat spécialisé aide la victime dʼaccident sportif à identifier le régime de responsabilité applicable — civil, contractuel ou pénal — et à obtenir une indemnisation complète de ses dommages corporels. Il analyse les circonstances de lʼaccident, détermine les responsables (organisateur, pratiquant, club) et les assureurs concernés.\n\nConcrètement, lʼavocat négocie avec lʼassureur du groupement sportif, de lʼorganisateur ou au titre de la garantie accidents de la vie (GAV), et défend les intérêts de la victime lors de lʼexpertise médicale amiable pour éviter une sous-évaluation du préjudice.\n\nSi aucun accord nʼest trouvé, il engage la procédure judiciaire adaptée — tribunal judiciaire ou correctionnel selon les cas — pour obtenir une réparation intégrale des préjudices subis.",
+    "sousExpertise": "Accident sportif"
+  },
+  {
+    "question": "Pourquoi le DFP est-il déterminant pour calculer votre indemnisation ?",
+    "answer": "Le déficit fonctionnel permanent (DFP) est le critère central du calcul indemnitaire après un dommage corporel : exprimé en pourcentage (de 1 % à 100 %), il mesure les séquelles définitives conservées après consolidation et conditionne directement le montant alloué par le juge ou l'assureur.\n\nPlus le taux de DFP est élevé, plus l'indemnisation est importante. Ce taux est fixé par un médecin expert selon le barème indicatif publié par le Concours Médical. Il sert de base aux référentiels indemnitaires utilisés par les juridictions civiles, la CIVI ou les fonds de garantie comme le FGTI.\n\nUn avocat spécialisé peut contester un taux sous-évalué en demandant une contre-expertise ou une expertise judiciaire, ce qui peut significativement faire évoluer le montant final de l'indemnisation.",
+    "sousExpertise": "DFP"
+  },
+  {
+    "question": "Comment le cabinet vous accompagne-t-il après un accident de la vie courante ?",
+    "answer": "Après un accident de la vie courante, le cabinet analyse votre dossier, évalue vos droits à indemnisation et fait contrepoids face à l'assureur, qui tend structurellement à sous-évaluer les préjudices ou à en écarter certains.\n\nConcrètement, le cabinet négocie des contre-offres indemnitaires poste par poste. Si l'expertise médicale mandatée par l'assureur est insuffisante, une expertise contradictoire est sollicitée — souvent via une procédure de référé expertise judiciaire — avec l'appui d'un médecin conseil indépendant.\n\nLorsque le fait dommageable est susceptible de qualification pénale, le cabinet peut déposer plainte ou se constituer partie civile devant le tribunal correctionnel.\n\nEn cas de désaccord persistant sur l'évaluation des préjudices ou sur l'application d'un contrat garantie accidents de la vie (GAV), une action judiciaire est engagée pour faire valoir vos droits.",
+    "sousExpertise": "Accompagnement"
+  },
+  {
+    "question": "Quels sont les impacts de la consolidation sur l'indemnisation ?",
+    "answer": "Lʼindemnisation définitive ne peut intervenir quʼaprès la date de consolidation, qui fige lʼétat de santé de la victime et permet de chiffrer lʼensemble des préjudices de façon certaine.\n\nAvant cette date, seuls des provisions peuvent être versées. Une fois consolidée, la victime peut réclamer lʼintégralité des postes de préjudice prévus par la nomenclature Dintilhac : déficit fonctionnel permanent (DFP), préjudice dʼagrément, préjudice professionnel, préjudices extra-patrimoniaux, etc.\n\nFixer une date de consolidation trop précoce peut minorer significativement lʼindemnisation : un avocat peut contester cette date en sollicitant une contre-expertise médicale.",
+    "sousExpertise": "Consolidation"
+  },
+  {
+    "question": "Quels régimes d'indemnisation s'appliquent après un accident sportif ?",
+    "answer": "L'indemnisation d'un accident sportif dépend des circonstances : fait de jeu, violation des règles, faute volontaire ou manquement à l'obligation de sécurité. Chaque situation ouvre un régime distinct.\n\nFait de jeu : la victime peut être indemnisée par l'assurance du groupement sportif ou par sa propre assurance individuelle, souvent à garanties partielles.\n\nViolation des règles : la responsabilité du joueur fautif ou du club peut être engagée civilement, voire pénalement si la faute est grave et volontaire.\n\nManquement à l'obligation de sécurité : l'organisateur de l'activité est tenu d'une obligation de sécurité de résultat ou de moyens renforcée selon les sports ; son assurance peut être actionnée.\n\nAccident en autonomie : le sportif blessé seul peut recourir à la garantie accidents de la vie (GAV) de son assureur.\n\nFait d'une chose : si l'accident implique un objet (balle, équipement), la responsabilité du gardien de la chose peut être engagée sur le fondement de l'article 1242 du Code civil.",
+    "sousExpertise": "Accident sportif"
+  },
+  {
+    "question": "Comment est déterminée la date de consolidation ?",
+    "answer": "La date de consolidation est fixée par un médecin expert, désigné amiablement par l'assureur ou judiciellement par le tribunal. Elle correspond au moment où les lésions sont stabilisées : l'état de la victime n'est plus susceptible d'évoluer significativement, même si des séquelles persistent.\n\nCette date est déterminante : aucun préjudice permanent (incapacité permanente partielle, préjudice esthétique, pretium doloris définitif…) ne peut être chiffré avant qu'elle soit acquise. Une consolidation prononcée trop tôt peut minorer l'indemnisation.\n\nEn cas de désaccord avec la date retenue par l'expert de l'assureur, la victime peut solliciter une contre-expertise ou saisir le juge pour en contester le bien-fondé.",
+    "sousExpertise": "Consolidation"
+  },
+  {
+    "question": "Pourquoi la consolidation est-elle importante pour lʼindemnisation ?",
+    "answer": "La consolidation est le moment à partir duquel les séquelles de la victime sont considérées comme définitives. Elle joue un double rôle central dans lʼindemnisation : elle permet dʼévaluer les préjudices permanents (incapacité, souffrances, préjudice esthétique…) et elle constitue le point de départ du délai de prescription de 10 ans pour agir en réparation, prévu par lʼarticle 2226 du Code civil.\n\nTant que la consolidation nʼest pas acquise, aucun délai de prescription ne peut être opposé à la victime. Elle peut toutefois agir avant cette date si elle le souhaite, notamment pour obtenir une provision.",
+    "sousExpertise": "Consolidation"
+  }
+]

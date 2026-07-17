@@ -1,0 +1,106 @@
+{
+  "slug": "trafic-de-stupéfiants-dans-le-quartier-des-ecus-au-bouscat-le-cabinet-interviendra-en-défense-pour",
+  "sourcePath": "/post/trafic-de-stupéfiants-dans-le-quartier-des-ecus-au-bouscat-le-cabinet-interviendra-en-défense-pour",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "juax532861",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Article de Sud Ouest",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vuejr32863",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "A l’issue d’une enquête préliminaire de plusieurs mois, une vague d’interpellation déclenchée lundi 4 avril a conduit à la mise en examen de 12 individus pour ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "trafic de stupéfiants",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/avocat-trafic-stupefiants-bordeaux",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " à la fin de la semaine dernière.\nNous interviendrons dans ce dossier pour ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "assurer la défense de celui qui est présenté par les enquêteurs comme étant à la tête de ce trafic.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\nUne étude approfondie de la régularité de la procédure et des investigations techniques sera indispensable pour apprécier le poids et la pertinence des charges qui pèsent sur notre client.\nSon implication et son rôle ne pourront être établis que sur la base d’éléments de preuves objectifs et précis.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {}
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "source": "https://www.jplouton-avocat.fr/",
+  "capturedAt": "2026-07-17",
+  "counts": {
+    "megaMenuColumns": 3,
+    "megaMenuItems": 14,
+    "siteMenuItems": 4,
+    "dropdownMenus": 4,
+    "dropdownItems": 17,
+    "mobileTopItems": 11
+  },
+  "megaMenu": [
+    {
+      "label": "DÉFENSE PÉNALE",
+      "href": null,
+      "children": [
+        {
+          "label": "Droit Pénal",
+          "href": "/defense-penale/droit-penal"
+        },
+        {
+          "label": "Procès criminels",
+          "href": "/defense-penale/proces-criminel"
+        },
+        {
+          "label": "Trafic de stupéfiants",
+          "href": "/defense-penale/trafic-de-stupefiant"
+        },
+        {
+          "label": "Violences conjugales et féminicides",
+          "href": "/defense-penale/violences-conjugales-et-feminicides"
+        },
+        {
+          "label": "Droit pénal des affaires",
+          "href": "/defense-penale/droit-penal-des-affaires"
+        }
+      ]
+    },
+    {
+      "label": "INDEMNISATION DES VICTIMES",
+      "href": null,
+      "children": [
+        {
+          "label": "Victimes de délits ou crimes",
+          "href": "/indemnisation-des-victimes/victimes-de-delits-ou-crimes"
+        },
+        {
+          "label": "Accidents de la route",
+          "href": "/indemnisation-des-victimes/accidents-de-la-route"
+        },
+        {
+          "label": "Droit et accidents du travail",
+          "href": "/indemnisation-des-victimes/droit-et-accidents-du-travail"
+        },
+        {
+          "label": "Accidents et erreurs médicales",
+          "href": "/indemnisation-des-victimes/accidents-et-erreurs-medicales"
+        },
+        {
+          "label": "Accidents de la vie courante",
+          "href": "/indemnisation-des-victimes/accidents-de-la-vie-courante"
+        }
+      ]
+    },
+    {
+      "label": "DROIT DES CONTRATS ET DES PERSONNES",
+      "href": null,
+      "children": [
+        {
+          "label": "Droit des assurances particuliers et professionnels",
+          "href": "/droit-des-contrats-et-des-personnes/droit-assurances-particuliers-professionnels"
+        },
+        {
+          "label": "Défense des consommateurs",
+          "href": "/droit-des-contrats-et-des-personnes/defense-des-consommateurs"
+        },
+        {
+          "label": "Droit de la famille",
+          "href": "/droit-des-contrats-et-des-personnes/droit-de-la-famille"
+        },
+        {
+          "label": "Divorce",
+          "href": "/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux"
+        }
+      ]
+    }
+  ],
+  "siteMenu": [
+    {
+      "label": "Affaires",
+      "href": "/nos-affaires"
+    },
+    {
+      "label": "Médias",
+      "href": "/blog/categories/médias"
+    },
+    {
+      "label": "Ressources",
+      "href": "/comprendre-le-droit"
+    },
+    {
+      "label": "Équipe",
+      "href": "/notre-cabinet"
+    }
+  ],
+  "utilityDropdowns": [
+    {
+      "id": "dataItem-m8e6gr6x",
+      "label": "Prise de rendez-vous, accès & honoraires",
+      "items": [
+        {
+          "label": "Prendre rendez-vous !",
+          "href": "/honoraires-rendez-vous"
+        },
+        {
+          "label": "Horaires & accès",
+          "href": "/honoraires-rendez-vous"
+        },
+        {
+          "label": "Honoraires",
+          "href": "/honoraires-rendez-vous"
+        }
+      ]
+    },
+    {
+      "id": "dataItem-m8e6gr6y1",
+      "label": "Pôle — Défense pénale",
+      "items": [
+        {
+          "label": "Droit Pénal",
+          "href": "/defense-penale/droit-penal"
+        },
+        {
+          "label": "Procès Criminels",
+          "href": "/defense-penale/proces-criminel"
+        },
+        {
+          "label": "Trafic de stupéfiants",
+          "href": "/defense-penale/trafic-de-stupefiant"
+        },
+        {
+          "label": "Violences conjugales et féminicides",
+          "href": "/defense-penale/violences-conjugales-et-feminicides"
+        },
+        {
+          "label": "Droit pénal des affaires",
+          "href": "/defense-penale/droit-penal-des-affaires"
+        }
+      ]
+    },
+    {
+      "id": "dataItem-m8e6gr6z3",
+      "label": "Pôle — Indemnisation des victimes",
+      "items": [
+        {
+          "label": "Victimes de délits ou crimes",
+          "href": "/indemnisation-des-victimes/victimes-de-delits-ou-crimes"
+        },
+        {
+          "label": "Accidents de la route",
+          "href": "/indemnisation-des-victimes/accidents-de-la-route"
+        },
+        {
+          "label": "Droit et accidents du travail",
+          "href": "/indemnisation-des-victimes/droit-et-accidents-du-travail"
+        },
+        {
+          "label": "Accidents et erreurs médicales",
+          "href": "/indemnisation-des-victimes/accidents-et-erreurs-medicales"
+        },
+        {
+          "label": "Accidents de la vie courante",
+          "href": "/indemnisation-des-victimes/accidents-de-la-vie-courante"
+        }
+      ]
+    },
+    {
+      "id": "dataItem-m8e6gr704",
+      "label": "Pôle — Droits des contrats et personnes",
+      "items": [
+        {
+          "label": "Droit des assurances particuliers et pro",
+          "href": "/droit-des-contrats-et-des-personnes/droit-assurances-particuliers-professionnels"
+        },
+        {
+          "label": "Défense des consommateurs",
+          "href": "/droit-des-contrats-et-des-personnes/defense-des-consommateurs"
+        },
+        {
+          "label": "Droit de la famille",
+          "href": "/droit-des-contrats-et-des-personnes/droit-de-la-famille"
+        },
+        {
+          "label": "Divorce",
+          "href": "/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux"
+        }
+      ]
+    }
+  ],
+  "mobileMenu": [
+    {
+      "label": "Accueil",
+      "href": "/"
+    },
+    {
+      "label": "Je prends rendez-vous",
+      "href": "/honoraires-rendez-vous"
+    },
+    {
+      "label": "Équipe",
+      "href": "/notre-cabinet"
+    },
+    {
+      "label": "Prise de rendez-vous, accès & honorairesPrendre rendez-vous !Horaires & accèsHonorairesPrendre rendez-vous !Horaires & accèsHonoraires",
+      "href": null,
+      "children": [
+        {
+          "label": "Prise de rendez-vous, accès & honoraires",
+          "href": "/honoraires-rendez-vous"
+        },
+        {
+          "label": "Prendre rendez-vous !",
+          "href": "/honoraires-rendez-vous"
+        },
+        {
+          "label": "Horaires & accès",
+          "href": "/honoraires-rendez-vous"
+        },
+        {
+          "label": "Honoraires",
+          "href": "/honoraires-rendez-vous"
+        }
+      ]
+    },
+    {
+      "label": "Pôle — Défense pénaleDroit PénalProcès CriminelsTrafic de stupéfiantsViolences conjugales et féminicidesDroit pénal des affairesDroit PénalProcès CriminelsTrafic de stupéfiantsViolences conjugales et féminicidesDroit pénal des affaires",
+      "href": null,
+      "children": [
+        {
+          "label": "Pôle — Défense pénale",
+          "href": "/defense-penale"
+        },
+        {
+          "label": "Droit Pénal",
+          "href": "/defense-penale/droit-penal"
+        },
+        {
+          "label": "Procès Criminels",
+          "href": "/defense-penale/proces-criminel"
+        },
+        {
+          "label": "Trafic de stupéfiants",
+          "href": "/defense-penale/trafic-de-stupefiant"
+        },
+        {
+          "label": "Violences conjugales et féminicides",
+          "href": "/defense-penale/violences-conjugales-et-feminicides"
+        },
+        {
+          "label": "Droit pénal des affaires",
+          "href": "/defense-penale/droit-penal-des-affaires"
+        }
+      ]
+    },
+    {
+      "label": "Pôle — Indemnisation des victimesVictimes de délits ou crimesAccidents de la routeDroit et accidents du travailAccidents et erreurs médicalesAccidents de la vie couranteVictimes de délits ou crimesAccidents de la routeDroit et accidents du travailAccidents et erreurs médicalesAccidents de la vie courante",
+      "href": null,
+      "children": [
+        {
+          "label": "Pôle — Indemnisation des victimes",
+          "href": "/indemnisation-des-victimes"
+        },
+        {
+          "label": "Victimes de délits ou crimes",
+          "href": "/indemnisation-des-victimes/victimes-de-delits-ou-crimes"
+        },
+        {
+          "label": "Accidents de la route",
+          "href": "/indemnisation-des-victimes/accidents-de-la-route"
+        },
+        {
+          "label": "Droit et accidents du travail",
+          "href": "/indemnisation-des-victimes/droit-et-accidents-du-travail"
+        },
+        {
+          "label": "Accidents et erreurs médicales",
+          "href": "/indemnisation-des-victimes/accidents-et-erreurs-medicales"
+        },
+        {
+          "label": "Accidents de la vie courante",
+          "href": "/indemnisation-des-victimes/accidents-de-la-vie-courante"
+        }
+      ]
+    },
+    {
+      "label": "Pôle — Droits des contrats et personnesDroit des assurances particuliers et proDéfense des consommateursDroit de la familleDivorceDroit des assurances particuliers et proDéfense des consommateursDroit de la familleDivorce",
+      "href": null,
+      "children": [
+        {
+          "label": "Pôle — Droits des contrats et personnes",
+          "href": "/droit-des-contrats-et-des-personnes"
+        },
+        {
+          "label": "Droit des assurances particuliers et pro",
+          "href": "/droit-des-contrats-et-des-personnes/droit-assurances-particuliers-professionnels"
+        },
+        {
+          "label": "Défense des consommateurs",
+          "href": "/droit-des-contrats-et-des-personnes/defense-des-consommateurs"
+        },
+        {
+          "label": "Droit de la famille",
+          "href": "/droit-des-contrats-et-des-personnes/droit-de-la-famille"
+        },
+        {
+          "label": "Divorce",
+          "href": "/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux"
+        }
+      ]
+    },
+    {
+      "label": "Affaires",
+      "href": "/nos-affaires"
+    },
+    {
+      "label": "Ressources",
+      "href": "/comprendre-le-droit"
+    },
+    {
+      "label": "Médias",
+      "href": "/nos-affaires/categories/médias"
+    },
+    {
+      "label": "Mentions Légales",
+      "href": "/mentions-legales"
+    }
+  ]
+}
