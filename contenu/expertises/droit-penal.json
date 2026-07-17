@@ -1,96 +1,181 @@
 {
-  "slug": "defense-penale/droit-penal",
+  "slug": "droit-penal",
+  "path": "/defense-penale/droit-penal",
   "pole": "defense-penale",
   "poleLabel": "Défense pénale",
   "title": "Avocat droit pénal",
   "metaTitle": "Avocat Pénaliste Bordeaux | Cabinet Plouton",
   "metaDescription": "Avocat droit pénal à Bordeaux. Garde à vue, correctionnel, cour d'assises. Le Cabinet Plouton défend accusés et victimes à chaque étape de la procédure.",
-  "intro": "Confronté à une accusation pénale ou victime d'une infraction ? Le cabinet Plouton, avocats pénalistes à Bordeaux, vous offre une expertise pointue et un accompagnement personnalisé. Forts de plus de 20 ans d'expérience, Maître Julien Plouton et son équipe interviennent à tous les stades — de la garde à vue au procès.",
+  "intro": "Confronté à une accusation pénale ou victime d'une infraction ? Le cabinet Plouton, cabinet d’avocats pénalistes à Bordeaux, vous offre une expertise pointue et un accompagnement personnalisé pour défendre vos droits et vos intérêts. Forts de plus de 20 ans d'expérience, Maître Julien Plouton et son équipe interviennent à tous les stades de la procédure pénale, de la garde à vue jusqu’au procès pénal.",
   "formObjet": "Droit Pénal",
   "faqExpertise": "Droit Pénal",
-  "blogCategories": ["Droit Pénal"],
-  "toc": [
-    { "id": "defendre", "label": "Défendre vos intérêts" },
-    { "id": "strategie", "label": "Notre stratégie" },
-    { "id": "complexes", "label": "Affaires complexes" },
-    { "id": "equipe", "label": "Une équipe expérimentée" },
-    { "id": "methodes", "label": "Méthodes clés" },
-    { "id": "faq", "label": "FAQ" },
-    { "id": "affaires", "label": "Nos affaires" },
-    { "id": "contact", "label": "Rendez-vous" }
+  "blogCategories": [
+    "Droit Pénal"
   ],
+  "toc": [
+    {
+      "id": "defendre",
+      "label": "Défendre vos intérêts"
+    },
+    {
+      "id": "strategie",
+      "label": "Notre stratégie"
+    },
+    {
+      "id": "complexes",
+      "label": "Spécialiste affaires complexes"
+    },
+    {
+      "id": "equipe",
+      "label": "Une équipe expérimentée"
+    },
+    {
+      "id": "methodes",
+      "label": "Méthodes clés"
+    },
+    {
+      "id": "contact",
+      "label": "Je prends rendez-vous"
+    },
+    {
+      "id": "faq",
+      "label": "FAQ : droit pénal"
+    },
+    {
+      "id": "affaires",
+      "label": "Nos affaires : droit pénal"
+    }
+  ],
+  "contactAside": {
+    "title": "Je prends rendez-vous maintenant !",
+    "text": "Les rendez-vous sont pris dans les 7 jours. En cas d’urgence, le rendez-vous peut être immédiat et même en dehors des horaires habituels du cabinet."
+  },
   "sections": [
     {
       "id": "defendre",
       "title": "Défendre vos intérêts à chaque étape de la procédure pénale",
+      "titleAccent": "Défendre vos intérêts",
+      "lead": "De la garde à vue au procès pénal, notre cabinet est en moyen de vous soutenir. Comment ?",
       "blocks": [
         {
           "heading": "Assistance pendant les auditions libres, gardes à vue ou confrontations",
-          "body": "Que vous soyez convoqué pour une audition libre, placé en garde à vue ou confronté à une perquisition, il est essentiel d'être assisté dès le début. L'avocat conseille sur vos droits, assiste aux interrogatoires et veille au respect des procédures. Même en audition libre, si une peine d'emprisonnement est encourue, vous avez droit à l'assistance d'un avocat."
+          "body": "Que vous soyez convoqué(e) pour une audition libre, placé(e) en garde à vue ou confronté(e) à une perquisition, il est essentiel d'être assisté(e) par un avocat dès le début de la procédure. En effet, en garde à vue, la présence d'un avocat est autorisée dès le déferrement devant le Procureur de la République. L’avocat vous conseillera sur vos droits, vous assistera pendant les interrogatoires et veillera au respect des procédures. Il est important de rappeler que même lors d'une audition libre, si une peine d'emprisonnement est encourue, vous avez le droit à l'assistance d'un avocat."
         },
         {
-          "heading": "Recours contre un classement sans suite ou plainte avec constitution de partie civile",
-          "body": "Si vous êtes victime et que votre plainte est classée sans suite, vous pouvez saisir le juge d'instruction par plainte avec constitution de partie civile. Sans réponse sous 3 mois, la même voie est ouverte. En matière de crimes, délits de presse ou Code électoral, saisine directe possible. La citation directe permet aussi, pour contraventions et délits, de saisir le tribunal avec les preuves nécessaires."
+          "heading": "Recours contre un classement sans suite ou plainte avec constitution de partie civile.",
+          "body": "Si vous êtes victime d'une infraction et que votre plainte est classée sans suite par le Procureur de la République, vous avez la possibilité de saisir directement le juge d'instruction en déposant une plainte avec constitution de partie civile. Cette démarche vous permet de devenir partie prenante au procès et de demander réparation pour le préjudice subi. De plus, si aucune réponse n'est donnée à votre plainte dans un délai de 3 mois, vous pouvez également vous constituer partie civile en saisissant le doyen des juges d'instruction. En matière de crimes, de délits de presse ou d'infractions au Code électoral, vous pouvez saisir directement le juge d'instruction sans passer par le Procureur de la République. Enfin, en matière de contraventions et de délits, l'option de la citation directe permet de saisir directement le tribunal compétent sans enquête pénale préalable, à condition de disposer de toutes les preuves nécessaires pour établir la culpabilité de la personne poursuivie."
         },
         {
-          "heading": "JLD et Chambre de l'instruction",
-          "body": "Le cabinet vous assiste devant le Juge des libertés et de la détention pour contester une détention provisoire, et devant la chambre de l'instruction. La détention ne peut être ordonnée que si le contrôle judiciaire ou l'ARSE ne suffisent pas (art. 144 CPP)."
+          "heading": "Juge des libertés et de la détention et Chambre de l'instruction (contestation des placements en détention provisoire).",
+          "body": "Le cabinet peut vous assister ou représenter devant le Juge des libertés et de la détention (JLD) pour contester un placement en détention provisoire. La détention provisoire est une mesure grave qui ne peut être ordonnée que si les obligations du contrôle judiciaire ou de l'assignation à résidence sous surveillance électronique ne permettent pas d'atteindre les objectifs fixés par l'article 144 du Code de procédure pénale. Le cabinet s'assurera que votre détention est justifiée et conforme aux dispositions légales, et plaidera en faveur de votre remise en liberté"
         },
         {
-          "heading": "Tribunal correctionnel et cour d'appel",
-          "body": "Défense en comparution immédiate ou audiences collégiales, jusqu'à la chambre des appels correctionnels. Vérification du consentement, exposé des faits, audition, plaidoirie."
+          "heading": "Tribunal correctionnel et Chambre des appels correctionnels de la Cour d’appel (comparution immédiate, audiences collégiales)",
+          "body": "Le cabinet assure la défense de ses clients devant le Tribunal correctionnel, que ce soit en comparution immédiate ou lors d'audiences collégiales. La comparution immédiate est une procédure rapide qui permet de juger un individu dans un délai très court. Cette procédure est soumise à des conditions relatives à la peine encourue. Le cabinet vous assistera à chaque étape, de la vérification de votre consentement à être jugé immédiatement à l'exposé des faits, en passant par l'audition et la plaidoirie de votre avocat"
         },
         {
-          "heading": "Cour d'assises",
-          "body": "Intervention en défense des accusés et indemnisation des victimes devant la cour d'assises — de l'instruction au procès, avec une défense habituée aux jurys populaires et aux enjeux criminels."
+          "heading": "Cour d’assises (défense des accusés, indemnisation des victimes).",
+          "body": "Le cabinet intervient également devant la Cour d'assises, juridiction compétente pour juger les crimes les plus graves. Maître Julien Plouton et ses collaborateurs ont une solide expérience dans la défense des accusés et l'indemnisation des victimes devant cette juridiction. Ils vous assisteront tout au long de la procédure, de l'instruction jusqu'au procès, en veillant au respect de vos droits et en plaidant en votre faveur. La Cour d'assises étant composée de magistrats professionnels et d'un jury populaire, il est important de disposer d'une défense solide et expérimentée pour garantir un procès équitable."
         }
       ]
     },
     {
       "id": "strategie",
       "title": "Une stratégie de défense adaptée à votre situation",
+      "titleAccent": null,
+      "lead": null,
       "blocks": [
         {
-          "heading": "Innocence, atténuation ou statut de victime",
-          "body": "Stratégie personnalisée selon que vous êtes mis en cause ou victime : simulations d'audience, conclusions de nullité ou de relaxe, conclusions de partie civile, analyse des preuves et des vices de procédure."
+          "heading": "Innocence, atténuation de responsabilité ou reconnaissance du statut de victime",
+          "body": "Préparation intensive pour chaque audience\n\nQue vous soyez accusé(e) d'une infraction ou victime, le cabinet Plouton mettra en place une stratégie de défense personnalisée pour protéger au mieux vos intérêts. L’objectif est de vous accompagner à chaque étape de la procédure, en vous expliquant les enjeux et en vous impliquant dans les décisions."
         },
         {
-          "heading": "Limiter les sanctions",
-          "body": "Contester la matérialité des faits ou l'intention, plaider les circonstances atténuantes, négocier avec le parquet lorsque c'est opportun."
+          "heading": "Mises en situation avant interrogatoires ou procès (simulations d’audience, conseils sur les réponses)",
+          "body": "Conscient que chaque dossier est unique et que la défense pénale doit être personnalisée, le cabinet met en place des rendez-vous préparatoires avec ses clients. Ces rendez-vous permettent de :\n\nSimuler les conditions d'une audience pour vous familiariser avec l'environnement judiciaire et vous préparer aux questions qui pourraient vous être posées.\n\nVous conseiller sur les réponses à apporter aux questions du juge, des enquêteurs ou des parties adverses.\n\nTravailler votre posture et votre communication non verbale pour faire bonne impression sur le tribunal et le jury."
+        },
+        {
+          "heading": "Rédaction de conclusions techniques",
+          "body": "En complément de ces mises en situation, le cabinet rédige des conclusions écrites pour appuyer votre défense et présenter vos arguments de manière structurée et convaincante.\n\n​\n\nPour les prévenus :\n\nConclusions de nullité : visant à contester la régularité de la procédure et à faire annuler les actes de procédure entachés d'irrégularités.\n\nConclusion de relaxe : tendant à démontrer votre innocence et à obtenir un jugement de relaxe.\n \n\nPour les victimes :\n\nConclusions de partie civile : permettant de faire reconnaître votre statut de victime, de démontrer la culpabilité de l'accusé et de solliciter l'indemnisation de vos préjudices"
+        },
+        {
+          "heading": "Prouver votre innocence grâce à une analyse rigoureuse des preuves et témoignages.",
+          "body": "Si vous êtes mis(e) en cause, le cabinet s'attachera à démontrer votre innocence en analysant minutieusement les éléments du dossier. Il s'agira notamment de :\n\n​​\n\nContester la validité des preuves présentées par l'accusation.\n\nIdentifier les failles éventuelles dans l'accusation.\n\nRecueillir des témoignages et des preuves en votre faveur.\n\nMettre en avant les vices de procédure qui pourraient envaloir la nullité de la procédure"
+        },
+        {
+          "heading": "Limiter les sanctions (peine de prison, amendes, dommages et intérêts) en contestant la matérialité des faits ou l’intention infractionnelle.",
+          "body": "Même si votre culpabilité ne peut être totalement écartée, le cabinet s'efforcera de minimiser les sanctions auxquelles vous vous exposez. Pour cela, il est possible de :\n\n​\n\nContester la matérialité des faits qui vous sont reprochés.\n\nRemettre en cause l'intention coupable.\n\nPlaider en faveur de circonstances atténuantes.\n\nNégocier une peine plus clémente avec le procureur de la République."
+        },
+        {
+          "heading": "Faire valoir vos droits si vous êtes victime : indemnisation des préjudices, reconnaissance officielle.",
+          "body": "Si vous êtes victime d'une infraction, le cabinet vous assistera pour faire reconnaître votre statut de victime et obtenir l'indemnisation des préjudices que vous avez subis. Cela inclut :\n\nLe préjudice matériel (pertes financières, frais médicaux, etc.).\n\nLe préjudice moral (souffrance psychologique, atteinte à la réputation, etc.).\n\nL'assistance pour le dépôt de plainte et la constitution de partie civile.\n\nLa représentation devant les différentes juridictions."
         }
       ]
     },
     {
       "id": "complexes",
       "title": "Spécialistes des affaires pénales complexes",
+      "titleAccent": null,
+      "lead": "Spécialistes des affaires pénales complexes\n\nLe Cabinet Plouton s'est forgé une solide réputation dans le domaine du droit pénal en intervenant régulièrement sur des affaires particulièrement délicates et complexes. L'équipe d'avocats pénalistes chevronnés dispose d'une expertise pointue pour défendre efficacement les intérêts de ses clients, qu'il s'agisse d'accusés ou de victimes, dans un large éventail d'infractions pénales.",
       "blocks": [
         {
           "heading": "Atteintes aux personnes et aux biens",
-          "body": "Agressions sexuelles, harcèlement, violences, vols aggravés, abus de faiblesse ; cambriolages, escroqueries, recels, abus de confiance."
+          "body": "Atteintes aux personnes : agressions sexuelles, harcèlement moral ou sexuel, violences volontaires, vols avec arme et vols aggravés, abus de faiblesse\nAtteintes aux biens : cambriolages, home et car jacking, escroqueries sophistiquées, recels, abus de confiance.\n\nFace à des accusations d'atteintes aux personnes, le Cabinet Plouton s'engage à mettre en œuvre tous les moyens nécessaires pour assurer une défense rigoureuse. Que ce soit pour des crimes aussi graves que le meurtre, le viol ou les agressions sexuelles, ou pour des délits de violences volontaires, l'équipe d'avocats expérimentés analysera avec minutie les éléments du dossier, rassemblera les preuves en votre faveur et plaidera avec conviction pour défendre vos droits.\n\nLe Cabinet Plouton intervient également dans les affaires d'atteintes aux biens, des infractions plus courantes mais qui peuvent s'avérer complexes. L'équipe d'avocats est en mesure de vous assister efficacement si vous êtes accusé(e) de vol avec arme, d'escroquerie ou de recel. Ils s'assureront que la procédure est respectée et que vos droits sont garantis tout au long du processus judiciaire."
         },
         {
           "heading": "Délinquance organisée et cybercriminalité",
-          "body": "Trafic de stupéfiants, association de malfaiteurs, blanchiment ; harcèlement en ligne, escroqueries crypto ou FOVI, diffamation."
+          "body": "Délinquance organisée : Trafic et importation de stupéfiants, association de malfaiteurs, blanchiment d’argent, vols en bande organisée, extorsions de fonds\nCybercriminalité : Harcèlement en ligne, escroquerie à la cryptomonnaie et aux faux placements financiers, escroquerie aux faux ordres de virement, atteintes à la vie privée, diffamation.\n\nLe cabinet possède une expérience significative dans la gestion des dossiers liés à la délinquance organisée. Maître Julien Plouton et ses collaborateurs maîtrisent les subtilités juridiques relatives aux affaires de trafic de stupéfiants en bande organisée et d'association de malfaiteurs. Ils mettront en place une stratégie de défense adaptée à la complexité de ces affaires, en s'appuyant sur leur connaissance approfondie du droit pénal et de la procédure pénale.\n\nFace à l'essor de la cybercriminalité, le cabinet a développé une expertise spécifique dans ce domaine en constante évolution. Si vous êtes victime de harcèlement en ligne, d'atteinte à la vie privée ou de diffamation sur internet, les avocats du Cabinet Plouton vous accompagneront dans vos démarches pour obtenir justice et réparation. Ils vous conseilleront sur les différentes options qui s'offrent à vous et mettront tout en œuvre pour faire valoir vos droits"
         }
       ]
     },
     {
       "id": "equipe",
       "title": "Une équipe rompue aux affaires sensibles",
+      "titleAccent": null,
+      "lead": "Une équipe rompue aux affaires sensibles\n\nForte de plus de 20 années d'expérience dans le domaine du droit pénal, l'équipe du Cabinet Plouton est reconnue pour son expertise et sa maîtrise des enjeux liés aux affaires pénales les plus graves et celles  liées à la délinquance organisée. Cette expérience s'est construite au fil des années, notamment par la participation régulière à des procès devant des juridictions spécialisées.",
       "blocks": [
         {
-          "heading": "20 ans devant les juridictions d'exception",
-          "body": "Interventions régulières devant les JIRS et pôles financiers. Gestion de dossiers médiatisés avec discrétion et professionnalisme. Approche humaine, comptes rendus réguliers, disponibilité pour les urgences (garde à vue, convocations)."
+          "heading": "20 ans d’expérience devant les juridictions d’exception",
+          "body": "Maitre Julien Plouton et ses collaborateurs interviennent fréquemment devant les Juridictions Interrégionales Spécialisées (JIRS) et les pôles financiers, des juridictions chargées de traiter les affaires pénales les plus complexes et sensibles. Ces juridictions sont compétentes pour juger des affaires de criminalité organisée, de terrorisme, de grand banditisme, de trafic de stupéfiants international et de délinquance financière sophistiquée. La participation régulière du Cabinet à des procès devant ces instances témoigne de sa capacité à appréhender les enjeux spécifiques de ces affaires et à mettre en place des stratégies de défense adaptées."
+        },
+        {
+          "heading": "Expertise dans les dossiers médiatisés et sensibles (crimes, délinquance organisée, affaires transnationales).",
+          "body": "L'équipe du Cabinet Plouton est également reconnue pour sa capacité à gérer des dossiers médiatisés et sensibles. Que ce soit dans des affaires criminelles ou d'affaires transnationales, les avocats du Cabinet sont conscients de l'impact médiatique et de la pression publique qui peuvent peser sur ces dossiers. Ils font preuve de discrétion et de professionnalisme pour garantir une défense efficace et respectueuse des droits de leurs clients, tout en gérant la pression médiatique et en assurant une communication adaptée."
+        },
+        {
+          "heading": "Approche humaine et réactive",
+          "body": "Le Cabinet Plouton se distingue par son approche humaine et réactive, plaçant la relation de confiance et la communication au cœur de sa pratique. Conscients de l'impact personnel et émotionnel que peut avoir une affaire pénale sur la vie de ses clients, Maître Plouton et son équipe mettent tout en œuvre pour les accompagner avec empathie et professionnalisme à chaque étape de la procédure."
+        },
+        {
+          "heading": "Informations régulières sur l’avancée du dossier (comptes rendus détaillés, analyse des risques).",
+          "body": "Le Cabinet s'engage à maintenir une communication transparente et constante avec ses clients. Vous serez tenu(e) informé(e) régulièrement des avancées de votre dossier, et recevrez des comptes rendus détaillés après chaque étape importante de la procédure. Cette communication régulière vous permettra de comprendre les enjeux de votre affaire, d'anticiper les risques et de prendre des décisions éclairées avec votre avocat. L'équipe du Cabinet est également à votre disposition pour répondre à vos questions et vous fournir des explications claires et précises sur le déroulement de la procédure."
+        },
+        {
+          "heading": "Disponibilité 24h/24 pour les urgences (garde à vue, convocations imprévues).",
+          "body": "Conscient que les situations d'urgence peuvent survenir à tout moment dans le cadre d'une affaire pénale, le Cabinet Plouton assure une disponibilité 24h/24 et 7j/7 pour ses clients. Que vous soyez confronté(e) à une garde à vue, à une convocation imprévue ou à toute autre situation urgente, vous pouvez compter sur la réactivité de l'équipe pour vous assister et vous conseiller dans les meilleurs délais. Cette disponibilité permanente est un gage de sécurité et de tranquillité d'esprit pour les clients du Cabinet, qui savent qu'ils peuvent compter sur un soutien juridique efficace en toutes circonstances."
         }
       ]
     },
     {
       "id": "methodes",
       "title": "Méthodes clés pour une défense efficace",
+      "titleAccent": null,
+      "lead": "Méthodes clés pour une défense efficace\n\nLe Cabinet Plouton met en œuvre une série de méthodes éprouvées pour assurer une défense efficace à ses clients, en privilégiant une approche personnalisée et stratégique.\n\nTravail de personnalisation, même en cas de culpabilité avérée\nOutils concrets pour votre sécurité juridique\n\nLe cabinet estime que la défense pénale doit toujours être individualisée, même lorsque la culpabilité ne peut être discutée. En effet, il est primordial de présenter les faits sous un angle favorable, en tenant compte du parcours personnel du client et des circonstances atténuantes qui pourraient influencer le jugement du tribunal.",
       "blocks": [
         {
-          "heading": "Personnalisation et alternatives",
-          "body": "Contextualisation des faits, négociation d'alternatives (médiation pénale, composition pénale), audit du dossier pour vices de procédure (perquisitions, notification des droits, assistance avocat)."
+          "heading": "Contextualisation des faits pour éviter une sur sanction (travail sur le parcours personnel, circonstances atténuantes).",
+          "body": "L’équipe s'attache à comprendre les motivations qui ont pu conduire à l'infraction et à mettre en avant les éléments du passé et de la personnalité du client qui peuvent expliquer son comportement. Ce travail de fond permet de plaider pour une sanction juste et mesurée, en évitant une sur-sanction qui ne serait pas proportionnée à la gravité réelle des faits."
+        },
+        {
+          "heading": "Négociation avec le parquet pour des alternatives aux poursuites (médiation pénale, composition pénale).",
+          "body": "Lorsque cela est possible et opportun, le cabinet privilégie la voie de la négociation avec le parquet pour éviter un procès et obtenir des alternatives aux poursuites classiques.\n\nMédiation pénale: une solution amiable qui permet aux parties de trouver un accord et de réparer le préjudice subi par la victime.\n\nComposition pénale: une procédure simplifiée qui permet au procureur de la République de proposer au mis en cause une sanction sans passer par un procès.\n\nEn complément de ce travail de personnalisation, le Cabinet Plouton utilise des outils juridiques précis pour garantir la sécurité juridique de ses clients."
+        },
+        {
+          "heading": "Audit du dossier pour identifier les vices de procédure (irrégularités dans les perquisitions, défaut de droits pendant la garde à vue).",
+          "body": "Chaque dossier est minutieusement analysé afin de détecter d'éventuels vices de procédure qui pourraient affecter la validité des poursuites. L'équipe d'avocats expérimentés est particulièrement attentive aux irrégularités qui peuvent survenir lors des perquisitions, des gardes à vue ou des auditions.\n\n \n\nExemples d'irrégularités fréquemment rencontrées :\n \n\nNon-respect des formalités lors d'une perquisition\n\nDéfaut de notification des droits pendant une garde à vue\n\nAbsence d'assistance d'un avocat lors d'un interrogatoire\n\nProblème de compétence lors d’une réquisition technique\n\nNon respect du cadre procédural lors d’une interpellation\n\n​\n\nL'identification de ces vices de procédure permet de contester la validité des preuves et d'obtenir l'annulation des actes de procédure entachés d'irrégularités."
+        },
+        {
+          "heading": "Veille juridique sur les évolutions légales (réformes pénales, jurisprudence récente).",
+          "body": "Le droit pénal est en constante évolution. Le Cabinet Plouton assure une veille juridique permanente pour se tenir informé des dernières réformes législatives et de l'évolution de la jurisprudence. Cette veille permet d'anticiper les changements de la loi et d'adapter les stratégies de défense en conséquence, pour offrir à ses clients une défense efficace et à la pointe du droit."
         }
       ]
     }

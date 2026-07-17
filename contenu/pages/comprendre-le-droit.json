@@ -1,0 +1,11 @@
+{
+  "slug": "comprendre-le-droit",
+  "path": "/comprendre-le-droit",
+  "title": "",
+  "metaTitle": "",
+  "metaDescription": "",
+  "intro": "",
+  "sections": [],
+  "fullText": "",
+  "scrapeNote": "Page mostly client-rendered in static HTML; no <main> content in curl response."
+}

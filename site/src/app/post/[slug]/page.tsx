@@ -15,6 +15,8 @@ import {
 } from "@/lib/content"
 import { JsonLd, organizationSchema } from "@/lib/seo"
 
+export const dynamicParams = true
+
 export function generateStaticParams() {
   return publishedArticles().map((a) => ({ slug: a.slug }))
 }
@@ -36,6 +38,7 @@ export async function generateMetadata({
       description: article.excerpt,
       publishedTime: article.publishedAt,
       authors: [article.author],
+      images: article.coverImage ? [article.coverImage] : undefined,
     },
   }
 }
@@ -83,8 +86,10 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
     a.categories.some((c) => article.categories.includes(c))
   )
   // Comme Wix : même catégorie d'abord, complété par les plus récents
-  const related = [...sameCategory, ...others.filter((a) => !sameCategory.includes(a))].slice(0, 2)
-  const stats = article.stats ?? { views: 0, likes: 0, comments: 0 }
+  const related = [...sameCategory, ...others.filter((a) => !sameCategory.includes(a))]
+    .slice(0, 2)
+    .map((a) => ({ ...a, viewCount: getArticle(a.slug)?.viewCount ?? 0 }))
+  const stats = { views: article.viewCount ?? 0, likes: 0, comments: 0 }
 
   const schema = [
     organizationSchema(site),
@@ -106,7 +111,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Accueil", item: site.url },
-        { "@type": "ListItem", position: 2, name: "Ressources", item: `${site.url}/blog` },
+        { "@type": "ListItem", position: 2, name: "Ressources", item: `${site.url}/#affaires` },
         { "@type": "ListItem", position: 3, name: article.title, item: url },
       ],
     },
@@ -114,7 +119,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
   return (
     <>
-      <Header />
+      <Header variant="site" />
       <JsonLd data={schema} />
       {/* Fond gris + article en feuille blanche, comme le live */}
       <div className="bg-page px-3 py-8 sm:px-5">
@@ -166,9 +171,16 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             </div>
           </header>
 
-          <div className="prose-plouton prose-blog mt-8">
-            <BodyBlocks blocks={article.body} />
-          </div>
+          {article.bodyHtml ? (
+            <div
+              className="prose-plouton prose-blog mt-8"
+              dangerouslySetInnerHTML={{ __html: article.bodyHtml }}
+            />
+          ) : (
+            <div className="prose-plouton prose-blog mt-8">
+              <BodyBlocks blocks={article.body} />
+            </div>
+          )}
 
           {/* À propos de l'auteur */}
           {author?.bio ? (
@@ -267,13 +279,13 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
           <section className="mx-auto mt-10 max-w-[940px]">
             <div className="flex items-baseline justify-between">
               <h2 className="font-display text-lg text-ink">Posts similaires</h2>
-              <Link href="/blog" className="text-sm text-ink underline-offset-2 hover:underline">
+              <Link href="/nos-affaires" className="text-sm text-ink underline-offset-2 hover:underline">
                 Voir tout
               </Link>
             </div>
             <div className="mt-4 grid gap-5 sm:grid-cols-2">
               {related.map((a) => {
-                const rs = a.stats ?? { views: 0, likes: 0, comments: 0 }
+                const rs = { views: a.viewCount, likes: 0, comments: 0 }
                 return (
                   <article key={a.slug} className="border border-line bg-white">
                     <Link href={`/post/${a.slug}`} className="block">

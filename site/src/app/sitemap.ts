@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next"
-import { getSite, publishedArticles } from "@/lib/content"
+import { getSite, listExpertises, publishedArticles } from "@/lib/content"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const site = getSite()
@@ -7,10 +7,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${site.url}/post/${a.slug}`,
     lastModified: new Date(a.publishedAt),
   }))
-  return [
-    { url: site.url, lastModified: new Date() },
-    { url: `${site.url}/contact`, lastModified: new Date() },
-    { url: `${site.url}/defense-penale/droit-penal`, lastModified: new Date() },
-    ...posts,
-  ]
+  const expertises = listExpertises().map((e) => ({
+    url: `${site.url}${e.path || `/${e.pole}/${e.slug}`}`,
+    lastModified: new Date(),
+  }))
+  const pages = [
+    "",
+    "/honoraires-rendez-vous",
+    "/notre-cabinet",
+    "/nos-affaires",
+    "/medias",
+    "/comprendre-le-droit",
+    "/mentions-legales",
+  ].map((path) => ({
+    url: `${site.url}${path}`,
+    lastModified: new Date(),
+  }))
+  return [...pages, ...expertises, ...posts]
 }

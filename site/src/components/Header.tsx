@@ -9,57 +9,92 @@ const poles = [
     label: "Défense pénale",
     children: [
       { label: "Droit pénal", href: "/defense-penale/droit-penal" },
-      { label: "Procès criminels", href: "/defense-penale/droit-penal" },
-      { label: "Trafic de stupéfiants", href: "/defense-penale/droit-penal" },
-      { label: "Violences conjugales et féminicides", href: "/defense-penale/droit-penal" },
-      { label: "Droit pénal des affaires", href: "/defense-penale/droit-penal" },
+      { label: "Procès criminels", href: "/defense-penale/proces-criminel" },
+      { label: "Trafic de stupéfiants", href: "/defense-penale/trafic-de-stupefiants" },
+      {
+        label: "Violences conjugales et féminicides",
+        href: "/defense-penale/violences-conjugales-et-feminicides",
+      },
+      { label: "Droit pénal des affaires", href: "/defense-penale/droit-penal-des-affaires" },
     ],
   },
   {
     label: "Indemnisation des victimes",
     children: [
-      { label: "Victimes de délits ou crimes", href: "/#expertises" },
-      { label: "Accidents de la route", href: "/#expertises" },
-      { label: "Droit et accidents du travail", href: "/#expertises" },
-      { label: "Accidents et erreurs médicales", href: "/#expertises" },
-      { label: "Accidents de la vie courante", href: "/#expertises" },
+      {
+        label: "Victimes de délits ou crimes",
+        href: "/indemnisation-des-victimes/victimes-de-delits-ou-crimes",
+      },
+      {
+        label: "Accidents de la route",
+        href: "/indemnisation-des-victimes/accidents-de-la-route",
+      },
+      {
+        label: "Droit et accidents du travail",
+        href: "/indemnisation-des-victimes/droit-et-accidents-du-travail",
+      },
+      {
+        label: "Accidents et erreurs médicales",
+        href: "/indemnisation-des-victimes/accidents-et-erreurs-medicales",
+      },
+      {
+        label: "Accidents de la vie courante",
+        href: "/indemnisation-des-victimes/accidents-de-la-vie-courante",
+      },
     ],
   },
   {
     label: "Droit des contrats et des personnes",
     children: [
-      { label: "Droit des assurances", href: "/#expertises" },
-      { label: "Défense des consommateurs", href: "/#expertises" },
-      { label: "Droit de la famille", href: "/#expertises" },
-      { label: "Divorce", href: "/#expertises" },
+      {
+        label: "Droit des assurances",
+        href: "/droit-des-contrats-et-des-personnes/droit-assurances-particuliers-professionnels",
+      },
+      {
+        label: "Défense des consommateurs",
+        href: "/droit-des-contrats-et-des-personnes/defense-des-consommateurs",
+      },
+      {
+        label: "Droit de la famille",
+        href: "/droit-des-contrats-et-des-personnes/droit-de-la-famille",
+      },
+      {
+        label: "Divorce",
+        href: "/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux",
+      },
     ],
   },
 ]
 
 const secondary = [
   { href: "/", label: "Accueil" },
-  { href: "/contact", label: "Je prends rendez-vous" },
-  { href: "/#equipe", label: "Équipe" },
-  { href: "/#affaires", label: "Affaires" },
-  { href: "/post/indemnisation-passager-accident-route", label: "Ressources" },
-  { href: "/#medias", label: "Médias" },
+  { href: "/honoraires-rendez-vous", label: "Je prends rendez-vous" },
+  { href: "/notre-cabinet", label: "Équipe" },
+  { href: "/nos-affaires", label: "Affaires" },
+  { href: "/comprendre-le-droit", label: "Ressources" },
+  { href: "/medias", label: "Médias" },
 ]
 
 const poleNav = [
   { label: "DÉFENSE PÉNALE", href: "/defense-penale/droit-penal" },
-  { label: "INDEMNISATION DES VICTIMES", href: "/#expertises" },
-  { label: "DROIT DES CONTRATS ET DES PERSONNES", href: "/#expertises" },
+  {
+    label: "INDEMNISATION DES VICTIMES",
+    href: "/indemnisation-des-victimes/victimes-de-delits-ou-crimes",
+  },
+  {
+    label: "DROIT DES CONTRATS ET DES PERSONNES",
+    href: "/droit-des-contrats-et-des-personnes/droit-de-la-famille",
+  },
 ]
 
 const sideNav = [
-  { href: "/#affaires", label: "AFFAIRES" },
-  { href: "/#medias", label: "MÉDIAS" },
-  { href: "/post/indemnisation-passager-accident-route", label: "RESSOURCES" },
-  { href: "/#equipe", label: "ÉQUIPE" },
+  { href: "/nos-affaires", label: "AFFAIRES" },
+  { href: "/medias", label: "MÉDIAS" },
+  { href: "/comprendre-le-droit", label: "RESSOURCES" },
+  { href: "/notre-cabinet", label: "ÉQUIPE" },
 ]
 
 interface HeaderProps {
-  /** Accueil Wix = logo + loupe + burger. Autres pages = nav complète. */
   variant?: "home" | "site"
 }
 
@@ -69,7 +104,13 @@ export function Header({ variant = "site" }: HeaderProps) {
 
   return (
     <>
-      <header className={isHome ? "absolute inset-x-0 top-0 z-50" : "sticky top-0 z-50 border-b border-line bg-white"}>
+      <header
+        className={
+          isHome
+            ? "absolute inset-x-0 top-0 z-50"
+            : "sticky top-0 z-50 border-b border-line bg-white"
+        }
+      >
         <div
           className={
             isHome
@@ -77,7 +118,11 @@ export function Header({ variant = "site" }: HeaderProps) {
               : "mx-auto flex h-[64px] max-w-[1400px] items-center gap-4 px-5 lg:px-8"
           }
         >
-          <Link href="/" className="relative z-10 flex shrink-0 items-center gap-2.5" aria-label="Cabinet Plouton — Accueil">
+          <Link
+            href="/"
+            className="relative z-10 flex shrink-0 items-center gap-2.5"
+            aria-label="Cabinet Plouton — Accueil"
+          >
             <Image
               src="/brand/logo-mark.svg"
               alt=""
@@ -112,7 +157,10 @@ export function Header({ variant = "site" }: HeaderProps) {
             </>
           ) : (
             <>
-              <nav className="hidden min-w-0 flex-1 items-center justify-center gap-5 xl:gap-7 lg:flex" aria-label="Pôles">
+              <nav
+                className="hidden min-w-0 flex-1 items-center justify-center gap-5 lg:flex xl:gap-7"
+                aria-label="Pôles"
+              >
                 {poleNav.map((p) => (
                   <Link
                     key={p.label}
@@ -133,11 +181,15 @@ export function Header({ variant = "site" }: HeaderProps) {
                     {s.label}
                   </Link>
                 ))}
-                <button type="button" aria-label="Recherche sur le site" className="p-1 text-navy hover:text-accent">
+                <button
+                  type="button"
+                  aria-label="Recherche sur le site"
+                  className="p-1 text-navy hover:text-accent"
+                >
                   <SearchIcon />
                 </button>
                 <Link
-                  href="/contact"
+                  href="/honoraires-rendez-vous"
                   className="rounded-full bg-navy px-4 py-2 text-[12px] font-semibold tracking-wide text-white hover:bg-navy-soft"
                 >
                   Contact &amp; RDV

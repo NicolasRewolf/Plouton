@@ -1,56 +1,48 @@
 # Plouton — le plan de la maison
 
-Ce repo, c’est le **cabinet en ligne** : site public + backoffice (blog & demandes).
-
-Cooked (mesure / analytics) reste **à part**. Ici = la boutique. Cooked = le compteur.
-
----
-
-## Où est quoi ?
-
-| Dossier / fichier | Pour qui | À quoi ça sert |
-|-------------------|----------|----------------|
-| **`LIRE-MOI.md`** | Toi | Ce plan |
-| **`JOURNAL.md`** | Toi | Ce qui a changé à chaque livraison |
-| **`AGENTS.md`** | IA | Règles pour construire sans faire n’importe quoi |
-| **`docs/`** | Toi + IA | Mode d’emploi (surtout `09-architecture-site.md`) |
-| **`admin/`** | Client + toi | Backoffice : blog + demandes |
-| **`site/`** | Visiteurs | Site public |
-| **`contenu/`** | Toi | Imports, identité, futurs articles |
-| **`base/`** | IA | Mémoire données (Supabase) |
+Site public + backoffice du Cabinet Plouton.  
+**Cooked** (mesure) reste dans un autre repo.
 
 ---
 
-## Par où commencer ?
+## Carte du repo
 
-1. **`JOURNAL.md`** — dernière livraison  
-2. **`docs/09-architecture-site.md`** — comment le site est câblé  
-3. **`docs/11-stack-technique.md`** — Supabase / Vercel / Cooked / DNS  
-4. **`docs/06-ne-pas-perdre.md`** — ce qu’il ne faut pas casser  
-5. **`docs/10-blocs-reutilisables.md`** — les briques UI  
-6. **`AGENTS.md`** — règles pour l’IA  
+| Dossier | Rôle | Devient demain |
+|---------|------|----------------|
+| **`site/`** | Site Next.js (visiteurs) | Vercel `www` |
+| **`admin/`** | Backoffice (placeholder) | Vercel `admin.` |
+| **`contenu/`** | Contenu produit + sources Wix | Tables Supabase + Storage |
+| **`base/`** | Schémas / migrations (placeholder) | Projet Supabase |
+| **`scripts/`** | Imports & scrapers migration | Gardés pour rejouabilité |
+| **`docs/`** | Décisions & architecture | Toujours |
+
+Fichiers racine : `LIRE-MOI.md` (toi) · `JOURNAL.md` (livraisons) · `AGENTS.md` (IA) · `README.md` (GitHub)
 
 ---
 
-## État actuel
-
-**POC local vivant** dans `site/` (pas de cloud payant) :
-
-- Accueil, contact, article blog, page expertise `/defense-penale/droit-penal`
-- Backoffice blog `/admin`
-- Contenu = fichiers dans `contenu/`
+## Démarrer le POC
 
 ```bash
 cd site && npm install && npm run dev
 ```
 
-→ http://localhost:3000 — détail dans `site/LIRE-MOI.md`
+→ http://127.0.0.1:3000
 
 ---
 
-## Liens utiles
+## Par où lire ?
 
-- Site actuel : https://www.jplouton-avocat.fr  
-- Tracking : **Cooked**  
-- Exemple migré : **outremerplouton**  
-- UI skills (plus tard) : https://www.ui-skills.com/skills/jakubkrehel
+1. [`JOURNAL.md`](./JOURNAL.md) — dernière livraison  
+2. [`docs/00-INDEX.md`](./docs/00-INDEX.md) — index docs  
+3. [`docs/09-architecture-site.md`](./docs/09-architecture-site.md) — gabarits + CMS  
+4. [`docs/11-stack-technique.md`](./docs/11-stack-technique.md) — Supabase / Vercel  
+5. [`contenu/LIRE-MOI.md`](./contenu/LIRE-MOI.md) — organisation contenu  
+
+---
+
+## État
+
+POC local **sans cloud payant** : contenu en fichiers JSON.  
+Prochaine étape infra : Supabase + Vercel Pro (quand le design est validé).
+
+Site live actuel : https://www.jplouton-avocat.fr

@@ -1,22 +1,34 @@
 import { NextResponse } from "next/server"
-import { listArticles, saveArticle, type Article } from "@/lib/content"
+import {
+  getArticle,
+  listArticleIndex,
+  saveArticle,
+  type Article,
+} from "@/lib/content"
 
 export const runtime = "nodejs"
 
-export async function GET() {
-  return NextResponse.json(listArticles())
+export async function GET(req: Request) {
+  const { searchParams } = new URL(req.url)
+  const slug = searchParams.get("slug")
+  if (slug) {
+    const article = getArticle(slug)
+    if (!article) return NextResponse.json({ error: "introuvable" }, { status: 404 })
+    return NextResponse.json(article)
+  }
+  return NextResponse.json(listArticleIndex())
 }
 
 export async function POST(req: Request) {
   const body = (await req.json()) as Partial<Article>
-  if (!body.slug || !body.title) {
+  if (!body.slug || !body.title)
     return NextResponse.json({ error: "slug et title requis" }, { status: 400 })
-  }
+
   const article: Article = {
     slug: body.slug.replace(/[^a-z0-9-àâäéèêëïîôùûüç]/gi, "-").toLowerCase(),
     title: body.title,
     excerpt: body.excerpt || "",
-    publishedAt: body.publishedAt || new Date().toISOString(),
+    publishedAt: body.publishedAt || new Date().toISOString().slice(0, 10),
     status: body.status === "published" ? "published" : "draft",
     author: body.author || "Cabinet Plouton",
     categories: body.categories || ["Ressources et notions juridiques"],

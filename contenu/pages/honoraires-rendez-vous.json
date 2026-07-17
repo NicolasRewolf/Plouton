@@ -1,0 +1,43 @@
+{
+  "slug": "honoraires-rendez-vous",
+  "path": "/honoraires-rendez-vous",
+  "title": "Prise de rendez-vous, accès & honoraires",
+  "metaTitle": "Honoraires & prise de rendez-vous – Cabinet Plouton, avocats à Bordeaux",
+  "metaDescription": "Prise de rendez-vous, honoraires et accès du Cabinet Plouton à Bordeaux. Premier rendez-vous 180 € TTC. Formulaire de contact.",
+  "intro": "Merci de compléter le formulaire en exposant votre situation. Votre demande est traitée aujourd’hui et un rendez-vous est fixé sous 7 jours. En cas d’urgence, un rendez-vous immédiat est possible, y compris en dehors des horaires habituels. Précisez-le dans votre message.",
+  "honoraires": {
+    "heading": "Honoraires",
+    "lead": "Le premier rendez-vous est de 30 minutes maximum et est facturé 180 € TTC.",
+    "body": "Ce temps d'échange nous permet de comprendre votre situation, d'examiner les premiers documents que vous souhaitez nous soumettre, et d'identifier ensemble vos objectifs. À l'issue de l'entretien, nous vous indiquons précisément le montant des honoraires qui s'appliqueraient si vous décidez de nous confier votre dossier, ainsi que le mode de calcul retenu.\n\nLes moyens de règlements acceptés : cheques - espèce & virement bancaire instantané. Les honoraires du cabinet sont assujettis à la TVA en vigueur."
+  },
+  "horaires": {
+    "heading": "Horaires et coordonnées",
+    "body": "Le cabinet Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. Nous sommes disposés à vous accueillir en physique ou en visioconférence ou simplement par téléphone. Nous nous adaptons à vos contraintes."
+  },
+  "acces": {
+    "heading": "Accès & Parking",
+    "adresseLabel": "Adresse du cabinet principal",
+    "voiture": "Vous venez en voiture ?\n\nVous pouvez vous garer autour de l'Eglise Saint-Eulalie.",
+    "tram": "Vous venez en tramway ?\nArrêtez vous à l'arrêt Musée d'Aquitaine ligne B ou Palais de justice ligne A."
+  },
+  "convention": {
+    "heading": "Convention d'honoraires du cabinet",
+    "lead": "Chaque dossier fera l’objet d’une convention d’honoraires spécifique. Les honoraires du cabinet sont discutés librement et fixés en fonction des critères suivants :",
+    "criteres": [
+      "la complexité de l’affaire",
+      "l’importance du travail à effectuer",
+      "la situation personnelle du client",
+      "l’importance des frais exposés"
+    ],
+    "dommageCorporel": "Dans le cadre de l’indemnisation d’un dommage corporel, la rémunération du cabinet comprendra systématiquement un honoraire de résultat. À cette occasion, une convention d’honoraires sera établie et comprendra :",
+    "parties": [
+      "une partie fixe correspondant à l’étude et aux frais de dossier",
+      "une partie variable correspondant aux honoraires dits de résultat (évalué en pourcentage, en cas de succès du litige)"
+    ]
+  },
+  "protection": {
+    "heading": "Protection juridique, défense recours",
+    "body": "Le cabinet intervient également dans le cadre de la Garantie Protection Juridique que vous avez souscrite (via compagnie d’assurance, carte visa, mutuelle…). Sachez que vous n’êtes pas tenu de prendre l’avocat qui vous est proposé dans le cadre de la garantie protection juridique à laquelle vous avez souscrit. Vous avez l’entière liberté de choix. Notre cabinet d’avocats accepte d’intervenir dans ce cadre.\n\nS’agissant d'une aide juridictionnelle, notre cabinet n’intervient en principe pas dans ce cadre mais se réserve le droit de l’accepter, à titre exceptionnel, en fonction de l’intérêt particulier que pourrait revêtir le dossier que vous nous soumettrez. En tout état de cause, votre situation personnelle sera étudiée et prise en considération dans la fixation de nos honoraires. En cas de litige quant à l’application de la présente convention, l’une ou l’autre des parties peut saisir le Bâtonnier de l’Ordre des Avocats à la Cour d’Appel de Bordeaux.\n\nEnfin, conformément aux dispositions de l’article R. 156-1 du Code de la consommation, il est rappelé ci-dessous les coordonnées du médiateur de la consommation dont la profession d’avocat relève :\n\nMédiateur de la consommation de la profession d’avocat\n22 rue de Londres,\n75009 Paris"
+  },
+  "mediateurUrl": "https://www.mediateur-consommation-avocat.fr"
+}
