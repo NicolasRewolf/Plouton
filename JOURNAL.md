@@ -5,6 +5,16 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-17 — Vraie migration : bombes désamorcées + cloud branché
+
+- **Déployable** : `contenu/` embarqué dans le build Vercel ; écritures via un
+  `ContentStore` (fs local / Supabase en ligne) — plus aucune demande perdable
+- **/blog + 17 pages catégories** créées (les liens des 422 articles marchent)
+- **161 redirections 301** rejouées depuis l'export Wix
+- **474 médias rapatriés** (covers, images d'articles, équipe) — zéro dépendance Wix
+- **Supabase** : buckets créés, formulaire branché (il manque 1 SQL à coller — voir PR)
+- **Vercel** : projet lié, variables posées, root `site/`, préprod protégée
+
 ## 2026-07-17 — Page article complète (copie du live)
 
 Gabarit `/post/[slug]` refait section par section d'après le site Wix live :

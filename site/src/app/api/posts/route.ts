@@ -2,9 +2,9 @@ import { NextResponse } from "next/server"
 import {
   getArticle,
   listArticleIndex,
-  saveArticle,
   type Article,
 } from "@/lib/content"
+import { getStore } from "@/lib/store"
 
 export const runtime = "nodejs"
 
@@ -34,13 +34,13 @@ export async function POST(req: Request) {
     categories: body.categories || ["Ressources et notions juridiques"],
     body: body.body?.length ? body.body : ["Contenu à rédiger."],
   }
-  saveArticle(article)
+  await getStore().saveArticle(article)
   return NextResponse.json(article)
 }
 
 export async function PUT(req: Request) {
   const body = (await req.json()) as Article
   if (!body.slug) return NextResponse.json({ error: "slug requis" }, { status: 400 })
-  saveArticle(body)
+  await getStore().saveArticle(body)
   return NextResponse.json(body)
 }

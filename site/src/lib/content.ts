@@ -1,7 +1,11 @@
 import fs from "node:fs"
 import path from "node:path"
 
-const root = path.join(process.cwd(), "..", "contenu")
+/** Racine des données. Surchargée via CONTENT_ROOT (déploiement, tests). */
+export const contentRoot = process.env.CONTENT_ROOT
+  ? path.resolve(process.env.CONTENT_ROOT)
+  : path.join(process.cwd(), "..", "contenu")
+const root = contentRoot
 
 function readJson<T>(rel: string): T {
   const full = path.join(root, rel)
@@ -48,6 +52,9 @@ export interface Article {
   viewCount?: number
   url?: string
   wixId?: string
+  /** Title / meta live Wix (baseline) — servis tels quels pour la continuité SEO */
+  metaTitle?: string
+  metaDescription?: string
   /** HTML structuré (titres, listes, liens) depuis Rich Content Wix */
   bodyHtml?: string
   /** Fallback texte / édition admin */
@@ -72,6 +79,8 @@ export interface Category {
   description: string
   postCount: number
   url: string
+  metaTitle?: string
+  metaDescription?: string
   coverImage?: string | null
   language: string
 }

@@ -30,8 +30,9 @@ export async function generateMetadata({
   const article = getArticle(slug)
   if (!article || article.status !== "published") return {}
   return {
-    title: article.title,
-    description: article.excerpt,
+    // Titre/meta du live Wix (baseline) — identiques au byte près
+    title: { absolute: article.metaTitle ?? article.title },
+    description: article.metaDescription ?? article.excerpt,
     openGraph: {
       type: "article",
       title: article.title,
