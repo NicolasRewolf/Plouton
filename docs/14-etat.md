@@ -1,6 +1,6 @@
 # État d'avancement — Plouton
 
-_Mis à jour : 2026-07-18 (C5 en cours — `feat/canalisations-c5`)_
+_Mis à jour : 2026-07-18 (Editor.js admin + dashboard)_
 
 Vue unique de « où on en est ». À relire en premier, mettre à jour à chaque grande étape.
 Détail des livraisons dans [`../JOURNAL.md`](../JOURNAL.md).
@@ -59,13 +59,14 @@ UI canonique : [`16-composants-ui.md`](16-composants-ui.md).
 | **C2** | ✅ | Magic link + `/admin/demandes` |
 | **C3** | ✅ | Resend + import CSV Wix (~752 Archivé) |
 | **C4** | ✅ MVP | Table `posts` + seed **422** + `saveArticle` DB |
-| **C5** | 🔄 PR | Public lit DB (secret) + revalidate · covers = **C5.1** |
+| **C5** | ✅ | Public lit DB (secret) + revalidate · covers = **C5.1** |
+| **Admin UX** | 🔄 PR | Editor.js blog + shell dashboard |
 
 ## 🔧 Dual-run C5
 
 - **Site public** = DB `published` en priorité, **fallback JSON** si row absente
-- **Corps** = Ricos git tant que le corps DB = seed ; sinon `bodyHtml` / `body`
-- **Admin** = liste DB (publiés + brouillons) · publish → revalidate
+- **Corps** = Ricos git tant que le corps DB = seed ; sinon Editor.js / `bodyHtml` / `body`
+- **Admin** = Editor.js + liste DB · publish → revalidate
 - **Pas** de RLS anon (lecture via `SUPABASE_SECRET_KEY` serveur)
 
 ## ⚠ Réalité pages publiques (hors articles)
@@ -88,7 +89,8 @@ Gagné : 15 expertises, 3 hubs pôles, 422 posts, formulaires/admin, légales, H
 | 3 | **3 hubs pôles** | ✅ |
 | 4 | Expertise **Défense des élus** + menu | ✅ |
 | 5 | **Redirects** blog | ✅ |
-| 6 | **C5** — site public lit Supabase + publish live | 🔄 PR |
+| 6 | **C5** — site public lit Supabase + publish live | ✅ |
+| 6a | **Admin** — Editor.js + dashboard shell | 🔄 PR |
 | 6b | **C5.1** — covers / bucket `medias` | à faire |
 | 7 | Recherche + simulateurs divorce (ou paliers) | plus tard |
 | 8 | Polish UI (accueil, listes, vernis) | au fil de l’eau |

@@ -8,6 +8,11 @@
 
 import { createClient, type SupabaseClient } from "@supabase/supabase-js"
 import type { Article, ArticleIndexItem } from "@/lib/content"
+import {
+  emptyEditorJsDoc,
+  isEditorJsDoc,
+  type ArticleBody,
+} from "@/lib/editorjs"
 
 /** Tag Next.js cache — invalidé au publish. */
 export const POSTS_CACHE_TAG = "posts"
@@ -72,16 +77,36 @@ export function articleToPostRow(article: Article) {
     meta_title: article.metaTitle ?? null,
     meta_description: article.metaDescription ?? null,
     body_html: article.bodyHtml ?? null,
-    body: article.body?.length ? article.body : ["Contenu à rédiger."],
+    body: normalizeBodyForDb(article.body),
   }
 }
 
+function normalizeBodyForDb(body: Article["body"] | undefined): ArticleBody {
+  if (isEditorJsDoc(body)) {
+    return body.blocks?.length ? body : emptyEditorJsDoc("Contenu à rédiger.")
+  }
+  if (Array.isArray(body) && body.length) return body
+  return ["Contenu à rédiger."]
+}
+
+function parseBodyFromDb(raw: unknown): ArticleBody {
+  if (isEditorJsDoc(raw)) return raw
+  if (Array.isArray(raw)) return raw.map(String)
+  if (typeof raw === "string") {
+    try {
+      const parsed = JSON.parse(raw) as unknown
+      if (isEditorJsDoc(parsed)) return parsed
+      if (Array.isArray(parsed)) return parsed.map(String)
+    } catch {
+      /* plain string */
+    }
+    return [raw]
+  }
+  return ["Contenu à rédiger."]
+}
+
 export function postRowToArticle(row: PostRow): Article {
-  const body = Array.isArray(row.body)
-    ? (row.body as string[]).map(String)
-    : typeof row.body === "string"
-      ? [row.body]
-      : []
+  const body = parseBodyFromDb(row.body)
   return {
     slug: row.slug,
     title: row.title,
@@ -102,7 +127,7 @@ export function postRowToArticle(row: PostRow): Article {
     metaTitle: row.meta_title || undefined,
     metaDescription: row.meta_description || undefined,
     bodyHtml: row.body_html || undefined,
-    body: body.length ? body : ["Contenu à rédiger."],
+    body,
   }
 }
 

@@ -5,6 +5,14 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Admin : vrai éditeur + dashboard
+
+- Les avocats rédigent le blog avec un **vrai éditeur** (titres, listes, citations) — fini les grandes zones de texte
+- Dashboard admin refait : menu latéral, compteurs publiés/brouillons, liste soignée
+- Un article publié depuis l’admin s’affiche correctement sur le site (`/post/…`)
+- Les 422 articles d’origine gardent leur mise en page tant qu’on ne les réécrit pas
+- Tests : Admin → Nouvel article → blocs → Publier → ouvrir `/post/…`
+
 ## 2026-07-18 — C5 : publish live (DB → site)
 
 - Le site public lit les articles **dans la base** (plus seulement les fichiers)

@@ -3,6 +3,7 @@ import {
   getArticle,
   type Article,
 } from "@/lib/content"
+import { emptyEditorJsDoc, isEditorJsDoc } from "@/lib/editorjs"
 import { resolveAdminArticleList } from "@/lib/posts-public"
 import { revalidatePostSurfaces } from "@/lib/revalidate-posts"
 import { getStore, type ContentStore } from "@/lib/store"
@@ -26,6 +27,14 @@ async function requireAdmin() {
   } catch {
     return null
   }
+}
+
+function normalizeIncomingBody(body: Article["body"] | undefined): Article["body"] {
+  if (isEditorJsDoc(body)) {
+    return body.blocks?.length ? body : emptyEditorJsDoc("Contenu à rédiger.")
+  }
+  if (Array.isArray(body) && body.length) return body
+  return emptyEditorJsDoc("Contenu à rédiger.")
 }
 
 export async function GET(req: Request) {
@@ -65,8 +74,9 @@ export async function POST(req: Request) {
     status: body.status === "published" ? "published" : "draft",
     author: body.author || "Cabinet Plouton",
     categories: body.categories || ["Ressources et notions juridiques"],
-    body: body.body?.length ? body.body : ["Contenu à rédiger."],
-    bodyHtml: body.bodyHtml,
+    body: normalizeIncomingBody(body.body),
+    // Save Editor.js → on n’écrase pas le rendu avec un vieux bodyHtml seed
+    bodyHtml: isEditorJsDoc(body.body) ? undefined : body.bodyHtml,
     metaTitle: body.metaTitle,
     metaDescription: body.metaDescription,
     coverImage: body.coverImage,
@@ -97,6 +107,8 @@ export async function PUT(req: Request) {
   if (!body.slug) return NextResponse.json({ error: "slug requis" }, { status: 400 })
   const article: Article = {
     ...body,
+    body: normalizeIncomingBody(body.body),
+    bodyHtml: isEditorJsDoc(body.body) ? undefined : body.bodyHtml,
     updatedAt: body.updatedAt || new Date().toISOString().slice(0, 10),
   }
   try {
