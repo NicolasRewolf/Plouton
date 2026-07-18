@@ -18,5 +18,15 @@
     "ours": "méga-menu éditorial : panneau, flèches animées, chips, drawer mobile, micro-interactions",
     "reason": "Demande Nicolas 2026-07-18 : vrai méga-menu moderne / intuitif avec détails satisfaisants (better-ui).",
     "skill": "better-ui (interruptible transitions, chevron rotate, scale 0.96, contextual icon blur crossfade, layered shadows)"
+  },
+  {
+    "id": "contact-form-editorial-v3",
+    "page": "honoraires-rendez-vous + expertises",
+    "anchor": "component:ContactForm",
+    "property": "layout+ux",
+    "live": "formulaire Wix (champs + PJ + indicatif tél)",
+    "ours": "bandeau avis Google + prix 1er RDV, parcours 3 étapes, modes cabinet/visio/tél avec icônes, urgence, dropzone, CTA + appel",
+    "reason": "Demande Nicolas 2026-07-18 : le formulaire doit donner envie et être au moins aussi clair/complet que le live.",
+    "skill": "better-ui + better-typography"
   }
 ]

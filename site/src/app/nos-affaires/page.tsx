@@ -78,7 +78,7 @@ export default function NosAffairesPage() {
             <h1 className="mt-3 font-display text-[clamp(2rem,4vw,3.25rem)] font-medium leading-[1.08] tracking-[-0.03em] text-navy text-balance">
               {page?.title || "Nos dernières affaires"}
             </h1>
-            <p className="mt-5 text-[16px] leading-relaxed text-muted sm:text-[17px]">
+            <p className="mt-5 max-w-2xl text-[16px] leading-relaxed text-pretty text-muted sm:text-[17px]">
               {INTRO}
             </p>
           </header>

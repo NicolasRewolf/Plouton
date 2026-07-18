@@ -2,6 +2,7 @@ import Image from "next/image"
 import type { AffaireCardItem } from "@/components/AffaireCard"
 import { AffairesCarousel } from "@/components/AffairesCarousel"
 import { ContactForm } from "@/components/ContactForm"
+import { ExpertiseToc, type ExpertiseTocItem } from "@/components/ExpertiseToc"
 import { FaqAccordion } from "@/components/FaqAccordion"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
@@ -25,6 +26,64 @@ function accentSplit(title: string, titleAccent?: string | null) {
   return { accent: null, rest: title }
 }
 
+/** Blocs scrapés remplacés par FAQ / carrousel / ContactForm. */
+function isLegacyScrapedBlock(id: string, labelOrTitle?: string | null) {
+  const key = `${id} ${labelOrTitle || ""}`.toLowerCase()
+  if (id === "contact") return false
+  return (
+    id === "faq" ||
+    id === "affaires" ||
+    /foire-aux-questions|questions-frequentes|affaires-recentes|nos-affaires-recentes|les-dernieres-affaires|actualites|je-prends-rendez-vous|rendez-vous-maintenant|rendez-vous-pour/.test(
+      id
+    ) ||
+    /foire aux questions|questions fr[eé]quentes|affaires r[eé]centes|nos affaires r[eé]centes|derni[eè]res? affaires|^actualit[eé]s|^je prends rendez-vous/.test(
+      key
+    )
+  )
+}
+
+function buildTocItems({
+  expertise,
+  sections,
+  hasFaq,
+  hasAffaires,
+}: {
+  expertise: ExpertisePage
+  sections: ExpertisePage["sections"]
+  hasFaq: boolean
+  hasAffaires: boolean
+}): ExpertiseTocItem[] {
+  const sectionIds = new Set(sections.map((s) => s.id))
+  const items: ExpertiseTocItem[] = []
+
+  for (const t of expertise.toc) {
+    if (isLegacyScrapedBlock(t.id, t.label)) continue
+    if (t.id === "contact") {
+      items.push({ id: "contact", label: "Je prends rendez-vous", isCta: true })
+      continue
+    }
+    if (!sectionIds.has(t.id)) continue
+    items.push({ id: t.id, label: t.label })
+  }
+
+  if (!items.some((i) => i.id === "contact"))
+    items.push({ id: "contact", label: "Je prends rendez-vous", isCta: true })
+
+  if (hasFaq)
+    items.push({
+      id: "faq",
+      label: `FAQ : ${(expertise.blogCategories[0] || expertise.title).toLowerCase()}`,
+    })
+
+  if (hasAffaires)
+    items.push({
+      id: "affaires",
+      label: `Nos affaires : ${(expertise.blogCategories[0] || "actualité").toLowerCase()}`,
+    })
+
+  return items
+}
+
 export function ExpertisePageView({
   expertise,
   site,
@@ -38,8 +97,13 @@ export function ExpertisePageView({
     .replace(/\u200b/g, "")
     .trim()
 
-  const tocPrimary = expertise.toc.filter((t) => !["faq", "affaires"].includes(t.id))
-  const tocSecondary = expertise.toc.filter((t) => ["faq", "affaires"].includes(t.id))
+  const sections = expertise.sections.filter((s) => !isLegacyScrapedBlock(s.id, s.title))
+  const tocItems = buildTocItems({
+    expertise,
+    sections,
+    hasFaq: faq.length > 0,
+    hasAffaires: related.length > 0,
+  })
 
   const schema = [
     organizationSchema(site),
@@ -117,46 +181,14 @@ export function ExpertisePageView({
         </div>
       </section>
 
-      {/* TOC horizontale — pastilles blanches sur bandeau gris */}
-      <nav
-        aria-label="Sommaire"
-        className="sticky top-0 z-20 mt-8 border-y border-line/60 bg-[#f9f9f9]"
-      >
-        <div className="mx-auto flex max-w-[1100px] gap-2 overflow-x-auto px-4 py-3 scrollbar-none">
-          {tocPrimary.map((t) =>
-            t.id === "contact" ? (
-              <a
-                key={t.id}
-                href="#contact"
-                className="inline-flex shrink-0 items-center gap-1.5 rounded-[5px] bg-navy px-3 py-2 text-[10px] font-semibold tracking-wide text-white shadow-sm hover:bg-navy-soft"
-              >
-                {t.label}
-                <span className="text-accent" aria-hidden>
-                  →
-                </span>
-              </a>
-            ) : (
-              <a
-                key={t.id}
-                href={`#${t.id}`}
-                className="inline-flex shrink-0 items-center gap-1.5 rounded-[5px] bg-white px-3 py-2 text-[10px] font-medium tracking-wide text-navy shadow-sm hover:text-accent"
-              >
-                {t.label}
-                <span className="text-accent" aria-hidden>
-                  →
-                </span>
-              </a>
-            )
-          )}
-        </div>
-      </nav>
+      <ExpertiseToc items={tocItems} />
 
       {/* Corps — colonne unique centrée */}
       <div className="mx-auto max-w-[680px] px-5 py-14 lg:px-0">
-        {expertise.sections.map((section) => {
+        {sections.map((section) => {
           const { accent, rest } = accentSplit(section.title, section.titleAccent)
           return (
-            <section key={section.id} id={section.id} className="mb-16 scroll-mt-28">
+            <section key={section.id} id={section.id} className="mb-16 scroll-mt-36">
               <h2 className="font-display text-[clamp(1.25rem,2vw,1.4rem)] font-medium leading-snug tracking-tight">
                 {accent ? (
                   <>
@@ -206,37 +238,43 @@ export function ExpertisePageView({
           )
         })}
 
-        <section
-          id="contact"
-          className="mb-16 scroll-mt-28 border border-line bg-[#f9f9f9] p-6 md:p-8"
-        >
-          <h2 className="font-display text-[1.35rem] font-medium text-navy">
-            {expertise.contactAside?.title || "Je prends rendez-vous"}
-          </h2>
-          <p className="mt-2 text-[14px] leading-relaxed text-navy">
-            {expertise.contactAside?.text ||
-              "Les rendez-vous sont pris dans les 7 jours. En cas d’urgence, le rendez-vous peut être immédiat."}
-          </p>
-          <div className="mt-6 grid gap-8 md:grid-cols-2">
-            <ContactForm defaultObjet={expertise.formObjet} pageSource={expertise.slug} />
-            <div className="space-y-4 text-[14px] text-navy">
-              <div>
-                <p className="font-semibold">Horaires d&apos;ouverture</p>
-                <p className="mt-1 text-muted">{site.hours}</p>
+        <section id="contact" className="mb-16 scroll-mt-36">
+          <div className="grid gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:items-start">
+            <ContactForm
+              defaultObjet={expertise.formObjet}
+              pageSource={expertise.slug}
+              heading={expertise.contactAside?.title || "Je prends rendez-vous"}
+              lead={
+                expertise.contactAside?.text ||
+                "Les rendez-vous sont pris dans les 7 jours. En cas d’urgence, le rendez-vous peut être immédiat."
+              }
+            />
+            <aside className="rounded-[22px] bg-fog/70 p-6 sm:p-7 lg:sticky lg:top-28">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-accent">
+                Le cabinet
+              </p>
+              <div className="mt-5 space-y-5 text-[14px] text-navy">
+                <div>
+                  <p className="font-medium">Horaires</p>
+                  <p className="mt-1 leading-relaxed text-muted">{site.hours}</p>
+                </div>
+                <div>
+                  <p className="font-medium">Téléphone</p>
+                  <a
+                    href={site.phone.href}
+                    className="mt-1 block font-medium text-accent underline-offset-2 hover:underline decoration-from-font"
+                  >
+                    {site.phone.display}
+                  </a>
+                </div>
+                <div>
+                  <p className="font-medium">Adresse</p>
+                  <p className="mt-1 leading-relaxed text-muted">
+                    {site.address.street}, {site.address.postalCode} {site.address.city}
+                  </p>
+                </div>
               </div>
-              <div>
-                <p className="font-semibold">Contact téléphonique</p>
-                <a href={site.phone.href} className="mt-1 block text-accent hover:underline">
-                  {site.phone.display}
-                </a>
-              </div>
-              <div>
-                <p className="font-semibold">Adresse</p>
-                <p className="mt-1 text-muted">
-                  {site.address.street}, {site.address.postalCode} {site.address.city}
-                </p>
-              </div>
-            </div>
+            </aside>
           </div>
         </section>
 
@@ -244,10 +282,7 @@ export function ExpertisePageView({
           <div className="mb-16">
             <FaqAccordion
               items={faq}
-              title={
-                tocSecondary.find((t) => t.id === "faq")?.label ||
-                `Foire aux questions : ${(expertise.blogCategories[0] || expertise.title).toLowerCase()}`
-              }
+              title={`Foire aux questions : ${(expertise.blogCategories[0] || expertise.title).toLowerCase()}`}
             />
           </div>
         ) : null}
@@ -257,10 +292,7 @@ export function ExpertisePageView({
             <AffairesCarousel
               articles={related}
               categoryLabel={expertise.blogCategories[0]}
-              title={
-                tocSecondary.find((t) => t.id === "affaires")?.label ||
-                `Nos affaires : ${(expertise.blogCategories[0] || "actualités").toLowerCase()}`
-              }
+              title={`Nos affaires : ${(expertise.blogCategories[0] || "actualités").toLowerCase()}`}
             />
           </div>
         ) : null}

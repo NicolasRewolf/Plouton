@@ -36,14 +36,6 @@
     {
       "id": "contact",
       "label": "Je prends rendez-vous"
-    },
-    {
-      "id": "faq",
-      "label": "FAQ : droit pénal"
-    },
-    {
-      "id": "affaires",
-      "label": "Nos affaires : droit pénal"
     }
   ],
   "contactAside": {

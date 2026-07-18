@@ -125,7 +125,7 @@ export default function HonorairesRendezVousPage() {
             </section>
           </div>
 
-          <div className="rounded-2xl border border-line bg-white p-6 shadow-sm md:p-8">
+          <div className="lg:sticky lg:top-24 lg:self-start">
             <ContactForm pageSource="honoraires-rendez-vous" defaultObjet="Droit Pénal" />
           </div>
         </div>

@@ -53,15 +53,15 @@ export function FaqAccordion({
   if (!items.length) return null
 
   return (
-    <section id="faq" className="scroll-mt-28">
+    <section id="faq" className="scroll-mt-36">
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
           {title ? (
-            <h2 className="font-display text-[1.35rem] font-medium tracking-[-0.02em] text-navy text-balance">
+            <h2 className="font-display text-[1.35rem] font-medium leading-[1.15] tracking-[-0.02em] text-navy text-balance">
               {title}
             </h2>
           ) : null}
-          <p className="mt-1.5 text-[14px] text-muted">
+          <p className="mt-1.5 text-[14px] tabular-nums text-muted">
             {visible.length} question{visible.length > 1 ? "s" : ""}
             {filter ? ` · ${filter}` : ""}
           </p>
@@ -116,8 +116,8 @@ function FaqChip({
       aria-pressed={active}
       className={
         active
-          ? "shrink-0 rounded-full bg-navy px-4 py-2 text-[13px] font-medium text-white shadow-[0_1px_2px_rgba(23,71,94,0.18)] transition-[transform,background-color,color,box-shadow] duration-200 ease-[cubic-bezier(0.2,0,0,1)] active:scale-[0.96]"
-          : "shrink-0 rounded-full bg-white px-4 py-2 text-[13px] font-medium text-navy shadow-[0_1px_2px_rgba(23,71,94,0.05),0_4px_14px_rgba(23,71,94,0.04)] transition-[transform,background-color,color,box-shadow] duration-200 ease-[cubic-bezier(0.2,0,0,1)] hover:shadow-[0_2px_8px_rgba(23,71,94,0.08)] active:scale-[0.96]"
+          ? "shrink-0 min-h-10 rounded-full bg-navy px-4 py-2 text-[13px] font-medium text-white shadow-[0_1px_2px_rgba(23,71,94,0.18)] transition-[transform,background-color,color,box-shadow] duration-200 ease-[cubic-bezier(0.2,0,0,1)] active:scale-[0.96]"
+          : "shrink-0 min-h-10 rounded-full bg-white px-4 py-2 text-[13px] font-medium text-navy shadow-[0_1px_2px_rgba(23,71,94,0.05),0_4px_14px_rgba(23,71,94,0.04)] transition-[transform,background-color,color,box-shadow] duration-200 ease-[cubic-bezier(0.2,0,0,1)] hover:shadow-[0_2px_8px_rgba(23,71,94,0.08)] active:scale-[0.96]"
       }
     >
       {label}
@@ -128,17 +128,17 @@ function FaqChip({
 function FaqRow({ item }: { item: FaqItem }) {
   return (
     <details className="group rounded-[18px] bg-white p-1 shadow-[0_1px_2px_rgba(23,71,94,0.04),0_8px_22px_rgba(23,71,94,0.05)] transition-[box-shadow] duration-200 ease-[cubic-bezier(0.2,0,0,1)] open:shadow-[0_2px_6px_rgba(23,71,94,0.06),0_14px_32px_rgba(23,71,94,0.08)]">
-      <summary className="flex cursor-pointer list-none items-start justify-between gap-4 rounded-[14px] px-4 py-3.5 font-display text-[15px] font-medium leading-snug tracking-[-0.01em] text-navy sm:px-5 sm:text-[16px]">
+      <summary className="flex min-h-12 cursor-pointer list-none items-start justify-between gap-4 rounded-[14px] px-4 py-3.5 font-display text-[15px] font-medium leading-snug tracking-[-0.01em] text-navy sm:px-5 sm:text-[16px]">
         <span className="text-balance pr-2">{item.question}</span>
         <span
           aria-hidden
-          className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fog text-accent transition-transform duration-200 ease-[cubic-bezier(0.2,0,0,1)] group-open:rotate-45"
+          className="relative mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-fog text-accent transition-transform duration-200 ease-[cubic-bezier(0.2,0,0,1)] group-open:rotate-45 before:absolute before:inset-[-6px] before:content-['']"
         >
           <PlusIcon />
         </span>
       </summary>
       <div className="px-4 pb-4 sm:px-5">
-        <p className="max-w-3xl text-[14px] leading-relaxed text-muted sm:text-[15px] whitespace-pre-line">
+        <p className="max-w-2xl text-[14px] leading-relaxed text-pretty text-muted sm:text-[15px] whitespace-pre-line">
           {item.answer}
         </p>
       </div>

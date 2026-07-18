@@ -85,7 +85,7 @@ export function Header({ variant = "site" }: HeaderProps) {
         <div className="relative mx-auto flex h-[68px] max-w-[1400px] items-center gap-3 px-5 lg:h-[72px] lg:px-8">
           <Link
             href="/"
-            className="relative z-10 flex shrink-0 items-center gap-2.5 transition-opacity duration-200 hover:opacity-80 active:scale-[0.96]"
+            className="relative z-10 flex shrink-0 items-center gap-2.5 transition-[opacity,transform] duration-200 hover:opacity-80 active:scale-[0.96]"
             style={{ transitionTimingFunction: EASE }}
             aria-label="Cabinet Plouton — Accueil"
             onClick={closeNow}
@@ -325,10 +325,10 @@ function MegaPanel({
                 <Link
                   href={child.href}
                   onClick={onNavigate}
-                  className="group flex items-start gap-3 rounded-[16px] px-3.5 py-3.5 transition-[background-color,transform] duration-200 hover:bg-fog active:scale-[0.99]"
+                  className="group flex items-start gap-3 rounded-[16px] px-3.5 py-3.5 transition-[background-color,transform] duration-200 hover:bg-fog active:scale-[0.96]"
                   style={{ transitionTimingFunction: EASE }}
                 >
-                  <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white text-accent shadow-[0_1px_2px_rgba(23,71,94,0.06),0_4px_12px_rgba(23,71,94,0.05)] transition-[transform,background-color,color] duration-200 group-hover:bg-accent group-hover:text-white group-hover:scale-105" style={{ transitionTimingFunction: EASE }}>
+                  <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white pl-px text-accent shadow-[0_1px_2px_rgba(23,71,94,0.06),0_4px_12px_rgba(23,71,94,0.05)] transition-[transform,background-color,color] duration-200 group-hover:bg-accent group-hover:text-white group-hover:scale-105" style={{ transitionTimingFunction: EASE }}>
                     <ArrowRight className="transition-transform duration-200 group-hover:translate-x-px" />
                   </span>
                   <span className="min-w-0 flex-1">
@@ -336,7 +336,7 @@ function MegaPanel({
                       {child.label}
                     </span>
                     {child.hint ? (
-                      <span className="mt-0.5 block text-[12.5px] leading-snug text-muted">
+                      <span className="mt-0.5 block text-[13px] leading-snug text-pretty text-muted">
                         {child.hint}
                       </span>
                     ) : null}
@@ -397,7 +397,7 @@ function MobileDrawer({ open, onClose }: { open: boolean; onClose: () => void })
                     type="button"
                     aria-expanded={isOpen}
                     onClick={() => setExpanded(isOpen ? null : pole.id)}
-                    className="flex w-full items-center justify-between gap-3 rounded-[14px] px-3.5 py-3 text-left transition-[background-color,transform] duration-200 hover:bg-white active:scale-[0.99]"
+                    className="flex min-h-11 w-full items-center justify-between gap-3 rounded-[12px] px-3.5 py-3 text-left transition-[background-color,transform] duration-200 hover:bg-white active:scale-[0.96]"
                     style={{ transitionTimingFunction: EASE }}
                   >
                     <span className="font-display text-[15px] font-medium tracking-[-0.01em] text-navy">
@@ -421,7 +421,7 @@ function MobileDrawer({ open, onClose }: { open: boolean; onClose: () => void })
                             <Link
                               href={c.href}
                               onClick={onClose}
-                              className="group flex items-center justify-between gap-3 rounded-[12px] px-3 py-2.5 text-[14px] text-navy transition-[background-color,color,transform] duration-200 hover:bg-white hover:text-accent active:scale-[0.99]"
+                              className="group flex min-h-11 items-center justify-between gap-3 rounded-[12px] px-3 py-2.5 text-[14px] text-navy transition-[background-color,color,transform] duration-200 hover:bg-white hover:text-accent active:scale-[0.96]"
                               style={{ transitionTimingFunction: EASE }}
                             >
                               <span>{c.label}</span>
@@ -445,7 +445,7 @@ function MobileDrawer({ open, onClose }: { open: boolean; onClose: () => void })
                 key={s.href}
                 href={s.href}
                 onClick={onClose}
-                className="flex items-center justify-between rounded-[14px] px-3.5 py-3 text-[15px] font-medium text-navy transition-[background-color,transform] duration-200 hover:bg-fog active:scale-[0.99]"
+                className="flex min-h-11 items-center justify-between rounded-[14px] px-3.5 py-3 pr-3 text-[15px] font-medium text-navy transition-[background-color,transform] duration-200 hover:bg-fog active:scale-[0.96]"
                 style={{ transitionTimingFunction: EASE }}
               >
                 {s.label}

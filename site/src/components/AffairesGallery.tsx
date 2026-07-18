@@ -66,7 +66,7 @@ export function AffairesGallery({
         ))}
       </nav>
 
-      <p className="mt-5 text-[13px] tabular-nums tracking-wide text-muted">
+      <p className="mt-5 text-[13px] tabular-nums text-muted">
         {filtered.length} affaire{filtered.length > 1 ? "s" : ""}
         {activeSlug ? " dans cette catégorie" : ""}
       </p>
@@ -118,8 +118,8 @@ function FilterChip({
       aria-pressed={active}
       className={
         active
-          ? "shrink-0 rounded-full bg-navy px-4 py-2 text-[13px] font-medium text-white shadow-[0_1px_2px_rgba(23,71,94,0.18)] transition-[transform,background-color,color,box-shadow] duration-200 ease-[cubic-bezier(0.2,0,0,1)] active:scale-[0.96]"
-          : "shrink-0 rounded-full bg-white px-4 py-2 text-[13px] font-medium text-navy shadow-[0_1px_2px_rgba(23,71,94,0.05),0_4px_14px_rgba(23,71,94,0.04)] transition-[transform,background-color,color,box-shadow] duration-200 ease-[cubic-bezier(0.2,0,0,1)] hover:shadow-[0_2px_8px_rgba(23,71,94,0.08)] active:scale-[0.96]"
+          ? "shrink-0 min-h-10 rounded-full bg-navy px-4 py-2 text-[13px] font-medium text-white shadow-[0_1px_2px_rgba(23,71,94,0.18)] transition-[transform,background-color,color,box-shadow] duration-200 ease-[cubic-bezier(0.2,0,0,1)] active:scale-[0.96]"
+          : "shrink-0 min-h-10 rounded-full bg-white px-4 py-2 text-[13px] font-medium text-navy shadow-[0_1px_2px_rgba(23,71,94,0.05),0_4px_14px_rgba(23,71,94,0.04)] transition-[transform,background-color,color,box-shadow] duration-200 ease-[cubic-bezier(0.2,0,0,1)] hover:shadow-[0_2px_8px_rgba(23,71,94,0.08)] active:scale-[0.96]"
       }
     >
       {label}

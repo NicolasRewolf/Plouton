@@ -30,6 +30,31 @@ Pas de jargon. 5 lignes max par livraison.
 - Menu mobile en tiroir, accordéons fluides
 - Micro-détails : chevrons, soulignement accent, fond flou, press scale
 
+## 2026-07-18 — Formulaire RDV refait
+
+- Plus qu’un bloc gris : titre, promesses, mode cabinet/visio/tél, urgence, objets complets
+- Zone fichiers glisser-déposer, consentement, succès soigné
+- Champs alignés API (`prenom`/`nom`) + UTM / Cooked captés dans l’URL
+
+## 2026-07-18 — Expertise : vieilles FAQ / actualités retirées
+
+- Blocs scrapés « Foire aux questions » et « Affaires récentes » enlevés des JSON (14 pages)
+- On garde les vrais composants : accordéon FAQ + carrousel affaires
+- Plus de doublons en bas de page
+
+## 2026-07-18 — Expertise : RDV scrapé + sommaire intelligent
+
+- Sections « Je prends rendez-vous maintenant » retirées (le vrai formulaire suffit)
+- Sommaire sticky sous le header : pastille active selon le scroll + barre rouge de progression
+
+## 2026-07-18 — Formulaire RDV v3 (envie + clarté)
+
+- Bandeau confiance : **avis Google 4,6/5** + prix 1er RDV (180 € / 30 min)
+- Parcours en 3 étapes visibles (écrire → rappel → RDV sous 7 jours)
+- Modes cabinet / visio / tél en cartes avec icônes ; urgence mise en avant
+- Champs plus lisibles (bordures nettes, indicatif +33), CTA + numéro d’appel
+- À voir : `/honoraires-rendez-vous`
+
 ---
 
 ## 2026-07-17 — Audit santé du site (repo au clair)

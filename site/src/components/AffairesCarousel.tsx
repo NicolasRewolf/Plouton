@@ -30,13 +30,13 @@ export function AffairesCarousel({
   }
 
   return (
-    <section id="affaires" className="scroll-mt-28">
+    <section id="affaires" className="scroll-mt-36">
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
-          <h2 className="font-display text-[1.35rem] font-medium tracking-[-0.02em] text-navy text-balance">
-            {title}
-          </h2>
-          <p className="mt-1.5 text-[14px] text-muted">
+          <h2 className="font-display text-[1.35rem] font-medium leading-[1.15] tracking-[-0.02em] text-navy text-balance">
+              {title}
+            </h2>
+          <p className="mt-1.5 text-[14px] tabular-nums text-muted">
             {articles.length} affaire{articles.length > 1 ? "s" : ""} récente
             {articles.length > 1 ? "s" : ""}
           </p>
@@ -60,7 +60,7 @@ export function AffairesCarousel({
           </button>
           <Link
             href={seeAllHref}
-            className="text-[14px] font-medium text-accent underline-offset-2 hover:underline"
+            className="text-[14px] font-medium text-accent decoration-from-font underline-offset-2 hover:underline"
           >
             {seeAllLabel}
           </Link>
@@ -73,7 +73,7 @@ export function AffairesCarousel({
       >
         {articles.map((article) => (
           <div key={article.slug} className="snap-start">
-            <AffaireCard article={article} compact preferredCategory={categoryLabel} />
+            <AffaireCard article={article} compact preferredCategory={categoryLabel} titleAs="h3" />
           </div>
         ))}
       </div>

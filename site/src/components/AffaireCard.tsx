@@ -31,6 +31,7 @@ export function AffaireCard({
   featured,
   compact,
   preferredCategory,
+  titleAs = "h2",
   className = "",
 }: {
   article: AffaireCardItem
@@ -39,6 +40,7 @@ export function AffaireCard({
   compact?: boolean
   /** Sur une page expertise : afficher la catégorie du contexte si présente */
   preferredCategory?: string
+  titleAs?: "h2" | "h3"
   className?: string
 }) {
   const category =
@@ -46,6 +48,7 @@ export function AffaireCard({
       article.categories.find((c) => c.toLowerCase() === preferredCategory.toLowerCase())) ||
     article.categories[0]
   const views = article.viewCount ?? 0
+  const TitleTag = titleAs
 
   return (
     <article
@@ -60,15 +63,14 @@ export function AffaireCard({
     >
       <Link
         href={`/post/${article.slug}`}
-        className="flex h-full flex-col rounded-[22px] bg-white p-2 shadow-[0_1px_2px_rgba(23,71,94,0.04),0_10px_28px_rgba(23,71,94,0.06)] transition-[transform,box-shadow] duration-200 ease-[cubic-bezier(0.2,0,0,1)] hover:-translate-y-0.5 hover:shadow-[0_2px_6px_rgba(23,71,94,0.06),0_18px_40px_rgba(23,71,94,0.1)] active:scale-[0.99]"
+        title={article.title}
+        className="flex h-full flex-col rounded-[22px] bg-white p-2 shadow-[0_1px_2px_rgba(23,71,94,0.04),0_10px_28px_rgba(23,71,94,0.06)] transition-[transform,box-shadow] duration-200 ease-[cubic-bezier(0.2,0,0,1)] hover:-translate-y-0.5 hover:shadow-[0_2px_6px_rgba(23,71,94,0.06),0_18px_40px_rgba(23,71,94,0.1)] active:scale-[0.96]"
       >
         <span
           className={
             featured
               ? "relative block aspect-[16/9] overflow-hidden rounded-[14px] bg-fog sm:aspect-[21/9]"
-              : compact
-                ? "relative block aspect-[16/10] overflow-hidden rounded-[14px] bg-fog"
-                : "relative block aspect-[16/10] overflow-hidden rounded-[14px] bg-fog"
+              : "relative block aspect-[16/10] overflow-hidden rounded-[14px] bg-fog"
           }
         >
           {article.coverImage ? (
@@ -90,7 +92,7 @@ export function AffaireCard({
           )}
           <span
             aria-hidden
-            className="pointer-events-none absolute inset-0 rounded-[14px] outline outline-1 outline-black/10 -outline-offset-1"
+            className="pointer-events-none absolute inset-0 rounded-[14px] outline outline-1 outline-[oklch(0_0_0_/_0.1)] -outline-offset-1"
           />
         </span>
 
@@ -101,27 +103,29 @@ export function AffaireCard({
                 {category}
               </span>
             ) : null}
-            <span className="text-[12px] text-muted">{formatAffaireDate(article.publishedAt)}</span>
+            <span className="text-[12px] tabular-nums text-muted">
+              {formatAffaireDate(article.publishedAt)}
+            </span>
           </div>
 
-          <h2
+          <TitleTag
             className={
               featured
-                ? "mt-2.5 font-display text-[22px] font-medium leading-[1.2] tracking-[-0.02em] text-navy text-balance sm:text-[28px]"
+                ? "mt-2.5 font-display text-[22px] font-medium leading-[1.15] tracking-[-0.02em] text-navy text-balance sm:text-[28px]"
                 : compact
-                  ? "mt-2 font-display text-[16px] font-medium leading-[1.25] tracking-[-0.015em] text-navy text-balance"
-                  : "mt-2.5 font-display text-[18px] font-medium leading-[1.25] tracking-[-0.015em] text-navy text-balance sm:text-[19px]"
+                  ? "mt-2 font-display text-[16px] font-medium leading-[1.2] tracking-[-0.015em] text-navy text-balance"
+                  : "mt-2.5 font-display text-[18px] font-medium leading-[1.2] tracking-[-0.015em] text-navy text-balance sm:text-[19px]"
             }
           >
-            <span className={compact ? "line-clamp-3" : "line-clamp-3"}>{article.title}</span>
-          </h2>
+            <span className="line-clamp-3">{article.title}</span>
+          </TitleTag>
 
           {article.excerpt && !compact ? (
             <p
               className={
                 featured
-                  ? "mt-3 line-clamp-2 max-w-2xl text-[15px] leading-relaxed text-muted"
-                  : "mt-2.5 line-clamp-2 text-[14px] leading-relaxed text-muted"
+                  ? "mt-3 line-clamp-2 max-w-2xl text-[15px] leading-relaxed text-pretty text-muted"
+                  : "mt-2.5 line-clamp-2 text-[14px] leading-relaxed text-pretty text-muted"
               }
             >
               {article.excerpt}
@@ -129,7 +133,9 @@ export function AffaireCard({
           ) : null}
 
           {article.excerpt && compact ? (
-            <p className="mt-2 line-clamp-2 text-[13px] leading-relaxed text-muted">{article.excerpt}</p>
+            <p className="mt-2 line-clamp-2 text-[13px] leading-relaxed text-pretty text-muted">
+              {article.excerpt}
+            </p>
           ) : null}
 
           <div className="mt-auto flex items-center gap-3 pt-3 text-[12px] tabular-nums text-muted">
@@ -142,7 +148,7 @@ export function AffaireCard({
                 <span aria-hidden className="text-line">
                   ·
                 </span>
-                <span>{article.minutesToRead} min</span>
+                <span>{article.minutesToRead}&nbsp;min</span>
               </>
             ) : null}
             {!compact ? (
