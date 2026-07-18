@@ -5,6 +5,12 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Illustrations hero pages expertise
+
+- 13 visuels fournis branchés dans `site/public/brand/expertises/` (noms = slugs)
+- Manque encore : **divorce** (ancienne image conservée)
+- À voir sur n’importe quelle page expertise (photo en haut à droite)
+
 ## 2026-07-18 — Home : section « À vos côtés » avec photo équipe
 
 - Sous le hero : photo de groupe à gauche, texte à droite (comme le site actuel)
