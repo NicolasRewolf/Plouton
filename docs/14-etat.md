@@ -1,6 +1,6 @@
 # État d'avancement — Plouton
 
-_Mis à jour : 2026-07-18 (Médias + hub Ressources)_
+_Mis à jour : 2026-07-18 (hubs pôles + Défense des élus + redirects)_
 
 Vue unique de « où on en est ». À relire en premier, mettre à jour à chaque grande étape.
 Détail des livraisons dans [`../JOURNAL.md`](../JOURNAL.md).
@@ -31,8 +31,9 @@ Audit santé : [`15-audit-sante.md`](15-audit-sante.md).
 ## ✅ Fait — contenu & site (socle)
 
 - **422 articles**, 17 catégories, tags, **6 membres** d'équipe, **FAQ unifiée**
-- **14 pages expertises** (3 pôles) + pages cabinet
-- `/blog` + catégories ; **161 redirections 301** ; médias rapatriés
+- **15 pages expertises** (3 pôles, dont Défense des élus) + pages cabinet
+- **3 hubs de pôles** (`/defense-penale`, `/indemnisation-des-victimes`, `/droit-des-contrats-et-des-personnes`)
+- `/blog` + catégories ; **161 redirections 301** (cibles `/nos-affaires/categories` → `/blog/categories`) ; médias rapatriés
 - Gabarit article `/post/{slug}` (Ricos) + SEO titres/metas live
 - Backoffice **blog** + **demandes** (`/admin`, auth)
 
@@ -57,14 +58,14 @@ Audit santé : [`15-audit-sante.md`](15-audit-sante.md).
 **Verdict :** le socle tourne, mais **ce n’est pas un site fini** pour remplacer Wix.
 
 Trous majeurs encore ouverts :
-1. Page **Défense des élus** absente (existe sur le live)
-2. **3 hubs de pôles** → 404 (JSON déjà capturé)
+1. ~~Page **Défense des élus** absente~~ → ✅
+2. ~~**3 hubs de pôles** → 404~~ → ✅
 3. **Simulateurs divorce** + **recherche** = morts / non branchés
-4. Redirects vers des URLs Next inexistantes (`/nos-affaires/categories/…`)
+4. ~~Redirects vers des URLs Next inexistantes (`/nos-affaires/categories/…`)~~ → ✅
 5. Polish UI « site fini » encore loin (pixel en pause, pages listes pauvres)
 6. **C5** publish live pas là (public = encore JSON git)
 
-Gagné : 14 expertises, 422 posts, formulaires/admin, légales, Header figé, **Médias** + **hub Ressources**.
+Gagné : 15 expertises, 3 hubs pôles, 422 posts, formulaires/admin, légales, Header figé, **Médias** + **hub Ressources**.
 
 ## 🔜 Backlog site public (ordre logique — 2026-07-18)
 
@@ -72,10 +73,11 @@ Gagné : 14 expertises, 422 posts, formulaires/admin, légales, Header figé, **
 |---|----------|--------|
 | 1 | **Médias** — vraie grille (pas stub) + bon lien menu | ✅ |
 | 2 | **Ressources** — hub thématique `/comprendre-le-droit` | ✅ |
-| 3 | **3 hubs pôles** (JSON déjà là → pages) | à faire |
-| 4 | Expertise **Défense des élus** + menu | à faire |
-| 5 | **Redirects** cassés (`/nos-affaires/categories` → blog) | à faire |
-| 6 | **C5** — publish live (site lit la DB) | à faire |
+| 3 | **3 hubs pôles** (JSON déjà là → pages) | ✅ |
+| 4 | Expertise **Défense des élus** + menu | ✅ |
+| 5 | **Redirects** cassés (`/nos-affaires/categories` → blog) | ✅ |
+| 6 | **C5** — **priorité critique** : site public lit Supabase (collections + filtres, style Wix dataset) — joyeux bordel annoncé | à faire (gros) |
+
 | 7 | Recherche + simulateurs divorce (ou paliers) | plus tard |
 | 8 | Polish UI (accueil, listes, vernis) | au fil de l’eau |
 
