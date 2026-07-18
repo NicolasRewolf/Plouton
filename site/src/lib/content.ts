@@ -23,6 +23,9 @@ export interface SiteConfig {
   url: string
   name: string
   legalName: string
+  siren?: string
+  siret?: string
+  vatNumber?: string
   tagline: string
   title: string
   description: string
@@ -133,6 +136,22 @@ export interface ExpertisePage {
   }[]
 }
 
+export interface LegalSubsection {
+  id?: string
+  title: string
+  paragraphs: string[]
+}
+
+export interface LegalSection {
+  id?: string
+  title?: string
+  paragraphs?: string[]
+  subsections?: LegalSubsection[]
+  /** Ancien scrape Wix (pages non légales) */
+  body?: string
+  blocks?: { heading?: string; body?: string }[]
+}
+
 export interface ContentPage {
   slug: string
   path?: string
@@ -140,11 +159,17 @@ export interface ContentPage {
   metaTitle?: string
   metaDescription?: string
   intro?: string
-  sections?: {
-    title?: string
-    blocks?: { heading?: string; body?: string }[]
-  }[]
+  sections?: LegalSection[]
   fullText?: string
+}
+
+/** Pages légales structurées (mentions, confidentialité, cookies). */
+export interface LegalPageContent extends ContentPage {
+  h1?: string
+  updatedAt?: string
+  todos?: string[]
+  relatedLinks?: { href: string; label: string }[]
+  sections?: LegalSection[]
 }
 
 export interface FaqItem {
@@ -279,6 +304,14 @@ export const getContentPage = cache(function getContentPage(
   const file = path.join(root, "pages", `${slug}.json`)
   if (!fs.existsSync(file)) return null
   return readJson<ContentPage>(path.join("pages", `${slug}.json`))
+})
+
+export const getLegalPage = cache(function getLegalPage(
+  slug: string
+): LegalPageContent | null {
+  const file = path.join(root, "pages", `${slug}.json`)
+  if (!fs.existsSync(file)) return null
+  return readJson<LegalPageContent>(path.join("pages", `${slug}.json`))
 })
 
 export function readPageJson<T>(slug: string): T | null {

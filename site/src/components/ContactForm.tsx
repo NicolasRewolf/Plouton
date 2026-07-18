@@ -502,10 +502,10 @@ export function ContactForm({
             J’accepte que le Cabinet Plouton traite mes données pour me recontacter au sujet de ma
             demande.{" "}
             <a
-              href="/mentions-legales"
+              href="/politique-de-confidentialite"
               className="text-navy underline-offset-2 hover:underline decoration-from-font"
             >
-              Mentions légales
+              Politique de confidentialité
             </a>
             . <span className="text-accent">*</span>
           </span>

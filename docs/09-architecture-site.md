@@ -31,7 +31,7 @@ Taxonomie déjà utilisée par **Cooked** (`cooked_page_type`) — on la reprend
 
 | Type | URLs typiques | Rôle |
 |------|---------------|------|
-| **cabinet** | `/`, `/notre-cabinet`, `/honoraires-rendez-vous`, `/mentions-legales`, `/comprendre-le-droit` | Institutionnel / conversion |
+| **cabinet** | `/`, `/notre-cabinet`, `/honoraires-rendez-vous`, `/mentions-legales`, `/politique-de-confidentialite`, `/cookies`, `/comprendre-le-droit` | Institutionnel / conversion / légal |
 | **hub** | `/defense-penale`, `/indemnisation-des-victimes`, `/droit-des-contrats-et-des-personnes` | Entrée d’un pôle (3) |
 | **expertise** | `/…/accidents-de-la-route`, `/…/avocat-divorce-bordeaux`, etc. | Page SEO longue + FAQ + form + preuves |
 | **post** | `/post/{slug}` | Article |
@@ -156,6 +156,17 @@ Slots ordonnés (tous optionnels sauf hero + form) :
 7. **Formulaire** (même composant, `page_source` = path)
 
 Une nouvelle expertise = **données + contenu**, presque **zéro nouveau composant**.
+
+### Gabarit `LegalPageView` (pages légales)
+
+Un seul gabarit pour :
+- `/mentions-legales`
+- `/politique-de-confidentialite`
+- `/cookies`
+
+Contenu JSON dans `contenu/pages/{slug}.json` (sections + `id` pour TOC).  
+UI : `LegalPageView` + `LegalToc` (sticky — pastilles mobile, rail desktop).  
+Pas de page React unique par URL au-delà de la route fine.
 
 ### Gabarit `BlogListing`
 

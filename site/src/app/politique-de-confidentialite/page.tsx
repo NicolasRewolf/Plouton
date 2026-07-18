@@ -4,17 +4,17 @@ import { LegalPageView } from "@/components/LegalPageView"
 import { getLegalPage } from "@/lib/content"
 
 export function generateMetadata(): Metadata {
-  const page = getLegalPage("mentions-legales")
-  if (!page) return { title: "Mentions légales" }
+  const page = getLegalPage("politique-de-confidentialite")
+  if (!page) return { title: "Politique de confidentialité" }
   return {
     title: { absolute: page.metaTitle || page.h1 || page.title },
     description: page.metaDescription,
-    alternates: { canonical: "/mentions-legales" },
+    alternates: { canonical: "/politique-de-confidentialite" },
   }
 }
 
-export default function MentionsLegalesPage() {
-  const page = getLegalPage("mentions-legales")
+export default function PolitiqueConfidentialitePage() {
+  const page = getLegalPage("politique-de-confidentialite")
   if (!page) notFound()
   return <LegalPageView page={page} />
 }

@@ -78,5 +78,15 @@
     "ours": "/defense-penale/trafic-de-stupefiants (avec s) + livePath pour le check",
     "reason": "URL Next déjà en plural ; Wix live en singulier. On ne casse pas nos liens internes.",
     "skill": "—"
+  },
+  {
+    "id": "legal-pages-minimal-toc-v1",
+    "page": "mentions-legales + politique-de-confidentialite + cookies",
+    "anchor": "page:/mentions-legales",
+    "property": "layout+content",
+    "live": "bloc texte unique Wix (mentions + données perso obsolètes CNIL 1978), pas de TOC, pas de page confidentialité dédiée",
+    "ours": "LegalPageView minimal (H1/H2/H3) + TOC sticky (rail desktop / pastilles mobile) ; 3 JSON structurés ; données société croisées API entreprises",
+    "reason": "Demande Nicolas 2026-07-18 : pages légales obligatoires, hyper minimalistes, TOC sticky — side mission cloisonnée hors chantier Footer Fable.",
+    "skill": "better-ui (sticky TOC, scale press pastilles) + better-typography (measure, hierarchy H1→H3, text-balance)"
   }
 ]

@@ -23,6 +23,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/medias",
     "/comprendre-le-droit",
     "/mentions-legales",
+    "/politique-de-confidentialite",
+    "/cookies",
   ].map((path) => ({
     url: `${site.url}${path}`,
     lastModified: new Date(),
