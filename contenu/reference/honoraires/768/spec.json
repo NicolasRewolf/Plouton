@@ -1,6 +1,6 @@
 {
  "meta": {
-  "url": "https://www.jplouton-avocat.fr/honoraires-rendez-vous?cooked_aid=kmp7qnjwlbmrpij5kktruhd78jbnmrpij5kk&cooked_sid=cn4ucv69ackmrpij5kk",
+  "url": "https://www.jplouton-avocat.fr/honoraires-rendez-vous?cooked_aid=58mgj0a7c7omrq3up17t9r8w7fkw3imrq3up17&cooked_sid=er77f6528dfmrq3up17",
   "pageHeight": 6472,
   "viewportW": 768,
   "viewportH": 1024,
@@ -14,12 +14,13 @@
   "viewportId": "768",
   "target": "live",
   "origin": "https://www.jplouton-avocat.fr",
-  "capturedAt": "2026-07-17T22:31:57.180Z"
+  "capturedAt": "2026-07-18T08:28:47.586Z"
  },
  "blocks": [
   {
    "key": "b:p:Search#1",
    "role": "p",
+   "zone": "header",
    "text": "Search",
    "fullTextLen": 6,
    "x": 362.98,
@@ -56,6 +57,7 @@
   {
    "key": "b:a:Contact & RDV#1",
    "role": "a",
+   "zone": "header",
    "text": "Contact & RDV",
    "fullTextLen": 13,
    "x": 502.16,
@@ -92,6 +94,7 @@
   {
    "key": "b:p:Menu mobile - burger#1",
    "role": "p",
+   "zone": "header",
    "text": "Menu mobile - burger",
    "fullTextLen": 20,
    "x": 686.98,
@@ -128,6 +131,7 @@
   {
    "key": "b:p:4,6/5 étoiles (193 avis) sur Google#1",
    "role": "p",
+   "zone": "main",
    "text": "4,6/5 étoiles (193 avis) sur Google",
    "fullTextLen": 35,
    "x": 382.83,
@@ -164,6 +168,7 @@
   {
    "key": "b:h1:Prise de rendez-vous, accès & honoraires#1",
    "role": "h1",
+   "zone": "main",
    "text": "Prise de rendez-vous, accès & honoraires",
    "fullTextLen": 40,
    "x": 48.25,
@@ -200,6 +205,7 @@
   {
    "key": "b:p:Merci de compléter le formulaire en exposant votre situation. Votre demande est #1",
    "role": "p",
+   "zone": "main",
    "text": "Merci de compléter le formulaire en exposant votre situation. Votre demande est ",
    "fullTextLen": 272,
    "x": 48.25,
@@ -236,6 +242,7 @@
   {
    "key": "b:h2:Honoraires#1",
    "role": "h2",
+   "zone": "main",
    "text": "Honoraires",
    "fullTextLen": 10,
    "x": 72,
@@ -272,6 +279,7 @@
   {
    "key": "b:p:Le premier rendez-vous est de 30 minutes maximum et est facturé 180 € TTC.#1",
    "role": "p",
+   "zone": "main",
    "text": "Le premier rendez-vous est de 30 minutes maximum et est facturé 180 € TTC.",
    "fullTextLen": 74,
    "x": 72,
@@ -308,6 +316,7 @@
   {
    "key": "b:p:​#1",
    "role": "p",
+   "zone": "main",
    "text": "​",
    "fullTextLen": 1,
    "x": 72,
@@ -344,6 +353,7 @@
   {
    "key": "b:p:Ce temps d'échange nous permet de comprendre votre situation, d'examiner les pre#1",
    "role": "p",
+   "zone": "main",
    "text": "Ce temps d'échange nous permet de comprendre votre situation, d'examiner les pre",
    "fullTextLen": 506,
    "x": 72,
@@ -380,6 +390,7 @@
   {
    "key": "b:p:→ Convention d'honoraires#1",
    "role": "p",
+   "zone": "main",
    "text": "→ Convention d'honoraires",
    "fullTextLen": 25,
    "x": 85,
@@ -416,6 +427,7 @@
   {
    "key": "b:p:→ Protection juridique & défense recours#1",
    "role": "p",
+   "zone": "main",
    "text": "→ Protection juridique & défense recours",
    "fullTextLen": 40,
    "x": 85,
@@ -452,6 +464,7 @@
   {
    "key": "b:h2:Horaires et coordonnées#1",
    "role": "h2",
+   "zone": "main",
    "text": "Horaires et coordonnées",
    "fullTextLen": 23,
    "x": 72,
@@ -488,6 +501,7 @@
   {
    "key": "b:p:Le cabinet Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. Nous sommes#1",
    "role": "p",
+   "zone": "main",
    "text": "Le cabinet Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. Nous sommes",
    "fullTextLen": 208,
    "x": 72,
@@ -524,6 +538,7 @@
   {
    "key": "b:p:05 56 44 35 96#1",
    "role": "p",
+   "zone": "main",
    "text": "05 56 44 35 96",
    "fullTextLen": 14,
    "x": 72,
@@ -560,6 +575,7 @@
   {
    "key": "b:p:15 Pl. Sainte-Eulalie, 33000 Bordeaux#1",
    "role": "p",
+   "zone": "main",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "fullTextLen": 37,
    "x": 72,
@@ -596,6 +612,7 @@
   {
    "key": "b:p:→ Accès#1",
    "role": "p",
+   "zone": "main",
    "text": "→ Accès",
    "fullTextLen": 7,
    "x": 85,
@@ -632,6 +649,7 @@
   {
    "key": "b:p:Prénom*#1",
    "role": "p",
+   "zone": "main",
    "text": "Prénom*",
    "fullTextLen": 7,
    "x": 97,
@@ -668,6 +686,7 @@
   {
    "key": "b:p:Nom*#1",
    "role": "p",
+   "zone": "main",
    "text": "Nom*",
    "fullTextLen": 4,
    "x": 396,
@@ -704,6 +723,7 @@
   {
    "key": "b:p:Nom de l'entreprise (si concernée)#1",
    "role": "p",
+   "zone": "main",
    "text": "Nom de l'entreprise (si concernée)",
    "fullTextLen": 34,
    "x": 97,
@@ -740,6 +760,7 @@
   {
    "key": "b:p:Email*#1",
    "role": "p",
+   "zone": "main",
    "text": "Email*",
    "fullTextLen": 6,
    "x": 97,
@@ -776,6 +797,7 @@
   {
    "key": "b:p:Téléphone*#1",
    "role": "p",
+   "zone": "main",
    "text": "Téléphone*",
    "fullTextLen": 10,
    "x": 396,
@@ -812,6 +834,7 @@
   {
    "key": "b:p:Objet de ma demande#1",
    "role": "p",
+   "zone": "main",
    "text": "Objet de ma demande",
    "fullTextLen": 19,
    "x": 97,
@@ -848,6 +871,7 @@
   {
    "key": "b:p:Ignorez si incertain.#1",
    "role": "p",
+   "zone": "main",
    "text": "Ignorez si incertain.",
    "fullTextLen": 21,
    "x": 97,
@@ -884,6 +908,7 @@
   {
    "key": "b:p:Message*#1",
    "role": "p",
+   "zone": "main",
    "text": "Message*",
    "fullTextLen": 8,
    "x": 97,
@@ -920,6 +945,7 @@
   {
    "key": "b:p:Je joins des fichiers à mon dossier#1",
    "role": "p",
+   "zone": "main",
    "text": "Je joins des fichiers à mon dossier",
    "fullTextLen": 35,
    "x": 97,
@@ -956,6 +982,7 @@
   {
    "key": "b:p:Ajouter des fichiers#1",
    "role": "p",
+   "zone": "main",
    "text": "Ajouter des fichiers",
    "fullTextLen": 20,
    "x": 141,
@@ -992,6 +1019,7 @@
   {
    "key": "b:p:Je prends rendez-vous#1",
    "role": "p",
+   "zone": "main",
    "text": "Je prends rendez-vous",
    "fullTextLen": 21,
    "x": 318.23,
@@ -1028,6 +1056,7 @@
   {
    "key": "b:h2:Accès & Parking#1",
    "role": "h2",
+   "zone": "main",
    "text": "Accès & Parking",
    "fullTextLen": 15,
    "x": 72,
@@ -1064,6 +1093,7 @@
   {
    "key": "b:p:Adresse du cabinet principal#1",
    "role": "p",
+   "zone": "main",
    "text": "Adresse du cabinet principal",
    "fullTextLen": 28,
    "x": 72,
@@ -1100,6 +1130,7 @@
   {
    "key": "b:p:15 Pl. Sainte-Eulalie, 33000 Bordeaux#2",
    "role": "p",
+   "zone": "main",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "fullTextLen": 37,
    "x": 72,
@@ -1136,6 +1167,7 @@
   {
    "key": "b:p:Vous venez en voiture ?#1",
    "role": "p",
+   "zone": "main",
    "text": "Vous venez en voiture ?",
    "fullTextLen": 23,
    "x": 72,
@@ -1172,6 +1204,7 @@
   {
    "key": "b:p:Vous pouvez vous garer autour de l'Eglise Saint-Eulalie. Vous venez en tramway ?#1",
    "role": "p",
+   "zone": "main",
    "text": "Vous pouvez vous garer autour de l'Eglise Saint-Eulalie. Vous venez en tramway ?",
    "fullTextLen": 159,
    "x": 72,
@@ -1208,6 +1241,7 @@
   {
    "key": "b:h2:Convention d'honoraires du cabinet#1",
    "role": "h2",
+   "zone": "main",
    "text": "Convention d'honoraires du cabinet",
    "fullTextLen": 34,
    "x": 72.5,
@@ -1244,6 +1278,7 @@
   {
    "key": "b:p:​Chaque dossier fera l’objet d’une convention d’honoraires spécifique. Les honor#1",
    "role": "p",
+   "zone": "main",
    "text": "​Chaque dossier fera l’objet d’une convention d’honoraires spécifique. Les honor",
    "fullTextLen": 165,
    "x": 72.5,
@@ -1280,6 +1315,7 @@
   {
    "key": "b:p:​#2",
    "role": "p",
+   "zone": "main",
    "text": "​",
    "fullTextLen": 1,
    "x": 72.5,
@@ -1316,6 +1352,7 @@
   {
    "key": "b:p:la complexité de l’affaire#1",
    "role": "p",
+   "zone": "main",
    "text": "la complexité de l’affaire",
    "fullTextLen": 26,
    "x": 97.69,
@@ -1352,6 +1389,7 @@
   {
    "key": "b:p:l’importance du travail à effectuer#1",
    "role": "p",
+   "zone": "main",
    "text": "l’importance du travail à effectuer",
    "fullTextLen": 35,
    "x": 97.69,
@@ -1388,6 +1426,7 @@
   {
    "key": "b:p:la situation personnelle du client#1",
    "role": "p",
+   "zone": "main",
    "text": "la situation personnelle du client",
    "fullTextLen": 34,
    "x": 97.69,
@@ -1424,6 +1463,7 @@
   {
    "key": "b:p:l’importance des frais exposés#1",
    "role": "p",
+   "zone": "main",
    "text": "l’importance des frais exposés",
    "fullTextLen": 30,
    "x": 97.69,
@@ -1460,6 +1500,7 @@
   {
    "key": "b:p:​#3",
    "role": "p",
+   "zone": "main",
    "text": "​",
    "fullTextLen": 1,
    "x": 72.5,
@@ -1496,6 +1537,7 @@
   {
    "key": "b:p:Dans le cadre de l’indemnisation d’un dommage corporel, la rémunération du cabin#1",
    "role": "p",
+   "zone": "main",
    "text": "Dans le cadre de l’indemnisation d’un dommage corporel, la rémunération du cabin",
    "fullTextLen": 211,
    "x": 72.5,
@@ -1532,6 +1574,7 @@
   {
    "key": "b:p:​#4",
    "role": "p",
+   "zone": "main",
    "text": "​",
    "fullTextLen": 1,
    "x": 72.5,
@@ -1568,6 +1611,7 @@
   {
    "key": "b:p:une partie fixe correspondant à l’étude et aux frais de dossier#1",
    "role": "p",
+   "zone": "main",
    "text": "une partie fixe correspondant à l’étude et aux frais de dossier",
    "fullTextLen": 63,
    "x": 97.69,
@@ -1604,6 +1648,7 @@
   {
    "key": "b:p:une partie variable correspondant aux honoraires dits de résultat (évalué en pou#1",
    "role": "p",
+   "zone": "main",
    "text": "une partie variable correspondant aux honoraires dits de résultat (évalué en pou",
    "fullTextLen": 117,
    "x": 97.69,
@@ -1640,6 +1685,7 @@
   {
    "key": "b:p:Découvrir notre équipe#1",
    "role": "p",
+   "zone": "main",
    "text": "Découvrir notre équipe",
    "fullTextLen": 22,
    "x": 302.22,
@@ -1676,6 +1722,7 @@
   {
    "key": "b:h2:Protection juridique, défense recours#1",
    "role": "h2",
+   "zone": "main",
    "text": "Protection juridique, défense recours",
    "fullTextLen": 37,
    "x": 72,
@@ -1712,6 +1759,7 @@
   {
    "key": "b:p:Le cabinet intervient également dans le cadre de la Garantie Protection Juridiqu#1",
    "role": "p",
+   "zone": "main",
    "text": "Le cabinet intervient également dans le cadre de la Garantie Protection Juridiqu",
    "fullTextLen": 409,
    "x": 72,
@@ -1748,6 +1796,7 @@
   {
    "key": "b:p:S’agissant d'une aide juridictionnelle, notre cabinet n’intervient en principe p#1",
    "role": "p",
+   "zone": "main",
    "text": "S’agissant d'une aide juridictionnelle, notre cabinet n’intervient en principe p",
    "fullTextLen": 553,
    "x": 72,
@@ -1784,6 +1833,7 @@
   {
    "key": "b:p:Enfin, conformément aux dispositions de l’article R. 156-1 du Code de la consomm#1",
    "role": "p",
+   "zone": "main",
    "text": "Enfin, conformément aux dispositions de l’article R. 156-1 du Code de la consomm",
    "fullTextLen": 197,
    "x": 72,
@@ -1820,6 +1870,7 @@
   {
    "key": "b:p:Médiateur de la consommation de la profession d’avocat 22 rue de Londres, 75009 #1",
    "role": "p",
+   "zone": "main",
    "text": "Médiateur de la consommation de la profession d’avocat 22 rue de Londres, 75009 ",
    "fullTextLen": 85,
    "x": 72,
@@ -1856,6 +1907,7 @@
   {
    "key": "b:p:Site Internet#1",
    "role": "p",
+   "zone": "main",
    "text": "Site Internet",
    "fullTextLen": 13,
    "x": 72,
@@ -1892,6 +1944,7 @@
   {
    "key": "b:p:© Site web imaginé par l'agence REWOLF | rewolf.studio#1",
    "role": "p",
+   "zone": "footer",
    "text": "© Site web imaginé par l'agence REWOLF | rewolf.studio",
    "fullTextLen": 54,
    "x": 47.5,
@@ -1928,6 +1981,7 @@
   {
    "key": "b:p:Menu#1",
    "role": "p",
+   "zone": "footer",
    "text": "Menu",
    "fullTextLen": 4,
    "x": 48.5,
@@ -1964,6 +2018,7 @@
   {
    "key": "b:p:Accueil#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accueil",
    "fullTextLen": 7,
    "x": 49,
@@ -2000,6 +2055,7 @@
   {
    "key": "b:p:Notre cabinet#1",
    "role": "p",
+   "zone": "footer",
    "text": "Notre cabinet",
    "fullTextLen": 13,
    "x": 49,
@@ -2036,6 +2092,7 @@
   {
    "key": "b:p:Rendez-vous, accès & honoraires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "fullTextLen": 31,
    "x": 49,
@@ -2072,6 +2129,7 @@
   {
    "key": "b:p:Nos affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Nos affaires",
    "fullTextLen": 12,
    "x": 49,
@@ -2108,6 +2166,7 @@
   {
    "key": "b:p:Ressources#1",
    "role": "p",
+   "zone": "footer",
    "text": "Ressources",
    "fullTextLen": 10,
    "x": 49,
@@ -2144,6 +2203,7 @@
   {
    "key": "b:p:Mentions légales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Mentions légales",
    "fullTextLen": 16,
    "x": 49,
@@ -2180,6 +2240,7 @@
   {
    "key": "b:p:Défense Pénale#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense Pénale",
    "fullTextLen": 14,
    "x": 47.5,
@@ -2216,6 +2277,7 @@
   {
    "key": "b:p:Droit pénal#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal",
    "fullTextLen": 11,
    "x": 48,
@@ -2252,6 +2314,7 @@
   {
    "key": "b:p:Procès criminels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Procès criminels",
    "fullTextLen": 16,
    "x": 48,
@@ -2288,6 +2351,7 @@
   {
    "key": "b:p:Trafic de stupéfiants#1",
    "role": "p",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "fullTextLen": 21,
    "x": 48,
@@ -2324,6 +2388,7 @@
   {
    "key": "b:p:Violences conjugales et féminicides#1",
    "role": "p",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "fullTextLen": 35,
    "x": 48,
@@ -2360,6 +2425,7 @@
   {
    "key": "b:p:Droit pénal des affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "fullTextLen": 24,
    "x": 48,
@@ -2396,6 +2462,7 @@
   {
    "key": "b:p:Indemnisation des victimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "fullTextLen": 26,
    "x": 389.22,
@@ -2432,6 +2499,7 @@
   {
    "key": "b:p:Victimes de délits ou crimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "fullTextLen": 28,
    "x": 389.72,
@@ -2468,6 +2536,7 @@
   {
    "key": "b:p:Accidents de la route#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la route",
    "fullTextLen": 21,
    "x": 389.72,
@@ -2504,6 +2573,7 @@
   {
    "key": "b:p:Droit et accidents du travail#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "fullTextLen": 29,
    "x": 389.72,
@@ -2540,6 +2610,7 @@
   {
    "key": "b:p:Accidents et erreurs médicales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "fullTextLen": 30,
    "x": 389.72,
@@ -2576,6 +2647,7 @@
   {
    "key": "b:p:Accidents de la vie courante#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "fullTextLen": 28,
    "x": 389.72,
@@ -2612,6 +2684,7 @@
   {
    "key": "b:p:Droit des contrats et des personnes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "fullTextLen": 35,
    "x": 389.22,
@@ -2648,6 +2721,7 @@
   {
    "key": "b:p:Droit des assurances particuliers et professionnels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "fullTextLen": 51,
    "x": 389.72,
@@ -2684,6 +2758,7 @@
   {
    "key": "b:p:Défense des consommateurs#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "fullTextLen": 25,
    "x": 389.72,
@@ -2720,6 +2795,7 @@
   {
    "key": "b:p:Droit de la famille#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit de la famille",
    "fullTextLen": 19,
    "x": 389.72,
@@ -2756,6 +2832,7 @@
   {
    "key": "b:p:Divorce#1",
    "role": "p",
+   "zone": "footer",
    "text": "Divorce",
    "fullTextLen": 7,
    "x": 389.72,
@@ -2792,6 +2869,7 @@
   {
    "key": "b:p:05 56 44 35 96#2",
    "role": "p",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "fullTextLen": 14,
    "x": 59,
@@ -2828,6 +2906,7 @@
   {
    "key": "b:p:Contact & RDV#1",
    "role": "p",
+   "zone": "footer",
    "text": "Contact & RDV",
    "fullTextLen": 13,
    "x": 197.33,
@@ -2864,6 +2943,7 @@
   {
    "key": "b:p:Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R#1",
    "role": "p",
+   "zone": "footer",
    "text": "Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R",
    "fullTextLen": 136,
    "x": 49.02,
@@ -2900,6 +2980,7 @@
   {
    "key": "b:p:Contact#1",
    "role": "p",
+   "zone": "footer",
    "text": "Contact",
    "fullTextLen": 7,
    "x": 47.5,
@@ -2938,6 +3019,7 @@
   {
    "key": "i:button:Search#1",
    "role": "button",
+   "zone": "header",
    "text": "Search",
    "x": 362.98,
    "y": 12,
@@ -2965,6 +3047,7 @@
   {
    "key": "i:button:Menu mobile - burger#1",
    "role": "button",
+   "zone": "header",
    "text": "Menu mobile - burger",
    "x": 686.98,
    "y": 21,
@@ -2992,6 +3075,7 @@
   {
    "key": "i:a:4,6/5 étoiles (193 avis) sur Google#1",
    "role": "a",
+   "zone": "main",
    "text": "4,6/5 étoiles (193 avis) sur Google",
    "x": 382.83,
    "y": 106,
@@ -3019,6 +3103,7 @@
   {
    "key": "i:a:mode de calcul retenu#1",
    "role": "a",
+   "zone": "main",
    "text": "mode de calcul retenu",
    "x": 221.55,
    "y": 1745.61,
@@ -3046,6 +3131,7 @@
   {
    "key": "i:a:→ Convention d'honoraires#1",
    "role": "a",
+   "zone": "main",
    "text": "→ Convention d'honoraires",
    "x": 72,
    "y": 1858.73,
@@ -3073,6 +3159,7 @@
   {
    "key": "i:a:→ Protection juridique & défense recours#1",
    "role": "a",
+   "zone": "main",
    "text": "→ Protection juridique & défense recours",
    "x": 72,
    "y": 1906.73,
@@ -3100,6 +3187,7 @@
   {
    "key": "i:a:05 56 44 35 96#1",
    "role": "a",
+   "zone": "main",
    "text": "05 56 44 35 96",
    "x": 72,
    "y": 1376.67,
@@ -3127,6 +3215,7 @@
   {
    "key": "i:a:15 Pl. Sainte-Eulalie, 33000 Bordeaux#1",
    "role": "a",
+   "zone": "main",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "x": 72,
    "y": 1421.17,
@@ -3154,6 +3243,7 @@
   {
    "key": "i:a:→ Accès#1",
    "role": "a",
+   "zone": "main",
    "text": "→ Accès",
    "x": 72,
    "y": 1466.58,
@@ -3181,6 +3271,7 @@
   {
    "key": "i:button:Ajouter des fichiers#1",
    "role": "button",
+   "zone": "main",
    "text": "Ajouter des fichiers",
    "x": 97,
    "y": 1011.66,
@@ -3208,6 +3299,7 @@
   {
    "key": "i:button:Je prends rendez-vous#1",
    "role": "button",
+   "zone": "main",
    "text": "Je prends rendez-vous",
    "x": 97,
    "y": 1077.66,
@@ -3235,6 +3327,7 @@
   {
    "key": "i:a:15 Pl. Sainte-Eulalie, 33000 Bordeaux#2",
    "role": "a",
+   "zone": "main",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "x": 72,
    "y": 2096.64,
@@ -3262,6 +3355,7 @@
   {
    "key": "i:a:Musée d'Aquitaine#1",
    "role": "a",
+   "zone": "main",
    "text": "Musée d'Aquitaine",
    "x": 194.45,
    "y": 2232.17,
@@ -3289,6 +3383,7 @@
   {
    "key": "i:a:Palais de justice#1",
    "role": "a",
+   "zone": "main",
    "text": "Palais de justice",
    "x": 364.58,
    "y": 2232.17,
@@ -3316,6 +3411,7 @@
   {
    "key": "i:a:ligne#1",
    "role": "a",
+   "zone": "main",
    "text": "ligne",
    "x": 457.08,
    "y": 2232.17,
@@ -3343,6 +3439,7 @@
   {
    "key": "i:a:Découvrir notre équipe#1",
    "role": "a",
+   "zone": "main",
    "text": "Découvrir notre équipe",
    "x": 286.22,
    "y": 3558.67,
@@ -3370,6 +3467,7 @@
   {
    "key": "i:a:Site Internet#1",
    "role": "a",
+   "zone": "main",
    "text": "Site Internet",
    "x": 72,
    "y": 4599.58,
@@ -3397,6 +3495,7 @@
   {
    "key": "i:a:REWOLF | rewolf.studio#1",
    "role": "a",
+   "zone": "footer",
    "text": "REWOLF | rewolf.studio",
    "x": 210.05,
    "y": 6356.86,
@@ -3424,6 +3523,7 @@
   {
    "key": "i:a:Accueil#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accueil",
    "x": 49,
    "y": 5797.69,
@@ -3451,6 +3551,7 @@
   {
    "key": "i:a:Notre cabinet#1",
    "role": "a",
+   "zone": "footer",
    "text": "Notre cabinet",
    "x": 49,
    "y": 5835.09,
@@ -3478,6 +3579,7 @@
   {
    "key": "i:a:Rendez-vous, accès & honoraires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "x": 49,
    "y": 5872.5,
@@ -3505,6 +3607,7 @@
   {
    "key": "i:a:Nos affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Nos affaires",
    "x": 49,
    "y": 5909.91,
@@ -3532,6 +3635,7 @@
   {
    "key": "i:a:Ressources#1",
    "role": "a",
+   "zone": "footer",
    "text": "Ressources",
    "x": 49,
    "y": 5947.31,
@@ -3559,6 +3663,7 @@
   {
    "key": "i:a:Mentions légales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Mentions légales",
    "x": 49,
    "y": 5984.72,
@@ -3586,6 +3691,7 @@
   {
    "key": "i:a:Défense Pénale#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense Pénale",
    "x": 47.5,
    "y": 6071.63,
@@ -3613,6 +3719,7 @@
   {
    "key": "i:a:Droit pénal#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal",
    "x": 48,
    "y": 6121.83,
@@ -3640,6 +3747,7 @@
   {
    "key": "i:a:Procès criminels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Procès criminels",
    "x": 48,
    "y": 6159.23,
@@ -3667,6 +3775,7 @@
   {
    "key": "i:a:Trafic de stupéfiants#1",
    "role": "a",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "x": 48,
    "y": 6196.64,
@@ -3694,6 +3803,7 @@
   {
    "key": "i:a:Violences conjugales et féminicides#1",
    "role": "a",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "x": 48,
    "y": 6234.05,
@@ -3721,6 +3831,7 @@
   {
    "key": "i:a:Droit pénal des affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "x": 48,
    "y": 6271.45,
@@ -3748,6 +3859,7 @@
   {
    "key": "i:a:Indemnisation des victimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "x": 389.22,
    "y": 5747.48,
@@ -3775,6 +3887,7 @@
   {
    "key": "i:a:Victimes de délits ou crimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "x": 389.72,
    "y": 5797.69,
@@ -3802,6 +3915,7 @@
   {
    "key": "i:a:Accidents de la route#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la route",
    "x": 389.72,
    "y": 5835.09,
@@ -3829,6 +3943,7 @@
   {
    "key": "i:a:Droit et accidents du travail#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "x": 389.72,
    "y": 5872.5,
@@ -3856,6 +3971,7 @@
   {
    "key": "i:a:Accidents et erreurs médicales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "x": 389.72,
    "y": 5909.91,
@@ -3883,6 +3999,7 @@
   {
    "key": "i:a:Accidents de la vie courante#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "x": 389.72,
    "y": 5947.31,
@@ -3910,6 +4027,7 @@
   {
    "key": "i:a:Droit des contrats et des personnes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "x": 389.22,
    "y": 6072.13,
@@ -3937,6 +4055,7 @@
   {
    "key": "i:a:Droit des assurances particuliers et professionnels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "x": 389.72,
    "y": 6122.33,
@@ -3964,6 +4083,7 @@
   {
    "key": "i:a:Défense des consommateurs#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "x": 389.72,
    "y": 6159.73,
@@ -3991,6 +4111,7 @@
   {
    "key": "i:a:Droit de la famille#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit de la famille",
    "x": 389.72,
    "y": 6197.14,
@@ -4018,6 +4139,7 @@
   {
    "key": "i:a:Divorce#1",
    "role": "a",
+   "zone": "footer",
    "text": "Divorce",
    "x": 389.72,
    "y": 6234.55,
@@ -4045,6 +4167,7 @@
   {
    "key": "i:a:05 56 44 35 96#2",
    "role": "a",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "x": 48,
    "y": 5107.48,
@@ -4072,6 +4195,7 @@
   {
    "key": "i:a:Contact & RDV#1",
    "role": "a",
+   "zone": "footer",
    "text": "Contact & RDV",
    "x": 186.33,
    "y": 5107.48,
@@ -4099,6 +4223,7 @@
   {
    "key": "i:a:15 Pl. Sainte-Eulalie, 33000 Bordeaux#3",
    "role": "a",
+   "zone": "footer",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "x": 338.08,
    "y": 5031.98,
@@ -4128,6 +4253,7 @@
   {
    "key": "img:img:d05c9e_cf0a4239b5a9454e84a5a2081f17aa95#1",
    "anchor": "d05c9e_cf0a4239b5a9454e84a5a2081f17aa95",
+   "zone": "main",
    "alt": "google_g_icon_download.png",
    "x": 192.8,
    "y": 96,
@@ -4143,6 +4269,7 @@
   {
    "key": "img:img:FRA.png#1",
    "anchor": "FRA.png",
+   "zone": "main",
    "alt": "",
    "x": 409,
    "y": 657.42,
@@ -4158,6 +4285,7 @@
   {
    "key": "img:img:d05c9e_23583e36215d458f8783cbb8d395de36#1",
    "anchor": "d05c9e_23583e36215d458f8783cbb8d395de36",
+   "zone": "main",
    "alt": "Équipe • Photo groupée1_edited_edited.png",
    "x": 72,
    "y": 3179.67,

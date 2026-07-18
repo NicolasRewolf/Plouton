@@ -1,6 +1,6 @@
 {
  "meta": {
-  "url": "https://www.jplouton-avocat.fr/post/mis-en-cause-temoin-assiste-prevenu-accuse-differences?cooked_aid=2ll2kp5w3gemrpjsc90umdq4rimincmrpjsc90&cooked_sid=qhe61zfkwtmrpjsc90",
+  "url": "https://www.jplouton-avocat.fr/post/mis-en-cause-temoin-assiste-prevenu-accuse-differences?cooked_aid=uxzlp2b31jmrq3tj8diktauzw3rwjmrq3tj8d&cooked_sid=diwgkntw5wbmrq3tj8d",
   "pageHeight": 13839,
   "viewportW": 1440,
   "viewportH": 900,
@@ -14,12 +14,13 @@
   "viewportId": "1440",
   "target": "live",
   "origin": "https://www.jplouton-avocat.fr",
-  "capturedAt": "2026-07-17T23:07:09.408Z"
+  "capturedAt": "2026-07-18T08:27:57.291Z"
  },
  "blocks": [
   {
    "key": "b:p:DÉFENSE PÉNALE#1",
    "role": "p",
+   "zone": "header",
    "text": "DÉFENSE PÉNALE",
    "fullTextLen": 14,
    "x": 246.81,
@@ -56,6 +57,7 @@
   {
    "key": "b:p:INDEMNISATION DES VICTIMES#1",
    "role": "p",
+   "zone": "header",
    "text": "INDEMNISATION DES VICTIMES",
    "fullTextLen": 26,
    "x": 367.92,
@@ -92,6 +94,7 @@
   {
    "key": "b:p:DROIT DES CONTRATS ET DES PERSONNES#1",
    "role": "p",
+   "zone": "header",
    "text": "DROIT DES CONTRATS ET DES PERSONNES",
    "fullTextLen": 35,
    "x": 555.38,
@@ -128,6 +131,7 @@
   {
    "key": "b:p:Affaires#1",
    "role": "p",
+   "zone": "header",
    "text": "Affaires",
    "fullTextLen": 8,
    "x": 849.94,
@@ -164,6 +168,7 @@
   {
    "key": "b:p:Médias#1",
    "role": "p",
+   "zone": "header",
    "text": "Médias",
    "fullTextLen": 6,
    "x": 922.64,
@@ -200,6 +205,7 @@
   {
    "key": "b:p:Ressources#1",
    "role": "p",
+   "zone": "header",
    "text": "Ressources",
    "fullTextLen": 10,
    "x": 986.44,
@@ -236,6 +242,7 @@
   {
    "key": "b:p:Équipe#1",
    "role": "p",
+   "zone": "header",
    "text": "Équipe",
    "fullTextLen": 6,
    "x": 1079.86,
@@ -272,6 +279,7 @@
   {
    "key": "b:p:Search#1",
    "role": "p",
+   "zone": "header",
    "text": "Search",
    "fullTextLen": 6,
    "x": 1231.06,
@@ -308,6 +316,7 @@
   {
    "key": "b:p:Contact & RDV#1",
    "role": "p",
+   "zone": "header",
    "text": "Contact & RDV",
    "fullTextLen": 13,
    "x": 1322.52,
@@ -344,6 +353,7 @@
   {
    "key": "b:h1:Mis en cause, témoin assisté, mis en examen, prévenu ou accusé : comprendre les #1",
    "role": "h1",
+   "zone": "main",
    "text": "Mis en cause, témoin assisté, mis en examen, prévenu ou accusé : comprendre les ",
    "fullTextLen": 118,
    "x": 350,
@@ -380,6 +390,7 @@
   {
    "key": "b:p:Julien Plouton - Avocat à la Cour#1",
    "role": "p",
+   "zone": "main",
    "text": "Julien Plouton - Avocat à la Cour",
    "fullTextLen": 33,
    "x": 394,
@@ -416,6 +427,7 @@
   {
    "key": "b:li:24 févr. 2025#1",
    "role": "li",
+   "zone": "main",
    "text": "24 févr. 2025",
    "fullTextLen": 13,
    "x": 582.73,
@@ -452,6 +464,7 @@
   {
    "key": "b:li:10 min de lecture#1",
    "role": "li",
+   "zone": "main",
    "text": "10 min de lecture",
    "fullTextLen": 17,
    "x": 670.64,
@@ -488,6 +501,7 @@
   {
    "key": "b:p:Dernière mise à jour : 11 juin#1",
    "role": "p",
+   "zone": "main",
    "text": "Dernière mise à jour : 11 juin",
    "fullTextLen": 30,
    "x": 350,
@@ -524,6 +538,7 @@
   {
    "key": "b:p:Noté 5 étoiles sur 5.#1",
    "role": "p",
+   "zone": "main",
    "text": "Noté 5 étoiles sur 5.",
    "fullTextLen": 21,
    "x": 406,
@@ -560,6 +575,7 @@
   {
    "key": "b:p:5.0 | 1 note#1",
    "role": "p",
+   "zone": "main",
    "text": "5.0 | 1 note",
    "fullTextLen": 12,
    "x": 476,
@@ -596,6 +612,7 @@
   {
    "key": "b:p:Face à la justice pénale, une personne peut se voir attribuer différents statuts#1",
    "role": "p",
+   "zone": "main",
    "text": "Face à la justice pénale, une personne peut se voir attribuer différents statuts",
    "fullTextLen": 447,
    "x": 350,
@@ -632,6 +649,7 @@
   {
    "key": "b:p:Je suis mis en cause#1",
    "role": "p",
+   "zone": "main",
    "text": "Je suis mis en cause",
    "fullTextLen": 20,
    "x": 387.39,
@@ -668,6 +686,7 @@
   {
    "key": "b:p:Je suis témoin assisté#1",
    "role": "p",
+   "zone": "main",
    "text": "Je suis témoin assisté",
    "fullTextLen": 22,
    "x": 548.53,
@@ -704,6 +723,7 @@
   {
    "key": "b:p:Je suis mis en examen#1",
    "role": "p",
+   "zone": "main",
    "text": "Je suis mis en examen",
    "fullTextLen": 21,
    "x": 705,
@@ -740,6 +760,7 @@
   {
    "key": "b:p:Je suis prévenu#1",
    "role": "p",
+   "zone": "main",
    "text": "Je suis prévenu",
    "fullTextLen": 15,
    "x": 872.81,
@@ -776,6 +797,7 @@
   {
    "key": "b:p:Je suis accusé#1",
    "role": "p",
+   "zone": "main",
    "text": "Je suis accusé",
    "fullTextLen": 14,
    "x": 997.34,
@@ -812,6 +834,7 @@
   {
    "key": "b:p:Les cinq statuts principaux en droit pénal français#1",
    "role": "p",
+   "zone": "main",
    "text": "Les cinq statuts principaux en droit pénal français",
    "fullTextLen": 51,
    "x": 350,
@@ -848,6 +871,7 @@
   {
    "key": "b:p:La procédure pénale française distingue quatre statuts principaux pour les perso#1",
    "role": "p",
+   "zone": "main",
    "text": "La procédure pénale française distingue quatre statuts principaux pour les perso",
    "fullTextLen": 114,
    "x": 350,
@@ -884,6 +908,7 @@
   {
    "key": "b:p:Statut#1",
    "role": "p",
+   "zone": "main",
    "text": "Statut",
    "fullTextLen": 6,
    "x": 361,
@@ -920,6 +945,7 @@
   {
    "key": "b:p:Définition#1",
    "role": "p",
+   "zone": "main",
    "text": "Définition",
    "fullTextLen": 10,
    "x": 495.81,
@@ -956,6 +982,7 @@
   {
    "key": "b:p:Contexte d'application#1",
    "role": "p",
+   "zone": "main",
    "text": "Contexte d'application",
    "fullTextLen": 22,
    "x": 797.39,
@@ -992,6 +1019,7 @@
   {
    "key": "b:p:Mis en cause#1",
    "role": "p",
+   "zone": "main",
    "text": "Mis en cause",
    "fullTextLen": 12,
    "x": 361,
@@ -1028,6 +1056,7 @@
   {
    "key": "b:p:Personne soupçonnée d'avoir participé à une infraction sans être encore formelle#1",
    "role": "p",
+   "zone": "main",
    "text": "Personne soupçonnée d'avoir participé à une infraction sans être encore formelle",
    "fullTextLen": 99,
    "x": 495.81,
@@ -1064,6 +1093,7 @@
   {
    "key": "b:p:Pendant l'enquête préliminaire menée par la police ou la gendarmerie sous la dir#1",
    "role": "p",
+   "zone": "main",
    "text": "Pendant l'enquête préliminaire menée par la police ou la gendarmerie sous la dir",
    "fullTextLen": 99,
    "x": 797.39,
@@ -1100,6 +1130,7 @@
   {
    "key": "b:p:Témoin assisté#1",
    "role": "p",
+   "zone": "main",
    "text": "Témoin assisté",
    "fullTextLen": 14,
    "x": 361,
@@ -1136,6 +1167,7 @@
   {
    "key": "b:p:Personne contre laquelle il existe des indices plausibles d'implication, mais pa#1",
    "role": "p",
+   "zone": "main",
    "text": "Personne contre laquelle il existe des indices plausibles d'implication, mais pa",
    "fullTextLen": 118,
    "x": 495.81,
@@ -1172,6 +1204,7 @@
   {
    "key": "b:p:Pendant l'information judiciaire (instruction) menée par le juge d'instruction#1",
    "role": "p",
+   "zone": "main",
    "text": "Pendant l'information judiciaire (instruction) menée par le juge d'instruction",
    "fullTextLen": 78,
    "x": 797.39,
@@ -1208,6 +1241,7 @@
   {
    "key": "b:p:Mis en examen#1",
    "role": "p",
+   "zone": "main",
    "text": "Mis en examen",
    "fullTextLen": 13,
    "x": 361,
@@ -1244,6 +1278,7 @@
   {
    "key": "b:p:Personne contre laquelle il existe des indices graves ou concordants rendant vra#1",
    "role": "p",
+   "zone": "main",
    "text": "Personne contre laquelle il existe des indices graves ou concordants rendant vra",
    "fullTextLen": 172,
    "x": 495.81,
@@ -1280,6 +1315,7 @@
   {
    "key": "b:p:Toujours pendant l’information judiciaire ; décision du juge d’instruction ; la #1",
    "role": "p",
+   "zone": "main",
    "text": "Toujours pendant l’information judiciaire ; décision du juge d’instruction ; la ",
    "fullTextLen": 180,
    "x": 797.39,
@@ -1316,6 +1352,7 @@
   {
    "key": "b:p:Prévenu#1",
    "role": "p",
+   "zone": "main",
    "text": "Prévenu",
    "fullTextLen": 7,
    "x": 361,
@@ -1352,6 +1389,7 @@
   {
    "key": "b:p:Personne poursuivie pour une contravention ou un délit devant une juridiction de#1",
    "role": "p",
+   "zone": "main",
    "text": "Personne poursuivie pour une contravention ou un délit devant une juridiction de",
    "fullTextLen": 89,
    "x": 495.81,
@@ -1388,6 +1426,7 @@
   {
    "key": "b:p:Devant le Tribunal de Police (contraventions) ou le Tribunal Correctionnel (déli#1",
    "role": "p",
+   "zone": "main",
    "text": "Devant le Tribunal de Police (contraventions) ou le Tribunal Correctionnel (déli",
    "fullTextLen": 83,
    "x": 797.39,
@@ -1424,6 +1463,7 @@
   {
    "key": "b:p:Accusé#1",
    "role": "p",
+   "zone": "main",
    "text": "Accusé",
    "fullTextLen": 6,
    "x": 361,
@@ -1460,6 +1500,7 @@
   {
    "key": "b:p:Personne poursuivie pour un crime devant une juridiction criminelle#1",
    "role": "p",
+   "zone": "main",
    "text": "Personne poursuivie pour un crime devant une juridiction criminelle",
    "fullTextLen": 67,
    "x": 495.81,
@@ -1496,6 +1537,7 @@
   {
    "key": "b:p:Devant la Cour d'Assises ou la Cour Criminelle Départementale#1",
    "role": "p",
+   "zone": "main",
    "text": "Devant la Cour d'Assises ou la Cour Criminelle Départementale",
    "fullTextLen": 61,
    "x": 797.39,
@@ -1532,6 +1574,7 @@
   {
    "key": "b:p:Cette progression reflète généralement l'évolution d'une affaire pénale, depuis #1",
    "role": "p",
+   "zone": "main",
    "text": "Cette progression reflète généralement l'évolution d'une affaire pénale, depuis ",
    "fullTextLen": 215,
    "x": 350,
@@ -1568,6 +1611,7 @@
   {
    "key": "b:p:Le mis en cause : aux premières étapes de l'enquête#1",
    "role": "p",
+   "zone": "main",
    "text": "Le mis en cause : aux premières étapes de l'enquête",
    "fullTextLen": 51,
    "x": 350,
@@ -1604,6 +1648,7 @@
   {
    "key": "b:p:Définition et contexte#1",
    "role": "p",
+   "zone": "main",
    "text": "Définition et contexte",
    "fullTextLen": 22,
    "x": 350,
@@ -1640,6 +1685,7 @@
   {
    "key": "b:p:Le terme \"mis en cause\" désigne une personne à l'encontre de laquelle il existe #1",
    "role": "p",
+   "zone": "main",
    "text": "Le terme \"mis en cause\" désigne une personne à l'encontre de laquelle il existe ",
    "fullTextLen": 235,
    "x": 350,
@@ -1676,6 +1722,7 @@
   {
    "key": "b:p:Ce statut intervient généralement durant l'enquête préliminaire, phase initiale #1",
    "role": "p",
+   "zone": "main",
    "text": "Ce statut intervient généralement durant l'enquête préliminaire, phase initiale ",
    "fullTextLen": 274,
    "x": 350,
@@ -1712,6 +1759,7 @@
   {
    "key": "b:p:Droits et obligations du mis en cause#1",
    "role": "p",
+   "zone": "main",
    "text": "Droits et obligations du mis en cause",
    "fullTextLen": 37,
    "x": 350,
@@ -1748,6 +1796,7 @@
   {
    "key": "b:p:Droits#1",
    "role": "p",
+   "zone": "main",
    "text": "Droits",
    "fullTextLen": 6,
    "x": 361,
@@ -1784,6 +1833,7 @@
   {
    "key": "b:p:Obligations#1",
    "role": "p",
+   "zone": "main",
    "text": "Obligations",
    "fullTextLen": 11,
    "x": 730,
@@ -1820,6 +1870,7 @@
   {
    "key": "b:p:Être informé de la nature de l'infraction en cas de garde à vue#1",
    "role": "p",
+   "zone": "main",
    "text": "Être informé de la nature de l'infraction en cas de garde à vue",
    "fullTextLen": 63,
    "x": 361,
@@ -1856,6 +1907,7 @@
   {
    "key": "b:p:Décliner son identité#1",
    "role": "p",
+   "zone": "main",
    "text": "Décliner son identité",
    "fullTextLen": 21,
    "x": 730,
@@ -1892,6 +1944,7 @@
   {
    "key": "b:p:Garder le silence#1",
    "role": "p",
+   "zone": "main",
    "text": "Garder le silence",
    "fullTextLen": 17,
    "x": 361,
@@ -1928,6 +1981,7 @@
   {
    "key": "b:p:Se soumettre aux actes d'enquête légaux#1",
    "role": "p",
+   "zone": "main",
    "text": "Se soumettre aux actes d'enquête légaux",
    "fullTextLen": 39,
    "x": 730,
@@ -1964,6 +2018,7 @@
   {
    "key": "b:p:Demander l'assistance d'un avocat en garde à vue#1",
    "role": "p",
+   "zone": "main",
    "text": "Demander l'assistance d'un avocat en garde à vue",
    "fullTextLen": 48,
    "x": 361,
@@ -2000,6 +2055,7 @@
   {
    "key": "b:p:Faire prévenir un proche et son employeur#1",
    "role": "p",
+   "zone": "main",
    "text": "Faire prévenir un proche et son employeur",
    "fullTextLen": 41,
    "x": 361,
@@ -2036,6 +2092,7 @@
   {
    "key": "b:p:Demander un examen médical#1",
    "role": "p",
+   "zone": "main",
    "text": "Demander un examen médical",
    "fullTextLen": 26,
    "x": 361,
@@ -2072,6 +2129,7 @@
   {
    "key": "b:p:À noter : Les droits du mis en cause sont particulièrement encadrés lors d'une g#1",
    "role": "p",
+   "zone": "main",
    "text": "À noter : Les droits du mis en cause sont particulièrement encadrés lors d'une g",
    "fullTextLen": 155,
    "x": 371,
@@ -2108,6 +2166,7 @@
   {
    "key": "b:p:Ce statut, bien que préoccupant, reste préliminaire et n'implique pas encore de #1",
    "role": "p",
+   "zone": "main",
    "text": "Ce statut, bien que préoccupant, reste préliminaire et n'implique pas encore de ",
    "fullTextLen": 208,
    "x": 350,
@@ -2144,6 +2203,7 @@
   {
    "key": "b:p:Le témoin assisté : un statut intermédiaire pendant l'instruction#1",
    "role": "p",
+   "zone": "main",
    "text": "Le témoin assisté : un statut intermédiaire pendant l'instruction",
    "fullTextLen": 65,
    "x": 350,
@@ -2180,6 +2240,7 @@
   {
    "key": "b:p:Définition et contexte#2",
    "role": "p",
+   "zone": "main",
    "text": "Définition et contexte",
    "fullTextLen": 22,
    "x": 350,
@@ -2216,6 +2277,7 @@
   {
    "key": "b:p:Le statut de \"témoin assisté\" représente une position intermédiaire dans la proc#1",
    "role": "p",
+   "zone": "main",
    "text": "Le statut de \"témoin assisté\" représente une position intermédiaire dans la proc",
    "fullTextLen": 325,
    "x": 350,
@@ -2252,6 +2314,7 @@
   {
    "key": "b:p:Ce statut intervient exclusivement durant l'information judiciaire (ou instructi#1",
    "role": "p",
+   "zone": "main",
    "text": "Ce statut intervient exclusivement durant l'information judiciaire (ou instructi",
    "fullTextLen": 187,
    "x": 350,
@@ -2288,6 +2351,7 @@
   {
    "key": "b:p:Situations donnant lieu au statut de témoin assisté#1",
    "role": "p",
+   "zone": "main",
    "text": "Situations donnant lieu au statut de témoin assisté",
    "fullTextLen": 51,
    "x": 350,
@@ -2324,6 +2388,7 @@
   {
    "key": "b:p:Une personne peut acquérir la qualité de témoin assisté dans plusieurs cas :#1",
    "role": "p",
+   "zone": "main",
    "text": "Une personne peut acquérir la qualité de témoin assisté dans plusieurs cas :",
    "fullTextLen": 76,
    "x": 350,
@@ -2360,6 +2425,7 @@
   {
    "key": "b:p:Lorsqu'elle est nommément visée par un réquisitoire introductif ou supplétif du #1",
    "role": "p",
+   "zone": "main",
    "text": "Lorsqu'elle est nommément visée par un réquisitoire introductif ou supplétif du ",
    "fullTextLen": 89,
    "x": 378,
@@ -2396,6 +2462,7 @@
   {
    "key": "b:p:Lorsqu'elle est désignée dans une plainte avec constitution de partie civile#1",
    "role": "p",
+   "zone": "main",
    "text": "Lorsqu'elle est désignée dans une plainte avec constitution de partie civile",
    "fullTextLen": 76,
    "x": 378,
@@ -2432,6 +2499,7 @@
   {
    "key": "b:p:Lorsqu'elle est mise en cause par un témoin ou une autre personne mise en examen#1",
    "role": "p",
+   "zone": "main",
    "text": "Lorsqu'elle est mise en cause par un témoin ou une autre personne mise en examen",
    "fullTextLen": 80,
    "x": 378,
@@ -2468,6 +2536,7 @@
   {
    "key": "b:p:Lorsque le juge d'instruction constate des indices rendant vraisemblable sa part#1",
    "role": "p",
+   "zone": "main",
    "text": "Lorsque le juge d'instruction constate des indices rendant vraisemblable sa part",
    "fullTextLen": 104,
    "x": 378,
@@ -2504,6 +2573,7 @@
   {
    "key": "b:p:Droits et obligations du témoin assisté#1",
    "role": "p",
+   "zone": "main",
    "text": "Droits et obligations du témoin assisté",
    "fullTextLen": 39,
    "x": 350,
@@ -2540,6 +2610,7 @@
   {
    "key": "b:p:Droits#2",
    "role": "p",
+   "zone": "main",
    "text": "Droits",
    "fullTextLen": 6,
    "x": 361,
@@ -2576,6 +2647,7 @@
   {
    "key": "b:p:Obligations#2",
    "role": "p",
+   "zone": "main",
    "text": "Obligations",
    "fullTextLen": 11,
    "x": 730,
@@ -2612,6 +2684,7 @@
   {
    "key": "b:p:Être assisté par un avocat#1",
    "role": "p",
+   "zone": "main",
    "text": "Être assisté par un avocat",
    "fullTextLen": 26,
    "x": 361,
@@ -2648,6 +2721,7 @@
   {
    "key": "b:p:Déclarer son adresse personnelle#1",
    "role": "p",
+   "zone": "main",
    "text": "Déclarer son adresse personnelle",
    "fullTextLen": 32,
    "x": 730,
@@ -2684,6 +2758,7 @@
   {
    "key": "b:p:Accéder au dossier de la procédure#1",
    "role": "p",
+   "zone": "main",
    "text": "Accéder au dossier de la procédure",
    "fullTextLen": 34,
    "x": 361,
@@ -2720,6 +2795,7 @@
   {
    "key": "b:p:Informer de tout changement d'adresse#1",
    "role": "p",
+   "zone": "main",
    "text": "Informer de tout changement d'adresse",
    "fullTextLen": 37,
    "x": 730,
@@ -2756,6 +2832,7 @@
   {
    "key": "b:p:Garder le silence#2",
    "role": "p",
+   "zone": "main",
    "text": "Garder le silence",
    "fullTextLen": 17,
    "x": 361,
@@ -2792,6 +2869,7 @@
   {
    "key": "b:p:Se présenter aux convocations du juge#1",
    "role": "p",
+   "zone": "main",
    "text": "Se présenter aux convocations du juge",
    "fullTextLen": 37,
    "x": 730,
@@ -2828,6 +2906,7 @@
   {
    "key": "b:p:Demander des confrontations avec les personnes qui le mettent en cause#1",
    "role": "p",
+   "zone": "main",
    "text": "Demander des confrontations avec les personnes qui le mettent en cause",
    "fullTextLen": 70,
    "x": 361,
@@ -2864,6 +2943,7 @@
   {
    "key": "b:p:Demander certains actes d'enquête#1",
    "role": "p",
+   "zone": "main",
    "text": "Demander certains actes d'enquête",
    "fullTextLen": 33,
    "x": 361,
@@ -2900,6 +2980,7 @@
   {
    "key": "b:p:Demander l'annulation d'actes de procédure#1",
    "role": "p",
+   "zone": "main",
    "text": "Demander l'annulation d'actes de procédure",
    "fullTextLen": 42,
    "x": 361,
@@ -2936,6 +3017,7 @@
   {
    "key": "b:p:Demander sa mise en examen si souhaité (pour bénéficier de droits plus étendus)#1",
    "role": "p",
+   "zone": "main",
    "text": "Demander sa mise en examen si souhaité (pour bénéficier de droits plus étendus)",
    "fullTextLen": 79,
    "x": 361,
@@ -2972,6 +3054,7 @@
   {
    "key": "b:p:Important : Contrairement au mis en examen, le témoin assisté ne peut pas être p#1",
    "role": "p",
+   "zone": "main",
    "text": "Important : Contrairement au mis en examen, le témoin assisté ne peut pas être p",
    "fullTextLen": 250,
    "x": 371,
@@ -3008,6 +3091,7 @@
   {
    "key": "b:p:Ce statut offre ainsi un certain niveau de protection tout en permettant à la pe#1",
    "role": "p",
+   "zone": "main",
    "text": "Ce statut offre ainsi un certain niveau de protection tout en permettant à la pe",
    "fullTextLen": 134,
    "x": 350,
@@ -3044,6 +3128,7 @@
   {
    "key": "b:p:Le mis en examen : soupçons « graves et concordants » et pouvoirs renforcés du j#1",
    "role": "p",
+   "zone": "main",
    "text": "Le mis en examen : soupçons « graves et concordants » et pouvoirs renforcés du j",
    "fullTextLen": 83,
    "x": 350,
@@ -3080,6 +3165,7 @@
   {
    "key": "b:p:Définition et contexte du mis en examen#1",
    "role": "p",
+   "zone": "main",
    "text": "Définition et contexte du mis en examen",
    "fullTextLen": 39,
    "x": 350,
@@ -3116,6 +3202,7 @@
   {
    "key": "b:p:Le statut de mis en examen intervient au cœur de l’information judiciaire : dès #1",
    "role": "p",
+   "zone": "main",
    "text": "Le statut de mis en examen intervient au cœur de l’information judiciaire : dès ",
    "fullTextLen": 574,
    "x": 350,
@@ -3152,6 +3239,7 @@
   {
    "key": "b:p:Mesures coercitives et obligations procédurales#1",
    "role": "p",
+   "zone": "main",
    "text": "Mesures coercitives et obligations procédurales",
    "fullTextLen": 47,
    "x": 350,
@@ -3188,6 +3276,7 @@
   {
    "key": "b:p:Placée sous contrôle du juge d’instruction (ou, pour la détention, du juge des l#1",
    "role": "p",
+   "zone": "main",
    "text": "Placée sous contrôle du juge d’instruction (ou, pour la détention, du juge des l",
    "fullTextLen": 142,
    "x": 350,
@@ -3224,6 +3313,7 @@
   {
    "key": "b:p:être soumise à un contrôle judiciaire proportionné (obligations de pointage, int#1",
    "role": "p",
+   "zone": "main",
    "text": "être soumise à un contrôle judiciaire proportionné (obligations de pointage, int",
    "fullTextLen": 144,
    "x": 378,
@@ -3260,6 +3350,7 @@
   {
    "key": "b:p:exceptionnellement être placée en détention provisoire si aucune autre mesure ne#1",
    "role": "p",
+   "zone": "main",
    "text": "exceptionnellement être placée en détention provisoire si aucune autre mesure ne",
    "fullTextLen": 143,
    "x": 378,
@@ -3296,6 +3387,7 @@
   {
    "key": "b:p:répondre à toute convocation judiciaire sous peine de mandats (art. 122 et 153 C#1",
    "role": "p",
+   "zone": "main",
    "text": "répondre à toute convocation judiciaire sous peine de mandats (art. 122 et 153 C",
    "fullTextLen": 84,
    "x": 378,
@@ -3332,6 +3424,7 @@
   {
    "key": "b:p:Droits & obligations du mis en examen#1",
    "role": "p",
+   "zone": "main",
    "text": "Droits & obligations du mis en examen",
    "fullTextLen": 37,
    "x": 350,
@@ -3368,6 +3461,7 @@
   {
    "key": "b:p:Droits#3",
    "role": "p",
+   "zone": "main",
    "text": "Droits",
    "fullTextLen": 6,
    "x": 361,
@@ -3404,6 +3498,7 @@
   {
    "key": "b:p:Obligations#3",
    "role": "p",
+   "zone": "main",
    "text": "Obligations",
    "fullTextLen": 11,
    "x": 730,
@@ -3440,6 +3535,7 @@
   {
    "key": "b:p:Être assistée par un avocat à chaque étape#1",
    "role": "p",
+   "zone": "main",
    "text": "Être assistée par un avocat à chaque étape",
    "fullTextLen": 42,
    "x": 361,
@@ -3476,6 +3572,7 @@
   {
    "key": "b:p:Se présenter aux convocations du juge#2",
    "role": "p",
+   "zone": "main",
    "text": "Se présenter aux convocations du juge",
    "fullTextLen": 37,
    "x": 730,
@@ -3512,6 +3609,7 @@
   {
    "key": "b:p:Consulter le dossier avec son avocat#1",
    "role": "p",
+   "zone": "main",
    "text": "Consulter le dossier avec son avocat",
    "fullTextLen": 36,
    "x": 361,
@@ -3548,6 +3646,7 @@
   {
    "key": "b:p:Respecter un éventuel contrôle judiciaire (pointage, interdictions…)#1",
    "role": "p",
+   "zone": "main",
    "text": "Respecter un éventuel contrôle judiciaire (pointage, interdictions…)",
    "fullTextLen": 68,
    "x": 730,
@@ -3584,6 +3683,7 @@
   {
    "key": "b:p:Garder le silence ou s’expliquer librement#1",
    "role": "p",
+   "zone": "main",
    "text": "Garder le silence ou s’expliquer librement",
    "fullTextLen": 42,
    "x": 361,
@@ -3620,6 +3720,7 @@
   {
    "key": "b:p:Informer le juge de tout changement d’adresse#1",
    "role": "p",
+   "zone": "main",
    "text": "Informer le juge de tout changement d’adresse",
    "fullTextLen": 45,
    "x": 730,
@@ -3656,6 +3757,7 @@
   {
    "key": "b:p:Demander des actes (expertises, auditions…)#1",
    "role": "p",
+   "zone": "main",
    "text": "Demander des actes (expertises, auditions…)",
    "fullTextLen": 43,
    "x": 361,
@@ -3692,6 +3794,7 @@
   {
    "key": "b:p:Risquer une détention provisoire (exceptionnelle)#1",
    "role": "p",
+   "zone": "main",
    "text": "Risquer une détention provisoire (exceptionnelle)",
    "fullTextLen": 49,
    "x": 730,
@@ -3728,6 +3831,7 @@
   {
    "key": "b:p:Contester les décisions ou actes irréguliers#1",
    "role": "p",
+   "zone": "main",
    "text": "Contester les décisions ou actes irréguliers",
    "fullTextLen": 44,
    "x": 361,
@@ -3764,6 +3868,7 @@
   {
    "key": "b:p:Consulter son dossier#1",
    "role": "p",
+   "zone": "main",
    "text": "Consulter son dossier",
    "fullTextLen": 21,
    "x": 361,
@@ -3800,6 +3905,7 @@
   {
    "key": "b:p:Demander un renvoi pour préparer sa défense#1",
    "role": "p",
+   "zone": "main",
    "text": "Demander un renvoi pour préparer sa défense",
    "fullTextLen": 43,
    "x": 361,
@@ -3836,6 +3942,7 @@
   {
    "key": "b:p:Faire appel du jugement#1",
    "role": "p",
+   "zone": "main",
    "text": "Faire appel du jugement",
    "fullTextLen": 23,
    "x": 361,
@@ -3872,6 +3979,7 @@
   {
    "key": "b:p:Clore l’instruction en misant sur des indices solides tout en sauvegardant l’équ#1",
    "role": "p",
+   "zone": "main",
    "text": "Clore l’instruction en misant sur des indices solides tout en sauvegardant l’équ",
    "fullTextLen": 196,
    "x": 350,
@@ -3908,6 +4016,7 @@
   {
    "key": "b:p:Le prévenu : face au jugement pour contraventions et délits#1",
    "role": "p",
+   "zone": "main",
    "text": "Le prévenu : face au jugement pour contraventions et délits",
    "fullTextLen": 59,
    "x": 350,
@@ -3944,6 +4053,7 @@
   {
    "key": "b:p:Définition et contexte#3",
    "role": "p",
+   "zone": "main",
    "text": "Définition et contexte",
    "fullTextLen": 22,
    "x": 350,
@@ -3980,6 +4090,7 @@
   {
    "key": "b:p:Le terme \"prévenu\" désigne une personne poursuivie pour une contravention ou un #1",
    "role": "p",
+   "zone": "main",
    "text": "Le terme \"prévenu\" désigne une personne poursuivie pour une contravention ou un ",
    "fullTextLen": 233,
    "x": 350,
@@ -4016,6 +4127,7 @@
   {
    "key": "b:p:Ce statut marque le passage à la phase de jugement pour les infractions de faibl#1",
    "role": "p",
+   "zone": "main",
    "text": "Ce statut marque le passage à la phase de jugement pour les infractions de faibl",
    "fullTextLen": 151,
    "x": 350,
@@ -4052,6 +4164,7 @@
   {
    "key": "b:p:Modalités de renvoi devant le tribunal#1",
    "role": "p",
+   "zone": "main",
    "text": "Modalités de renvoi devant le tribunal",
    "fullTextLen": 38,
    "x": 350,
@@ -4088,6 +4201,7 @@
   {
    "key": "b:p:Une personne devient \"prévenu\" par différentes voies :#1",
    "role": "p",
+   "zone": "main",
    "text": "Une personne devient \"prévenu\" par différentes voies :",
    "fullTextLen": 54,
    "x": 350,
@@ -4124,6 +4238,7 @@
   {
    "key": "b:p:Sur citation directe du Procureur à l'issue d'une enquête préliminaire#1",
    "role": "p",
+   "zone": "main",
    "text": "Sur citation directe du Procureur à l'issue d'une enquête préliminaire",
    "fullTextLen": 70,
    "x": 378,
@@ -4160,6 +4275,7 @@
   {
    "key": "b:p:Par ordonnance de renvoi du juge d'instruction à l'issue d'une information judic#1",
    "role": "p",
+   "zone": "main",
    "text": "Par ordonnance de renvoi du juge d'instruction à l'issue d'une information judic",
    "fullTextLen": 85,
    "x": 378,
@@ -4196,6 +4312,7 @@
   {
    "key": "b:p:Par comparution immédiate pour certains délits flagrants#1",
    "role": "p",
+   "zone": "main",
    "text": "Par comparution immédiate pour certains délits flagrants",
    "fullTextLen": 56,
    "x": 378,
@@ -4232,6 +4349,7 @@
   {
    "key": "b:p:Par convocation par procès-verbal (CPPV)#1",
    "role": "p",
+   "zone": "main",
    "text": "Par convocation par procès-verbal (CPPV)",
    "fullTextLen": 40,
    "x": 378,
@@ -4268,6 +4386,7 @@
   {
    "key": "b:p:Par ordonnance pénale pour certaines infractions mineures#1",
    "role": "p",
+   "zone": "main",
    "text": "Par ordonnance pénale pour certaines infractions mineures",
    "fullTextLen": 57,
    "x": 378,
@@ -4304,6 +4423,7 @@
   {
    "key": "b:p:Droits et obligations du prévenu#1",
    "role": "p",
+   "zone": "main",
    "text": "Droits et obligations du prévenu",
    "fullTextLen": 32,
    "x": 350,
@@ -4340,6 +4460,7 @@
   {
    "key": "b:p:Droits#4",
    "role": "p",
+   "zone": "main",
    "text": "Droits",
    "fullTextLen": 6,
    "x": 361,
@@ -4376,6 +4497,7 @@
   {
    "key": "b:p:Obligations#4",
    "role": "p",
+   "zone": "main",
    "text": "Obligations",
    "fullTextLen": 11,
    "x": 730,
@@ -4412,6 +4534,7 @@
   {
    "key": "b:p:Être informé précisément des charges#1",
    "role": "p",
+   "zone": "main",
    "text": "Être informé précisément des charges",
    "fullTextLen": 36,
    "x": 361,
@@ -4448,6 +4571,7 @@
   {
    "key": "b:p:Comparaître devant le tribunal (si cité à personne)#1",
    "role": "p",
+   "zone": "main",
    "text": "Comparaître devant le tribunal (si cité à personne)",
    "fullTextLen": 51,
    "x": 730,
@@ -4484,6 +4608,7 @@
   {
    "key": "b:p:Être assisté par un avocat (choisi ou commis d'office)#1",
    "role": "p",
+   "zone": "main",
    "text": "Être assisté par un avocat (choisi ou commis d'office)",
    "fullTextLen": 54,
    "x": 361,
@@ -4520,6 +4645,7 @@
   {
    "key": "b:p:Justifier tout empêchement de comparaître#1",
    "role": "p",
+   "zone": "main",
    "text": "Justifier tout empêchement de comparaître",
    "fullTextLen": 41,
    "x": 730,
@@ -4556,6 +4682,7 @@
   {
    "key": "b:p:Garder le silence#3",
    "role": "p",
+   "zone": "main",
    "text": "Garder le silence",
    "fullTextLen": 17,
    "x": 361,
@@ -4592,6 +4719,7 @@
   {
    "key": "b:p:Respecter le contrôle judiciaire si ordonné#1",
    "role": "p",
+   "zone": "main",
    "text": "Respecter le contrôle judiciaire si ordonné",
    "fullTextLen": 43,
    "x": 730,
@@ -4628,6 +4756,7 @@
   {
    "key": "b:p:Présenter sa défense#1",
    "role": "p",
+   "zone": "main",
    "text": "Présenter sa défense",
    "fullTextLen": 20,
    "x": 361,
@@ -4664,6 +4793,7 @@
   {
    "key": "b:p:Bénéficier d'un interprète si nécessaire#1",
    "role": "p",
+   "zone": "main",
    "text": "Bénéficier d'un interprète si nécessaire",
    "fullTextLen": 40,
    "x": 361,
@@ -4700,6 +4830,7 @@
   {
    "key": "b:p:Consulter son dossier#2",
    "role": "p",
+   "zone": "main",
    "text": "Consulter son dossier",
    "fullTextLen": 21,
    "x": 361,
@@ -4736,6 +4867,7 @@
   {
    "key": "b:p:Demander un renvoi pour préparer sa défense#2",
    "role": "p",
+   "zone": "main",
    "text": "Demander un renvoi pour préparer sa défense",
    "fullTextLen": 43,
    "x": 361,
@@ -4772,6 +4904,7 @@
   {
    "key": "b:p:Faire appel du jugement#2",
    "role": "p",
+   "zone": "main",
    "text": "Faire appel du jugement",
    "fullTextLen": 23,
    "x": 361,
@@ -4808,6 +4941,7 @@
   {
    "key": "b:p:Le prévenu bénéficie pleinement de la présomption d'innocence garantie par l'art#1",
    "role": "p",
+   "zone": "main",
    "text": "Le prévenu bénéficie pleinement de la présomption d'innocence garantie par l'art",
    "fullTextLen": 221,
    "x": 350,
@@ -4844,6 +4978,7 @@
   {
    "key": "b:p:L'accusé : devant les juridictions criminelles#1",
    "role": "p",
+   "zone": "main",
    "text": "L'accusé : devant les juridictions criminelles",
    "fullTextLen": 46,
    "x": 350,
@@ -4880,6 +5015,7 @@
   {
    "key": "b:p:Définition et contexte#4",
    "role": "p",
+   "zone": "main",
    "text": "Définition et contexte",
    "fullTextLen": 22,
    "x": 350,
@@ -4916,6 +5052,7 @@
   {
    "key": "b:p:L'\"accusé\" est une personne poursuivie pour un crime (infraction la plus grave, #1",
    "role": "p",
+   "zone": "main",
    "text": "L'\"accusé\" est une personne poursuivie pour un crime (infraction la plus grave, ",
    "fullTextLen": 313,
    "x": 350,
@@ -4952,6 +5089,7 @@
   {
    "key": "b:p:Ce statut intervient après une information judiciaire obligatoire et une ordonna#1",
    "role": "p",
+   "zone": "main",
    "text": "Ce statut intervient après une information judiciaire obligatoire et une ordonna",
    "fullTextLen": 221,
    "x": 350,
@@ -4988,6 +5126,7 @@
   {
    "key": "b:p:Particularités de la procédure criminelle#1",
    "role": "p",
+   "zone": "main",
    "text": "Particularités de la procédure criminelle",
    "fullTextLen": 41,
    "x": 350,
@@ -5024,6 +5163,7 @@
   {
    "key": "b:p:La procédure criminelle présente plusieurs spécificités :#1",
    "role": "p",
+   "zone": "main",
    "text": "La procédure criminelle présente plusieurs spécificités :",
    "fullTextLen": 57,
    "x": 350,
@@ -5060,6 +5200,7 @@
   {
    "key": "b:p:L'instruction préalable est obligatoire (pas de citation directe possible)#1",
    "role": "p",
+   "zone": "main",
    "text": "L'instruction préalable est obligatoire (pas de citation directe possible)",
    "fullTextLen": 74,
    "x": 378,
@@ -5096,6 +5237,7 @@
   {
    "key": "b:p:La mise en accusation fait l'objet d'une ordonnance motivée#1",
    "role": "p",
+   "zone": "main",
    "text": "La mise en accusation fait l'objet d'une ordonnance motivée",
    "fullTextLen": 59,
    "x": 378,
@@ -5132,6 +5274,7 @@
   {
    "key": "b:p:Le dossier passe par la chambre de l'instruction avant le procès#1",
    "role": "p",
+   "zone": "main",
    "text": "Le dossier passe par la chambre de l'instruction avant le procès",
    "fullTextLen": 64,
    "x": 378,
@@ -5168,6 +5311,7 @@
   {
    "key": "b:p:L'accusé comparaît devant une juridiction spécialisée (Cour d'Assises ou Cour Cr#1",
    "role": "p",
+   "zone": "main",
    "text": "L'accusé comparaît devant une juridiction spécialisée (Cour d'Assises ou Cour Cr",
    "fullTextLen": 89,
    "x": 378,
@@ -5204,6 +5348,7 @@
   {
    "key": "b:p:La présence d'un jury populaire est prévue devant la Cour d'Assises#1",
    "role": "p",
+   "zone": "main",
    "text": "La présence d'un jury populaire est prévue devant la Cour d'Assises",
    "fullTextLen": 67,
    "x": 378,
@@ -5240,6 +5385,7 @@
   {
    "key": "b:p:Droits et obligations de l'accusé#1",
    "role": "p",
+   "zone": "main",
    "text": "Droits et obligations de l'accusé",
    "fullTextLen": 33,
    "x": 350,
@@ -5276,6 +5422,7 @@
   {
    "key": "b:p:Droits#5",
    "role": "p",
+   "zone": "main",
    "text": "Droits",
    "fullTextLen": 6,
    "x": 361,
@@ -5312,6 +5459,7 @@
   {
    "key": "b:p:Obligations#5",
    "role": "p",
+   "zone": "main",
    "text": "Obligations",
    "fullTextLen": 11,
    "x": 730,
@@ -5348,6 +5496,7 @@
   {
    "key": "b:p:Assistance obligatoire d'un avocat#1",
    "role": "p",
+   "zone": "main",
    "text": "Assistance obligatoire d'un avocat",
    "fullTextLen": 34,
    "x": 361,
@@ -5384,6 +5533,7 @@
   {
    "key": "b:p:Comparaître devant la juridiction criminelle#1",
    "role": "p",
+   "zone": "main",
    "text": "Comparaître devant la juridiction criminelle",
    "fullTextLen": 44,
    "x": 730,
@@ -5420,6 +5570,7 @@
   {
    "key": "b:p:Jugement par un jury populaire (Cour d'Assises)#1",
    "role": "p",
+   "zone": "main",
    "text": "Jugement par un jury populaire (Cour d'Assises)",
    "fullTextLen": 47,
    "x": 361,
@@ -5456,6 +5607,7 @@
   {
    "key": "b:p:Se soumettre aux mesures de contrôle judiciaire#1",
    "role": "p",
+   "zone": "main",
    "text": "Se soumettre aux mesures de contrôle judiciaire",
    "fullTextLen": 47,
    "x": 730,
@@ -5492,6 +5644,7 @@
   {
    "key": "b:p:Information détaillée sur les charges#1",
    "role": "p",
+   "zone": "main",
    "text": "Information détaillée sur les charges",
    "fullTextLen": 37,
    "x": 361,
@@ -5528,6 +5681,7 @@
   {
    "key": "b:p:Être présent à son procès (sauf exceptions)#1",
    "role": "p",
+   "zone": "main",
    "text": "Être présent à son procès (sauf exceptions)",
    "fullTextLen": 43,
    "x": 730,
@@ -5564,6 +5718,7 @@
   {
    "key": "b:p:Garder le silence#4",
    "role": "p",
+   "zone": "main",
    "text": "Garder le silence",
    "fullTextLen": 17,
    "x": 361,
@@ -5600,6 +5755,7 @@
   {
    "key": "b:p:Présenter sa défense#2",
    "role": "p",
+   "zone": "main",
    "text": "Présenter sa défense",
    "fullTextLen": 20,
    "x": 361,
@@ -5636,6 +5792,7 @@
   {
    "key": "b:p:Bénéficier d'un interprète si nécessaire#2",
    "role": "p",
+   "zone": "main",
    "text": "Bénéficier d'un interprète si nécessaire",
    "fullTextLen": 40,
    "x": 361,
@@ -5672,6 +5829,7 @@
   {
    "key": "b:p:Accéder à son dossier#1",
    "role": "p",
+   "zone": "main",
    "text": "Accéder à son dossier",
    "fullTextLen": 21,
    "x": 361,
@@ -5708,6 +5866,7 @@
   {
    "key": "b:p:Faire appel du verdict#1",
    "role": "p",
+   "zone": "main",
    "text": "Faire appel du verdict",
    "fullTextLen": 22,
    "x": 361,
@@ -5744,6 +5903,7 @@
   {
    "key": "b:p:Le procès criminel est régi par des règles spécifiques qui garantissent un haut #1",
    "role": "p",
+   "zone": "main",
    "text": "Le procès criminel est régi par des règles spécifiques qui garantissent un haut ",
    "fullTextLen": 164,
    "x": 350,
@@ -5780,6 +5940,7 @@
   {
    "key": "b:p:Comparaison des niveaux d'implication et de suspicion#1",
    "role": "p",
+   "zone": "main",
    "text": "Comparaison des niveaux d'implication et de suspicion",
    "fullTextLen": 53,
    "x": 350,
@@ -5816,6 +5977,7 @@
   {
    "key": "b:p:Le tableau ci-dessous illustre la gradation des niveaux de suspicion et d'implic#1",
    "role": "p",
+   "zone": "main",
    "text": "Le tableau ci-dessous illustre la gradation des niveaux de suspicion et d'implic",
    "fullTextLen": 122,
    "x": 350,
@@ -5852,6 +6014,7 @@
   {
    "key": "b:p:Statut#2",
    "role": "p",
+   "zone": "main",
    "text": "Statut",
    "fullTextLen": 6,
    "x": 361,
@@ -5888,6 +6051,7 @@
   {
    "key": "b:p:Niveau de suspicion#1",
    "role": "p",
+   "zone": "main",
    "text": "Niveau de suspicion",
    "fullTextLen": 19,
    "x": 505.61,
@@ -5924,6 +6088,7 @@
   {
    "key": "b:p:Formulation juridique#1",
    "role": "p",
+   "zone": "main",
    "text": "Formulation juridique",
    "fullTextLen": 21,
    "x": 658.19,
@@ -5960,6 +6125,7 @@
   {
    "key": "b:p:Décideur#1",
    "role": "p",
+   "zone": "main",
    "text": "Décideur",
    "fullTextLen": 8,
    "x": 878.58,
@@ -5996,6 +6162,7 @@
   {
    "key": "b:p:Mis en cause#2",
    "role": "p",
+   "zone": "main",
    "text": "Mis en cause",
    "fullTextLen": 12,
    "x": 361,
@@ -6032,6 +6199,7 @@
   {
    "key": "b:p:Faible à modéré#1",
    "role": "p",
+   "zone": "main",
    "text": "Faible à modéré",
    "fullTextLen": 15,
    "x": 505.61,
@@ -6068,6 +6236,7 @@
   {
    "key": "b:p:\"Raisons de croire à une possible implication\"#1",
    "role": "p",
+   "zone": "main",
    "text": "\"Raisons de croire à une possible implication\"",
    "fullTextLen": 46,
    "x": 658.19,
@@ -6104,6 +6273,7 @@
   {
    "key": "b:p:Police judiciaire/Procureur#1",
    "role": "p",
+   "zone": "main",
    "text": "Police judiciaire/Procureur",
    "fullTextLen": 27,
    "x": 878.58,
@@ -6140,6 +6310,7 @@
   {
    "key": "b:p:Témoin assisté#2",
    "role": "p",
+   "zone": "main",
    "text": "Témoin assisté",
    "fullTextLen": 14,
    "x": 361,
@@ -6176,6 +6347,7 @@
   {
    "key": "b:p:Modéré#1",
    "role": "p",
+   "zone": "main",
    "text": "Modéré",
    "fullTextLen": 6,
    "x": 505.61,
@@ -6212,6 +6384,7 @@
   {
    "key": "b:p:\"Indices rendant vraisemblable\" une participation#1",
    "role": "p",
+   "zone": "main",
    "text": "\"Indices rendant vraisemblable\" une participation",
    "fullTextLen": 49,
    "x": 658.19,
@@ -6248,6 +6421,7 @@
   {
    "key": "b:p:Juge d'instruction#1",
    "role": "p",
+   "zone": "main",
    "text": "Juge d'instruction",
    "fullTextLen": 18,
    "x": 878.58,
@@ -6284,6 +6458,7 @@
   {
    "key": "b:p:Prévenu#2",
    "role": "p",
+   "zone": "main",
    "text": "Prévenu",
    "fullTextLen": 7,
    "x": 361,
@@ -6320,6 +6495,7 @@
   {
    "key": "b:p:Élevé#1",
    "role": "p",
+   "zone": "main",
    "text": "Élevé",
    "fullTextLen": 5,
    "x": 505.61,
@@ -6356,6 +6532,7 @@
   {
    "key": "b:p:\"Charges suffisantes\" pour engager des poursuites#1",
    "role": "p",
+   "zone": "main",
    "text": "\"Charges suffisantes\" pour engager des poursuites",
    "fullTextLen": 49,
    "x": 658.19,
@@ -6392,6 +6569,7 @@
   {
    "key": "b:p:Procureur/Juge d'instruction#1",
    "role": "p",
+   "zone": "main",
    "text": "Procureur/Juge d'instruction",
    "fullTextLen": 28,
    "x": 878.58,
@@ -6428,6 +6606,7 @@
   {
    "key": "b:p:Accusé#2",
    "role": "p",
+   "zone": "main",
    "text": "Accusé",
    "fullTextLen": 6,
    "x": 361,
@@ -6464,6 +6643,7 @@
   {
    "key": "b:p:Très élevé#1",
    "role": "p",
+   "zone": "main",
    "text": "Très élevé",
    "fullTextLen": 10,
    "x": 505.61,
@@ -6500,6 +6680,7 @@
   {
    "key": "b:p:\"Indices graves et concordants\" de culpabilité#1",
    "role": "p",
+   "zone": "main",
    "text": "\"Indices graves et concordants\" de culpabilité",
    "fullTextLen": 46,
    "x": 658.19,
@@ -6536,6 +6717,7 @@
   {
    "key": "b:p:Juge d'instruction#2",
    "role": "p",
+   "zone": "main",
    "text": "Juge d'instruction",
    "fullTextLen": 18,
    "x": 878.58,
@@ -6572,6 +6754,7 @@
   {
    "key": "b:p:Cette gradation reflète l'évolution d'une affaire pénale et la solidification pr#1",
    "role": "p",
+   "zone": "main",
    "text": "Cette gradation reflète l'évolution d'une affaire pénale et la solidification pr",
    "fullTextLen": 133,
    "x": 350,
@@ -6608,6 +6791,7 @@
   {
    "key": "b:p:Quelles sont les évolutions possibles entre les différents statuts ?#1",
    "role": "p",
+   "zone": "main",
    "text": "Quelles sont les évolutions possibles entre les différents statuts ?",
    "fullTextLen": 68,
    "x": 350,
@@ -6644,6 +6828,7 @@
   {
    "key": "b:p:Un aspect important à comprendre est que ces statuts ne sont pas figés et peuven#1",
    "role": "p",
+   "zone": "main",
    "text": "Un aspect important à comprendre est que ces statuts ne sont pas figés et peuven",
    "fullTextLen": 141,
    "x": 350,
@@ -6680,6 +6865,7 @@
   {
    "key": "b:p:Statut initial#1",
    "role": "p",
+   "zone": "main",
    "text": "Statut initial",
    "fullTextLen": 14,
    "x": 361,
@@ -6716,6 +6902,7 @@
   {
    "key": "b:p:Évolution possible#1",
    "role": "p",
+   "zone": "main",
    "text": "Évolution possible",
    "fullTextLen": 18,
    "x": 607,
@@ -6752,6 +6939,7 @@
   {
    "key": "b:p:Conditions#1",
    "role": "p",
+   "zone": "main",
    "text": "Conditions",
    "fullTextLen": 10,
    "x": 853,
@@ -6788,6 +6976,7 @@
   {
    "key": "b:p:Mis en cause#3",
    "role": "p",
+   "zone": "main",
    "text": "Mis en cause",
    "fullTextLen": 12,
    "x": 361,
@@ -6824,6 +7013,7 @@
   {
    "key": "b:p:→ Témoin assisté#1",
    "role": "p",
+   "zone": "main",
    "text": "→ Témoin assisté",
    "fullTextLen": 16,
    "x": 607,
@@ -6860,6 +7050,7 @@
   {
    "key": "b:p:Si indices plausibles mais non graves#1",
    "role": "p",
+   "zone": "main",
    "text": "Si indices plausibles mais non graves",
    "fullTextLen": 37,
    "x": 853,
@@ -6896,6 +7087,7 @@
   {
    "key": "b:p:→ Mis en examen#1",
    "role": "p",
+   "zone": "main",
    "text": "→ Mis en examen",
    "fullTextLen": 15,
    "x": 607,
@@ -6932,6 +7124,7 @@
   {
    "key": "b:p:Si indices graves et concordants#1",
    "role": "p",
+   "zone": "main",
    "text": "Si indices graves et concordants",
    "fullTextLen": 32,
    "x": 853,
@@ -6968,6 +7161,7 @@
   {
    "key": "b:p:→ Classement sans suite#1",
    "role": "p",
+   "zone": "main",
    "text": "→ Classement sans suite",
    "fullTextLen": 23,
    "x": 607,
@@ -7004,6 +7198,7 @@
   {
    "key": "b:p:Si les charges sont insuffisantes#1",
    "role": "p",
+   "zone": "main",
    "text": "Si les charges sont insuffisantes",
    "fullTextLen": 33,
    "x": 853,
@@ -7040,6 +7235,7 @@
   {
    "key": "b:p:Témoin assisté#3",
    "role": "p",
+   "zone": "main",
    "text": "Témoin assisté",
    "fullTextLen": 14,
    "x": 361,
@@ -7076,6 +7272,7 @@
   {
    "key": "b:p:→ Mis en examen#2",
    "role": "p",
+   "zone": "main",
    "text": "→ Mis en examen",
    "fullTextLen": 15,
    "x": 607,
@@ -7112,6 +7309,7 @@
   {
    "key": "b:p:Si des indices graves et concordants apparaissent#1",
    "role": "p",
+   "zone": "main",
    "text": "Si des indices graves et concordants apparaissent",
    "fullTextLen": 49,
    "x": 853,
@@ -7148,6 +7346,7 @@
   {
    "key": "b:p:→ Non-lieu#1",
    "role": "p",
+   "zone": "main",
    "text": "→ Non-lieu",
    "fullTextLen": 10,
    "x": 607,
@@ -7184,6 +7383,7 @@
   {
    "key": "b:p:Si les charges sont insuffisantes#2",
    "role": "p",
+   "zone": "main",
    "text": "Si les charges sont insuffisantes",
    "fullTextLen": 33,
    "x": 853,
@@ -7220,6 +7420,7 @@
   {
    "key": "b:p:→ Peut demander sa propre mise en examen#1",
    "role": "p",
+   "zone": "main",
    "text": "→ Peut demander sa propre mise en examen",
    "fullTextLen": 40,
    "x": 607,
@@ -7256,6 +7457,7 @@
   {
    "key": "b:p:Pour bénéficier de droits plus étendus#1",
    "role": "p",
+   "zone": "main",
    "text": "Pour bénéficier de droits plus étendus",
    "fullTextLen": 38,
    "x": 853,
@@ -7292,6 +7494,7 @@
   {
    "key": "b:p:Mis en examen#2",
    "role": "p",
+   "zone": "main",
    "text": "Mis en examen",
    "fullTextLen": 13,
    "x": 361,
@@ -7328,6 +7531,7 @@
   {
    "key": "b:p:→ Prévenu#1",
    "role": "p",
+   "zone": "main",
    "text": "→ Prévenu",
    "fullTextLen": 9,
    "x": 607,
@@ -7364,6 +7568,7 @@
   {
    "key": "b:p:Si renvoi devant le tribunal correctionnel (délits)#1",
    "role": "p",
+   "zone": "main",
    "text": "Si renvoi devant le tribunal correctionnel (délits)",
    "fullTextLen": 51,
    "x": 853,
@@ -7400,6 +7605,7 @@
   {
    "key": "b:p:→ Accusé#1",
    "role": "p",
+   "zone": "main",
    "text": "→ Accusé",
    "fullTextLen": 8,
    "x": 607,
@@ -7436,6 +7642,7 @@
   {
    "key": "b:p:Si renvoi devant une juridiction criminelle (crimes)#1",
    "role": "p",
+   "zone": "main",
    "text": "Si renvoi devant une juridiction criminelle (crimes)",
    "fullTextLen": 52,
    "x": 853,
@@ -7472,6 +7679,7 @@
   {
    "key": "b:p:→ Témoin assisté#2",
    "role": "p",
+   "zone": "main",
    "text": "→ Témoin assisté",
    "fullTextLen": 16,
    "x": 607,
@@ -7508,6 +7716,7 @@
   {
    "key": "b:p:Sur demande, 6 mois après la mise en examen#1",
    "role": "p",
+   "zone": "main",
    "text": "Sur demande, 6 mois après la mise en examen",
    "fullTextLen": 43,
    "x": 853,
@@ -7544,6 +7753,7 @@
   {
    "key": "b:p:→ Non-lieu#2",
    "role": "p",
+   "zone": "main",
    "text": "→ Non-lieu",
    "fullTextLen": 10,
    "x": 607,
@@ -7580,6 +7790,7 @@
   {
    "key": "b:p:Si les charges sont insuffisantes#3",
    "role": "p",
+   "zone": "main",
    "text": "Si les charges sont insuffisantes",
    "fullTextLen": 33,
    "x": 853,
@@ -7616,6 +7827,7 @@
   {
    "key": "b:p:Cette évolution des statuts illustre le caractère dynamique de la procédure péna#1",
    "role": "p",
+   "zone": "main",
    "text": "Cette évolution des statuts illustre le caractère dynamique de la procédure péna",
    "fullTextLen": 152,
    "x": 350,
@@ -7652,6 +7864,7 @@
   {
    "key": "b:p:Quel que soit le statut, la procédure doit rester d'une durée raisonnable : une #1",
    "role": "p",
+   "zone": "main",
    "text": "Quel que soit le statut, la procédure doit rester d'une durée raisonnable : une ",
    "fullTextLen": 158,
    "x": 350,
@@ -7688,6 +7901,7 @@
   {
    "key": "b:p:Quelles conséquences concrètes selon le statut ?#1",
    "role": "p",
+   "zone": "main",
    "text": "Quelles conséquences concrètes selon le statut ?",
    "fullTextLen": 48,
    "x": 350,
@@ -7724,6 +7938,7 @@
   {
    "key": "b:p:Au-delà des aspects juridiques, chaque statut a des implications pratiques diffé#1",
    "role": "p",
+   "zone": "main",
    "text": "Au-delà des aspects juridiques, chaque statut a des implications pratiques diffé",
    "fullTextLen": 115,
    "x": 350,
@@ -7760,6 +7975,7 @@
   {
    "key": "b:p:Aspect#1",
    "role": "p",
+   "zone": "main",
    "text": "Aspect",
    "fullTextLen": 6,
    "x": 361,
@@ -7796,6 +8012,7 @@
   {
    "key": "b:p:Mis en cause#4",
    "role": "p",
+   "zone": "main",
    "text": "Mis en cause",
    "fullTextLen": 12,
    "x": 508.59,
@@ -7832,6 +8049,7 @@
   {
    "key": "b:p:Témoin assisté#4",
    "role": "p",
+   "zone": "main",
    "text": "Témoin assisté",
    "fullTextLen": 14,
    "x": 656.19,
@@ -7868,6 +8086,7 @@
   {
    "key": "b:p:Prévenu#3",
    "role": "p",
+   "zone": "main",
    "text": "Prévenu",
    "fullTextLen": 7,
    "x": 803.78,
@@ -7904,6 +8123,7 @@
   {
    "key": "b:p:Accusé#3",
    "role": "p",
+   "zone": "main",
    "text": "Accusé",
    "fullTextLen": 6,
    "x": 951.38,
@@ -7940,6 +8160,7 @@
   {
    "key": "b:p:Médiatisation#1",
    "role": "p",
+   "zone": "main",
    "text": "Médiatisation",
    "fullTextLen": 13,
    "x": 361,
@@ -7976,6 +8197,7 @@
   {
    "key": "b:p:Généralement faible#1",
    "role": "p",
+   "zone": "main",
    "text": "Généralement faible",
    "fullTextLen": 19,
    "x": 508.59,
@@ -8012,6 +8234,7 @@
   {
    "key": "b:p:Variable#1",
    "role": "p",
+   "zone": "main",
    "text": "Variable",
    "fullTextLen": 8,
    "x": 656.19,
@@ -8048,6 +8271,7 @@
   {
    "key": "b:p:Possible#1",
    "role": "p",
+   "zone": "main",
    "text": "Possible",
    "fullTextLen": 8,
    "x": 803.78,
@@ -8084,6 +8308,7 @@
   {
    "key": "b:p:Souvent importante#1",
    "role": "p",
+   "zone": "main",
    "text": "Souvent importante",
    "fullTextLen": 18,
    "x": 951.38,
@@ -8120,6 +8345,7 @@
   {
    "key": "b:p:Impact professionnel#1",
    "role": "p",
+   "zone": "main",
    "text": "Impact professionnel",
    "fullTextLen": 20,
    "x": 361,
@@ -8156,6 +8382,7 @@
   {
    "key": "b:p:Limité#1",
    "role": "p",
+   "zone": "main",
    "text": "Limité",
    "fullTextLen": 6,
    "x": 508.59,
@@ -8192,6 +8419,7 @@
   {
    "key": "b:p:Modéré#2",
    "role": "p",
+   "zone": "main",
    "text": "Modéré",
    "fullTextLen": 6,
    "x": 656.19,
@@ -8228,6 +8456,7 @@
   {
    "key": "b:p:Significatif#1",
    "role": "p",
+   "zone": "main",
    "text": "Significatif",
    "fullTextLen": 12,
    "x": 803.78,
@@ -8264,6 +8493,7 @@
   {
    "key": "b:p:Très important#1",
    "role": "p",
+   "zone": "main",
    "text": "Très important",
    "fullTextLen": 14,
    "x": 951.38,
@@ -8300,6 +8530,7 @@
   {
    "key": "b:p:Restrictions de liberté#1",
    "role": "p",
+   "zone": "main",
    "text": "Restrictions de liberté",
    "fullTextLen": 23,
    "x": 361,
@@ -8336,6 +8567,7 @@
   {
    "key": "b:p:Garde à vue possible#1",
    "role": "p",
+   "zone": "main",
    "text": "Garde à vue possible",
    "fullTextLen": 20,
    "x": 508.59,
@@ -8372,6 +8604,7 @@
   {
    "key": "b:p:Aucune mesure coercitive#1",
    "role": "p",
+   "zone": "main",
    "text": "Aucune mesure coercitive",
    "fullTextLen": 24,
    "x": 656.19,
@@ -8408,6 +8641,7 @@
   {
    "key": "b:p:Contrôle judiciaire possible#1",
    "role": "p",
+   "zone": "main",
    "text": "Contrôle judiciaire possible",
    "fullTextLen": 28,
    "x": 803.78,
@@ -8444,6 +8678,7 @@
   {
    "key": "b:p:Détention provisoire fréquente#1",
    "role": "p",
+   "zone": "main",
    "text": "Détention provisoire fréquente",
    "fullTextLen": 30,
    "x": 951.38,
@@ -8480,6 +8715,7 @@
   {
    "key": "b:p:Durée de la procédure#1",
    "role": "p",
+   "zone": "main",
    "text": "Durée de la procédure",
    "fullTextLen": 21,
    "x": 361,
@@ -8516,6 +8752,7 @@
   {
    "key": "b:p:Courte (quelques mois)#1",
    "role": "p",
+   "zone": "main",
    "text": "Courte (quelques mois)",
    "fullTextLen": 22,
    "x": 508.59,
@@ -8552,6 +8789,7 @@
   {
    "key": "b:p:Moyenne (1-2 ans)#1",
    "role": "p",
+   "zone": "main",
    "text": "Moyenne (1-2 ans)",
    "fullTextLen": 17,
    "x": 656.19,
@@ -8588,6 +8826,7 @@
   {
    "key": "b:p:Variable (6 mois à 2 ans)#1",
    "role": "p",
+   "zone": "main",
    "text": "Variable (6 mois à 2 ans)",
    "fullTextLen": 25,
    "x": 803.78,
@@ -8624,6 +8863,7 @@
   {
    "key": "b:p:Longue (2-5 ans)#1",
    "role": "p",
+   "zone": "main",
    "text": "Longue (2-5 ans)",
    "fullTextLen": 16,
    "x": 951.38,
@@ -8660,6 +8900,7 @@
   {
    "key": "b:p:Issue en cas de non-culpabilité#1",
    "role": "p",
+   "zone": "main",
    "text": "Issue en cas de non-culpabilité",
    "fullTextLen": 31,
    "x": 361,
@@ -8696,6 +8937,7 @@
   {
    "key": "b:p:Classement sans suite#1",
    "role": "p",
+   "zone": "main",
    "text": "Classement sans suite",
    "fullTextLen": 21,
    "x": 508.59,
@@ -8732,6 +8974,7 @@
   {
    "key": "b:p:Non-lieu#1",
    "role": "p",
+   "zone": "main",
    "text": "Non-lieu",
    "fullTextLen": 8,
    "x": 656.19,
@@ -8768,6 +9011,7 @@
   {
    "key": "b:p:Relaxe#1",
    "role": "p",
+   "zone": "main",
    "text": "Relaxe",
    "fullTextLen": 6,
    "x": 803.78,
@@ -8804,6 +9048,7 @@
   {
    "key": "b:p:Acquittement#1",
    "role": "p",
+   "zone": "main",
    "text": "Acquittement",
    "fullTextLen": 12,
    "x": 951.38,
@@ -8840,6 +9085,7 @@
   {
    "key": "b:p:Inscription au casier#1",
    "role": "p",
+   "zone": "main",
    "text": "Inscription au casier",
    "fullTextLen": 21,
    "x": 361,
@@ -8876,6 +9122,7 @@
   {
    "key": "b:p:Non#1",
    "role": "p",
+   "zone": "main",
    "text": "Non",
    "fullTextLen": 3,
    "x": 508.59,
@@ -8912,6 +9159,7 @@
   {
    "key": "b:p:Non#2",
    "role": "p",
+   "zone": "main",
    "text": "Non",
    "fullTextLen": 3,
    "x": 656.19,
@@ -8948,6 +9196,7 @@
   {
    "key": "b:p:Oui si condamnation#1",
    "role": "p",
+   "zone": "main",
    "text": "Oui si condamnation",
    "fullTextLen": 19,
    "x": 803.78,
@@ -8984,6 +9233,7 @@
   {
    "key": "b:p:Oui si condamnation#2",
    "role": "p",
+   "zone": "main",
    "text": "Oui si condamnation",
    "fullTextLen": 19,
    "x": 951.38,
@@ -9020,6 +9270,7 @@
   {
    "key": "b:p:Ces éléments soulignent l'importance d'une défense adaptée à chaque stade de la #1",
    "role": "p",
+   "zone": "main",
    "text": "Ces éléments soulignent l'importance d'une défense adaptée à chaque stade de la ",
    "fullTextLen": 139,
    "x": 350,
@@ -9056,6 +9307,7 @@
   {
    "key": "b:p:Quelques exemples juridiques concrets pour mieux comprendre#1",
    "role": "p",
+   "zone": "main",
    "text": "Quelques exemples juridiques concrets pour mieux comprendre",
    "fullTextLen": 59,
    "x": 350,
@@ -9092,6 +9344,7 @@
   {
    "key": "b:p:Scénario 1 : Affaire de vol#1",
    "role": "p",
+   "zone": "main",
    "text": "Scénario 1 : Affaire de vol",
    "fullTextLen": 27,
    "x": 350,
@@ -9128,6 +9381,7 @@
   {
    "key": "b:p:Mis en cause : Pierre est interrogé par la police suite à un vol dans un magasin#1",
    "role": "p",
+   "zone": "main",
    "text": "Mis en cause : Pierre est interrogé par la police suite à un vol dans un magasin",
    "fullTextLen": 202,
    "x": 378,
@@ -9164,6 +9418,7 @@
   {
    "key": "b:p:Témoin assisté : Les caméras montrent Pierre manipulant les objets volés, mais r#1",
    "role": "p",
+   "zone": "main",
    "text": "Témoin assisté : Les caméras montrent Pierre manipulant les objets volés, mais r",
    "fullTextLen": 240,
    "x": 378,
@@ -9200,6 +9455,7 @@
   {
    "key": "b:p:Prévenu : Les preuves s'accumulent et Pierre est renvoyé devant le Tribunal Corr#1",
    "role": "p",
+   "zone": "main",
    "text": "Prévenu : Les preuves s'accumulent et Pierre est renvoyé devant le Tribunal Corr",
    "fullTextLen": 136,
    "x": 378,
@@ -9236,6 +9492,7 @@
   {
    "key": "b:p:Scénario 2 : Affaire d'homicide#1",
    "role": "p",
+   "zone": "main",
    "text": "Scénario 2 : Affaire d'homicide",
    "fullTextLen": 31,
    "x": 350,
@@ -9272,6 +9529,7 @@
   {
    "key": "b:p:Mis en cause : Sophie est interrogée suite à la découverte du corps de son voisi#1",
    "role": "p",
+   "zone": "main",
    "text": "Mis en cause : Sophie est interrogée suite à la découverte du corps de son voisi",
    "fullTextLen": 177,
    "x": 378,
@@ -9308,6 +9566,7 @@
   {
    "key": "b:p:Témoin assisté : Des éléments la placent près du lieu du crime, mais sans preuve#1",
    "role": "p",
+   "zone": "main",
    "text": "Témoin assisté : Des éléments la placent près du lieu du crime, mais sans preuve",
    "fullTextLen": 147,
    "x": 378,
@@ -9344,6 +9603,7 @@
   {
    "key": "b:p:Mis en examen : Des traces ADN et un témoin la mettent plus gravement en cause. #1",
    "role": "p",
+   "zone": "main",
    "text": "Mis en examen : Des traces ADN et un témoin la mettent plus gravement en cause. ",
    "fullTextLen": 120,
    "x": 378,
@@ -9380,6 +9640,7 @@
   {
    "key": "b:p:Accusé : À l'issue de l'instruction, les preuves sont jugées suffisantes. Sophie#1",
    "role": "p",
+   "zone": "main",
    "text": "Accusé : À l'issue de l'instruction, les preuves sont jugées suffisantes. Sophie",
    "fullTextLen": 140,
    "x": 378,
@@ -9416,6 +9677,7 @@
   {
    "key": "b:p:Choisir une défense adaptée à chaque statut, notre cabinet Plouton vous accompag#1",
    "role": "p",
+   "zone": "main",
    "text": "Choisir une défense adaptée à chaque statut, notre cabinet Plouton vous accompag",
    "fullTextLen": 83,
    "x": 350,
@@ -9452,6 +9714,7 @@
   {
    "key": "b:p:Chaque statut nécessite une stratégie de défense différente. Me Plouton, avocat #1",
    "role": "p",
+   "zone": "main",
    "text": "Chaque statut nécessite une stratégie de défense différente. Me Plouton, avocat ",
    "fullTextLen": 134,
    "x": 350,
@@ -9488,6 +9751,7 @@
   {
    "key": "b:p:Dès le stade de la garde à vue, pour protéger vos droits en tant que mis en caus#1",
    "role": "p",
+   "zone": "main",
    "text": "Dès le stade de la garde à vue, pour protéger vos droits en tant que mis en caus",
    "fullTextLen": 81,
    "x": 378,
@@ -9524,6 +9788,7 @@
   {
    "key": "b:p:Durant l'instruction, pour exploiter pleinement les droits attachés au statut de#1",
    "role": "p",
+   "zone": "main",
    "text": "Durant l'instruction, pour exploiter pleinement les droits attachés au statut de",
    "fullTextLen": 95,
    "x": 378,
@@ -9560,6 +9825,7 @@
   {
    "key": "b:p:Devant le Tribunal Correctionnel, pour défendre vos intérêts en tant que prévenu#1",
    "role": "p",
+   "zone": "main",
    "text": "Devant le Tribunal Correctionnel, pour défendre vos intérêts en tant que prévenu",
    "fullTextLen": 80,
    "x": 378,
@@ -9596,6 +9862,7 @@
   {
    "key": "b:p:Devant la Cour d'Assises, pour assurer votre défense en tant qu'accusé#1",
    "role": "p",
+   "zone": "main",
    "text": "Devant la Cour d'Assises, pour assurer votre défense en tant qu'accusé",
    "fullTextLen": 70,
    "x": 378,
@@ -9632,6 +9899,7 @@
   {
    "key": "b:p:L'expérience montre que la qualité de la défense pénale dès les premiers stades #1",
    "role": "p",
+   "zone": "main",
    "text": "L'expérience montre que la qualité de la défense pénale dès les premiers stades ",
    "fullTextLen": 144,
    "x": 350,
@@ -9668,6 +9936,7 @@
   {
    "key": "b:p:N'hésitez pas à contacter le cabinet pour une consultation et bénéficier d'une d#1",
    "role": "p",
+   "zone": "main",
    "text": "N'hésitez pas à contacter le cabinet pour une consultation et bénéficier d'une d",
    "fullTextLen": 124,
    "x": 350,
@@ -9704,6 +9973,7 @@
   {
    "key": "b:p:Questions fréquentes sur les statuts en procédure pénale#1",
    "role": "p",
+   "zone": "main",
    "text": "Questions fréquentes sur les statuts en procédure pénale",
    "fullTextLen": 56,
    "x": 350,
@@ -9740,6 +10010,7 @@
   {
    "key": "b:p:Peut-on passer directement du statut de mis en cause à celui de prévenu ?#1",
    "role": "p",
+   "zone": "main",
    "text": "Peut-on passer directement du statut de mis en cause à celui de prévenu ?",
    "fullTextLen": 73,
    "x": 350,
@@ -9776,6 +10047,7 @@
   {
    "key": "b:p:Oui, dans les affaires simples ou de flagrant délit, le Procureur peut décider d#1",
    "role": "p",
+   "zone": "main",
    "text": "Oui, dans les affaires simples ou de flagrant délit, le Procureur peut décider d",
    "fullTextLen": 221,
    "x": 350,
@@ -9812,6 +10084,7 @@
   {
    "key": "b:p:Peut-on être à la fois témoin assisté et mis en examen pour des faits différents#1",
    "role": "p",
+   "zone": "main",
    "text": "Peut-on être à la fois témoin assisté et mis en examen pour des faits différents",
    "fullTextLen": 82,
    "x": 350,
@@ -9848,6 +10121,7 @@
   {
    "key": "b:p:Oui, une personne peut être mise en examen pour certains faits et témoin assisté#1",
    "role": "p",
+   "zone": "main",
    "text": "Oui, une personne peut être mise en examen pour certains faits et témoin assisté",
    "fullTextLen": 131,
    "x": 350,
@@ -9884,6 +10158,7 @@
   {
    "key": "b:p:Un témoin assisté peut-il demander à devenir mis en examen ?#1",
    "role": "p",
+   "zone": "main",
    "text": "Un témoin assisté peut-il demander à devenir mis en examen ?",
    "fullTextLen": 60,
    "x": 350,
@@ -9920,6 +10195,7 @@
   {
    "key": "b:p:Oui, un témoin assisté peut demander sa mise en examen pour bénéficier de droits#1",
    "role": "p",
+   "zone": "main",
    "text": "Oui, un témoin assisté peut demander sa mise en examen pour bénéficier de droits",
    "fullTextLen": 173,
    "x": 350,
@@ -9956,6 +10232,7 @@
   {
    "key": "b:p:Quelle est la différence entre relaxe et acquittement ?#1",
    "role": "p",
+   "zone": "main",
    "text": "Quelle est la différence entre relaxe et acquittement ?",
    "fullTextLen": 55,
    "x": 350,
@@ -9992,6 +10269,7 @@
   {
    "key": "b:p:Ces deux termes désignent une décision de non-culpabilité, mais la \"relaxe\" s'ap#1",
    "role": "p",
+   "zone": "main",
    "text": "Ces deux termes désignent une décision de non-culpabilité, mais la \"relaxe\" s'ap",
    "fullTextLen": 234,
    "x": 350,
@@ -10028,6 +10306,7 @@
   {
    "key": "b:p:Une personne peut-elle être jugée en son absence ?#1",
    "role": "p",
+   "zone": "main",
    "text": "Une personne peut-elle être jugée en son absence ?",
    "fullTextLen": 50,
    "x": 350,
@@ -10064,6 +10343,7 @@
   {
    "key": "b:p:Pour les délits, le prévenu peut être jugé en son absence (jugement contradictoi#1",
    "role": "p",
+   "zone": "main",
    "text": "Pour les délits, le prévenu peut être jugé en son absence (jugement contradictoi",
    "fullTextLen": 225,
    "x": 350,
@@ -10100,6 +10380,7 @@
   {
    "key": "b:p:Le statut de témoin assisté existe-t-il dans tous les pays ?#1",
    "role": "p",
+   "zone": "main",
    "text": "Le statut de témoin assisté existe-t-il dans tous les pays ?",
    "fullTextLen": 60,
    "x": 350,
@@ -10136,6 +10417,7 @@
   {
    "key": "b:p:Non, ce statut est une spécificité française créée pour équilibrer les droits de#1",
    "role": "p",
+   "zone": "main",
    "text": "Non, ce statut est une spécificité française créée pour équilibrer les droits de",
    "fullTextLen": 170,
    "x": 350,
@@ -10172,6 +10454,7 @@
   {
    "key": "b:p:Article rédigé par Me Plouton, avocat au Barreau de Bordeaux spécialisé en droit#1",
    "role": "p",
+   "zone": "main",
    "text": "Article rédigé par Me Plouton, avocat au Barreau de Bordeaux spécialisé en droit",
    "fullTextLen": 289,
    "x": 350,
@@ -10208,6 +10491,7 @@
   {
    "key": "b:p:Dernière mise à jour : Avril 2026#1",
    "role": "p",
+   "zone": "main",
    "text": "Dernière mise à jour : Avril 2026",
    "fullTextLen": 33,
    "x": 350,
@@ -10244,6 +10528,7 @@
   {
    "key": "b:li:rj-droit-pénal#1",
    "role": "li",
+   "zone": "main",
    "text": "rj-droit-pénal",
    "fullTextLen": 14,
    "x": 350,
@@ -10280,6 +10565,7 @@
   {
    "key": "b:a:Ressources et notions juridiques#1",
    "role": "a",
+   "zone": "main",
    "text": "Ressources et notions juridiques",
    "fullTextLen": 32,
    "x": 354,
@@ -10314,9 +10600,10 @@
    }
   },
   {
-   "key": "b:p:87298 729 vues#1",
+   "key": "b:p:87388 738 vues#1",
    "role": "p",
-   "text": "87298 729 vues",
+   "zone": "main",
+   "text": "87388 738 vues",
    "fullTextLen": 14,
    "x": 350,
    "y": 10304.03,
@@ -10352,6 +10639,7 @@
   {
    "key": "b:p:11 commentaire#1",
    "role": "p",
+   "zone": "main",
    "text": "11 commentaire",
    "fullTextLen": 14,
    "x": 431.28,
@@ -10388,6 +10676,7 @@
   {
    "key": "b:p:3 j'aime. Vous n'aimez plus ce post#1",
    "role": "p",
+   "zone": "main",
    "text": "3 j'aime. Vous n'aimez plus ce post",
    "fullTextLen": 35,
    "x": 1059.03,
@@ -10424,6 +10713,7 @@
   {
    "key": "b:p:3#1",
    "role": "p",
+   "zone": "main",
    "text": "3",
    "fullTextLen": 1,
    "x": 1059.03,
@@ -10460,6 +10750,7 @@
   {
    "key": "b:h2:Posts similaires#1",
    "role": "h2",
+   "zone": "main",
    "text": "Posts similaires",
    "fullTextLen": 16,
    "x": 250,
@@ -10496,6 +10787,7 @@
   {
    "key": "b:a:Voir tout#1",
    "role": "a",
+   "zone": "main",
    "text": "Voir tout",
    "fullTextLen": 9,
    "x": 1139.83,
@@ -10532,6 +10824,7 @@
   {
    "key": "b:a:Sinistre habitation : vos recours quand l'assureur refuse, traîne ou sous-indemn#1",
    "role": "a",
+   "zone": "main",
    "text": "Sinistre habitation : vos recours quand l'assureur refuse, traîne ou sous-indemn",
    "fullTextLen": 83,
    "x": 275,
@@ -10568,6 +10861,7 @@
   {
    "key": "b:p:21#1",
    "role": "p",
+   "zone": "main",
    "text": "21",
    "fullTextLen": 2,
    "x": 300,
@@ -10604,6 +10898,7 @@
   {
    "key": "b:p:0#1",
    "role": "p",
+   "zone": "main",
    "text": "0",
    "fullTextLen": 1,
    "x": 354.94,
@@ -10640,6 +10935,7 @@
   {
    "key": "b:p:Vous n'aimez plus ce post#1",
    "role": "p",
+   "zone": "main",
    "text": "Vous n'aimez plus ce post",
    "fullTextLen": 25,
    "x": 496.66,
@@ -10676,6 +10972,7 @@
   {
    "key": "b:a:Indemnisation d'une tétraplégie : ce qu'elle doit vraiment couvrir (et pourquoi #1",
    "role": "a",
+   "zone": "main",
    "text": "Indemnisation d'une tétraplégie : ce qu'elle doit vraiment couvrir (et pourquoi ",
    "fullTextLen": 123,
    "x": 599.66,
@@ -10710,9 +11007,10 @@
    }
   },
   {
-   "key": "b:p:12#1",
+   "key": "b:p:13#1",
    "role": "p",
-   "text": "12",
+   "zone": "main",
+   "text": "13",
    "fullTextLen": 2,
    "x": 624.66,
    "y": 10733.53,
@@ -10748,6 +11046,7 @@
   {
    "key": "b:p:0#2",
    "role": "p",
+   "zone": "main",
    "text": "0",
    "fullTextLen": 1,
    "x": 679.59,
@@ -10784,6 +11083,7 @@
   {
    "key": "b:p:Vous n'aimez plus ce post#2",
    "role": "p",
+   "zone": "main",
    "text": "Vous n'aimez plus ce post",
    "fullTextLen": 25,
    "x": 821.33,
@@ -10820,6 +11120,7 @@
   {
    "key": "b:a:Passager victime d'un accident de la route : pourquoi vous êtes protégé même qua#1",
    "role": "a",
+   "zone": "main",
    "text": "Passager victime d'un accident de la route : pourquoi vous êtes protégé même qua",
    "fullTextLen": 106,
    "x": 924.33,
@@ -10856,6 +11157,7 @@
   {
    "key": "b:p:68#1",
    "role": "p",
+   "zone": "main",
    "text": "68",
    "fullTextLen": 2,
    "x": 949.33,
@@ -10892,6 +11194,7 @@
   {
    "key": "b:p:0#3",
    "role": "p",
+   "zone": "main",
    "text": "0",
    "fullTextLen": 1,
    "x": 1004.27,
@@ -10928,6 +11231,7 @@
   {
    "key": "b:p:1 j'aime. Vous n'aimez plus ce post#1",
    "role": "p",
+   "zone": "main",
    "text": "1 j'aime. Vous n'aimez plus ce post",
    "fullTextLen": 35,
    "x": 1135.02,
@@ -10964,6 +11268,7 @@
   {
    "key": "b:p:1#1",
    "role": "p",
+   "zone": "main",
    "text": "1",
    "fullTextLen": 1,
    "x": 1135.02,
@@ -11000,6 +11305,7 @@
   {
    "key": "b:h2:1 commentaire#1",
    "role": "h2",
+   "zone": "main",
    "text": "1 commentaire",
    "fullTextLen": 13,
    "x": 350,
@@ -11036,6 +11342,7 @@
   {
    "key": "b:p:Noté 5 étoiles sur 5.#2",
    "role": "p",
+   "zone": "main",
    "text": "Noté 5 étoiles sur 5.",
    "fullTextLen": 21,
    "x": 896.38,
@@ -11072,6 +11379,7 @@
   {
    "key": "b:p:5.0 | 1 note#2",
    "role": "p",
+   "zone": "main",
    "text": "5.0 | 1 note",
    "fullTextLen": 12,
    "x": 1011.38,
@@ -11108,6 +11416,7 @@
   {
    "key": "b:p:Ajouter une note#1",
    "role": "p",
+   "zone": "main",
    "text": "Ajouter une note",
    "fullTextLen": 16,
    "x": 367,
@@ -11144,6 +11453,7 @@
   {
    "key": "b:p:Rédigez un commentaire...Rédigez un commentaire...#1",
    "role": "p",
+   "zone": "main",
    "text": "Rédigez un commentaire...Rédigez un commentaire...",
    "fullTextLen": 50,
    "x": 367,
@@ -11180,6 +11490,7 @@
   {
    "key": "b:p:Trier par :#1",
    "role": "p",
+   "zone": "main",
    "text": "Trier par :",
    "fullTextLen": 11,
    "x": 350,
@@ -11216,6 +11527,7 @@
   {
    "key": "b:p:Les plus récents#1",
    "role": "p",
+   "zone": "main",
    "text": "Les plus récents",
    "fullTextLen": 16,
    "x": 409.55,
@@ -11252,6 +11564,7 @@
   {
    "key": "b:p:Pierre#1",
    "role": "p",
+   "zone": "main",
    "text": "Pierre",
    "fullTextLen": 6,
    "x": 398,
@@ -11288,6 +11601,7 @@
   {
    "key": "b:p:31 mars 2025#1",
    "role": "p",
+   "zone": "main",
    "text": "31 mars 2025",
    "fullTextLen": 12,
    "x": 398,
@@ -11324,6 +11638,7 @@
   {
    "key": "b:p:Noté 5 étoiles sur 5.#3",
    "role": "p",
+   "zone": "main",
    "text": "Noté 5 étoiles sur 5.",
    "fullTextLen": 21,
    "x": 397,
@@ -11360,6 +11675,7 @@
   {
    "key": "b:p:Intéressant !#1",
    "role": "p",
+   "zone": "main",
    "text": "Intéressant !",
    "fullTextLen": 13,
    "x": 398,
@@ -11396,6 +11712,7 @@
   {
    "key": "b:p:J'aime#1",
    "role": "p",
+   "zone": "main",
    "text": "J'aime",
    "fullTextLen": 6,
    "x": 424,
@@ -11432,6 +11749,7 @@
   {
    "key": "b:p:Répondre#1",
    "role": "p",
+   "zone": "main",
    "text": "Répondre",
    "fullTextLen": 8,
    "x": 507.25,
@@ -11468,6 +11786,7 @@
   {
    "key": "b:p:Ajouter une note#2",
    "role": "p",
+   "zone": "main",
    "text": "Ajouter une note",
    "fullTextLen": 16,
    "x": 367,
@@ -11504,6 +11823,7 @@
   {
    "key": "b:p:Rédigez un commentaire...Rédigez un commentaire...#2",
    "role": "p",
+   "zone": "main",
    "text": "Rédigez un commentaire...Rédigez un commentaire...",
    "fullTextLen": 50,
    "x": 367,
@@ -11540,6 +11860,7 @@
   {
    "key": "b:p:4,6/5 étoiles (190 avis) sur Google#1",
    "role": "p",
+   "zone": "main",
    "text": "4,6/5 étoiles (190 avis) sur Google",
    "fullTextLen": 35,
    "x": 375,
@@ -11576,6 +11897,7 @@
   {
    "key": "b:p:Vous êtes concerné par cette situation ? Nos avocats vous écoutent et vous conse#1",
    "role": "p",
+   "zone": "main",
    "text": "Vous êtes concerné par cette situation ? Nos avocats vous écoutent et vous conse",
    "fullTextLen": 87,
    "x": 122,
@@ -11612,6 +11934,7 @@
   {
    "key": "b:p:Prendre rendez-vous#1",
    "role": "p",
+   "zone": "main",
    "text": "Prendre rendez-vous",
    "fullTextLen": 19,
    "x": 296.47,
@@ -11648,6 +11971,7 @@
   {
    "key": "b:p:RESSOURCES#1",
    "role": "p",
+   "zone": "main",
    "text": "RESSOURCES",
    "fullTextLen": 10,
    "x": 751.48,
@@ -11684,6 +12008,7 @@
   {
    "key": "b:p:Le droit expliqué clairement, par des avocats. 48 articles pour comprendre vos d#1",
    "role": "p",
+   "zone": "main",
    "text": "Le droit expliqué clairement, par des avocats. 48 articles pour comprendre vos d",
    "fullTextLen": 119,
    "x": 720,
@@ -11720,6 +12045,7 @@
   {
    "key": "b:p:Lire#1",
    "role": "p",
+   "zone": "main",
    "text": "Lire",
    "fullTextLen": 4,
    "x": 942.41,
@@ -11756,6 +12082,7 @@
   {
    "key": "b:p:© Site web imaginé par l'agence REWOLF | rewolf.studio#1",
    "role": "p",
+   "zone": "footer",
    "text": "© Site web imaginé par l'agence REWOLF | rewolf.studio",
    "fullTextLen": 54,
    "x": 1113.44,
@@ -11792,6 +12119,7 @@
   {
    "key": "b:p:Menu#1",
    "role": "p",
+   "zone": "footer",
    "text": "Menu",
    "fullTextLen": 4,
    "x": 48,
@@ -11828,6 +12156,7 @@
   {
    "key": "b:p:Accueil#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accueil",
    "fullTextLen": 7,
    "x": 48.5,
@@ -11864,6 +12193,7 @@
   {
    "key": "b:p:Notre cabinet#1",
    "role": "p",
+   "zone": "footer",
    "text": "Notre cabinet",
    "fullTextLen": 13,
    "x": 48,
@@ -11900,6 +12230,7 @@
   {
    "key": "b:p:Rendez-vous, accès & honoraires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "fullTextLen": 31,
    "x": 48,
@@ -11936,6 +12267,7 @@
   {
    "key": "b:p:Nos affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Nos affaires",
    "fullTextLen": 12,
    "x": 48,
@@ -11972,6 +12304,7 @@
   {
    "key": "b:p:Ressources#2",
    "role": "p",
+   "zone": "footer",
    "text": "Ressources",
    "fullTextLen": 10,
    "x": 48,
@@ -12008,6 +12341,7 @@
   {
    "key": "b:p:Mentions légales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Mentions légales",
    "fullTextLen": 16,
    "x": 48,
@@ -12044,6 +12378,7 @@
   {
    "key": "b:p:Défense Pénale#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense Pénale",
    "fullTextLen": 14,
    "x": 337.64,
@@ -12080,6 +12415,7 @@
   {
    "key": "b:p:Droit pénal#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal",
    "fullTextLen": 11,
    "x": 337.64,
@@ -12116,6 +12452,7 @@
   {
    "key": "b:p:Procès criminels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Procès criminels",
    "fullTextLen": 16,
    "x": 337.64,
@@ -12152,6 +12489,7 @@
   {
    "key": "b:p:Trafic de stupéfiants#1",
    "role": "p",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "fullTextLen": 21,
    "x": 337.64,
@@ -12188,6 +12526,7 @@
   {
    "key": "b:p:Violences conjugales et féminicides#1",
    "role": "p",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "fullTextLen": 35,
    "x": 337.64,
@@ -12224,6 +12563,7 @@
   {
    "key": "b:p:Droit pénal des affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "fullTextLen": 24,
    "x": 337.64,
@@ -12260,6 +12600,7 @@
   {
    "key": "b:p:Indemnisation des victimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "fullTextLen": 26,
    "x": 643.03,
@@ -12296,6 +12637,7 @@
   {
    "key": "b:p:Victimes de délits ou crimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "fullTextLen": 28,
    "x": 643.03,
@@ -12332,6 +12674,7 @@
   {
    "key": "b:p:Accidents de la route#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la route",
    "fullTextLen": 21,
    "x": 643.03,
@@ -12368,6 +12711,7 @@
   {
    "key": "b:p:Droit et accidents du travail#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "fullTextLen": 29,
    "x": 643.03,
@@ -12404,6 +12748,7 @@
   {
    "key": "b:p:Accidents et erreurs médicales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "fullTextLen": 30,
    "x": 643.03,
@@ -12440,6 +12785,7 @@
   {
    "key": "b:p:Accidents de la vie courante#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "fullTextLen": 28,
    "x": 643.03,
@@ -12476,6 +12822,7 @@
   {
    "key": "b:p:Droit des contrats et des personnes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "fullTextLen": 35,
    "x": 920.52,
@@ -12512,6 +12859,7 @@
   {
    "key": "b:p:Droit des assurances particuliers et professionnels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "fullTextLen": 51,
    "x": 920.52,
@@ -12548,6 +12896,7 @@
   {
    "key": "b:p:Défense des consommateurs#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "fullTextLen": 25,
    "x": 920.52,
@@ -12584,6 +12933,7 @@
   {
    "key": "b:p:Droit de la famille#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit de la famille",
    "fullTextLen": 19,
    "x": 920.52,
@@ -12620,6 +12970,7 @@
   {
    "key": "b:p:Divorce#1",
    "role": "p",
+   "zone": "footer",
    "text": "Divorce",
    "fullTextLen": 7,
    "x": 920.52,
@@ -12656,6 +13007,7 @@
   {
    "key": "b:p:05 56 44 35 96#1",
    "role": "p",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "fullTextLen": 14,
    "x": 59,
@@ -12692,6 +13044,7 @@
   {
    "key": "b:p:Contact & RDV#2",
    "role": "p",
+   "zone": "footer",
    "text": "Contact & RDV",
    "fullTextLen": 13,
    "x": 197.33,
@@ -12728,6 +13081,7 @@
   {
    "key": "b:p:Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R#1",
    "role": "p",
+   "zone": "footer",
    "text": "Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R",
    "fullTextLen": 136,
    "x": 49.91,
@@ -12764,6 +13118,7 @@
   {
    "key": "b:p:Contact#1",
    "role": "p",
+   "zone": "footer",
    "text": "Contact",
    "fullTextLen": 7,
    "x": 48,
@@ -12800,6 +13155,7 @@
   {
    "key": "b:p:Une question sur vos droits ? Contactez le cabinet Plouton.#1",
    "role": "p",
+   "zone": "main",
    "text": "Une question sur vos droits ? Contactez le cabinet Plouton.",
    "fullTextLen": 59,
    "x": 573.86,
@@ -12836,6 +13192,7 @@
   {
    "key": "b:p:Nous appeler#1",
    "role": "p",
+   "zone": "main",
    "text": "Nous appeler",
    "fullTextLen": 12,
    "x": 611.45,
@@ -12872,6 +13229,7 @@
   {
    "key": "b:p:Je prends rendez-vous !#1",
    "role": "p",
+   "zone": "main",
    "text": "Je prends rendez-vous !",
    "fullTextLen": 23,
    "x": 737.89,
@@ -12910,6 +13268,7 @@
   {
    "key": "i:a:Affaires#1",
    "role": "a",
+   "zone": "header",
    "text": "Affaires",
    "x": 849.94,
    "y": 32.75,
@@ -12937,6 +13296,7 @@
   {
    "key": "i:a:Médias#1",
    "role": "a",
+   "zone": "header",
    "text": "Médias",
    "x": 922.64,
    "y": 32.75,
@@ -12964,6 +13324,7 @@
   {
    "key": "i:a:Ressources#1",
    "role": "a",
+   "zone": "header",
    "text": "Ressources",
    "x": 986.44,
    "y": 32.75,
@@ -12991,6 +13352,7 @@
   {
    "key": "i:a:Équipe#1",
    "role": "a",
+   "zone": "header",
    "text": "Équipe",
    "x": 1079.86,
    "y": 32.75,
@@ -13018,6 +13380,7 @@
   {
    "key": "i:button:Search#1",
    "role": "button",
+   "zone": "header",
    "text": "Search",
    "x": 1231.06,
    "y": 20,
@@ -13045,6 +13408,7 @@
   {
    "key": "i:a:Contact & RDV#1",
    "role": "a",
+   "zone": "header",
    "text": "Contact & RDV",
    "x": 1312.52,
    "y": 23.25,
@@ -13072,6 +13436,7 @@
   {
    "key": "i:button:Noté 5 étoiles sur 5.5.0 | 1 note#1",
    "role": "button",
+   "zone": "main",
    "text": "Noté 5 étoiles sur 5.5.0 | 1 note",
    "x": 350,
    "y": 486.38,
@@ -13099,6 +13464,7 @@
   {
    "key": "i:a:Le Cabinet Plouton, avocats pénalistes,#1",
    "role": "a",
+   "zone": "main",
    "text": "Le Cabinet Plouton, avocats pénalistes,",
    "x": 621.11,
    "y": 570.19,
@@ -13126,6 +13492,7 @@
   {
    "key": "i:a:Je suis mis en cause#1",
    "role": "a",
+   "zone": "main",
    "text": "Je suis mis en cause",
    "x": 378.39,
    "y": 662.41,
@@ -13153,6 +13520,7 @@
   {
    "key": "i:a:Je suis témoin assisté#1",
    "role": "a",
+   "zone": "main",
    "text": "Je suis témoin assisté",
    "x": 539.53,
    "y": 662.41,
@@ -13180,6 +13548,7 @@
   {
    "key": "i:a:Je suis mis en examen#1",
    "role": "a",
+   "zone": "main",
    "text": "Je suis mis en examen",
    "x": 696,
    "y": 662.41,
@@ -13207,6 +13576,7 @@
   {
    "key": "i:a:Je suis prévenu#1",
    "role": "a",
+   "zone": "main",
    "text": "Je suis prévenu",
    "x": 863.81,
    "y": 662.41,
@@ -13234,6 +13604,7 @@
   {
    "key": "i:a:Je suis accusé#1",
    "role": "a",
+   "zone": "main",
    "text": "Je suis accusé",
    "x": 988.34,
    "y": 662.41,
@@ -13261,6 +13632,7 @@
   {
    "key": "i:a:articles 62-2 à 64-1 du Code de procédure pénale#1",
    "role": "a",
+   "zone": "main",
    "text": "articles 62-2 à 64-1 du Code de procédure pénale",
    "x": 371,
    "y": 2090.84,
@@ -13288,6 +13660,7 @@
   {
    "key": "i:a:articles 113-1 à 113-8 du Code de procédure pénale#1",
    "role": "a",
+   "zone": "main",
    "text": "articles 113-1 à 113-8 du Code de procédure pénale",
    "x": 371,
    "y": 3149.81,
@@ -13315,6 +13688,7 @@
   {
    "key": "i:a:art. 80‑1 CPP#1",
    "role": "a",
+   "zone": "main",
    "text": "art. 80‑1 CPP",
    "x": 429.25,
    "y": 3467.25,
@@ -13342,6 +13716,7 @@
   {
    "key": "i:a:présomption d'innocence#1",
    "role": "a",
+   "zone": "main",
    "text": "présomption d'innocence",
    "x": 574.77,
    "y": 5189.34,
@@ -13369,6 +13744,7 @@
   {
    "key": "i:a:article préliminaire du Code de procédure pénale#1",
    "role": "a",
+   "zone": "main",
    "text": "article préliminaire du Code de procédure pénale",
    "x": 350,
    "y": 5189.34,
@@ -13396,6 +13772,7 @@
   {
    "key": "i:a:règles spécifiques#1",
    "role": "a",
+   "zone": "main",
    "text": "règles spécifiques",
    "x": 549.42,
    "y": 6148.91,
@@ -13423,6 +13800,7 @@
   {
    "key": "i:a:une procédure qui s'éternise peut être indemnisée au titre du délai déraisonnabl#1",
    "role": "a",
+   "zone": "main",
    "text": "une procédure qui s'éternise peut être indemnisée au titre du délai déraisonnabl",
    "x": 350,
    "y": 7518.53,
@@ -13450,6 +13828,7 @@
   {
    "key": "i:a:avocat pénaliste#1",
    "role": "a",
+   "zone": "main",
    "text": "avocat pénaliste",
    "x": 812.7,
    "y": 8806.75,
@@ -13477,6 +13856,7 @@
   {
    "key": "i:a:garde à vue#1",
    "role": "a",
+   "zone": "main",
    "text": "garde à vue",
    "x": 843.08,
    "y": 8873.97,
@@ -13504,6 +13884,7 @@
   {
    "key": "i:a:Cour d'Assises#1",
    "role": "a",
+   "zone": "main",
    "text": "Cour d'Assises",
    "x": 797.56,
    "y": 9098.03,
@@ -13531,6 +13912,7 @@
   {
    "key": "i:a:défense pénale#1",
    "role": "a",
+   "zone": "main",
    "text": "défense pénale",
    "x": 584.47,
    "y": 9165.25,
@@ -13558,6 +13940,7 @@
   {
    "key": "i:a:contacter le cabinet#1",
    "role": "a",
+   "zone": "main",
    "text": "contacter le cabinet",
    "x": 439.8,
    "y": 9232.47,
@@ -13585,6 +13968,7 @@
   {
    "key": "i:a:rj-droit-pénal#1",
    "role": "a",
+   "zone": "main",
    "text": "rj-droit-pénal",
    "x": 350,
    "y": 10119.03,
@@ -13612,6 +13996,7 @@
   {
    "key": "i:button:3 j'aime. Vous n'aimez plus ce post3#1",
    "role": "button",
+   "zone": "main",
    "text": "3 j'aime. Vous n'aimez plus ce post3",
    "x": 1059.03,
    "y": 10305.03,
@@ -13639,6 +14024,7 @@
   {
    "key": "i:button:Vous n'aimez plus ce post#1",
    "role": "button",
+   "zone": "main",
    "text": "Vous n'aimez plus ce post",
    "x": 496.66,
    "y": 10733.53,
@@ -13666,6 +14052,7 @@
   {
    "key": "i:button:Vous n'aimez plus ce post#2",
    "role": "button",
+   "zone": "main",
    "text": "Vous n'aimez plus ce post",
    "x": 821.33,
    "y": 10733.53,
@@ -13693,6 +14080,7 @@
   {
    "key": "i:button:1 j'aime. Vous n'aimez plus ce post1#1",
    "role": "button",
+   "zone": "main",
    "text": "1 j'aime. Vous n'aimez plus ce post1",
    "x": 1135.02,
    "y": 10733.53,
@@ -13720,6 +14108,7 @@
   {
    "key": "i:button:Rédigez un commentaire...Rédigez un commentaire...#1",
    "role": "button",
+   "zone": "main",
    "text": "Rédigez un commentaire...Rédigez un commentaire...",
    "x": 351,
    "y": 10989.53,
@@ -13747,6 +14136,7 @@
   {
    "key": "i:button:Trier par :Les plus récents#1",
    "role": "button",
+   "zone": "main",
    "text": "Trier par :Les plus récents",
    "x": 350,
    "y": 11070.53,
@@ -13774,6 +14164,7 @@
   {
    "key": "i:button:Répondre#1",
    "role": "button",
+   "zone": "main",
    "text": "Répondre",
    "x": 483.25,
    "y": 11239.75,
@@ -13801,6 +14192,7 @@
   {
    "key": "i:button:Rédigez un commentaire...Rédigez un commentaire...#2",
    "role": "button",
+   "zone": "main",
    "text": "Rédigez un commentaire...Rédigez un commentaire...",
    "x": 351,
    "y": 11332.75,
@@ -13828,6 +14220,7 @@
   {
    "key": "i:a:4,6/5 étoiles (190 avis) sur Google#1",
    "role": "a",
+   "zone": "main",
    "text": "4,6/5 étoiles (190 avis) sur Google",
    "x": 375,
    "y": 11739.75,
@@ -13855,6 +14248,7 @@
   {
    "key": "i:a:Prendre rendez-vous#1",
    "role": "a",
+   "zone": "main",
    "text": "Prendre rendez-vous",
    "x": 122,
    "y": 11966.5,
@@ -13882,6 +14276,7 @@
   {
    "key": "i:a:Lire#1",
    "role": "a",
+   "zone": "main",
    "text": "Lire",
    "x": 720,
    "y": 12702.25,
@@ -13909,6 +14304,7 @@
   {
    "key": "i:a:REWOLF | rewolf.studio#1",
    "role": "a",
+   "zone": "footer",
    "text": "REWOLF | rewolf.studio",
    "x": 1275.98,
    "y": 13772.09,
@@ -13936,6 +14332,7 @@
   {
    "key": "i:a:Accueil#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accueil",
    "x": 48.5,
    "y": 13509.66,
@@ -13963,6 +14360,7 @@
   {
    "key": "i:a:Notre cabinet#1",
    "role": "a",
+   "zone": "footer",
    "text": "Notre cabinet",
    "x": 48,
    "y": 13548.06,
@@ -13990,6 +14388,7 @@
   {
    "key": "i:a:Rendez-vous, accès & honoraires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "x": 48,
    "y": 13586.47,
@@ -14017,6 +14416,7 @@
   {
    "key": "i:a:Nos affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Nos affaires",
    "x": 48,
    "y": 13624.88,
@@ -14044,6 +14444,7 @@
   {
    "key": "i:a:Ressources#2",
    "role": "a",
+   "zone": "footer",
    "text": "Ressources",
    "x": 48,
    "y": 13663.28,
@@ -14071,6 +14472,7 @@
   {
    "key": "i:a:Mentions légales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Mentions légales",
    "x": 48,
    "y": 13701.69,
@@ -14098,6 +14500,7 @@
   {
    "key": "i:a:Défense Pénale#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense Pénale",
    "x": 337.64,
    "y": 13471.25,
@@ -14125,6 +14528,7 @@
   {
    "key": "i:a:Droit pénal#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal",
    "x": 337.64,
    "y": 13509.66,
@@ -14152,6 +14556,7 @@
   {
    "key": "i:a:Procès criminels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Procès criminels",
    "x": 337.64,
    "y": 13548.06,
@@ -14179,6 +14584,7 @@
   {
    "key": "i:a:Trafic de stupéfiants#1",
    "role": "a",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "x": 337.64,
    "y": 13586.47,
@@ -14206,6 +14612,7 @@
   {
    "key": "i:a:Violences conjugales et féminicides#1",
    "role": "a",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "x": 337.64,
    "y": 13624.88,
@@ -14233,6 +14640,7 @@
   {
    "key": "i:a:Droit pénal des affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "x": 337.64,
    "y": 13663.28,
@@ -14260,6 +14668,7 @@
   {
    "key": "i:a:Indemnisation des victimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "x": 643.03,
    "y": 13471.25,
@@ -14287,6 +14696,7 @@
   {
    "key": "i:a:Victimes de délits ou crimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "x": 643.03,
    "y": 13509.66,
@@ -14314,6 +14724,7 @@
   {
    "key": "i:a:Accidents de la route#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la route",
    "x": 643.03,
    "y": 13548.06,
@@ -14341,6 +14752,7 @@
   {
    "key": "i:a:Droit et accidents du travail#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "x": 643.03,
    "y": 13586.47,
@@ -14368,6 +14780,7 @@
   {
    "key": "i:a:Accidents et erreurs médicales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "x": 643.03,
    "y": 13624.88,
@@ -14395,6 +14808,7 @@
   {
    "key": "i:a:Accidents de la vie courante#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "x": 643.03,
    "y": 13663.28,
@@ -14422,6 +14836,7 @@
   {
    "key": "i:a:Droit des contrats et des personnes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "x": 920.52,
    "y": 13471.25,
@@ -14449,6 +14864,7 @@
   {
    "key": "i:a:Droit des assurances particuliers et professionnels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "x": 920.52,
    "y": 13509.66,
@@ -14476,6 +14892,7 @@
   {
    "key": "i:a:Défense des consommateurs#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "x": 920.52,
    "y": 13548.06,
@@ -14503,6 +14920,7 @@
   {
    "key": "i:a:Droit de la famille#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit de la famille",
    "x": 920.52,
    "y": 13586.47,
@@ -14530,6 +14948,7 @@
   {
    "key": "i:a:Divorce#1",
    "role": "a",
+   "zone": "footer",
    "text": "Divorce",
    "x": 920.52,
    "y": 13624.88,
@@ -14557,6 +14976,7 @@
   {
    "key": "i:a:05 56 44 35 96#1",
    "role": "a",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "x": 48,
    "y": 13227.25,
@@ -14584,6 +15004,7 @@
   {
    "key": "i:a:Contact & RDV#2",
    "role": "a",
+   "zone": "footer",
    "text": "Contact & RDV",
    "x": 186.33,
    "y": 13227.25,
@@ -14611,6 +15032,7 @@
   {
    "key": "i:a:15 Pl. Sainte-Eulalie, 33000 Bordeaux#1",
    "role": "a",
+   "zone": "footer",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "x": 49.91,
    "y": 13134.75,
@@ -14638,6 +15060,7 @@
   {
    "key": "i:a:Nous appeler#1",
    "role": "a",
+   "zone": "main",
    "text": "Nous appeler",
    "x": 573.61,
    "y": 797.67,
@@ -14665,6 +15088,7 @@
   {
    "key": "i:a:Je prends rendez-vous !#1",
    "role": "a",
+   "zone": "main",
    "text": "Je prends rendez-vous !",
    "x": 701.05,
    "y": 797.67,
@@ -14694,6 +15118,7 @@
   {
    "key": "img:img:d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2#1",
    "anchor": "d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Julien Plouton - Avocat à la Cour",
    "x": 350,
    "y": 161,
@@ -14709,6 +15134,7 @@
   {
    "key": "img:img:d05c9e_042618c93d5540ccaaa8526dc221c2ae#1",
    "anchor": "d05c9e_042618c93d5540ccaaa8526dc221c2ae",
+   "zone": "main",
    "alt": "Équipe du Cabinet Plouton: avocats expérimentés",
    "x": 350,
    "y": 8676.94,
@@ -14724,6 +15150,7 @@
   {
    "key": "img:img:nsplsh_684c5554527a63566b7167#1",
    "anchor": "nsplsh_684c5554527a63566b7167",
+   "zone": "main",
    "alt": "Incendie maison",
    "x": 251,
    "y": 10464.03,
@@ -14739,6 +15166,7 @@
   {
    "key": "img:img:nsplsh_14babf0c6da4404b97dd65ce26abcfa7#1",
    "anchor": "nsplsh_14babf0c6da4404b97dd65ce26abcfa7",
+   "zone": "main",
    "alt": "Personne en fauteuil roulant après une tétraplégie — indemnisation du préjudice ",
    "x": 575.66,
    "y": 10464.03,
@@ -14754,6 +15182,7 @@
   {
    "key": "img:img:nsplsh_44bb5a17f131407d9f2fde9cb3cb413f#1",
    "anchor": "nsplsh_44bb5a17f131407d9f2fde9cb3cb413f",
+   "zone": "main",
    "alt": "Vue depuis la place passager arrière d'une voiture circulant sur une route — ill",
    "x": 900.33,
    "y": 10464.03,
@@ -14769,6 +15198,7 @@
   {
    "key": "img:img:d05c9e_ed2551b85ab444aeb16f16e4b205fc69#1",
    "anchor": "d05c9e_ed2551b85ab444aeb16f16e4b205fc69",
+   "zone": "main",
    "alt": "divorce v2.jpg",
    "x": 0,
    "y": 11470.75,
@@ -14784,6 +15214,7 @@
   {
    "key": "img:img:d05c9e_cf0a4239b5a9454e84a5a2081f17aa95#1",
    "anchor": "d05c9e_cf0a4239b5a9454e84a5a2081f17aa95",
+   "zone": "main",
    "alt": "Logo de Google Avis",
    "x": 175,
    "y": 11725,
@@ -14799,6 +15230,7 @@
   {
    "key": "img:img:nsplsh_c5c71d86d13c4d6cb9f87d1517edf867#1",
    "anchor": "nsplsh_c5c71d86d13c4d6cb9f87d1517edf867",
+   "zone": "main",
    "alt": "Image de Fahad Bin Kamal Anik",
    "x": 0,
    "y": 12270.75,

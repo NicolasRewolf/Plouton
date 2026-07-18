@@ -1,6 +1,6 @@
 {
  "meta": {
-  "url": "https://www.jplouton-avocat.fr/post/f%C3%A9minicide-de-m%C3%A9rignac-le-cabinet-lance-une-action-pour-faute-lourde-contre-l-etat?cooked_aid=15rp0jmop1umrpjsv98qbouq7emohrmrpjsv98&cooked_sid=jf04a7pthgmrpjsv98",
+  "url": "https://www.jplouton-avocat.fr/post/f%C3%A9minicide-de-m%C3%A9rignac-le-cabinet-lance-une-action-pour-faute-lourde-contre-l-etat?cooked_aid=cz2cw8y044mrq3tsqsos7bwpe4sdomrq3tsqs&cooked_sid=s7ca1bdisc9mrq3tsqs",
   "pageHeight": 7736,
   "viewportW": 768,
   "viewportH": 1024,
@@ -14,12 +14,13 @@
   "viewportId": "768",
   "target": "live",
   "origin": "https://www.jplouton-avocat.fr",
-  "capturedAt": "2026-07-17T23:07:30.689Z"
+  "capturedAt": "2026-07-18T08:28:06.298Z"
  },
  "blocks": [
   {
    "key": "b:p:Search#1",
    "role": "p",
+   "zone": "header",
    "text": "Search",
    "fullTextLen": 6,
    "x": 362.98,
@@ -56,6 +57,7 @@
   {
    "key": "b:a:Contact & RDV#1",
    "role": "a",
+   "zone": "header",
    "text": "Contact & RDV",
    "fullTextLen": 13,
    "x": 502.16,
@@ -92,6 +94,7 @@
   {
    "key": "b:p:Menu mobile - burger#1",
    "role": "p",
+   "zone": "header",
    "text": "Menu mobile - burger",
    "fullTextLen": 20,
    "x": 686.98,
@@ -128,6 +131,7 @@
   {
    "key": "b:h1:Féminicide de Mérignac : action en faute lourde contre l'État#1",
    "role": "h1",
+   "zone": "main",
    "text": "Féminicide de Mérignac : action en faute lourde contre l'État",
    "fullTextLen": 61,
    "x": 81,
@@ -164,6 +168,7 @@
   {
    "key": "b:p:Julien Plouton - Avocat à la Cour#1",
    "role": "p",
+   "zone": "main",
    "text": "Julien Plouton - Avocat à la Cour",
    "fullTextLen": 33,
    "x": 125,
@@ -200,6 +205,7 @@
   {
    "key": "b:li:29 mars 2023#1",
    "role": "li",
+   "zone": "main",
    "text": "29 mars 2023",
    "fullTextLen": 12,
    "x": 313.73,
@@ -236,6 +242,7 @@
   {
    "key": "b:li:3 min de lecture#1",
    "role": "li",
+   "zone": "main",
    "text": "3 min de lecture",
    "fullTextLen": 16,
    "x": 405.92,
@@ -272,6 +279,7 @@
   {
    "key": "b:p:Dernière mise à jour : 3 avr. 2025#1",
    "role": "p",
+   "zone": "main",
    "text": "Dernière mise à jour : 3 avr. 2025",
    "fullTextLen": 34,
    "x": 81,
@@ -308,6 +316,7 @@
   {
    "key": "b:p:Noté 0 étoile sur 5.#1",
    "role": "p",
+   "zone": "main",
    "text": "Noté 0 étoile sur 5.",
    "fullTextLen": 20,
    "x": 137,
@@ -344,6 +353,7 @@
   {
    "key": "b:p:Pas encore de note#1",
    "role": "p",
+   "zone": "main",
    "text": "Pas encore de note",
    "fullTextLen": 18,
    "x": 207,
@@ -380,6 +390,7 @@
   {
    "key": "b:p:Une action en faute lourde contre l'État après le féminicide de Mérignac#1",
    "role": "p",
+   "zone": "main",
    "text": "Une action en faute lourde contre l'État après le féminicide de Mérignac",
    "fullTextLen": 72,
    "x": 81,
@@ -416,6 +427,7 @@
   {
    "key": "b:p:Le cabinet Plouton a engagé une action en responsabilité contre l'État français #1",
    "role": "p",
+   "zone": "main",
    "text": "Le cabinet Plouton a engagé une action en responsabilité contre l'État français ",
    "fullTextLen": 565,
    "x": 81,
@@ -452,6 +464,7 @@
   {
    "key": "b:p:Les faits : l'assassinat de Chahinez DAOUD le 4 mai 2021#1",
    "role": "p",
+   "zone": "main",
    "text": "Les faits : l'assassinat de Chahinez DAOUD le 4 mai 2021",
    "fullTextLen": 56,
    "x": 81,
@@ -488,6 +501,7 @@
   {
    "key": "b:p:Le 4 mai 2021, Chahinez DAOUD était brutalement assassinée par son mari à Mérign#1",
    "role": "p",
+   "zone": "main",
    "text": "Le 4 mai 2021, Chahinez DAOUD était brutalement assassinée par son mari à Mérign",
    "fullTextLen": 114,
    "x": 81,
@@ -524,6 +538,7 @@
   {
    "key": "b:p:Ce drame s'inscrit dans une série de crimes sur conjoints qualifiés dans les méd#1",
    "role": "p",
+   "zone": "main",
    "text": "Ce drame s'inscrit dans une série de crimes sur conjoints qualifiés dans les méd",
    "fullTextLen": 99,
    "x": 81,
@@ -560,6 +575,7 @@
   {
    "key": "b:p:L'enquête a démontré que Chahinez avait déposé plusieurs plaintes contre son ex-#1",
    "role": "p",
+   "zone": "main",
    "text": "L'enquête a démontré que Chahinez avait déposé plusieurs plaintes contre son ex-",
    "fullTextLen": 251,
    "x": 81,
@@ -596,6 +612,7 @@
   {
    "key": "b:p:Les défaillances révélées par les inspections#1",
    "role": "p",
+   "zone": "main",
    "text": "Les défaillances révélées par les inspections",
    "fullTextLen": 45,
    "x": 81,
@@ -632,6 +649,7 @@
   {
    "key": "b:p:Les différentes missions d'inspection diligentées à la suite de ces faits ont co#1",
    "role": "p",
+   "zone": "main",
    "text": "Les différentes missions d'inspection diligentées à la suite de ces faits ont co",
    "fullTextLen": 158,
    "x": 81,
@@ -668,6 +686,7 @@
   {
    "key": "b:p:Certaines de ces erreurs et manquements sont par ailleurs constitutifs de manque#1",
    "role": "p",
+   "zone": "main",
    "text": "Certaines de ces erreurs et manquements sont par ailleurs constitutifs de manque",
    "fullTextLen": 119,
    "x": 81,
@@ -704,6 +723,7 @@
   {
    "key": "b:p:À l'issue de l'enquête de l'IGPN, cinq fonctionnaires de police ont été sanction#1",
    "role": "p",
+   "zone": "main",
    "text": "À l'issue de l'enquête de l'IGPN, cinq fonctionnaires de police ont été sanction",
    "fullTextLen": 102,
    "x": 81,
@@ -740,6 +760,7 @@
   {
    "key": "b:p:Pourquoi ces manquements constituent une faute lourde de l'État#1",
    "role": "p",
+   "zone": "main",
    "text": "Pourquoi ces manquements constituent une faute lourde de l'État",
    "fullTextLen": 63,
    "x": 81,
@@ -776,6 +797,7 @@
   {
    "key": "b:p:Le cabinet considère que l'addition de ces erreurs et manquements est constituti#1",
    "role": "p",
+   "zone": "main",
    "text": "Le cabinet considère que l'addition de ces erreurs et manquements est constituti",
    "fullTextLen": 141,
    "x": 81,
@@ -812,6 +834,7 @@
   {
    "key": "b:p:L'article L.141-1 du Code de l'organisation judiciaire prévoit en effet que :#1",
    "role": "p",
+   "zone": "main",
    "text": "L'article L.141-1 du Code de l'organisation judiciaire prévoit en effet que :",
    "fullTextLen": 77,
    "x": 81,
@@ -848,6 +871,7 @@
   {
    "key": "b:p:« *l'État est tenu de réparer le dommage causé par le fonctionnement défectueux #1",
    "role": "p",
+   "zone": "main",
    "text": "« *l'État est tenu de réparer le dommage causé par le fonctionnement défectueux ",
    "fullTextLen": 235,
    "x": 81,
@@ -884,6 +908,7 @@
   {
    "key": "b:p:L'Assemblée plénière de la Cour de cassation a apporté une définition plus préci#1",
    "role": "p",
+   "zone": "main",
    "text": "L'Assemblée plénière de la Cour de cassation a apporté une définition plus préci",
    "fullTextLen": 375,
    "x": 81,
@@ -920,6 +945,7 @@
   {
    "key": "b:p:Ainsi, une série de faits, pris individuellement comme des fautes légères ou des#1",
    "role": "p",
+   "zone": "main",
    "text": "Ainsi, une série de faits, pris individuellement comme des fautes légères ou des",
    "fullTextLen": 225,
    "x": 81,
@@ -956,6 +982,7 @@
   {
    "key": "b:p:Dans ce dossier, l'ensemble des défaillances, négligences, fautes et manques de #1",
    "role": "p",
+   "zone": "main",
    "text": "Dans ce dossier, l'ensemble des défaillances, négligences, fautes et manques de ",
    "fullTextLen": 300,
    "x": 81,
@@ -992,6 +1019,7 @@
   {
    "key": "b:p:Une perte de chance d'échapper à l'assassinat#1",
    "role": "p",
+   "zone": "main",
    "text": "Une perte de chance d'échapper à l'assassinat",
    "fullTextLen": 45,
    "x": 81,
@@ -1028,6 +1056,7 @@
   {
    "key": "b:p:Ces nombreux dysfonctionnements ont fait perdre une chance à Chahinez DAOUD d'éc#1",
    "role": "p",
+   "zone": "main",
    "text": "Ces nombreux dysfonctionnements ont fait perdre une chance à Chahinez DAOUD d'éc",
    "fullTextLen": 140,
    "x": 81,
@@ -1064,6 +1093,7 @@
   {
    "key": "b:p:Le cabinet mène cette action en espérant que la reconnaissance de cette faute de#1",
    "role": "p",
+   "zone": "main",
    "text": "Le cabinet mène cette action en espérant que la reconnaissance de cette faute de",
    "fullTextLen": 434,
    "x": 81,
@@ -1100,6 +1130,7 @@
   {
    "key": "b:p:Dossier de presse et interviews de Maître Plouton#1",
    "role": "p",
+   "zone": "main",
    "text": "Dossier de presse et interviews de Maître Plouton",
    "fullTextLen": 49,
    "x": 81,
@@ -1136,6 +1167,7 @@
   {
    "key": "b:p:Consultez notre dossier de presse sur cette affaire et visionnez les interviews #1",
    "role": "p",
+   "zone": "main",
    "text": "Consultez notre dossier de presse sur cette affaire et visionnez les interviews ",
    "fullTextLen": 109,
    "x": 81,
@@ -1172,6 +1204,7 @@
   {
    "key": "b:li:féminicide#1",
    "role": "li",
+   "zone": "main",
    "text": "féminicide",
    "fullTextLen": 10,
    "x": 81,
@@ -1208,6 +1241,7 @@
   {
    "key": "b:li:avocat victime#1",
    "role": "li",
+   "zone": "main",
    "text": "avocat victime",
    "fullTextLen": 14,
    "x": 183.38,
@@ -1244,6 +1278,7 @@
   {
    "key": "b:li:violences sexuelles et sexistes#1",
    "role": "li",
+   "zone": "main",
    "text": "violences sexuelles et sexistes",
    "fullTextLen": 31,
    "x": 311.89,
@@ -1280,6 +1315,7 @@
   {
    "key": "b:li:défaillance de l'état#1",
    "role": "li",
+   "zone": "main",
    "text": "défaillance de l'état",
    "fullTextLen": 21,
    "x": 81,
@@ -1316,6 +1352,7 @@
   {
    "key": "b:li:action en responsabilité pour faute lourde#1",
    "role": "li",
+   "zone": "main",
    "text": "action en responsabilité pour faute lourde",
    "fullTextLen": 42,
    "x": 241.27,
@@ -1352,6 +1389,7 @@
   {
    "key": "b:li:Violences Conjugales et féminicides#1",
    "role": "li",
+   "zone": "main",
    "text": "Violences Conjugales et féminicides",
    "fullTextLen": 35,
    "x": 81,
@@ -1388,6 +1426,7 @@
   {
    "key": "b:li:Procès criminels#1",
    "role": "li",
+   "zone": "main",
    "text": "Procès criminels",
    "fullTextLen": 16,
    "x": 81,
@@ -1424,6 +1463,7 @@
   {
    "key": "b:li:Médias#1",
    "role": "li",
+   "zone": "main",
    "text": "Médias",
    "fullTextLen": 6,
    "x": 81,
@@ -1458,9 +1498,10 @@
    }
   },
   {
-   "key": "b:p:205205 vues#1",
+   "key": "b:p:213213 vues#1",
    "role": "p",
-   "text": "205205 vues",
+   "zone": "main",
+   "text": "213213 vues",
    "fullTextLen": 11,
    "x": 81,
    "y": 4081.38,
@@ -1496,6 +1537,7 @@
   {
    "key": "b:p:00 commentaire#1",
    "role": "p",
+   "zone": "main",
    "text": "00 commentaire",
    "fullTextLen": 14,
    "x": 153.64,
@@ -1532,6 +1574,7 @@
   {
    "key": "b:p:1 j'aime. Vous n'aimez plus ce post#1",
    "role": "p",
+   "zone": "main",
    "text": "1 j'aime. Vous n'aimez plus ce post",
    "fullTextLen": 35,
    "x": 656.03,
@@ -1568,6 +1611,7 @@
   {
    "key": "b:p:1#1",
    "role": "p",
+   "zone": "main",
    "text": "1",
    "fullTextLen": 1,
    "x": 656.03,
@@ -1604,6 +1648,7 @@
   {
    "key": "b:h2:Posts similaires#1",
    "role": "h2",
+   "zone": "main",
    "text": "Posts similaires",
    "fullTextLen": 16,
    "x": 20,
@@ -1640,6 +1685,7 @@
   {
    "key": "b:a:Voir tout#1",
    "role": "a",
+   "zone": "main",
    "text": "Voir tout",
    "fullTextLen": 9,
    "x": 697.83,
@@ -1676,6 +1722,7 @@
   {
    "key": "b:a:Escroquerie au permis de conduire à Bordeaux : après l'annulation des premières #1",
    "role": "a",
+   "zone": "main",
    "text": "Escroquerie au permis de conduire à Bordeaux : après l'annulation des premières ",
    "fullTextLen": 148,
    "x": 45,
@@ -1712,6 +1759,7 @@
   {
    "key": "b:p:18#1",
    "role": "p",
+   "zone": "main",
    "text": "18",
    "fullTextLen": 2,
    "x": 70,
@@ -1748,6 +1796,7 @@
   {
    "key": "b:p:0#1",
    "role": "p",
+   "zone": "main",
    "text": "0",
    "fullTextLen": 1,
    "x": 124.94,
@@ -1784,6 +1833,7 @@
   {
    "key": "b:p:Vous n'aimez plus ce post#1",
    "role": "p",
+   "zone": "main",
    "text": "Vous n'aimez plus ce post",
    "fullTextLen": 25,
    "x": 323,
@@ -1820,6 +1870,7 @@
   {
    "key": "b:a:Abus de biens sociaux : citation directe CMA CGM irrecevable#1",
    "role": "a",
+   "zone": "main",
    "text": "Abus de biens sociaux : citation directe CMA CGM irrecevable",
    "fullTextLen": 60,
    "x": 426,
@@ -1856,6 +1907,7 @@
   {
    "key": "b:p:76#1",
    "role": "p",
+   "zone": "main",
    "text": "76",
    "fullTextLen": 2,
    "x": 451,
@@ -1892,6 +1944,7 @@
   {
    "key": "b:p:0#2",
    "role": "p",
+   "zone": "main",
    "text": "0",
    "fullTextLen": 1,
    "x": 505.94,
@@ -1928,6 +1981,7 @@
   {
    "key": "b:p:Vous n'aimez plus ce post#2",
    "role": "p",
+   "zone": "main",
    "text": "Vous n'aimez plus ce post",
    "fullTextLen": 25,
    "x": 704,
@@ -1964,6 +2018,7 @@
   {
    "key": "b:p:4,6/5 étoiles (190 avis) sur Google#1",
    "role": "p",
+   "zone": "main",
    "text": "4,6/5 étoiles (190 avis) sur Google",
    "fullTextLen": 35,
    "x": 113,
@@ -2000,6 +2055,7 @@
   {
    "key": "b:p:Vous êtes concerné par cette situation ? Nos avocats vous écoutent et vous conse#1",
    "role": "p",
+   "zone": "main",
    "text": "Vous êtes concerné par cette situation ? Nos avocats vous écoutent et vous conse",
    "fullTextLen": 87,
    "x": 48,
@@ -2036,6 +2092,7 @@
   {
    "key": "b:p:Prendre rendez-vous#1",
    "role": "p",
+   "zone": "main",
    "text": "Prendre rendez-vous",
    "fullTextLen": 19,
    "x": 83.47,
@@ -2072,6 +2129,7 @@
   {
    "key": "b:p:RESSOURCES#1",
    "role": "p",
+   "zone": "main",
    "text": "RESSOURCES",
    "fullTextLen": 10,
    "x": 451.48,
@@ -2108,6 +2166,7 @@
   {
    "key": "b:p:Le droit expliqué clairement, par des avocats. 48 articles pour comprendre vos d#1",
    "role": "p",
+   "zone": "main",
    "text": "Le droit expliqué clairement, par des avocats. 48 articles pour comprendre vos d",
    "fullTextLen": 119,
    "x": 420,
@@ -2144,6 +2203,7 @@
   {
    "key": "b:p:Lire#1",
    "role": "p",
+   "zone": "main",
    "text": "Lire",
    "fullTextLen": 4,
    "x": 435,
@@ -2180,6 +2240,7 @@
   {
    "key": "b:p:© Site web imaginé par l'agence REWOLF | rewolf.studio#1",
    "role": "p",
+   "zone": "footer",
    "text": "© Site web imaginé par l'agence REWOLF | rewolf.studio",
    "fullTextLen": 54,
    "x": 47.5,
@@ -2216,6 +2277,7 @@
   {
    "key": "b:p:Menu#1",
    "role": "p",
+   "zone": "footer",
    "text": "Menu",
    "fullTextLen": 4,
    "x": 48.5,
@@ -2252,6 +2314,7 @@
   {
    "key": "b:p:Accueil#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accueil",
    "fullTextLen": 7,
    "x": 49,
@@ -2288,6 +2351,7 @@
   {
    "key": "b:p:Notre cabinet#1",
    "role": "p",
+   "zone": "footer",
    "text": "Notre cabinet",
    "fullTextLen": 13,
    "x": 49,
@@ -2324,6 +2388,7 @@
   {
    "key": "b:p:Rendez-vous, accès & honoraires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "fullTextLen": 31,
    "x": 49,
@@ -2360,6 +2425,7 @@
   {
    "key": "b:p:Nos affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Nos affaires",
    "fullTextLen": 12,
    "x": 49,
@@ -2396,6 +2462,7 @@
   {
    "key": "b:p:Ressources#1",
    "role": "p",
+   "zone": "footer",
    "text": "Ressources",
    "fullTextLen": 10,
    "x": 49,
@@ -2432,6 +2499,7 @@
   {
    "key": "b:p:Mentions légales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Mentions légales",
    "fullTextLen": 16,
    "x": 49,
@@ -2468,6 +2536,7 @@
   {
    "key": "b:p:Défense Pénale#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense Pénale",
    "fullTextLen": 14,
    "x": 47.5,
@@ -2504,6 +2573,7 @@
   {
    "key": "b:p:Droit pénal#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal",
    "fullTextLen": 11,
    "x": 48,
@@ -2540,6 +2610,7 @@
   {
    "key": "b:p:Procès criminels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Procès criminels",
    "fullTextLen": 16,
    "x": 48,
@@ -2576,6 +2647,7 @@
   {
    "key": "b:p:Trafic de stupéfiants#1",
    "role": "p",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "fullTextLen": 21,
    "x": 48,
@@ -2612,6 +2684,7 @@
   {
    "key": "b:p:Violences conjugales et féminicides#1",
    "role": "p",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "fullTextLen": 35,
    "x": 48,
@@ -2648,6 +2721,7 @@
   {
    "key": "b:p:Droit pénal des affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "fullTextLen": 24,
    "x": 48,
@@ -2684,6 +2758,7 @@
   {
    "key": "b:p:Indemnisation des victimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "fullTextLen": 26,
    "x": 389.22,
@@ -2720,6 +2795,7 @@
   {
    "key": "b:p:Victimes de délits ou crimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "fullTextLen": 28,
    "x": 389.72,
@@ -2756,6 +2832,7 @@
   {
    "key": "b:p:Accidents de la route#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la route",
    "fullTextLen": 21,
    "x": 389.72,
@@ -2792,6 +2869,7 @@
   {
    "key": "b:p:Droit et accidents du travail#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "fullTextLen": 29,
    "x": 389.72,
@@ -2828,6 +2906,7 @@
   {
    "key": "b:p:Accidents et erreurs médicales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "fullTextLen": 30,
    "x": 389.72,
@@ -2864,6 +2943,7 @@
   {
    "key": "b:p:Accidents de la vie courante#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "fullTextLen": 28,
    "x": 389.72,
@@ -2900,6 +2980,7 @@
   {
    "key": "b:p:Droit des contrats et des personnes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "fullTextLen": 35,
    "x": 389.22,
@@ -2936,6 +3017,7 @@
   {
    "key": "b:p:Droit des assurances particuliers et professionnels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "fullTextLen": 51,
    "x": 389.72,
@@ -2972,6 +3054,7 @@
   {
    "key": "b:p:Défense des consommateurs#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "fullTextLen": 25,
    "x": 389.72,
@@ -3008,6 +3091,7 @@
   {
    "key": "b:p:Droit de la famille#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit de la famille",
    "fullTextLen": 19,
    "x": 389.72,
@@ -3044,6 +3128,7 @@
   {
    "key": "b:p:Divorce#1",
    "role": "p",
+   "zone": "footer",
    "text": "Divorce",
    "fullTextLen": 7,
    "x": 389.72,
@@ -3080,6 +3165,7 @@
   {
    "key": "b:p:05 56 44 35 96#1",
    "role": "p",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "fullTextLen": 14,
    "x": 59,
@@ -3116,6 +3202,7 @@
   {
    "key": "b:p:Contact & RDV#1",
    "role": "p",
+   "zone": "footer",
    "text": "Contact & RDV",
    "fullTextLen": 13,
    "x": 197.33,
@@ -3152,6 +3239,7 @@
   {
    "key": "b:p:Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R#1",
    "role": "p",
+   "zone": "footer",
    "text": "Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R",
    "fullTextLen": 136,
    "x": 49.02,
@@ -3188,6 +3276,7 @@
   {
    "key": "b:p:Contact#1",
    "role": "p",
+   "zone": "footer",
    "text": "Contact",
    "fullTextLen": 7,
    "x": 47.5,
@@ -3224,6 +3313,7 @@
   {
    "key": "b:p:Une question sur vos droits ? Contactez le cabinet Plouton.#1",
    "role": "p",
+   "zone": "main",
    "text": "Une question sur vos droits ? Contactez le cabinet Plouton.",
    "fullTextLen": 59,
    "x": 237.86,
@@ -3260,6 +3350,7 @@
   {
    "key": "b:p:Nous appeler#1",
    "role": "p",
+   "zone": "main",
    "text": "Nous appeler",
    "fullTextLen": 12,
    "x": 275.45,
@@ -3296,6 +3387,7 @@
   {
    "key": "b:p:Je prends rendez-vous !#1",
    "role": "p",
+   "zone": "main",
    "text": "Je prends rendez-vous !",
    "fullTextLen": 23,
    "x": 401.89,
@@ -3334,6 +3426,7 @@
   {
    "key": "i:button:Search#1",
    "role": "button",
+   "zone": "header",
    "text": "Search",
    "x": 362.98,
    "y": 12,
@@ -3361,6 +3454,7 @@
   {
    "key": "i:button:Menu mobile - burger#1",
    "role": "button",
+   "zone": "header",
    "text": "Menu mobile - burger",
    "x": 686.98,
    "y": 21,
@@ -3388,6 +3482,7 @@
   {
    "key": "i:button:Noté 0 étoile sur 5.Pas encore de note#1",
    "role": "button",
+   "zone": "main",
    "text": "Noté 0 étoile sur 5.Pas encore de note",
    "x": 81,
    "y": 377.19,
@@ -3415,6 +3510,7 @@
   {
    "key": "i:a:féminicides#1",
    "role": "a",
+   "zone": "main",
    "text": "féminicides",
    "x": 578.23,
    "y": 732.25,
@@ -3442,6 +3538,7 @@
   {
    "key": "i:a:lutte contre les violences conjugales#1",
    "role": "a",
+   "zone": "main",
    "text": "lutte contre les violences conjugales",
    "x": 420.52,
    "y": 1778.91,
@@ -3469,6 +3566,7 @@
   {
    "key": "i:a:féminicide#1",
    "role": "a",
+   "zone": "main",
    "text": "féminicide",
    "x": 81,
    "y": 3807.16,
@@ -3496,6 +3594,7 @@
   {
    "key": "i:a:avocat victime#1",
    "role": "a",
+   "zone": "main",
    "text": "avocat victime",
    "x": 183.38,
    "y": 3807.16,
@@ -3523,6 +3622,7 @@
   {
    "key": "i:a:violences sexuelles et sexistes#1",
    "role": "a",
+   "zone": "main",
    "text": "violences sexuelles et sexistes",
    "x": 311.89,
    "y": 3807.16,
@@ -3550,6 +3650,7 @@
   {
    "key": "i:a:défaillance de l'état#1",
    "role": "a",
+   "zone": "main",
    "text": "défaillance de l'état",
    "x": 81,
    "y": 3846.16,
@@ -3577,6 +3678,7 @@
   {
    "key": "i:a:action en responsabilité pour faute lourde#1",
    "role": "a",
+   "zone": "main",
    "text": "action en responsabilité pour faute lourde",
    "x": 241.27,
    "y": 3846.16,
@@ -3604,6 +3706,7 @@
   {
    "key": "i:a:Violences Conjugales et féminicides#1",
    "role": "a",
+   "zone": "main",
    "text": "Violences Conjugales et féminicides",
    "x": 81,
    "y": 3898.16,
@@ -3631,6 +3734,7 @@
   {
    "key": "i:a:Procès criminels#1",
    "role": "a",
+   "zone": "main",
    "text": "Procès criminels",
    "x": 81,
    "y": 3926.56,
@@ -3658,6 +3762,7 @@
   {
    "key": "i:a:Médias#1",
    "role": "a",
+   "zone": "main",
    "text": "Médias",
    "x": 81,
    "y": 3954.97,
@@ -3685,6 +3790,7 @@
   {
    "key": "i:button:1 j'aime. Vous n'aimez plus ce post1#1",
    "role": "button",
+   "zone": "main",
    "text": "1 j'aime. Vous n'aimez plus ce post1",
    "x": 656.03,
    "y": 4082.38,
@@ -3712,6 +3818,7 @@
   {
    "key": "i:button:Vous n'aimez plus ce post#1",
    "role": "button",
+   "zone": "main",
    "text": "Vous n'aimez plus ce post",
    "x": 323,
    "y": 4542.56,
@@ -3739,6 +3846,7 @@
   {
    "key": "i:button:Vous n'aimez plus ce post#2",
    "role": "button",
+   "zone": "main",
    "text": "Vous n'aimez plus ce post",
    "x": 704,
    "y": 4542.56,
@@ -3766,6 +3874,7 @@
   {
    "key": "i:a:4,6/5 étoiles (190 avis) sur Google#1",
    "role": "a",
+   "zone": "main",
    "text": "4,6/5 étoiles (190 avis) sur Google",
    "x": 113,
    "y": 4895.63,
@@ -3793,6 +3902,7 @@
   {
    "key": "i:a:Prendre rendez-vous#1",
    "role": "a",
+   "zone": "main",
    "text": "Prendre rendez-vous",
    "x": 48,
    "y": 5080.5,
@@ -3820,6 +3930,7 @@
   {
    "key": "i:a:Lire#1",
    "role": "a",
+   "zone": "main",
    "text": "Lire",
    "x": 420,
    "y": 6029.06,
@@ -3847,6 +3958,7 @@
   {
    "key": "i:a:REWOLF | rewolf.studio#1",
    "role": "a",
+   "zone": "footer",
    "text": "REWOLF | rewolf.studio",
    "x": 210.05,
    "y": 7621.44,
@@ -3874,6 +3986,7 @@
   {
    "key": "i:a:Accueil#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accueil",
    "x": 49,
    "y": 7062.27,
@@ -3901,6 +4014,7 @@
   {
    "key": "i:a:Notre cabinet#1",
    "role": "a",
+   "zone": "footer",
    "text": "Notre cabinet",
    "x": 49,
    "y": 7099.67,
@@ -3928,6 +4042,7 @@
   {
    "key": "i:a:Rendez-vous, accès & honoraires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "x": 49,
    "y": 7137.08,
@@ -3955,6 +4070,7 @@
   {
    "key": "i:a:Nos affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Nos affaires",
    "x": 49,
    "y": 7174.48,
@@ -3982,6 +4098,7 @@
   {
    "key": "i:a:Ressources#1",
    "role": "a",
+   "zone": "footer",
    "text": "Ressources",
    "x": 49,
    "y": 7211.89,
@@ -4009,6 +4126,7 @@
   {
    "key": "i:a:Mentions légales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Mentions légales",
    "x": 49,
    "y": 7249.3,
@@ -4036,6 +4154,7 @@
   {
    "key": "i:a:Défense Pénale#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense Pénale",
    "x": 47.5,
    "y": 7336.2,
@@ -4063,6 +4182,7 @@
   {
    "key": "i:a:Droit pénal#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal",
    "x": 48,
    "y": 7386.41,
@@ -4090,6 +4210,7 @@
   {
    "key": "i:a:Procès criminels#2",
    "role": "a",
+   "zone": "footer",
    "text": "Procès criminels",
    "x": 48,
    "y": 7423.81,
@@ -4117,6 +4238,7 @@
   {
    "key": "i:a:Trafic de stupéfiants#1",
    "role": "a",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "x": 48,
    "y": 7461.22,
@@ -4144,6 +4266,7 @@
   {
    "key": "i:a:Violences conjugales et féminicides#1",
    "role": "a",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "x": 48,
    "y": 7498.63,
@@ -4171,6 +4294,7 @@
   {
    "key": "i:a:Droit pénal des affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "x": 48,
    "y": 7536.03,
@@ -4198,6 +4322,7 @@
   {
    "key": "i:a:Indemnisation des victimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "x": 389.22,
    "y": 7012.06,
@@ -4225,6 +4350,7 @@
   {
    "key": "i:a:Victimes de délits ou crimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "x": 389.72,
    "y": 7062.27,
@@ -4252,6 +4378,7 @@
   {
    "key": "i:a:Accidents de la route#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la route",
    "x": 389.72,
    "y": 7099.67,
@@ -4279,6 +4406,7 @@
   {
    "key": "i:a:Droit et accidents du travail#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "x": 389.72,
    "y": 7137.08,
@@ -4306,6 +4434,7 @@
   {
    "key": "i:a:Accidents et erreurs médicales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "x": 389.72,
    "y": 7174.48,
@@ -4333,6 +4462,7 @@
   {
    "key": "i:a:Accidents de la vie courante#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "x": 389.72,
    "y": 7211.89,
@@ -4360,6 +4490,7 @@
   {
    "key": "i:a:Droit des contrats et des personnes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "x": 389.22,
    "y": 7336.7,
@@ -4387,6 +4518,7 @@
   {
    "key": "i:a:Droit des assurances particuliers et professionnels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "x": 389.72,
    "y": 7386.91,
@@ -4414,6 +4546,7 @@
   {
    "key": "i:a:Défense des consommateurs#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "x": 389.72,
    "y": 7424.31,
@@ -4441,6 +4574,7 @@
   {
    "key": "i:a:Droit de la famille#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit de la famille",
    "x": 389.72,
    "y": 7461.72,
@@ -4468,6 +4602,7 @@
   {
    "key": "i:a:Divorce#1",
    "role": "a",
+   "zone": "footer",
    "text": "Divorce",
    "x": 389.72,
    "y": 7499.13,
@@ -4495,6 +4630,7 @@
   {
    "key": "i:a:05 56 44 35 96#1",
    "role": "a",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "x": 48,
    "y": 6372.06,
@@ -4522,6 +4658,7 @@
   {
    "key": "i:a:Contact & RDV#1",
    "role": "a",
+   "zone": "footer",
    "text": "Contact & RDV",
    "x": 186.33,
    "y": 6372.06,
@@ -4549,6 +4686,7 @@
   {
    "key": "i:a:15 Pl. Sainte-Eulalie, 33000 Bordeaux#1",
    "role": "a",
+   "zone": "footer",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "x": 338.08,
    "y": 6296.56,
@@ -4576,6 +4714,7 @@
   {
    "key": "i:a:Nous appeler#1",
    "role": "a",
+   "zone": "main",
    "text": "Nous appeler",
    "x": 237.61,
    "y": 921.67,
@@ -4603,6 +4742,7 @@
   {
    "key": "i:a:Je prends rendez-vous !#1",
    "role": "a",
+   "zone": "main",
    "text": "Je prends rendez-vous !",
    "x": 365.05,
    "y": 921.67,
@@ -4632,6 +4772,7 @@
   {
    "key": "img:img:d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2#1",
    "anchor": "d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Julien Plouton - Avocat à la Cour",
    "x": 81,
    "y": 161,
@@ -4647,6 +4788,7 @@
   {
    "key": "img:img:d05c9e_ed2551b85ab444aeb16f16e4b205fc69#1",
    "anchor": "d05c9e_ed2551b85ab444aeb16f16e4b205fc69",
+   "zone": "main",
    "alt": "divorce v2.jpg",
    "x": 0,
    "y": 4605.56,
@@ -4662,6 +4804,7 @@
   {
    "key": "img:img:d05c9e_cf0a4239b5a9454e84a5a2081f17aa95#1",
    "anchor": "d05c9e_cf0a4239b5a9454e84a5a2081f17aa95",
+   "zone": "main",
    "alt": "Logo de Google Avis",
    "x": 48,
    "y": 4880.63,
@@ -4677,6 +4820,7 @@
   {
    "key": "img:img:nsplsh_c5c71d86d13c4d6cb9f87d1517edf867#1",
    "anchor": "nsplsh_c5c71d86d13c4d6cb9f87d1517edf867",
+   "zone": "main",
    "alt": "Image de Fahad Bin Kamal Anik",
    "x": 0,
    "y": 5405.56,

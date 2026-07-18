@@ -1,6 +1,6 @@
 {
  "meta": {
-  "url": "https://www.jplouton-avocat.fr/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux?cooked_aid=iljgxj3z1bmrpifv819za2juffu3mmrpifv81&cooked_sid=f10vrt2b67qmrpifv81",
+  "url": "https://www.jplouton-avocat.fr/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux?cooked_aid=ait1w7m1ijimrq3sh7o0r93r8whukqsmrq3sh7o&cooked_sid=673i0rijedqmrq3sh7o",
   "pageHeight": 17452,
   "viewportW": 768,
   "viewportH": 1024,
@@ -14,12 +14,13 @@
   "viewportId": "768",
   "target": "live",
   "origin": "https://www.jplouton-avocat.fr",
-  "capturedAt": "2026-07-17T22:29:27.224Z"
+  "capturedAt": "2026-07-18T08:27:07.600Z"
  },
  "blocks": [
   {
    "key": "b:p:Search#1",
    "role": "p",
+   "zone": "header",
    "text": "Search",
    "fullTextLen": 6,
    "x": 362.98,
@@ -56,6 +57,7 @@
   {
    "key": "b:a:Contact & RDV#1",
    "role": "a",
+   "zone": "header",
    "text": "Contact & RDV",
    "fullTextLen": 13,
    "x": 502.16,
@@ -92,6 +94,7 @@
   {
    "key": "b:p:Menu mobile - burger#1",
    "role": "p",
+   "zone": "header",
    "text": "Menu mobile - burger",
    "fullTextLen": 20,
    "x": 686.98,
@@ -128,6 +131,7 @@
   {
    "key": "b:p:Mis à jour le 17/04/2026#1",
    "role": "p",
+   "zone": "main",
    "text": "Mis à jour le 17/04/2026",
    "fullTextLen": 24,
    "x": 59.22,
@@ -164,6 +168,7 @@
   {
    "key": "b:h1:Avocat divorce à Bordeaux – amiable & contentieux#1",
    "role": "h1",
+   "zone": "main",
    "text": "Avocat divorce à Bordeaux – amiable & contentieux",
    "fullTextLen": 49,
    "x": 55.72,
@@ -200,6 +205,7 @@
   {
    "key": "b:p:Clarté sur la procédure, protection de vos intérêts, priorité à l'apaisement. Vo#1",
    "role": "p",
+   "zone": "main",
    "text": "Clarté sur la procédure, protection de vos intérêts, priorité à l'apaisement. Vo",
    "fullTextLen": 124,
    "x": 55.72,
@@ -236,6 +242,7 @@
   {
    "key": "b:p:4,6/5 étoiles (193 avis) sur Google#1",
    "role": "p",
+   "zone": "main",
    "text": "4,6/5 étoiles (193 avis) sur Google",
    "fullTextLen": 35,
    "x": 182.69,
@@ -272,6 +279,7 @@
   {
    "key": "b:p:Bordeaux centre#1",
    "role": "p",
+   "zone": "main",
    "text": "Bordeaux centre",
    "fullTextLen": 15,
    "x": 388.69,
@@ -308,6 +316,7 @@
   {
    "key": "b:p:Obtenir un premier avis#1",
    "role": "p",
+   "zone": "main",
    "text": "Obtenir un premier avis",
    "fullTextLen": 23,
    "x": 100.72,
@@ -344,6 +353,7 @@
   {
    "key": "b:p:05 56 44 35 96#1",
    "role": "p",
+   "zone": "main",
    "text": "05 56 44 35 96",
    "fullTextLen": 14,
    "x": 309.69,
@@ -380,6 +390,7 @@
   {
    "key": "b:p:Fort de plus de 20 ans d’expérience dans le divorce en droit de la famille, le C#1",
    "role": "p",
+   "zone": "main",
    "text": "Fort de plus de 20 ans d’expérience dans le divorce en droit de la famille, le C",
    "fullTextLen": 453,
    "x": 50,
@@ -416,6 +427,7 @@
   {
    "key": "b:p:Divorce amiable#1",
    "role": "p",
+   "zone": "main",
    "text": "Divorce amiable",
    "fullTextLen": 15,
    "x": 34,
@@ -452,6 +464,7 @@
   {
    "key": "b:p:Divorce contentieux#1",
    "role": "p",
+   "zone": "main",
    "text": "Divorce contentieux",
    "fullTextLen": 19,
    "x": 204.11,
@@ -488,6 +501,7 @@
   {
    "key": "b:p:Partage des biens#1",
    "role": "p",
+   "zone": "main",
    "text": "Partage des biens",
    "fullTextLen": 17,
    "x": 396.25,
@@ -524,6 +538,7 @@
   {
    "key": "b:p:Garde et pension enfant(s)#1",
    "role": "p",
+   "zone": "main",
    "text": "Garde et pension enfant(s)",
    "fullTextLen": 26,
    "x": 574.63,
@@ -560,6 +575,7 @@
   {
    "key": "b:p:Simulateur prestation compensatoire#1",
    "role": "p",
+   "zone": "main",
    "text": "Simulateur prestation compensatoire",
    "fullTextLen": 35,
    "x": 804.83,
@@ -596,6 +612,7 @@
   {
    "key": "b:p:Simulateur pension alimentaire#1",
    "role": "p",
+   "zone": "main",
    "text": "Simulateur pension alimentaire",
    "fullTextLen": 30,
    "x": 1098.31,
@@ -632,6 +649,7 @@
   {
    "key": "b:p:Je prends rendez - vous#1",
    "role": "p",
+   "zone": "main",
    "text": "Je prends rendez - vous",
    "fullTextLen": 23,
    "x": 1332.84,
@@ -668,6 +686,7 @@
   {
    "key": "b:h2:Deux possibilités : divorce par consentement mutuel ou divorce contentieux#1",
    "role": "h2",
+   "zone": "main",
    "text": "Deux possibilités : divorce par consentement mutuel ou divorce contentieux",
    "fullTextLen": 74,
    "x": 50.25,
@@ -704,6 +723,7 @@
   {
    "key": "b:p:Deux approches différentes selon votre situation#1",
    "role": "p",
+   "zone": "main",
    "text": "Deux approches différentes selon votre situation",
    "fullTextLen": 48,
    "x": 204.72,
@@ -740,6 +760,7 @@
   {
    "key": "b:h3:Divorce par consentement mutuel#1",
    "role": "h3",
+   "zone": "main",
    "text": "Divorce par consentement mutuel",
    "fullTextLen": 31,
    "x": 76.02,
@@ -776,6 +797,7 @@
   {
    "key": "b:p:Trouver un accord et simplifier votre procédure#1",
    "role": "p",
+   "zone": "main",
    "text": "Trouver un accord et simplifier votre procédure",
    "fullTextLen": 47,
    "x": 76.02,
@@ -812,6 +834,7 @@
   {
    "key": "b:p:Dans ce cas, les conjoints sont d'accord pour divorcer et s'entendent sur les co#1",
    "role": "p",
+   "zone": "main",
    "text": "Dans ce cas, les conjoints sont d'accord pour divorcer et s'entendent sur les co",
    "fullTextLen": 160,
    "x": 76,
@@ -848,6 +871,7 @@
   {
    "key": "b:p:Quand l’accord existe, tout va plus vite : modalités parentales, pensions, liqui#1",
    "role": "p",
+   "zone": "main",
    "text": "Quand l’accord existe, tout va plus vite : modalités parentales, pensions, liqui",
    "fullTextLen": 278,
    "x": 76,
@@ -884,6 +908,7 @@
   {
    "key": "b:p:Voir le parcours amiable#1",
    "role": "p",
+   "zone": "main",
    "text": "Voir le parcours amiable",
    "fullTextLen": 24,
    "x": 123.72,
@@ -920,6 +945,7 @@
   {
    "key": "b:h3:Divorce contentieux#1",
    "role": "h3",
+   "zone": "main",
    "text": "Divorce contentieux",
    "fullTextLen": 19,
    "x": 421.52,
@@ -956,6 +982,7 @@
   {
    "key": "b:p:Défense de vos droits devant le juge#1",
    "role": "p",
+   "zone": "main",
    "text": "Défense de vos droits devant le juge",
    "fullTextLen": 36,
    "x": 421.52,
@@ -992,6 +1019,7 @@
   {
    "key": "b:p:Le divorce contentieux se présentera dans différents cas de figure : le divorce #1",
    "role": "p",
+   "zone": "main",
    "text": "Le divorce contentieux se présentera dans différents cas de figure : le divorce ",
    "fullTextLen": 341,
    "x": 421.5,
@@ -1028,6 +1056,7 @@
   {
    "key": "b:p:Ici, il ne s’agit plus de s’entendre : il faut convaincre. Nous fixons une strat#1",
    "role": "p",
+   "zone": "main",
    "text": "Ici, il ne s’agit plus de s’entendre : il faut convaincre. Nous fixons une strat",
    "fullTextLen": 197,
    "x": 421.5,
@@ -1064,6 +1093,7 @@
   {
    "key": "b:p:Voir le parcours contentieux#1",
    "role": "p",
+   "zone": "main",
    "text": "Voir le parcours contentieux",
    "fullTextLen": 28,
    "x": 458.2,
@@ -1100,6 +1130,7 @@
   {
    "key": "b:h2:Divorce par consentement mutuel : le chemin le plus apaisé#1",
    "role": "h2",
+   "zone": "main",
    "text": "Divorce par consentement mutuel : le chemin le plus apaisé",
    "fullTextLen": 58,
    "x": 50,
@@ -1136,6 +1167,7 @@
   {
    "key": "b:p:Une procédure simple et rapide pour préserver l'avenir de votre famille#1",
    "role": "p",
+   "zone": "main",
    "text": "Une procédure simple et rapide pour préserver l'avenir de votre famille",
    "fullTextLen": 71,
    "x": 50,
@@ -1172,6 +1204,7 @@
   {
    "key": "b:p:Lorsque l'on évoque un divorce à l'amiable, on fait référence juridiquement à un#1",
    "role": "p",
+   "zone": "main",
    "text": "Lorsque l'on évoque un divorce à l'amiable, on fait référence juridiquement à un",
    "fullTextLen": 244,
    "x": 50,
@@ -1208,6 +1241,7 @@
   {
    "key": "b:h3:Obligation légale depuis 2017#1",
    "role": "h3",
+   "zone": "main",
    "text": "Obligation légale depuis 2017",
    "fullTextLen": 29,
    "x": 75,
@@ -1244,6 +1278,7 @@
   {
    "key": "b:p:Depuis 2017, la législation en France impose que chaque partie soit assistée par#1",
    "role": "p",
+   "zone": "main",
    "text": "Depuis 2017, la législation en France impose que chaque partie soit assistée par",
    "fullTextLen": 348,
    "x": 75,
@@ -1280,6 +1315,7 @@
   {
    "key": "b:p:Ainsi, nous vous accompagnons à la fois dans les échanges, la négociation d'acco#1",
    "role": "p",
+   "zone": "main",
    "text": "Ainsi, nous vous accompagnons à la fois dans les échanges, la négociation d'acco",
    "fullTextLen": 160,
    "x": 50,
@@ -1316,6 +1352,7 @@
   {
    "key": "b:p:1#1",
    "role": "p",
+   "zone": "main",
    "text": "1",
    "fullTextLen": 1,
    "x": 92.53,
@@ -1352,6 +1389,7 @@
   {
    "key": "b:p:2#1",
    "role": "p",
+   "zone": "main",
    "text": "2",
    "fullTextLen": 1,
    "x": 92.53,
@@ -1388,6 +1426,7 @@
   {
    "key": "b:p:3#1",
    "role": "p",
+   "zone": "main",
    "text": "3",
    "fullTextLen": 1,
    "x": 92.53,
@@ -1424,6 +1463,7 @@
   {
    "key": "b:h3:Rédaction de la convention de divorce avec votre avocat#1",
    "role": "h3",
+   "zone": "main",
    "text": "Rédaction de la convention de divorce avec votre avocat",
    "fullTextLen": 55,
    "x": 175,
@@ -1460,6 +1500,7 @@
   {
    "key": "b:p:Nous rédigeons ensemble la convention qui règle tous les effets du divorce : enf#1",
    "role": "p",
+   "zone": "main",
    "text": "Nous rédigeons ensemble la convention qui règle tous les effets du divorce : enf",
    "fullTextLen": 203,
    "x": 175,
@@ -1496,6 +1537,7 @@
   {
    "key": "b:h3:Signature de cette convention par les époux#1",
    "role": "h3",
+   "zone": "main",
    "text": "Signature de cette convention par les époux",
    "fullTextLen": 43,
    "x": 175,
@@ -1532,6 +1574,7 @@
   {
    "key": "b:p:La convention est signée par les deux époux, chacun assisté de son avocat. La si#1",
    "role": "p",
+   "zone": "main",
    "text": "La convention est signée par les deux époux, chacun assisté de son avocat. La si",
    "fullTextLen": 235,
    "x": 175,
@@ -1568,6 +1611,7 @@
   {
    "key": "b:h3:Dépôt de la convention chez un notaire pour officialiser celle-ci#1",
    "role": "h3",
+   "zone": "main",
    "text": "Dépôt de la convention chez un notaire pour officialiser celle-ci",
    "fullTextLen": 65,
    "x": 175,
@@ -1604,6 +1648,7 @@
   {
    "key": "b:p:Le notaire vérifie la conformité de la convention et lui donne force exécutoire.#1",
    "role": "p",
+   "zone": "main",
    "text": "Le notaire vérifie la conformité de la convention et lui donne force exécutoire.",
    "fullTextLen": 157,
    "x": 175,
@@ -1640,6 +1685,7 @@
   {
    "key": "b:h3:Mise à jour de l'état civil#1",
    "role": "h3",
+   "zone": "main",
    "text": "Mise à jour de l'état civil",
    "fullTextLen": 27,
    "x": 175,
@@ -1676,6 +1722,7 @@
   {
    "key": "b:p:Une fois la convention déposée, le divorce est prononcé et l'état civil est auto#1",
    "role": "p",
+   "zone": "main",
    "text": "Une fois la convention déposée, le divorce est prononcé et l'état civil est auto",
    "fullTextLen": 140,
    "x": 175,
@@ -1712,6 +1759,7 @@
   {
    "key": "b:p:Répartition des biens et pension alimentaire#1",
    "role": "p",
+   "zone": "main",
    "text": "Répartition des biens et pension alimentaire",
    "fullTextLen": 44,
    "x": 75,
@@ -1748,6 +1796,7 @@
   {
    "key": "b:p:Dans le cas d'un divorce à l'amiable, la répartition des biens et la définition #1",
    "role": "p",
+   "zone": "main",
    "text": "Dans le cas d'un divorce à l'amiable, la répartition des biens et la définition ",
    "fullTextLen": 389,
    "x": 75,
@@ -1784,6 +1833,7 @@
   {
    "key": "b:p:Honoraires - Divorce contentieux#1",
    "role": "p",
+   "zone": "main",
    "text": "Honoraires - Divorce contentieux",
    "fullTextLen": 32,
    "x": 75,
@@ -1820,6 +1870,7 @@
   {
    "key": "b:p:390 € HT / heure#1",
    "role": "p",
+   "zone": "main",
    "text": "390 € HT / heure",
    "fullTextLen": 16,
    "x": 75,
@@ -1856,6 +1907,7 @@
   {
    "key": "b:p:Honoraires cabinet au temps passé sur le dossier.#1",
    "role": "p",
+   "zone": "main",
    "text": "Honoraires cabinet au temps passé sur le dossier.",
    "fullTextLen": 49,
    "x": 75,
@@ -1892,6 +1944,7 @@
   {
    "key": "b:p:1500 € - 3000 € (fourchettes des frais finaux)#1",
    "role": "p",
+   "zone": "main",
    "text": "1500 € - 3000 € (fourchettes des frais finaux)",
    "fullTextLen": 46,
    "x": 75,
@@ -1928,6 +1981,7 @@
   {
    "key": "b:p:Inclus dans nos honoraires : Entretiens préparatoires — rédaction de la conventi#1",
    "role": "p",
+   "zone": "main",
    "text": "Inclus dans nos honoraires : Entretiens préparatoires — rédaction de la conventi",
    "fullTextLen": 136,
    "x": 75,
@@ -1964,6 +2018,7 @@
   {
    "key": "b:p:Pourquoi nous choisir ?#1",
    "role": "p",
+   "zone": "main",
    "text": "Pourquoi nous choisir ?",
    "fullTextLen": 23,
    "x": 421.5,
@@ -2000,6 +2055,7 @@
   {
    "key": "b:p:✓ Pédagogie : Explications claires à chaque étape#1",
    "role": "p",
+   "zone": "main",
    "text": "✓ Pédagogie : Explications claires à chaque étape",
    "fullTextLen": 49,
    "x": 421.5,
@@ -2036,6 +2092,7 @@
   {
    "key": "b:p:✓ Rigueur : Convention complète et sécurisée#1",
    "role": "p",
+   "zone": "main",
    "text": "✓ Rigueur : Convention complète et sécurisée",
    "fullTextLen": 44,
    "x": 421.5,
@@ -2072,6 +2129,7 @@
   {
    "key": "b:p:✓ Coordination : Relation privilégiée avec les notaires#1",
    "role": "p",
+   "zone": "main",
    "text": "✓ Coordination : Relation privilégiée avec les notaires",
    "fullTextLen": 55,
    "x": 421.5,
@@ -2108,6 +2166,7 @@
   {
    "key": "b:p:Obtenir un premier avis#2",
    "role": "p",
+   "zone": "main",
    "text": "Obtenir un premier avis",
    "fullTextLen": 23,
    "x": 506.19,
@@ -2144,6 +2203,7 @@
   {
    "key": "b:h2:Divorce contentieux : nous préservons votre avenir#1",
    "role": "h2",
+   "zone": "main",
    "text": "Divorce contentieux : nous préservons votre avenir",
    "fullTextLen": 50,
    "x": 56.22,
@@ -2180,6 +2240,7 @@
   {
    "key": "b:p:Le divorce contentieux apporte une solution aux époux qui ne trouvent pas de ter#1",
    "role": "p",
+   "zone": "main",
    "text": "Le divorce contentieux apporte une solution aux époux qui ne trouvent pas de ter",
    "fullTextLen": 230,
    "x": 56.22,
@@ -2216,6 +2277,7 @@
   {
    "key": "b:p:Notre cabinet répond parfaitement à vos besoins dans ce cas précis, où nous vous#1",
    "role": "p",
+   "zone": "main",
    "text": "Notre cabinet répond parfaitement à vos besoins dans ce cas précis, où nous vous",
    "fullTextLen": 331,
    "x": 56.22,
@@ -2252,6 +2314,7 @@
   {
    "key": "b:h3:Procédure obligatoirement judiciaire#1",
    "role": "h3",
+   "zone": "main",
    "text": "Procédure obligatoirement judiciaire",
    "fullTextLen": 36,
    "x": 81.22,
@@ -2288,6 +2351,7 @@
   {
    "key": "b:p:Ce type de divorce doit obligatoirement se faire devant un juge afin de détermin#1",
    "role": "p",
+   "zone": "main",
    "text": "Ce type de divorce doit obligatoirement se faire devant un juge afin de détermin",
    "fullTextLen": 375,
    "x": 81.22,
@@ -2324,6 +2388,7 @@
   {
    "key": "b:h3:Divorce accepté#1",
    "role": "h3",
+   "zone": "main",
    "text": "Divorce accepté",
    "fullTextLen": 15,
    "x": 81.23,
@@ -2360,6 +2425,7 @@
   {
    "key": "b:p:Vous êtes d’accord sur le principe du divorce (sans faute) mais les conséquences#1",
    "role": "p",
+   "zone": "main",
    "text": "Vous êtes d’accord sur le principe du divorce (sans faute) mais les conséquences",
    "fullTextLen": 191,
    "x": 81.22,
@@ -2396,6 +2462,7 @@
   {
    "key": "b:p:Notre rôle : acter l’acceptation par écrit, sécuriser la procédure, chiffrer et #1",
    "role": "p",
+   "zone": "main",
    "text": "Notre rôle : acter l’acceptation par écrit, sécuriser la procédure, chiffrer et ",
    "fullTextLen": 258,
    "x": 81.22,
@@ -2432,6 +2499,7 @@
   {
    "key": "b:h3:Divorce pour faute#1",
    "role": "h3",
+   "zone": "main",
    "text": "Divorce pour faute",
    "fullTextLen": 18,
    "x": 81.23,
@@ -2468,6 +2536,7 @@
   {
    "key": "b:p:Un époux reproche à l’autre une violation grave ou renouvelée des devoirs du mar#1",
    "role": "p",
+   "zone": "main",
    "text": "Un époux reproche à l’autre une violation grave ou renouvelée des devoirs du mar",
    "fullTextLen": 239,
    "x": 81.22,
@@ -2504,6 +2573,7 @@
   {
    "key": "b:p:Notre rôle : qualifier juridiquement les faits, organiser des preuves loyales (c#1",
    "role": "p",
+   "zone": "main",
    "text": "Notre rôle : qualifier juridiquement les faits, organiser des preuves loyales (c",
    "fullTextLen": 301,
    "x": 81.22,
@@ -2540,6 +2610,7 @@
   {
    "key": "b:h3:Divorce pour altération définitive#1",
    "role": "h3",
+   "zone": "main",
    "text": "Divorce pour altération définitive",
    "fullTextLen": 34,
    "x": 81.23,
@@ -2576,6 +2647,7 @@
   {
    "key": "b:p:Dans ce cas, la communauté de vie a cessé depuis au moins 1 an à la date de l’as#1",
    "role": "p",
+   "zone": "main",
    "text": "Dans ce cas, la communauté de vie a cessé depuis au moins 1 an à la date de l’as",
    "fullTextLen": 503,
    "x": 81.22,
@@ -2612,6 +2684,7 @@
   {
    "key": "b:h3:Comment notre cabinet vous accompagne dans votre procédure de divorce contentieu#1",
    "role": "h3",
+   "zone": "main",
    "text": "Comment notre cabinet vous accompagne dans votre procédure de divorce contentieu",
    "fullTextLen": 81,
    "x": 56.22,
@@ -2648,6 +2721,7 @@
   {
    "key": "b:p:Les étapes du divorce contentieux suivent une progression judiciaire structurée #1",
    "role": "p",
+   "zone": "main",
    "text": "Les étapes du divorce contentieux suivent une progression judiciaire structurée ",
    "fullTextLen": 104,
    "x": 56.22,
@@ -2684,6 +2758,7 @@
   {
    "key": "b:p:la phase des mesures provisoires, qui détermine l’organisation temporaire de la #1",
    "role": "p",
+   "zone": "main",
    "text": "la phase des mesures provisoires, qui détermine l’organisation temporaire de la ",
    "fullTextLen": 116,
    "x": 85.02,
@@ -2720,6 +2795,7 @@
   {
    "key": "b:p:la phase sur le fond, durant laquelle le juge examine les demandes définitives (#1",
    "role": "p",
+   "zone": "main",
    "text": "la phase sur le fond, durant laquelle le juge examine les demandes définitives (",
    "fullTextLen": 145,
    "x": 85.02,
@@ -2756,6 +2832,7 @@
   {
    "key": "b:p:Notre cabinet vous assiste de bout en bout, en assurant la cohérence et la sécur#1",
    "role": "p",
+   "zone": "main",
    "text": "Notre cabinet vous assiste de bout en bout, en assurant la cohérence et la sécur",
    "fullTextLen": 126,
    "x": 56.22,
@@ -2792,6 +2869,7 @@
   {
    "key": "b:p:Possibilité d'appel : Bien sûr, il est possible de contester la décision du juge#1",
    "role": "p",
+   "zone": "main",
    "text": "Possibilité d'appel : Bien sûr, il est possible de contester la décision du juge",
    "fullTextLen": 156,
    "x": 81.22,
@@ -2828,6 +2906,7 @@
   {
    "key": "b:p:1#2",
    "role": "p",
+   "zone": "main",
    "text": "1",
    "fullTextLen": 1,
    "x": 98.75,
@@ -2864,6 +2943,7 @@
   {
    "key": "b:p:2#2",
    "role": "p",
+   "zone": "main",
    "text": "2",
    "fullTextLen": 1,
    "x": 98.75,
@@ -2900,6 +2980,7 @@
   {
    "key": "b:p:3#2",
    "role": "p",
+   "zone": "main",
    "text": "3",
    "fullTextLen": 1,
    "x": 98.75,
@@ -2936,6 +3017,7 @@
   {
    "key": "b:h4:L’assignation en divorce : le point de départ#1",
    "role": "h4",
+   "zone": "main",
    "text": "L’assignation en divorce : le point de départ",
    "fullTextLen": 45,
    "x": 181.22,
@@ -2972,6 +3054,7 @@
   {
    "key": "b:p:La procédure commence par une assignation en divorce : c’est un acte rédigé et s#1",
    "role": "p",
+   "zone": "main",
    "text": "La procédure commence par une assignation en divorce : c’est un acte rédigé et s",
    "fullTextLen": 328,
    "x": 181.22,
@@ -3008,6 +3091,7 @@
   {
    "key": "b:p:Nous y présentons :#1",
    "role": "p",
+   "zone": "main",
    "text": "Nous y présentons :",
    "fullTextLen": 19,
    "x": 181.22,
@@ -3044,6 +3128,7 @@
   {
    "key": "b:p:​#1",
    "role": "p",
+   "zone": "main",
    "text": "​",
    "fullTextLen": 1,
    "x": 181.22,
@@ -3080,6 +3165,7 @@
   {
    "key": "b:p:un aperçu de la situation familiale et financière (enfants, logement, revenus, c#1",
    "role": "p",
+   "zone": "main",
    "text": "un aperçu de la situation familiale et financière (enfants, logement, revenus, c",
    "fullTextLen": 95,
    "x": 206.41,
@@ -3116,6 +3202,7 @@
   {
    "key": "b:p:vos demandes provisoires, qui visent à organiser la vie quotidienne pendant la p#1",
    "role": "p",
+   "zone": "main",
    "text": "vos demandes provisoires, qui visent à organiser la vie quotidienne pendant la p",
    "fullTextLen": 117,
    "x": 206.41,
@@ -3152,6 +3239,7 @@
   {
    "key": "b:p:vos intentions sur le fond, c’est-à-dire le type de divorce envisagé et les gran#1",
    "role": "p",
+   "zone": "main",
    "text": "vos intentions sur le fond, c’est-à-dire le type de divorce envisagé et les gran",
    "fullTextLen": 115,
    "x": 206.41,
@@ -3188,6 +3276,7 @@
   {
    "key": "b:p:Après cette assignation, nous échangeons avec l’avocat de la partie adverse pour#1",
    "role": "p",
+   "zone": "main",
    "text": "Après cette assignation, nous échangeons avec l’avocat de la partie adverse pour",
    "fullTextLen": 154,
    "x": 181.22,
@@ -3224,6 +3313,7 @@
   {
    "key": "b:h4:L’audience sur les mesures provisoires : protéger votre quotidien#1",
    "role": "h4",
+   "zone": "main",
    "text": "L’audience sur les mesures provisoires : protéger votre quotidien",
    "fullTextLen": 65,
    "x": 181.22,
@@ -3260,6 +3350,7 @@
   {
    "key": "b:p:Quelques semaines plus tard, le juge vous convoque à une première audience essen#1",
    "role": "p",
+   "zone": "main",
    "text": "Quelques semaines plus tard, le juge vous convoque à une première audience essen",
    "fullTextLen": 321,
    "x": 181.22,
@@ -3296,6 +3387,7 @@
   {
    "key": "b:p:Le juge prendra des décisions concrètes concernant :#1",
    "role": "p",
+   "zone": "main",
    "text": "Le juge prendra des décisions concrètes concernant :",
    "fullTextLen": 52,
    "x": 181.22,
@@ -3332,6 +3424,7 @@
   {
    "key": "b:p:Le logement familial : Qui continuera à y vivre provisoirement.#1",
    "role": "p",
+   "zone": "main",
    "text": "Le logement familial : Qui continuera à y vivre provisoirement.",
    "fullTextLen": 63,
    "x": 206.41,
@@ -3368,6 +3461,7 @@
   {
    "key": "b:p:Les enfants : L'organisation de leur garde (résidence chez l'un des parents ou e#1",
    "role": "p",
+   "zone": "main",
    "text": "Les enfants : L'organisation de leur garde (résidence chez l'un des parents ou e",
    "fullTextLen": 116,
    "x": 206.41,
@@ -3404,6 +3498,7 @@
   {
    "key": "b:p:Le soutien financier : Une pension alimentaire pour les enfants (contribution à #1",
    "role": "p",
+   "zone": "main",
    "text": "Le soutien financier : Une pension alimentaire pour les enfants (contribution à ",
    "fullTextLen": 195,
    "x": 206.41,
@@ -3440,6 +3535,7 @@
   {
    "key": "b:p:La préparation du partage des biens : La désignation d'un professionnel, comme u#1",
    "role": "p",
+   "zone": "main",
    "text": "La préparation du partage des biens : La désignation d'un professionnel, comme u",
    "fullTextLen": 170,
    "x": 206.41,
@@ -3476,6 +3572,7 @@
   {
    "key": "b:p:Ces décisions s’appliquent immédiatement et constituent une première protection #1",
    "role": "p",
+   "zone": "main",
    "text": "Ces décisions s’appliquent immédiatement et constituent une première protection ",
    "fullTextLen": 114,
    "x": 181.22,
@@ -3512,6 +3609,7 @@
   {
    "key": "b:h4:L’audience de jugement : le moment de la décision#1",
    "role": "h4",
+   "zone": "main",
    "text": "L’audience de jugement : le moment de la décision",
    "fullTextLen": 49,
    "x": 181.22,
@@ -3548,6 +3646,7 @@
   {
    "key": "b:p:Quand le dossier est complet et que les échanges écrits sont terminés, le juge f#1",
    "role": "p",
+   "zone": "main",
    "text": "Quand le dossier est complet et que les échanges écrits sont terminés, le juge f",
    "fullTextLen": 224,
    "x": 181.22,
@@ -3584,6 +3683,7 @@
   {
    "key": "b:p:Le juge rend ensuite son jugement de divorce : il prononce la dissolution du mar#1",
    "role": "p",
+   "zone": "main",
    "text": "Le juge rend ensuite son jugement de divorce : il prononce la dissolution du mar",
    "fullTextLen": 200,
    "x": 181.22,
@@ -3620,6 +3720,7 @@
   {
    "key": "b:p:Notre objectif est que cette décision soit juste, claire et applicable, afin que#1",
    "role": "p",
+   "zone": "main",
    "text": "Notre objectif est que cette décision soit juste, claire et applicable, afin que",
    "fullTextLen": 128,
    "x": 181.22,
@@ -3656,6 +3757,7 @@
   {
    "key": "b:h4:Finalisation du divorce et recours possibles#1",
    "role": "h4",
+   "zone": "main",
    "text": "Finalisation du divorce et recours possibles",
    "fullTextLen": 44,
    "x": 181.22,
@@ -3692,6 +3794,7 @@
   {
    "key": "b:p:Une fois la décision définitive, nous nous chargeons de sa transmission à la mai#1",
    "role": "p",
+   "zone": "main",
    "text": "Une fois la décision définitive, nous nous chargeons de sa transmission à la mai",
    "fullTextLen": 199,
    "x": 181.22,
@@ -3728,6 +3831,7 @@
   {
    "key": "b:p:Si vous estimez que la décision n’est pas équitable, vous avez la possibilité de#1",
    "role": "p",
+   "zone": "main",
    "text": "Si vous estimez que la décision n’est pas équitable, vous avez la possibilité de",
    "fullTextLen": 249,
    "x": 181.22,
@@ -3764,6 +3868,7 @@
   {
    "key": "b:p:4#1",
    "role": "p",
+   "zone": "main",
    "text": "4",
    "fullTextLen": 1,
    "x": 98.75,
@@ -3800,6 +3905,7 @@
   {
    "key": "b:h4:La mise en état : le cœur du dossier#1",
    "role": "h4",
+   "zone": "main",
    "text": "La mise en état : le cœur du dossier",
    "fullTextLen": 36,
    "x": 181.22,
@@ -3836,6 +3942,7 @@
   {
    "key": "b:p:Une fois les mesures provisoires en place, le dossier entre dans la phase de \"mi#1",
    "role": "p",
+   "zone": "main",
    "text": "Une fois les mesures provisoires en place, le dossier entre dans la phase de \"mi",
    "fullTextLen": 319,
    "x": 181.22,
@@ -3872,6 +3979,7 @@
   {
    "key": "b:p:C’est le moment où l’on aborde tous les effets à long terme de la rupture. Nous #1",
    "role": "p",
+   "zone": "main",
    "text": "C’est le moment où l’on aborde tous les effets à long terme de la rupture. Nous ",
    "fullTextLen": 133,
    "x": 181.22,
@@ -3908,6 +4016,7 @@
   {
    "key": "b:p:Le principe du divorce : Nous développons l'argumentation sur le fondement jurid#1",
    "role": "p",
+   "zone": "main",
    "text": "Le principe du divorce : Nous développons l'argumentation sur le fondement jurid",
    "fullTextLen": 110,
    "x": 206.41,
@@ -3944,6 +4053,7 @@
   {
    "key": "b:p:Les conséquences patrimoniales : C'est ici qu'intervient la liquidation du régim#1",
    "role": "p",
+   "zone": "main",
    "text": "Les conséquences patrimoniales : C'est ici qu'intervient la liquidation du régim",
    "fullTextLen": 271,
    "x": 206.41,
@@ -3980,6 +4090,7 @@
   {
    "key": "b:p:Les conséquences familiales : Nous fixons les modalités définitives concernant l#1",
    "role": "p",
+   "zone": "main",
    "text": "Les conséquences familiales : Nous fixons les modalités définitives concernant l",
    "fullTextLen": 144,
    "x": 206.41,
@@ -4016,6 +4127,7 @@
   {
    "key": "b:p:Pendant toute cette phase, nous rassemblons les justificatifs (titres de proprié#1",
    "role": "p",
+   "zone": "main",
    "text": "Pendant toute cette phase, nous rassemblons les justificatifs (titres de proprié",
    "fullTextLen": 208,
    "x": 181.22,
@@ -4052,6 +4164,7 @@
   {
    "key": "b:p:Honoraires - Divorce contentieux#2",
    "role": "p",
+   "zone": "main",
    "text": "Honoraires - Divorce contentieux",
    "fullTextLen": 32,
    "x": 81.22,
@@ -4088,6 +4201,7 @@
   {
    "key": "b:p:390 € HT / heure#2",
    "role": "p",
+   "zone": "main",
    "text": "390 € HT / heure",
    "fullTextLen": 16,
    "x": 81.22,
@@ -4124,6 +4238,7 @@
   {
    "key": "b:p:Honoraires cabinet au temps passé sur le dossier.#2",
    "role": "p",
+   "zone": "main",
    "text": "Honoraires cabinet au temps passé sur le dossier.",
    "fullTextLen": 49,
    "x": 81.22,
@@ -4160,6 +4275,7 @@
   {
    "key": "b:p:3000 € - 6000 € (fourchettes des frais finaux)#1",
    "role": "p",
+   "zone": "main",
    "text": "3000 € - 6000 € (fourchettes des frais finaux)",
    "fullTextLen": 46,
    "x": 81.22,
@@ -4196,6 +4312,7 @@
   {
    "key": "b:p:Inclus dans nos honoraires : Entretiens préparatoires — Rédaction de la conventi#1",
    "role": "p",
+   "zone": "main",
    "text": "Inclus dans nos honoraires : Entretiens préparatoires — Rédaction de la conventi",
    "fullTextLen": 136,
    "x": 81.22,
@@ -4232,6 +4349,7 @@
   {
    "key": "b:p:Pourquoi nous choisir ?#2",
    "role": "p",
+   "zone": "main",
    "text": "Pourquoi nous choisir ?",
    "fullTextLen": 23,
    "x": 421.5,
@@ -4268,6 +4386,7 @@
   {
    "key": "b:p:✓ Pédagogie : Explications claires à chaque étape#2",
    "role": "p",
+   "zone": "main",
    "text": "✓ Pédagogie : Explications claires à chaque étape",
    "fullTextLen": 49,
    "x": 421.5,
@@ -4304,6 +4423,7 @@
   {
    "key": "b:p:✓ Rigueur : Convention complète et sécurisée#2",
    "role": "p",
+   "zone": "main",
    "text": "✓ Rigueur : Convention complète et sécurisée",
    "fullTextLen": 44,
    "x": 421.5,
@@ -4340,6 +4460,7 @@
   {
    "key": "b:p:✓ Rapidité : Signature possible sous 15 jours#1",
    "role": "p",
+   "zone": "main",
    "text": "✓ Rapidité : Signature possible sous 15 jours",
    "fullTextLen": 45,
    "x": 421.5,
@@ -4376,6 +4497,7 @@
   {
    "key": "b:p:✓ Coordination : Relation privilégiée avec les notaires#2",
    "role": "p",
+   "zone": "main",
    "text": "✓ Coordination : Relation privilégiée avec les notaires",
    "fullTextLen": 55,
    "x": 421.5,
@@ -4412,6 +4534,7 @@
   {
    "key": "b:p:Obtenir un premier avis#3",
    "role": "p",
+   "zone": "main",
    "text": "Obtenir un premier avis",
    "fullTextLen": 23,
    "x": 466.5,
@@ -4448,6 +4571,7 @@
   {
    "key": "b:h2:Partage des biens et patrimoine#1",
    "role": "h2",
+   "zone": "main",
    "text": "Partage des biens et patrimoine",
    "fullTextLen": 31,
    "x": 50.25,
@@ -4484,6 +4608,7 @@
   {
    "key": "b:p:En cas de divorce, le patrimoine (immobilier, épargne, dettes) doit être liquidé#1",
    "role": "p",
+   "zone": "main",
    "text": "En cas de divorce, le patrimoine (immobilier, épargne, dettes) doit être liquidé",
    "fullTextLen": 133,
    "x": 50.25,
@@ -4520,6 +4645,7 @@
   {
    "key": "b:p:#comp-mfdz9ohn svg [data-color=\"1\"] {fill: #D9D9D9;} #comp-mfdz9ohn svg [data-co#1",
    "role": "p",
+   "zone": "main",
    "text": "#comp-mfdz9ohn svg [data-color=\"1\"] {fill: #D9D9D9;} #comp-mfdz9ohn svg [data-co",
    "fullTextLen": 158,
    "x": 25,
@@ -4556,6 +4682,7 @@
   {
    "key": "b:p:#comp-mfduorcx4 svg [data-color=\"1\"] {fill: #FE4B42;}#1",
    "role": "p",
+   "zone": "main",
    "text": "#comp-mfduorcx4 svg [data-color=\"1\"] {fill: #FE4B42;}",
    "fullTextLen": 53,
    "x": 76.03,
@@ -4592,6 +4719,7 @@
   {
    "key": "b:h3:Régime matrimonial légal#1",
    "role": "h3",
+   "zone": "main",
    "text": "Régime matrimonial légal",
    "fullTextLen": 24,
    "x": 77.03,
@@ -4628,6 +4756,7 @@
   {
    "key": "b:p:Les biens acquis pendant le mariage sont communs. Ceux possédés avant restent pr#1",
    "role": "p",
+   "zone": "main",
    "text": "Les biens acquis pendant le mariage sont communs. Ceux possédés avant restent pr",
    "fullTextLen": 101,
    "x": 75.25,
@@ -4664,6 +4793,7 @@
   {
    "key": "b:p:#comp-mfdupfbn svg [data-color=\"1\"] {fill: #FE4B42;}#1",
    "role": "p",
+   "zone": "main",
    "text": "#comp-mfdupfbn svg [data-color=\"1\"] {fill: #FE4B42;}",
    "fullTextLen": 52,
    "x": 76.03,
@@ -4700,6 +4830,7 @@
   {
    "key": "b:h3:Séparation des biens#1",
    "role": "h3",
+   "zone": "main",
    "text": "Séparation des biens",
    "fullTextLen": 20,
    "x": 77.03,
@@ -4736,6 +4867,7 @@
   {
    "key": "b:p:Chaque époux conserve la pleine propriété de ce qu'il a acquis avant et pendant #1",
    "role": "p",
+   "zone": "main",
    "text": "Chaque époux conserve la pleine propriété de ce qu'il a acquis avant et pendant ",
    "fullTextLen": 91,
    "x": 75.25,
@@ -4772,6 +4904,7 @@
   {
    "key": "b:p:#comp-mfduqruf5 svg [data-color=\"1\"] {fill: #FE4B42;}#1",
    "role": "p",
+   "zone": "main",
    "text": "#comp-mfduqruf5 svg [data-color=\"1\"] {fill: #FE4B42;}",
    "fullTextLen": 53,
    "x": 415.03,
@@ -4808,6 +4941,7 @@
   {
    "key": "b:h3:Communauté universelle#1",
    "role": "h3",
+   "zone": "main",
    "text": "Communauté universelle",
    "fullTextLen": 22,
    "x": 416.03,
@@ -4844,6 +4978,7 @@
   {
    "key": "b:p:Tous les biens sont mis en commun et partagés à parts égales, qu'ils soient acqu#1",
    "role": "p",
+   "zone": "main",
    "text": "Tous les biens sont mis en commun et partagés à parts égales, qu'ils soient acqu",
    "fullTextLen": 106,
    "x": 414.25,
@@ -4880,6 +5015,7 @@
   {
    "key": "b:p:#comp-mfdurc4m4 svg [data-color=\"1\"] {fill: #FE4B42;}#1",
    "role": "p",
+   "zone": "main",
    "text": "#comp-mfdurc4m4 svg [data-color=\"1\"] {fill: #FE4B42;}",
    "fullTextLen": 53,
    "x": 414.25,
@@ -4916,6 +5052,7 @@
   {
    "key": "b:h3:En savoir plus#1",
    "role": "h3",
+   "zone": "main",
    "text": "En savoir plus",
    "fullTextLen": 14,
    "x": 415.25,
@@ -4952,6 +5089,7 @@
   {
    "key": "b:p:Découvrez les règles détaillées du partage et nos conseils et notre expertise.#1",
    "role": "p",
+   "zone": "main",
    "text": "Découvrez les règles détaillées du partage et nos conseils et notre expertise.",
    "fullTextLen": 78,
    "x": 414.25,
@@ -4988,6 +5126,7 @@
   {
    "key": "b:p:Partage du bien en détails#1",
    "role": "p",
+   "zone": "main",
    "text": "Partage du bien en détails",
    "fullTextLen": 26,
    "x": 461.02,
@@ -5024,6 +5163,7 @@
   {
    "key": "b:p:#comp-mfduwov75 svg [data-color=\"1\"] {fill: #FE4B42;}#1",
    "role": "p",
+   "zone": "main",
    "text": "#comp-mfduwov75 svg [data-color=\"1\"] {fill: #FE4B42;}",
    "fullTextLen": 53,
    "x": 75.78,
@@ -5060,6 +5200,7 @@
   {
    "key": "b:h3:Garde alternée#1",
    "role": "h3",
+   "zone": "main",
    "text": "Garde alternée",
    "fullTextLen": 14,
    "x": 76.78,
@@ -5096,6 +5237,7 @@
   {
    "key": "b:p:L'enfant vit chez chaque parent à tour de rôle (ex. une semaine sur deux).#1",
    "role": "p",
+   "zone": "main",
    "text": "L'enfant vit chez chaque parent à tour de rôle (ex. une semaine sur deux).",
    "fullTextLen": 74,
    "x": 75,
@@ -5132,6 +5274,7 @@
   {
    "key": "b:p:#comp-mfduwovf5 svg [data-color=\"1\"] {fill: #FE4B42;}#1",
    "role": "p",
+   "zone": "main",
    "text": "#comp-mfduwovf5 svg [data-color=\"1\"] {fill: #FE4B42;}",
    "fullTextLen": 53,
    "x": 414.78,
@@ -5168,6 +5311,7 @@
   {
    "key": "b:h3:Garde principale#1",
    "role": "h3",
+   "zone": "main",
    "text": "Garde principale",
    "fullTextLen": 16,
    "x": 415.78,
@@ -5204,6 +5348,7 @@
   {
    "key": "b:p:L'enfant réside chez un parent, avec droits de visite et d'hébergement pour l'au#1",
    "role": "p",
+   "zone": "main",
    "text": "L'enfant réside chez un parent, avec droits de visite et d'hébergement pour l'au",
    "fullTextLen": 84,
    "x": 414,
@@ -5240,6 +5385,7 @@
   {
    "key": "b:p:#comp-mfduwovm5 svg [data-color=\"1\"] {fill: #FE4B42;}#1",
    "role": "p",
+   "zone": "main",
    "text": "#comp-mfduwovm5 svg [data-color=\"1\"] {fill: #FE4B42;}",
    "fullTextLen": 53,
    "x": 75.78,
@@ -5276,6 +5422,7 @@
   {
    "key": "b:h3:Placement exceptionnel#1",
    "role": "h3",
+   "zone": "main",
    "text": "Placement exceptionnel",
    "fullTextLen": 22,
    "x": 76.78,
@@ -5312,6 +5459,7 @@
   {
    "key": "b:p:L'enfant vit chez un tiers (grands-parents, famille proche) en cas de besoin par#1",
    "role": "p",
+   "zone": "main",
    "text": "L'enfant vit chez un tiers (grands-parents, famille proche) en cas de besoin par",
    "fullTextLen": 89,
    "x": 75,
@@ -5348,6 +5496,7 @@
   {
    "key": "b:p:#comp-mfduwovt5 svg [data-color=\"1\"] {fill: #FE4B42;}#1",
    "role": "p",
+   "zone": "main",
    "text": "#comp-mfduwovt5 svg [data-color=\"1\"] {fill: #FE4B42;}",
    "fullTextLen": 53,
    "x": 414,
@@ -5384,6 +5533,7 @@
   {
    "key": "b:h3:En savoir plus#2",
    "role": "h3",
+   "zone": "main",
    "text": "En savoir plus",
    "fullTextLen": 14,
    "x": 415,
@@ -5420,6 +5570,7 @@
   {
    "key": "b:p:Modes de garde, pensions alimentaires, rôle du JAF : nos explications complètes.#1",
    "role": "p",
+   "zone": "main",
    "text": "Modes de garde, pensions alimentaires, rôle du JAF : nos explications complètes.",
    "fullTextLen": 80,
    "x": 414,
@@ -5456,6 +5607,7 @@
   {
    "key": "b:p:Garde et pension détails#1",
    "role": "p",
+   "zone": "main",
    "text": "Garde et pension détails",
    "fullTextLen": 24,
    "x": 465.52,
@@ -5492,6 +5644,7 @@
   {
    "key": "b:h2:Garde des enfants et pension alimentaire#1",
    "role": "h2",
+   "zone": "main",
    "text": "Garde des enfants et pension alimentaire",
    "fullTextLen": 40,
    "x": 50.25,
@@ -5528,6 +5681,7 @@
   {
    "key": "b:p:En cas de divorce, le patrimoine (immobilier, épargne, dettes) doit être liquidé#2",
    "role": "p",
+   "zone": "main",
    "text": "En cas de divorce, le patrimoine (immobilier, épargne, dettes) doit être liquidé",
    "fullTextLen": 133,
    "x": 50.25,
@@ -5564,6 +5718,7 @@
   {
    "key": "b:h2:Je simule une prestation compensatoire#1",
    "role": "h2",
+   "zone": "main",
    "text": "Je simule une prestation compensatoire",
    "fullTextLen": 38,
    "x": 56.22,
@@ -5600,6 +5755,7 @@
   {
    "key": "b:p:Peu importe le type de divorce prononcé elle est destinée à compenser le changem#1",
    "role": "p",
+   "zone": "main",
    "text": "Peu importe le type de divorce prononcé elle est destinée à compenser le changem",
    "fullTextLen": 172,
    "x": 56.22,
@@ -5636,6 +5792,7 @@
   {
    "key": "b:p:#comp-mfdzf5um svg [data-color=\"1\"] {fill: #17475E;}#1",
    "role": "p",
+   "zone": "main",
    "text": "#comp-mfdzf5um svg [data-color=\"1\"] {fill: #17475E;}",
    "fullTextLen": 52,
    "x": 578.34,
@@ -5672,6 +5829,7 @@
   {
    "key": "b:p:Votre âge#1",
    "role": "p",
+   "zone": "main",
    "text": "Votre âge",
    "fullTextLen": 9,
    "x": 80.72,
@@ -5708,6 +5866,7 @@
   {
    "key": "b:p:Âge de votre conjoint(e)#1",
    "role": "p",
+   "zone": "main",
    "text": "Âge de votre conjoint(e)",
    "fullTextLen": 24,
    "x": 81.72,
@@ -5744,6 +5903,7 @@
   {
    "key": "b:p:Nombre d’enfants communs#1",
    "role": "p",
+   "zone": "main",
    "text": "Nombre d’enfants communs",
    "fullTextLen": 24,
    "x": 80.72,
@@ -5780,6 +5940,7 @@
   {
    "key": "b:p:Votre état de santé impacte-t-il votre capacité à travailler aujourd’hui ?#1",
    "role": "p",
+   "zone": "main",
    "text": "Votre état de santé impacte-t-il votre capacité à travailler aujourd’hui ?",
    "fullTextLen": 74,
    "x": 80.72,
@@ -5816,6 +5977,7 @@
   {
    "key": "b:p:Aucun impact (situation normale)#1",
    "role": "p",
+   "zone": "main",
    "text": "Aucun impact (situation normale)",
    "fullTextLen": 32,
    "x": 109.72,
@@ -5852,6 +6014,7 @@
   {
    "key": "b:p:Limitation modérée (ALD/arrêts ponctuels)#1",
    "role": "p",
+   "zone": "main",
    "text": "Limitation modérée (ALD/arrêts ponctuels)",
    "fullTextLen": 41,
    "x": 109.72,
@@ -5888,6 +6051,7 @@
   {
    "key": "b:p:Incapacité notable (invalidité cat. 1 / MDPH 25–49%)#1",
    "role": "p",
+   "zone": "main",
    "text": "Incapacité notable (invalidité cat. 1 / MDPH 25–49%)",
    "fullTextLen": 52,
    "x": 109.72,
@@ -5924,6 +6088,7 @@
   {
    "key": "b:p:Incapacité sévère (invalidité cat. 2–3 / AAH / MDPH ≥ 50%)#1",
    "role": "p",
+   "zone": "main",
    "text": "Incapacité sévère (invalidité cat. 2–3 / AAH / MDPH ≥ 50%)",
    "fullTextLen": 58,
    "x": 109.72,
@@ -5960,6 +6125,7 @@
   {
    "key": "b:p:L'état de santé de votre conjoint(e) impacte-t-il sa capacité à travailler aujou#1",
    "role": "p",
+   "zone": "main",
    "text": "L'état de santé de votre conjoint(e) impacte-t-il sa capacité à travailler aujou",
    "fullTextLen": 88,
    "x": 80.72,
@@ -5996,6 +6162,7 @@
   {
    "key": "b:p:Aucun impact (situation normale)#2",
    "role": "p",
+   "zone": "main",
    "text": "Aucun impact (situation normale)",
    "fullTextLen": 32,
    "x": 109.72,
@@ -6032,6 +6199,7 @@
   {
    "key": "b:p:Limitation modérée (ALD/arrêts ponctuels)#2",
    "role": "p",
+   "zone": "main",
    "text": "Limitation modérée (ALD/arrêts ponctuels)",
    "fullTextLen": 41,
    "x": 109.72,
@@ -6068,6 +6236,7 @@
   {
    "key": "b:p:Incapacité notable (invalidité cat. 1 / MDPH 25–49%)#2",
    "role": "p",
+   "zone": "main",
    "text": "Incapacité notable (invalidité cat. 1 / MDPH 25–49%)",
    "fullTextLen": 52,
    "x": 109.72,
@@ -6104,6 +6273,7 @@
   {
    "key": "b:p:Incapacité sévère (invalidité cat. 2–3 / AAH / MDPH ≥ 50%)#2",
    "role": "p",
+   "zone": "main",
    "text": "Incapacité sévère (invalidité cat. 2–3 / AAH / MDPH ≥ 50%)",
    "fullTextLen": 58,
    "x": 109.72,
@@ -6140,6 +6310,7 @@
   {
    "key": "b:p:Calculer mon estimation#1",
    "role": "p",
+   "zone": "main",
    "text": "Calculer mon estimation",
    "fullTextLen": 23,
    "x": 302.25,
@@ -6176,6 +6347,7 @@
   {
    "key": "b:p:Simulation indicative et simplifiée. Elle ne remplace pas le conseil d’un avocat#1",
    "role": "p",
+   "zone": "main",
    "text": "Simulation indicative et simplifiée. Elle ne remplace pas le conseil d’un avocat",
    "fullTextLen": 106,
    "x": 91.22,
@@ -6212,6 +6384,7 @@
   {
    "key": "b:p:Vos revenus mensuels (nets)#1",
    "role": "p",
+   "zone": "main",
    "text": "Vos revenus mensuels (nets)",
    "fullTextLen": 27,
    "x": 397.31,
@@ -6248,6 +6421,7 @@
   {
    "key": "b:p:Revenus mensuels conjoint(e) (nets)#1",
    "role": "p",
+   "zone": "main",
    "text": "Revenus mensuels conjoint(e) (nets)",
    "fullTextLen": 35,
    "x": 397.31,
@@ -6284,6 +6458,7 @@
   {
    "key": "b:p:Nombre d'années mariage ?#1",
    "role": "p",
+   "zone": "main",
    "text": "Nombre d'années mariage ?",
    "fullTextLen": 25,
    "x": 397.31,
@@ -6320,6 +6495,7 @@
   {
    "key": "b:h2:Je calcule la pension alimentaire#1",
    "role": "h2",
+   "zone": "main",
    "text": "Je calcule la pension alimentaire",
    "fullTextLen": 33,
    "x": 56.22,
@@ -6356,6 +6532,7 @@
   {
    "key": "b:p:Estimez en quelques clics le montant d’une pension alimentaire dans le cadre d’u#1",
    "role": "p",
+   "zone": "main",
    "text": "Estimez en quelques clics le montant d’une pension alimentaire dans le cadre d’u",
    "fullTextLen": 253,
    "x": 56.22,
@@ -6392,6 +6569,7 @@
   {
    "key": "b:p:Barème offciel 2025#1",
    "role": "p",
+   "zone": "main",
    "text": "Barème offciel 2025",
    "fullTextLen": 19,
    "x": 87.06,
@@ -6428,6 +6606,7 @@
   {
    "key": "b:p:Simulateur de pension alimentaire#1",
    "role": "p",
+   "zone": "main",
    "text": "Simulateur de pension alimentaire",
    "fullTextLen": 33,
    "x": 81.56,
@@ -6464,6 +6643,7 @@
   {
    "key": "b:p:Revenu mensuel net du débiteur (€)#1",
    "role": "p",
+   "zone": "main",
    "text": "Revenu mensuel net du débiteur (€)",
    "fullTextLen": 34,
    "x": 81.56,
@@ -6500,6 +6680,7 @@
   {
    "key": "b:p:Please fill out this field.#1",
    "role": "p",
+   "zone": "main",
    "text": "Please fill out this field.",
    "fullTextLen": 27,
    "x": 105.56,
@@ -6536,6 +6717,7 @@
   {
    "key": "b:p:Nombre d'enfants#1",
    "role": "p",
+   "zone": "main",
    "text": "Nombre d'enfants",
    "fullTextLen": 16,
    "x": 81.56,
@@ -6572,6 +6754,7 @@
   {
    "key": "b:p:Ex. 1 enfant1 enfant2 enfants3 enfants4 enfants5 enfants6 enfants#1",
    "role": "p",
+   "zone": "main",
    "text": "Ex. 1 enfant1 enfant2 enfants3 enfants4 enfants5 enfants6 enfants",
    "fullTextLen": 65,
    "x": 81.56,
@@ -6608,6 +6791,7 @@
   {
    "key": "b:p:Please select an item in the list.#1",
    "role": "p",
+   "zone": "main",
    "text": "Please select an item in the list.",
    "fullTextLen": 34,
    "x": 105.56,
@@ -6644,6 +6828,7 @@
   {
    "key": "b:p:Type de garde#1",
    "role": "p",
+   "zone": "main",
    "text": "Type de garde",
    "fullTextLen": 13,
    "x": 81.56,
@@ -6680,6 +6865,7 @@
   {
    "key": "b:p:Ex. alternéeDroit de visite et d'hébergement réduitDroit de visite et d'hébergem#1",
    "role": "p",
+   "zone": "main",
    "text": "Ex. alternéeDroit de visite et d'hébergement réduitDroit de visite et d'hébergem",
    "fullTextLen": 111,
    "x": 81.56,
@@ -6716,6 +6902,7 @@
   {
    "key": "b:p:Please select an item in the list.#2",
    "role": "p",
+   "zone": "main",
    "text": "Please select an item in the list.",
    "fullTextLen": 34,
    "x": 105.56,
@@ -6752,6 +6939,7 @@
   {
    "key": "b:p:182.52 €#1",
    "role": "p",
+   "zone": "main",
    "text": "182.52 €",
    "fullTextLen": 8,
    "x": 81.56,
@@ -6788,6 +6976,7 @@
   {
    "key": "b:p:pension mensuelle#1",
    "role": "p",
+   "zone": "main",
    "text": "pension mensuelle",
    "fullTextLen": 17,
    "x": 81.56,
@@ -6824,6 +7013,7 @@
   {
    "key": "b:p:Pour 1 enfant — Droit de visite et d'hébergement classique — Revenu : 2000 €#1",
    "role": "p",
+   "zone": "main",
    "text": "Pour 1 enfant — Droit de visite et d'hébergement classique — Revenu : 2000 €",
    "fullTextLen": 76,
    "x": 81.56,
@@ -6860,6 +7050,7 @@
   {
    "key": "b:p:Autres options :• Droit de visite et d'hébergement réduit : 243.36 €• Résidence #1",
    "role": "p",
+   "zone": "main",
    "text": "Autres options :• Droit de visite et d'hébergement réduit : 243.36 €• Résidence ",
    "fullTextLen": 99,
    "x": 81.06,
@@ -6896,6 +7087,7 @@
   {
    "key": "b:h2:Je prends rendez-vous pour demander un divorce#1",
    "role": "h2",
+   "zone": "main",
    "text": "Je prends rendez-vous pour demander un divorce",
    "fullTextLen": 46,
    "x": 56.22,
@@ -6932,6 +7124,7 @@
   {
    "key": "b:p:Installé dans le centre de Bordeaux, notre cabinet vous propose un rendez-vous s#1",
    "role": "p",
+   "zone": "main",
    "text": "Installé dans le centre de Bordeaux, notre cabinet vous propose un rendez-vous s",
    "fullTextLen": 186,
    "x": 56.22,
@@ -6968,6 +7161,7 @@
   {
    "key": "b:p:Adresse#1",
    "role": "p",
+   "zone": "main",
    "text": "Adresse",
    "fullTextLen": 7,
    "x": 56.22,
@@ -7004,6 +7198,7 @@
   {
    "key": "b:p:Adresse du cabinet#1",
    "role": "p",
+   "zone": "main",
    "text": "Adresse du cabinet",
    "fullTextLen": 18,
    "x": 56.22,
@@ -7040,6 +7235,7 @@
   {
    "key": "b:p:15 Pl. Sainte-Eulalie, 33000 Bordeaux#1",
    "role": "p",
+   "zone": "main",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "fullTextLen": 37,
    "x": 56.22,
@@ -7076,6 +7272,7 @@
   {
    "key": "b:p:Téléphone#1",
    "role": "p",
+   "zone": "main",
    "text": "Téléphone",
    "fullTextLen": 9,
    "x": 56.22,
@@ -7112,6 +7309,7 @@
   {
    "key": "b:p:05 56 44 35 96#2",
    "role": "p",
+   "zone": "main",
    "text": "05 56 44 35 96",
    "fullTextLen": 14,
    "x": 56.22,
@@ -7148,6 +7346,7 @@
   {
    "key": "b:p:Horaires d'ouverture du Cabinet Plouton#1",
    "role": "p",
+   "zone": "main",
    "text": "Horaires d'ouverture du Cabinet Plouton",
    "fullTextLen": 39,
    "x": 56.22,
@@ -7184,6 +7383,7 @@
   {
    "key": "b:p:Le cabinet Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi.#1",
    "role": "p",
+   "zone": "main",
    "text": "Le cabinet Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi.",
    "fullTextLen": 68,
    "x": 56.22,
@@ -7220,6 +7420,7 @@
   {
    "key": "b:p:Étape 1/6 — Vos coordonnées & prise de RDV#1",
    "role": "p",
+   "zone": "main",
    "text": "Étape 1/6 — Vos coordonnées & prise de RDV",
    "fullTextLen": 42,
    "x": 82.22,
@@ -7256,6 +7457,7 @@
   {
    "key": "b:p:Prénom*#1",
    "role": "p",
+   "zone": "main",
    "text": "Prénom*",
    "fullTextLen": 7,
    "x": 82.22,
@@ -7292,6 +7494,7 @@
   {
    "key": "b:p:Nom de famille*#1",
    "role": "p",
+   "zone": "main",
    "text": "Nom de famille*",
    "fullTextLen": 15,
    "x": 396.5,
@@ -7328,6 +7531,7 @@
   {
    "key": "b:p:E‑mail*#1",
    "role": "p",
+   "zone": "main",
    "text": "E‑mail*",
    "fullTextLen": 7,
    "x": 82.22,
@@ -7364,6 +7568,7 @@
   {
    "key": "b:p:Téléphone*#1",
    "role": "p",
+   "zone": "main",
    "text": "Téléphone*",
    "fullTextLen": 10,
    "x": 82.22,
@@ -7400,6 +7605,7 @@
   {
    "key": "b:p:Adresse*#1",
    "role": "p",
+   "zone": "main",
    "text": "Adresse*",
    "fullTextLen": 8,
    "x": 82.22,
@@ -7436,6 +7642,7 @@
   {
    "key": "b:p:Mode de RDV souhaité*#1",
    "role": "p",
+   "zone": "main",
    "text": "Mode de RDV souhaité*",
    "fullTextLen": 21,
    "x": 82.22,
@@ -7472,6 +7679,7 @@
   {
    "key": "b:p:Au cabinet#1",
    "role": "p",
+   "zone": "main",
    "text": "Au cabinet",
    "fullTextLen": 10,
    "x": 110.22,
@@ -7508,6 +7716,7 @@
   {
    "key": "b:p:En visio#1",
    "role": "p",
+   "zone": "main",
    "text": "En visio",
    "fullTextLen": 8,
    "x": 110.22,
@@ -7544,6 +7753,7 @@
   {
    "key": "b:p:Part téléphone#1",
    "role": "p",
+   "zone": "main",
    "text": "Part téléphone",
    "fullTextLen": 14,
    "x": 110.22,
@@ -7580,6 +7790,7 @@
   {
    "key": "b:p:Suivant#1",
    "role": "p",
+   "zone": "main",
    "text": "Suivant",
    "fullTextLen": 7,
    "x": 610.5,
@@ -7616,6 +7827,7 @@
   {
    "key": "b:h2:Questions fréquentes : le divorce#1",
    "role": "h2",
+   "zone": "main",
    "text": "Questions fréquentes : le divorce",
    "fullTextLen": 33,
    "x": 50,
@@ -7652,6 +7864,7 @@
   {
    "key": "b:p:Notre cabinet est questionné régulièrement sur ces différents points concernant #1",
    "role": "p",
+   "zone": "main",
    "text": "Notre cabinet est questionné régulièrement sur ces différents points concernant ",
    "fullTextLen": 134,
    "x": 50,
@@ -7688,6 +7901,7 @@
   {
    "key": "b:h3:Faut-il vendre sa maison avant ou après le divorce ?#1",
    "role": "h3",
+   "zone": "main",
    "text": "Faut-il vendre sa maison avant ou après le divorce ?",
    "fullTextLen": 52,
    "x": 75,
@@ -7724,6 +7938,7 @@
   {
    "key": "b:p:Ça dépend de votre régime matrimonial et de la situation du logement. Aucune règ#1",
    "role": "p",
+   "zone": "main",
    "text": "Ça dépend de votre régime matrimonial et de la situation du logement. Aucune règ",
    "fullTextLen": 613,
    "x": 75,
@@ -7760,6 +7975,7 @@
   {
    "key": "b:h3:En instance de divorce, peut-on vivre en concubinage ?#1",
    "role": "h3",
+   "zone": "main",
    "text": "En instance de divorce, peut-on vivre en concubinage ?",
    "fullTextLen": 54,
    "x": 75,
@@ -7796,6 +8012,7 @@
   {
    "key": "b:p:Le devoir de fidélité subsiste jusqu’au divorce : une relation nouvelle peut êtr#1",
    "role": "p",
+   "zone": "main",
    "text": "Le devoir de fidélité subsiste jusqu’au divorce : une relation nouvelle peut êtr",
    "fullTextLen": 293,
    "x": 75,
@@ -7832,6 +8049,7 @@
   {
    "key": "b:h3:En combien de temps est acté un divorce à l’amiable ?#1",
    "role": "h3",
+   "zone": "main",
    "text": "En combien de temps est acté un divorce à l’amiable ?",
    "fullTextLen": 53,
    "x": 75,
@@ -7868,6 +8086,7 @@
   {
    "key": "b:p:Il n’y a pas de durée globale fixée par la loi. Ce qui est certain : 15 jours de#1",
    "role": "p",
+   "zone": "main",
    "text": "Il n’y a pas de durée globale fixée par la loi. Ce qui est certain : 15 jours de",
    "fullTextLen": 315,
    "x": 75,
@@ -7904,6 +8123,7 @@
   {
    "key": "b:h3:Quelles sont les conséquences pour celui qui demande le divorce ?#1",
    "role": "h3",
+   "zone": "main",
    "text": "Quelles sont les conséquences pour celui qui demande le divorce ?",
    "fullTextLen": 65,
    "x": 75,
@@ -7940,6 +8160,7 @@
   {
    "key": "b:p:Le fait d’“être le demandeur” n’entraîne pas, à lui seul, de sanction spécifique#1",
    "role": "p",
+   "zone": "main",
    "text": "Le fait d’“être le demandeur” n’entraîne pas, à lui seul, de sanction spécifique",
    "fullTextLen": 353,
    "x": 75,
@@ -7976,6 +8197,7 @@
   {
    "key": "b:h3:Comment obtenir un divorce rapide ?#1",
    "role": "h3",
+   "zone": "main",
    "text": "Comment obtenir un divorce rapide ?",
    "fullTextLen": 35,
    "x": 75,
@@ -8012,6 +8234,7 @@
   {
    "key": "b:p:La voie la plus rapide est généralement le divorce par consentement mutuel par a#1",
    "role": "p",
+   "zone": "main",
    "text": "La voie la plus rapide est généralement le divorce par consentement mutuel par a",
    "fullTextLen": 387,
    "x": 75,
@@ -8048,6 +8271,7 @@
   {
    "key": "b:h3:Que devient une donation en cas de divorce ?#1",
    "role": "h3",
+   "zone": "main",
    "text": "Que devient une donation en cas de divorce ?",
    "fullTextLen": 44,
    "x": 75,
@@ -8084,6 +8308,7 @@
   {
    "key": "b:p:Principe officiel : ce qui a déjà produit ses effets pendant le mariage est main#1",
    "role": "p",
+   "zone": "main",
    "text": "Principe officiel : ce qui a déjà produit ses effets pendant le mariage est main",
    "fullTextLen": 385,
    "x": 75,
@@ -8120,6 +8345,7 @@
   {
    "key": "b:h3:Combien de fois peut-on faire appel pour un divorce ?#1",
    "role": "h3",
+   "zone": "main",
    "text": "Combien de fois peut-on faire appel pour un divorce ?",
    "fullTextLen": 53,
    "x": 75,
@@ -8156,6 +8382,7 @@
   {
    "key": "b:p:Une seule fois. Délai de principe : 1 mois à compter de la signification du juge#1",
    "role": "p",
+   "zone": "main",
    "text": "Une seule fois. Délai de principe : 1 mois à compter de la signification du juge",
    "fullTextLen": 148,
    "x": 75,
@@ -8192,6 +8419,7 @@
   {
    "key": "b:p:2012 > 2026#1",
    "role": "p",
+   "zone": "main",
    "text": "2012 > 2026",
    "fullTextLen": 11,
    "x": 50,
@@ -8228,6 +8456,7 @@
   {
    "key": "b:h2:Les dernières affaires juridiques en droit du divorce traitées par le Cabinet Pl#1",
    "role": "h2",
+   "zone": "main",
    "text": "Les dernières affaires juridiques en droit du divorce traitées par le Cabinet Pl",
    "fullTextLen": 85,
    "x": 50,
@@ -8264,6 +8493,7 @@
   {
    "key": "b:p:Divorce#1",
    "role": "p",
+   "zone": "main",
    "text": "Divorce",
    "fullTextLen": 7,
    "x": 86,
@@ -8300,6 +8530,7 @@
   {
    "key": "b:p:12/05/26#1",
    "role": "p",
+   "zone": "main",
    "text": "12/05/26",
    "fullTextLen": 8,
    "x": 283.17,
@@ -8336,6 +8567,7 @@
   {
    "key": "b:h3:Prestation compensatoire : notre cabinet obtient le rejet de deux demandes devan#1",
    "role": "h3",
+   "zone": "main",
    "text": "Prestation compensatoire : notre cabinet obtient le rejet de deux demandes devan",
    "fullTextLen": 100,
    "x": 80,
@@ -8372,6 +8604,7 @@
   {
    "key": "b:p:Lire#1",
    "role": "p",
+   "zone": "main",
    "text": "Lire",
    "fullTextLen": 4,
    "x": 291.22,
@@ -8408,6 +8641,7 @@
   {
    "key": "b:p:Droit de la famille#1",
    "role": "p",
+   "zone": "main",
    "text": "Droit de la famille",
    "fullTextLen": 19,
    "x": 416,
@@ -8444,6 +8678,7 @@
   {
    "key": "b:p:27/04/26#1",
    "role": "p",
+   "zone": "main",
    "text": "27/04/26",
    "fullTextLen": 8,
    "x": 613.17,
@@ -8480,6 +8715,7 @@
   {
    "key": "b:h3:Violences psychologiques : ordonnance de protection à Libourne#1",
    "role": "h3",
+   "zone": "main",
    "text": "Violences psychologiques : ordonnance de protection à Libourne",
    "fullTextLen": 62,
    "x": 410,
@@ -8516,6 +8752,7 @@
   {
    "key": "b:p:Lire#2",
    "role": "p",
+   "zone": "main",
    "text": "Lire",
    "fullTextLen": 4,
    "x": 621.22,
@@ -8552,6 +8789,7 @@
   {
    "key": "b:p:Droit de la famille#2",
    "role": "p",
+   "zone": "main",
    "text": "Droit de la famille",
    "fullTextLen": 19,
    "x": 746,
@@ -8588,6 +8826,7 @@
   {
    "key": "b:p:14/05/26#1",
    "role": "p",
+   "zone": "main",
    "text": "14/05/26",
    "fullTextLen": 8,
    "x": 943.17,
@@ -8624,6 +8863,7 @@
   {
    "key": "b:h3:Ordonnance de protection : droit de visite du père maintenu#1",
    "role": "h3",
+   "zone": "main",
    "text": "Ordonnance de protection : droit de visite du père maintenu",
    "fullTextLen": 59,
    "x": 740,
@@ -8660,6 +8900,7 @@
   {
    "key": "b:p:Lire#3",
    "role": "p",
+   "zone": "main",
    "text": "Lire",
    "fullTextLen": 4,
    "x": 951.22,
@@ -8696,6 +8937,7 @@
   {
    "key": "b:p:Victimes de délits ou crimes#1",
    "role": "p",
+   "zone": "main",
    "text": "Victimes de délits ou crimes",
    "fullTextLen": 28,
    "x": 1076,
@@ -8732,6 +8974,7 @@
   {
    "key": "b:p:23/09/25#1",
    "role": "p",
+   "zone": "main",
    "text": "23/09/25",
    "fullTextLen": 8,
    "x": 1273.17,
@@ -8768,6 +9011,7 @@
   {
    "key": "b:h3:Au cœur de la justice restaurative : retour sur une journée d’étude à Bordeaux#1",
    "role": "h3",
+   "zone": "main",
    "text": "Au cœur de la justice restaurative : retour sur une journée d’étude à Bordeaux",
    "fullTextLen": 78,
    "x": 1070,
@@ -8804,6 +9048,7 @@
   {
    "key": "b:p:Lire#4",
    "role": "p",
+   "zone": "main",
    "text": "Lire",
    "fullTextLen": 4,
    "x": 1281.22,
@@ -8840,6 +9085,7 @@
   {
    "key": "b:p:Violences Conjugales et féminicides#1",
    "role": "p",
+   "zone": "main",
    "text": "Violences Conjugales et féminicides",
    "fullTextLen": 35,
    "x": 1406,
@@ -8876,6 +9122,7 @@
   {
    "key": "b:p:16/02/26#1",
    "role": "p",
+   "zone": "main",
    "text": "16/02/26",
    "fullTextLen": 8,
    "x": 1603.17,
@@ -8912,6 +9159,7 @@
   {
    "key": "b:h3:Ordonnance de protection : un bouclier contre les violences sous alcool#1",
    "role": "h3",
+   "zone": "main",
    "text": "Ordonnance de protection : un bouclier contre les violences sous alcool",
    "fullTextLen": 71,
    "x": 1400,
@@ -8948,6 +9196,7 @@
   {
    "key": "b:p:Lire#5",
    "role": "p",
+   "zone": "main",
    "text": "Lire",
    "fullTextLen": 4,
    "x": 1611.22,
@@ -8984,6 +9233,7 @@
   {
    "key": "b:p:© Site web imaginé par l'agence REWOLF | rewolf.studio#1",
    "role": "p",
+   "zone": "footer",
    "text": "© Site web imaginé par l'agence REWOLF | rewolf.studio",
    "fullTextLen": 54,
    "x": 47.5,
@@ -9020,6 +9270,7 @@
   {
    "key": "b:p:Menu#1",
    "role": "p",
+   "zone": "footer",
    "text": "Menu",
    "fullTextLen": 4,
    "x": 48.5,
@@ -9056,6 +9307,7 @@
   {
    "key": "b:p:Accueil#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accueil",
    "fullTextLen": 7,
    "x": 49,
@@ -9092,6 +9344,7 @@
   {
    "key": "b:p:Notre cabinet#1",
    "role": "p",
+   "zone": "footer",
    "text": "Notre cabinet",
    "fullTextLen": 13,
    "x": 49,
@@ -9128,6 +9381,7 @@
   {
    "key": "b:p:Rendez-vous, accès & honoraires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "fullTextLen": 31,
    "x": 49,
@@ -9164,6 +9418,7 @@
   {
    "key": "b:p:Nos affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Nos affaires",
    "fullTextLen": 12,
    "x": 49,
@@ -9200,6 +9455,7 @@
   {
    "key": "b:p:Ressources#1",
    "role": "p",
+   "zone": "footer",
    "text": "Ressources",
    "fullTextLen": 10,
    "x": 49,
@@ -9236,6 +9492,7 @@
   {
    "key": "b:p:Mentions légales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Mentions légales",
    "fullTextLen": 16,
    "x": 49,
@@ -9272,6 +9529,7 @@
   {
    "key": "b:p:Défense Pénale#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense Pénale",
    "fullTextLen": 14,
    "x": 47.5,
@@ -9308,6 +9566,7 @@
   {
    "key": "b:p:Droit pénal#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal",
    "fullTextLen": 11,
    "x": 48,
@@ -9344,6 +9603,7 @@
   {
    "key": "b:p:Procès criminels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Procès criminels",
    "fullTextLen": 16,
    "x": 48,
@@ -9380,6 +9640,7 @@
   {
    "key": "b:p:Trafic de stupéfiants#1",
    "role": "p",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "fullTextLen": 21,
    "x": 48,
@@ -9416,6 +9677,7 @@
   {
    "key": "b:p:Violences conjugales et féminicides#1",
    "role": "p",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "fullTextLen": 35,
    "x": 48,
@@ -9452,6 +9714,7 @@
   {
    "key": "b:p:Droit pénal des affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "fullTextLen": 24,
    "x": 48,
@@ -9488,6 +9751,7 @@
   {
    "key": "b:p:Indemnisation des victimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "fullTextLen": 26,
    "x": 389.22,
@@ -9524,6 +9788,7 @@
   {
    "key": "b:p:Victimes de délits ou crimes#2",
    "role": "p",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "fullTextLen": 28,
    "x": 389.72,
@@ -9560,6 +9825,7 @@
   {
    "key": "b:p:Accidents de la route#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la route",
    "fullTextLen": 21,
    "x": 389.72,
@@ -9596,6 +9862,7 @@
   {
    "key": "b:p:Droit et accidents du travail#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "fullTextLen": 29,
    "x": 389.72,
@@ -9632,6 +9899,7 @@
   {
    "key": "b:p:Accidents et erreurs médicales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "fullTextLen": 30,
    "x": 389.72,
@@ -9668,6 +9936,7 @@
   {
    "key": "b:p:Accidents de la vie courante#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "fullTextLen": 28,
    "x": 389.72,
@@ -9704,6 +9973,7 @@
   {
    "key": "b:p:Droit des contrats et des personnes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "fullTextLen": 35,
    "x": 389.22,
@@ -9740,6 +10010,7 @@
   {
    "key": "b:p:Droit des assurances particuliers et professionnels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "fullTextLen": 51,
    "x": 389.72,
@@ -9776,6 +10047,7 @@
   {
    "key": "b:p:Défense des consommateurs#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "fullTextLen": 25,
    "x": 389.72,
@@ -9812,6 +10084,7 @@
   {
    "key": "b:p:Droit de la famille#3",
    "role": "p",
+   "zone": "footer",
    "text": "Droit de la famille",
    "fullTextLen": 19,
    "x": 389.72,
@@ -9848,6 +10121,7 @@
   {
    "key": "b:p:Divorce#2",
    "role": "p",
+   "zone": "footer",
    "text": "Divorce",
    "fullTextLen": 7,
    "x": 389.72,
@@ -9884,6 +10158,7 @@
   {
    "key": "b:p:05 56 44 35 96#3",
    "role": "p",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "fullTextLen": 14,
    "x": 59,
@@ -9920,6 +10195,7 @@
   {
    "key": "b:p:Contact & RDV#1",
    "role": "p",
+   "zone": "footer",
    "text": "Contact & RDV",
    "fullTextLen": 13,
    "x": 197.33,
@@ -9956,6 +10232,7 @@
   {
    "key": "b:p:Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R#1",
    "role": "p",
+   "zone": "footer",
    "text": "Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R",
    "fullTextLen": 136,
    "x": 49.02,
@@ -9992,6 +10269,7 @@
   {
    "key": "b:p:Contact#1",
    "role": "p",
+   "zone": "footer",
    "text": "Contact",
    "fullTextLen": 7,
    "x": 47.5,
@@ -10030,6 +10308,7 @@
   {
    "key": "i:button:Search#1",
    "role": "button",
+   "zone": "header",
    "text": "Search",
    "x": 362.98,
    "y": 12,
@@ -10057,6 +10336,7 @@
   {
    "key": "i:button:Menu mobile - burger#1",
    "role": "button",
+   "zone": "header",
    "text": "Menu mobile - burger",
    "x": 686.98,
    "y": 21,
@@ -10084,6 +10364,7 @@
   {
    "key": "i:a:4,6/5 étoiles (193 avis) sur Google#1",
    "role": "a",
+   "zone": "main",
    "text": "4,6/5 étoiles (193 avis) sur Google",
    "x": 182.69,
    "y": 270.39,
@@ -10111,6 +10392,7 @@
   {
    "key": "i:a:Bordeaux centre#1",
    "role": "a",
+   "zone": "main",
    "text": "Bordeaux centre",
    "x": 388.69,
    "y": 270.39,
@@ -10138,6 +10420,7 @@
   {
    "key": "i:a:Obtenir un premier avis#1",
    "role": "a",
+   "zone": "main",
    "text": "Obtenir un premier avis",
    "x": 55.72,
    "y": 529.89,
@@ -10165,6 +10448,7 @@
   {
    "key": "i:a:05 56 44 35 96#1",
    "role": "a",
+   "zone": "main",
    "text": "05 56 44 35 96",
    "x": 264.69,
    "y": 529.89,
@@ -10192,6 +10476,7 @@
   {
    "key": "i:a:20 ans d’expérience#1",
    "role": "a",
+   "zone": "main",
    "text": "20 ans d’expérience",
    "x": 192.28,
    "y": 718.89,
@@ -10219,6 +10504,7 @@
   {
    "key": "i:a:Divorce amiable#1",
    "role": "a",
+   "zone": "main",
    "text": "Divorce amiable",
    "x": 24,
    "y": 626.39,
@@ -10246,6 +10532,7 @@
   {
    "key": "i:a:Divorce contentieux#1",
    "role": "a",
+   "zone": "main",
    "text": "Divorce contentieux",
    "x": 194.11,
    "y": 626.39,
@@ -10273,6 +10560,7 @@
   {
    "key": "i:a:Partage des biens#1",
    "role": "a",
+   "zone": "main",
    "text": "Partage des biens",
    "x": 386.25,
    "y": 626.39,
@@ -10300,6 +10588,7 @@
   {
    "key": "i:a:Garde et pension enfant(s)#1",
    "role": "a",
+   "zone": "main",
    "text": "Garde et pension enfant(s)",
    "x": 564.63,
    "y": 626.39,
@@ -10327,6 +10616,7 @@
   {
    "key": "i:a:Simulateur prestation compensatoire#1",
    "role": "a",
+   "zone": "main",
    "text": "Simulateur prestation compensatoire",
    "x": 794.83,
    "y": 626.39,
@@ -10354,6 +10644,7 @@
   {
    "key": "i:a:Simulateur pension alimentaire#1",
    "role": "a",
+   "zone": "main",
    "text": "Simulateur pension alimentaire",
    "x": 1088.31,
    "y": 626.39,
@@ -10381,6 +10672,7 @@
   {
    "key": "i:a:Je prends rendez - vous#1",
    "role": "a",
+   "zone": "main",
    "text": "Je prends rendez - vous",
    "x": 1312.31,
    "y": 626.39,
@@ -10408,6 +10700,7 @@
   {
    "key": "i:a:Voir le parcours amiable#1",
    "role": "a",
+   "zone": "main",
    "text": "Voir le parcours amiable",
    "x": 76.25,
    "y": 1631.86,
@@ -10435,6 +10728,7 @@
   {
    "key": "i:a:Voir le parcours contentieux#1",
    "role": "a",
+   "zone": "main",
    "text": "Voir le parcours contentieux",
    "x": 421.75,
    "y": 1632.06,
@@ -10462,6 +10756,7 @@
   {
    "key": "i:a:prestations compensatoires#1",
    "role": "a",
+   "zone": "main",
    "text": "prestations compensatoires",
    "x": 320.48,
    "y": 2424.25,
@@ -10489,6 +10784,7 @@
   {
    "key": "i:a:Obtenir un premier avis#2",
    "role": "a",
+   "zone": "main",
    "text": "Obtenir un premier avis",
    "x": 421.5,
    "y": 3444.53,
@@ -10516,6 +10812,7 @@
   {
    "key": "i:a:violences conjugales#1",
    "role": "a",
+   "zone": "main",
    "text": "violences conjugales",
    "x": 81.22,
    "y": 4766,
@@ -10543,6 +10840,7 @@
   {
    "key": "i:a:ordonnance de protection#1",
    "role": "a",
+   "zone": "main",
    "text": "ordonnance de protection",
    "x": 383.33,
    "y": 4855.63,
@@ -10570,6 +10868,7 @@
   {
    "key": "i:a:Obtenir un premier avis#3",
    "role": "a",
+   "zone": "main",
    "text": "Obtenir un premier avis",
    "x": 421.5,
    "y": 8079.2,
@@ -10597,6 +10896,7 @@
   {
    "key": "i:a:Partage du bien en détails#1",
    "role": "a",
+   "zone": "main",
    "text": "Partage du bien en détails",
    "x": 414.25,
    "y": 8799.42,
@@ -10624,6 +10924,7 @@
   {
    "key": "i:a:Garde et pension détails#1",
    "role": "a",
+   "zone": "main",
    "text": "Garde et pension détails",
    "x": 414,
    "y": 9446.81,
@@ -10651,6 +10952,7 @@
   {
    "key": "i:button:Calculer mon estimation#1",
    "role": "button",
+   "zone": "main",
    "text": "Calculer mon estimation",
    "x": 81.22,
    "y": 10483.5,
@@ -10678,6 +10980,7 @@
   {
    "key": "i:a:Référence : Ministère de la Justice - 2025#1",
    "role": "a",
+   "zone": "main",
    "text": "Référence : Ministère de la Justice - 2025",
    "x": 270.23,
    "y": 10923.58,
@@ -10705,6 +11008,7 @@
   {
    "key": "i:a:15 Pl. Sainte-Eulalie, 33000 Bordeaux#1",
    "role": "a",
+   "zone": "main",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "x": 56.22,
    "y": 13011.81,
@@ -10732,6 +11036,7 @@
   {
    "key": "i:button:Suivant#1",
    "role": "button",
+   "zone": "main",
    "text": "Suivant",
    "x": 585.78,
    "y": 12628.09,
@@ -10759,6 +11064,7 @@
   {
    "key": "i:a:Lire#1",
    "role": "a",
+   "zone": "main",
    "text": "Lire",
    "x": 281.22,
    "y": 15596.94,
@@ -10786,6 +11092,7 @@
   {
    "key": "i:a:Lire#2",
    "role": "a",
+   "zone": "main",
    "text": "Lire",
    "x": 611.22,
    "y": 15596.94,
@@ -10813,6 +11120,7 @@
   {
    "key": "i:a:Lire#3",
    "role": "a",
+   "zone": "main",
    "text": "Lire",
    "x": 941.22,
    "y": 15596.94,
@@ -10840,6 +11148,7 @@
   {
    "key": "i:a:Lire#4",
    "role": "a",
+   "zone": "main",
    "text": "Lire",
    "x": 1271.22,
    "y": 15596.94,
@@ -10867,6 +11176,7 @@
   {
    "key": "i:a:Lire#5",
    "role": "a",
+   "zone": "main",
    "text": "Lire",
    "x": 1601.22,
    "y": 15596.94,
@@ -10894,6 +11204,7 @@
   {
    "key": "i:a:REWOLF | rewolf.studio#1",
    "role": "a",
+   "zone": "footer",
    "text": "REWOLF | rewolf.studio",
    "x": 210.05,
    "y": 17337.02,
@@ -10921,6 +11232,7 @@
   {
    "key": "i:a:Accueil#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accueil",
    "x": 49,
    "y": 16777.84,
@@ -10948,6 +11260,7 @@
   {
    "key": "i:a:Notre cabinet#1",
    "role": "a",
+   "zone": "footer",
    "text": "Notre cabinet",
    "x": 49,
    "y": 16815.25,
@@ -10975,6 +11288,7 @@
   {
    "key": "i:a:Rendez-vous, accès & honoraires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "x": 49,
    "y": 16852.66,
@@ -11002,6 +11316,7 @@
   {
    "key": "i:a:Nos affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Nos affaires",
    "x": 49,
    "y": 16890.06,
@@ -11029,6 +11344,7 @@
   {
    "key": "i:a:Ressources#1",
    "role": "a",
+   "zone": "footer",
    "text": "Ressources",
    "x": 49,
    "y": 16927.47,
@@ -11056,6 +11372,7 @@
   {
    "key": "i:a:Mentions légales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Mentions légales",
    "x": 49,
    "y": 16964.88,
@@ -11083,6 +11400,7 @@
   {
    "key": "i:a:Défense Pénale#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense Pénale",
    "x": 47.5,
    "y": 17051.78,
@@ -11110,6 +11428,7 @@
   {
    "key": "i:a:Droit pénal#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal",
    "x": 48,
    "y": 17101.98,
@@ -11137,6 +11456,7 @@
   {
    "key": "i:a:Procès criminels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Procès criminels",
    "x": 48,
    "y": 17139.39,
@@ -11164,6 +11484,7 @@
   {
    "key": "i:a:Trafic de stupéfiants#1",
    "role": "a",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "x": 48,
    "y": 17176.8,
@@ -11191,6 +11512,7 @@
   {
    "key": "i:a:Violences conjugales et féminicides#1",
    "role": "a",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "x": 48,
    "y": 17214.2,
@@ -11218,6 +11540,7 @@
   {
    "key": "i:a:Droit pénal des affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "x": 48,
    "y": 17251.61,
@@ -11245,6 +11568,7 @@
   {
    "key": "i:a:Indemnisation des victimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "x": 389.22,
    "y": 16727.64,
@@ -11272,6 +11596,7 @@
   {
    "key": "i:a:Victimes de délits ou crimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "x": 389.72,
    "y": 16777.84,
@@ -11299,6 +11624,7 @@
   {
    "key": "i:a:Accidents de la route#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la route",
    "x": 389.72,
    "y": 16815.25,
@@ -11326,6 +11652,7 @@
   {
    "key": "i:a:Droit et accidents du travail#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "x": 389.72,
    "y": 16852.66,
@@ -11353,6 +11680,7 @@
   {
    "key": "i:a:Accidents et erreurs médicales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "x": 389.72,
    "y": 16890.06,
@@ -11380,6 +11708,7 @@
   {
    "key": "i:a:Accidents de la vie courante#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "x": 389.72,
    "y": 16927.47,
@@ -11407,6 +11736,7 @@
   {
    "key": "i:a:Droit des contrats et des personnes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "x": 389.22,
    "y": 17052.28,
@@ -11434,6 +11764,7 @@
   {
    "key": "i:a:Droit des assurances particuliers et professionnels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "x": 389.72,
    "y": 17102.48,
@@ -11461,6 +11792,7 @@
   {
    "key": "i:a:Défense des consommateurs#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "x": 389.72,
    "y": 17139.89,
@@ -11488,6 +11820,7 @@
   {
    "key": "i:a:Droit de la famille#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit de la famille",
    "x": 389.72,
    "y": 17177.3,
@@ -11515,6 +11848,7 @@
   {
    "key": "i:a:Divorce#1",
    "role": "a",
+   "zone": "footer",
    "text": "Divorce",
    "x": 389.72,
    "y": 17214.7,
@@ -11542,6 +11876,7 @@
   {
    "key": "i:a:05 56 44 35 96#2",
    "role": "a",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "x": 48,
    "y": 16087.64,
@@ -11569,6 +11904,7 @@
   {
    "key": "i:a:Contact & RDV#1",
    "role": "a",
+   "zone": "footer",
    "text": "Contact & RDV",
    "x": 186.33,
    "y": 16087.64,
@@ -11596,6 +11932,7 @@
   {
    "key": "i:a:15 Pl. Sainte-Eulalie, 33000 Bordeaux#2",
    "role": "a",
+   "zone": "footer",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "x": 338.08,
    "y": 16012.14,
@@ -11625,6 +11962,7 @@
   {
    "key": "img:img:d05c9e_0a34199aa5894ca28e7cceae0a1c8782#1",
    "anchor": "d05c9e_0a34199aa5894ca28e7cceae0a1c8782",
+   "zone": "main",
    "alt": "Cabinet Plouton - Divorce Bordeaux",
    "x": 0,
    "y": 80,
@@ -11640,6 +11978,7 @@
   {
    "key": "img:img:d05c9e_cf0a4239b5a9454e84a5a2081f17aa95#1",
    "anchor": "d05c9e_cf0a4239b5a9454e84a5a2081f17aa95",
+   "zone": "main",
    "alt": "Logo de Google Avis",
    "x": 140.69,
    "y": 265.39,
@@ -11655,6 +11994,7 @@
   {
    "key": "img:img:nsplsh_386b48697a77766f465177#1",
    "anchor": "nsplsh_386b48697a77766f465177",
+   "zone": "main",
    "alt": "Image de Cab",
    "x": 56.22,
    "y": 12751.58,
@@ -11670,6 +12010,7 @@
   {
    "key": "img:img:FRA.png#1",
    "anchor": "FRA.png",
+   "zone": "main",
    "alt": "",
    "x": 95.22,
    "y": 12331.89,
@@ -11685,6 +12026,7 @@
   {
    "key": "img:img:ece85d_4af4dbf5b2c547e2abbaa14638cf2eb8#1",
    "anchor": "ece85d_4af4dbf5b2c547e2abbaa14638cf2eb8",
+   "zone": "main",
    "alt": "",
    "x": 50,
    "y": 15144.14,
@@ -11700,6 +12042,7 @@
   {
    "key": "img:img:nsplsh_891a5da9e0854e4088677e9eb9d3acfa#1",
    "anchor": "nsplsh_891a5da9e0854e4088677e9eb9d3acfa",
+   "zone": "main",
    "alt": "",
    "x": 380,
    "y": 15144.14,
@@ -11715,6 +12058,7 @@
   {
    "key": "img:img:ece85d_c5a7ba95345447e6a959ae27499b2791#1",
    "anchor": "ece85d_c5a7ba95345447e6a959ae27499b2791",
+   "zone": "main",
    "alt": "",
    "x": 710,
    "y": 15144.14,
@@ -11730,6 +12074,7 @@
   {
    "key": "img:img:d05c9e_711a7305c7d4461e9506807f7dd92587#1",
    "anchor": "d05c9e_711a7305c7d4461e9506807f7dd92587",
+   "zone": "main",
    "alt": "",
    "x": 1040,
    "y": 15144.14,
@@ -11745,6 +12090,7 @@
   {
    "key": "img:img:nsplsh_b612db6b58404af6b59904b3578356c6#1",
    "anchor": "nsplsh_b612db6b58404af6b59904b3578356c6",
+   "zone": "main",
    "alt": "",
    "x": 1370,
    "y": 15144.14,

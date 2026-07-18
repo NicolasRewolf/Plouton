@@ -17,7 +17,8 @@
     "live": "Header Wix Studio (mega-menu hover colonnes, sticky, mobile)",
     "ours": "Header de main figé : méga-menu éditorial, sticky, drawer mobile, micro-interactions better-ui — vérité produit",
     "reason": "Décision produit Nicolas 2026-07-18 : UX validée, Header freeze. Écarts vs Wix = déviations assumées. Pas de reconvergence pixel, pas d’écrasement par le chantier Fable.",
-    "skill": "better-ui (interruptible transitions, chevron rotate, scale 0.96, contextual icon blur crossfade, layered shadows)"
+    "skill": "better-ui (interruptible transitions, chevron rotate, scale 0.96, contextual icon blur crossfade, layered shadows)",
+    "zone": "header"
   },
   {
     "id": "contact-form-editorial-v3",

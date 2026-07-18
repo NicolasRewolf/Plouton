@@ -25,6 +25,15 @@
   --font-display: wfont_47d637_b856fe7b5486413b948b231a5f646ec2, wf_b856fe7b5486413b948b231a5, orig_google_sans_medium, sans-serif;
 }
 
+/* Graisses du live = familles dédiées en weight 400 (jamais font-weight
+ * synthétique) : Medium (nav), SemiBold (têtes de colonnes du footer).
+ * Hors @theme : Tailwind v4 tree-shake les variables @theme non référencées
+ * par un utilitaire généré — en :root elles survivent aux var() inline. */
+:root {
+  --font-sans-medium: wfont_fce596_6f9b88ea5e194c5fbf036d955d4c28a7, wf_6f9b88ea5e194c5fbf036d955, orig_source_sans_3_medium, sans-serif;
+  --font-sans-semibold: wfont_fce596_d40b638b5ce241f6aa0faabeb83820e6, wf_d40b638b5ce241f6aa0faabeb, orig_source_sans_3_semibold, sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
