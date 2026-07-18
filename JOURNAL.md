@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Fin de soirée (balai)
+
+- Dossier doublon `illustrations pages expertise/` supprimé (déjà dans `brand/expertises/`)
+- `.mcp.json` ignoré (config locale)
+- Repo propre, `main` à jour
+- À reprendre demain : illustration **divorce** manquante
+
 ## 2026-07-18 — Home intro : vraie photo découpée
 
 - Bonne photo PNG (portrait) à la place du mauvais paysage

@@ -11,8 +11,12 @@
 .cursor/
 .idea/
 .vscode/
+.mcp.json
 *.swp
 *.swo
+
+# Brouillons racine (ne pas committer)
+illustrations pages expertise/
 
 # Dependencies & builds (apps)
 **/node_modules/
