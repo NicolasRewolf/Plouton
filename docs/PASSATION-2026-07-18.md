@@ -104,6 +104,17 @@ Ironie utile : le plan pixel listait déjà explicitement *« persistance admin 
 
 ---
 
+## Suite 2026-07-18 (midi) — reprise Cursor après Fable
+
+- Branche `claude/canalisations-c0` rebasée sur `main` → **PR #7**
+- **C0–C2** livrés dans la PR ; **C3** ajouté sur la même branche :
+  - Resend (`notify-demande.ts`) → `accueil@jplouton-avocat.fr` (best-effort)
+  - Import CSV 752 rows exécuté (statut `Archivé`)
+- Nicolas : URL Auth + `NEXT_PUBLIC_SITE_ORIGIN` + clé Resend + merge PR
+- Prochaine priorité agent : **C4** (posts DB) après merge
+
+---
+
 ## Contexte soir précédent (mémoire)
 
 Deux rails : fidélité Wix (Fable) + UX/archi Cursor sur `main`.  

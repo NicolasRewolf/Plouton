@@ -31,7 +31,16 @@ export interface DemandeInput {
 
 export interface ContentStore {
   createDemande(data: DemandeInput): Promise<{ id: string }>
+  /** Upload des pièces jointes d'une demande, puis met à jour `fichiers[]`.
+   * Retourne les chemins stockés. La demande existe déjà : un échec ici ne
+   * doit JAMAIS faire perdre le lead (l'appelant décide du fallback). */
+  attachFichiers(demandeId: string, files: File[]): Promise<string[]>
   saveArticle(article: Article): Promise<void>
+}
+
+/** Nom de fichier sûr pour un chemin Storage (accents/espaces → _). */
+function safeFileName(name: string): string {
+  return name.normalize("NFC").replace(/[^\w.\-]+/g, "_").replace(/^_+|_+$/g, "").slice(-100) || "fichier"
 }
 
 class FsStore implements ContentStore {
@@ -53,6 +62,19 @@ class FsStore implements ContentStore {
       JSON.stringify({ id, receivedAt: new Date().toISOString(), ...data }, null, 2) + "\n"
     )
     return { id }
+  }
+
+  async attachFichiers(demandeId: string, files: File[]): Promise<string[]> {
+    this.assertWritable()
+    const dir = path.join(contentRoot, "demandes", "fichiers", demandeId)
+    fs.mkdirSync(dir, { recursive: true })
+    const paths: string[] = []
+    for (const [i, f] of files.entries()) {
+      const rel = path.join(demandeId, `${i + 1}-${safeFileName(f.name)}`)
+      fs.writeFileSync(path.join(dir, `${i + 1}-${safeFileName(f.name)}`), Buffer.from(await f.arrayBuffer()))
+      paths.push(rel)
+    }
+    return paths
   }
 
   async saveArticle(article: Article): Promise<void> {
@@ -90,6 +112,24 @@ class SupabaseStore implements ContentStore {
       .single()
     if (error) throw new Error(`Supabase demandes: ${error.message}`)
     return { id: row.id }
+  }
+
+  async attachFichiers(demandeId: string, files: File[]): Promise<string[]> {
+    const client = this.client()
+    const paths: string[] = []
+    for (const [i, f] of files.entries()) {
+      const objectPath = `demandes/${demandeId}/${i + 1}-${safeFileName(f.name)}`
+      const { error } = await client.storage
+        .from("pieces-jointes")
+        .upload(objectPath, f, { contentType: f.type || "application/octet-stream" })
+      if (error) throw new Error(`Storage pieces-jointes: ${error.message}`)
+      paths.push(objectPath)
+    }
+    if (paths.length) {
+      const { error } = await client.from("demandes").update({ fichiers: paths }).eq("id", demandeId)
+      if (error) throw new Error(`Supabase demandes.fichiers: ${error.message}`)
+    }
+    return paths
   }
 
   async saveArticle(): Promise<void> {

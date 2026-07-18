@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Canalisations C0–C3 (PR #7)
+
+- **C0–C2** : demandes en base, pièces jointes, login magic link, boîte `/admin/demandes`
+- **C3** : alerte mail Resend → `accueil@…` (clé à ajouter) + **752** contacts Wix importés (Archivé)
+- Script : `python3 scripts/import-demandes-csv.py "/chemin/vers/export.csv"` (CSV hors git)
+- À faire : URL Auth Supabase + `NEXT_PUBLIC_SITE_ORIGIN` + clé Resend + merge PR
+
 ## 2026-07-18 — CTA accueil : mix X
 
 - Fini les pilules + pastille flèche

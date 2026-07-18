@@ -44,10 +44,15 @@ __pycache__/
 .venv/
 venv/
 
-# Données perso (RGPD) — jamais committer
+# Données perso (RGPD) — jamais committer (CSV contacts / demandes)
 contenu/imports/*contact*.csv
 contenu/imports/Prise_de_contact*.csv
 contenu/imports/*Demandes*.csv
+**/Prise de contact*.csv
+**/*prise*contact*.csv
+**/Demandes*.csv
+tmp-*.csv
+*.pii.csv
 
 # Identité lourde / Drive sync local
 contenu/identite/Drive-*

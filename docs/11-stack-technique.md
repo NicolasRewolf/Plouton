@@ -107,7 +107,7 @@ Ils peuvent **se parler** (webhook form → Cooked comme aujourd’hui).
 | Projet Vercel + lien GitHub | ✅ fait (prod au vert) |
 | DNS `admin.` | au moment de mettre l’admin en vrai |
 | DNS `www` cutover | **jour J** (après checklist migration) |
-| Resend / envoi mail (accueil@) | avec le module Demandes |
+| Resend / envoi mail (accueil@) | ✅ code C3 — poser `RESEND_API_KEY` (+ `RESEND_FROM` domaine) |
 | Cooked tracker sur le nouveau site | avant ou au cutover |
 | Tag conversion Nomad | avant cutover Ads |
 | Wix | reste live jusqu’au feu vert |
