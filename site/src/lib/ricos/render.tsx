@@ -39,6 +39,9 @@ function alignStyle(ts?: TextStyle): React.CSSProperties | undefined {
 function decorate(text: string, decorations: RicosDecoration[] | undefined, key: number): ReactNode {
   let node: ReactNode = text
   if (!decorations?.length) return text
+  // Lien = style CSS unique (.prose-plouton a) : on ignore underline + couleur Wix
+  // (sinon double soulignement bleu/corail).
+  const isLinked = decorations.some((d) => d.type === "LINK")
   for (const d of decorations) {
     switch (d.type) {
       case "BOLD":
@@ -48,12 +51,14 @@ function decorate(text: string, decorations: RicosDecoration[] | undefined, key:
         node = <em>{node}</em>
         break
       case "UNDERLINE":
+        if (isLinked) break
         node = <u>{node}</u>
         break
       case "SUPERSCRIPT":
         node = <sup>{node}</sup>
         break
       case "COLOR": {
+        if (isLinked) break
         const style: React.CSSProperties = {}
         if (d.colorData?.foreground) style.color = d.colorData.foreground
         if (d.colorData?.background && !/rgba\(0,\s*0,\s*0,\s*0\)/.test(d.colorData.background))

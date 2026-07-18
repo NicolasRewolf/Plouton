@@ -89,5 +89,15 @@
     "ours": "LegalPageView minimal (H1/H2/H3) + TOC sticky (rail desktop / pastilles mobile) ; 3 JSON structurés ; données société croisées API entreprises",
     "reason": "Demande Nicolas 2026-07-18 : pages légales obligatoires, hyper minimalistes, TOC sticky — side mission cloisonnée hors chantier Footer Fable.",
     "skill": "better-ui (sticky TOC, scale press pastilles) + better-typography (measure, hierarchy H1→H3, text-balance)"
+  },
+  {
+    "id": "inline-links-accent-dotted-v1",
+    "page": "articles + expertises (prose)",
+    "anchor": ".prose-plouton a / a.link-inline",
+    "property": "link-style",
+    "live": "liens Wix souvent bleus + underline solide (parfois décorations empilées)",
+    "ours": "corail accent + soulignement pointillé unique ; ignore underline/couleur Wix sur runs LINK",
+    "reason": "Demande Nicolas 2026-07-18 : double soulignement bleu/rouge trop bizarre ; style B + dotted partout.",
+    "skill": "better-typography (underline from-font, skip-ink, decoration-style dotted)"
   }
 ]

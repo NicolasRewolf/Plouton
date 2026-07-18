@@ -189,14 +189,23 @@ body {
   margin-bottom: 0.9rem;
 }
 
-.prose-plouton a {
+/* Liens internes / inline — style unique site (B + pointillés, Nicolas 2026-07-18) */
+.prose-plouton a,
+a.link-inline {
   color: var(--color-accent);
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-decoration-style: dotted;
+  text-decoration-thickness: from-font;
+  text-underline-offset: 0.2em;
+  text-decoration-skip-ink: auto;
+  text-decoration-color: color-mix(in srgb, var(--color-accent) 85%, transparent);
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
 }
 
-.prose-plouton a:hover {
-  color: var(--color-navy);
+.prose-plouton a:hover,
+a.link-inline:hover {
+  color: var(--color-accent-hover);
+  text-decoration-color: var(--color-accent-hover);
 }
 
 .prose-plouton ul,

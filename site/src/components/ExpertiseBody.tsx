@@ -65,11 +65,7 @@ function linkify(text: string, links: InlineLink[]): ReactNode[] {
     const href = hrefByLower.get(part.toLowerCase())
     if (!href) return <span key={i}>{part}</span>
     return (
-      <Link
-        key={i}
-        href={href}
-        className="font-medium text-navy underline decoration-accent/80 decoration-from-font underline-offset-[3px] transition-[color] duration-200 hover:text-accent"
-      >
+      <Link key={i} href={href} className="link-inline font-medium">
         {part}
       </Link>
     )
