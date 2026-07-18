@@ -5,6 +5,12 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Fix Editor.js (toolbar visible)
+
+- L’éditeur coupait le bouton **+** et les menus (overflow) — corrigé
+- Init alignée sur le guide Editor.js ; titres / listes / citations en français
+- Tests : Admin → Nouvel article → survoler un bloc → **+** doit ouvrir le menu
+
 ## 2026-07-18 — Admin : vrai éditeur + dashboard
 
 - Les avocats rédigent le blog avec un **vrai éditeur** (titres, listes, citations) — fini les grandes zones de texte

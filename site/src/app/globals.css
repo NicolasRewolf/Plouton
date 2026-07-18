@@ -454,14 +454,49 @@ a.link-inline:hover {
 .admin-btn-secondary:hover:not(:disabled) {
   background: var(--color-fog);
 }
+/* Editor.js — toolbar / toolbox doivent pouvoir déborder (pas d’overflow:hidden parent) */
+.admin-editor {
+  overflow: visible;
+}
+.admin-editor-holder {
+  overflow: visible;
+}
 .admin-editor .ce-block__content,
 .admin-editor .ce-toolbar__content {
-  max-width: 100%;
+  max-width: min(100%, 680px);
 }
 .admin-editor .ce-paragraph,
 .admin-editor .ce-header {
   color: var(--color-navy);
+  line-height: 1.65;
+}
+.admin-editor .ce-header {
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: -0.02em;
 }
 .admin-editor .codex-editor__redactor {
-  padding-bottom: 2rem !important;
+  padding-bottom: 3rem !important;
+}
+.admin-editor .ce-toolbar__plus,
+.admin-editor .ce-toolbar__settings-btn {
+  color: var(--color-navy);
+  background: #fff;
+  border: 1px solid rgba(23, 71, 94, 0.12);
+  border-radius: 8px;
+}
+.admin-editor .ce-toolbar__plus:hover,
+.admin-editor .ce-toolbar__settings-btn:hover {
+  background: var(--color-fog);
+}
+.admin-editor .ce-popover,
+.admin-editor .ce-inline-toolbar,
+.admin-editor .ce-conversion-toolbar {
+  z-index: 50;
+  border-radius: 12px;
+  border: 1px solid rgba(23, 71, 94, 0.12);
+  box-shadow: 0 8px 28px rgba(23, 71, 94, 0.12);
+}
+.admin-editor .ce-popover-item:hover {
+  background: var(--color-fog) !important;
 }
