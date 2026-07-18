@@ -5,8 +5,9 @@ import { Header } from "@/components/Header"
 import { BlogListing, blogTotalPages } from "@/components/BlogListing"
 import { publishedFull } from "@/lib/blog-pages"
 
-export function generateStaticParams() {
-  const total = blogTotalPages(publishedFull().length)
+export async function generateStaticParams() {
+  const articles = await publishedFull()
+  const total = blogTotalPages(articles.length)
   return Array.from({ length: total - 1 }, (_, i) => ({ n: String(i + 2) }))
 }
 
@@ -29,7 +30,7 @@ export default async function BlogPagedPage({
 }) {
   const { n } = await params
   const page = Number(n)
-  const articles = publishedFull()
+  const articles = await publishedFull()
   if (!Number.isInteger(page) || page < 2 || page > blogTotalPages(articles.length)) notFound()
   return (
     <>

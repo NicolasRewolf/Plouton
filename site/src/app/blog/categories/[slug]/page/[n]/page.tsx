@@ -8,14 +8,14 @@ import { getCategories } from "@/lib/content"
 
 export const dynamicParams = true
 
-export function generateStaticParams() {
-  return getCategories().flatMap((c) => {
-    const total = blogTotalPages(articlesOfCategory(c).length)
-    return Array.from({ length: total - 1 }, (_, i) => ({
-      slug: c.slug,
-      n: String(i + 2),
-    }))
-  })
+export async function generateStaticParams() {
+  const categories = getCategories()
+  const params: { slug: string; n: string }[] = []
+  for (const c of categories) {
+    const total = blogTotalPages((await articlesOfCategory(c)).length)
+    for (let i = 2; i <= total; i++) params.push({ slug: c.slug, n: String(i) })
+  }
+  return params
 }
 
 export async function generateMetadata({
@@ -41,7 +41,7 @@ export default async function CategoryPagedPage({
   const category = findCategory(slug)
   if (!category) notFound()
   const page = Number(n)
-  const articles = articlesOfCategory(category)
+  const articles = await articlesOfCategory(category)
   if (!Number.isInteger(page) || page < 2 || page > blogTotalPages(articles.length)) notFound()
   return (
     <>

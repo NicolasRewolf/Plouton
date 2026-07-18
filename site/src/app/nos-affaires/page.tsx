@@ -23,11 +23,11 @@ export function generateMetadata(): Metadata {
   }
 }
 
-export default function NosAffairesPage() {
+export default async function NosAffairesPage() {
   const page = getContentPage("nos-affaires")
   const site = getSite()
 
-  const articles = publishedIndex().map((a) => ({
+  const articles = (await publishedIndex()).map((a) => ({
     slug: a.slug,
     title: a.title,
     excerpt: a.excerpt,

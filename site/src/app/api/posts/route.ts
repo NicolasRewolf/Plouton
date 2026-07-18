@@ -1,15 +1,16 @@
 import { NextResponse } from "next/server"
 import {
   getArticle,
-  listArticleIndex,
   type Article,
 } from "@/lib/content"
+import { resolveAdminArticleList } from "@/lib/posts-public"
+import { revalidatePostSurfaces } from "@/lib/revalidate-posts"
 import { getStore, type ContentStore } from "@/lib/store"
 import { supabaseServer } from "@/lib/supabase/server"
 
 export const runtime = "nodejs"
 
-/** Store avec lecture DB optionnelle (SupabaseStore C4). */
+/** Store avec lecture DB optionnelle (SupabaseStore). */
 interface StoreWithGet extends ContentStore {
   getArticleBySlug?(slug: string): Promise<Article | null>
 }
@@ -44,7 +45,8 @@ export async function GET(req: Request) {
     if (!article) return NextResponse.json({ error: "introuvable" }, { status: 404 })
     return NextResponse.json(article)
   }
-  return NextResponse.json(listArticleIndex())
+  // Liste admin : DB (publiés + brouillons), fallback JSON
+  return NextResponse.json(await resolveAdminArticleList())
 }
 
 export async function POST(req: Request) {
@@ -75,10 +77,11 @@ export async function POST(req: Request) {
     url: body.url,
     minutesToRead: body.minutesToRead,
     viewCount: body.viewCount,
-    updatedAt: body.updatedAt,
+    updatedAt: body.updatedAt || new Date().toISOString().slice(0, 10),
   }
   try {
     await getStore().saveArticle(article)
+    revalidatePostSurfaces(article.slug)
   } catch (e) {
     const msg = e instanceof Error ? e.message : "échec enregistrement"
     return NextResponse.json({ error: msg }, { status: 500 })
@@ -92,11 +95,16 @@ export async function PUT(req: Request) {
 
   const body = (await req.json()) as Article
   if (!body.slug) return NextResponse.json({ error: "slug requis" }, { status: 400 })
+  const article: Article = {
+    ...body,
+    updatedAt: body.updatedAt || new Date().toISOString().slice(0, 10),
+  }
   try {
-    await getStore().saveArticle(body)
+    await getStore().saveArticle(article)
+    revalidatePostSurfaces(article.slug)
   } catch (e) {
     const msg = e instanceof Error ? e.message : "échec enregistrement"
     return NextResponse.json({ error: msg }, { status: 500 })
   }
-  return NextResponse.json(body)
+  return NextResponse.json(article)
 }

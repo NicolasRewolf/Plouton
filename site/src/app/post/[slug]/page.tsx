@@ -9,12 +9,15 @@ import { StickyCta } from "@/components/StickyCta"
 import { TeamCtaBanner } from "@/components/TeamCtaBanner"
 import {
   categorySlug,
-  getArticle,
   getAuthor,
   getRicos,
   getSite,
-  publishedArticles,
 } from "@/lib/content"
+import {
+  resolvePostBodyMode,
+  resolvePublishedArticle,
+  resolvePublishedSlugs,
+} from "@/lib/posts-public"
 import { relatedForArticle } from "@/lib/queries"
 import { RicosBody } from "@/lib/ricos/render"
 import type { RicosDoc } from "@/lib/ricos/types"
@@ -22,8 +25,9 @@ import { JsonLd, organizationSchema } from "@/lib/seo"
 
 export const dynamicParams = true
 
-export function generateStaticParams() {
-  return publishedArticles().map((a) => ({ slug: a.slug }))
+export async function generateStaticParams() {
+  const slugs = await resolvePublishedSlugs()
+  return slugs.map((slug) => ({ slug }))
 }
 
 export async function generateMetadata({
@@ -32,8 +36,8 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>
 }): Promise<Metadata> {
   const { slug } = await params
-  const article = getArticle(slug)
-  if (!article || article.status !== "published") return {}
+  const article = await resolvePublishedArticle(slug)
+  if (!article) return {}
   return {
     // Titre/meta du live Wix (baseline) — identiques au byte près
     title: { absolute: article.metaTitle ?? article.title },
@@ -75,9 +79,10 @@ function BodyBlocks({ blocks }: { blocks: string[] }) {
 
 export default async function PostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
-  const article = getArticle(slug)
-  if (!article || article.status !== "published") notFound()
-  const ricos = getRicos(article.slug)
+  const article = await resolvePublishedArticle(slug)
+  if (!article) notFound()
+  const bodyMode = resolvePostBodyMode(article)
+  const ricos = bodyMode === "ricos" ? getRicos(article.slug) : null
   const site = getSite()
   const url = `${site.url}/post/${article.slug}`
   const author = getAuthor(article)
@@ -88,7 +93,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const updatedLabel = article.updatedAt
     ? new Date(article.updatedAt).toLocaleDateString("fr-FR", { month: "long", year: "numeric" })
     : null
-  const related = relatedForArticle(article, 2).map((a) => ({
+  const related = (await relatedForArticle(article, 2)).map((a) => ({
     slug: a.slug,
     title: a.title,
     excerpt: a.excerpt,
@@ -180,16 +185,16 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             </div>
           </header>
 
-          {ricos ? (
+          {bodyMode === "ricos" && ricos ? (
             /* Arbre Ricos exact du live (Phase 3) — structure fidèle :
              * liens, couleurs, tableaux, listes, accordéons, embeds. */
             <div className="prose-plouton prose-blog mt-8">
               <RicosBody doc={ricos.ricos as RicosDoc} slug={article.slug} />
             </div>
-          ) : article.bodyHtml ? (
+          ) : bodyMode === "db-html" || bodyMode === "html" ? (
             <div
               className="prose-plouton prose-blog mt-8"
-              dangerouslySetInnerHTML={{ __html: article.bodyHtml }}
+              dangerouslySetInnerHTML={{ __html: article.bodyHtml || "" }}
             />
           ) : (
             <div className="prose-plouton prose-blog mt-8">

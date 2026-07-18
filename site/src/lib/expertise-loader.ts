@@ -70,13 +70,15 @@ function buildTocItems({
   return items
 }
 
-export function loadExpertisePage(slug: string): LoadedExpertisePage | null {
+export async function loadExpertisePage(
+  slug: string
+): Promise<LoadedExpertisePage | null> {
   const expertise = getExpertise(slug)
   if (!expertise) return null
 
   const site = getSite()
   const faq = faqForExpertise(expertise)
-  const relatedArticles = relatedForExpertise(expertise, RELATED_LIMIT)
+  const relatedArticles = await relatedForExpertise(expertise, RELATED_LIMIT)
   const related: AffaireCardItem[] = relatedArticles.map((a) => ({
     slug: a.slug,
     title: a.title,
@@ -94,6 +96,7 @@ export function loadExpertisePage(slug: string): LoadedExpertisePage | null {
     hasFaq: faq.length > 0,
     hasAffaires: related.length > 0,
   })
+
 
   const pagePath = expertise.path || `/${expertise.pole}/${expertise.slug}`
   const pageUrl = `${site.url}${pagePath}`

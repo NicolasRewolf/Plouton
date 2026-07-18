@@ -1,21 +1,26 @@
 import Link from "next/link"
-import { listArticleIndex } from "@/lib/content"
+import { resolveAdminArticleList } from "@/lib/posts-public"
+
+export const dynamic = "force-dynamic"
 
 export const metadata = {
   title: "Admin blog",
   robots: { index: false, follow: false },
 }
 
-export default function AdminBlogPage() {
-  const articles = listArticleIndex()
+export default async function AdminBlogPage() {
+  const articles = await resolveAdminArticleList()
+  const published = articles.filter((a) => a.status === "published").length
+  const drafts = articles.length - published
+
   return (
     <div className="mx-auto max-w-4xl px-4 py-12">
       <div className="mb-8 flex items-center justify-between gap-4">
         <div>
           <h1 className="font-display text-3xl">Backoffice blog</h1>
           <p className="mt-1 text-sm text-muted">
-            {articles.length} articles · édition admin → base Supabase (C4) · site
-            public lit encore le JSON git jusqu’à C5
+            {articles.length} articles · {published} publiés · {drafts} brouillons ·
+            lecture base Supabase (C5)
           </p>
         </div>
         <Link
@@ -31,7 +36,8 @@ export default function AdminBlogPage() {
             <div className="min-w-0">
               <p className="font-medium">{a.title}</p>
               <p className="mt-1 text-xs text-muted">
-                {a.publishedAt} · {a.categories.slice(0, 2).join(" · ")}
+                {a.status === "published" ? "Publié" : "Brouillon"} · {a.publishedAt} ·{" "}
+                {a.categories.slice(0, 2).join(" · ")}
               </p>
             </div>
             <div className="flex gap-3 text-sm">

@@ -167,3 +167,16 @@ Détail → `docs/12-seo-geo.md`.
 **Pourquoi :** obligation légale (formulaires + RGPD) ; le live Wix n’avait qu’un bloc mentions peu structuré.  
 **Sources :** live Wix (textes IP / responsabilité) + API entreprises / Pappers (SIREN, SIRET, siège) + inspiration UI Outremer (structure claire, pas de copie de thème).  
 **Note Footer :** Footer convergé **mergé** PR #6 — les pages légales se croisent entre elles + lien formulaire → confidentialité.
+
+### C5 — lecture publique posts + publish live (2026-07-18)
+
+**Décision :**
+1. Lecture publique **serveur uniquement** via `SUPABASE_SECRET_KEY` (filtre `status = published`). **Pas** de policy RLS `anon` en V1 (surface minimale).
+2. Dual-run : si la ligne DB manque → **fallback JSON** git.
+3. Corps rendu : si le corps DB **diffère** du JSON seed (édition admin) → `bodyHtml` puis `body` ; sinon **Ricos** `contenu/ricos/` (les 422 seed restent fidèles).
+4. Publish → `revalidateTag('posts')` + `revalidatePath` (article, blog, listes, accueil, sitemap).
+5. Liste admin = DB (publiés + brouillons).
+6. Covers Storage bucket `medias` = **C5.1** (hors MVP si non branché ici).
+
+**Pourquoi :** « je publie → visible sans redeploy », sans ouvrir la table au monde via anon.  
+**Conséquence :** clé secrète obligatoire sur Vercel pour le live public ; build sans clé = JSON only.

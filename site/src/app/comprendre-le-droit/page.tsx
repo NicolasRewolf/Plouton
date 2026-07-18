@@ -24,17 +24,19 @@ export function generateMetadata(): Metadata {
   }
 }
 
-export default function ComprendreLeDroitPage() {
+export default async function ComprendreLeDroitPage() {
   const hub = loadHub()
   const site = getSite()
-  const mostConsulted = mostViewedArticles({
+  const mostConsulted = await mostViewedArticles({
     limit: hub.mostConsulted.limit,
     categoryLabel: hub.mostConsulted.categoryLabel,
   })
-  const sections = hub.sections.map((section) => ({
-    section,
-    articles: articlesBySlugs(section.slugs),
-  }))
+  const sections = await Promise.all(
+    hub.sections.map(async (section) => ({
+      section,
+      articles: await articlesBySlugs(section.slugs),
+    }))
+  )
 
   return (
     <>

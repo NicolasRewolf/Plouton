@@ -3,14 +3,15 @@ import Link from "next/link"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
 import { SiteCta } from "@/components/SiteCta"
-import { getAccueil, getEquipe, getSite, publishedArticles } from "@/lib/content"
+import { getAccueil, getEquipe, getSite } from "@/lib/content"
+import { publishedIndex } from "@/lib/queries"
 import { JsonLd, organizationSchema } from "@/lib/seo"
 
-export default function HomePage() {
+export default async function HomePage() {
   const site = getSite()
   const page = getAccueil()
   const team = getEquipe()
-  const posts = publishedArticles()
+  const posts = await publishedIndex()
   const ticker = posts.slice(0, 24)
 
   const schemas = [

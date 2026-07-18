@@ -11,8 +11,8 @@ export function expertiseMetadata(slug: string): Metadata {
 }
 
 /** Thin App Router adapter — data assembly lives in expertise-loader. */
-export function ExpertiseRoutePage({ slug }: { slug: string }) {
-  const loaded = loadExpertisePage(slug)
+export async function ExpertiseRoutePage({ slug }: { slug: string }) {
+  const loaded = await loadExpertisePage(slug)
   if (!loaded) notFound()
 
   return (

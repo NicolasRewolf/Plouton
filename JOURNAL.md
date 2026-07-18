@@ -5,6 +5,21 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — C5 : publish live (DB → site)
+
+- Le site public lit les articles **dans la base** (plus seulement les fichiers)
+- Tu publies dans l’admin → la page se met à jour **sans redéployer**
+- Les 422 articles d’origine gardent leur belle mise en page (Ricos) tant qu’on ne les réécrit pas
+- Images de couverture (covers) → reporté en **C5.1**
+- Tests : ouvrir un `/post/...` seedé ; admin → modifier titre/corps → publier → recharger la page
+
+## 2026-07-18 — C5 démarré (plan)
+
+- Objectif : **je publie dans l’admin → visible sur le site sans redéployer**
+- Lecture publique via clé secrète serveur (pas d’ouverture anonyme) + filet de sécurité JSON
+- Les 422 articles seed gardent leur mise en page Ricos tant qu’on ne les réécrit pas
+- Covers (images) → suite **C5.1** si pas livré ici · branche `feat/canalisations-c5`
+
 ## 2026-07-18 — Clean repo pré-C5
 
 - Worktrees Claude + branches mortes (déjà mergées) retirés — repo allégé

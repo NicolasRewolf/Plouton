@@ -1,9 +1,10 @@
 import type { MetadataRoute } from "next"
-import { getCategories, getSite, listExpertises, publishedArticles } from "@/lib/content"
+import { getCategories, getSite, listExpertises } from "@/lib/content"
+import { publishedIndex } from "@/lib/queries"
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const site = getSite()
-  const posts = publishedArticles().map((a) => ({
+  const posts = (await publishedIndex()).map((a) => ({
     url: `${site.url}/post/${a.slug}`,
     lastModified: new Date(a.publishedAt),
   }))
