@@ -38,6 +38,13 @@ body {
    * écarter change visiblement la graisse apparente du texte. */
 }
 
+/* Long lists (nos-affaires) — skip layout/paint offscreen */
+.content-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 360px;
+}
+
+
 ::selection {
   background: var(--color-navy);
   color: white;

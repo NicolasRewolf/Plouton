@@ -53,7 +53,7 @@ export function AffaireCard({
   return (
     <article
       className={[
-        "group",
+        "group content-auto",
         featured ? "sm:col-span-2 xl:col-span-2" : "",
         compact ? "w-[272px] shrink-0 sm:w-[300px]" : "",
         className,

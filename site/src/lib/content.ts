@@ -1,5 +1,6 @@
 import fs from "node:fs"
 import path from "node:path"
+import { cache } from "react"
 
 /** Racine des données. Surchargée via CONTENT_ROOT (déploiement, tests). */
 export const contentRoot = process.env.CONTENT_ROOT
@@ -152,19 +153,36 @@ export interface FaqItem {
   sousExpertise?: string
 }
 
-export function getSite(): SiteConfig {
-  return readJson<SiteConfig>("site.json")
+/** Cache process-wide for 422-file scans (SSG + hot paths). */
+let articlesCache: Article[] | null = null
+let articleIndexCache: ArticleIndexItem[] | null = null
+let categoriesCache: Category[] | null = null
+
+export function invalidateContentCaches() {
+  articlesCache = null
+  articleIndexCache = null
+  categoriesCache = null
 }
+
+export const getSite = cache(function getSite(): SiteConfig {
+  return readJson<SiteConfig>("site.json")
+})
 
 /** Liste légère (422 posts) — pour ticker, listes, sitemap. */
 export function listArticleIndex(): ArticleIndexItem[] {
-  return readJson<ArticleIndexItem[]>("articles-index.json")
+  if (articleIndexCache) return articleIndexCache
+  articleIndexCache = readJson<ArticleIndexItem[]>("articles-index.json")
+  return articleIndexCache
 }
 
 export function listArticles(): Article[] {
+  if (articlesCache) return articlesCache
   const dir = path.join(root, "articles")
-  if (!fs.existsSync(dir)) return []
-  return fs
+  if (!fs.existsSync(dir)) {
+    articlesCache = []
+    return articlesCache
+  }
+  articlesCache = fs
     .readdirSync(dir)
     .filter((f) => f.endsWith(".json"))
     .map((f) => readJson<Article>(path.join("articles", f)))
@@ -172,9 +190,10 @@ export function listArticles(): Article[] {
       (a, b) =>
         new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
     )
+  return articlesCache
 }
 
-export function getArticle(slug: string): Article | null {
+export const getArticle = cache(function getArticle(slug: string): Article | null {
   const raw = decodeURIComponent(slug).normalize("NFC")
   const candidates = [raw, slug.normalize("NFC"), slug]
   for (const s of candidates) {
@@ -192,11 +211,13 @@ export function getArticle(slug: string): Article | null {
   })
   if (!hit) return null
   return readJson<Article>(path.join("articles", hit))
-}
+})
 
 /** Arbre Ricos exact du live (contenu/ricos/, harvest Phase 2) — source de
  * vérité du corps d'article ; bodyHtml (import CSV, lossy) reste le fallback. */
-export function getRicos(slug: string): { slug: string; ricos: { nodes: unknown[] } } | null {
+export const getRicos = cache(function getRicos(
+  slug: string
+): { slug: string; ricos: { nodes: unknown[] } } | null {
   const raw = decodeURIComponent(slug).normalize("NFC")
   const candidates = [raw, slug.normalize("NFC"), slug]
   for (const s of candidates) {
@@ -206,12 +227,15 @@ export function getRicos(slug: string): { slug: string; ricos: { nodes: unknown[
   const dir = path.join(root, "ricos")
   if (!fs.existsSync(dir)) return null
   const target = raw.normalize("NFC")
-  const hit = fs.readdirSync(dir).find((f) => f.endsWith(".json") && f.slice(0, -5).normalize("NFC") === target)
+  const hit = fs
+    .readdirSync(dir)
+    .find((f) => f.endsWith(".json") && f.slice(0, -5).normalize("NFC") === target)
   return hit ? readJson(path.join("ricos", hit)) : null
-}
+})
 
 export function saveArticle(article: Article) {
   writeJson(path.join("articles", `${article.slug}.json`), article)
+  invalidateContentCaches()
   // Refresh index entry
   const index = listArticleIndex().filter((a) => a.slug !== article.slug)
   index.push({
@@ -229,13 +253,16 @@ export function saveArticle(article: Article) {
       new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
   )
   writeJson("articles-index.json", index)
+  articleIndexCache = index
 }
 
-export function getExpertise(slug: string): ExpertisePage | null {
+export const getExpertise = cache(function getExpertise(
+  slug: string
+): ExpertisePage | null {
   const file = path.join(root, "expertises", `${slug}.json`)
   if (!fs.existsSync(file)) return null
   return readJson<ExpertisePage>(path.join("expertises", `${slug}.json`))
-}
+})
 
 export function listExpertises(): ExpertisePage[] {
   const dir = path.join(root, "expertises")
@@ -246,11 +273,13 @@ export function listExpertises(): ExpertisePage[] {
     .map((f) => readJson<ExpertisePage>(path.join("expertises", f)))
 }
 
-export function getContentPage(slug: string): ContentPage | null {
+export const getContentPage = cache(function getContentPage(
+  slug: string
+): ContentPage | null {
   const file = path.join(root, "pages", `${slug}.json`)
   if (!fs.existsSync(file)) return null
   return readJson<ContentPage>(path.join("pages", `${slug}.json`))
-}
+})
 
 export function readPageJson<T>(slug: string): T | null {
   const file = path.join(root, "pages", `${slug}.json`)
@@ -258,11 +287,11 @@ export function readPageJson<T>(slug: string): T | null {
   return readJson<T>(path.join("pages", `${slug}.json`))
 }
 
-export function getFaq(expertiseKey: string): FaqItem[] {
+export const getFaq = cache(function getFaq(expertiseKey: string): FaqItem[] {
   const file = path.join(root, "faq", `${expertiseKey}.json`)
   if (!fs.existsSync(file)) return []
   return readJson<FaqItem[]>(path.join("faq", `${expertiseKey}.json`))
-}
+})
 
 export function listAuthors(): Author[] {
   return readJson<Author[]>("auteurs.json")
@@ -296,7 +325,9 @@ export function categorySlug(label: string): string {
 }
 
 export function getCategories(): Category[] {
-  return readJson<Category[]>("categories.json")
+  if (categoriesCache) return categoriesCache
+  categoriesCache = readJson<Category[]>("categories.json")
+  return categoriesCache
 }
 
 export function getAccueil() {

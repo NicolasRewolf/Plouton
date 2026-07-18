@@ -1,7 +1,6 @@
 "use client"
 
 import { useEffect, useMemo, useRef, useState, type DragEvent, type FormEvent, type ReactNode } from "react"
-import { formObjets } from "@/lib/registry"
 
 interface ContactFormProps {
   defaultObjet?: string
@@ -10,9 +9,28 @@ interface ContactFormProps {
   heading?: string
   /** Sous-titre / promesse */
   lead?: string
+  /** Objets du select — passés depuis le serveur (évite d'embarquer le registry côté client) */
+  objets?: string[]
 }
 
-const OBJETS = formObjets()
+const DEFAULT_OBJETS = [
+  "Droit Pénal",
+  "Procès criminels",
+  "Trafic de stupéfiants",
+  "Violences conjugales et féminicides",
+  "Droit pénal des affaires",
+  "Victimes de délits ou crimes",
+  "Accidents de la route",
+  "Droit et accidents du travail",
+  "Accidents et erreurs médicales",
+  "Accidents de la vie courante",
+  "Droit des assurances",
+  "Défense des consommateurs",
+  "Droit de la famille",
+  "Divorce",
+  "Nous rejoindre (candidature)",
+  "Autre / je ne sais pas encore",
+]
 
 const MODES = [
   {
@@ -54,6 +72,7 @@ export function ContactForm({
   pageSource,
   heading = "Je prends rendez-vous",
   lead = "Exposez votre situation en toute confidentialité. Votre demande est traitée rapidement — un rendez-vous est fixé sous 7 jours, immédiat en urgence.",
+  objets = DEFAULT_OBJETS,
 }: ContactFormProps) {
   const [sent, setSent] = useState(false)
   const [error, setError] = useState("")
@@ -377,7 +396,7 @@ export function ContactForm({
                 backgroundPosition: "right 1rem center",
               }}
             >
-              {OBJETS.map((o) => (
+              {objets.map((o) => (
                 <option key={o} value={o}>
                   {o}
                 </option>

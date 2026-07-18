@@ -4,6 +4,7 @@ import { ContactForm } from "@/components/ContactForm"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
 import { getSite, readPageJson } from "@/lib/content"
+import { formObjets } from "@/lib/registry"
 import { JsonLd, organizationSchema } from "@/lib/seo"
 
 interface HonorairesPage {
@@ -126,7 +127,11 @@ export default function HonorairesRendezVousPage() {
           </div>
 
           <div className="lg:sticky lg:top-24 lg:self-start">
-            <ContactForm pageSource="honoraires-rendez-vous" defaultObjet="Droit Pénal" />
+            <ContactForm
+              pageSource="honoraires-rendez-vous"
+              defaultObjet="Droit Pénal"
+              objets={formObjets()}
+            />
           </div>
         </div>
 

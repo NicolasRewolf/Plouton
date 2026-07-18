@@ -85,7 +85,6 @@ export function loadExpertisePage(slug: string): LoadedExpertisePage | null {
     categories: a.categories,
     coverImage: a.coverImage,
     minutesToRead: a.minutesToRead,
-    viewCount: a.viewCount,
   }))
 
   const sections = cleanSections(expertise)

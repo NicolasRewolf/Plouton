@@ -13,10 +13,12 @@ import {
 } from "@/lib/content"
 import { labelEquals, labelsOverlap } from "@/lib/category-match"
 
+/** Full JSON articles — use sparingly (admin, body, ricos). Prefer publishedIndex. */
 export function publishedFull(): Article[] {
   return listArticles().filter((a) => a.status === "published")
 }
 
+/** Light index — listings, related, médias, nos-affaires (server-perf). */
 export function publishedIndex(): ArticleIndexItem[] {
   return listArticleIndex()
 }
@@ -40,8 +42,8 @@ export function articleMatchesLabels(
   return labelsOverlap(article.categories || [], labels)
 }
 
-export function articlesOfCategory(category: Category): Article[] {
-  return publishedFull().filter((a) => articleMatchesCategory(a, category))
+export function articlesOfCategory(category: Category): ArticleIndexItem[] {
+  return publishedIndex().filter((a) => articleMatchesCategory(a, category))
 }
 
 export function findCategoryBySlug(slugParam: string): Category | null {
@@ -52,8 +54,8 @@ export function findCategoryBySlug(slugParam: string): Category | null {
 export function articlesMatchingLabels(
   labels: string[],
   opts: { limit?: number; excludeSlug?: string } = {}
-): Article[] {
-  const list = publishedFull().filter((a) => {
+): ArticleIndexItem[] {
+  const list = publishedIndex().filter((a) => {
     if (opts.excludeSlug && a.slug === opts.excludeSlug) return false
     return articleMatchesLabels(a, labels)
   })
@@ -64,15 +66,18 @@ export function articlesMatchingLabels(
 export function relatedForExpertise(
   expertise: ExpertisePage,
   limit = 16
-): Article[] {
+): ArticleIndexItem[] {
   return articlesMatchingLabels(expertise.blogCategories || [], { limit })
 }
 
 /**
  * Related for a post — same category first, then recent (Wix behaviour).
  */
-export function relatedForArticle(article: Article, limit = 2): Article[] {
-  const others = publishedFull().filter((a) => a.slug !== article.slug)
+export function relatedForArticle(
+  article: Pick<Article, "slug" | "categories">,
+  limit = 2
+): ArticleIndexItem[] {
+  const others = publishedIndex().filter((a) => a.slug !== article.slug)
   const same = others.filter((a) =>
     a.categories.some((c) => article.categories.includes(c))
   )
@@ -101,7 +106,6 @@ export function faqForExpertise(expertise: ExpertisePage): FaqItem[] {
 
   const key = (expertise.faqExpertise || "").trim()
   if (!key) return []
-  // Only try if it looks like a slug, not a free-form Wix title
   if (/^[a-z0-9-]+$/i.test(key) && !key.includes(" ")) {
     return getFaq(key)
   }

@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { PostCard } from "@/components/PostCard"
-import { getCategories, listAuthors, type Article } from "@/lib/content"
+import { getCategories, type ArticleIndexItem } from "@/lib/content"
 
 const PER_PAGE = 24
 
@@ -25,15 +25,12 @@ export function BlogListing({
   basePath,
   activeCategorySlug,
 }: {
-  articles: Article[]
+  articles: ArticleIndexItem[]
   page: number
   basePath: string
   activeCategorySlug?: string
 }) {
   const categories = getCategories()
-  const authors = listAuthors()
-  const authorName = (a: Article) =>
-    authors.find((x) => x.wixId === a.author)?.displayName ?? undefined
   const { items, current, totalPages } = paginate(articles, page)
   const pageHref = (n: number) => (n === 1 ? basePath : `${basePath}/page/${n}`)
 
@@ -65,7 +62,7 @@ export function BlogListing({
 
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((a) => (
-            <PostCard key={a.slug} article={a} authorName={authorName(a)} />
+            <PostCard key={a.slug} article={a} />
           ))}
         </div>
 

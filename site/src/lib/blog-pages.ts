@@ -1,15 +1,14 @@
 import {
   articlesOfCategory,
   findCategoryBySlug,
-  publishedFull,
+  publishedIndex,
 } from "@/lib/queries"
-import type { Article, Category } from "@/lib/content"
+import type { ArticleIndexItem, Category } from "@/lib/content"
 
-export { publishedFull, articlesOfCategory }
+export { publishedIndex as publishedFull, articlesOfCategory }
 
 export function findCategory(slugParam: string): Category | null {
   return findCategoryBySlug(slugParam)
 }
 
-/** @deprecated prefer articlesOfCategory from queries */
-export type { Article, Category }
+export type { ArticleIndexItem as Article, Category }

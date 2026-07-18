@@ -1,15 +1,24 @@
 import Image from "next/image"
+import dynamic from "next/dynamic"
 import type { AffaireCardItem } from "@/components/AffaireCard"
-import { AffairesCarousel } from "@/components/AffairesCarousel"
-import { ContactForm } from "@/components/ContactForm"
 import { ExpertiseBody } from "@/components/ExpertiseBody"
 import { ExpertiseToc, type ExpertiseTocItem } from "@/components/ExpertiseToc"
-import { FaqAccordion } from "@/components/FaqAccordion"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
 import type { ExpertisePage, FaqItem, SiteConfig } from "@/lib/content"
-import { getRegistryExpertise } from "@/lib/registry"
+import { getRegistryExpertise, formObjets } from "@/lib/registry"
 import { JsonLd } from "@/lib/seo"
+
+/** Below-fold client islands — keep hero JS lean (bundle-dynamic-imports). */
+const ContactForm = dynamic(() =>
+  import("@/components/ContactForm").then((m) => m.ContactForm)
+)
+const FaqAccordion = dynamic(() =>
+  import("@/components/FaqAccordion").then((m) => m.FaqAccordion)
+)
+const AffairesCarousel = dynamic(() =>
+  import("@/components/AffairesCarousel").then((m) => m.AffairesCarousel)
+)
 
 interface ExpertisePageViewProps {
   expertise: ExpertisePage
@@ -117,6 +126,7 @@ export function ExpertisePageView({
                   getRegistryExpertise(expertise.slug)?.formObjet ||
                   expertise.formObjet
                 }
+                objets={formObjets()}
                 pageSource={expertise.slug}
                 heading={expertise.contactAside?.title || "Je prends rendez-vous"}
                 lead={

@@ -22,6 +22,7 @@ export function ExpertiseToc({ items }: { items: ExpertiseTocItem[] }) {
   useEffect(() => {
     if (!items.length) return
 
+    let raf = 0
     function update() {
       const ids = items.map((i) => i.id)
       let current = ids[0]
@@ -30,15 +31,24 @@ export function ExpertiseToc({ items }: { items: ExpertiseTocItem[] }) {
         if (!el) continue
         if (el.getBoundingClientRect().top <= SCROLL_OFFSET) current = id
       }
-      setActiveId(current)
+      setActiveId((prev) => (prev === current ? prev : current))
+    }
+
+    function onScroll() {
+      if (raf) return
+      raf = window.requestAnimationFrame(() => {
+        raf = 0
+        update()
+      })
     }
 
     update()
-    window.addEventListener("scroll", update, { passive: true })
-    window.addEventListener("resize", update)
+    window.addEventListener("scroll", onScroll, { passive: true })
+    window.addEventListener("resize", onScroll, { passive: true })
     return () => {
-      window.removeEventListener("scroll", update)
-      window.removeEventListener("resize", update)
+      if (raf) window.cancelAnimationFrame(raf)
+      window.removeEventListener("scroll", onScroll)
+      window.removeEventListener("resize", onScroll)
     }
   }, [items])
 

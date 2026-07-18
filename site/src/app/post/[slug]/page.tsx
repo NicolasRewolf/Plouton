@@ -95,7 +95,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
     categories: a.categories,
     coverImage: a.coverImage,
     minutesToRead: a.minutesToRead,
-    viewCount: a.viewCount ?? 0,
+    viewCount: 0,
   }))
   const stats = { views: article.viewCount ?? 0, likes: 0, comments: 0 }
 

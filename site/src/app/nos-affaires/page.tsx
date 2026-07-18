@@ -1,14 +1,14 @@
 import type { Metadata } from "next"
-import { AffairesGallery } from "@/components/AffairesGallery"
+import dynamic from "next/dynamic"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
-import {
-  categorySlug,
-  getContentPage,
-  getSite,
-  listArticles,
-} from "@/lib/content"
+import { categorySlug, getContentPage, getSite } from "@/lib/content"
+import { publishedIndex } from "@/lib/queries"
 import { JsonLd, organizationSchema } from "@/lib/seo"
+
+const AffairesGallery = dynamic(() =>
+  import("@/components/AffairesGallery").then((m) => m.AffairesGallery)
+)
 
 const INTRO =
   "Derrière chaque affaire, une stratégie. Voici une sélection de dossiers traités par le cabinet — dans le respect du secret professionnel, pour éclairer nos méthodes et les décisions obtenues."
@@ -27,18 +27,15 @@ export default function NosAffairesPage() {
   const page = getContentPage("nos-affaires")
   const site = getSite()
 
-  const articles = listArticles()
-    .filter((a) => a.status === "published")
-    .map((a) => ({
-      slug: a.slug,
-      title: a.title,
-      excerpt: a.excerpt,
-      publishedAt: a.publishedAt,
-      categories: a.categories,
-      coverImage: a.coverImage,
-      minutesToRead: a.minutesToRead,
-      viewCount: a.viewCount,
-    }))
+  const articles = publishedIndex().map((a) => ({
+    slug: a.slug,
+    title: a.title,
+    excerpt: a.excerpt,
+    publishedAt: a.publishedAt,
+    categories: a.categories,
+    coverImage: a.coverImage,
+    minutesToRead: a.minutesToRead,
+  }))
 
   // Filtres = catégories réellement présentes sur les articles (labels exacts)
   const categoryOptions = Array.from(

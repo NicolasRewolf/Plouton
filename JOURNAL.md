@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Perf React (Vercel best practices)
+
+- Cache lecture articles / site / FAQ (moins de relectures disque)
+- Formulaire, FAQ, carrousel affaires : chargés après le hero (pages expertise)
+- Grille « Nos affaires » en lazy + `content-visibility` sur les cards
+- Sommaire expertise : scroll allégé (requestAnimationFrame)
+
 ## 2026-07-18 — Architecture : un seul cerveau contenu
 
 - **Queries** : articles publiés, FAQ, related — une seule boîte (`queries.ts`)
