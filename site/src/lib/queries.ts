@@ -2,12 +2,9 @@ import fs from "node:fs"
 import path from "node:path"
 import {
   contentRoot,
-  getArticle,
-  getCategories,
   getFaq,
   getExpertise,
-  listArticleIndex,
-  listArticles,
+  getCategories,
   type Article,
   type ArticleIndexItem,
   type Category,
@@ -15,15 +12,14 @@ import {
   type FaqItem,
 } from "@/lib/content"
 import { labelEquals, labelsOverlap } from "@/lib/category-match"
+import {
+  resolvePublishedArticle,
+  resolvePublishedIndex,
+} from "@/lib/posts-public"
 
-/** Full JSON articles — use sparingly (admin, body, ricos). Prefer publishedIndex. */
-export function publishedFull(): Article[] {
-  return listArticles().filter((a) => a.status === "published")
-}
-
-/** Light index — listings, related, médias, nos-affaires (server-perf). */
-export function publishedIndex(): ArticleIndexItem[] {
-  return listArticleIndex()
+/** Light index — listings, related, médias, nos-affaires (C5 : DB ∪ JSON). */
+export async function publishedIndex(): Promise<ArticleIndexItem[]> {
+  return resolvePublishedIndex()
 }
 
 /** Article matches a CMS category (id and/or label). */
@@ -45,8 +41,9 @@ export function articleMatchesLabels(
   return labelsOverlap(article.categories || [], labels)
 }
 
-export function articlesOfCategory(category: Category): ArticleIndexItem[] {
-  return publishedIndex().filter((a) => articleMatchesCategory(a, category))
+export async function articlesOfCategory(category: Category): Promise<ArticleIndexItem[]> {
+  const index = await publishedIndex()
+  return index.filter((a) => articleMatchesCategory(a, category))
 }
 
 export function findCategoryBySlug(slugParam: string): Category | null {
@@ -54,11 +51,12 @@ export function findCategoryBySlug(slugParam: string): Category | null {
   return getCategories().find((c) => c.slug.normalize("NFC") === target) ?? null
 }
 
-export function articlesMatchingLabels(
+export async function articlesMatchingLabels(
   labels: string[],
   opts: { limit?: number; excludeSlug?: string } = {}
-): ArticleIndexItem[] {
-  const list = publishedIndex().filter((a) => {
+): Promise<ArticleIndexItem[]> {
+  const index = await publishedIndex()
+  const list = index.filter((a) => {
     if (opts.excludeSlug && a.slug === opts.excludeSlug) return false
     return articleMatchesLabels(a, labels)
   })
@@ -66,21 +64,22 @@ export function articlesMatchingLabels(
 }
 
 /** Related for expertise pages — same blogCategories labels. */
-export function relatedForExpertise(
+export async function relatedForExpertise(
   expertise: ExpertisePage,
   limit = 16
-): ArticleIndexItem[] {
+): Promise<ArticleIndexItem[]> {
   return articlesMatchingLabels(expertise.blogCategories || [], { limit })
 }
 
 /**
  * Related for a post — same category first, then recent (Wix behaviour).
  */
-export function relatedForArticle(
+export async function relatedForArticle(
   article: Pick<Article, "slug" | "categories">,
   limit = 2
-): ArticleIndexItem[] {
-  const others = publishedIndex().filter((a) => a.slug !== article.slug)
+): Promise<ArticleIndexItem[]> {
+  const index = await publishedIndex()
+  const others = index.filter((a) => a.slug !== article.slug)
   const same = others.filter((a) =>
     a.categories.some((c) => article.categories.includes(c))
   )
@@ -88,8 +87,8 @@ export function relatedForArticle(
   return [...same, ...rest].slice(0, limit)
 }
 
-export function mediasArticles(fallbackLimit = 24): ArticleIndexItem[] {
-  const all = publishedIndex()
+export async function mediasArticles(fallbackLimit = 24): Promise<ArticleIndexItem[]> {
+  const all = await publishedIndex()
   const medias = all.filter((a) =>
     a.categories.some((c) => {
       const n = c.toLowerCase().normalize("NFC")
@@ -121,10 +120,9 @@ function withViews(
 }
 
 /** Résout une liste de slugs (ordre préservé) depuis l’index. */
-export function articlesBySlugs(slugs: string[]): ArticleIndexItem[] {
-  const bySlug = new Map(
-    publishedIndex().map((a) => [a.slug.normalize("NFC"), a])
-  )
+export async function articlesBySlugs(slugs: string[]): Promise<ArticleIndexItem[]> {
+  const index = await publishedIndex()
+  const bySlug = new Map(index.map((a) => [a.slug.normalize("NFC"), a]))
   const views = postViewCounts()
   const out: ArticleIndexItem[] = []
   for (const raw of slugs) {
@@ -135,12 +133,12 @@ export function articlesBySlugs(slugs: string[]): ArticleIndexItem[] {
 }
 
 /** Articles les plus vus, optionnellement filtrés par catégorie. */
-export function mostViewedArticles(opts: {
+export async function mostViewedArticles(opts: {
   limit: number
   categoryLabel?: string
-}): ArticleIndexItem[] {
+}): Promise<ArticleIndexItem[]> {
   const views = postViewCounts()
-  let list = publishedIndex().map((a) => withViews(a, views))
+  let list = (await publishedIndex()).map((a) => withViews(a, views))
   if (opts.categoryLabel)
     list = list.filter((a) => articleMatchesLabels(a, [opts.categoryLabel!]))
   list.sort((a, b) => (b.viewCount ?? 0) - (a.viewCount ?? 0))
@@ -169,8 +167,6 @@ export function requireExpertise(slug: string): ExpertisePage {
   return e
 }
 
-export function getPublishedArticle(slug: string): Article | null {
-  const a = getArticle(slug)
-  if (!a || a.status !== "published") return null
-  return a
+export async function getPublishedArticle(slug: string): Promise<Article | null> {
+  return resolvePublishedArticle(slug)
 }

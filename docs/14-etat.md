@@ -1,6 +1,6 @@
 # État d'avancement — Plouton
 
-_Mis à jour : 2026-07-18 (soir — clean pré-C5)_
+_Mis à jour : 2026-07-18 (C5 en cours — `feat/canalisations-c5`)_
 
 Vue unique de « où on en est ». À relire en premier, mettre à jour à chaque grande étape.
 Détail des livraisons dans [`../JOURNAL.md`](../JOURNAL.md).
@@ -14,8 +14,19 @@ UI canonique : [`16-composants-ui.md`](16-composants-ui.md).
 
 - **Arrêt** de la priorité « copie fidèle / pixel-perfect » Wix.
 - UI polie **au fil de l’eau** (Nicolas + Cursor) — canon `AffaireCard` + `SiteCta`.
-- **Priorité absolue** : canalisations **contenu ↔ CMS / Supabase** → **next = C5**.
+- **Priorité absolue** : canalisations **contenu ↔ CMS / Supabase** → **C5 en cours**.
 - Header figé ; Footer ✅ mergé (PR #6) ; Phases 4–6 pixel **EN PAUSE**.
+
+---
+
+## 📋 Plan C5 (figé)
+
+1. Lecture publique **serveur** via `SUPABASE_SECRET_KEY` (`status = published`) — **pas** de RLS anon en V1.
+2. Si pas de ligne DB → **fallback JSON** git (dual-run sûr).
+3. Corps : si l’article DB a un corps **édité** (différent du JSON seed) → `bodyHtml` / `body` ; sinon **Ricos** fichier git (les 422 restent fidèles).
+4. Au publish → `revalidatePath` / `revalidateTag` (article, listes, sitemap).
+5. Admin liste = **DB** (publiés + brouillons).
+6. Covers Storage = **C5.1** (reporté) si pas branché dans cette PR.
 
 ---
 
@@ -39,7 +50,7 @@ UI canonique : [`16-composants-ui.md`](16-composants-ui.md).
 - Backoffice **blog** + **demandes** dans `site/src/app/admin/` (magic link)
 - **Médias** + **hub Ressources** + uniformité UI (PR #9–#11)
 
-## ✅ Fait — canalisations C0–C4
+## ✅ Fait — canalisations C0–C5
 
 | Phase | Statut | Quoi |
 |-------|--------|------|
@@ -47,13 +58,15 @@ UI canonique : [`16-composants-ui.md`](16-composants-ui.md).
 | **C1** | ✅ | PJ → bucket `pieces-jointes` |
 | **C2** | ✅ | Magic link + `/admin/demandes` |
 | **C3** | ✅ | Resend + import CSV Wix (~752 Archivé) |
-| **C4** | ✅ MVP | Table `posts` + seed **422** + `saveArticle` DB · dual-run public JSON |
+| **C4** | ✅ MVP | Table `posts` + seed **422** + `saveArticle` DB |
+| **C5** | 🔄 PR | Public lit DB (secret) + revalidate · covers = **C5.1** |
 
-## 🔧 Dual-run C4 (important)
+## 🔧 Dual-run C5
 
-- **Site public** (`/post/...`, `/blog`) = encore **JSON git**
-- **Admin** = lit DB en priorité, **écrit** en DB (brouillon sans redeploy)
-- Bascule lecture publique = **C5**
+- **Site public** = DB `published` en priorité, **fallback JSON** si row absente
+- **Corps** = Ricos git tant que le corps DB = seed ; sinon `bodyHtml` / `body`
+- **Admin** = liste DB (publiés + brouillons) · publish → revalidate
+- **Pas** de RLS anon (lecture via `SUPABASE_SECRET_KEY` serveur)
 
 ## ⚠ Réalité pages publiques (hors articles)
 
@@ -62,9 +75,9 @@ UI canonique : [`16-composants-ui.md`](16-composants-ui.md).
 Trous majeurs encore ouverts :
 1. **Simulateurs divorce** + **recherche** = morts / non branchés
 2. Polish UI « site fini » encore loin (pixel en pause)
-3. **C5** publish live pas là (public = encore JSON git)
+3. **C5.1** covers Storage (images articles) pas encore branché
 
-Gagné : 15 expertises, 3 hubs pôles, 422 posts, formulaires/admin, légales, Header figé, Footer, **Médias** + **hub Ressources**, uniformité cartes/CTA.
+Gagné : 15 expertises, 3 hubs pôles, 422 posts, formulaires/admin, légales, Header figé, Footer, **Médias** + **hub Ressources**, uniformité cartes/CTA, **publish live C5**.
 
 ## 🔜 Backlog site public (ordre logique — soir 18/07)
 
@@ -75,7 +88,8 @@ Gagné : 15 expertises, 3 hubs pôles, 422 posts, formulaires/admin, légales, H
 | 3 | **3 hubs pôles** | ✅ |
 | 4 | Expertise **Défense des élus** + menu | ✅ |
 | 5 | **Redirects** blog | ✅ |
-| 6 | **C5** — **priorité critique** : site public lit Supabase + publish + covers | à faire (gros) |
+| 6 | **C5** — site public lit Supabase + publish live | 🔄 PR |
+| 6b | **C5.1** — covers / bucket `medias` | à faire |
 | 7 | Recherche + simulateurs divorce (ou paliers) | plus tard |
 | 8 | Polish UI (accueil, listes, vernis) | au fil de l’eau |
 
@@ -83,7 +97,8 @@ Gagné : 15 expertises, 3 hubs pôles, 422 posts, formulaires/admin, légales, H
 
 1. **Supabase Auth → URL Configuration** (si pas déjà fait)
 2. **Resend** : `RESEND_API_KEY` sur Vercel
-3. Smoke test : login admin → éditer un article → vérifier statut en DB
+3. Smoke test C5 : admin → éditer + publier → page `/post/...` à jour **sans** redeploy
+4. Vérifier seed **422** toujours en base (sinon `python3 scripts/seed-posts.py`)
 
 ## 🙋 Ce qui dépend de Nicolas
 

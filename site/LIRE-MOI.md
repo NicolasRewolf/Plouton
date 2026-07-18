@@ -8,14 +8,16 @@ npm run dev
 # → http://127.0.0.1:3000
 ```
 
-## Contenu (dual-run C4)
+## Contenu (C5)
 
 | Surface | Source |
 |---------|--------|
-| **Public** (`/post/...`, `/blog`, expertises…) | Encore **JSON** `../contenu/` via `content.ts` / `queries.ts` |
+| **Public** (`/post/...`, `/blog`…) | **Supabase** `posts` (clé secrète serveur) → fallback **JSON** `../contenu/` |
+| **Corps article** | Ricos git si non réécrit ; sinon `bodyHtml` / `body` DB |
 | **Admin** (`/admin`) | Lit/écrit **Supabase** (`posts`, `demandes`) — magic link |
+| **Publish** | `revalidateTag('posts')` + chemins → visible sans redeploy |
 
-Bascule lecture publique = **C5**. Détail : `docs/14-etat.md`.
+Covers Storage = **C5.1**. Détail : `docs/14-etat.md` · `docs/05-decisions.md`.
 
 ## Code
 
@@ -24,7 +26,7 @@ src/
 ├── app/           ← routes (pages) + admin/
 ├── components/    ← UI (AffaireCard, SiteCta, …)
 ├── fonts/         ← Google Sans / Source Sans + Wix
-└── lib/           ← content, queries, seo, store, supabase
+└── lib/           ← content, queries, posts-db, posts-public, store, supabase
 ```
 
 ## Admin réel

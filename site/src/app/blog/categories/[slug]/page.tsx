@@ -39,7 +39,7 @@ export default async function CategoryPage({
   const category = findCategory(slug)
   if (!category) notFound()
   const site = getSite()
-  const articles = articlesOfCategory(category)
+  const articles = await articlesOfCategory(category)
   const url = `${site.url}/blog/categories/${category.slug}`
 
   return (

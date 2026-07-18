@@ -12,8 +12,9 @@ export const metadata: Metadata = {
     "Toutes les actualités, affaires et ressources juridiques du Cabinet Plouton — avocats pénalistes à Bordeaux.",
 }
 
-export default function BlogPage() {
+export default async function BlogPage() {
   const site = getSite()
+  const articles = await publishedFull()
   return (
     <>
       <Header variant="site" />
@@ -30,7 +31,7 @@ export default function BlogPage() {
           },
         ]}
       />
-      <BlogListing articles={publishedFull()} page={1} basePath="/blog" />
+      <BlogListing articles={articles} page={1} basePath="/blog" />
       <Footer />
     </>
   )

@@ -2,12 +2,17 @@ import fs from "node:fs"
 import path from "node:path"
 import { createClient } from "@supabase/supabase-js"
 import { contentRoot, saveArticle, type Article } from "@/lib/content"
+import {
+  articleToPostRow,
+  postRowToArticle,
+  type PostRow,
+} from "@/lib/posts-db"
 
 /**
  * Couche d'écriture — Supabase (demandes + posts) ou FsStore en local.
  *
- * C4 : `saveArticle` écrit dans `public.posts`. Le site public lit encore
- * `contenu/articles/` (JSON git) jusqu'à C5 (publish live / ISR).
+ * C5 : `saveArticle` écrit dans `public.posts`. Le site public lit la DB
+ * (secret key) avec fallback JSON — voir `posts-public.ts`.
  *
  * Sur Vercel, FsStore refuse d'écrire (filesystem éphémère).
  */
@@ -131,7 +136,6 @@ class SupabaseStore implements ContentStore {
   }
 
   async saveArticle(article: Article): Promise<void> {
-    // C4 : écriture DB. Le site public lit encore le JSON git (dual-run / C5).
     const row = articleToPostRow(article)
     const { error } = await this.client()
       .from("posts")
@@ -149,85 +153,6 @@ class SupabaseStore implements ContentStore {
     if (error) throw new Error(`Supabase posts: ${error.message}`)
     if (!data) return null
     return postRowToArticle(data as PostRow)
-  }
-}
-
-/** Ligne `public.posts` (snake_case PostgREST). */
-interface PostRow {
-  slug: string
-  title: string
-  excerpt: string
-  published_at: string | null
-  updated_at: string | null
-  status: "draft" | "published"
-  author: string
-  author_id: string | null
-  categories: string[] | null
-  tags: string[] | null
-  category_ids: string[] | null
-  cover_image: string | null
-  minutes_to_read: number | null
-  view_count: number | null
-  url: string | null
-  wix_id: string | null
-  meta_title: string | null
-  meta_description: string | null
-  body_html: string | null
-  body: unknown
-}
-
-function articleToPostRow(article: Article) {
-  return {
-    slug: article.slug,
-    title: article.title,
-    excerpt: article.excerpt || "",
-    published_at: article.publishedAt?.slice(0, 10) || null,
-    updated_at: article.updatedAt?.slice(0, 10) || null,
-    status: article.status === "published" ? "published" : "draft",
-    author: article.author || "",
-    author_id: article.authorId ?? null,
-    categories: article.categories || [],
-    tags: article.tags || [],
-    category_ids: article.categoryIds || [],
-    cover_image: article.coverImage ?? null,
-    minutes_to_read: article.minutesToRead ?? null,
-    view_count: article.viewCount ?? 0,
-    url: article.url || `/post/${article.slug}`,
-    wix_id: article.wixId ?? null,
-    meta_title: article.metaTitle ?? null,
-    meta_description: article.metaDescription ?? null,
-    body_html: article.bodyHtml ?? null,
-    body: article.body?.length ? article.body : ["Contenu à rédiger."],
-  }
-}
-
-function postRowToArticle(row: PostRow): Article {
-  const body = Array.isArray(row.body)
-    ? (row.body as string[]).map(String)
-    : typeof row.body === "string"
-      ? [row.body]
-      : []
-  return {
-    slug: row.slug,
-    title: row.title,
-    excerpt: row.excerpt || "",
-    publishedAt: row.published_at || new Date().toISOString().slice(0, 10),
-    updatedAt: row.updated_at || undefined,
-    status: row.status === "published" ? "published" : "draft",
-    author: row.author || "",
-    authorId: row.author_id || undefined,
-    categories: row.categories || [],
-    tags: row.tags || undefined,
-    categoryIds: row.category_ids || undefined,
-    coverImage: row.cover_image,
-    minutesToRead: row.minutes_to_read,
-    viewCount: row.view_count ?? undefined,
-    url: row.url || `/post/${row.slug}`,
-    wixId: row.wix_id || undefined,
-    metaTitle: row.meta_title || undefined,
-    metaDescription: row.meta_description || undefined,
-    bodyHtml: row.body_html || undefined,
-    body: body.length ? body : ["Contenu à rédiger."],
   }
 }
 

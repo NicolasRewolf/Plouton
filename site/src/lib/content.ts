@@ -449,5 +449,6 @@ export function getAccueil() {
 }
 
 export function publishedArticles(): ArticleIndexItem[] {
+  // Sync JSON only — listings publics C5 = `publishedIndex()` (async, DB ∪ JSON).
   return listArticleIndex()
 }

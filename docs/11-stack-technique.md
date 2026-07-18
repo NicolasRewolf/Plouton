@@ -12,8 +12,9 @@ Où vit quoi. Pour Nicolas + pour l’IA.
 - **Supabase** : projet `Plouton` (ref `iofhcxwgqvorpmaexjwb`), tables `demandes` + `posts`
   (RLS), buckets `pieces-jointes` / `medias`. Forfait actuel = **Free** →
   passer en **Pro** avant la prod réelle (pas de pause, backups, 100 Go fichiers).
-- Contenu **public** = encore **JSON dans `contenu/`** (dual-run C4) ; admin blog écrit dans `posts`.
-  Lecture publique DB = **C5**.
+- Contenu **public** = **Supabase `posts`** (C5, secret key serveur) + fallback JSON git.
+  Publish admin → `revalidateTag` / `revalidatePath` (pas de redeploy).
+  Covers Storage = **C5.1**.
 - Vue complète : [`14-etat.md`](14-etat.md) · passation : [`PASSATION-2026-07-18.md`](PASSATION-2026-07-18.md).
 
 ---
