@@ -1,6 +1,6 @@
 # État d'avancement — Plouton
 
-_Mis à jour : 2026-07-18 (matin — pivot)_
+_Mis à jour : 2026-07-18 (midi — canalisations C0–C3)_
 
 Vue unique de « où on en est ». À relire en premier, mettre à jour à chaque grande étape.
 Détail des livraisons dans [`../JOURNAL.md`](../JOURNAL.md).
@@ -14,7 +14,7 @@ Audit santé : [`15-audit-sante.md`](15-audit-sante.md).
 - **Arrêt** de la priorité « copie fidèle / pixel-perfect » Wix.
 - UI polie **au fil de l’eau** (Nicolas + Cursor).
 - **Priorité absolue** : canalisations **contenu ↔ CMS / Supabase**.
-- Fable : stop Phase 4–5 pixel ; Footer branche = en attente OK ; Header figé ; expertises hors pixel.
+- Header figé ; Phases 4–6 pixel en pause.
 
 ---
 
@@ -24,10 +24,10 @@ Audit santé : [`15-audit-sante.md`](15-audit-sante.md).
   URL : <https://plouton-rewolf-s-projects.vercel.app>
   🔒 Protégé par **login Vercel + `noindex`** → invisible pour le public et Google.
   C'est **voulu** tant que le vrai domaine n'est pas branché.
-- **Base Supabase** (projet `Plouton`) — table **`demandes`** créée (RLS + index).
-  Buckets `pieces-jointes` (privé) + `medias` (public).
+- **Base Supabase** (projet `Plouton`) — table **`demandes`** + buckets + auth avocats (branche canalisations).
 - **Clés Supabase** sur Vercel (Production + Preview).
 - **Déploiement auto** : push / merge `main` → redéploie.
+- **PR canalisations** : <https://github.com/NicolasRewolf/Plouton/pull/7> (C0–C3)
 
 ## ✅ Fait — contenu & site (socle)
 
@@ -35,47 +35,43 @@ Audit santé : [`15-audit-sante.md`](15-audit-sante.md).
 - **14 pages expertises** (3 pôles) + pages cabinet
 - `/blog` + catégories ; **161 redirections 301** ; médias rapatriés
 - Gabarit article `/post/{slug}` (Ricos) + SEO titres/metas live
-- Backoffice **blog** en POC (`/admin`)
+- Backoffice **blog** en POC (`/admin`) — Demandes = boîte réelle (C2)
 
-## ✅ Fait — session 2026-07-18 (UX + archi + perf) sur `main`
+## ✅ Fait — canalisations C0–C3 (branche `claude/canalisations-c0`)
 
-- Formulaire RDV refait + **intake validé côté serveur**
-- Expertises : hero, TOC, corps mis en page, liens internes, **13/14 illustrations** (manque Divorce)
-- Accueil : photo équipe + section expertises (flèches)
-- Header méga-menu (**frozen** 2026-07-18) ; Nos affaires éditorial ; FAQ + carrousel
-- **Registry pôles** + loader expertise + queries unifiées
-- **Perf** : index léger, cache, lazy below-fold
-- Script `check-expertises-live.py`
-- Passation agents : [`PASSATION-2026-07-18.md`](PASSATION-2026-07-18.md)
+| Phase | Statut | Quoi |
+|-------|--------|------|
+| **C0** | ✅ | Formulaire → `demandes` (env alignés) |
+| **C1** | ✅ | PJ multipart → bucket `pieces-jointes` |
+| **C2** | ✅ | Magic link + `/admin/demandes` (liste/détail/statut/notes/PJ) |
+| **C3a** | ✅ code | Resend → `accueil@…` (clé à poser sur Vercel) |
+| **C3b** | ✅ | Import CSV Wix **752** rows (statut `Archivé`, notes `Import Wix C3`) |
 
-## ⏸ Chantier Fable « copie fidèle » — en pause
+## ✅ Fait — session UX / archi sur `main`
 
-- Phases **0–3** déjà dans `main` (socle conservé : polices, Ricos, harvest)
-- Phase 4–5 pixel / `diff.mjs` / templates Wix : **plus prioritaires**
-- Footer déjà poussé sur branche Fable : **laisser en attente**
-- **Header frozen** : vérité produit sur `main` ; Fable ne le retouche pas
-- Expertises : hors pixel (déjà noté)
+- Formulaire RDV + intake serveur · expertises · Header **frozen** · pages légales · liens pointillés · CTA mix X
+- Registry pôles · perf · passation
 
-## 🔧 Câblé, à finir de valider
+## ⏸ Chantier « copie fidèle » — en pause
 
-- **Demandes** : table + code + buckets — **0 row prouvée** en prod (E2E à faire = C0)
-- Contenu public = **100 % JSON git** (pas de tables `posts` / FAQ / expertises)
-- PJ formulaire : noms seulement — bucket **vide**
-- Email `accueil@…` : **pas branché** · Auth admin : **absente**
+- Phases **0–3** dans `main` (garder) · Phase 4–6 pixel : pause · Header frozen
 
-## 🔜 Canalisations C0–C5 (priorité)
+## 🔧 À brancher côté Nicolas (2 min)
 
-1. **C0** — 1 `demande` réelle en Preview/Prod (env alignés, pas de 503)
-2. **C1** — Upload PJ → bucket `pieces-jointes` + `fichiers[]`
-3. **C2** — Auth + UI boîte Demandes (statuts, notes, candidatures)
-4. **C3** — Mail alerte + import CSV historique (hors git)
-5. **C4** — Table `posts` + seed 422 slugs + écriture admin DB
-6. **C5** — Publish live sans commit + covers Storage
-7. Polish UI au fil de l’eau · Divorce · cutover (après canalisations)
+1. **Supabase Auth → URL Configuration** : Site URL + Redirect URLs (Preview + `localhost:3000`)
+2. **Vercel** : `NEXT_PUBLIC_SITE_ORIGIN` (URL Preview/prod, sans slash final)
+3. **Resend** : créer clé → `RESEND_API_KEY` sur Vercel (+ optionnel `RESEND_FROM` une fois le domaine branché)
+4. **Merger la PR #7**
+
+## 🔜 Suite canalisations
+
+5. **C4** — Table `posts` + seed 422 slugs + écriture admin DB  
+6. **C5** — Publish live sans commit + covers Storage  
+7. Polish UI · Divorce · cutover
 
 ## 🙋 Ce qui dépend de Nicolas
 
-- Direction / validation des canalisations contenu ↔ Supabase
+- Actions dashboard ci-dessus + merge PR
 - Illustration Divorce (si dispo)
 - Forfaits **Pro** Vercel + Supabase avant cutover
 - Feu vert Nomad / Cooked pour le jour J

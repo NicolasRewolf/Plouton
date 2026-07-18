@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server"
 import { intakeDemande } from "@/lib/demande-intake"
+import { notifyNouvelleDemande } from "@/lib/notify-demande"
 import { getStore } from "@/lib/store"
 
 export const runtime = "nodejs"
@@ -78,6 +79,11 @@ export async function POST(req: Request) {
       { status: 503 }
     )
   }
+
+  // Mail alerte : best-effort — ne bloque jamais la réponse OK.
+  void notifyNouvelleDemande(id, intake.data).catch((e) =>
+    console.error("notifyNouvelleDemande unhandled:", e)
+  )
 
   // La demande est enregistrée : un échec d'upload ne doit jamais la perdre.
   if (files.length) {
