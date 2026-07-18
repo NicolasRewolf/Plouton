@@ -1,8 +1,8 @@
 import type { Metadata } from "next"
 import Image from "next/image"
-import Link from "next/link"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
+import { SiteCta } from "@/components/SiteCta"
 import { getEquipe, getSite, readPageJson } from "@/lib/content"
 import { JsonLd, organizationSchema } from "@/lib/seo"
 
@@ -70,12 +70,9 @@ export default function NotreCabinetPage() {
                     {p.trim()}
                   </p>
                 ))}
-              <Link href="/honoraires-rendez-vous" className="btn-pill btn-pill-primary mt-6">
+              <SiteCta href="/honoraires-rendez-vous" variant="primary" arrow className="mt-6">
                 Je prends rendez-vous
-                <span className="btn-pill-icon" aria-hidden>
-                  →
-                </span>
-              </Link>
+              </SiteCta>
             </div>
             <div className="relative hidden min-h-[320px] lg:block">
               {equipe[0]?.image ? (

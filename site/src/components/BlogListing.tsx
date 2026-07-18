@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { PostCard } from "@/components/PostCard"
+import { AffaireCard } from "@/components/AffaireCard"
 import { getCategories, type ArticleIndexItem } from "@/lib/content"
 
 const PER_PAGE = 24
@@ -62,7 +62,7 @@ export function BlogListing({
 
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((a) => (
-            <PostCard key={a.slug} article={a} />
+            <AffaireCard key={a.slug} article={a} titleAs="h3" />
           ))}
         </div>
 

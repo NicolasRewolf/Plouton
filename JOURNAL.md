@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Uniformité UI (cartes + boutons)
+
+- **Même carte** partout pour les articles (blog, ressources, posts similaires…)
+- **Même style de bouton** (CTA) : accueil, sticky, footer, équipe
+- Règles écrites pour les agents — plus de boutons inventés page par page
+- Exceptions : menu Contact (Header figé), formulaires, admin
+
 ## 2026-07-18 — Hubs pôles + Défense des élus + redirects
 
 - Les **3 portes d’entrée** des pôles marchent (plus de page blanche)

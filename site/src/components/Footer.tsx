@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { SiteCta } from "@/components/SiteCta"
 import { getSite } from "@/lib/content"
 import { megaPolesFromRegistry } from "@/lib/registry"
 import type { NavLink } from "@/lib/nav-types"
@@ -85,13 +86,7 @@ export function Footer() {
   const defense = poles.find((p) => p.id === "defense")
   const victimes = poles.find((p) => p.id === "victimes") ?? poles[1]
   const contrats = poles.find((p) => p.id === "contrats") ?? poles[2]
-  // Structure live : <a> pilule (h44, border corail, radius full) contenant un
-  // <p> interne 16px corail. Le conteneur <a> live garde les styles texte par
-  // défaut du navigateur (Arial 10px noir — wixui-button sans texte direct) :
-  // on les mime pour l'appariement, ils sont invisibles.
-  const pill =
-    "inline-flex items-center rounded-full border border-accent px-[10px] py-[10px] text-[10px] leading-[normal] text-black [font-family:Arial,Helvetica,sans-serif] hover:bg-accent"
-  const pillText = "font-sans text-[16px] leading-[normal] text-accent"
+  // Pilules téléphone / RDV → SiteCta (uniformité UI > pixel Wix — deviations.json)
   return (
     <footer className="mt-auto bg-[var(--wix-color-16)]">
       <div className="px-3 pt-20 pb-12 md:px-12">
@@ -112,13 +107,13 @@ export function Footer() {
             {site.address.street}, {site.address.postalCode} {site.address.city}
           </a>
         </p>
-        <div className="mt-[25px] flex flex-wrap gap-6 md:mt-12">
-          <a href={site.phone.href} className={pill}>
-            <p className={pillText}>{site.phone.display}</p>
-          </a>
-          <Link href="/honoraires-rendez-vous" className={pill}>
-            <p className={pillText}>Contact &amp; RDV</p>
-          </Link>
+        <div className="mt-[25px] flex flex-wrap gap-3 md:mt-12">
+          <SiteCta href={site.phone.href} variant="primary">
+            {site.phone.display}
+          </SiteCta>
+          <SiteCta href="/honoraires-rendez-vous" variant="secondary" arrow>
+            Contact &amp; RDV
+          </SiteCta>
         </div>
 
         <div className="mt-[448px] grid grid-cols-1 gap-y-[65px] md:mt-[595px] md:[grid-template-columns:341fr_331fr] lg:mt-[200px] lg:[grid-template-columns:290fr_305fr_278fr_471fr]">

@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
+import { SiteCta } from "@/components/SiteCta"
 import { getAccueil, getEquipe, getSite, publishedArticles } from "@/lib/content"
 import { JsonLd, organizationSchema } from "@/lib/seo"
 
@@ -67,16 +68,14 @@ export default function HomePage() {
 
             <div className="mt-7 flex flex-wrap gap-3">
               {page.hero.ctas.map((cta, i) => (
-                <Link
+                <SiteCta
                   key={cta.label}
                   href={cta.href}
-                  className={`btn-pill ${i === 0 ? "btn-pill-primary" : ""}`}
+                  variant={i === 0 ? "primary" : "secondary"}
+                  arrow
                 >
                   {cta.label}
-                  <span className="btn-pill-icon" aria-hidden>
-                    →
-                  </span>
-                </Link>
+                </SiteCta>
               ))}
             </div>
           </div>

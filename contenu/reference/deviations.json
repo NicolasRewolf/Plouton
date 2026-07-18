@@ -86,9 +86,19 @@
     "anchor": "page:/comprendre-le-droit",
     "property": "layout+content-source",
     "live": "hub Wix client-rendered (widgets blog thématiques + plus consultés)",
-    "ours": "RessourcesHub : hero + plus consultés (viewCount) + sections JSON à slugs hardcodés + PostCard",
+    "ours": "RessourcesHub : hero + plus consultés (viewCount) + sections JSON à slugs hardcodés + AffaireCard",
     "reason": "Tags Wix = UUID sans libellés dans le produit ; hub data-driven plutôt que widgets Wix. Pas de liste texte stub.",
-    "skill": "économie de code (PostCard + JSON)"
+    "skill": "économie de code (AffaireCard + JSON)"
+  },
+  {
+    "id": "footer-cta-btn-pill-uniformity",
+    "page": "*",
+    "anchor": "component:Footer/cta-pills",
+    "property": "cta-style",
+    "live": "pilules corail border radius-full (h44, texte 16px corail)",
+    "ours": "SiteCta / btn-pill (mix X) — téléphone + Contact & RDV",
+    "reason": "Demande Nicolas 2026-07-18 : uniformité UI dure > pixel Wix footer sur les CTA.",
+    "skill": "SiteCta + btn-pill"
   },
   {
     "id": "medias-category-canonical",
