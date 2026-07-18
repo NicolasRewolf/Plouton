@@ -77,7 +77,8 @@ Nav secondaire **Affaires / Médias / Ressources** = **vues filtrées du blog**,
 | Homepage | Fil d’actu + cartes “dernières affaires” |
 | `/nos-affaires` | Liste + **filtres catégories** + tri (+ consultées / + récents) |
 | `/blog/categories/{slug}` | Liste d’une catégorie |
-| Nav Médias / Ressources | Catégories `médias` / `ressources-et-notions-juridiques` |
+| Nav Médias | Catégorie `médias` → `/blog/categories/médias` (`BlogListing`) |
+| Nav Ressources | Hub éditorial `/comprendre-le-droit` (`RessourcesHub` + JSON sections) |
 | Page expertise | Articles liés (même thème / catégorie) |
 | Page post | Corps + tags + related posts |
 
@@ -171,7 +172,17 @@ Pas de page React unique par URL au-delà de la route fine.
 ### Gabarit `BlogListing`
 
 Props : `categories[]`, `title`, `tri`, `exclude?`  
-Sert : nos-affaires, catégories, médias, ressources, comprendre-le-droit si réactivé.
+Sert : catégories blog, (anciennement stub médias).
+
+### Gabarit `RessourcesHub` (cabinet)
+
+Page `/comprendre-le-droit` — **pas** un listing blog plat.
+
+- Données : `contenu/pages/comprendre-le-droit.json` (intro + sections + slugs)
+- UI : `RessourcesHub` + `PostCard`
+- « Articles les plus consultés » = tri `viewCount` (`stats-posts.json`), filtre catégorie Ressources
+- Sections thématiques = **slugs hardcodés** (les Tags Wix dans `Posts.csv` ne sont que des UUID, pas de libellés dans le produit)
+- Nav **Médias** → `/blog/categories/médias` (grille `BlogListing`) ; `/medias` = redirect 301
 
 ### Shell global
 

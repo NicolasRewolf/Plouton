@@ -74,6 +74,34 @@ export interface ArticleIndexItem {
   coverImage?: string | null
   minutesToRead?: number | null
   url?: string
+  viewCount?: number
+}
+
+/** Hub éditorial `/comprendre-le-droit` — données dans contenu/pages/. */
+export interface RessourcesHubSection {
+  id: string
+  title: string
+  description?: string
+  slugs: string[]
+  seeAllHref?: string
+  seeAllLabel?: string
+}
+
+export interface RessourcesHubContent {
+  slug: string
+  path?: string
+  title: string
+  h1?: string
+  metaTitle?: string
+  metaDescription?: string
+  intro: string
+  tagsNote?: string
+  mostConsulted: {
+    title: string
+    limit: number
+    categoryLabel?: string
+  }
+  sections: RessourcesHubSection[]
 }
 
 export interface Category {

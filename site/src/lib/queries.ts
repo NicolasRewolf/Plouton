@@ -1,4 +1,7 @@
+import fs from "node:fs"
+import path from "node:path"
 import {
+  contentRoot,
   getArticle,
   getCategories,
   getFaq,
@@ -94,6 +97,54 @@ export function mediasArticles(fallbackLimit = 24): ArticleIndexItem[] {
     })
   )
   return medias.length ? medias : all.slice(0, fallbackLimit)
+}
+
+/** Vues Wix (stats-posts.json) — pour hubs / tri « plus consultés ». */
+function postViewCounts(): Record<string, number> {
+  try {
+    const raw = JSON.parse(
+      fs.readFileSync(path.join(contentRoot, "stats-posts.json"), "utf8")
+    ) as Record<string, { views?: number }>
+    const out: Record<string, number> = {}
+    for (const [slug, s] of Object.entries(raw)) out[slug] = s.views ?? 0
+    return out
+  } catch {
+    return {}
+  }
+}
+
+function withViews(
+  item: ArticleIndexItem,
+  views: Record<string, number>
+): ArticleIndexItem {
+  return { ...item, viewCount: views[item.slug] ?? item.viewCount ?? 0 }
+}
+
+/** Résout une liste de slugs (ordre préservé) depuis l’index. */
+export function articlesBySlugs(slugs: string[]): ArticleIndexItem[] {
+  const bySlug = new Map(
+    publishedIndex().map((a) => [a.slug.normalize("NFC"), a])
+  )
+  const views = postViewCounts()
+  const out: ArticleIndexItem[] = []
+  for (const raw of slugs) {
+    const hit = bySlug.get(raw.normalize("NFC"))
+    if (hit) out.push(withViews(hit, views))
+  }
+  return out
+}
+
+/** Articles les plus vus, optionnellement filtrés par catégorie. */
+export function mostViewedArticles(opts: {
+  limit: number
+  categoryLabel?: string
+}): ArticleIndexItem[] {
+  const views = postViewCounts()
+  let list = publishedIndex().map((a) => withViews(a, views))
+  if (opts.categoryLabel)
+    list = list.filter((a) => articleMatchesLabels(a, [opts.categoryLabel!]))
+  list.sort((a, b) => (b.viewCount ?? 0) - (a.viewCount ?? 0))
+  return list.slice(0, opts.limit)
 }
 
 /**

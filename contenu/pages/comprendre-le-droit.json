@@ -1,11 +1,83 @@
 {
   "slug": "comprendre-le-droit",
   "path": "/comprendre-le-droit",
-  "title": "",
-  "metaTitle": "",
-  "metaDescription": "",
-  "intro": "",
-  "sections": [],
-  "fullText": "",
-  "scrapeNote": "Page mostly client-rendered in static HTML; no <main> content in curl response."
+  "title": "Ressources",
+  "h1": "Comprendre le droit",
+  "metaTitle": "Ressources — Comprendre le droit | Cabinet Plouton",
+  "metaDescription": "Le droit expliqué clairement par le Cabinet Plouton. Guides et notions juridiques : procédure pénale, victimes, famille, affaires.",
+  "intro": "Le droit expliqué clairement, par des avocats. Articles pour comprendre vos droits, quelle que soit votre situation.",
+  "tagsNote": "Dans Posts.csv, le champ Tags ne contient que des UUID Wix (pas de libellés utilisables). Les sections ci-dessous listent des slugs d’articles hardcodés. Tri « plus consultés » = viewCount (stats Wix / articles JSON).",
+  "mostConsulted": {
+    "title": "Articles les plus consultés",
+    "limit": 6,
+    "categoryLabel": "Ressources et notions juridiques"
+  },
+  "sections": [
+    {
+      "id": "procedure-penale",
+      "title": "Procédure pénale",
+      "description": "Garde à vue, statuts de la personne mise en cause, peines et aménagements — les bases pour s’orienter.",
+      "slugs": [
+        "durée-de-la-garde-à-vue-24h-48h-96h-combien-de-temps-maximum",
+        "mis-en-cause-temoin-assiste-prevenu-accuse-differences",
+        "garde-à-vue-ou-audition-libre-différences-essentielles-à-connaître",
+        "qu-est-ce-qu-une-période-de-sureté",
+        "l-aménagement-de-peine-comment-peut-il-s-appliquer",
+        "casier-judiciaire-comprendre-et-effacer"
+      ],
+      "seeAllHref": "/blog/categories/ressources-et-notions-juridiques",
+      "seeAllLabel": "Toutes les ressources"
+    },
+    {
+      "id": "victimes-indemnisation",
+      "title": "Victimes & indemnisation",
+      "description": "CIVI, ITT, loi Badinter, accidents : comment obtenir réparation.",
+      "slugs": [
+        "indemnisation-civi-2025-guide-complet-pour-les-victimes-d-infractions",
+        "itt-pénale-définition-en-2025",
+        "sarvi-comment-récupérer-vos-dommages-et-intérêts-après-une-condamnation-pénale",
+        "loi-badinter-85-comprendre-vos-droits-à-indemnisation-après-un-accident-de-la-route",
+        "accident-du-travail-comment-obtenir-votre-indemnisation",
+        "piéton-renversé-quel-est-le-montant-de-l-indemnisation"
+      ],
+      "seeAllHref": "/blog/categories/ressources-et-notions-juridiques",
+      "seeAllLabel": "Toutes les ressources"
+    },
+    {
+      "id": "famille-violences",
+      "title": "Famille & violences",
+      "description": "Ordonnance de protection, contrôle coercitif, dispositifs d’éloignement.",
+      "slugs": [
+        "contrôle-coercitif-reconnaître-agir",
+        "demander-une-ordonnance-de-protection-en-2025",
+        "qu-est-ce-que-le-bracelet-anti-rapprochement"
+      ],
+      "seeAllHref": "/blog/categories/violences-conjugales-féminicides",
+      "seeAllLabel": "Violences conjugales"
+    },
+    {
+      "id": "affaires-entreprise",
+      "title": "Affaires & entreprise",
+      "description": "Abus de confiance, bail commercial, responsabilité du dirigeant.",
+      "slugs": [
+        "l-abus-de-confiance-en-droit-français-ce-que-vous-devez-savoir-en-2025",
+        "bail-commercial-la-révision-du-loyer-comment-est-ce-que-cela-fonctionne",
+        "abandon-de-poste-quels-risques",
+        "comprendre-et-prévenir-la-responsabilité-pénale-du-dirigeant"
+      ],
+      "seeAllHref": "/blog/categories/droit-pénal-des-affaires",
+      "seeAllLabel": "Droit pénal des affaires"
+    },
+    {
+      "id": "assurances",
+      "title": "Assurances & sinistres",
+      "description": "Quand l’assureur demande des preuves ou refuse d’indemniser.",
+      "slugs": [
+        "sinistre-automobile-mon-assurance-de-véhicule-me-réclame-la-preuve-achat",
+        "sinistre-habitation-recours-assurance"
+      ],
+      "seeAllHref": "/blog/categories/droit-des-assurances",
+      "seeAllLabel": "Droit des assurances"
+    }
+  ]
 }

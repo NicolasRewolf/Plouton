@@ -1,6 +1,6 @@
 # État d'avancement — Plouton
 
-_Mis à jour : 2026-07-18 (après-midi — C4 MVP)_
+_Mis à jour : 2026-07-18 (Médias + hub Ressources)_
 
 Vue unique de « où on en est ». À relire en premier, mettre à jour à chaque grande étape.
 Détail des livraisons dans [`../JOURNAL.md`](../JOURNAL.md).
@@ -52,25 +52,41 @@ Audit santé : [`15-audit-sante.md`](15-audit-sante.md).
 - **Admin** = lit DB en priorité, **écrit** en DB (brouillon sans redeploy)
 - Bascule lecture publique = **C5**
 
-## ⏸ Chantier « copie fidèle » — en pause
+## ⚠ Réalité pages publiques (audit 2026-07-18 — hors articles)
 
-- Phases **0–3** dans `main` (garder) · Phase 4–6 pixel : pause · Header frozen
+**Verdict :** le socle tourne, mais **ce n’est pas un site fini** pour remplacer Wix.
+
+Trous majeurs encore ouverts :
+1. Page **Défense des élus** absente (existe sur le live)
+2. **3 hubs de pôles** → 404 (JSON déjà capturé)
+3. **Simulateurs divorce** + **recherche** = morts / non branchés
+4. Redirects vers des URLs Next inexistantes (`/nos-affaires/categories/…`)
+5. Polish UI « site fini » encore loin (pixel en pause, pages listes pauvres)
+6. **C5** publish live pas là (public = encore JSON git)
+
+Gagné : 14 expertises, 422 posts, formulaires/admin, légales, Header figé, **Médias** + **hub Ressources**.
+
+## 🔜 Backlog site public (ordre logique — 2026-07-18)
+
+| # | Chantier | Statut |
+|---|----------|--------|
+| 1 | **Médias** — vraie grille (pas stub) + bon lien menu | ✅ |
+| 2 | **Ressources** — hub thématique `/comprendre-le-droit` | ✅ |
+| 3 | **3 hubs pôles** (JSON déjà là → pages) | à faire |
+| 4 | Expertise **Défense des élus** + menu | à faire |
+| 5 | **Redirects** cassés (`/nos-affaires/categories` → blog) | à faire |
+| 6 | **C5** — publish live (site lit la DB) | à faire |
+| 7 | Recherche + simulateurs divorce (ou paliers) | plus tard |
+| 8 | Polish UI (accueil, listes, vernis) | au fil de l’eau |
 
 ## 🔧 À brancher côté Nicolas
 
 1. **Supabase Auth → URL Configuration** (si pas déjà fait)
 2. **Resend** : `RESEND_API_KEY` sur Vercel
 3. Smoke test : login admin → éditer un article → vérifier statut en DB
-4. Merger la PR C4
-
-## 🔜 Suite
-
-1. **C5** — Publish live (status + cache/ISR) ; covers → `medias` ; `/post/{slug}` lit la DB
-2. Polish UI · Divorce · cutover
 
 ## 🙋 Ce qui dépend de Nicolas
 
-- Merge PR C4 + smoke test admin
 - Illustration Divorce (si dispo)
 - Forfaits **Pro** Vercel + Supabase avant cutover
 - Feu vert Nomad / Cooked pour le jour J
