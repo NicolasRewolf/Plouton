@@ -24,6 +24,12 @@ Pas de jargon. 5 lignes max par livraison.
 - Accordéon + **filtres par sous-sujet** (même style que Nos affaires)
 - Branché sur les ~15 pages expertise — le contenu change, le composant reste le même
 
+## 2026-07-18 — Méga-menu header (v2)
+
+- Survol des pôles → panneau avec liens + petites flèches animées
+- Menu mobile en tiroir, accordéons fluides
+- Micro-détails : chevrons, soulignement accent, fond flou, press scale
+
 ---
 
 ## 2026-07-17 — Audit santé du site (repo au clair)

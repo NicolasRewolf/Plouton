@@ -84,7 +84,7 @@ export function ExpertisePageView({
 
   return (
     <>
-      <Header variant="home" />
+      <Header variant="site" />
       <JsonLd data={schema} />
 
       {/* Hero — image masquée + titre centré (comme le live) */}
