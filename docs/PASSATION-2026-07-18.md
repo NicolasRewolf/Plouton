@@ -1,80 +1,125 @@
-# Passation — 2026-07-18 (soir)
+# Passation — 2026-07-18
 
-_Pour Fable / prochain agent. Deux chantiers se sont croisés : le tien (fidélité Wix)
-et une session UX/archi/perf sur `main` avec Nicolas + Cursor. Lis tout avant de coder._
+_Pour Fable / prochain agent. Lis tout avant de coder._
+
+---
+
+## Pivot stratégique (matin 2026-07-18) — lire en premier
+
+**Décision Nicolas :** stop priorité « copie fidèle / pixel-perfect ».  
+L’UI sera polie **au fil de l’eau** (Nicolas + Cursor).
+
+**Nouveau périmètre :** canalisations **contenu ↔ CMS / Supabase**.  
+Ironie utile : le plan pixel listait déjà explicitement *« persistance admin (écritures Supabase) »* en **hors périmètre**. Ce trou devient **maintenant le périmètre**.
 
 ---
 
 ## Message prêt à coller (Nicolas → Fable)
 
-> Salut Fable — on reprend proprement.
+> Salut Fable — pivot (Nicolas, 18/07 matin). Message technique, pas un « on change d’avis soft ».
 >
-> ### Ton chantier (copie fidèle) — où tu en étais
-> - Plan : Phases 0→6 (vérité terrain → polices/tokens → Ricos → briques → templates → galerie).
-> - **Poussé** sur `claude/wix-nextjs-migration-strategy-a31825` : Phases **0–3** (captures, polices/tokens, harvest Ricos/FAQ/nav, renderer Ricos + template article).
-> - **Mergé dans `main`** via PR #4 (`306fd7e` et avant).
-> - **Dernier message** : Header/Footer en cours de convergence dans le **worktree** (non reviewé / non commité proprement) ; baseline SEO à **re-run** (mesures polluées par le hot-reload).
-> - Suite prévue chez toi : **Phase 4 sans Header** → Footer → CTA/boutons → FAQ → cartes → bannières → puis templates (`docs/13-workflow-pixel-perfect.md`).
+> ### 1. Ce qu’on fait du plan « copie fidèle »
 >
-> ### Ce qu’on a fait **sans toi** sur `main` (après ton merge)
-> ~14 commits UX / archi / perf — **volontairement « améliorer en chemin »**, déjà consignés dans `contenu/reference/deviations.json` quand c’était un écart assumé.
+> **On garde le socle Phases 0–3** déjà dans `main` — c’est de l’or, on n’efface rien :
+> - vérité terrain `contenu/reference/` + `scripts/visual/`
+> - polices / `theme.wix.css`
+> - harvest : `contenu/ricos/` ×422, FAQ, poles, `navigation.json`
+> - renderer Ricos branché sur `/post/[slug]`
 >
-> Notamment :
-> - Formulaire RDV v3 + `demande-intake.ts` (validation serveur)
-> - Expertises : hero asymétrique, TOC sticky, `ExpertiseBody`, liens internes, **13/14 illustrations** (manque Divorce)
-> - Accueil : photo équipe + flèches pôles
-> - Header **méga-menu** (notre version) + Footer branché registry
-> - Nos affaires éditorial, FAQ accordion, carrousel affaires
-> - **Architecture** : `queries.ts`, `expertise-loader.ts`, `poles-registry.json` (+ miroir `site/src/data/`)
-> - **Perf** : index articles léger, cache, `dynamic()` below-fold
-> - Script `check-expertises-live.py`
+> **On stoppe Phases 4–6 pixel** comme chantier prioritaire :
+> - Header = **figé** (`header-frozen-main` / `docs/05-decisions.md`) — tu ne le touches pas
+> - Expertises = **hors pixel** (écarts volontaires déjà dans `deviations.json`)
+> - Footer sur `claude/phase4-footer-convergence` (`4210322`) = **laisser en attente**, ne pas merger / ne pas enchaîner article@1440
+> - Plus de boucle `diff.mjs` → fix → commit sur templates (CTA, FAQ, PostCard, blog, accueil « comme Wix »)
+> - Phase 6 galerie d’acceptation = **pas démarrée, pas prioritaire**
 >
-> HEAD `main` ≈ `0a9a106`. Remote à jour.
+> Rappel : dans **ton** plan original, la section *Hors périmètre* disait déjà :
+> *« … persistance admin (écritures Supabase — MCP hors-org de toute façon) ; backends réels commentaires/notes … »*
+> → Ce n’est plus hors périmètre. **C’est le chantier.**
 >
-> ### ⚠️ Points de friction à gérer ensemble
-> 1. **Header = vérité produit, frozen** : le Header de `main` est **figé** (décision Nicolas 2026-07-18). Tu **ne le retouches pas**. Ses écarts vs live Wix = déviations assumées (`deviations.json` → `header-frozen-main`). Oublie le WIP Header du worktree. Reprendre Phase 4 sur **Footer / CTA / FAQ / PostCard / etc.**
-> 2. **Taxonomie** : `poles-registry.json` (menu / objets form / heroes) vs `navigation.json` (harvest). Une seule source de vérité à terme — proposition : registry = produit ; navigation.json = raw harvest.
-> 3. **Worktree** `claude/wix-nextjs-migration-strategy-a31825` : dirty, ne pas merger sans diff vs `main` (et **ne pas** re-merger un Header alternatif).
-> 4. Supabase « contenu » : **pas** lancé cette session ; table `demandes` déjà OK, test prod à faire.
+> L’UI, Nicolas la reprendra au fil de l’eau. Le harnais pixel reste dans le repo pour plus tard si besoin — ce n’est plus le gate du projet.
 >
-> ### Docs
-> `docs/14-etat.md` · ce fichier · `JOURNAL.md` · `docs/13-workflow-pixel-perfect.md` · `AGENTS.md` · `docs/05-decisions.md`.
+> ### 2. État réel des canalisations (audit `main` + projet Supabase `Plouton`)
 >
-> Objectif : **garder ta boucle de fidélité** à partir des briques post-Header + **ne pas perdre** les gains UX de la nuit. Header = hors scope.
+> Projet : `iofhcxwgqvorpmaexjwb` (eu-west-3). MCP org REWOLF = OK sur cette session.
+>
+> | Canal | Réalité |
+> |-------|---------|
+> | **Contenu public** (articles, Ricos, FAQ, expertises, pages, registry, redirects) | **100 % JSON git** via `content.ts` / `queries.ts` — **zéro** table Postgres contenu |
+> | **Demandes** | Table `public.demandes` + RLS ON + **0 policy** + **0 rows**. Code : `store.ts` → `SupabaseStore` si env OK, sinon FsStore (refusé sur Vercel). `POST /api/contact` + `demande-intake.ts` OK. **E2E non prouvé.** |
+> | **Storage** | Buckets `pieces-jointes` (privé) + `medias` (public) — **0 objet**, **0 policy storage** |
+> | **PJ formulaire** | UX « joindre » ; le payload n’envoie souvent que les **noms** dans le message — bucket **jamais alimenté** |
+> | **Admin** | POC `site/src/app/admin/` — **sans auth**. `SupabaseStore.saveArticle` **throw** (« table posts + auth à venir »). `/api/posts` = FS local |
+> | **Mail** | Décision `accueil@…` — **zéro** branchement |
+> | **App `admin/`** | Placeholder docs seulement |
+>
+> Donc : le site **lit** le monorepo ; Supabase n’est qu’un **tuyau Demandes semi-ouvert** (schéma + code, 0 trafic). Ce n’est pas un CMS.
+>
+> Pièges à ne pas reproduire :
+> - Désalignement noms d’env (`SUPABASE_SECRET_KEY` vs legacy `SERVICE_ROLE` dans `site/.env.example`) → form 503
+> - Ne pas confondre projet MCP `cooked` et `Plouton`
+> - Ne pas migrer les 422 posts en premier
+> - CSV contacts = PII, jamais commit
+> - Advisor : `rls_auto_enable` WARN à traiter avant ouverture large
+>
+> ### 3. Nouveau plan — « canalisations » (Phases C0–C5)
+>
+> Critères **exécutables**, comme ton plan pixel — mais data.
+>
+> **C0 — Tuyau Demandes prouvé**  
+> Aligner env Vercel ↔ `store.ts`. 1 insert Preview/Prod → `select count(*) from demandes >= 1` avec UTM / cooked / page_source. Done = form vert, pas de 503.
+>
+> **C1 — Pièces jointes réelles**  
+> Multipart → bucket `pieces-jointes` → `demandes.fichiers[]`. Policies storage. Done = objet Storage + row non vide + download signé.
+>
+> **C2 — Auth + boîte Demandes**  
+> Supabase Auth (avocats + Nicolas). Policies `authenticated` select/update. UI liste/détail/statut/notes (candidatures). Done = anon 401 ; Alexia change un statut ; PJ téléchargeables.
+>
+> **C3 — Mail + historique**  
+> Alerte → `accueil@jplouton-avocat.fr` à chaque insert. Import CSV one-shot hors git. Done = mail test reçu ; N rows historiques ; CSV jamais au repo.
+>
+> **C4 — Canal blog (écriture)**  
+> Migration `posts` (+ cat/tags min). Seed depuis `contenu/articles/` **sans changer les slugs**. `saveArticle` DB ; dual-run OK (public peut encore lire JSON au début). Done = 422 rows ; slug sample inchangé ; draft DB sans redeploy git.
+>
+> **C5 — Publish live + médias**  
+> Publish = status + cache/ISR ; covers → `medias`. Admin brouillon→publier. Done = nouvel article sur `/post/{slug}` **sans commit** ; cover Storage.
+>
+> FAQ / expertises / pages structurantes = **après** C0–C5 Demandes+blog (même pattern, pas bloquant cutover si Demandes + blog CMS OK).
+>
+> ### 4. Contraintes produit inchangées
+>
+> - Slugs `/post/...` **intouchables**
+> - Une FAQ unifiée ; registry pôles = vérité menu/objets form
+> - Peu de gabarits, beaucoup de données (`AGENTS.md`, `docs/09-architecture-site.md`)
+> - Cible admin : `admin.jplouton-avocat.fr` — V1 = **Demandes + Blog**
+> - Ne pas inventer un type de page sans maj `09`
+>
+> ### 5. Reprise
+>
+> Worktree/branche **frais depuis `main`** (HEAD inclut pages légales PR #5).  
+> Anciens worktrees pixel = archive.  
+> Docs : `docs/14-etat.md` · ce fichier · `docs/11-stack-technique.md` · `base/LIRE-MOI.md` · `docs/15-audit-sante.md`.
+>
+> Quand tu repartes : **C0 en premier** (prouver 1 row `demandes`), pas un schema posts.
 
 ---
 
-## Carte des deux rails
+## Contexte soir précédent (mémoire)
 
-| Rail | Branche / endroit | Statut |
-|------|-------------------|--------|
-| Fidélité Wix (Fable) | `claude/wix-nextjs-migration-strategy-a31825` + worktree | Phases 0–3 sur remote ; Phase 4 = **Footer+** (Header frozen sur `main`) |
-| UX + archi + perf (session soir) | `main` | Mergé / poussé ; Header = vérité produit |
+Deux rails : fidélité Wix (Fable) + UX/archi Cursor sur `main`.  
+Header figé. Phase 4–6 pixel = **pause**.
 
-`main` est **en avance** de ~14 commits sur le tip Phase 3 de ta branche.
+### Artefacts pixel à conserver (ne pas régénérer)
 
-## Artefacts déjà là (ne pas régénérer pour rien)
+- `contenu/reference/`, `scripts/visual/`, ricos ×422, fonts Wix, renderer
+- Footer branche `claude/phase4-footer-convergence` — en attente
 
-- `contenu/reference/` — captures + specs + tokens
-- `contenu/ricos/` × 422
-- `contenu/navigation.json` (présent ; Header de `main` = **frozen**, branché sur `poles-registry.json` — ne pas forcer `navigation.json` dans le Header)
-- `contenu/reference/poles-registry.json` + `site/src/data/poles-registry.json`
-- `contenu/reference/deviations.json` — dont **`header-frozen-main`**
-- `scripts/visual/` — kit diff
-- Polices `site/public/fonts/wix/` + `theme.wix.css` / `fonts.wix.css`
+### Carte après pivot
 
-## Dev local
-
-```bash
-cd site && npm install && npm run dev
-# Si CSS cassé : rm -rf .next && npm run dev
-python3 scripts/sync-poles-registry.py   # après edit registry
-```
-
-## Prochaines priorités (Nicolas décide)
-
-1. Reprise Phase 4 **sans Header** (Footer → CTA → FAQ → PostCard / cartes…) + baseline SEO propre  
-2. Illustration Divorce  
-3. Test formulaire → Supabase  
-4. Suite boucle Phase 4–5 (expertise template…)  
-5. Backoffice Demandes / auth (plus tard)
+| Rail | Statut |
+|------|--------|
+| Pixel Phases 0–3 | **Dans `main` — garder** |
+| Pixel Phases 4–6 | **Pause** |
+| UX polish | Au fil de l’eau |
+| Canalisations C0–C5 | **Priorité** |
+| Header | Figé |

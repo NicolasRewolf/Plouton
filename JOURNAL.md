@@ -5,6 +5,19 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Liens internes : corail + pointillés
+
+- Style unique articles / prose / expertises (plus de double soulignement Wix)
+- Corail cabinet + trait en pointillés ; hover un peu plus marqué
+- Déviation notée dans `deviations.json`
+
+## 2026-07-18 — Pivot : Supabase d’abord, pixel en pause
+
+- Stop Phases 4–6 pixel ; **garde** socle 0–3 (Ricos, fonts, harnais)
+- Priorité **C0–C5** : Demandes E2E → PJ → auth → mail → posts DB → publish
+- Contenu public = encore 100 % JSON git ; `demandes` = 0 row prouvée
+- Message technique Fable dans `docs/PASSATION-2026-07-18.md`
+
 ## 2026-07-18 — Pages légales (mentions, confidentialité, cookies)
 
 - Mentions légales refaites proprement + **politique de confidentialité** + page **Cookies**

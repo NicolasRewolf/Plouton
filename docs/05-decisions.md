@@ -145,7 +145,13 @@ Détail → `docs/12-seo-geo.md`.
 ### Header figé (2026-07-18)
 **Décision :** le Header actuel sur `main` est **parfait et figé** — plus de reconvergence pixel vers Wix, pas d’écrasement par le chantier Fable.  
 **Pourquoi :** UX validée par Nicolas ; les écarts vs live sont des déviations assumées (`contenu/reference/deviations.json` → `header-frozen-main`).  
-**Conséquence :** Phase 4 fidélité reprend sur Footer / CTA / FAQ / cartes / etc., **sans toucher au Header**.
+**Conséquence :** plus de retouche Header côté Fable (voir aussi pivot matin ci-dessous).
+
+### Pivot stratégie — Supabase d’abord (2026-07-18 matin)
+**Décision :** arrêt de la priorité « copie fidèle / pixel-perfect » (Phases 4–6). On **garde** le socle 0–3 dans `main`. Priorité = canalisations **C0–C5** (Demandes prouvées → PJ → auth/UI → mail/CSV → posts DB → publish live). UI au fil de l’eau (Nicolas + Cursor).  
+**Pourquoi :** le contenu public est encore **100 % JSON git** ; Supabase n’a qu’une table `demandes` à **0 row**. Le plan pixel listait déjà « persistance admin / écritures Supabase » en *hors périmètre* — ce trou est devenu le périmètre.  
+**Conséquence :** stop `diff.mjs` / templates Wix ; Footer branche en attente ; ne pas migrer les 422 posts avant C0–C3. Détail + message Fable : `docs/PASSATION-2026-07-18.md`.
+
 
 ### Pages légales (2026-07-18)
 **Décision :** un gabarit `LegalPageView` + TOC sticky ; contenu en JSON (`mentions-legales`, `politique-de-confidentialite`, `cookies`).  

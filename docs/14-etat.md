@@ -1,11 +1,20 @@
 # État d'avancement — Plouton
 
-_Mis à jour : 2026-07-18 (soir)_
+_Mis à jour : 2026-07-18 (matin — pivot)_
 
 Vue unique de « où on en est ». À relire en premier, mettre à jour à chaque grande étape.
 Détail des livraisons dans [`../JOURNAL.md`](../JOURNAL.md).
 Passation agents : [`PASSATION-2026-07-18.md`](PASSATION-2026-07-18.md).
 Audit santé : [`15-audit-sante.md`](15-audit-sante.md).
+
+---
+
+## ⚡ Pivot 2026-07-18 (matin)
+
+- **Arrêt** de la priorité « copie fidèle / pixel-perfect » Wix.
+- UI polie **au fil de l’eau** (Nicolas + Cursor).
+- **Priorité absolue** : canalisations **contenu ↔ CMS / Supabase**.
+- Fable : stop Phase 4–5 pixel ; Footer branche = en attente OK ; Header figé ; expertises hors pixel.
 
 ---
 
@@ -39,30 +48,34 @@ Audit santé : [`15-audit-sante.md`](15-audit-sante.md).
 - Script `check-expertises-live.py`
 - Passation agents : [`PASSATION-2026-07-18.md`](PASSATION-2026-07-18.md)
 
-## 🔁 Chantier Fable « copie fidèle » (parallèle)
+## ⏸ Chantier Fable « copie fidèle » — en pause
 
-- Phases **0–3** déjà dans l’historique `main` (vérité terrain, polices, Ricos, harvest)
-- Suite prévue : Phase 4 **sans Header** (Footer → CTA → FAQ → cartes…) puis templates (`docs/13-workflow-pixel-perfect.md`)
-- **Header frozen** (décision 2026-07-18) : Header de `main` = vérité produit ; écarts vs Wix = déviations (`header-frozen-main`) ; Fable ne le retouche pas
-- `contenu/navigation.json` = harvest brut ; le Header frozen reste sur `poles-registry.json`
+- Phases **0–3** déjà dans `main` (socle conservé : polices, Ricos, harvest)
+- Phase 4–5 pixel / `diff.mjs` / templates Wix : **plus prioritaires**
+- Footer déjà poussé sur branche Fable : **laisser en attente**
+- **Header frozen** : vérité produit sur `main` ; Fable ne le retouche pas
+- Expertises : hors pixel (déjà noté)
 
 ## 🔧 Câblé, à finir de valider
 
-- **Formulaire → Supabase** : table + clés OK — **test bout-en-bout prod** encore à faire
-- Email d'alerte → `accueil@jplouton-avocat.fr` : **pas branché**
+- **Demandes** : table + code + buckets — **0 row prouvée** en prod (E2E à faire = C0)
+- Contenu public = **100 % JSON git** (pas de tables `posts` / FAQ / expertises)
+- PJ formulaire : noms seulement — bucket **vide**
+- Email `accueil@…` : **pas branché** · Auth admin : **absente**
 
-## 🔜 Prochaines étapes (ordre suggéré)
+## 🔜 Canalisations C0–C5 (priorité)
 
-1. Phase 4 fidélité **sans Header** (Footer / CTA / FAQ / PostCard…) + baseline SEO propre
-2. Illustration **Divorce** + polish si besoin
-3. Test formulaire → `demandes`
-4. Suite boucle fidélité (expertise → hubs → article → blog → accueil)
-5. Backoffice **Demandes** + auth · PJ réelles · mail alerte
-6. Cutover domaine · Cooked · Nomad (jour J)
+1. **C0** — 1 `demande` réelle en Preview/Prod (env alignés, pas de 503)
+2. **C1** — Upload PJ → bucket `pieces-jointes` + `fichiers[]`
+3. **C2** — Auth + UI boîte Demandes (statuts, notes, candidatures)
+4. **C3** — Mail alerte + import CSV historique (hors git)
+5. **C4** — Table `posts` + seed 422 slugs + écriture admin DB
+6. **C5** — Publish live sans commit + covers Storage
+7. Polish UI au fil de l’eau · Divorce · cutover (après canalisations)
 
 ## 🙋 Ce qui dépend de Nicolas
 
+- Direction / validation des canalisations contenu ↔ Supabase
 - Illustration Divorce (si dispo)
 - Forfaits **Pro** Vercel + Supabase avant cutover
-- Merge PR si garde-fou GitHub
 - Feu vert Nomad / Cooked pour le jour J
