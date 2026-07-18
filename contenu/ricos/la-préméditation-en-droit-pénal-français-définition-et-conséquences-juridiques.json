@@ -1,0 +1,2487 @@
+{
+  "slug": "la-préméditation-en-droit-pénal-français-définition-et-conséquences-juridiques",
+  "sourcePath": "/post/la-préméditation-en-droit-pénal-français-définition-et-conséquences-juridiques",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "46d9s59",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vous avez peut-être entendu parler de la \"préméditation\" dans les affaires criminelles médiatisées ou dans les séries policières. Mais que signifie exactement ce terme en droit pénal français et quelles en sont les implications pour l'accusé ? ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "64wtm912",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4t3s61005",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre Cabinet Plouton",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", avocats pénalistes à Bordeaux, vous explique cette notion juridique essentielle.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "q3hgq33469",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "zeo9y33468",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "ds6f661",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Qu'est-ce que la préméditation en droit français ?",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tcxlz63",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La préméditation est définie par l'article 132-72 du ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Code pénal",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417534/",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " comme :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "d2s7167",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "qcuer68",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "\"",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 14.0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Le dessein formé avant l'action d'attenter à la personne d'un individu déterminé, ou même de celui qui sera trouvé ou rencontré, quand même ce dessein serait dépendant de quelque circonstance ou de quelque condition.",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 14.0
+                      }
+                    },
+                    {
+                      "type": "ITALIC",
+                      "italicData": true
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "\"",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 14.0
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0.0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "1h8kf72",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En termes plus simples, il s'agit de la préparation réfléchie d'un acte criminel avant sa réalisation.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#FFFFFF"
+                  }
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " La préméditation implique deux éléments fondamentaux :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "08obc430",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "5qwir74",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "92g0j75",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "qp1dc76",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un élément temporel",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : un délai s'est écoulé entre la décision de commettre l'acte et sa réalisation",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "zks7e79",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "wp3pj80",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un élément psychologique",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : la personne a mûrement réfléchi à son acte, l'a préparé, organisé",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2o1r683",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Contrairement à ce que l'on pourrait penser, la durée de cette réflexion n'est pas déterminante. Quelques heures peuvent suffire pour caractériser la préméditation. L'essentiel est qu'il y ait eu un temps de réflexion, même bref, avant le passage à l'acte.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "sgu0g33599",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "j1jz685",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quelles sont les conséquences juridiques de la préméditation ?",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "dlpyk87",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La transformation du meurtre en assassinat",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "z4uqj89",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La conclusion la plus connue de la préméditation est la requalification du meurtre en assassinat. Alors que le meurtre (homicide volontaire) est puni de 30 ans de réclusion criminelle, l'assassinat (meurtre avec préméditation) est passible de la réclusion criminelle à perpétuité.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yqvdi91",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette distinction est établie par les articles suivants du Code pénal :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "qldbl93",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "huzwz94",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "zgnod95",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Article 221-1",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417561",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : \"",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le fait de donner volontairement la mort à autrui constitue un meurtre. Il est puni de trente ans de réclusion criminelle.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        },
+                        {
+                          "type": "ITALIC",
+                          "italicData": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\"",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "lhfki100",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "typax101",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Article 221-3",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417563",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : \"",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le meurtre commis avec préméditation constitue un assassinat. Il est puni de la réclusion criminelle à perpétuité.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        },
+                        {
+                          "type": "ITALIC",
+                          "italicData": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\"",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nquqa593",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "nepfg106",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une circonstance aggravante pour d'autres infractions",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pvq7j108",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La préméditation n'est pas seulement un facteur aggravant pour l'homicide. Elle peut également alourdir les peines pour d'autres crimes et délits, comme :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "i2ynj110",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "4i4ni111",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "xbdam112",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "violences volontaires",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.jplouton-avocat.fr/indemnisation-des-victimes/victimes-de-d%C3%A9lits-ou-crimes",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "o2qjj115",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "wmfya116",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'empoisonnement",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "jbywm118",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "4wque119",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les actes de torture et de barbarie",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ce30g121",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "1tq0b122",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Certaines agressions sexuelles",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ae0m433730",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "nizoo33729",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "uggub124",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Comment la préméditation est-elle établie par la justice ?",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "f6vzd126",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La préméditation n'est jamais présumée et doit être prouvée par l'accusation. Les magistrats et jurés s'appuient sur des éléments matériels comme :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "cma31128",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "825hl129",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "npp10130",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La préparation d'un plan",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "xu3ba132",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "4nqw9133",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'acquisition d'une arme ou d'un poison",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "a4v7n135",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ja5cv136",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Des recherches sur internet (méthodes pour tuer, effets d'un poison...)",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "cxsh3138",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ue6jo139",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Des repérages sur les lieux du crime",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "g9wtc141",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "f6qp4142",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Des communications révélant l'intention (messages, courriels...)",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "y9zwq144",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "0mmae145",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le guet-apens, qui implique par nature une forme de préméditation",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "v7cir147",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La jurisprudence de la ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cour de cassation",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.courdecassation.fr/",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " a précisé à plusieurs reprises les contours de cette notion, notamment en distinguant la préméditation du simple mobile ou de la colère persistante.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hvtm133860",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "5xjd333859",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "fywzc151",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Défense face à une accusation incluant la préméditation",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ji3ar153",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si vous êtes accusé d'un crime avec préméditation, votre défense devra se concentrer sur plusieurs aspects :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "sy4cb155",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "byrrv156",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "seem5157",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Contester l'existence même du projet criminel",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "59sv5159",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "fw728160",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Démontrer l'absence de temps de réflexion (acte impulsif)",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "n0skj162",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "fskyd163",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Mettre en avant des circonstances ayant altéré le discernement",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "75xzn165",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "oal2d166",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Questionner les preuves matérielles de la préparation",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "cksb5168",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ces éléments de défense nécessitent une ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "stratégie juridique",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/droit-p%C3%A9nal",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " soigneusement élaborée et l'assistance d'un avocat pénaliste expérimenté.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "a0ra71572",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "wvyie1571",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "ndzco172",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Questions fréquentes sur la préméditation",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 28.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "mt78z174",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quelle est la différence entre préméditation et guet-apens ?",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "s9fdq176",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le guet-apens est défini par l'article 132-71-1 du Code pénal comme \"",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "le fait d'attendre un certain temps une ou plusieurs personnes dans un lieu déterminé pour commettre à leur encontre une ou plusieurs infractions",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\".",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "aad48180",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si tout guet-apens implique une forme de préméditation, l'inverse n'est pas vrai. La préméditation peut exister sans guet-apens, par exemple dans le cas d'un empoisonnement progressif.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "z7ggx182",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La préméditation s'applique-t-elle aux mineurs ?",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bsdrp184",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Oui, la préméditation peut être retenue contre un mineur. Toutefois, en vertu de ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "l'ordonnance du 2 février 1945",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069158/",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et du Code de justice pénale des mineurs, l'âge du prévenu sera pris en compte dans la détermination de la peine.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "j507c188",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Peut-on être condamné pour tentative d'assassinat ?",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hrd3c190",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Oui, la tentative d'assassinat est punissable des mêmes peines que l'assassinat consommé, soit la réclusion criminelle à perpétuité (art. 121-4 du Code pénal).",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "d9vdg1700",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "kwwcu192",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Besoin d'une défense face à une accusation grave ?",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "j8s3s194",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si vous ou l'un de vos proches êtes confronté à une accusation impliquant la préméditation, n'attendez pas pour consulter un avocat spécialisé. Fort de notre expérience en droit pénal, notre cabine vous accompagne pour construire la meilleure stratégie de défense possible. ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Contactez le cabinet",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/notre-cabinet",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour une première consultation et bénéficiez d'une défense à la hauteur des enjeux.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "n7lzt8333",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "693qm34573",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "DOUBLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ki9ja200",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Article rédigé par Me Julien Plouton, avocat au Barreau de Bordeaux spécialisé en droit pénal. Les informations contenues dans cet article sont d'ordre général et ne sauraient constituer un avis juridique personnalisé. Pour toute question spécifique, veuillez consulter un professionnel du droit.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 12.0
+                  }
+                },
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dfxep202",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dernière mise à jour : Mars 2026",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 12.0
+                  }
+                },
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "uzsat1263",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "DOUBLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "8e7e8d58-fca1-46cb-bc52-cda6bf581811",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour mieux comprendre vos droits avant cette première consultation, découvrez ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "nos fiches pratiques en droit pénal",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/comprendre-le-droit",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false,
+                        "noreferrer": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " rédigées par nos avocats pénalistes bordelais.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ffae3f8e-fb32-46be-abfc-c865c202086b",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "1d175815-2bc9-4cbb-8bac-5c9565aaeedd",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "809113db-5de0-404d-8c5d-f1ffdae83087",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "5223363b-2b75-4439-9eec-42fc06623fce",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "8ef04a1e-39f0-47e1-9584-d3ca3f949051",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "34088e93-9fe8-45bc-8867-853d8deb2372",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "62a1ca5d-c45d-4594-bab7-1f789588707a",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "08058068-16ea-4485-a2cb-bcb9c82327fd",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "9bcbd7ea-b04b-465c-bc1f-2602663a453c",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "49c343ba-b4f7-4b2b-b3e9-10a75189fe6d",
+            "nodes": [],
+            "textData": {
+              "text": "Fort de notre expérience en droit pénal et de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "9e32670e-aa30-4da3-bd3a-0867bca1d7f8",
+            "nodes": [],
+            "textData": {
+              "text": "notre expertise en procès criminels",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/defense-penale/proces-criminel",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false,
+                        "noreferrer": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "488cd6b2-3e89-4ccf-af88-221dbb4ef7c0",
+            "nodes": [],
+            "textData": {
+              "text": ", notre cabinet vous accompagne pour construire la meilleure stratégie de défense possible.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      }
+    ],
+    "documentStyle": {}
+  }
+}

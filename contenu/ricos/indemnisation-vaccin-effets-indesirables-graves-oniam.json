@@ -1,0 +1,6360 @@
+{
+  "slug": "indemnisation-vaccin-effets-indesirables-graves-oniam",
+  "sourcePath": "/post/indemnisation-vaccin-effets-indesirables-graves-oniam",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "g53fg168028",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dernière mise à jour : mai 2026.",
+              "decorations": [
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "RIGHT"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "f2heq181871",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0yv05182194",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vous",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", ou l'un de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "vos proches",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", traversez ce moment particulier où ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "des séquelles graves sont apparues dans les jours ou les semaines qui ont suivi une vaccination",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Et deux questions vous obsèdent :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " le lien avec le vaccin est-il réellement établi",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ? Et qui prend en charge la réparation ? Ce sont les bonnes questions. Mais les réponses dépendent du vaccin reçu, du régime juridique applicable et du seuil de gravité du préjudice.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hgjwr108193",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "54co6109962",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Sur l'ensemble des demandes liées à la vaccination contre la Covid-19 instruites par l'ONIAM, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "1 759 dossiers",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ont été enregistrés et ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "181 personnes indemnisées",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " à fin 2024 — soit un taux d'acceptation d'environ ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "10 %",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", en hausse sensible par rapport aux années précédentes (source : ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Rapport d'activité ONIAM 2024",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.oniam.fr/indemnisation-accidents-medicaux/rapport-d-activite",
+                      "target": "BLANK",
+                      "rel": {
+                        "nofollow": true,
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ").",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "1j89f108203",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "m2jsj110297",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce que ce guide vous apporte :",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "37fb0110624",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "lnbjg108205",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "ae3sg108206",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "i0o3b108207",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "3 régimes d'indemnisation",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " distincts selon le statut du vaccin (obligatoire, COVID grand public, recommandé)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "vq2zc108211",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "t51d1108212",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "orientation rapide par profil",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " (parent d'enfant, post-COVID, soignant, voyageur)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "zbem1108216",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "g9929108217",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "seuil de gravité",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " réellement applicable et les ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "délais",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " à respecter",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "iz27t108223",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "obv4d108224",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "moment où un avocat fait la vraie différence",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "95fax112921",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "c7eaw679",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vous traversez cela seul ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "iqn021027",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "mysrs1029",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Ce guide couvre l'essentiel : ce que dit la loi, à qui s'adresser, dans quels délais. Vous pouvez avancer seul sur la plupart des étapes — et c'est très bien comme ça.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "9oy391031",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yn7401033",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Mais pour les situations complexes — refus d'expertise, contestation ONIAM, lien de causalité fragile, dossier hépatite B/SEP ou post-COVID — ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "vous n'êtes pas obligé de rester seul",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". C'est exactement à ce moment-là que l'œil d'un avocat fait la différence. ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "q67i968355",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Contactez - nous",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et nous organiserons un premier rendez-vous d'orientation avec nos avocats.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "6f9pc9504",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "LINK_PREVIEW",
+        "id": "jz4ln14288",
+        "nodes": [],
+        "linkPreviewData": {
+          "description": "Prenez rendez-vous avec le Cabinet Plouton (Bordeaux). Demandes traitées le jour même, RDV sous 7 jours, urgences possibles. Premier RDV : 180 € TTC. Horaires & accès.",
+          "link": {
+            "url": "https://www.jplouton-avocat.fr/honoraires-rendez-vous",
+            "target": "BLANK"
+          },
+          "containerData": {
+            "alignment": "CENTER",
+            "textWrap": true
+          },
+          "title": "Honoraires & prise de rendez-vous – Cabinet Plouton, avocats à Bordeaux",
+          "thumbnailUrl": "https://static.wixstatic.com/media/d05c9e_75eb8b18d2b247eab8afa1356a161f79%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/d05c9e_75eb8b18d2b247eab8afa1356a161f79%7Emv2.jpg"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hu9xh14289",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "mgq3d6109",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "4pxoc108237",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Sommaire",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "b8anb108239",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "otjjz108243",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "zh3bm108244",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Vaccin obligatoire, COVID, recommandé : les 3 régimes ONIAM",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "#trois-regimes-oniam",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "kmna4108246",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "a8aey108247",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La procédure : saisir l'ONIAM ou la CCI",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "#procedure-oniam-cci",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "i4gwz108249",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "0msc7108250",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La preuve du lien de causalité : le vrai filtre",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "#preuve-causalite",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "4fcqk108252",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "swric108253",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Délais, montants et postes de préjudice",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "#delais-montants-prejudice",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "yro38108255",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "bxyx1108256",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Vos questions les plus fréquentes",
+                      "decorations": [
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "#faq",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "9iu4a159922",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "c976j115734",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "7hzbj108280",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vaccin obligatoire, COVID, recommandé : les 3 régimes ONIAM ",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0zejg164402",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "c62cl108282",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le bon réflexe est de déterminer, en premier lieu, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "quel régime juridique s'applique à votre situation",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Trois cas de figure existent — avec des conséquences procédurales et probatoires différentes.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bposd108286",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          },
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zn32g139970",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quel est votre profil ?",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Parent d'un nourrisson vacciné parmi les 11 vaccins obligatoires",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " : régime des vaccinations obligatoires (article L. 3111-9 CSP) — pas de seuil de gravité, réparation intégrale, saisine directe ONIAM.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Soignant vacciné contre l'hépatite B ou la COVID-19",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "  : régime des vaccinations obligatoires par renvoi (L. 3111-9 CSP + articles 12 et 18 de la loi du 5 août 2021) — pas de seuil, réparation intégrale, saisine directe ONIAM.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Grand public vacciné contre la COVID-19",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " : régime des mesures sanitaires d'urgence (L. 3131-4 + L. 3131-20 alinéa 1ᵉʳ CSP) — pas de seuil, réparation intégrale, saisine directe ONIAM.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Adulte vacciné via un vaccin recommandé non obligatoire",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (grippe, fièvre jaune, HPV, hépatite A) : régime d'accident médical de droit commun (L. 1142-1 II + D. 1142-1 CSP) — seuil de gravité applicable (AIPP ≥ 24 % ou autres critères, voir ci-dessous), saisine via la CCI.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          },
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "scpdl154265",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          },
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "72uvz108306",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour comprendre globalement le rôle de l'ONIAM et le détail générique de la procédure CCI, voyez notre ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "guide d'indemnisation ONIAM",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/accident-m%C3%A9dical-oniam-dans-quels-cas-pouvez-vous-%C3%AAtre-indemnis%C3%A9",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "9aqye121132",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "nm7ec165772",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "vvbze165773",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "56jy9108310",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le régime des vaccinations obligatoires (L. 3111-9 CSP)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0gx0e108312",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C'est le régime le plus protecteur. ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'article L. 3111-9 du Code de la santé publique",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006687792/",
+                      "target": "BLANK",
+                      "rel": {
+                        "nofollow": true,
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " dispose : ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "« La réparation intégrale des préjudices directement imputables à une vaccination obligatoire est assurée par l'Office national d'indemnisation des accidents médicaux, des affections iatrogènes et des infections nosocomiales, au titre de la solidarité nationale. »",
+              "decorations": [
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4yc19108317",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5x2sq122139",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conséquences pratiques",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " : aucun seuil de gravité n'est exigé. La victime n'a pas à démontrer une faute du soignant. La saisine est directe — pas de passage obligatoire par la CCI.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "s9p5f108320",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lt1b6121807",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce régime couvre les ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "11 vaccinations obligatoires des nourrissons",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " instaurées par l'",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "article 49 de la loi n° 2017-1836 du 30 décembre 2017",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000036339170",
+                      "target": "BLANK",
+                      "rel": {
+                        "nofollow": true,
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (LFSS 2018) — DTP, coqueluche, Hib, hépatite B, pneumocoque, méningocoque C, rougeole, oreillons, rubéole — ainsi que les obligations vaccinales professionnelles (notamment hépatite B pour les soignants exposés).",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "g77yz121478",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "1j3ii166788",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "4qro2166789",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "6dtwb108326",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le régime des vaccinations COVID-19 grand public (L. 3131-4 + L. 3131-20 CSP)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0,
+          "start": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nla65108328",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les personnes vaccinées contre la COVID-19 dans le cadre de la campagne nationale (et non au titre d'une obligation professionnelle), le régime applicable est celui des ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "mesures sanitaires d'urgence",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xnwim108332",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fmsbo122484",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le mécanisme tient en deux articles. L'",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "article L. 3131-20 alinéa 1ᵉʳ du Code de la santé publique",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041747807",
+                      "target": "BLANK",
+                      "rel": {
+                        "nofollow": true,
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " prévoit que les dispositions de l'article L. 3131-4 s'appliquent aux dommages résultant des mesures prises en application des articles L. 3131-15 à L. 3131-17 — dont la campagne de vaccination COVID-19 décidée pendant l'état d'urgence sanitaire. L'",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "article L. 3131-4 CSP",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006687870",
+                      "target": "BLANK",
+                      "rel": {
+                        "nofollow": true,
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " confie à l'ONIAM la réparation intégrale des dommages, sans seuil de gravité, par saisine directe.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "snk27108338",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jf3de122823",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette mécanique n'est pas nouvelle. Elle avait déjà servi pour la grippe A H1N1 (Pandemrix) en 2009-2010. Le Conseil d'État a confirmé son application à ce contexte par une décision ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "CE, 5ᵉ-4ᵉ chambres réunies, 27 mai 2016, n° 391149",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000032592446/",
+                      "target": "BLANK",
+                      "rel": {
+                        "nofollow": true,
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " dans une affaire de narcolepsie avec cataplexie post-vaccinale.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "8yvyk123160",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "59uu1167804",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "66c54167805",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "w43bq108342",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le régime des vaccinations recommandées (L. 1142-1 II CSP)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0,
+          "start": 3
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qnkaf108344",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les vaccinations ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "recommandées non obligatoires",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (grippe saisonnière, fièvre jaune avant un voyage, HPV chez l'adulte, hépatite A, etc.), le régime applicable est celui du ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "droit commun de l'accident médical non fautif",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " — ce que l'on appelle, en pratique, l'aléa thérapeutique. Voyez notre définition complète de l'",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "aléa thérapeutique",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/accident-m%C3%A9dical-responsabilit%C3%A9-m%C3%A9dicale-et-al%C3%A9a-th%C3%A9rapeutique",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fd1to123502",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "poif5108352",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'article L. 1142-1 II du Code de la santé publique",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020628252",
+                      "target": "BLANK",
+                      "rel": {
+                        "nofollow": true,
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ouvre la réparation par la solidarité nationale lorsque la responsabilité d'un soignant n'est pas engagée, à condition que les conséquences soient ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "« anormales au regard de l'état de santé »",
+              "decorations": [
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et qu'elles présentent un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "caractère de gravité",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " fixé par décret.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "08rp8108359",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "pai8n108360",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Seuil de gravité — les 4 critères alternatifs (D. 1142-1 CSP)",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Le caractère de gravité est constitué dès que l'une au moins des conditions suivantes est remplie : un taux d'atteinte permanente à l'intégrité physique ou psychique (AIPP) supérieur ou égal à ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "24 %",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " ; ou une incapacité temporaire de travail d'au moins ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "6 mois consécutifs",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", ou 6 mois non consécutifs sur une période de 12 mois, ou des déficits fonctionnels temporaires d'au moins 50 % sur la même durée ; ou, à titre exceptionnel, une ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "inaptitude définitive",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " à l'exercice de la profession antérieure ; ou, à titre exceptionnel, des ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "troubles particulièrement graves dans les conditions d'existence",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ". Texte de référence : ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "article D. 1142-1 CSP",
+                  "decorations": [
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023458773/",
+                          "target": "BLANK",
+                          "rel": {
+                            "nofollow": true,
+                            "noreferrer": true
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "UNDERLINE"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ".",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tw5ye108373",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour ce régime, la voie d'entrée n'est pas la saisine directe de l'ONIAM mais la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Commission de Conciliation et d'Indemnisation (CCI)",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " régionale.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ckqzr159342",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "88ork158792",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "heka6108377",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La procédure : saisir l'ONIAM ou la CCI",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "exys4108379",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La porte d'entrée dépend du régime applicable. Cette différence, souvent mal comprise, conditionne la rapidité de l'instruction.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "mazf3124193",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "qfh9f134419",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "9139n134420",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "0i5ta108381",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Saisir directement l'ONIAM (régimes obligatoires et urgence sanitaire)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pqn54108383",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les vaccinations obligatoires (L. 3111-9) et pour la vaccination COVID-19 grand public (L. 3131-4), la saisine est ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "directe",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " auprès du service des missions spécifiques de l'ONIAM. La demande prend la forme d'une lettre recommandée avec accusé de réception ou d'un dépôt avec récépissé. L'ONIAM diligente ensuite une expertise médicale et toute investigation utile, puis présente une offre d'indemnisation à la victime (ou à ses ayants droit en cas de décès).",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dgfjz124531",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "am1pg135424",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "nx937135425",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "rg9bg108387",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Passer par la CCI (régime général d'accident médical)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0,
+          "start": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3cn5n108389",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les vaccinations ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "recommandées non obligatoires",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " relevant de L. 1142-1 II, le passage par la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "CCI",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est l'entrée naturelle. La CCI rend un avis sur l'imputabilité, le caractère de gravité et les préjudices. Si son avis est favorable et que la responsabilité d'un soignant n'est pas engagée, le dossier est transmis à l'ONIAM pour proposition d'indemnité.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qii80124871",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "04crw136431",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "vm3a6136432",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "hqwlk108395",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'expertise médicale : l'étape qui décide tout",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0,
+          "start": 3
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qtyl2108397",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'expertise est ordonnée par l'ONIAM ou par la CCI (article L. 1142-9 CSP). L'expert examine le dossier médical, l'historique, les données scientifiques disponibles, les éléments de pharmacovigilance.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "cil3s108399",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dx1c2126209",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'opposabilité d'un rapport d'expertise — y compris lorsqu'il a été établi de manière non contradictoire — a été consacrée par la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cour de cassation (1ʳᵉ chambre civile, 11 juillet 2018)",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Voyez notre ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "analyse de l'opposabilité de l'expertise amiable",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/opposabilit%C3%A9-d-un-rapport-d-expertise-amiable",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". En pratique, l'assistance d'un médecin-conseil et d'un avocat lors de l'expertise change l'issue dans une proportion significative des dossiers complexes : le dossier médical, les questions à poser à l'expert et la manière de qualifier les pathologies sont rarement neutres.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ygfi8125212",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "h6e39138777",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "8vhfp138778",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "hnp1f108405",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Refus initial ? La voie référé administratif — focus sur la jurisprudence locale",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0,
+          "start": 4
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "55sca108407",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un refus initial n'est ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "pas une fin de parcours",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". La ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cour administrative d'appel de Bordeaux",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.lexbase.fr/jurisprudence/94204496-caa-bordeaux-08032023-n-22bx03136",
+                      "target": "BLANK",
+                      "rel": {
+                        "nofollow": true,
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", dans un arrêt du ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "8 mars 2023 (n° 22BX03136, cité par Lexbase ; CAA inédit au recueil Lebon)",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", a annulé une ordonnance du tribunal administratif de Pau qui avait rejeté la demande d'expertise d'une personne se plaignant de troubles post-vaccin COVID. La cour a ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "désigné un collège médical",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour expertiser le lien entre les troubles et la vaccination.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tidq3108417",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5fi48125890",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le principe à retenir : ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "le juge des référés administratif peut ordonner une expertise",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " quand l'instruction initiale en a refusé une. Pour les habitants du ressort de la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "CAA Bordeaux",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " — Gironde, Dordogne, Lot-et-Garonne, Charente-Maritime, Charente, Pyrénées-Atlantiques, Landes — cette jurisprudence locale ouvre une voie de recours ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "rapide et concrète",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " lorsque le dossier mérite une expertise indépendante.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7sywu97959",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "q61v7130760",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "u67ew108425",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La preuve du lien de causalité : le vrai filtre",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3tjm5108427",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dd7xk155001",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le régime juridique n'est, en réalité, pas le filtre principal. ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le vrai filtre est la causalité.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "b2e35126568",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "2w2fh150587",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "hihhe150588",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "6uz5p108430",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le défi : l'incertitude scientifique",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "az1vv77083",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C'est sans doute ce qui rend ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "ces dossiers si éprouvants",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " : vous savez ce que vous avez vécu, mais la science médicale, elle, reste incertaine. Vous n'êtes pas seul à le vivre. Et la jurisprudence évolue lentement, mais dans votre sens.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2dxdb77085",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "acalj77086",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En matière vaccinale, la science médicale ne dit presque jamais « ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "ce vaccin a causé cette pathologie",
+              "decorations": [
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " » avec certitude. L'ONIAM, par défaut, applique un standard strict d'imputabilité — ce qui explique des taux de rejet historiquement très élevés. Une étude doctrinale publiée dans les ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cahiers Louis Josserand",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (Pr Jonas Knetsch, Paris 1 Panthéon-Sorbonne, 2023) constatait, au 31 mars 2022, un taux d'acceptation de l'ordre de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "0,9 %",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " sur les dossiers vaccinaux. En 2024, ce taux atteint environ ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "10 %",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " sur les vaccinations COVID-19 — multiplié par onze en deux ans. La jurisprudence y est pour beaucoup.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "1b9c8126912",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "m7ah6155613",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "rriqw155614",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "7v07k108442",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La preuve par faisceau d'indices : quatre critères concrets",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0,
+          "start": 2
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "z3qwg108444",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Devant les juridictions, en l'absence de consensus scientifique, le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "faisceau d'indices",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " s'est imposé. Concrètement, quatre éléments doivent pouvoir être réunis :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "w075z108448",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "thyep108449",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "td719108450",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La réalité des séquelles",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " documentée par le dossier médical, les examens et les certificats",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "0o3eo108453",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "uyz1h108454",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un délai de survenue compatible",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " avec la vaccination (heures, jours ou semaines selon la pathologie suspectée)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "i3bdw108457",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "xo1g6108458",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'absence d'antécédents",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " explicatifs avant la vaccination",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "i1u3b108461",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "29vzc108462",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Des données scientifiques compatibles",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " avec un lien plausible (publications de pharmacovigilance, registres CRPV, littérature internationale)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fmbur127258",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "1g27z157626",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "qr49u157627",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "8np1f108465",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le tournant Conseil d'État : présomptions admises",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0,
+          "start": 3
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2rqed108467",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conseil d'État",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " a opéré un tournant net avec son ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "arrêt du 29 septembre 2021 (5ᵉ-6ᵉ chambres réunies, n° 432627)",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/juri/id/CETATEXT000044153724",
+                      "target": "BLANK",
+                      "rel": {
+                        "nofollow": true,
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", à propos d'une myofasciite à macrophages survenue après vaccination obligatoire contre l'hépatite B. La haute juridiction administrative impose désormais au juge de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "s'assurer qu'il n'y a pas de probabilité qu'un lien de causalité existe",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " entre l'administration des adjuvants aluminiques et les symptômes, plutôt que de chercher si le lien est scientifiquement établi.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "mn52p108475",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "w4cu7127934",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "inversion implicite de la charge probatoire",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ouvre la porte à l'indemnisation par présomptions graves, précises et concordantes — y compris en contexte d'incertitude scientifique. C'est exactement le principe que mobilisent les avocats spécialisés pour reconstruire un dossier après un refus initial de l'ONIAM.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "f0wza127603",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "xmiu0158638",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "ri9sd158639",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "ph7py108479",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le standard européen : CJUE 21 juin 2017",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0,
+          "start": 4
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "mkxj2108481",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le mouvement avait été initié au niveau européen. Par son ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "arrêt du 21 juin 2017 (C-621/15, *N.W. et autres c. Sanofi Pasteur MSD*)",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://curia.europa.eu/juris/document/document.jsf?docid=192054&doclang=FR",
+                      "target": "BLANK",
+                      "rel": {
+                        "nofollow": true,
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", sur le terrain de la sclérose en plaques suivant une vaccination contre l'hépatite B, la Cour de justice de l'Union européenne avait admis qu'",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "« un ensemble d'indices factuels constitue des preuves graves, précises et concordantes »",
+              "decorations": [
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " permettant de retenir un défaut et un lien de causalité, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "même en l'absence de consensus scientifique",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Le tournant français de 2021 s'inscrit dans cette continuité.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "u5txk108489",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "trjpy128279",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce raisonnement par présomptions est cohérent avec celui appliqué dans d'autres dossiers de réparation médicale fondés sur la solidarité nationale — voyez notre analyse du ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "préjudice spécifique de contamination VIH ou hépatite C",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/post/responsabilit%C3%A9-m%C3%A9dicale-le-pr%C3%A9judice-sp%C3%A9cifique-de-contamination",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "d87m0131834",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "x386w131201",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "k5mgv108493",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Délais, montants et postes de préjudice",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "1gd1h132169",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "jfigi147962",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "wxt07147963",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "h5ly3108495",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les délais : 10 ans à compter de la consolidation",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "velkp108497",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'article L. 1142-28 du Code de la santé publique",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033810165",
+                      "target": "BLANK",
+                      "rel": {
+                        "nofollow": true,
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " fixe la prescription à ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "10 ans à compter de la consolidation du dommage",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " — c'est-à-dire la date à laquelle l'état de la victime n'est plus susceptible d'évoluer, fixée par l'expertise médicale. Ce délai s'applique aussi aux demandes ONIAM, y compris pour les vaccinations obligatoires et les mesures sanitaires d'urgence.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "6rfky108502",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "28ueu108503",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "⚠️ ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Attention au délai",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Une demande administrative à l'ONIAM n'est, en elle-même, ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "ni suspensive ni interruptive",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " du délai de 10 ans. Il faut donc, en parallèle, surveiller la prescription pour saisir le juge si l'instruction administrative tarde.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "4dwjx148973",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "v8z8a148974",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "x2ov3108509",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Montants moyens : ce que dit le rapport ONIAM 2024",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0,
+          "start": 2
+        }
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "lr0p1108511",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "lnulb108512",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Indemnisation ONIAM en chiffres (2024)",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Sur l'année 2024, l'ONIAM a versé ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "186 millions d'euros",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " d'indemnités à environ ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "1 225 personnes",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " au titre des accidents médicaux post-CCI, avec un ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "montant moyen de 154 000 euros",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " par dossier — en hausse de 68 % en sept ans ; les offres amiables ont été acceptées dans ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "96 %",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " des cas. Spécifiquement pour la vaccination contre la COVID-19, ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "1 759 demandes",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " ont été enregistrées et ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "181 personnes indemnisées",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " à fin 2024, soit un taux d'acceptation d'environ ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "10 %",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ". ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Source : ",
+                  "decorations": [
+                    {
+                      "type": "ITALIC",
+                      "italicData": true
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Rapport d'activité ONIAM 2024",
+                  "decorations": [
+                    {
+                      "type": "ITALIC",
+                      "italicData": true
+                    },
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.oniam.fr/indemnisation-accidents-medicaux/rapport-d-activite",
+                          "target": "BLANK",
+                          "rel": {
+                            "nofollow": true,
+                            "noreferrer": true
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "UNDERLINE"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " (publié 25 juin 2025).",
+                  "decorations": [
+                    {
+                      "type": "ITALIC",
+                      "italicData": true
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "g03tp149994",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "f15ef149995",
+            "nodes": [
+              {
+                "type": "HEADING",
+                "id": "8it1y108532",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les postes de préjudice indemnisables (nomenclature Dintilhac)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "headingData": {
+                  "level": 3,
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0,
+          "start": 3
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yrham108534",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'évaluation suit la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "nomenclature Dintilhac",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", référentiel non officiel mais largement admis par les juridictions et l'ONIAM. Les principaux postes mobilisables sont les suivants :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "w8753128985",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "xcquq108538",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "h17t8108539",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "15f4g108540",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Déficit fonctionnel permanent (DFP)",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " — séquelles définitives, évaluées en pourcentage",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "vvd7i108543",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "s6f6k108544",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Souffrances endurées",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " — évaluées sur une échelle de 1 à 7",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "r9dtz108547",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "e4ik2108548",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Préjudice esthétique",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " — cicatrices, modifications corporelles",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "g7mi6108551",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "id7es108552",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Préjudice d'agrément",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " — loisirs, sport, vie sociale altérés",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "tkylp108555",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ruw7t108556",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Pertes de gains professionnels",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " actuels et futurs",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "tm0fr108559",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "5a5gm108560",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Incidence professionnelle",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " — reclassement, perte de chance de carrière",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "pfzso108563",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "z2u51108564",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Assistance par tierce personne",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " — avant et après consolidation",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "xlvos108567",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "iot69108568",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Frais médicaux et pharmaceutiques",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " restés à charge, transports, aménagements du domicile",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0fx1g108571",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wza26129335",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À titre indicatif uniquement, pour un DFP de 10-15 %, les ordres de grandeur peuvent s'échelonner entre 15 000 et 30 000 euros selon le contexte ; pour une inaptitude sévère ou un décès, plusieurs centaines de milliers d'euros à plus d'un million ne sont pas exceptionnels. Chaque dossier reste évalué ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "individuellement",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " — il n'existe pas, en France, de barème officiel obligatoire.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "a2u8684779",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "xzzvf84780",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0n5ys84781",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À ce stade, vous avez déjà fait l'essentiel.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "9womb85852",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "m56ct85854",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vous avez identifié votre régime, le seuil de gravité applicable, le délai à respecter. C'est un cap important — la plupart des gens ne le passent jamais.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "61arr85856",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "8sus485858",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les moments qui restent les plus difficiles — expertise médicale déjà passée, refus à contester, offre ONIAM qui vous paraît sous-évaluée — ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "c'est exactement à ce moment-là que l'œil d'un avocat fait la différence",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si vous voulez faire le point avec nous, sans engagement",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/honoraires-rendez-vous",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "z4o0u84794",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "LINK_PREVIEW",
+        "id": "izg5m84795",
+        "nodes": [],
+        "linkPreviewData": {
+          "description": "Prenez rendez-vous avec le Cabinet Plouton (Bordeaux). Demandes traitées le jour même, RDV sous 7 jours, urgences possibles. Premier RDV : 180 € TTC. Horaires & accès.",
+          "link": {
+            "url": "https://www.jplouton-avocat.fr/honoraires-rendez-vous",
+            "target": "BLANK"
+          },
+          "containerData": {
+            "alignment": "CENTER",
+            "textWrap": true
+          },
+          "title": "Honoraires & prise de rendez-vous – Cabinet Plouton, avocats à Bordeaux",
+          "thumbnailUrl": "https://static.wixstatic.com/media/d05c9e_75eb8b18d2b247eab8afa1356a161f79%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/d05c9e_75eb8b18d2b247eab8afa1356a161f79%7Emv2.jpg"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lf9my84796",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "iohk7146329",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "3z3si108581",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vos questions les plus fréquentes",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "a5cgf98776",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "COLLAPSIBLE_LIST",
+        "id": "sujc4100015",
+        "nodes": [
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "rpl1f100314",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "iuqbg100315",
+                "nodes": [
+                  {
+                    "type": "HEADING",
+                    "id": "g0k1u100316",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Indemnisation et remboursement d'un vaccin, quelle est la différence ?",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "headingData": {
+                      "level": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "i4xji100317",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "58yx5108585",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Indemnisation et remboursement ne se confondent pas.",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": " Le remboursement (Sécu, mutuelle) couvre le prix d'achat du vaccin et de son injection. L'indemnisation, gérée par l'ONIAM, répare un préjudice corporel grave imputable au vaccin — séquelles, perte de gains, souffrances. Ce sont deux mécanismes juridiques distincts.",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "fubjq102071",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "5hdcz102072",
+                "nodes": [
+                  {
+                    "type": "HEADING",
+                    "id": "3vpfb102073",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Quel régime ONIAM s'applique à un vaccin COVID administré au grand public ?",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "headingData": {
+                      "level": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "mu8qg102074",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "4o070108590",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Le régime des mesures sanitaires d'urgence",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": " (article L. 3131-4 CSP), accessible par le pont posé à l'article L. 3131-20 alinéa 1ᵉʳ. La réparation est intégrale, sans seuil de gravité, par saisine directe de l'ONIAM. Les soignants, vaccinés au titre d'une obligation, relèvent du régime distinct des vaccinations obligatoires (L. 3111-9).",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "bky61103826",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "18ds9103827",
+                "nodes": [
+                  {
+                    "type": "HEADING",
+                    "id": "w3gnj103828",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Quel seuil de gravité pour être indemnisé après un vaccin recommandé ?",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "headingData": {
+                      "level": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "mtqk3103829",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "t6w7o108595",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Le seuil est fixé par l'article D. 1142-1 du Code de la santé publique.",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": " Il est constitué dès qu'au moins l'un des critères suivants est rempli : AIPP supérieure ou égale à 24 %, ITT de 6 mois consécutifs ou non consécutifs sur 12 mois, inaptitude définitive ou troubles particulièrement graves dans les conditions d'existence.",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "trsad105931",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "vclnl105932",
+                "nodes": [
+                  {
+                    "type": "HEADING",
+                    "id": "e8kf9105933",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Dans quel délai faut-il agir après un effet indésirable de vaccin ?",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "headingData": {
+                      "level": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "koz3x105934",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "2s0am108598",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "La prescription est de 10 ans à compter de la consolidation du dommage (article L. 1142-28 CSP). Une simple demande administrative à l'ONIAM n'interrompt pas ce délai : il faut, en parallèle, conserver la possibilité de saisir le juge dans les 10 ans.",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "ef92n111189",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "lqixh111190",
+                "nodes": [
+                  {
+                    "type": "HEADING",
+                    "id": "5tley111191",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "L'ONIAM peut-il refuser ? Que faire en cas de refus ?",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "headingData": {
+                      "level": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "uvec4111192",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "obb7n108605",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Oui, l'ONIAM refuse environ neuf demandes sur dix sur le terrain des vaccinations.",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": " Un refus peut être contesté par voie contentieuse devant le tribunal administratif. Une demande d'expertise en référé est également possible : la CAA Bordeaux l'a illustré le 8 mars 2023 (arrêt n° 22BX03136) en désignant un collège médical malgré un rejet initial.",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "sgbc9115382",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "wu41j115383",
+                "nodes": [
+                  {
+                    "type": "HEADING",
+                    "id": "i4fa6115384",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Le lien de causalité doit-il être scientifiquement prouvé ?",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "headingData": {
+                      "level": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "v5gq0115385",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "9keqg108610",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Non. Le juge admet la preuve par faisceau d'indices",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": " lorsque la science ne tranche pas. Le Conseil d'État (29 septembre 2021, n° 432627) et la Cour de justice de l'Union européenne (21 juin 2017, C-621/15) ont posé que des indices graves, précis et concordants suffisent à établir le lien — y compris en contexte d'incertitude scientifique.",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "2bfjr118175",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "pdvsl118176",
+                "nodes": [
+                  {
+                    "type": "HEADING",
+                    "id": "owjm4118177",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Quels sont les montants moyens d'indemnisation par l'ONIAM ?",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "headingData": {
+                      "level": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "by9ts118178",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "a1hnq108615",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Le montant moyen d'indemnisation est de 154 000 euros en 2024",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": ", en hausse de 68 % sur sept ans (rapport d'activité ONIAM 2024). Les offres amiables sont acceptées dans 96 % des cas. Les écarts sont importants selon la gravité : de quelques milliers d'euros à plus d'un million pour les inaptitudes sévères ou décès.",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "COLLAPSIBLE_ITEM",
+            "id": "0wr32120273",
+            "nodes": [
+              {
+                "type": "COLLAPSIBLE_ITEM_TITLE",
+                "id": "b1w7o120274",
+                "nodes": [
+                  {
+                    "type": "HEADING",
+                    "id": "xprgi120275",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Faut-il un avocat pour saisir l'ONIAM ?",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "headingData": {
+                      "level": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "COLLAPSIBLE_ITEM_BODY",
+                "id": "wem2m120276",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "ue9lt108620",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "L'avocat n'est pas obligatoire mais utile dès que le dossier est complexe.",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": " Pour une demande simple et bien documentée, la saisine directe peut suffire. En cas d'expertise critique, de lien de causalité fragile, de refus ou d'offre sous-évaluée, l'accompagnement d'un avocat spécialisé en dommage corporel modifie sensiblement l'issue du dossier.",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "collapsibleListData": {
+          "containerData": {
+            "alignment": "CENTER",
+            "textWrap": true
+          },
+          "initialExpandedItems": "FIRST",
+          "direction": "LTR"
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "2k7mt140652",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "hzdq8108623",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vous n'êtes pas obligé d'y aller seul ! ",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "krcy5156422",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3fjsc124469",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les dossiers d'indemnisation vaccinale ne sont pas systématiquement gagnés — environ neuf demandes sur dix restent rejetées par l'ONIAM, principalement sur l'imputabilité. Mais entre un dossier mal constitué et un dossier dont l'expertise médicale et le faisceau d'indices ont été préparés rigoureusement, l'issue n'est pas la même.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "mtj9k157708",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "efcp4158355",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Aucun article, aussi détaillé soit-il, ne remplace l'écoute d'un dossier réel. Si le vôtre vous dépasse, vous avez le droit de vous faire accompagner.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zncty157710",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "x50p5158033",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Au Cabinet Plouton (Barreau de Bordeaux, ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "45 Cours d'Alsace-et-Lorraine",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "), nous accompagnons les personnes qui traversent ces situations en Gironde, Nouvelle-Aquitaine et au-delà — sans jamais transformer un premier contact en obligation.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#14495B"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ibeib142041",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "efj2g159655",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si vous voulez nous parler de votre dossier — premier échange sans engagement",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/honoraires-rendez-vous",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "6sz4h142429",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gjgp8160362",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "88f2c108633",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À propos de l'auteur, Me Plouton, avocat pénaliste à Bordeaux",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#848181"
+                  }
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "RIGHT"
+          }
+        }
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "tt684108635",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "ygmxe108636",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Maître Julien Plouton",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " — avocat au Barreau de Bordeaux, a prêté serment en 2004 après une formation à l'École de Formation du Barreau de Paris (EFB). Diplômé d'un ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "DESS en droit des affaires et fiscalité",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", d'un ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "DEA en droit européen",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " et d'un ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "master spécialisé HEC en droit et management international",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", il a fondé le ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Cabinet Plouton en 2009",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", situé au 45 Cours d'Alsace-et-Lorraine à Bordeaux.Il est membre de l'",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Institut du Dommage Corporel (IDC)",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", de l'",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Association des Avocats Pénalistes (ADAP)",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " et de l'",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Institut du Droit des Affaires du Barreau de Bordeaux (IDA)",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ". Depuis plus de vingt ans, il accompagne les victimes d'accidents médicaux et d'effets indésirables liés aux soins en Nouvelle-Aquitaine et au-delà.",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "En savoir plus sur le cabinet",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    },
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.jplouton-avocat.fr/notre-cabinet",
+                          "target": "BLANK"
+                        }
+                      }
+                    },
+                    {
+                      "type": "UNDERLINE"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " • ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Demander un premier rendez-vous",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "foreground": "#848181"
+                      }
+                    },
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "url": "https://www.jplouton-avocat.fr/honoraires-rendez-vous",
+                          "target": "BLANK"
+                        }
+                      }
+                    },
+                    {
+                      "type": "UNDERLINE"
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xv3cp108656",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "RIGHT"
+          }
+        }
+      }
+    ],
+    "documentStyle": {}
+  }
+}

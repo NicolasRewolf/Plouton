@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Qu'est-ce que la période de Sûreté ?",
+    "answer": "La période de sûreté est une durée d'incarcération incompressible pendant laquelle le condamné ne peut bénéficier d'aucun aménagement de peine : ni placement à l'extérieur, ni semi-liberté, ni permissions de sortir, ni libération conditionnelle. Elle s'applique aux peines privatives de liberté sans sursis.\n\nElle peut être légale (automatique) : un texte spécifique la prévoit pour les infractions les plus graves (meurtres aggravés, empoisonnement, extorsions aggravées…). Le juge n'a pas à la prononcer, il peut seulement en modifier la durée.\n\nElle peut aussi être décidée (spéciale) : en dehors de tout texte spécifique, le juge peut l'ordonner dès lors que la condamnation est d'au moins 5 ans d'emprisonnement ferme (article 132-23 du Code pénal).\n\nAu fil des réformes, des infractions d'une gravité moindre — comme l'administration de substances nuisibles — ont progressivement intégré le champ de la sûreté légale.",
+    "sousExpertise": "Période de sûreté"
+  },
+  {
+    "question": "Peut-on être condamné pour crime sans preuve matérielle ?",
+    "answer": "Oui. En matière criminelle, la loi nʼexige pas de preuve matérielle formelle : la Cour dʼassises statue selon son intime conviction, principe posé par lʼarticle 353 du Code de procédure pénale. Une condamnation peut reposer uniquement sur des témoignages, des aveux ou un faisceau dʼindices graves et concordants, sans pièce à conviction physique.\n\nLʼaccusé bénéficie toutefois de la présomption dʼinnocence (article 9 de la Déclaration des droits de lʼhomme, article préliminaire du CPP) : le doute doit profiter à lʼaccusé. Si les preuves sont fragiles ou contradictoires, cʼest à la défense de mettre en lumière les incohérences du dossier pour créer ce doute raisonnable.\n\nDevant la Cour criminelle départementale, qui juge désormais la majorité des crimes punis de 15 à 20 ans, ce sont des magistrats professionnels qui délibèrent — ce qui renforce lʼexigence de motivation du verdict.",
+    "sousExpertise": "Crimes"
+  },
+  {
+    "question": "Quelles sont les conséquences de la préméditation ?",
+    "answer": "La préméditation est une circonstance aggravante qui alourdit significativement la peine encourue, et peut même modifier la nature juridique de l'infraction.\n\nL'exemple le plus frappant est celui du meurtre : l'homicide volontaire est puni de 30 ans de réclusion criminelle (art. 221-1 du Code pénal), mais s'il est commis avec préméditation, il devient un assassinat, puni de la réclusion criminelle à perpétuité (art. 221-3 du Code pénal).\n\nL'effet de la préméditation peut aussi transformer la nature même de l'infraction. Des violences ayant entraîné une ITT inférieure ou égale à 8 jours constituent une contravention de 5ème classe (art. R625-1 du Code pénal). Retenues avec préméditation, ces mêmes violences deviennent un délit puni de 3 ans d'emprisonnement et 45 000 € d'amende (art. 222-13, 9° du Code pénal).\n\nEn défense comme en accusation, il est donc essentiel que cette circonstance soit établie de manière claire et certaine avant d'être retenue par les juges.",
+    "sousExpertise": "Préméditation"
+  },
+  {
+    "question": "Pendant combien de temps peut-on être considéré en état de récidive après une première infraction ?",
+    "answer": "La durée pendant laquelle on peut être en état de récidive dépend de la nature et de la gravité de la première infraction, conformément aux articles 132-8 à 132-10 du Code pénal.\n\nSi la première infraction est un crime ou un délit puni d'au moins 10 ans d'emprisonnement :\n\nTout nouveau crime commis ultérieurement constitue une récidive, sans limite de temps. Un nouveau délit puni d'une peine égale ou supérieure à 10 ans est en récidive s'il intervient dans les 10 ans suivant l'expiration ou la prescription de la peine précédente. Ce délai est réduit à 5 ans si le nouveau délit est puni d'une peine comprise entre 1 et 10 ans.\n\nSi la première infraction est un délit puni de moins de 10 ans :\n\nLa récidive est constituée si le même délit, ou un délit assimilé, est commis dans les 5 ans suivant l'expiration ou la prescription de la peine précédente.",
+    "sousExpertise": "Récidive"
+  },
+  {
+    "question": "Pour quels motifs peut-on former un pourvoi en cassation après un procès criminel ?",
+    "answer": "Le pourvoi en cassation après un procès criminel repose sur des moyens de droit, jamais sur des faits. Trois grandes catégories de moyens sont recevables : la violation de la loi (mauvaise interprétation ou application d'un texte pénal), le vice de procédure (atteinte aux droits de la défense, irrégularité de la composition de la Cour d'assises, nullité d'un acte d'instruction) et l'incompétence de la juridiction.\n\nLe délai pour se pourvoir est de 5 jours francs à compter du prononcé de l'arrêt (article 568 du Code de procédure pénale). Le mémoire ampliatif exposant les moyens doit être déposé dans un délai fixé par le greffe de la Cour de cassation.\n\nIdentifier un moyen sérieux exige une lecture minutieuse de l'arrêt attaqué et du dossier de procédure : un avocat au Conseil d'État et à la Cour de cassation est seul habilité à déposer le pourvoi.",
+    "sousExpertise": "Pourvoi en Cassation"
+  },
+  {
+    "question": "La récidive aggrave-t-elle la peine encourue ?",
+    "answer": "Oui : commettre une infraction en état de récidive légale augmente automatiquement le maximum de la peine encourue, conformément aux articles 132-8 à 132-11 du Code pénal.\n\nLorsque la première infraction est un crime ou un délit puni d'au moins 10 ans d'emprisonnement, les règles suivantes s'appliquent au nouveau fait :\n\n— nouveau crime puni de 20 ou 30 ans de réclusion : réclusion criminelle à perpétuité\n— nouveau crime puni de 15 ans de réclusion : 30 ans de réclusion criminelle\n— nouveau délit puni d'au moins 1 an d'emprisonnement : peines d'emprisonnement et d'amende doublées\n\nLorsque la première infraction est un délit, la commission du même délit (ou d'un délit assimilé) entraîne le doublement des peines d'emprisonnement et d'amende.\n\nCes seuils concernent les maximums légaux : le juge conserve son pouvoir d'individualisation de la peine.",
+    "sousExpertise": "Récidive"
+  },
+  {
+    "question": "Qu'est-ce qu'une ordonnance de mise en accusation devant la Cour d'assises ?",
+    "answer": "L'ordonnance de mise en accusation est la décision par laquelle le juge d'instruction clôt l'information judiciaire et renvoie la personne mise en examen devant la Cour d'assises pour y être jugée pour un crime. Elle est rendue par la chambre de l'instruction (et non directement par le juge d'instruction) en application de l'article 214 du Code de procédure pénale.\n\nCette ordonnance fixe les faits retenus à la charge de l'accusé et définit le cadre du procès criminel. Elle met fin à la détention provisoire ou en précise le maintien. L'accusé peut la contester devant la chambre criminelle de la Cour de cassation dans un délai de 5 jours suivant sa notification.",
+    "sousExpertise": "Procédure pénale"
+  },
+  {
+    "question": "Quelles sont les différences entre la Cour d'assises et la Cour criminelle départementale ?",
+    "answer": "La Cour d'assises et la Cour criminelle départementale (créée par la loi du 22 décembre 2021, pérennisée au 1er janvier 2023) se distinguent par leur composition et la gravité des crimes jugés.\n\nCour d'assises\nComposition : 3 magistrats et 6 jurés en première instance ; 3 magistrats et 9 jurés en appel.\nCompétence : crimes punis de plus de 20 ans de réclusion criminelle.\nExemples : meurtre, assassinat, empoisonnement, actes de torture et de barbarie ayant entraîné la mort ou une infirmité permanente.\n\nCour criminelle départementale\nComposition : 5 magistrats professionnels, sans jury populaire.\nCompétence : crimes punis de 15 à 20 ans de réclusion criminelle.\nExemples : viol, coups mortels, vol à main armée.",
+    "sousExpertise": "Cours d'assises"
+  },
+  {
+    "question": "Comment mon avocat peut-il intervenir pendant ma garde à vue ?",
+    "answer": "Depuis la loi du 14 avril 2011, l'avocat dispose de droits réels pendant la garde à vue : il peut assister à chaque audition et confrontation, consulter le procès-verbal de notification des droits, le certificat médical et les procès-verbaux d'audition, et formuler des observations écrites versées au dossier.\n\nConcrètement, avant la première audition, il s'entretient avec son client pendant 30 minutes (article 63-4 du Code de procédure pénale). Cet entretien confidentiel lui permet de préparer la défense, d'informer le gardé à vue de son droit au silence et d'évaluer les risques procéduraux.\n\nÀ l'issue de chaque audition, l'avocat peut consigner ses observations. Si des irrégularités sont constatées — durée illégale, absence de notification des droits, conditions indignes — il peut soulever des nullités de procédure susceptibles d'entraîner l'annulation des actes accomplis pendant la mesure.",
+    "sousExpertise": "Garde à vue"
+  },
+  {
+    "question": "Combien de temps dure une procédure devant la Cour de cassation ?",
+    "answer": "Une procédure devant la Cour de cassation dure en moyenne 12 à 18 mois à compter du dépôt du pourvoi.\n\nSi la Cour rend un arrêt de cassation, elle annule la décision contestée et renvoie l'affaire devant une nouvelle cour d'assises pour être jugée à nouveau.\n\nSi elle rend un arrêt de rejet, elle confirme la décision attaquée, qui devient définitive. Les voies de recours devant les juridictions françaises sont alors épuisées — un recours devant la Cour européenne des droits de l'homme (CEDH) reste toutefois possible sous certaines conditions.",
+    "sousExpertise": "Pourvoi en Cassation"
+  },
+  {
+    "question": "Puis-je refuser de répondre aux questions des policiers pendant une garde à vue ?",
+    "answer": "Oui. Dès le début de la garde à vue, vous devez être informé de votre droit de garder le silence (article 63-1 du Code de procédure pénale). Vous êtes uniquement tenu de décliner votre identité — nom, prénom, date et lieu de naissance, adresse. Pour le reste, vous pouvez refuser de répondre à toutes les questions sans que ce silence puisse être interprété comme un aveu.\n\nCe droit est absolu : aucune pression, menace ou promesse ne peut légalement vous contraindre à parler. En pratique, la décision de parler ou de se taire dépend des faits reprochés et des éléments déjà détenus par les enquêteurs. Un avocat commis d'office ou choisi peut vous assister dès la première heure de garde à vue et vous aider à définir la stratégie la plus adaptée à votre situation.",
+    "sousExpertise": "Garde à vue"
+  },
+  {
+    "question": "Comment défendre une personne accusée de meurtre avec préméditation ?",
+    "answer": "Défendre un accusé de meurtre avec préméditation — qualifié d'assassinat par l'article 221-3 du Code pénal, passible de la réclusion criminelle à perpétuité — repose sur plusieurs axes stratégiques selon les éléments du dossier.\n\nLa première ligne de défense consiste à contester la préméditation : l'accusation doit prouver que l'acte a été résolu avant sa commission. L'absence de planification établie (absence de repérages, de préparation matérielle, de communications incriminantes) peut permettre une requalification en meurtre simple (article 221-1), dont la peine maximale est de 30 ans.\n\nAutre axe majeur : invoquer un trouble mental au sens de l'article 122-1 du Code pénal, qui peut aboutir à une irresponsabilité pénale ou à une atténuation de la peine selon le degré du trouble.\n\nEnfin, la défense peut cibler la solidité des preuves : contester la légalité des actes d'enquête, la valeur des expertises médico-légales ou la crédibilité des témoignages.\n\nDans une procédure criminelle, l'assistance d'un avocat pénaliste est indispensable dès la garde à vue.",
+    "sousExpertise": "Crimes"
+  },
+  {
+    "question": "Quelles sont les spécificités d’un procès pour viol ?",
+    "answer": "Le procès pour viol se tient devant la cour d'assises (ou la cour criminelle départementale depuis 2021). Les débats ont lieu à huis clos par défaut, conformément à l'article 306 du Code de procédure pénale, pour protéger la victime — sauf demande contraire de sa part.\n\nLe viol est défini à l'article 222-23 du Code pénal comme tout acte de pénétration sexuelle commis sur autrui par violence, contrainte, menace ou surprise. Il est puni de 15 ans de réclusion criminelle, portés à 20 ans en cas de circonstances aggravantes (victime mineure, auteur en position d'autorité, etc.).\n\nLa défense comme l'accusation s'appuient sur les expertises médico-légales, les témoignages, les éléments de preuve numérique et l'analyse du consentement. La victime peut se constituer partie civile et obtenir réparation de son préjudice.",
+    "sousExpertise": "Viol"
+  },
+  {
+    "question": "Comment contester une preuve ADN en Cour d’assises ?",
+    "answer": "Contester une preuve ADN en cour dʼassises repose sur trois axes principaux : la régularité de la collecte, la chaîne de conservation des scellés et la fiabilité des méthodes dʼanalyse. Une irrégularité sur lʼun de ces points peut conduire à lʼexclusion de la preuve ou à sa dévaluation devant les jurés.\n\nLa première voie est la demande de contre-expertise, possible à tout moment de lʼinstruction ou pendant les débats (article 156 du Code de procédure pénale). Elle permet de soumettre le profil génétique à un laboratoire indépendant.\n\nLa deuxième voie consiste à interroger les conditions de prélèvement : scellés mal cotés, rupture de la chaîne de froid, absence de procès-verbal de saisie conforme fragilisent la valeur probante de lʼanalyse.\n\nLa troisième voie porte sur les risques de contamination : un prélèvement réalisé sans protocole adapté (absence de combinaison, matériel non stérile) peut introduire un doute sérieux sur lʼorigine de lʼADN identifié.\n\nUn avocat pénaliste peut soulever ces moyens dès lʼinstruction pour préparer la contestation devant la cour.",
+    "sousExpertise": "Preuves"
+  },
+  {
+    "question": "Que faire si je suis visé par un mandat d’arrêt européen ?",
+    "answer": "Si vous êtes visé par un mandat d'arrêt européen (MAE), vous disposez du droit de vous opposer à votre remise à l'État requérant devant la chambre de l'instruction. La procédure est encadrée par les articles 695-11 et suivants du Code de procédure pénale, qui prévoient des motifs stricts de refus d'exécution.\n\nPlusieurs moyens permettent de contester un MAE : vice de forme dans le mandat, non-respect du principe de double incrimination, risque d'atteinte aux droits fondamentaux dans l'État d'émission, ou disproportion manifeste de la mesure au regard des faits reprochés.\n\nLes délais sont très courts : la chambre de l'instruction statue en principe dans les 40 jours suivant l'arrestation. Une assistance juridique immédiate est indispensable pour préparer une défense efficace dès la première comparution.",
+    "sousExpertise": "Mandats d’arrêt"
+  },
+  {
+    "question": "Quels sont mes droits en garde à vue si je suis mineur ?",
+    "answer": "Un mineur en garde à vue bénéficie de protections renforcées par rapport à un adulte, modulées selon son âge : moins de 13 ans, entre 13 et 16 ans, ou entre 16 et 18 ans.\n\nDans tous les cas, la présence de lʼavocat est obligatoire dès le début de la garde à vue — elle ne peut pas être différée. Les interrogatoires font lʼobjet dʼun enregistrement audiovisuel systématique, et un examen médical est imposé dès le placement.\n\nLes parents ou le représentant légal doivent être informés immédiatement. Pour les moins de 16 ans, leur présence lors des auditions peut être exigée. La durée maximale de garde à vue est également réduite pour les mineurs de moins de 13 ans, qui ne peuvent en principe être retenus que dans un cadre de retenue spéciale.\n\nSi votre enfant est placé en garde à vue, contactez un avocat pénaliste sans attendre.",
+    "sousExpertise": "Garde à vue"
+  },
+  {
+    "question": "Combien de temps dure une enquête préliminaire ?",
+    "answer": "La durée d'une enquête préliminaire n'est pas fixée par la loi : elle varie de quelques semaines à plusieurs années selon la complexité de l'affaire. Depuis la loi du 22 décembre 2021, l'enquête préliminaire est en principe limitée à 2 ans, prorogeable une fois d'1 an sur autorisation du procureur de la République (article 75-3 du Code de procédure pénale). Ce délai peut être porté à 3 ans pour les affaires complexes.\n\nPendant cette phase, la personne visée n'a pas nécessairement connaissance de l'enquête. Un avocat peut intervenir dès qu'une garde à vue, une perquisition ou une convocation survient pour protéger vos droits sans attendre la mise en examen.",
+    "sousExpertise": "Procédure pénale"
+  },
+  {
+    "question": "Qu’est-ce qu’un mis en examen ?",
+    "answer": "Le mis en examen est une personne contre laquelle un juge d'instruction a relevé des indices graves ou concordants laissant soupçonner sa participation à une infraction (article 80-1 du Code de procédure pénale). Ce statut ouvre des droits : accès au dossier, possibilité de demander des actes d'instruction.\n\nEn principe, le mis en examen reste libre. Le juge peut cependant lui imposer des obligations dans le cadre d'un contrôle judiciaire ou, si celles-ci sont insuffisantes, d'une assignation à résidence avec surveillance électronique.\n\nÀ titre exceptionnel, si ces mesures ne permettent pas d'atteindre les objectifs fixés par la loi, le juge peut ordonner une détention provisoire.",
+    "sousExpertise": "Statuts"
+  },
+  {
+    "question": "Dans quelles conditions une mesure de libération conditionnelle peut-elle être accordée ?",
+    "answer": "La libération conditionnelle peut être accordée par le juge de l'application des peines (JAP) lorsque deux conditions sont remplies : un quantum de peine exécutée suffisant et des gages sérieux de réinsertion. Elle nʼest jamais automatique — elle doit être demandée.\n\nQuantum de peine exécutée\nEn principe, le détenu doit avoir accompli au moins la moitié de sa peine. Pour une réclusion criminelle à perpétuité, ce seuil est porté à 18 ans de détention.\n\nGages de réinsertion\nLe détenu doit démontrer des efforts concrets : activité professionnelle ou formation en détention, suivi médical si nécessaire, et surtout un projet de sortie solide (logement, emploi ou formation, soutien familial).\n\nLa demande est adressée au JAP par le détenu lui-même ou par son avocat. Un accompagnement par un avocat pénaliste est utile pour constituer un dossier convaincant.",
+    "sousExpertise": "Libération conditionnelle"
+  },
+  {
+    "question": "La préméditation est-elle une circonstance aggravante mixte ?",
+    "answer": "La préméditation est qualifiée de circonstance aggravante mixte parce qu'elle combine une dimension personnelle et une dimension réelle. Elle est personnelle en ce qu'elle traduit la résolution de l'auteur d'agir avant de passer à l'acte. Elle est réelle parce qu'elle s'apprécie à partir de faits objectifs extérieurs à l'agent : le guet-apens, la préparation matérielle, l'écoulement d'un délai de réflexion.\n\nCette nature mixte a des conséquences directes sur la communication de la circonstance aggravante aux coauteurs et complices : en tant que circonstance réelle, elle se communique aux participants qui en avaient connaissance.",
+    "sousExpertise": "Préméditation, Circonstance aggravante"
+  }
+]

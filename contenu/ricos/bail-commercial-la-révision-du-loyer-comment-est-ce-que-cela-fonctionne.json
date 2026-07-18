@@ -1,0 +1,5648 @@
+{
+  "slug": "bail-commercial-la-révision-du-loyer-comment-est-ce-que-cela-fonctionne",
+  "sourcePath": "/post/bail-commercial-la-révision-du-loyer-comment-est-ce-que-cela-fonctionne",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "bu4ge7458",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La révision du loyer commercial est encadrée par les articles L145-33 à L145-39 du Code de commerce qui définissent les conditions d'ajustement du montant du loyer pendant la durée du bail. Dans cet article: retrouvez une synthèse claire des règles de révision des loyers commerciaux pour propriétaires et locataires",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "mtioi20788",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "xdfhk20793",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Table des matières",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "su5j37465",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "x85477466",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "r884e7467",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les fondements juridiques de l'augmentation du loyer commercial",
+                      "decorations": [
+                        {
+                          "type": "ANCHOR",
+                          "anchorData": {
+                            "anchor": "fby0e21092"
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "3cw5e7469",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "7ofzz7470",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La révision triennale du loyer en bail commercial",
+                      "decorations": [
+                        {
+                          "type": "ANCHOR",
+                          "anchorData": {
+                            "anchor": "k2f097613"
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "u77977472",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "y1qmq7473",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les clauses spécifiques affectant la révision du loyer",
+                      "decorations": [
+                        {
+                          "type": "ANCHOR",
+                          "anchorData": {
+                            "anchor": "p7na67682"
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "l6su17475",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "2iw597476",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Contester une augmentation de loyer commercial",
+                      "decorations": [
+                        {
+                          "type": "ANCHOR",
+                          "anchorData": {
+                            "anchor": "bij6y7750"
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "h2wqm7478",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "fwpt27479",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Situations spécifiques et cas particuliers",
+                      "decorations": [
+                        {
+                          "type": "ANCHOR",
+                          "anchorData": {
+                            "anchor": "t3pc17844"
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "jpfzo7481",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ku3hc7482",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Conseils pratiques pour propriétaires et locataires",
+                      "decorations": [
+                        {
+                          "type": "ANCHOR",
+                          "anchorData": {
+                            "anchor": "rf2jb7919"
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "afate7484",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "d4gck7485",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "FAQ : Questions fréquentes sur la révision du loyer commercial",
+                      "decorations": [
+                        {
+                          "type": "ANCHOR",
+                          "anchorData": {
+                            "anchor": "twpnp8048"
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "31zur21079",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "fby0e21092",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les fondements juridiques de l'augmentation du loyer commercial",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ufux19875",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "• Le Code de commerce (articles L145-33 à L145-39) encadre strictement la révision des loyers commerciaux",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "• Deux mécanismes principaux : la révision triennale légale et les clauses contractuelles (indexation)",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "• L'augmentation est généralement limitée à la variation d'indices officiels (ILC, ILAT)",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "dh67o7493",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le cadre légal de la révision du loyer en bail commercial",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "o3zr07495",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La révision des loyers commerciaux est principalement encadrée par les ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "articles L145-33 à L145-39 du Code de commerce",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000005634379/LEGISCTA000006161265/",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Ces dispositions définissent les conditions dans lesquelles le loyer peut être révisé, garantissant ainsi un équilibre entre les intérêts du bailleur et ceux du preneur.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dbx6v7499",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "cnwg513738",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "article L145-33",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006282990",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " établit le principe fondamental selon lequel le montant des loyers des baux commerciaux révisés doit correspondre à la valeur locative des locaux. Cette valeur est déterminée selon plusieurs critères précis :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "kbtnc7505",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "zmjsk7506",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "bjogn7507",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les caractéristiques propres du local concerné",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "chpom7509",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "u7cvl7510",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La destination contractuelle du local",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "8l8107512",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "b2h9s7513",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les obligations respectives du bailleur et du locataire",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "uztkz7515",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "g3w207516",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les facteurs locaux de commercialité",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "j4gdn7519",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "evyaz7520",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les prix couramment pratiqués dans le voisinage pour des locaux similaires",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nb5nx7522",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "article L145-38",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006282995",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " régit spécifiquement la révision triennale du loyer, qui constitue le mécanisme légal standard d'augmentation du loyer commercial pendant la durée du bail. Cette disposition est au cœur du dispositif de mise en cause des loyers commerciaux prévu par le législateur.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "j44xp13967",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "j3gdu7532",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les différents mécanismes de révision du loyer bail commercial",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jymr27534",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Deux mécanismes principaux permettent la révision du loyer commercial :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "3fl8y7538",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "h5woh7539",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "u0px27540",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La révision légale triennale : intervenant tous les trois ans à la demande de l'une des parties, elle est encadrée par l'article L145-38 du Code de commerce.",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "5ttcp7543",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ofcu97544",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La révision contractuelle : basée sur des clauses spécifiques insérées dans le bail, notamment :",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "83m9y7547",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "e2avi7548",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "0psey7549",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "La clause d'échelle mobile (ou clause d'indexation) permettant une révision automatique, généralement annuelle, en fonction d'un indice de référence",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "zgvgj7553",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "6t5lm7554",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "La clause recette, liant le loyer au chiffre d'affaires du locataire",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "29geo14191",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "ynrfb7558",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les indices de référence pour l'augmentation des loyers commerciaux",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hp7yc7560",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Selon les statistiques de l'INSEE, les principaux indices utilisés pour l'augmentation des loyers commerciaux sont :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "TABLE",
+        "id": "n3pry7564",
+        "nodes": [
+          {
+            "type": "TABLE_ROW",
+            "id": "cal1f7565",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "jnah57566",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "jd8t17567",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Indice",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "2imsx7569",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "r6o7j7570",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Pour quelles activités ?",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "h9ybo7572",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "unl827573",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Comment évolue-t-il ?",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "1kunw7575",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "x29up7576",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "5i6x97577",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "ILC",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "iussm7579",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "755rx7580",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Commerces et artisanat",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "oxt5c7582",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "z4pwb7583",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Publication trimestrielle INSEE",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "8zp1t7585",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "2ehaj7586",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "k4nys7587",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "ILAT",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "memv77589",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "47js67590",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Bureaux et entrepôts",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "xbrz97592",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "nzni17593",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Publication trimestrielle INSEE",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "oznso7595",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "lacy87596",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "ne1647597",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "ICC",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "z6vdf7599",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "8ruv77600",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Anciennes indexations (avant 2014)",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "m81us7602",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "pe6i17603",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Peu utilisé aujourd'hui",
+                          "decorations": []
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          }
+        ],
+        "tableData": {
+          "dimensions": {
+            "colsWidthRatio": [
+              246,
+              246,
+              246
+            ],
+            "rowsHeight": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "colsMinWidth": [
+              120,
+              120,
+              120
+            ]
+          },
+          "cellPadding": []
+        }
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "iypoa7605",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "sgfns7606",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Bon à savoir",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " : Une mesure temporaire de plafonnement de l'ILC à 3,5% a été mise en place pour les PME afin de limiter l'impact de l'inflation récente.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "e8org7609",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ces indices sont publiés par l'INSEE avec un décalage de deux trimestres et servent de base au calcul de l'augmentation du loyer bail commercial.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "9nehy23670",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "z07hy23669",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "k2f097613",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La révision triennale du loyer en bail commercial",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "er19110686",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gdiyt7615",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En résumé",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "86kib10914",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "• La révision triennale est le mécanisme standard d'ajustement du loyer tous les 3 ans",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "• Elle doit être demandée formellement par le bailleur ou le locataire",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "• Le nouveau loyer s'applique à partir de la date de la demande (pas de rétroactivité)",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "riqzt24216",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "jrwhs7619",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conditions et procédure de la révision triennale",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "engwg7621",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Selon l'",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "article R145-20 du Code de commerce",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006284307",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", pour réviser un loyer commercial, vous devez :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "gghlc7625",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "ybte87626",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "iver47627",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Attendre 3 ans minimum depuis :",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "ftfb07630",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "2bv1q7631",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "19y0f7632",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "L'entrée du locataire dans les locaux, ou",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "anzfh7634",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "rglh07635",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Le début du bail renouvelé, ou",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "ua6yj7637",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "o417j7638",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "La dernière révision du loyer",
+                              "decorations": []
+                            }
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "\n",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "3f40n7640",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "pepxy7641",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Formaliser votre demande par :",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "zpbvp7644",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "i6zvu7645",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "2xwlh7646",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Lettre recommandée avec AR, ou",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "s7pd47648",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "jn9uk7649",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Acte d'huissier",
+                              "decorations": []
+                            }
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "\n",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "27iqt7651",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "jirvm7652",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Indiquer clairement le montant du loyer proposé (sinon la demande est nulle)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "ixqnn7655",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Calcul du loyer révisé et plafonnement légal",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "po94w7657",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4t41k38771",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Calcul standard : La majorité des révisions suivent cette formule simple :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "ocpw87660",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "4zcc37661",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Nouveau loyer = Loyer actuel × (Indice récent ÷ Indice ancien)",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "oh3097663",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Exemple : Un loyer de 24 000 € avec un ILC passé de 120 à 126",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "d2l9v7666",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "b3s9m7667",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "24 000 € × (126 ÷ 120) = 25 200 € (soit +5%)",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "st1527669",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Exception - Déplafonnement : Si les \"facteurs locaux de commercialité\" ont fortement changé (>10%), le loyer peut être fixé à la valeur du marché. Mais même dans ce cas, l'augmentation est limitée à 10% par an.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "f421c7672",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Périodicité et délais pour la révision du loyer commercial",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "x316n7674",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "z1kfu38544",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La révision triennale bail commercial ne peut être demandée qu'une fois tous les trois ans. Il n'existe pas de délai maximum pour introduire cette demande après l'expiration du délai de trois ans, mais l'action en révision est soumise à une prescription de deux ans à compter de la date de la demande.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "oecuj7680",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En cas de désaccord, la partie la plus diligente doit saisir le juge des loyers commerciaux dans ce délai de deux ans, sous peine de prescription de l'action.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "p7na67682",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les clauses spécifiques affectant la révision du loyer",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "6l9wq38314",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "j4sno7688",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La clause d'échelle mobile (indexation)",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hhkbb7690",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La clause d'échelle mobile (article ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L145-39",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006282996",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ") permet une révision automatique du loyer selon un calendrier prévu au contrat, généralement chaque année.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pwv6t7696",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "✅ Ce qui est permis :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "718ux7698",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "kmult7699",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "lag8l7700",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Choisir un indice adapté à l'activité concernée",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "dy8007702",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "swmen7703",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Prévoir une fréquence de révision (mensuelle, trimestrielle, annuelle)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "gmnpi7705",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "j083t7706",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Limiter les variations (plancher/plafond)",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "8vvcv7708",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "⛔ Ce qui est interdit :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "afg077710",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "sy31t7711",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "zez0y7712",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Utiliser un indice sans lien avec l'activité",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "7i7557714",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "cks8q7715",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Prévoir une clause qui ne fonctionne qu'à la hausse (\"effet cliquet\")",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "4d5id7717",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "8shdu7718",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Créer une distorsion entre période d'indice et de révision",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "vhe2n7720",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les autres clauses spécifiques et leur impact",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "x3xlz7722",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "D'autres clauses peuvent modifier les règles classiques de révision :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jpyjm7724",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "📊 Clause recette - Le loyer varie en fonction du chiffre d'affaires :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "wftb47727",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "rvft57728",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "05k4n7729",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Souvent utilisée dans les centres commerciaux",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "y0shp7731",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "479co7732",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Comprend généralement un loyer minimum garanti",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "dt4gf7734",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "9t9n37735",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "N'est pas soumise aux règles de la révision triennale",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "towl37737",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "⏱️ Clause de révision fixe - Prévoit des paliers d'augmentation prédéfinis :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "j9vy37740",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "1u9t67741",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "98wwz7742",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Augmentations programmées à dates fixes",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "te1zf7744",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "4lnp07745",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Montants ou pourcentages fixés dès la signature",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "73py57747",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "nm2u17748",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Indépendante des indices officiels",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "bij6y7750",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Contester une augmentation de loyer commercial",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bifl934643",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "5byq87756",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Comment contester une augmentation",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3mcda7758",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si vous recevez une demande d'augmentation que vous jugez injustifiée :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "mpomj34875",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "ak6cb7760",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "d54kq7761",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "nodxw7762",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Vérifiez d'abord les points suivants :",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "blqjx7765",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "yodxo7766",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "ndnbv7767",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Le délai de 3 ans est-il respecté ?",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "n1mp37769",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "dzmh77770",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Le calcul d'indice est-il correct ?",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "v68p47772",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "cgg3g7773",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "La demande respecte-t-elle les formalités obligatoires ?",
+                              "decorations": []
+                            }
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "\n",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "v8fc47775",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "sk8vm7776",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Suivez ce processus de contestation :",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "xdi6u7779",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "1qm2u7780",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "7mlac7781",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Répondez par LRAR en expliquant vos motifs de refus",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "8jwt27783",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "4sz517784",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Proposez une négociation amiable",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "pl3wy7786",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "335kd7787",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Saisissez la commission départementale de conciliation",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "2k1du7789",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "qj9g67790",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "En dernier recours, introduisez une action judiciaire",
+                              "decorations": []
+                            }
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "\n",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "0c57j7792",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Motifs légitimes pour refuser une augmentation",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lgzkd7794",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "5 motifs de contestation recevables :",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "n4xeq7797",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "5zna57798",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "651ff7799",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Non-respect du délai de 3 ans entre deux révisions triennales",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ycs3u7802",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "fw0a17803",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Erreur de calcul dans l'application des indices",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "txdnn7806",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "8403i7807",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Absence de modification significative des facteurs locaux de commercialité en cas de déplafonnement",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "0atcx7810",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "hxvx07811",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Vice de forme dans la demande (absence de LRAR ou d'indication du loyer)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "79chh7814",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "znr2k7815",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Application incorrecte des clauses contractuelles",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "hdra97818",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "iiqcg7819",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Conseil d'avocat",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " : Avant toute contestation, faites vérifier votre calcul par un expert. Les tribunaux sont sévères face aux contestations infondées.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "p2mlh7822",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Documents et modèles pour contester une révision",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "9nkjs7824",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour contester efficacement une augmentation de loyer bail commercial, il est recommandé de préparer :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "r1rr57828",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "yprfv7829",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "pbd527830",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une lettre de contestation précisant les motifs du refus et proposant éventuellement un montant alternatif",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "u8ml47834",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "5addx7835",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Des éléments de preuve justifiant la contestation (historique des révisions précédentes, calculs d'indices, etc.)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "epgmh7839",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "mhr1j7840",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Des références comparatives de loyers pratiqués dans le voisinage pour des locaux similaires",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "aj0pn11228",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "t3pc17844",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Situations spécifiques et cas particuliers",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p23an33519",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "tzido7850",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Rattrapage et rétroactivité en matière de loyer commercial",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "9yv837852",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Question fréquente : Un bailleur peut-il réclamer des loyers \"rattrapés\" s'il a oublié de demander des augmentations pendant plusieurs années?",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rqg2433287",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2csnj7855",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Réponse :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "8v0lr7858",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "j1njs7859",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "9mchn7860",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Pour la révision triennale : Non, aucune rétroactivité. Le nouveau loyer s'applique uniquement à partir de la date de la demande.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "vs14z7864",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "5nlgq7865",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Pour la clause d'indexation : Un rattrapage limité est possible (généralement 5 ans) en cas d'oubli d'application.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "njxwr11689",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "z6e3a7869",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Bail 3-6-9 et augmentation de loyer",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "573887871",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le bail 3-6-9 (bail commercial de 9 ans avec possibilité pour le locataire de résilier tous les 3 ans) obéit aux mêmes règles d'augmentation que les autres baux commerciaux.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vrrun33058",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jymlq7875",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À noter :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "80nb17878",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "yevzn7879",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ab1fn7880",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les périodes de résiliation (3, 6, 9 ans) et les périodes de révision triennale sont deux mécanismes distincts",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "3xg4w7882",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "pnwy67883",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une révision triennale peut être demandée à tout moment après 3 ans, même en dehors des échéances du bail",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "kywyj7885",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "nui5r7886",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Ce n'est pas parce qu'un locataire peut partir à 3 ans qu'il faut attendre 3 ans pour demander une révision",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kyqfh11922",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "scu7d7888",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Renouvellement de bail commercial et impact sur le loyer",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "u3dmi7890",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le renouvellement d'un bail commercial (après 9 ans généralement) est un moment clé pour la réévaluation du loyer.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "v08ve7894",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Règles de base (",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "article L145-34",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006282991",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ") :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "84tyw32833",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "vh6pk7899",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "hriuw7900",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "5zvxv7901",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Par défaut, augmentation limitée à la variation de l'indice applicable (ILC/ILAT)",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "w1uxv7903",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "wr9sy7904",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Possibilité de déplafonnement dans certaines situations :",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "bcjqx7906",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "3f6wq7907",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "aktq27908",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Modification notable des caractéristiques du local",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "3i7vx7910",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "5vvik7911",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Changement important dans la commercialité du lieu",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "ec2xb7913",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "rez8q7914",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Durée contractuelle du bail supérieure à 9 ans",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "byt4o7916",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ey0nd12386",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Attention : Même en cas de déplafonnement, l'augmentation annuelle reste plafonnée à 10%.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ri2wn12160",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "rf2jb7919",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conseils pratiques pour propriétaires et locataires",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "d9ul712615",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "t3p427921",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les propriétaires : optimiser la gestion des révisions de loyer",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "h6fv17923",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "30d8m12843",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Recommandations aux propriétaires pour une gestion efficace des augmentations loyer bail commercial :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tqnqw13071",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "1ci7x7927",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "njto57928",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "x281f7929",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Mise en place d'un système de suivi rigoureux :",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "eui6t7932",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "ibwmd7933",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "2l4fp7934",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Tenir un calendrier précis des dates de révision possible (triennale et indexation)",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "l7r477936",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "n4djn7937",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Programmer des alertes 3 mois avant les échéances importantes",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "v23gh7939",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "gshp37940",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Surveiller trimestriellement la publication des indices de référence sur le site de l'INSEE",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nmqga13303",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "39t8y13757",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "h0uin7942",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "4au3z7943",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Respect scrupuleux du formalisme :",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "v3j467946",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "w5f737947",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "dlq3p7948",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Envoyer les demandes de révision par LRAR ou acte d'huissier",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "37kd87950",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "fm35j7951",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Indiquer clairement le montant du loyer demandé (sous peine de nullité)",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "ciqn07953",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "e6er87954",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Mentionner les indices utilisés pour le calcul avec leurs dates de référence",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "h104p17389",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "0pdty17843",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "8dvqv7956",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "t1mpj7957",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Constitution d'un dossier solide :",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "var7j7960",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "7nvsu7961",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "tk8iv7962",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Conserver un historique complet des révisions et des indices appliqués",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "w1tnj7964",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "ibgcn7965",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Documenter toute modification des facteurs locaux de commercialité",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "wp1c47967",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "xlpic7968",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Collecter des références de loyers comparables dans le quartier",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "ogk067970",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "aj21s7971",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Faire établir un rapport d'expertise préalable si nécessaire",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ra0y720116",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "y9r7w7973",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les locataires : se protéger contre les augmentations abusives",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "u3vtd20797",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "n4s547975",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conseils aux locataires pour se prémunir contre des augmentations de loyer commercial excessives :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "quvhy21025",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "qbb3r7979",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "5irhn7980",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "hfkdp7981",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Vérifications préalables lors de la réception d'une demande d'augmentation :",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "fdxn97984",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "r44z57985",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "68kgv7986",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Contrôler le respect du délai minimum de trois ans entre deux révisions triennales",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "gyiwb7988",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "ytxek7989",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Vérifier systématiquement les calculs d'indexation avec les indices officiels publiés par l'INSEE",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "gzd5r7991",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "iaibc7992",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "S'assurer que la demande respecte le formalisme requis (LRAR ou acte d'huissier)",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "p54py7994",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "obtc97995",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Examiner si le montant du loyer proposé est clairement indiqué",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "b0i5e23298",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "g5khc23752",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "g01ex7997",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ia5rl7998",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Actions défensives :",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "g6oa48001",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "9i1nw8002",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "eguzf8003",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Contester par écrit (LRAR) toute demande d'augmentation jugée non conforme dans un délai raisonnable",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "d6qwl8005",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "asx2p8006",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Solliciter une révision à la baisse en cas de diminution de la valeur locative ou lors de circonstances économiques défavorables",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "lp5038008",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "vkzk48009",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Demander la nullité des clauses d'indexation potentiellement illicites (indices inappropriés, effet cliquet...)",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "zarhh8011",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "5d1il8012",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Saisir la commission départementale de conciliation en cas de désaccord persistant",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "cymta23985",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "hsvvv24439",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "ow2hk8014",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "0sllq8015",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Stratégies préventives :",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "c5fcs8018",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "4i8a78019",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "cqgnd8020",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Négocier dès la conclusion du bail les clauses d'indexation et de plafonnement",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "xfzz78022",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "7lne78023",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Faire insérer des clauses de révision adaptées à l'activité (clause recette par exemple)",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "kdzzw8025",
+                    "nodes": [
+                      {
+                        "type": "PARAGRAPH",
+                        "id": "b1r0w8026",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Documenter l'état du marché locatif local avec des références comparables",
+                              "decorations": []
+                            }
+                          }
+                        ],
+                        "paragraphData": {}
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rifnp43106",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "6ut5a43105",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wzbod43107",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "tq4k343310",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Face à votre problème, notre cabinet intervient.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "foreground": "#E54D4D"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "9biv924671",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "edpnf8038",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Face à la technicité de cette matière et aux enjeux financiers souvent importants, le recours à un avocat spécialisé comme le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cabinet Plouton",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " peut s'avérer déterminant. Notre équipe d'avocats experts en ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "droit des contrats",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/droit-des-contrats-et-des-personnes/droit-assurances-particuliers-professionnels",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " vous accompagne efficacement, que vous soyez propriétaire ou locataire, dans toutes vos démarches et négociations relatives à la révision des loyers commerciaux à Bordeaux et partout en France.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ckcwl24903",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zuzts8044",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Besoin d'un conseil juridique personnalisé sur votre situation de bail commercial ? ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Contactez notre cabinet",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/notre-cabinet",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour une analyse approfondie et des solutions adaptées.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "qpd5c41905",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "twpnp8048",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "FAQ : Questions fréquentes sur la révision du loyer commercial",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "40rlt25134",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3xogr8050",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quand peut-on augmenter le loyer d'un bail commercial ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "uaix425362",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'augmentation peut intervenir soit dans le cadre de la révision triennale (tous les 3 ans), soit selon la périodicité prévue par une clause d'indexation (généralement annuelle), soit lors du renouvellement du bail.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "m0cr125818",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "1u7298053",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Comment calculer l'augmentation du loyer bail commercial avec l'ILC ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xbbs726047",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le calcul s'effectue selon la formule : Loyer actuel × (Dernier ILC publié ÷ ILC de référence lors de la dernière fixation du loyer).",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xh2jz8056",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kmz9026735",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Peut-on refuser une augmentation de loyer commercial ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5ahx226506",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Oui, si elle ne respecte pas les conditions légales ou contractuelles, notamment en cas de calcul erroné, de non-respect du délai de 3 ans, ou d'absence de justification d'un déplafonnement.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "spq6527196",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tgo1r8059",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quelle est la différence entre révision triennale et indexation du loyer ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jxqy727427",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La révision triennale est un mécanisme légal intervenant tous les 3 ans à la demande d'une partie, tandis que l'indexation résulte d'une clause contractuelle permettant une révision automatique (généralement annuelle) selon l'évolution d'un indice.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "1b95u8062",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4gtmd27889",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un bailleur peut-il demander un rattrapage des augmentations non appliquées ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hk3ua28352",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour la révision triennale, non, car elle n'est pas rétroactive. Pour l'indexation, un rattrapage limité (généralement 5 ans) est possible en cas d'oubli d'application de la clause.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "q90vo28585",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "noihv8065",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Comment contester une augmentation de loyer commercial jugée excessive ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "o06bf28818",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Par une réponse écrite motivée au bailleur, suivie si nécessaire d'une saisine de la commission départementale de conciliation, puis éventuellement du juge des loyers commerciaux.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2sx3q29284",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "45sl78068",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les augmentations de loyer sont-elles plafonnées ? ",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Oui, lors de la révision triennale, l'augmentation est plafonnée à la variation de l'indice applicable. Même en cas de déplafonnement, l'augmentation annuelle ne peut excéder 10% du loyer précédent.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "30m1x29984",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "q2ws58071",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quels sont les indices utilisés pour la révision des loyers commerciaux ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jwp4b30219",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Principalement l'ILC (Indice des Loyers Commerciaux) pour les activités commerciales et artisanales, et l'ILAT (Indice des Loyers des Activités Tertiaires) pour les activités tertiaires et les bureaux.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fhd7331669",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "zg3jk31668",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3y3de31670",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jhv9m31898",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cabinet Plouton - Avocats à Bordeaux - Experts en ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "droit des baux commerciaux",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "droit pénal des affaires",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/droit-p%C3%A9nal-des-affaires",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "défense des consommateurs",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/droit-des-contrats-et-des-personnes/d%C3%A9fense-des-consommateurs",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "6a98q8081",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {
+      "paragraph": {
+        "decorations": [
+          {
+            "type": "FONT_SIZE",
+            "fontSizeData": {
+              "unit": "PX",
+              "value": 14
+            }
+          }
+        ],
+        "nodeStyle": {}
+      }
+    }
+  }
+}

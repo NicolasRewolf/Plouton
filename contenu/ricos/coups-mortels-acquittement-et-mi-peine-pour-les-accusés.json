@@ -1,0 +1,947 @@
+{
+  "slug": "coups-mortels-acquittement-et-mi-peine-pour-les-accusés",
+  "sourcePath": "/post/coups-mortels-acquittement-et-mi-peine-pour-les-accusés",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "HEADING",
+        "id": "fddwrb4xa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En bref : verdict du 10 mars 2011",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vscrag08ow",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La Cour d'assises de la Gironde a rendu son verdict le 10 mars 2011 dans l'affaire des coups mortels portés à Jean-Hervé L., dentiste talençais, le 12 juillet 2003. Stéphanie S., 31 ans, a été acquittée. Abdelkader C. a été condamné à dix ans de réclusion criminelle, soit la moitié des vingt ans requis par l'avocate générale. Me Julien Plouton assurait sa défense ; Me Dominique Laplagne et Me Naji Medawar défendaient Stéphanie S.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "silixjljtg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "pnsz6po0eg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un verdict en deçà des réquisitions du parquet",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "smjypdehwg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le verdict est tombé après trois jours de procès et près de six heures de délibérations. À l'énoncé de la décision, Stéphanie S. a fondu en larmes. Les jurés n'ont pas suivi les réquisitions du ministère public, représenté par Dominique Hoflack, qui avait demandé 20 ans de réclusion contre Abdelkader C. Le parquet disposait de dix jours pour faire appel.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tjzta2oqg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rnjs69s8ma",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une certaine tension a régné à différents moments de ce procès, entre ministère public et défense d'une part, partie civile et défense d'autre part. Le président Michel Regaldo Saint-Blancart a procédé à plusieurs rappels à l'ordre.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pcgywpehw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "dzikd7d81w",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Deux thèses opposées : acte crapuleux ou rencontre de hasard ?",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "6gzkcskfq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Deux lectures du dossier se sont affrontées durant trois jours d'audience.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "b4vbhcbxkg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "cinceehhw",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "fy3wbia3jw",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "akarfu248a",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Pour l'accusation",
+                      "decorations": [
+                        {
+                          "type": "BOLD"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : l'avocate générale et les parties civiles ont soutenu que les accusés étaient les auteurs d'un acte de nature crapuleuse ou homophobe.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "5sxpapepra",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "5xvuozh1w",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Pour la défense",
+                      "decorations": [
+                        {
+                          "type": "BOLD"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : une rencontre de hasard, dans un contexte chaotique, avec de nombreuses zones d'ombre dans le dossier.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xozm0lp7sg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "w0mg9qg1za",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "« Je suis soulagé que la justice soit rendue pour Stéphanie S. », a déclaré Me Naji Medawar à l'issue du verdict. « Elle vient d'effectuer un an de détention provisoire. Mais elle va pouvoir engager les démarches pour retrouver ses deux enfants. »",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fkvjzflddg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yoxllxjaq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Me Laplagne avait, le premier, insisté sur les faiblesses du dossier. Il a rappelé qu'à l'issue de l'instruction pour homicide volontaire, le parquet avait demandé une requalification des faits en violences volontaires ayant entraîné la mort sans intention de la donner.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tyycix8y5q",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "skznn5xahq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les faits du 12 juillet 2003 au lac de Bordeaux",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5tk9dapnpa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La défense a rappelé le scénario de la journée du 12 juillet 2003, où Jean-Hervé L., 43 ans, a trouvé la mort. Le décor : canicule, départ pour le lac de Bordeaux, alcool en quantité, médicaments, cannabis et disputes.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ka5glcizwq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "vhhuqt14w",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "bxsr8nkyjw",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "4xva4mhaxq",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "En fin d'après-midi, Abdelkader brise la mâchoire de sa compagne d'un coup de poing.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "w1lng5dzwq",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "xov3kucfw",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Faute de bus pour repartir, le couple, accompagné du fils de Stéphanie, décide de dormir sur place.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "nksaxxipg",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "eo1n1h4nq",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Aux environs de minuit, Jean-Hervé L. survient. Abdelkader affirme qu'il se masturbait devant eux, ce qui l'a fait réagir.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jqlktgobnq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "vpjcob3qg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Asphyxie mécanique : ce qu'ont établi les expertises",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "up8dukl5dq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le corps de Jean-Hervé L. a été retrouvé le 15 juillet 2003 dans le lac, à quelques mètres de la berge, dénudé. L'autopsie et les expertises ont établi qu'il avait reçu des coups et qu'il est mort par asphyxie mécanique. Son homosexualité, son état de santé très fragile et sa nature provocatrice ont été soulignés par plusieurs témoins.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ojxs3dic1w",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "yelhncsmwa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une enquête longue et délicate (2003-2010)",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gfxb1c2cfw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'enquête, conduite par la brigade criminelle de la sûreté départementale, a été longue et délicate. Les policiers ont été mis sur la piste du couple en 2006, par un renseignement. Mais ce n'est qu'en 2010 qu'Abdelkader C. et Stéphanie S. ont été mis en examen. Lui a avoué avoir frappé le premier ; elle l'aurait aidé.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4sfc1gf4q",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fojdowk1sq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "« C'est sur les seules déclarations d'Abdelkader C. que Stéphanie S. est mise en cause », a relevé Me Dominique Laplagne à l'intention des jurés. « Il y a dans ce dossier des éléments qui doivent vous conduire sereinement à l'acquittement. »",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "cnt02i1xa",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "hibmqgu9zg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La plaidoirie de Me Plouton : dix ans au lieu de vingt",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p0f0fqupw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vingt ans de réclusion avaient été requis contre Abdelkader C. La plaidoirie de Me Julien Plouton s'est conclue par une demande d'acquittement, mais avait surtout pour objet de convaincre les jurés qu'Abdelkader C. avait répondu à une provocation, sans aucune intention de tuer. L'objectif tactique : obtenir une peine sensiblement inférieure aux vingt ans requis par l'avocate générale.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "x1bdtoudgg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hxnqrrqikw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dix ans de réclusion ont finalement été prononcés contre son client, soit la moitié de la peine requise.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "en1daezjlg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bft2wpczqw",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "« Manifestement, la cour a estimé qu'il y avait bien des zones d'ombre dans ce dossier », confiait l'avocat à l'issue du verdict. « Bien sûr, le parquet, comme nous, dispose de dix jours pour faire appel. Mais j'observe que les doutes sur les faits et les circonstances ont été pris en compte. »",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "s6xzkuhita",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yw0oqem3qg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour aller plus loin sur la défense devant une cour d'assises, voir notre page d'expertise ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "procès criminel",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/defense-penale/proces-criminel",
+                      "target": "SELF",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jr2tyw1pow",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "urtwcyuq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Source presse",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dufebx1w9a",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Sud-Ouest : ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'acquittement pour Stéphanie S et mi peine pour abdelkader",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "http://www.sudouest.fr/2011/03/12/l-acquittement-pour-stephanie-suchet-340162-2780.php",
+                      "target": "BLANK",
+                      "rel": {
+                        "nofollow": false,
+                        "sponsored": false,
+                        "ugc": false
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE",
+                  "underlineData": true
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hoyhfmxajg",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "IMAGE",
+        "id": "7aeeocoldw",
+        "nodes": [],
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/d05c9e_7088a1359c264dc09277e304e33555ec~mv2.png"
+            }
+          },
+          "altText": ""
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kqnfvitjsq",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "IMAGE",
+        "id": "1ozueqtw",
+        "nodes": [],
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/d05c9e_8f5ea8e678e045f7a0217fc843f8ae3d~mv2.png"
+            }
+          },
+          "altText": ""
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "irrojntlua",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      }
+    ],
+    "metadata": {
+      "version": 1.0,
+      "createdTimestamp": "2026-05-12T08:41:55.217Z",
+      "updatedTimestamp": "2026-05-12T08:41:55.217Z"
+    }
+  }
+}

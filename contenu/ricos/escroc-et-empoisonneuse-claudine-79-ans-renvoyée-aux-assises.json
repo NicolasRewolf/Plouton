@@ -1,0 +1,260 @@
+{
+  "slug": "escroc-et-empoisonneuse-claudine-79-ans-renvoyée-aux-assises",
+  "sourcePath": "/post/escroc-et-empoisonneuse-claudine-79-ans-renvoyée-aux-assises",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "HEADING",
+        "id": "erhnb72837",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Intervention de Maître Plouton sur TF1 dans l'émission “7 à 8”.",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "h7xla700",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jsyc072838",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Escroc et empoisonneuse ? Claudine, 79 ans, renvoyée aux assises.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "29d95726",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "atzyl72839",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Claudine C., 79 ans, défendue par Maître Plouton, comparaîtra bientôt devant la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cour d’assises de la Gironde pour tentative d’assassinat",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/avocat-cour-dassises-bordeaux",
+                      "target": "BLANK"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "47ymz686",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "206qa72840",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Elle est accusée d’avoir empoisonné une amie pour toucher des assurances décès, avec huit contrats la désignant comme bénéficiaire pour un total de plusieurs centaines de milliers d’euros.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7c5gw696",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bvmba72841",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Maître Plouton, chargé de sa défense, entend démontrer que les charges retenues contre sa cliente ne reposent pas sur des preuves irréfutables.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bvy7v741",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "en73272842",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le reportage complet de TF1 et l'intervention de Maître Plouton :",
+              "decorations": [
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "36aca751",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "svwrh985",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HTML",
+        "id": "6pvhv984",
+        "nodes": [],
+        "htmlData": {
+          "containerData": {
+            "textWrap": true,
+            "height": {
+              "custom": "1200"
+            },
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {
+              "custom": "940"
+            }
+          },
+          "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.tf1.fr/player/2c249f78-bf69-4d02-ab3a-9778b4170cff\"\n    title=\"tf1+ video player\" frameborder=\"0\" allow=\"accelerometer; autoplay;\n    clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+          "source": "HTML"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "6axdo986",
+        "nodes": [],
+        "paragraphData": {}
+      }
+    ],
+    "documentStyle": {}
+  }
+}

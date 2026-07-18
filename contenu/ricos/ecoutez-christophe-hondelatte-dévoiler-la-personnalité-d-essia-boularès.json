@@ -1,0 +1,138 @@
+{
+  "slug": "ecoutez-christophe-hondelatte-dévoiler-la-personnalité-d-essia-boularès",
+  "sourcePath": "/post/ecoutez-christophe-hondelatte-dévoiler-la-personnalité-d-essia-boularès",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "eimk0162445",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hloyk164397",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "IMAGE",
+        "id": "we16s164395",
+        "nodes": [],
+        "imageData": {
+          "containerData": {
+            "width": {
+              "size": "SMALL"
+            },
+            "alignment": "RIGHT",
+            "textWrap": true
+          },
+          "image": {
+            "src": {
+              "id": "d05c9e_239ea4fa3a974029a6b0d1d392d8215b~mv2.webp"
+            },
+            "width": 930,
+            "height": 620
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4z2rr164290",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En 2019, notre cabinet intervenait en partie civile à la suite d'un terrible incendie déclanché par Essia B à Paris - \"Dix morts et 96 blessés. « C’est l’incendie le plus meurtrier de ces quinze dernières années dans la capitale et au-delà », présente Me Julien Plouton. ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "VAR(--POSTBACKGROUNDCOLOR)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Aujourd'hui, Christophe Hondelatte, journaliste Europe 1, propose à travers un podcast audio de revenir sur le profil d'Essia Boularès. ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bqmxe164040",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "BUTTON",
+        "id": "r4z9k164039",
+        "nodes": [],
+        "buttonData": {
+          "text": "▷ Écouter le podcast - Épisode 1/2",
+          "styles": {
+            "backgroundColor": "#012055"
+          },
+          "link": {
+            "url": "https://www.europe1.fr/emissions/hondelatte-raconte-cote-b/essia-boulares-lincendiaire-1-2-709035",
+            "target": "BLANK",
+            "rel": {}
+          },
+          "containerData": {
+            "textWrap": true,
+            "height": {},
+            "spoiler": {},
+            "alignment": "LEFT",
+            "width": {
+              "size": "ORIGINAL"
+            }
+          },
+          "type": "LINK"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wszek164041",
+        "nodes": [],
+        "paragraphData": {}
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2025-05-18T17:34:43.651Z",
+      "updatedTimestamp": "2025-05-18T17:34:43.651Z",
+      "id": "a548c16d-f6df-4e99-bd35-2a5a9d67d92c"
+    },
+    "documentStyle": {}
+  }
+}

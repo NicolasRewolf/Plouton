@@ -1,0 +1,67 @@
+[
+  {
+    "file": "orig_google_sans_medium.woff2",
+    "aliases": [
+      "wfont_47d637_b856fe7b5486413b948b231a5f646ec2",
+      "wf_b856fe7b5486413b948b231a5",
+      "orig_google_sans_medium"
+    ],
+    "weight": "normal",
+    "style": "normal",
+    "sourceUrl": "https://static.wixstatic.com/ufonts/47d637_b856fe7b5486413b948b231a5f646ec2/woff2/file.woff2",
+    "sha256": "ff8e64b5493d702a06ea50cb3ec6c7b79a8bf8766f5ec1873fc74f910970a730",
+    "bytes": 534436
+  },
+  {
+    "file": "orig_google_sans_regular.woff2",
+    "aliases": [
+      "wfont_47d637_1cc7414a37a24324a4bb7b2bb59b2517",
+      "wf_1cc7414a37a24324a4bb7b2bb",
+      "orig_google_sans_regular"
+    ],
+    "weight": "normal",
+    "style": "normal",
+    "sourceUrl": "https://static.wixstatic.com/ufonts/47d637_1cc7414a37a24324a4bb7b2bb59b2517/woff2/file.woff2",
+    "sha256": "513e6f2d3a5e1571103b0e50637052b7058bca7d8f19d11c9fdb03f790140065",
+    "bytes": 474660
+  },
+  {
+    "file": "orig_source_sans_3_regular.woff2",
+    "aliases": [
+      "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3",
+      "wf_fe1dbd76ea054b39b69516337",
+      "orig_source_sans_3_regular"
+    ],
+    "weight": "normal",
+    "style": "normal",
+    "sourceUrl": "https://static.wixstatic.com/ufonts/fce596_fe1dbd76ea054b39b695163378dbc5a3/woff2/file.woff2",
+    "sha256": "27d8211aa913a93eb9d5778ec8493c9a7e0b77c399cdbe0623ee5a9fdf5778cc",
+    "bytes": 103052
+  },
+  {
+    "file": "orig_source_sans_3_semibold.woff2",
+    "aliases": [
+      "wfont_fce596_d40b638b5ce241f6aa0faabeb83820e6",
+      "wf_d40b638b5ce241f6aa0faabeb",
+      "orig_source_sans_3_semibold"
+    ],
+    "weight": "normal",
+    "style": "normal",
+    "sourceUrl": "https://static.wixstatic.com/ufonts/fce596_d40b638b5ce241f6aa0faabeb83820e6/woff2/file.woff2",
+    "sha256": "891a1c4bea664fc7d81e5d57a94207497bdcff78e9b88dee23da67c7d5f2fd35",
+    "bytes": 102352
+  },
+  {
+    "file": "orig_source_sans_3_medium.woff2",
+    "aliases": [
+      "wfont_fce596_6f9b88ea5e194c5fbf036d955d4c28a7",
+      "wf_6f9b88ea5e194c5fbf036d955",
+      "orig_source_sans_3_medium"
+    ],
+    "weight": "normal",
+    "style": "normal",
+    "sourceUrl": "https://static.wixstatic.com/ufonts/fce596_6f9b88ea5e194c5fbf036d955d4c28a7/woff2/file.woff2",
+    "sha256": "3fe25c413852424fd262dac4849890e421a6e315ec84c3ba522b3bc1646487cb",
+    "bytes": 102096
+  }
+]

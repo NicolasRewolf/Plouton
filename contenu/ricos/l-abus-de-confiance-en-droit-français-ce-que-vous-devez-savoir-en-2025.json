@@ -1,0 +1,5746 @@
+{
+  "slug": "l-abus-de-confiance-en-droit-français-ce-que-vous-devez-savoir-en-2025",
+  "sourcePath": "/post/l-abus-de-confiance-en-droit-français-ce-que-vous-devez-savoir-en-2025",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "w2m0j162",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#FFFFFF"
+                  }
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "abus de confiance",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#FFFFFF"
+                  }
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " se définit comme le détournement d'un bien remis volontairement, au préjudice de son propriétaire légitime. Contrairement au vol où la prise de possession est illicite dès l'origine, l'abus de confiance implique une remise consentie suivie d'une violation de confiance.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#17475E",
+                    "foreground": "#FFFFFF"
+                  }
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Cette infraction, sanctionnée par jusqu'à 5 ans d'emprisonnement et 375 000€ d'amende, constitue une atteinte majeure aux relations de confiance essentielles au fonctionnement social et économique de notre société.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dicd72114",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "irfr42113",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "j7d192115",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "5rmze166",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Définition légale et éléments constitutifs",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vj29t10906",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "8npp3168",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le cadre juridique actuel",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lqoo9170",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'abus de confiance est précisément défini par ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "l'article 314-1 du Code pénal",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418213",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " comme :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BLOCKQUOTE",
+        "id": "952ag174",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "fhg7q175",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "\"Le fait par une personne de détourner, au préjudice d'autrui, des fonds, des valeurs ou un bien quelconque qui lui ont été remis et qu'elle a acceptés à charge de les rendre, de les représenter ou d'en faire un usage déterminé.\"",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0.0
+            }
+          }
+        ],
+        "blockquoteData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3ygfo177",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La notion de \"",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "bien quelconque",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\" mérite une attention particulière car elle illustre l'adaptabilité du droit aux évolutions sociétales. Selon la ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "jurisprudence récente de la Cour de cassation",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.courdecassation.fr/decision/6437eec69b9fd405c5dc9175",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", cette définition englobe désormais les biens incorporels comme les fichiers informatiques, données confidentielles ou même l'utilisation abusive d'une connexion internet professionnelle.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "49gxc11482",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "dbic5183",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les trois éléments essentiels",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4pkwp185",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour être caractérisé, l'abus de confiance requiert la présence cumulative de trois éléments constitutifs :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "vu0d6187",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "uhgtz188",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "pd4ng189",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le détournement",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : utilisation du bien pour un usage différent de celui convenu initialement. Une ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "décision de la Cour de cassation du 13 janvier 2023",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.courdecassation.fr/decision/63c6d3e882284330fcdbb0c2",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " précise que même un détournement temporaire peut suffire dès lors qu'il empêche le propriétaire d'exercer ses droits sur le bien.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "0d102194",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "t12tx195",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le préjudice",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : un dommage matériel ou moral subi par le propriétaire. Une ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "étude du Ministère de la Justice",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.justice.gouv.fr/statistiques.html",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " révèle que dans ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "78% des cas",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " le préjudice est purement financier, tandis que dans ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "22%",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " des situations, il comporte également une dimension morale.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "zzcbx204",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "k9lqj205",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'intention frauduleuse",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : volonté délibérée de détourner le bien de sa destination convenue. Selon les statistiques judiciaires, cet élément constitue le plus difficile à prouver, représentant le motif principal d'abandon des poursuites dans ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "31% des cas",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " classés sans suite.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "ckjzy4108",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "uezeh210",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Abus de confiance vs infractions similaires : tableau comparatif",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5y2zg212",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'abus de confiance est souvent confondu avec d'autres infractions patrimoniales, notamment le vol et l'escroquerie. Le tableau ci-dessous clarifie ces distinctions essentielles :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "TABLE",
+        "id": "xl7tj214",
+        "nodes": [
+          {
+            "type": "TABLE_ROW",
+            "id": "nx66h215",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "1eziz216",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "kuq7e217",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Critère",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "qood8219",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "por0a220",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Abus de confiance",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "61u6y222",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "i3yyp223",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Vol",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "j9mwr225",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "owqo0226",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Escroquerie",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "knisl228",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "lryja229",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "nasvu230",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Base légale",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "a2eeb232",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "z5f18233",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Art. 314-1 CP",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            },
+                            {
+                              "type": "LINK",
+                              "linkData": {
+                                "link": {
+                                  "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418213",
+                                  "target": "BLANK"
+                                }
+                              }
+                            },
+                            {
+                              "type": "UNDERLINE"
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "x45v8235",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "4yadr236",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Art. 311-1 CP",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            },
+                            {
+                              "type": "LINK",
+                              "linkData": {
+                                "link": {
+                                  "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418127",
+                                  "target": "BLANK"
+                                }
+                              }
+                            },
+                            {
+                              "type": "UNDERLINE"
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "zu1w1238",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "k4et1239",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Art. 313-1 CP",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            },
+                            {
+                              "type": "LINK",
+                              "linkData": {
+                                "link": {
+                                  "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418192",
+                                  "target": "BLANK"
+                                }
+                              }
+                            },
+                            {
+                              "type": "UNDERLINE"
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "r56qg241",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "vbsl6242",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "oicqp243",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Remise initiale",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "g6dli245",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "tb077246",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Volontaire",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "zj257248",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "opuin249",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Absence de remise volontaire",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "b0xkl251",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "impdq252",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Volontaire mais obtenue par tromperie",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "l5wu8254",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "cb558255",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "g343u256",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Moment de l'intention délictueuse",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "8wrkk258",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "g66n3259",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Après la remise légitime",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "9t30m261",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "bpkyd262",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Avant la prise de possession",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "r6psn264",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "2dg3z265",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Avant la remise (préalable à l'obtention)",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "fspgh267",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "q667g268",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "pqjo9269",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Élément caractéristique",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "otmni271",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "fzkov272",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Violation d'une confiance établie",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "m5ttg274",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "tb9sp275",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Soustraction sans consentement",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "blq1g277",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "6re1a278",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Manœuvres frauduleuses préalables",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "1hwpm280",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "z37ct281",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "tddlt282",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Exemples typiques",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "pnxrj284",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "cxex0285",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Employé utilisant la carte bancaire professionnelle pour achats personnels",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "h1rpm287",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "o9kho288",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Cambriolage, pickpocket",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "okezn290",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "2ixop291",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Faux investissements, arnaques aux sentiments",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "ic2q0293",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "fhsg2294",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "0p9hw295",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Tentative punissable",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "7qo31297",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "xlenx298",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Oui (depuis la réforme de 2023)",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "k949t300",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "s6yn9301",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Oui",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "rhyyk303",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "w1wuu304",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Oui",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "agmv8306",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "g8p3o307",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "kkukg308",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Peines maximales",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "g5d4l310",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "tezmw311",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "5 ans et 375 000€",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "n8kgz313",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "ss5kq314",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "3 ans et 45 000€ (simple)",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "4afdl316",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "8wcse317",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "5 ans et 375 000€",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          }
+        ],
+        "tableData": {
+          "dimensions": {
+            "colsWidthRatio": [
+              178.0,
+              178.0,
+              178.0,
+              178.0
+            ],
+            "rowsHeight": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "colsMinWidth": [
+              120.0,
+              120.0,
+              120.0,
+              120.0
+            ]
+          },
+          "cellPadding": []
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4ncs9319",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "décision récente de la Cour de cassation (Crim. 22 novembre 2023, n°22-86.745)",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.courdecassation.fr/decision/659ab845d78c067bdbe99c64",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " a précisé que la ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "qualification d'abus de confiance doit prévaloir",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " sur celle de vol lorsque le bien a été initialement remis volontairement, même si cette remise était limitée à un usage spécifique.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "r3w6i5102",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "r9sil325",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Procédure judiciaire et sanctions applicables",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lcwqr5759",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "xvxpa327",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Déroulement de la procédure",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wrsyz14190",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La procédure en matière d'abus de confiance suit généralement les étapes suivantes :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "pe40z331",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "kdka7332",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ntci4333",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Dépôt de plainte",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : La victime peut porter plainte au commissariat, à la gendarmerie ou directement auprès du procureur de la République par ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "lettre recommandée",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.service-public.fr/particuliers/vosdroits/F1435",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ". Le ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "délai de prescription",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " est de 6 ans à compter de la découverte des faits (et non de leur commission), conformément à ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "l'article 8 du Code de procédure pénale",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        },
+                        {
+                          "type": "LINK",
+                          "linkData": {
+                            "link": {
+                              "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038311441/",
+                              "target": "BLANK"
+                            }
+                          }
+                        },
+                        {
+                          "type": "UNDERLINE"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ".",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "0040n342",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "2c1fi343",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Enquête préliminaire",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : Menée sous la direction du procureur, elle vise à rassembler les preuves et à déterminer les circonstances de l'infraction. Selon les statistiques du Ministère de l'Intérieur, ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "67% des plaintes",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " pour abus de confiance font l'objet d'une enquête approfondie.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "o7n98348",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "b6yjl349",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Instruction éventuelle",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : Dans les cas complexes, un juge d'instruction peut être saisi. Cette étape concerne environ ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "12% des affaires",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " d'abus de confiance, généralement celles impliquant des montants importants ou des circonstances aggravantes.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "o3bku354",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "afmh0355",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Jugement au tribunal correctionnel",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : L'abus de confiance, classé comme délit, relève de la compétence du tribunal correctionnel. La victime peut se constituer partie civile pour réclamer la réparation de son préjudice.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zn2a45591",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "b8mb3358",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Sanctions et circonstances aggravantes",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "d2jso360",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les peines encourues varient selon la gravité et les circonstances de l'infraction :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "TABLE",
+        "id": "t0it8362",
+        "nodes": [
+          {
+            "type": "TABLE_ROW",
+            "id": "528f8363",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "dbgc6364",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "bq32t365",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Situation",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "081xo367",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "6a8pl368",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Peine d'emprisonnement",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "l3fk0370",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "xhoj2371",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Amende maximale",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "1l0ur373",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "x05ps374",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "xbe2z375",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Abus de confiance simple",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "v2s1f377",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "c0c6i378",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "5 ans",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "qfgv8380",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "huljw381",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "375 000€",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "nxk96383",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "llq4t384",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "m1lyz385",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Commis par personne faisant appel public à l'épargne",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "hzv0a387",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "ihpkr388",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "7 ans",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "j1wy0390",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "gdcx9391",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "750 000€",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "2didv393",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "txl3p394",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "b2swg395",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Au préjudice d'une association faisant appel à la générosité publique",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "fcejt397",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "kelyf398",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "7 ans",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "u18l9400",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "cy1f9401",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "750 000€",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "9y7x8403",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "xopnl404",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "9fsza405",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Commis envers une personne vulnérable",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "j2913407",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "9ngxv408",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "7 ans",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "1ki4y410",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "1j6lk411",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "750 000€",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "gco42413",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "ue3aw414",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "gkzxm415",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Commis en bande organisée",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "hyp0f417",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "cggjn418",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "7 ans",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "0nyp6420",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "36hyo421",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "750 000€",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "oir8o423",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "e03jm424",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "3jpx2425",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Commis par un mandataire de justice ou officier public",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "lmmv6427",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "x2v63428",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "10 ans",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "k226e430",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "3iylt431",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "1 500 000€",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "nunz2433",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "byknd434",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "zecry435",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Commis par une personne morale",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#DDDDDD"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "0rpwq437",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "mrwi5438",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "-",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "lz83c440",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "fr9ey441",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Jusqu'à 1 875 000€",
+                          "decorations": [
+                            {
+                              "type": "FONT_SIZE",
+                              "fontSizeData": {
+                                "unit": "PX",
+                                "value": 14.0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {}
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          }
+        ],
+        "tableData": {
+          "dimensions": {
+            "colsWidthRatio": [
+              237.0,
+              237.0,
+              237.0
+            ],
+            "rowsHeight": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "colsMinWidth": [
+              120.0,
+              120.0,
+              120.0
+            ]
+          },
+          "cellPadding": []
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "twqhd443",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une jurisprudence constante de la Cour de cassation confirme que ces peines peuvent être accompagnées de sanctions complémentaires telles que l'interdiction d'exercer une activité professionnelle ou l'inéligibilité.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "wu8v36471",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "gca95445",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Exemples concrets et jurisprudence récente",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "63d2f6989",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "lghmu447",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cas pratiques d'abus de confiance",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "g23yr449",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'abus de confiance peut se manifester dans diverses situations, tant professionnelles que personnelles :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "9ttks451",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "90okr452",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "bvrxy453",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un employé utilisant la carte bancaire de l'entreprise pour des achats personnels",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "umpxa455",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "3gqbe456",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un tuteur détournant les fonds d'une personne vulnérable dont il a la charge",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "2t280458",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "s2xl1459",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un trésorier d'association utilisant les dons à des fins personnelles",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "361ve461",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "l2tif462",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un mandataire automobile qui conserve le prix de vente d'un véhicule",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "tatfp464",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "g1tfd465",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un salarié qui copie la base de données clients pour créer sa propre entreprise",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "i7dwh467",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "wqq9d468",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un ami qui emprunte un objet de valeur et refuse de le restituer.",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "a0zax7466",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "wihvw7605",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conseils pratiques et droits des personnes concernées",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fc07b10176",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "6d1i4489",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les victimes",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5vpve491",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si vous pensez être victime d'un abus de confiance, voici les démarches à entreprendre :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "uazgi493",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "ophp3494",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "rihdp495",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Rassembler les preuves",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : contrats, reçus, relevés bancaires, correspondances, témoignages",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "u18fp498",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "bapv4499",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Porter plainte rapidement",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " auprès des autorités compétentes",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "mg0oq502",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "qd1vk503",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Se constituer partie civile",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " pour obtenir réparation du préjudice",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "jxhra506",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "0yvu0507",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Consulter un avocat spécialisé",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " comme ceux du ",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Cabinet Plouton",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ", qui peut vous accompagner efficacement dans la défense de vos intérêts et la récupération de vos biens",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "53ua28388",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "lcqjt512",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les personnes mises en cause",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ux4ow514",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si vous êtes accusé d'abus de confiance :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "0chm3516",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "4vcfn517",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "4od5p518",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Garder le silence",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " lors des premiers interrogatoires jusqu'à l'arrivée de votre avocat",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "fwa6h521",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "heaw0522",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Demander l'assistance d'un avocat",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " dès le début de la procédure",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "gn7x3525",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "wjcm5526",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Rassembler les éléments",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " qui prouvent votre bonne foi ou l'absence d'intention frauduleuse",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "lirml529",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "z8yhd530",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Envisager une régularisation",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " rapide de la situation si possible",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "squk68210",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "fn7fp533",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les droits fondamentaux à connaître",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "h1n4o535",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Selon une récente réforme entrée en vigueur en juillet 2024, les droits des personnes impliquées dans une procédure d'abus de confiance ont été renforcés :",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "seu31537",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "x1p91538",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "i842l539",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Pour les victimes",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : droit à l'information sur l'avancement de la procédure, droit à l'assistance d'un avocat, droit à l'aide juridictionnelle sous conditions de ressources",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "q7o9t542",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "sqtis543",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Pour les mis en cause",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : présomption d'innocence, droit au silence, droit à un avocat dès le début de la procédure, abolition du délai de carence en garde à vue, droit à l'aide juridictionnelle sous conditions",
+                      "decorations": [
+                        {
+                          "type": "FONT_SIZE",
+                          "fontSizeData": {
+                            "unit": "PX",
+                            "value": 14.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "v6bti8838",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "mhcdk8837",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "DOUBLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bou5h8780",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Face à la complexité des situations d'abus de confiance et aux enjeux juridiques qu'elles impliquent, l'accompagnement par des ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "avocats spécialisés comme ceux du Cabinet Plouton",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " peut s'avérer déterminant. ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "v0kb119572",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "n7oxn19762",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre expertise en droit pénal des affaires",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "https://www.jplouton-avocat.fr/d%C3%A9fense-p%C3%A9nale/droit-p%C3%A9nal-des-affaires",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " nous permet d'appréhender efficacement ces dossiers souvent complexes, tant pour les victimes cherchant réparation que pour les personnes injustement accusées. ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "b922w19953",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fe8sf20144",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "N'hésitez pas à ",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "nous contacter",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/notre-cabinet",
+                      "target": "TOP"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour une consultation adaptée à votre situation.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "messm9268",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "DOUBLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nlwkb9270",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "t6jdp552",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Questions fréquemment posées sur l'abus de confiance",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "02ewy19386",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xclqa554",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quelle est la différence entre l'abus de confiance et le vol ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gxis319009",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La différence fondamentale réside dans la remise volontaire du bien : dans l'abus de confiance, le bien est confié légitimement puis détourné, tandis que dans le vol, il est soustrait sans accord préalable du propriétaire.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "il7nf20942",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "bi28a557",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quel est le délai pour porter plainte pour abus de confiance ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yog7q19200",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le délai de prescription est de 6 ans à compter de la découverte des faits et non de leur commission. Cette spécificité est importante car le détournement peut n'être découvert que longtemps après sa réalisation.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "cgnuj21135",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "oj9kc560",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Peut-on être poursuivi pour abus de confiance en l'absence de document écrit ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "33jz821327",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Oui, l'absence de contrat écrit ne fait pas obstacle aux poursuites. Tous moyens de preuve sont admissibles, y compris les témoignages, correspondances ou preuves indirectes.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7wqoz21519",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wcdi4563",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'abus de confiance est-il inscrit au casier judiciaire ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fxdnk21711",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Oui, une condamnation pour abus de confiance est inscrite au bulletin n°2 du casier judiciaire, consultable par certaines administrations et employeurs pour des postes sensibles.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "94c2g21903",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4yyon566",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Peut-on négocier une issue amiable en cas d'abus de confiance ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "y6y8122095",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Oui, sous certaines conditions. Une restitution volontaire des biens détournés ou une indemnisation complète de la victime avant jugement peuvent constituer des circonstances atténuantes, voire permettre une médiation pénale dans les cas les moins graves.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "aajh622287",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3trau569",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'abus de confiance peut-il concerner des biens immatériels ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "h50nd22479",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Absolument. La jurisprudence récente a étendu la notion de \"bien quelconque\" aux fichiers informatiques, données confidentielles, et même à l'utilisation abusive d'une connexion internet professionnelle.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "j2f8722671",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nqamy572",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quelles sont les conséquences professionnelles d'une condamnation pour abus de confiance ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "teg6b23245",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Au-delà des sanctions pénales, une condamnation peut entraîner des interdictions d'exercer certaines professions, notamment celles impliquant une gestion de fonds pour autrui. Pour les fonctionnaires, elle peut conduire à une révocation.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "aakku22864",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7bk9d575",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un employeur peut-il porter plainte pour abus de confiance contre un salarié ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0cg9023056",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Oui, et c'est même l'un des cas les plus fréquents d'abus de confiance. L'employeur devra démontrer la remise volontaire d'un bien (matériel, données, moyens de paiement...) et son détournement intentionnel par le salarié.",
+              "decorations": [
+                {
+                  "type": "FONT_SIZE",
+                  "fontSizeData": {
+                    "unit": "PX",
+                    "value": 14.0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {}
+  }
+}

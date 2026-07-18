@@ -1,19 +1,6 @@
 import type { Metadata } from "next"
-import localFont from "next/font/local"
 import { getSite } from "@/lib/content"
 import "./globals.css"
-
-const source = localFont({
-  src: "../fonts/SourceSans3-var.woff2",
-  variable: "--font-source",
-  display: "swap",
-})
-
-const googleSans = localFont({
-  src: "../fonts/GoogleSans-var.woff2",
-  variable: "--font-google-sans",
-  display: "swap",
-})
 
 const site = getSite()
 
@@ -35,8 +22,25 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="fr" className={`${source.variable} ${googleSans.variable}`}>
-      <body className="min-h-screen flex flex-col bg-white text-navy antialiased">{children}</body>
+    <html lang="fr">
+      <body className="min-h-screen flex flex-col bg-white text-navy">
+        {/* Polices réelles du live (voir fonts.wix.css) — préchargées pour éviter le FOUT */}
+        <link
+          rel="preload"
+          href="/fonts/wix/orig_source_sans_3_regular.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/fonts/wix/orig_google_sans_medium.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        {children}
+      </body>
     </html>
   )
 }

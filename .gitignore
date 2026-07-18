@@ -48,8 +48,17 @@ contenu/imports/*Demandes*.csv
 # Identité lourde / Drive sync local
 contenu/identite/Drive-*
 
+# Harvest cache (scripts/harvest-warmup.py) & rapports générés
+.cache/
+reports/
+
 # Logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Kit visuel : caches locaux et rapports (jamais committés)
+.cache/
+reports/
+scripts/visual/node_modules/

@@ -1,0 +1,2066 @@
+{
+  "slug": "affaire-baquey-maître-plouton-l-heure-du-crime-rtl",
+  "sourcePath": "/post/affaire-baquey-maître-plouton-l-heure-du-crime-rtl",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "type": "PARAGRAPH",
+        "id": "kl02d813",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le 2 juillet 2025, Maître Julien Plouton, avocat de Claudine B était l’invité de l’émission « L’Heure du Crime » animée par Jean-Alphonse Richard sur RTL. L’échange portait sur le dossier Claudine B récemment jugée par la cour d’assises de la Gironde. La décision du 4 juillet 2025 — 15 ans de réclusion criminelle — n’est pas définitive : un appel est en cours.",
+              "decorations": [
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "DIVIDER",
+        "id": "uf68j838",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "SMALL",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "s3fsb858",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Connu pour confronter témoignages, experts, journalistes et avocats autour de dossiers sensibles,  l'émission L’Heure du Crime (RTL) a accueilli Maître Plouton afin qu'il puisse rappeler ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "la défense de Claudine B",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/post/affaire-claudine-b-proces-criminel-plouton",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "m76vl10644",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "VIDEO",
+        "id": "e5scn762",
+        "nodes": [],
+        "videoData": {
+          "containerData": {
+            "width": {
+              "size": "CONTENT"
+            },
+            "alignment": "CENTER",
+            "textWrap": true
+          },
+          "video": {
+            "src": {
+              "url": "https://youtu.be/LYKX2Zy1dNw?si=Wsiik8rqxhfekT5n"
+            },
+            "duration": 2885
+          },
+          "thumbnail": {
+            "src": {
+              "url": "https://i.ytimg.com/vi/LYKX2Zy1dNw/maxresdefault.jpg"
+            },
+            "width": 1280,
+            "height": 720
+          },
+          "title": "L'Heure du Crime : Claudine Baquey, le poison du soupçon I intégrale"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yxfkw7383",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "554gv24850",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "hzalu8569",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Primauté de la preuve & « demi-preuves » contestées",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kvysa8649",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Au micro de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L’Heure du Crime",
+              "decorations": [
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ",  Maître Plouton,",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " avocat pénaliste à Cour d'appel de Bordeaux",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/défense-pénale/procès-criminel",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ",  pose d’emblée son cadre : le droit pénal exige des ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "preuves",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et non un récit. Me Plouton rappelle que l’on ne part pas d’un mobile supposé pour ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "remonter",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " au crime ; on doit d’abord ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "établir",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " le crime.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "style": {
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        "blockquoteData": {
+          "indentation": 0
+        },
+        "id": "t6zwz8659",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "i8nfo10221",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "« Je rappelle simplement qu’un mobile ne fait pas un crime et qu’en l’occurrence il faut d’abord prouver l’existence d’un crime avant de s’interroger sur le mobile. Dans ce dossier, on a construit la procédure à l’inverse. »",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO",
+                "lineHeight": "1"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "type": "BLOCKQUOTE"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rpj518668",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans cette logique, il critique une construction probatoire insuffisante et des actes d’enquête à compléter, en pointant notamment l’absence d’analyse toxicologique pour le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "premier épisode",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et l’indétermination du ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "mode d’administration",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "style": {
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        "blockquoteData": {
+          "indentation": 0
+        },
+        "id": "ofvgu8674",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "m2cab8675",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "« J’ai le ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "sentiment qu’on a condamné sur des demi-preuves",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " — et ça, c’est une problématique importante : ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "en matière criminelle, on ne condamne pas sur des demi-preuves",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " mais sur des preuves objectives et indiscutables. »« ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "À l’ouverture de ce procès, j’ai demandé",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " à la cour d’assises de la Gironde ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "qu’elle veuille bien ordonner un supplément d’information",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " […] ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "recherche des causes de la mort, autopsie, analyses…",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    },
+                    {
+                      "type": "ITALIC",
+                      "italicData": true
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Ce n’est pas dans la procédure",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " qui concerne Claudine B… ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "je considère que la défense a été privée potentiellement d’éléments à décharge.",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " »« ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "On parle de deux empoisonnements… Sur le premier il n’y a pas d’analyse toxicologique, il n’y a rien…",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "on la condamne sur des éléments qui ne sont pas objectifs",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", pas de preuves déterminantes, ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "et… le chef d’enquête… a été dans l’incapacité de décrire le mode d’administration",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " de ce poison. »",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO",
+                "lineHeight": "1"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "type": "BLOCKQUOTE"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wd7jo8697",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Enfin, il signale une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "piste négligée",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " : le rôle possible de la fille de l’accusée dans la mécanique des assurances.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "style": {
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        "blockquoteData": {
+          "indentation": 0
+        },
+        "id": "a4scy8701",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "d46xn8702",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "« On va avoir Agnès qui parle à l’une de ses amies… et qui fait état de ses soupçons à l’égard de ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "la fille de Claudine B",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "… ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "c’est cette dernière qui a imprimé et lui a fait souscrire ces contrats d’assurance-vie",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ". Et ça, ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "ça va être complètement passé sous silence",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " et occulté de l’acte d’accusation… »",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO",
+                "lineHeight": "1"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "type": "BLOCKQUOTE"
+      },
+      {
+        "type": "DIVIDER",
+        "id": "7dwbi11409",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "rotxp10815",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Temporalité, équité procédurale & vérifications manquantes",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kvlna10817",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Second pilier érigé par Maître Plouton : l’",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "équité de la procédure",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", fragilisée par un délai exceptionnel et par des éléments médicaux ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "non versés",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " au dossier, selon la défense.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "style": {
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        "blockquoteData": {
+          "indentation": 0
+        },
+        "id": "c20fa10823",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "4a3ov10824",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "« Ça, en ce qui me concerne, je dirais que c’est ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "quasiment un scandale",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "… ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Juger près de deux décennies plus tard",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " une femme pour un crime dont elle est accusée, c’est ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "prendre le risque de condamner quelqu’un qui n’existe plus",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "… ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Je trouve ça terrifiant",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " et absolument inacceptable du point de vue du droit, de la loi et de la procédure. »",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO",
+                "lineHeight": "1"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "type": "BLOCKQUOTE"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zqeih10834",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Maître Plouton a aussi insisté sur le fait que certaines ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "vérifications médicales",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ont été faites, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "sans corroborer",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " les soupçons, mais ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "non versées",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " à la procédure ; d’autres investigations (téléphonie) n’auraient pas été menées.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "style": {
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        "blockquoteData": {
+          "indentation": 0
+        },
+        "id": "apbty10842",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "p4nog10843",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "« Il y a eu manifestement ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "des vérifications d’ordre médical",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " qui ont été effectuées ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "qui n’ont jamais corroboré",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " les soupçons… ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "mais ces éléments lâ n’ont pas été versés dans la procédure",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "… ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "C’est la raison pour laquelle nous avons demandé",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " à ce qu’ils soient communiqués. »« ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "On n’a pas fait la téléphonie de sa fille…",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " »",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO",
+                "lineHeight": "1"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "type": "BLOCKQUOTE"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2zfhw10855",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En conclusion de cette articulation, Maître Plouton réclame un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "complément d’information",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et met en garde contre une lecture « fermée » du dossier, au détriment d’éléments ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "à décharge",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " potentiels.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "style": {
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        "blockquoteData": {
+          "indentation": 0
+        },
+        "id": "m7xr710861",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "ssu4w10862",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "« On imagine évidemment que ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "s’il y avait eu des éléments particulièrement gênants",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ", ils lui auraient été opposés. ",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Donc je considère que la défense a été privée potentiellement d’éléments à décharge.",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700
+                    },
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " »",
+                  "decorations": [
+                    {
+                      "type": "FONT_SIZE",
+                      "fontSizeData": {
+                        "unit": "PX",
+                        "value": 16
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO",
+                "lineHeight": "1"
+              },
+              "indentation": 0
+            }
+          }
+        ],
+        "type": "BLOCKQUOTE"
+      },
+      {
+        "type": "DIVIDER",
+        "id": "a8usm11957",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "6r14m12052",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Réécouter l’émission",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qql1b860",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L’intervention de Maître Plouton est disponible au ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "replay",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " sur le site et l’application ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "RTL",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (émission « L’Heure du Crime » – début juillet 2025). Cliquez sur l'image pour accèder à l'interview.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rpmr91226",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jas2q1332",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "IMAGE",
+        "id": "60evm1363",
+        "nodes": [
+          {
+            "type": "CAPTION",
+            "id": "c91u11469",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Maitre Plouton - Passage sur RTL - L'Heure du Crime",
+                  "decorations": []
+                }
+              }
+            ]
+          }
+        ],
+        "imageData": {
+          "containerData": {
+            "width": {
+              "size": "CONTENT"
+            },
+            "alignment": "CENTER",
+            "textWrap": true
+          },
+          "image": {
+            "src": {
+              "id": "d05c9e_23bf09c66e8a4b1b87936c8d11bef334~mv2.png"
+            },
+            "width": 2052,
+            "height": 1138
+          },
+          "link": {
+            "url": "https://youtu.be/LYKX2Zy1dNw?si=Ew7c0rSsBMr9C4-d",
+            "target": "BLANK"
+          },
+          "caption": "Maitre Plouton - Passage sur RTL - L'Heure du Crime"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gt6u71470",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "documentStyle": {}
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "liveOrigin": "https://www.jplouton-avocat.fr",
+  "localOrigin": "http://localhost:3000",
+  "viewports": [
+    { "id": "375", "width": 375, "height": 812 },
+    { "id": "768", "width": 768, "height": 1024 },
+    { "id": "1440", "width": 1440, "height": 900 }
+  ],
+  "extraViewports": [
+    { "id": "1920", "width": 1920, "height": 1080, "pages": ["home"] }
+  ],
+  "pages": [
+    { "id": "home", "path": "/", "template": "home" },
+    { "id": "exp-pillar-penal", "path": "/defense-penale/droit-penal", "template": "expertise" },
+    { "id": "exp-leaf-divorce", "path": "/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux", "template": "expertise" },
+    { "id": "pole-defense", "path": "/defense-penale", "template": "pole-hub" },
+    { "id": "post-standard", "path": "/post/abandon-de-chantier-par-un-entrepreneur-indemnisation-de-plus-de-25-000-pour-le-client", "template": "post" },
+    { "id": "post-table", "path": "/post/mis-en-cause-temoin-assiste-prevenu-accuse-differences", "template": "post", "note": "10 nœuds TABLE (max du corpus)" },
+    { "id": "post-media", "path": "/post/féminicide-de-mérignac-le-cabinet-lance-une-action-pour-faute-lourde-contre-l-etat", "template": "post", "note": "5 nœuds image/galerie/vidéo (max du corpus)" },
+    { "id": "blog-feed", "path": "/blog", "template": "feed" },
+    { "id": "blog-category", "path": "/blog/categories/droit-pénal", "template": "feed" },
+    { "id": "honoraires", "path": "/honoraires-rendez-vous", "template": "one-off" },
+    { "id": "cabinet", "path": "/notre-cabinet", "template": "one-off" },
+    { "id": "affaires", "path": "/nos-affaires", "template": "one-off" },
+    { "id": "comprendre", "path": "/comprendre-le-droit", "template": "one-off" },
+    { "id": "mentions", "path": "/mentions-legales", "template": "one-off" }
+  ],
+  "blockedUrlParts": [
+    "/_api/blog-frontend-adapter-public/v2/post-feed-page",
+    "google-analytics.com",
+    "googletagmanager.com",
+    "doubleclick.net",
+    "connect.facebook.net",
+    "hotjar.com",
+    "clarity.ms",
+    "frog.wix.com",
+    "sentry.io",
+    "panorama.wixapps.net",
+    "browser.events.data.msn"
+  ],
+  "hideSelectors": [
+    "#WIX_ADS",
+    "[data-hook='consent-banner-root']",
+    "[data-hook='ccsu-banner-root']"
+  ],
+  "masks": {
+    "home": [
+      { "anchorContains": "ACTUALITÉS", "reason": "ticker marquee — position du texte instable" }
+    ]
+  },
+  "fontAliases": {},
+  "status": {}
+}

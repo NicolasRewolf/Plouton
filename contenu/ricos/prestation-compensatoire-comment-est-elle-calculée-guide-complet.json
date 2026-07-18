@@ -1,0 +1,4158 @@
+{
+  "slug": "prestation-compensatoire-comment-est-elle-calculée-guide-complet",
+  "sourcePath": "/post/prestation-compensatoire-comment-est-elle-calculée-guide-complet",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ydteu577",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le divorce marque la fin d'une union",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", mais il entraîne aussi souvent un ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "déséquilibre financier",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " brutal entre les deux ex-conjoints. Pour éviter qu'une séparation ne plonge l'un des deux dans la précarité, le droit français a instauré la ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "prestation compensatoire",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "lu7zh583",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "d4it31240",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Qu'est-ce que la prestation compensatoire ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Contrairement à la pension alimentaire, qui est destinée à l'entretien et à l'éducation des enfants, la prestation compensatoire est versée à l'ex-époux pour compenser la baisse de son niveau de vie consécutive à la rupture.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "qrzp7586",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "5ldhl1506",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Il n'existe pas de formule mathématique officielle imposée par la loi, ce qui rend son évaluation complexe. Cependant, les juges et les avocats s'appuient sur des méthodes de référence et des critères légaux stricts que nous détaillons dans ce guide.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "owzm31375",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "2a4yb588",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le principe de base : combler la disparité de vie",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "f487c590",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Régie par l'",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "article 270 du Code civil",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", la prestation compensatoire a un but précis : atténuer ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "les conséquences économiques du divorce",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "jb5n31643",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'idée n'est pas d'aboutir à une égalité parfaite des patrimoines, mais de rétablir un équilibre. Le juge vérifie si la rupture crée une ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "disparité",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " dans les conditions de vie respectives des époux. Si l'un des deux subit une chute importante de ses ressources alors que l'autre conserve un train de vie élevé, le principe de la prestation est acquis.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "style": {},
+        "blockquoteData": {
+          "indentation": 0.0
+        },
+        "id": "m6n8w598",
+        "nodes": [
+          {
+            "type": "PARAGRAPH",
+            "id": "ixpeq599",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Le Conseil de l'Avocat :",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700.0
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "background": "rgba(0, 0, 0, 0)",
+                        "foreground": "#17475E"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " Depuis les réformes récentes, la ",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "background": "rgba(0, 0, 0, 0)",
+                        "foreground": "#17475E"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "faute",
+                  "decorations": [
+                    {
+                      "type": "BOLD",
+                      "fontWeightValue": 700.0
+                    },
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "background": "rgba(0, 0, 0, 0)",
+                        "foreground": "#17475E"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " (comme l'adultère) ne prive plus automatiquement de prestation compensatoire. Le juge peut toutefois la refuser si l'équité le commande, mais seulement dans des cas de gravité exceptionnelle (ex : violences conjugales).",
+                  "decorations": [
+                    {
+                      "type": "COLOR",
+                      "colorData": {
+                        "background": "rgba(0, 0, 0, 0)",
+                        "foreground": "#17475E"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              },
+              "indentation": 0.0
+            }
+          }
+        ],
+        "type": "BLOCKQUOTE"
+      },
+      {
+        "style": {},
+        "id": "5eun4604",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les 8 critères déterminants (Article 271 du Code civil)",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "anvjm606",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour fixer le montant, le juge procède à une analyse globale de la situation des époux à l'instant T du divorce, mais aussi de leur ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "avenir prévisible",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Voici les points examinés :",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "u91k5610",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "4p9ew611",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "ds4am612",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La durée du mariage :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Un facteur multiplicateur essentiel.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "gmq0t615",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "5nsjk616",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'âge et l'état de santé :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Plus un conjoint est âgé ou malade, plus sa capacité à rebondir professionnellement est faible.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "4bly0619",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "7nv9a620",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La qualification et la situation professionnelles :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Le juge évalue le potentiel de revenus futurs.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "4mqxu623",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "j4qp9624",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les sacrifices de carrière :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " C’est le \"cœur\" du calcul. L’un des époux a-t-il cessé de travailler ou réduit son temps de travail pour élever les enfants ou favoriser la carrière de l'autre ?",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "po7r9627",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "99qv0628",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le patrimoine estimé et prévisible :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " On tient compte des biens propres et des héritages déjà perçus (mais pas des successions futures non ouvertes).",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ek41i631",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "mvfsb632",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les droits existants et prévisibles :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Incluant les revenus du capital.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "0xeqs635",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "kwx1s636",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La situation en matière de pensions de retraite :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Le juge doit estimer la perte de droits à la retraite causée par les choix de vie familiale.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "9fguh639",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "srg01640",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les charges incompressibles :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Loyer, crédits et contributions à l'entretien des enfants.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2wncc1935",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "7xm51643",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'importance cruciale de la durée du mariage",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "0t58i645",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C’est souvent le critère pivot. Pour un mariage de moins de 5 ans, les prestations sont rares ou symboliques. À l'inverse, après 20 ou 30 ans d'union, la solidarité post-matrimoniale est maximale.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "j698o647",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "7vdb92203",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Note :",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Si la période de concubinage avant le mariage n'est théoriquement pas comptée dans le calcul légal, la jurisprudence 2025 montre que certains juges l'intègrent dans leur appréciation globale de l'équité.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xt2o52072",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "07up2650",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les 3 méthodes de calcul les plus utilisées par les juges",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "1kqnc652",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En l'absence de barème légal, les praticiens utilisent des outils d'aide à la décision. Attention : ce sont des ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "indicateurs",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", le juge garde son pouvoir souverain d'appréciation.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "c4kxg2342",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "5d6rh656",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "1. La méthode du \"1/3 des revenus\" (Simplifiée)",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "r9ofv658",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C'est la plus intuitive. On calcule le tiers de la différence de revenus annuels et on le multiplie par une durée (souvent 8 ans ou la moitié de la durée du mariage plafonnée).",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "njdnl660",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "y7z37661",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "tw39m662",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Formule :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " ",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "eihou665",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "$$PC = \\frac{1}{3} (\\text{Revenu Annuel Débiteur} - \\text{Revenu Annuel Créancier}) \\times 8$$",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "paragraphData": {}
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "7kgyu667",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "qchrg668",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Exemple :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " S'il y a un écart de 1 000 €/mois (soit 12 000 €/an), le calcul donne : $4 000 \\times 8 = 32 000$ €.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7pv642482",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "zt48l671",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "2. La méthode \"Martin-Saint-Léon\"",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "okcey673",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Elle repose sur un système de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "points",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " croisant l'âge du créancier et la durée du mariage. On définit une \"Unité de Mesure\" (la moitié du différentiel de revenus mensuels) que l'on multiplie par le total des points et par 3 (chaque point valant 3 mois de compensation).",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lvhzf2619",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "0w6gj677",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "3. La méthode \"Axel Depondt\"",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "eliuo679",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Fréquemment utilisée par les notaires, elle capitalise la disparité de revenus sur une durée fictive basée sur l'espérance de vie ou l'âge de la retraite, tout en appliquant des coefficients de pondération sur le patrimoine.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "mr1rg2754",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "f9rn8681",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Tableau comparatif : simulations de montants",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "type": "TABLE",
+        "id": "zg0eu683",
+        "nodes": [
+          {
+            "type": "TABLE_ROW",
+            "id": "lczqh684",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "adsav685",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "z1jpq686",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Scénario",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "2cm4r688",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "j9b3l689",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Différence de revenus",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "miicw691",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "p4e5p692",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Durée Mariage",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "7nzft694",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "bid8t695",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Estimation Prestation",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "9t3df697",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "7rcmy698",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "9wz89699",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Cas 1 : Union courte",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "qcbr3701",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "3hrbw702",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "800 € / mois",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "7nm9n704",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "y18ij705",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "4 ans",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "0v8wn707",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "qgu07708",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "0 €",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": " (souvent rejeté)",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "lzyvw711",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "ocuez712",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "34s68713",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Cas 2 : Sacrifice familial",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "47ii1715",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "duohl716",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "1 500 € / mois",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "i7m5c718",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "a38pz719",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "25 ans",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "dcool721",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "1ddf6722",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "90 000 € à 140 000 €",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "9xhbo724",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "i3djy725",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "z8rug726",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Cas 3 : Profil \"Seniors\"",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "3zrto728",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "91lkf729",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "1 000 € / mois",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "jder7731",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "5wjke732",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "40 ans",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "fcpjj734",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "875e9735",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "60 000 € + Rente viagère",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "i6jms737",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "846m7738",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "6hnx9739",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Cas 4 : Patrimoine élevé",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "1xvel741",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "mqhs6742",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "3 000 € / mois",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "paje9744",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "pzuc9745",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "15 ans",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ngogr747",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "l4ewc748",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "150 000 €",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "rgba(0, 0, 0, 0)",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          }
+        ],
+        "tableData": {
+          "dimensions": {
+            "colsWidthRatio": [],
+            "rowsHeight": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "colsMinWidth": []
+          },
+          "cellPadding": []
+        }
+      },
+      {
+        "style": {},
+        "id": "1ph9b750",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Sous quelle forme est-elle versée ?",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "style": {},
+        "id": "4or6q752",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "1. Le versement en capital (La règle)",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "5gwkj754",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C’est la forme privilégiée pour assurer un \"Clean Break\" (rupture nette).",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "mjur7756",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "9jmur757",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "fu1hs758",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Paiement immédiat :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Une somme globale versée après le divorce.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "rvh05761",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "o0j8t762",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Paiement échelonné :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Versement mensuel sur une durée maximale de ",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "8 ans",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ".",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "z9d9s767",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "u5dig768",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Attribution de biens :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Le débiteur abandonne sa part de la maison familiale ou des titres de société pour payer sa dette.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "15zu43094",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "mqhve771",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "2. La rente viagère (L'exception)",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "xfsgd773",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Elle est réservée aux situations où l'ex-époux créancier est âgé ou très malade et ne peut plus subvenir à ses besoins par lui-même. Elle représente aujourd'hui moins de 16 % des décisions.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ounom3229",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "cqbt8775",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Fiscalité : qui paie quoi ?",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "b3xjr777",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La fiscalité dépend de la rapidité du versement :",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ksfst3364",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "09h5a779",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "grrt5780",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "wupxq781",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Pour celui qui verse (Le débiteur) :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "l3ksu783",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "o9j82784",
+                    "nodes": [
+                      {
+                        "paragraphData": {
+                          "textStyle": {
+                            "textAlignment": "AUTO"
+                          }
+                        },
+                        "style": {},
+                        "id": "ccguc785",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Si versé en moins de 12 mois : ",
+                              "decorations": [
+                                {
+                                  "type": "COLOR",
+                                  "colorData": {
+                                    "background": "rgba(0, 0, 0, 0)",
+                                    "foreground": "#17475E"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Réduction d'impôt de 25%",
+                              "decorations": [
+                                {
+                                  "type": "BOLD",
+                                  "fontWeightValue": 700.0
+                                },
+                                {
+                                  "type": "COLOR",
+                                  "colorData": {
+                                    "background": "rgba(0, 0, 0, 0)",
+                                    "foreground": "#17475E"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": " du montant (plafonné à 7 625 € pour un versement de 30 500 €).",
+                              "decorations": [
+                                {
+                                  "type": "COLOR",
+                                  "colorData": {
+                                    "background": "rgba(0, 0, 0, 0)",
+                                    "foreground": "#17475E"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "type": "PARAGRAPH"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "urrpp789",
+                    "nodes": [
+                      {
+                        "paragraphData": {
+                          "textStyle": {
+                            "textAlignment": "AUTO"
+                          }
+                        },
+                        "style": {},
+                        "id": "pa1fl790",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Si versé sur plus de 12 mois : Les sommes sont ",
+                              "decorations": [
+                                {
+                                  "type": "COLOR",
+                                  "colorData": {
+                                    "background": "rgba(0, 0, 0, 0)",
+                                    "foreground": "#17475E"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "déductibles du revenu imposable",
+                              "decorations": [
+                                {
+                                  "type": "BOLD",
+                                  "fontWeightValue": 700.0
+                                },
+                                {
+                                  "type": "COLOR",
+                                  "colorData": {
+                                    "background": "rgba(0, 0, 0, 0)",
+                                    "foreground": "#17475E"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": " (comme une pension alimentaire).",
+                              "decorations": [
+                                {
+                                  "type": "COLOR",
+                                  "colorData": {
+                                    "background": "rgba(0, 0, 0, 0)",
+                                    "foreground": "#17475E"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "type": "PARAGRAPH"
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0.0
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "3pt6v794",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "s69fh795",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Pour celui qui reçoit (Le créancier) :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "rgba(0, 0, 0, 0)",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              },
+              {
+                "type": "BULLETED_LIST",
+                "id": "8944e797",
+                "nodes": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "8g81g798",
+                    "nodes": [
+                      {
+                        "paragraphData": {
+                          "textStyle": {
+                            "textAlignment": "AUTO"
+                          }
+                        },
+                        "style": {},
+                        "id": "wgs71799",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Si reçu en moins de 12 mois : ",
+                              "decorations": [
+                                {
+                                  "type": "COLOR",
+                                  "colorData": {
+                                    "background": "rgba(0, 0, 0, 0)",
+                                    "foreground": "#17475E"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Exonération totale d'impôt",
+                              "decorations": [
+                                {
+                                  "type": "BOLD",
+                                  "fontWeightValue": 700.0
+                                },
+                                {
+                                  "type": "COLOR",
+                                  "colorData": {
+                                    "background": "rgba(0, 0, 0, 0)",
+                                    "foreground": "#17475E"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": ".",
+                              "decorations": [
+                                {
+                                  "type": "COLOR",
+                                  "colorData": {
+                                    "background": "rgba(0, 0, 0, 0)",
+                                    "foreground": "#17475E"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "type": "PARAGRAPH"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "dr9ee803",
+                    "nodes": [
+                      {
+                        "paragraphData": {
+                          "textStyle": {
+                            "textAlignment": "AUTO"
+                          }
+                        },
+                        "style": {},
+                        "id": "ug5rc804",
+                        "nodes": [
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "Si reçu sur plus de 12 mois ou en rente : La somme est ",
+                              "decorations": [
+                                {
+                                  "type": "COLOR",
+                                  "colorData": {
+                                    "background": "rgba(0, 0, 0, 0)",
+                                    "foreground": "#17475E"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": "imposable",
+                              "decorations": [
+                                {
+                                  "type": "BOLD",
+                                  "fontWeightValue": 700.0
+                                },
+                                {
+                                  "type": "COLOR",
+                                  "colorData": {
+                                    "background": "rgba(0, 0, 0, 0)",
+                                    "foreground": "#17475E"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "",
+                            "nodes": [],
+                            "textData": {
+                              "text": " dans la catégorie des pensions.",
+                              "decorations": [
+                                {
+                                  "type": "COLOR",
+                                  "colorData": {
+                                    "background": "rgba(0, 0, 0, 0)",
+                                    "foreground": "#17475E"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "type": "PARAGRAPH"
+                      }
+                    ]
+                  }
+                ],
+                "bulletedListData": {
+                  "indentation": 0.0
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3nh5t3776",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "pgaxv808",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "FAQ - Questions fréquentes",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "kmekn810",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Peut-on réviser le montant après le divorce ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "yymfd812",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le capital est en principe ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "intangible",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". On peut réviser les ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "modalités",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " de paiement (étaler plus longtemps en cas de chômage du débiteur), mais pas le montant total. Seule la rente viagère peut être révisée, suspendue ou supprimée si les ressources des parties changent.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "m3ysz818",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "vfcln3916",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le concubinage après divorce annule-t-il la prestation ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "nvfso820",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Non. Une fois le capital fixé et versé, il reste acquis. Le fait de refaire sa vie ne permet pas à l'ex-conjoint de demander le remboursement.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "50uzt822",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "gddqb4051",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Que se passe-t-il en cas de décès du débiteur ?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "28fqs824",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La dette ne s'éteint pas. Elle est prélevée sur la ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "succession",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (l'actif laissé par le défunt). Les héritiers ne sont pas tenus de payer sur leurs propres deniers au-delà de ce qu'ils reçoivent.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3s8uy4188",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "nkbvu5528",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "style": {},
+        "id": "lutq33542",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si vous souhaitez obtenir une estimation de la prestation compensatoire à laquelle vous êtes en droit de prétendre ou que vous risquez de devoir payer, nous vous invitons a consulter notre page Avocat Divorce qui contient ",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "un simulateur de prestation compensatoire.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "fti2q48844",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0cngt830",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le calcul d'une prestation compensatoire reste un exercice complexe qui mêle droit, économie et psychologie. La \"juste\" indemnité dépend avant tout de la capacité de votre avocat à démontrer la réalité de votre préjudice ou, à l'inverse, à limiter une demande abusive.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "rgb(23, 71, 94)"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "iq2q634415",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "LINK_PREVIEW",
+        "id": "sblbz34851",
+        "nodes": [],
+        "linkPreviewData": {
+          "description": "Avocat Divorce Bordeaux – Cabinet Plouton : amiable & contentieux. Procédure claire, intérêts protégés, solution apaisée et efficace. RDV sous 7 jours.",
+          "link": {
+            "url": "https://www.jplouton-avocat.fr/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux",
+            "target": "BLANK"
+          },
+          "containerData": {
+            "alignment": "CENTER",
+            "textWrap": true
+          },
+          "title": "Avocat Divorce Bordeaux | Amiable ou Contentieux | Cabinet Plouton",
+          "thumbnailUrl": "https://static.wixstatic.com/media/d05c9e_75eb8b18d2b247eab8afa1356a161f79%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/d05c9e_75eb8b18d2b247eab8afa1356a161f79%7Emv2.jpg"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7pal334852",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "t7k2n832",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "cteq04323",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le mot de l'avocat (Expertise 2026) :",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ee6qo4723",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "x2rlc834",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\"Dans mes dossiers récents en 2025, je constate une attention accrue des magistrats sur l'arrêt de la Cour de cassation du 11 septembre 2024 : les aides de la CAF destinées aux enfants ne doivent plus être comptées dans les revenus de l'épouse pour évaluer la disparité. C’est une victoire majeure pour les mères isolées.\"",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "ITALIC",
+                  "italicData": true
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "suy34836",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "8kkvz4458",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ne restez pas dans l'incertitude.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Chaque situation est unique et les enjeux financiers se chiffrent souvent en dizaines de milliers d'euros, ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "contactez nous:",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "rgba(0, 0, 0, 0)",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "my6bf4593",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "LINK_PREVIEW",
+        "id": "l7fmy49558",
+        "nodes": [],
+        "linkPreviewData": {
+          "description": "Prenez rendez-vous avec le Cabinet Plouton (Bordeaux). Demandes traitées le jour même, RDV sous 7 jours, urgences possibles. Premier RDV : 180 € TTC. Horaires & accès.",
+          "link": {
+            "url": "https://www.jplouton-avocat.fr/honoraires-rendez-vous",
+            "target": "BLANK"
+          },
+          "containerData": {
+            "alignment": "CENTER",
+            "textWrap": true
+          },
+          "title": "Honoraires & prise de rendez-vous – Cabinet Plouton, avocats à Bordeaux",
+          "thumbnailUrl": "https://static.wixstatic.com/media/d05c9e_75eb8b18d2b247eab8afa1356a161f79%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/d05c9e_75eb8b18d2b247eab8afa1356a161f79%7Emv2.jpg"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "txw8h49559",
+        "nodes": [],
+        "paragraphData": {}
+      }
+    ],
+    "documentStyle": {}
+  }
+}

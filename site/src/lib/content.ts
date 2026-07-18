@@ -192,6 +192,22 @@ export function getArticle(slug: string): Article | null {
   return readJson<Article>(path.join("articles", hit))
 }
 
+/** Arbre Ricos exact du live (contenu/ricos/, harvest Phase 2) — source de
+ * vérité du corps d'article ; bodyHtml (import CSV, lossy) reste le fallback. */
+export function getRicos(slug: string): { slug: string; ricos: { nodes: unknown[] } } | null {
+  const raw = decodeURIComponent(slug).normalize("NFC")
+  const candidates = [raw, slug.normalize("NFC"), slug]
+  for (const s of candidates) {
+    const rel = path.join("ricos", `${s}.json`)
+    if (fs.existsSync(path.join(root, rel))) return readJson(rel)
+  }
+  const dir = path.join(root, "ricos")
+  if (!fs.existsSync(dir)) return null
+  const target = raw.normalize("NFC")
+  const hit = fs.readdirSync(dir).find((f) => f.endsWith(".json") && f.slice(0, -5).normalize("NFC") === target)
+  return hit ? readJson(path.join("ricos", hit)) : null
+}
+
 export function saveArticle(article: Article) {
   writeJson(path.join("articles", `${article.slug}.json`), article)
   // Refresh index entry

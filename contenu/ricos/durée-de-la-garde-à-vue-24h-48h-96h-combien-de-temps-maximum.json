@@ -1,0 +1,5033 @@
+{
+  "slug": "durée-de-la-garde-à-vue-24h-48h-96h-combien-de-temps-maximum",
+  "sourcePath": "/post/durée-de-la-garde-à-vue-24h-48h-96h-combien-de-temps-maximum",
+  "capturedAt": "2026-07-17",
+  "ricos": {
+    "nodes": [
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "RIGHT"
+          }
+        },
+        "style": {},
+        "id": "mbra31877",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "— Article mis à jour le 10 Avril 2026",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "LEFT"
+          }
+        },
+        "style": {},
+        "id": "si1cj14218",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La garde à vue est une épreuve soudaine et déstabilisante, tant pour la personne qui la subit que pour ses proches. Dans ce moment de confusion et d'angoisse, une question revient sans cesse : combien de temps cela va-t-il durer ? 24 heures ? 48 heures ? Plus encore ?",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "dauoa1879",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Notre cabinet ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "d'avocat pénaliste Plouton ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/défense-pénale/droit-pénal",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "sait parfaitement que l'incertitude est l'un des aspects les plus difficiles de cette mesure.  ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "vqytw15202",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "mf2f215359",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cet article a pour but de vous éclairer, de manière simple et transparente. Nous allons décortiquer, étape par étape, les différentes durées légales de la garde à vue, les raisons qui peuvent justifier une prolongation et, surtout, les droits qui vous protègent à chaque instant. Comprendre ce cadre légal est le premier pas pour se défendre. ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ali3m16448",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "DIVIDER",
+        "id": "41dif13982",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "style": {},
+        "id": "q250y13990",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La durée de principe : 24 heures, le point de départ de tout",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "xn3pj1889",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La règle de base, inscrite dans le Code de procédure pénale, est que la durée initiale d'une garde à vue ne peut excéder 24 heures. C'est le cadre de référence pour la quasi-totalité des infractions. Durant ce laps de temps, les officiers de police judiciaire (OPJ) mènent les premières investigations pour vérifier les soupçons qui pèsent sur la personne retenue.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pm6mt1894",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "style": {},
+        "id": "rpqst1895",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quand le chronomètre se déclenche-t-il VRAIMENT?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "lx6xv1898",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C'est un point technique, mais absolument fondamental. Le décompte des 24 heures ne commence pas à l'arrivée au commissariat ou à la gendarmerie, ni au moment où l'on vous notifie officiellement vos droits. Il débute à l'instant précis où vous êtes privé de votre liberté d'aller et venir.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "a358o1901",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette nuance est capitale et peut prendre plusieurs formes concrètes :",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "ttofz1903",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "lgdn01904",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "3rp801905",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "En cas d'interpellation dans la rue :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Si vous êtes arrêté à 15h00 et que vous n'arrivez au commissariat qu'à 16h00, la garde à vue a commencé à 15h00. Elle devra donc prendre fin, au plus tard, le lendemain à 15h00.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "xf9px1909",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "hev4t1910",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "En cas de contrôle routier :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Pour une infraction comme la conduite en état d'ivresse, le début de la garde à vue est fixé à l'heure du test d'alcoolémie ou de stupéfiants, même si d'autres vérifications sont faites plus tard au poste.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "phcu01914",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "7u71d1915",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "En cas de placement en cellule de dégrisement :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Le temps passé en chambre de dégrisement avant l'audition est entièrement comptabilisé dans la durée totale de la garde à vue.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "bcppm1919",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le calcul précis de cette heure de départ est ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "un réflexe essentiel pour un avocat pénaliste",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/défense-pénale/droit-pénal",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Une erreur, même d'une heure, de la part des enquêteurs peut rendre la totalité de la mesure illégale. C'est souvent sur ces détails, en apparence minimes, que se construit une défense efficace. ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "25lc63581",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "DIVIDER",
+        "id": "o2jot14517",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4cfyj4416",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "type": "HEADING",
+        "id": "hp4gr4081",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un proche est en garde à vue en ce moment ?",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#E54D4D",
+                    "foreground": "#F9F9F9"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "oeh674920",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C'est pendant ces heures que tout se joue : un avocat peut intervenir dès la première audition. Le cabinet se déplace en urgence à Bordeaux et sa région.",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Contacter le cabinet ici !",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "#F9F9F9",
+                    "foreground": "#14495B"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/honoraires-rendez-vous",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          }
+        ],
+        "paragraphData": {}
+      },
+      {
+        "type": "DIVIDER",
+        "id": "x6sev2913",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qjiyt3414",
+        "nodes": [],
+        "paragraphData": {}
+      },
+      {
+        "style": {},
+        "id": "24jyy14540",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La première prolongation : jusqu'à 48 heures (le cas général)",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ls8yd1925",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans de nombreux cas, les 24 heures initiales ne suffisent pas aux enquêteurs. La loi prévoit donc la possibilité de prolonger la garde à vue de 24 heures supplémentaires, portant ainsi sa durée totale maximale à 48 heures.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "SUPERSCRIPT"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "C'est le scénario le plus fréquent en pratique.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fmpsa1929",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "style": {},
+        "id": "meecx1930",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quelles sont les conditions pour une prolongation?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ucqrs1933",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cette prolongation n'est pas automatique. Elle est soumise à des conditions strictes qui doivent être scrupuleusement respectées :",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "ORDERED_LIST",
+        "id": "8zg5h1935",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "snuyz1936",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "vllj91937",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La gravité de l'infraction :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " La prolongation n'est possible que si les faits pour lesquels la personne est retenue constituent un crime ou un délit puni par la loi d'une peine d'emprisonnement d'au moins un an.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "2",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        },
+                        {
+                          "type": "SUPERSCRIPT"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Pour les infractions moins graves, la garde à vue ne peut excéder 24 heures.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "i0m0g1942",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "lb5i71943",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L'autorisation d'un magistrat :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " La décision de prolonger doit être prise par le Procureur de la République (dans le cadre d'une enquête préliminaire ou de flagrance) ou par le Juge d'instruction (si une information judiciaire est ouverte). Cette autorisation doit être écrite et motivée, c'est-à-dire qu'elle doit expliquer pourquoi il est nécessaire de maintenir la personne en garde à vue.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          }
+        ],
+        "orderedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7eqs41947",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "style": {},
+        "id": "5labe1948",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vos droits spécifiques en cas de prolongation",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "grb5x1951",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L'approche de la 24ème heure n'est pas seulement un moment de bascule pour l'enquête ; elle active de nouveaux droits fondamentaux pour la personne gardée à vue. Il ne s'agit pas de droits passifs, mais d'outils concrets pour contester la mesure.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "snzsj1953",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "q5xff1954",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "99vx31955",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le droit à un nouvel examen médical :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Vous pouvez demander à être examiné une seconde fois par un médecin. Celui-ci vérifiera si votre état de santé est compatible avec la poursuite de la garde à vue et son avis sera versé au dossier. C'est une garantie essentielle.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "2wzix1960",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "4uhbg1961",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le droit de présenter des observations au magistrat :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " C'est une étape cruciale. Vous pouvez demander à être présenté physiquement (ou par visioconférence) au Procureur de la République qui s'apprête à décider de la prolongation. De son côté, ",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "votre avocat peut formuler des observations écrites",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " qui seront jointes à la procédure pour contester la nécessité de vous maintenir privé de liberté. Bien qu'il ne s'agisse pas encore d'un débat oral contradictoire (qui n'intervient qu'à la 48ème heure devant le JLD), ces observations écrites sont une arme stratégique pour argumenter que les objectifs de l'enquête sont atteints ou que la prolongation n'est pas justifiée.",
+                      "decorations": []
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "5gb661966",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "u66l01967",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le droit à un nouvel entretien avec votre avocat :",
+                      "decorations": [
+                        {
+                          "type": "BOLD",
+                          "fontWeightValue": 700.0
+                        },
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " Dès le début de la prolongation, vous avez le droit de vous entretenir à nouveau confidentiellement avec votre avocat pendant 30 minutes.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "\n",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "x0gdt1971",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce moment de la prolongation transforme une décision qui pourrait sembler administrative en un débat contradictoire. C'est une opportunité stratégique pour votre défense, où l'intervention d'un avocat peut faire la différence et mener à une remise en liberté.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "jcx3117890",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "DIVIDER",
+        "id": "du88v15052",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "style": {},
+        "id": "g8w7o15104",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les prolongations exceptionnelles : 72h, 96h et au-delà",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "lcv2s1977",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les formes de criminalité les plus graves, le législateur a prévu des régimes dérogatoires permettant de prolonger la garde à vue bien au-delà des 48 heures de droit commun. Ces mesures, qui portent une atteinte majeure à la liberté individuelle, sont très encadrées.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "9y0451979",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "style": {},
+        "id": "x0fsm1980",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Criminalité organisée et trafic de stupéfiants (jusqu'à 96 heures... et même 120 heures)",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "mn1co1983",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les infractions relevant de la criminalité en bande organisée (comme le vol à main armée, le proxénétisme aggravé, etc.) et le trafic de stupéfiants, listées à l'article 706-73 du Code de procédure pénale, la durée de la garde à vue peut atteindre ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "96 heures (soit 4 jours)",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Cette durée est atteinte par deux prolongations supplémentaires de 24 heures chacune après les 48 premières heures.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "fzh2b1990",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Il existe même une exception très spécifique : pour les personnes soupçonnées de trafic de stupéfiants qui ont ingéré la drogue pour la transporter (communément appelées \"mules\"), une prolongation additionnelle de 24 heures est possible si la présence des produits dans l'organisme est avérée. La durée totale peut alors être portée à ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "120 heures (5 jours)",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", notamment pour ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "permettre l'expulsion naturelle des preuves dans un cadre médicalisé et sécurisé. La connaissance de cette règle pointue illustre la complexité de la matière et la nécessité d'une défense spécialisée.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ak07t1996",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "style": {},
+        "id": "cjjok1997",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Terrorisme (jusqu'à 144 heures, soit 6 jours)",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "gyfop2000",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le régime le plus exceptionnel est réservé aux affaires de terrorisme. Face à la complexité de ces enquêtes et à la gravité de la menace, la garde à vue peut être étendue jusqu'à une durée maximale de ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "144 heures, soit 6 jours",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Ces prolongations successives sont soumises à des conditions extrêmement strictes et à un contrôle judiciaire renforcé.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ysh4m2007",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "style": {},
+        "id": "c2id12008",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le rôle central du Juge des Libertés et de la Détention (JLD)",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "4xbpc2011",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un changement fondamental intervient après 48 heures de garde à vue. Pour toute prolongation au-delà de ce seuil, ce n'est plus le Procureur de la République (qui dirige l'accusation) qui est seul compétent. La décision doit être prise par un magistrat du siège, indépendant de l'accusation : le ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Juge des Libertés et de la Détention (JLD)",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", ou le Juge d'instruction s'il est déjà saisi.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "9c31u2016",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce basculement n'est pas un simple détail de procédure. Il constitue une garantie fondamentale. La loi considère qu'une privation de liberté aussi longue exige l'intervention d'un \"arbitre\" dont le rôle spécifique est de protéger les libertés individuelles face aux nécessités de l'enquête. La présentation de la personne au JLD est le principe, ce qui assure que la décision de prolonger est prise après un débat contradictoire, renforçant ainsi les droits de la défense.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "b68ub18842",
+        "nodes": [],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "DIVIDER",
+        "id": "9bidw15587",
+        "nodes": [],
+        "dividerData": {
+          "containerData": {
+            "textWrap": false,
+            "height": {},
+            "spoiler": {},
+            "alignment": "CENTER",
+            "width": {}
+          },
+          "lineStyle": "SINGLE",
+          "width": "LARGE",
+          "alignment": "CENTER"
+        }
+      },
+      {
+        "style": {},
+        "id": "8s22y15660",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Tableau récapitulatif des durées de garde à vue par type d'infraction",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "b953n2023",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour y voir plus clair, voici un tableau qui résume les différentes durées maximales de la garde à vue en France, en fonction de la nature de l'infraction et de l'âge de la personne concernée.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "TABLE",
+        "id": "e28dp2025",
+        "nodes": [
+          {
+            "type": "TABLE_ROW",
+            "id": "b3vp02026",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "u07e217222",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "56lb02028",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Régime / Personne Concernée",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ivfar17224",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "8km322031",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Durée Initiale",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ngalb17226",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "sarbq2034",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "1ère Prolongation",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "mr87y17228",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "vpc4k2037",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Prolongations Exceptionnelles",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ervdh17230",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "vufc42040",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Durée Maximale",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "eiuem17232",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "v4pk02043",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Autorité Clé pour la Prolongation",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "909sq2045",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "8cs1t17234",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "ezv9n2047",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Majeur - Droit Commun",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "w57qz17236",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "xq0152050",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "24h",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "o0zrg17238",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "pm3bq2053",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "+ 24h",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "qlaid17240",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "80y122056",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "-",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "yd0no17242",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "833wj2059",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "48h",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "r8ity17244",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "4e4p22062",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Procureur / Juge d'instruction",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "5h9m42064",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "i428b17246",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "4a9ww2066",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Majeur - Bande Organisée",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ldgu117248",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "tldw52069",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "24h",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "gpml317250",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "fyv5m2072",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "+ 24h",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "cqkp117252",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "1ncs72075",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "+ 24h, puis + 24h",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "lgd5j17254",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "xwxi02078",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "96h",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "02sjg17256",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "efpmk2081",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "JLD / Juge d'instruction",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "5hr1m2083",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "7ole917258",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "ucogj2085",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Majeur - Trafic de Stupéfiants (\"Mule\")",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "g1cn117260",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "afrax2088",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "24h",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "kyygs17262",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "ha7t62091",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "+ 24h",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "gkcsz17264",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "mlla52094",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "+ 24h, + 24h, puis + 24h",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "jbz2l17266",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "zcc4g2097",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "120h (5j)",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "7tlvv17268",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "o54rc2100",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "JLD / Juge d'instruction",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "5zmpw2102",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "e0tcs17270",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "46lk82104",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Majeur - Terrorisme",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "p6yfm17272",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "k74772107",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "24h",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ccl5p17274",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "q2jrn2110",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "+ 24h",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "5lq5d17276",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "05ktx2113",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Jusqu'à 144h par tranches",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "e88ki17278",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "k863p2116",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "144h (6j)",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "33kfw17280",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "emchx2119",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "JLD / Juge d'instruction",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "d4m832121",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "1v7kk17282",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "tk7332123",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Mineur (16-17 ans)",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "5lrc617284",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "lhnj62126",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "24h",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "hnet317286",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "a84jy2129",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "+ 24h",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "2pzsm17288",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "heqj81306",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Régimes dérogatoires applicables",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": " ",
+                          "decorations": []
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "(Si co-auteur/complice majeur)",
+                          "decorations": [
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "6722k17290",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "shr8e1474",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Jusqu'à 96h ou 144h",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "4cku217292",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "xrc7o2138",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Procureur / Juge d'instruction",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "xhyst2140",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "eej9w17294",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "zhbz62142",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Mineur (13-15 ans)",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "wpyww17296",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "w1r8w2145",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "24h",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "gd7bv17298",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "isuqd2148",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "+ 24h (si peine ≥ 5 ans)",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "u5l2117300",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "nw93q2151",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "-",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ooilb17302",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "ybxyy2154",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "48h",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "6irks17304",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "og3sv2157",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Procureur / Juge d'instruction",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          },
+          {
+            "type": "TABLE_ROW",
+            "id": "ducg32159",
+            "nodes": [
+              {
+                "type": "TABLE_CELL",
+                "id": "bmrxh17306",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "uwszx2161",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Mineur (10-12 ans) - ",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Retenue",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            },
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {
+                  "cellStyle": {
+                    "verticalAlignment": "TOP",
+                    "backgroundColor": "#CFD1DC"
+                  }
+                }
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "xkqe317309",
+                "nodes": [
+                  {
+                    "type": "PARAGRAPH",
+                    "id": "cf0l1992",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "12h",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": " ",
+                          "decorations": []
+                        }
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "(si peine ≥ 5 ans)",
+                          "decorations": [
+                            {
+                              "type": "ITALIC",
+                              "italicData": true
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    }
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ql3gm17311",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "o1o872168",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "+ 12h ",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "ei72617313",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "2atwq2171",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "-",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "b6upw17315",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "elhj32174",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "24h",
+                          "decorations": [
+                            {
+                              "type": "BOLD",
+                              "fontWeightValue": 700.0
+                            },
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              },
+              {
+                "type": "TABLE_CELL",
+                "id": "3b1rq17317",
+                "nodes": [
+                  {
+                    "paragraphData": {
+                      "textStyle": {
+                        "textAlignment": "AUTO"
+                      }
+                    },
+                    "style": {},
+                    "id": "e7rgs2177",
+                    "nodes": [
+                      {
+                        "type": "TEXT",
+                        "id": "",
+                        "nodes": [],
+                        "textData": {
+                          "text": "Procureur / Juge d'instruction",
+                          "decorations": [
+                            {
+                              "type": "COLOR",
+                              "colorData": {
+                                "background": "transparent",
+                                "foreground": "#17475E"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "PARAGRAPH"
+                  }
+                ],
+                "tableCellData": {}
+              }
+            ]
+          }
+        ],
+        "tableData": {
+          "dimensions": {
+            "colsWidthRatio": [
+              155.0,
+              106.0,
+              118.0,
+              120.0,
+              109.0,
+              222.0
+            ],
+            "rowsHeight": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "colsMinWidth": [
+              120.0,
+              106.0,
+              118.0,
+              120.0,
+              109.0,
+              120.0
+            ]
+          },
+          "cellPadding": []
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "c48ha2185",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "style": {},
+        "id": "kh8om2186",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Que se passe-t-il si la durée légale est dépassée?",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "122es2189",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le respect des délais de la garde à vue n'est pas une option. C'est une obligation impérative qui protège la liberté individuelle. Si la durée légale est dépassée, même de quelques minutes, les conséquences peuvent être radicales : c'est le principe de la ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "nullité de la procédure",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "kwk642194",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Concrètement, si un juge constate que la garde à vue est illégale (par exemple, en raison d'un dépassement de la durée maximale), il peut l'annuler. Cette annulation a un effet \"domino\". Selon la théorie des \"fruits de l'arbre empoisonné\", tous les actes d'enquête qui ont été réalisés pendant la garde à vue illégale et qui en sont le support nécessaire peuvent également être annulés. Cela peut concerner :",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "njpbv2198",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "gcfln2199",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "axsx52200",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les aveux ou déclarations faits pendant les auditions.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "usfoo2202",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "e1wbi2203",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les résultats d'une perquisition décidée sur la base de ces déclarations.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "sw9312205",
+            "nodes": [
+              {
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                },
+                "style": {},
+                "id": "ynguf2206",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Toute pièce de la procédure qui découle directement de la mesure annulée.",
+                      "decorations": [
+                        {
+                          "type": "COLOR",
+                          "colorData": {
+                            "background": "transparent",
+                            "foreground": "#17475E"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "type": "PARAGRAPH"
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0.0
+        }
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "8qewm2208",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cependant, il est essentiel de comprendre une chose : ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "la nullité n'est jamais automatique",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Une erreur de procédure ne suffit pas toujours à faire tomber un dossier. Elle doit être identifiée, argumentée et plaidée par un avocat devant la juridiction compétente (la Chambre de l'instruction ou le tribunal correctionnel).",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "SUPERSCRIPT"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le rôle de l'avocat est de démontrer que l'irrégularité a porté une atteinte effective aux droits de son client. C'est un combat juridique technique et précis, où ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "l'expertise d'un pénaliste est déterminante.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/défense-pénale/droit-pénal",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "l885s2216",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La vigilance sur le respect scrupuleux des délais et la capacité à soulever une nullité pertinente est l'une des plus-values les plus importantes de l'assistance d'un avocat dès la première heure de garde à vue. Pour en savoir plus, vous pouvez consulter nos ressources sur les vices de procédure en droit pénal.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "remev2221",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ckdmlg10",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La nullité ne concerne d'ailleurs pas que les délais : si la garde à vue fait suite à un contrôle routier, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "un dépistage de stupéfiants irrégulier peut lui aussi être annulé",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/post/nullité-du-dépistage-de-produits-stupéfiants-lors-d-un-contrôle-routier",
+                      "target": "BLANK",
+                      "rel": {
+                        "noreferrer": true
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ckdmlg11",
+        "nodes": [],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "style": {},
+        "id": "z0qql2222",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion : La durée de la garde à vue, un cadre strict pour protéger vos droits",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 3.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "ygmv32225",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Comme nous venons de le voir, la durée d'une garde à vue est tout sauf arbitraire. Elle est régie par un cadre légal strict qui évolue en fonction de la gravité des faits et de l'avancée de l'enquête : ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "24 heures",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " par principe, ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "48 heures",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " dans le cas général, et jusqu'à ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "96, 120 ou 144 heures",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour les crimes les plus graves.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "560sr2233",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Chaque palier de cette chronologie est un rempart pour vos libertés, ouvrant des droits spécifiques et renforçant le contrôle judiciaire. Connaître ces règles est une première étape indispensable. Mais dans le contexte stressant et complexe d'une garde à vue, seul un ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "avocat spécialisé en droit pénal",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/défense-pénale/droit-pénal",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/défense-pénale/droit-pénal",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "a l'expertise pour s'assurer que chaque seconde du chronomètre est légale, que chaque droit est respecté, et que chaque faille de la procédure est exploitée pour construire une défense solide.",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#17475E"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "\n",
+              "decorations": []
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "style": {},
+        "id": "zni2k2237",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si vous ou l'un de vos proches êtes placé en garde à vue à Bordeaux ou dans la région, n'attendez pas. Les premières heures sont décisives. ",
+              "decorations": [
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#E62214"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Contactez le Cabinet Plouton pour une assistance immédiate et une défense efficace.",
+              "decorations": [
+                {
+                  "type": "BOLD",
+                  "fontWeightValue": 700.0
+                },
+                {
+                  "type": "COLOR",
+                  "colorData": {
+                    "background": "transparent",
+                    "foreground": "#E62214"
+                  }
+                },
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "url": "/honoraires-rendez-vous",
+                      "target": "BLANK"
+                    }
+                  }
+                },
+                {
+                  "type": "UNDERLINE"
+                }
+              ]
+            }
+          }
+        ],
+        "type": "PARAGRAPH"
+      },
+      {
+        "style": {},
+        "id": "8p32y2241",
+        "nodes": [],
+        "headingData": {
+          "level": 4.0,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        },
+        "type": "HEADING"
+      }
+    ],
+    "documentStyle": {}
+  }
+}
