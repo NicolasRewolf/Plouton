@@ -146,3 +146,9 @@ Détail → `docs/12-seo-geo.md`.
 **Décision :** le Header actuel sur `main` est **parfait et figé** — plus de reconvergence pixel vers Wix, pas d’écrasement par le chantier Fable.  
 **Pourquoi :** UX validée par Nicolas ; les écarts vs live sont des déviations assumées (`contenu/reference/deviations.json` → `header-frozen-main`).  
 **Conséquence :** Phase 4 fidélité reprend sur Footer / CTA / FAQ / cartes / etc., **sans toucher au Header**.
+
+### Pages légales (2026-07-18)
+**Décision :** un gabarit `LegalPageView` + TOC sticky ; contenu en JSON (`mentions-legales`, `politique-de-confidentialite`, `cookies`).  
+**Pourquoi :** obligation légale (formulaires + RGPD) ; le live Wix n’avait qu’un bloc mentions peu structuré.  
+**Sources :** live Wix (textes IP / responsabilité) + API entreprises / Pappers (SIREN, SIRET, siège) + inspiration UI Outremer (structure claire, pas de copie de thème).  
+**Hors périmètre :** pas de refonte Footer (chantier Fable) — le lien Mentions du Footer de `main` est conservé ; les autres pages légales se croisent entre elles + lien formulaire → confidentialité.

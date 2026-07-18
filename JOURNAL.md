@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Pages légales (mentions, confidentialité, cookies)
+
+- Mentions légales refaites proprement + **politique de confidentialité** + page **Cookies**
+- Mise en page moderne avec **sommaire collant** (facile à parcourir)
+- Infos société croisées (site live + registre officiel) — capital social laissé en « à confirmer »
+- Branche `feat/pages-legales` (ne touche pas au Footer / chantier Fable)
+
 ## 2026-07-18 — Header figé (décision)
 
 - Le menu du haut (Header) sur `main` est **validé et gelé** — on ne le refait plus « comme Wix »

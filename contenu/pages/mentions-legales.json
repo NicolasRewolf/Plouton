@@ -1,15 +1,95 @@
 {
   "slug": "mentions-legales",
   "path": "/mentions-legales",
-  "title": "Mentions Légales | Cabinet Plouton - Avocats pénalistes",
-  "metaTitle": "Mentions Légales | Cabinet Plouton - Avocats pénalistes",
-  "metaDescription": "Mentions légales et confidentialités du cabinet Plouton",
-  "intro": "",
+  "title": "Mentions légales",
+  "h1": "Mentions légales",
+  "metaTitle": "Mentions légales | Cabinet Plouton — Avocats à Bordeaux",
+  "metaDescription": "Mentions légales du site jplouton-avocat.fr : éditeur SELAS Julien Plouton, hébergement, propriété intellectuelle, médiation.",
+  "intro": "Informations obligatoires sur l’éditeur du site, l’hébergement et les conditions d’utilisation.",
+  "updatedAt": "2026-07-18",
+  "todos": [
+    "Capital social de la SELAS : à confirmer sur un extrait Kbis / Pappers (non publié ici pour ne pas inventer le montant)."
+  ],
+  "relatedLinks": [
+    { "href": "/politique-de-confidentialite", "label": "Politique de confidentialité" },
+    { "href": "/cookies", "label": "Cookies" }
+  ],
   "sections": [
     {
-      "title": "Mentions Légales | Cabinet Plouton - Avocats pénalistes",
-      "body": "Éditeur Ce site Internet est la propriété du Cabinet d’Avocats Julien Plouton . Ce site a pour vocation de vous fournir des informations sur la marque & les services proposés par le Cabinet d’Avocats Julien Plouton dont le siège social est situé : 15 Pl. Sainte-Eulalie, 33000 Bordeaux\n\nDirecteur de la publication M. Julien PLOUTON\n\nDesign & développement Agence REWOLF 33000 Bordeaux, France 0631621776\n\nhttps://www.rewolf.studio/ Propriété intellectuelle Le contenu de ce site Web est la propriété du Cabinet d’Avocats Julien Plouton. Vous avez l’autorisation de consulter les données qu’il contient pour votre seule utilisation personnelle non commerciale, ce qui exclut toute exploitation commerciale à un niveau local, national ou international. Notamment, aucun logo, texte, graphique ou image contenus dans le site ne pourrait être copié, reproduit, modifié, publié, émis, posté, transmis ou distribué par quelques moyens que ce soit sans l’autorisation préalable écrite du Cabinet d’Avocats Julien Plouton.\n\nLiens Hypertextes Les pages de ce site Web pourront présenter des liens avec d’autres sites ou faire des renvois à d’autres sites. Le Cabinet d’Avocats Julien Plouton ne se porte pas garant du contenu de ces autres sites et ne pourra être tenu responsable des dommages résultant de l’utilisation de contenu de ces sites. Les liens vers d’autres sites ne sont fournis que pour la commodité de l’utilisateur de ce site Web.\n\nResponsabilités Le Cabinet d’Avocats Julien Plouton ne pourra être tenu responsable de tout dommage direct ou indirect issu d’une interruption, d’un dysfonctionnement quel qu’il soit, et ce pour quelque raison que ce soit, ou encore de tout dommage direct ou indirect qui résulterait, d’une façon quelconque, d’une connexion au site. La connexion de toute personne au site se fait sous son entière responsabilité.\n\nProtection des données personnelles Ce site Web est en cours de déclaration auprès de la Commission Nationale Informatique et Libertés (CNIL). Conformément à l’article 27 de la Loi Informatique et Libertés du 6 janvier 1978, les informations indispensables au traitement et à l’exécution des demandes sont signalées par un astérisque. Les autres informations demandées, pour lesquelles la réponse est facultative, sont destinées à mieux connaître les utilisateurs et ainsi à améliorer les services qui leur sont proposés. Conformément à l’article 27 de la Loi Informatique et Libertés du 6 janvier 1978, les utilisateurs disposent d’un droit d’accès, de rectification et de suppression des données les concernant.\n\nPour l’exercer, adressez-vous à : Cabinet d’Avocats Julien Plouton, 15 Pl. Sainte-Eulalie, 33000 Bordeaux"
+      "id": "editeur",
+      "title": "Éditeur du site",
+      "paragraphs": [
+        "Ce site Internet est édité par la SELAS Julien Plouton (Cabinet d’Avocats Julien Plouton), société d’exercice libéral par actions simplifiée.",
+        "Siège social : 15 Place Sainte-Eulalie, 33000 Bordeaux.",
+        "SIREN : 804 476 588 — SIRET (siège) : 804 476 588 00046 — RCS Bordeaux — Code APE / NAF : 69.10Z (Activités juridiques).",
+        "TVA intracommunautaire : FR33 804 476 588.",
+        "Téléphone : [05 56 44 35 96](tel:+33556443596) — Email : [accueil@jplouton-avocat.fr](mailto:accueil@jplouton-avocat.fr)."
+      ]
+    },
+    {
+      "id": "publication",
+      "title": "Directeur de la publication",
+      "paragraphs": [
+        "Maître Julien Plouton, avocat, Président de la SELAS Julien Plouton."
+      ]
+    },
+    {
+      "id": "profession",
+      "title": "Profession réglementée",
+      "paragraphs": [
+        "Les avocats du cabinet sont inscrits au barreau de Bordeaux (Ordre des avocats près la cour d’appel de Bordeaux) et soumis au Règlement Intérieur National (RIN) de la profession d’avocat.",
+        "Le site a une vocation d’information générale sur les domaines d’intervention du cabinet. Il ne constitue pas une consultation juridique personnalisée."
+      ]
+    },
+    {
+      "id": "hebergement",
+      "title": "Hébergement",
+      "paragraphs": [
+        "Le site est hébergé par Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis — [vercel.com](https://vercel.com)."
+      ]
+    },
+    {
+      "id": "conception",
+      "title": "Conception & développement",
+      "paragraphs": [
+        "Agence REWOLF — Bordeaux, France — [rewolf.studio](https://www.rewolf.studio/) — Tél. : [06 31 62 17 76](tel:+33631621776)."
+      ]
+    },
+    {
+      "id": "propriete",
+      "title": "Propriété intellectuelle",
+      "paragraphs": [
+        "Le contenu de ce site Web est la propriété du Cabinet d’Avocats Julien Plouton. Vous avez l’autorisation de consulter les données qu’il contient pour votre seule utilisation personnelle non commerciale, ce qui exclut toute exploitation commerciale à un niveau local, national ou international.",
+        "Notamment, aucun logo, texte, graphique ou image contenus dans le site ne peut être copié, reproduit, modifié, publié, émis, posté, transmis ou distribué par quelque moyen que ce soit sans l’autorisation préalable écrite du Cabinet d’Avocats Julien Plouton."
+      ]
+    },
+    {
+      "id": "liens",
+      "title": "Liens hypertextes",
+      "paragraphs": [
+        "Les pages de ce site pourront présenter des liens vers d’autres sites ou y faire renvoi. Le Cabinet d’Avocats Julien Plouton ne se porte pas garant du contenu de ces autres sites et ne pourra être tenu responsable des dommages résultant de leur utilisation. Ces liens sont fournis pour la seule commodité de l’utilisateur."
+      ]
+    },
+    {
+      "id": "responsabilite",
+      "title": "Responsabilité",
+      "paragraphs": [
+        "Le Cabinet d’Avocats Julien Plouton ne pourra être tenu responsable de tout dommage direct ou indirect issu d’une interruption, d’un dysfonctionnement quel qu’il soit, et ce pour quelque raison que ce soit, ou encore de tout dommage direct ou indirect qui résulterait, d’une façon quelconque, d’une connexion au site. La connexion de toute personne au site se fait sous son entière responsabilité."
+      ]
+    },
+    {
+      "id": "mediation",
+      "title": "Médiation de la consommation",
+      "paragraphs": [
+        "Conformément aux dispositions du Code de la consommation relatives au règlement extrajudiciaire des litiges, le client consommateur peut saisir le Médiateur de la consommation de la profession d’avocat — 22 rue de Londres, 75009 Paris — [mediateur-consommation-avocat.fr](https://mediateur-consommation-avocat.fr)."
+      ]
+    },
+    {
+      "id": "donnees",
+      "title": "Données personnelles",
+      "paragraphs": [
+        "Le traitement des données personnelles collectées via le site (formulaires de contact, mesure d’audience) est décrit dans la [politique de confidentialité](/politique-de-confidentialite) et la page [Cookies](/cookies)."
+      ]
     }
-  ],
-  "fullText": "Mentions Légales | Cabinet Plouton - Avocats pénalistes\n\nMentions Légales | Cabinet Plouton - Avocats pénalistes\n\nÉditeur Ce site Internet est la propriété du Cabinet d’Avocats Julien Plouton . Ce site a pour vocation de vous fournir des informations sur la marque & les services proposés par le Cabinet d’Avocats Julien Plouton dont le siège social est situé : 15 Pl. Sainte-Eulalie, 33000 Bordeaux\n\nDirecteur de la publication M. Julien PLOUTON\n\nDesign & développement Agence REWOLF 33000 Bordeaux, France 0631621776\n\nhttps://www.rewolf.studio/ Propriété intellectuelle Le contenu de ce site Web est la propriété du Cabinet d’Avocats Julien Plouton. Vous avez l’autorisation de consulter les données qu’il contient pour votre seule utilisation personnelle non commerciale, ce qui exclut toute exploitation commerciale à un niveau local, national ou international. Notamment, aucun logo, texte, graphique ou image contenus dans le site ne pourrait être copié, reproduit, modifié, publié, émis, posté, transmis ou distribué par quelques moyens que ce soit sans l’autorisation préalable écrite du Cabinet d’Avocats Julien Plouton.\n\nLiens Hypertextes Les pages de ce site Web pourront présenter des liens avec d’autres sites ou faire des renvois à d’autres sites. Le Cabinet d’Avocats Julien Plouton ne se porte pas garant du contenu de ces autres sites et ne pourra être tenu responsable des dommages résultant de l’utilisation de contenu de ces sites. Les liens vers d’autres sites ne sont fournis que pour la commodité de l’utilisateur de ce site Web.\n\nResponsabilités Le Cabinet d’Avocats Julien Plouton ne pourra être tenu responsable de tout dommage direct ou indirect issu d’une interruption, d’un dysfonctionnement quel qu’il soit, et ce pour quelque raison que ce soit, ou encore de tout dommage direct ou indirect qui résulterait, d’une façon quelconque, d’une connexion au site. La connexion de toute personne au site se fait sous son entière responsabilité.\n\nProtection des données personnelles Ce site Web est en cours de déclaration auprès de la Commission Nationale Informatique et Libertés (CNIL). Conformément à l’article 27 de la Loi Informatique et Libertés du 6 janvier 1978, les informations indispensables au traitement et à l’exécution des demandes sont signalées par un astérisque. Les autres informations demandées, pour lesquelles la réponse est facultative, sont destinées à mieux connaître les utilisateurs et ainsi à améliorer les services qui leur sont proposés. Conformément à l’article 27 de la Loi Informatique et Libertés du 6 janvier 1978, les utilisateurs disposent d’un droit d’accès, de rectification et de suppression des données les concernant.\n\nPour l’exercer, adressez-vous à : Cabinet d’Avocats Julien Plouton, 15 Pl. Sainte-Eulalie, 33000 Bordeaux"
+  ]
 }

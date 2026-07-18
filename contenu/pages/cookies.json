@@ -1,0 +1,49 @@
+{
+  "slug": "cookies",
+  "path": "/cookies",
+  "title": "Cookies",
+  "h1": "Cookies & traceurs",
+  "metaTitle": "Cookies | Cabinet Plouton",
+  "metaDescription": "Informations sur les cookies et traceurs utilisés sur le site du Cabinet Plouton.",
+  "intro": "Ce que le site utilise — et ce qu’il n’utilise pas — en matière de cookies et de stockage local.",
+  "updatedAt": "2026-07-18",
+  "relatedLinks": [
+    { "href": "/politique-de-confidentialite", "label": "Politique de confidentialité" },
+    { "href": "/mentions-legales", "label": "Mentions légales" }
+  ],
+  "sections": [
+    {
+      "id": "principe",
+      "title": "Principe",
+      "paragraphs": [
+        "Le site du Cabinet Plouton ne dépose pas de cookies publicitaires ni de cookies de réseaux sociaux destinés au ciblage publicitaire.",
+        "Certains traceurs techniques peuvent être nécessaires au fonctionnement du site ou à la mesure d’audience, lorsque celle-ci est activée."
+      ]
+    },
+    {
+      "id": "techniques",
+      "title": "Traceurs techniques",
+      "paragraphs": [
+        "Des cookies ou équivalents strictement nécessaires peuvent être utilisés pour la sécurité, la répartition de charge ou le bon fonctionnement de l’hébergeur (Vercel).",
+        "Ces traceurs ne servent pas à vous profiler commercialement."
+      ]
+    },
+    {
+      "id": "audience",
+      "title": "Mesure d’audience",
+      "paragraphs": [
+        "Lorsque le suivi d’audience (Cooked ou outil équivalent) est actif, des identifiants techniques peuvent être conservés dans le stockage local du navigateur (localStorage / sessionStorage). Ils ne permettent pas, à eux seuls, de vous identifier nominativement.",
+        "Vous pouvez les effacer à tout moment via les paramètres de votre navigateur (suppression des données de navigation / stockage local pour ce site).",
+        "Pour le détail des finalités, bases légales et droits : voir la [politique de confidentialité](/politique-de-confidentialite)."
+      ]
+    },
+    {
+      "id": "gerer",
+      "title": "Gérer vos préférences",
+      "paragraphs": [
+        "Vous pouvez configurer votre navigateur pour refuser tout ou partie des cookies. Le refus de certains cookies techniques peut dégrader le fonctionnement du site.",
+        "Pour toute question relative aux traceurs : [accueil@jplouton-avocat.fr](mailto:accueil@jplouton-avocat.fr)."
+      ]
+    }
+  ]
+}

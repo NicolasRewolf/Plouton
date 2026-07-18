@@ -1,0 +1,112 @@
+{
+  "slug": "politique-de-confidentialite",
+  "path": "/politique-de-confidentialite",
+  "title": "Politique de confidentialité",
+  "h1": "Politique de confidentialité",
+  "metaTitle": "Politique de confidentialité | Cabinet Plouton — RGPD",
+  "metaDescription": "Politique de confidentialité et protection des données personnelles du Cabinet Plouton (formulaires, cookies, droits RGPD).",
+  "intro": "Comment le Cabinet Plouton collecte, utilise et protège vos données personnelles sur ce site.",
+  "updatedAt": "2026-07-18",
+  "relatedLinks": [
+    { "href": "/mentions-legales", "label": "Mentions légales" },
+    { "href": "/cookies", "label": "Cookies" }
+  ],
+  "sections": [
+    {
+      "id": "responsable",
+      "title": "Responsable du traitement",
+      "paragraphs": [
+        "SELAS Julien Plouton (Cabinet d’Avocats Julien Plouton), 15 Place Sainte-Eulalie, 33000 Bordeaux — SIREN 804 476 588 — email : [accueil@jplouton-avocat.fr](mailto:accueil@jplouton-avocat.fr).",
+        "La présente politique s’applique au site jplouton-avocat.fr et à ses prévisualisations techniques éventuelles (ci-après « le site »)."
+      ]
+    },
+    {
+      "id": "donnees",
+      "title": "Données concernées et finalités",
+      "paragraphs": [
+        "Selon votre usage du site, nous pouvons traiter les catégories de données suivantes."
+      ],
+      "subsections": [
+        {
+          "id": "formulaires",
+          "title": "Formulaires de contact et de rendez-vous",
+          "paragraphs": [
+            "Lorsque vous utilisez un formulaire (prise de contact, demande de rendez-vous), nous collectons les informations que vous saisissez : identité, coordonnées (téléphone, email), objet de la demande, description de votre situation, mode de rendez-vous souhaité, pièces jointes éventuelles, et métadonnées techniques utiles au suivi (page d’origine, paramètres UTM le cas échéant).",
+            "Finalité : vous recontacter, qualifier votre demande, organiser un rendez-vous et assurer le suivi du dossier. Les champs indispensables sont signalés ; les autres sont facultatifs.",
+            "Base légale : mesures précontractuelles à votre demande et/ou intérêt légitime du cabinet à répondre aux sollicitations professionnelles (article 6 du RGPD)."
+          ]
+        },
+        {
+          "id": "audience",
+          "title": "Navigation et mesure d’audience",
+          "paragraphs": [
+            "Lorsque le suivi d’audience est activé (outil Cooked ou équivalent), le site peut enregistrer des événements anonymisés ou pseudonymisés : pages consultées, profondeur de défilement, temps d’engagement, performances techniques, clics sur les appels à l’action. Un identifiant technique peut être stocké dans le navigateur.",
+            "Finalité : comprendre l’usage du site, en améliorer l’ergonomie et mesurer l’efficacité des parcours. Aucune publicité ciblée n’est réalisée à partir de ces données par le cabinet.",
+            "Base légale : intérêt légitime (article 6.1.f du RGPD), dans le respect des règles applicables aux traceurs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "destinataires",
+      "title": "Destinataires",
+      "paragraphs": [
+        "Les données peuvent être traitées par :",
+        "— le Cabinet Plouton (responsable du traitement) et les collaborateurs habilités ;",
+        "— Vercel Inc. (hébergement du site) ;",
+        "— Supabase (stockage des demandes et, le cas échéant, des événements d’audience) ;",
+        "— des sous-traitants techniques strictement nécessaires (messagerie, stockage de fichiers).",
+        "Ces prestataires n’agissent que sur instruction du cabinet, dans le cadre de leurs obligations contractuelles (article 28 du RGPD)."
+      ]
+    },
+    {
+      "id": "transferts",
+      "title": "Transferts hors Union européenne",
+      "paragraphs": [
+        "L’hébergement du site peut impliquer un transfert de données vers les États-Unis (Vercel). Ces transferts sont encadrés par les clauses contractuelles types de la Commission européenne ou des garanties équivalentes offertes par le prestataire."
+      ]
+    },
+    {
+      "id": "conservation",
+      "title": "Durées de conservation",
+      "paragraphs": [
+        "Demandes de contact / rendez-vous : conservées le temps nécessaire au traitement de votre demande, puis archivées ou supprimées selon les besoins de gestion du cabinet et les délais légaux applicables.",
+        "Pièces jointes : conservées uniquement pour le traitement de la demande, puis supprimées ou archivées avec le dossier selon les mêmes règles.",
+        "Données d’audience : conservées pour une durée compatible avec l’analyse statistique, puis supprimées ou anonymisées.",
+        "Identifiants techniques dans le navigateur : jusqu’à suppression manuelle ou expiration de la session."
+      ]
+    },
+    {
+      "id": "cookies",
+      "title": "Cookies et traceurs",
+      "paragraphs": [
+        "Le détail des cookies et traceurs utilisés sur le site figure sur la page dédiée [Cookies](/cookies).",
+        "En résumé : le site ne dépose pas de cookies publicitaires ni de cookies de réseaux sociaux à des fins de ciblage. Des cookies ou stockages techniques peuvent être nécessaires au fonctionnement du site ou à la mesure d’audience lorsque celle-ci est activée."
+      ]
+    },
+    {
+      "id": "droits",
+      "title": "Vos droits",
+      "paragraphs": [
+        "Conformément au RGPD et à la loi Informatique et Libertés, vous disposez des droits d’accès, de rectification, d’effacement, de limitation, d’opposition et de portabilité sur vos données personnelles, dans les conditions prévues par la loi.",
+        "Pour les exercer, adressez votre demande à [accueil@jplouton-avocat.fr](mailto:accueil@jplouton-avocat.fr) ou par courrier au siège du cabinet (15 Place Sainte-Eulalie, 33000 Bordeaux), en précisant l’objet de votre demande.",
+        "Le cabinet répond dans un délai d’un mois (prolongeable dans les cas prévus par la réglementation).",
+        "Vous pouvez également introduire une réclamation auprès de la [CNIL](https://www.cnil.fr)."
+      ]
+    },
+    {
+      "id": "securite",
+      "title": "Sécurité",
+      "paragraphs": [
+        "Le site est servi en HTTPS. L’accès aux espaces de stockage des demandes et des fichiers est restreint. Les clés secrètes d’administration ne sont pas exposées côté navigateur."
+      ]
+    },
+    {
+      "id": "mise-a-jour",
+      "title": "Mise à jour",
+      "paragraphs": [
+        "La présente politique peut être modifiée pour refléter l’évolution du site ou de la réglementation. La date de dernière mise à jour figure en tête de page."
+      ]
+    }
+  ]
+}
