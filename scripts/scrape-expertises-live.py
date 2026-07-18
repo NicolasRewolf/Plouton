@@ -54,6 +54,15 @@ EXPERTISES: list[dict[str, str]] = [
         "blogCategories": ["Droit Pénal"],
     },
     {
+        "url": f"{BASE}/defense-penale/defense-des-elus",
+        "slug": "defense-des-elus",
+        "path": "/defense-penale/defense-des-elus",
+        "pole": "defense-penale",
+        "poleLabel": "Défense pénale",
+        "formObjet": "Défense des élus",
+        "blogCategories": ["Défense des élus"],
+    },
+    {
         "url": f"{BASE}/indemnisation-des-victimes/victimes-de-delits-ou-crimes",
         "slug": "victimes-de-delits-ou-crimes",
         "path": "/indemnisation-des-victimes/victimes-de-delits-ou-crimes",

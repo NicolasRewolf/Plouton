@@ -5,7 +5,7 @@
       "slug": "defense-penale",
       "label": "Défense pénale",
       "shortLabel": "Défense pénale",
-      "href": "/defense-penale/droit-penal",
+      "href": "/defense-penale",
       "expertises": [
         {
           "slug": "droit-penal",
@@ -41,6 +41,13 @@
           "hint": "Entreprises & dirigeants",
           "formObjet": "Droit pénal des affaires",
           "hero": "/brand/expertises/droit-penal-des-affaires.jpg"
+        },
+        {
+          "slug": "defense-des-elus",
+          "label": "Défense des élus",
+          "hint": "Probité, menaces, diffamation",
+          "formObjet": "Défense des élus",
+          "hero": "/brand/expertises/defense-des-elus.jpg"
         }
       ]
     },
@@ -49,7 +56,7 @@
       "slug": "indemnisation-des-victimes",
       "label": "Indemnisation des victimes",
       "shortLabel": "Indemnisation",
-      "href": "/indemnisation-des-victimes/victimes-de-delits-ou-crimes",
+      "href": "/indemnisation-des-victimes",
       "expertises": [
         {
           "slug": "victimes-de-delits-ou-crimes",
@@ -93,7 +100,7 @@
       "slug": "droit-des-contrats-et-des-personnes",
       "label": "Droit des contrats et des personnes",
       "shortLabel": "Contrats & personnes",
-      "href": "/droit-des-contrats-et-des-personnes/droit-de-la-famille",
+      "href": "/droit-des-contrats-et-des-personnes",
       "expertises": [
         {
           "slug": "droit-assurances-particuliers-professionnels",

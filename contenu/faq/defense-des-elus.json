@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Le cabinet intervient-il partout en France ?",
+    "answer": "Oui. Basé à Bordeaux, le Cabinet Plouton défend des élus dans toute la France, en se déplaçant devant les juridictions concernées ou par visioconférence pour les échanges. La dimension nationale de ces dossiers — et souvent leur médiatisation — fait partie de notre pratique quotidienne.",
+    "sousExpertise": "Procédure"
+  },
+  {
+    "question": "Peut-on éviter le procès et négocier une issue ?",
+    "answer": "Parfois, oui. Selon le dossier, une comparution sur reconnaissance préalable de culpabilité peut permettre une peine négociée, et certaines structures publiques ou parapubliques peuvent relever d'une convention judiciaire d'intérêt public. Ces voies ne conviennent pas à tous les cas : nous en évaluons l'opportunité avec vous, sans jamais brader votre défense.",
+    "sousExpertise": "Procédure"
+  },
+  {
+    "question": "Un parlementaire ou un ministre est-il jugé comme un élu local ?",
+    "answer": "Non. Les parlementaires bénéficient d'immunités constitutionnelles (irresponsabilité pour les actes du mandat, inviolabilité encadrant les mesures privatives de liberté). Les ministres, pour les actes de leurs fonctions, relèvent de la Cour de justice de la République. Les élus locaux, eux, sont jugés par les juridictions pénales de droit commun. Chaque statut appelle une défense spécifique.",
+    "sousExpertise": "Statut de l'élu"
+  },
+  {
+    "question": "Qu'est-ce que la protection fonctionnelle et comment l'obtenir ?",
+    "answer": "C'est la protection que la collectivité doit à l'élu victime d'attaques liées à sa fonction : prise en charge des frais de procédure, soutien juridique. Depuis la loi du 21 mars 2024, elle est automatique pour les maires, adjoints et suppléants victimes de violences, menaces ou outrages, cinq jours après réception de leur demande par la commune. Nous vous aidons à la formuler et à la faire appliquer.",
+    "sousExpertise": "Élu victime"
+  },
+  {
+    "question": "Quelle différence entre diffamation et injure envers un élu ?",
+    "answer": "La diffamation impute un fait précis portant atteinte à l'honneur (« il a détourné de l'argent ») ; l'injure est une expression outrageante sans imputation de fait (« incapable », insultes). Toutes deux, commises publiquement contre un élu, relèvent d'un régime aggravé de la loi de 1881. La qualification exacte conditionne la stratégie et les moyens de défense.",
+    "sousExpertise": "Presse & diffamation"
+  },
+  {
+    "question": "Élu menacé ou insulté : comment porter plainte, et dans quel délai ?",
+    "answer": "Vous pouvez déposer plainte auprès du procureur, du commissariat ou de la gendarmerie, et vous constituer partie civile. Attention au délai : pour une injure ou une diffamation publiques, la prescription n'est que de trois mois à compter de la publication. Pour des menaces ou des violences, les délais sont plus longs, mais agir vite reste déterminant pour les preuves.",
+    "sousExpertise": "Élu victime"
+  },
+  {
+    "question": "Un maire perquisitionné : que se passe-t-il et quels sont ses droits ?",
+    "answer": "La perquisition en mairie s'inscrit dans une enquête ou une instruction. Vous avez le droit d'être assisté d'un avocat, de connaître le cadre juridique de l'acte et de veiller au respect des règles de saisie. Ne signez rien et ne vous expliquez pas sans conseil : les premières heures orientent souvent tout le dossier. Contactez immédiatement un pénaliste.",
+    "sousExpertise": "Procédure"
+  },
+  {
+    "question": "L'inéligibilité est-elle automatique en cas de condamnation ?",
+    "answer": "Pour la prise illégale d'intérêts et plusieurs atteintes à la probité, la peine complémentaire d'inéligibilité est prononcée de manière quasi systématique et constitue souvent l'enjeu central du dossier, car elle met fin au mandat. La discuter suppose d'agir sur la qualification elle-même, en amont de la peine.",
+    "sousExpertise": "Probité"
+  },
+  {
+    "question": "Cette nouvelle loi s'applique-t-elle aux affaires déjà en cours ?",
+    "answer": "Oui. Étant une loi pénale plus douce, elle s'applique rétroactivement aux faits non définitivement jugés (rétroactivité in mitius), comme l'a confirmé la Cour de cassation le 6 mai 2026. Un dossier instruit sous l'ancienne définition peut donc être réexaminé à la lumière du nouveau texte — un argument de défense à soulever sans tarder.",
+    "sousExpertise": "Probité"
+  },
+  {
+    "question": "Un élu peut-il encore être condamné pour prise illégale d'intérêts après la réforme de décembre 2025 ?",
+    "answer": "Oui, mais c'est devenu plus exigeant pour l'accusation. Depuis la loi du 22 décembre 2025, il faut démontrer que l'intérêt en cause a réellement altéré l'impartialité, l'indépendance ou l'objectivité de l'élu — une atteinte concrète, non plus une simple potentialité. L'intérêt purement public est exclu, et l'élu agissant pour un motif impératif d'intérêt général est exonéré.",
+    "sousExpertise": "Probité"
+  }
+]

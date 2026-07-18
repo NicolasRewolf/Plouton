@@ -104,6 +104,25 @@ export interface RessourcesHubContent {
   sections: RessourcesHubSection[]
 }
 
+/** Hub d’un pôle (3) — cards expertises enfants. */
+export interface PoleHubCard {
+  title: string
+  domaine?: string[]
+  synthese: string
+  url: string
+  image?: string
+}
+
+export interface PoleHubContent {
+  slug: string
+  path: string
+  title: string
+  metaTitle?: string
+  metaDescription?: string
+  intro: string
+  cards: PoleHubCard[]
+}
+
 export interface Category {
   id: string
   label: string

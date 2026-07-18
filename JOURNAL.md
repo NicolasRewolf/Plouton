@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Hubs pôles + Défense des élus + redirects
+
+- Les **3 portes d’entrée** des pôles marchent (plus de page blanche)
+- **Défense des élus** : vraie page expertise (contenu live) + FAQ + menu
+- Anciennes URLs « actualités » pointent vers le **bon blog** (plus de cul-de-sac)
+- Suite : **C5** (site qui lit la base) — gros chantier, pas encore démarré
+
 ## 2026-07-18 — Médias + hub Ressources
 
 - **Médias** dans le menu → vraie grille blog ; `/medias` redirige dessus (plus de liste pauvre)

@@ -184,6 +184,17 @@ Page `/comprendre-le-droit` — **pas** un listing blog plat.
 - Sections thématiques = **slugs hardcodés** (les Tags Wix dans `Posts.csv` ne sont que des UUID, pas de libellés dans le produit)
 - Nav **Médias** → `/blog/categories/médias` (grille `BlogListing`) ; `/medias` = redirect 301
 
+### Gabarit `PoleHub` (3 pôles)
+
+Pages :
+- `/defense-penale`
+- `/indemnisation-des-victimes`
+- `/droit-des-contrats-et-des-personnes`
+
+- Données : `contenu/pages/pole-*.json` (titre, intro, cards) + **registry** (`poles-registry.json`) pour liens / heroes
+- UI : `PoleHub` + `pole-hub.ts` / `pole-hub-route.tsx`
+- Une nouvelle expertise enfant = JSON expertise + entrée registry (+ card optionnelle sur le hub) — **pas** de page React dédiée au hub
+
 ### Shell global
 
 Header (3 pôles + Affaires/Médias/Ressources/Équipe + recherche + RDV)  

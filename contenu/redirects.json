@@ -11,12 +11,12 @@
   },
   {
     "source": "/actualites-contrat-defense-consommateurs",
-    "destination": "/nos-affaires/categories/défense-des-consommateurs",
+    "destination": "/blog/categories/défense-des-consommateurs",
     "permanent": true
   },
   {
     "source": "/actualites-contrat-defense-consommateurs/defense-consommateurs",
-    "destination": "/nos-affaires/categories/défense-du-consommateur",
+    "destination": "/blog/categories/défense-des-consommateurs",
     "permanent": true
   },
   {
@@ -41,7 +41,7 @@
   },
   {
     "source": "/actualites-droit-penal-defense-penale",
-    "destination": "/nos-affaires/categories/droit-penal",
+    "destination": "/blog/categories/droit-pénal",
     "permanent": true
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "source": "/actualites-droit-penal-trafic-stupefiants",
-    "destination": "/nos-affaires/categories/trafic-de-stupefiants",
+    "destination": "/blog/categories/trafic-de-stupéfiants",
     "permanent": true
   },
   {
@@ -71,7 +71,7 @@
   },
   {
     "source": "/actualites-droit-penal-violences-conjugales",
-    "destination": "/nos-affaires/categories/violences-conjugales-feminicides",
+    "destination": "/blog/categories/violences-conjugales-féminicides",
     "permanent": true
   },
   {
@@ -116,12 +116,12 @@
   },
   {
     "source": "/actualites-indemnisations-accidents-medicaux",
-    "destination": "/nos-affaires/categories/accidents-erreurs-medicales",
+    "destination": "/blog/categories/accidents-erreurs-médicales",
     "permanent": true
   },
   {
     "source": "/actualites-indemnisations-accidents-route-circulation",
-    "destination": "/nos-affaires/categories/accidents-de-la-route",
+    "destination": "/blog/categories/accidents-de-la-route",
     "permanent": true
   },
   {
@@ -141,12 +141,12 @@
   },
   {
     "source": "/actualites-indemnisations-accidents-vie-courante",
-    "destination": "/nos-affaires/categories/accidents-de-la-vie-courante",
+    "destination": "/blog/categories/accidents-de-la-vie-courante",
     "permanent": true
   },
   {
     "source": "/actualites-indemnisations-victimes-infractions-penales",
-    "destination": "/nos-affaires/categories/indemnisation-des-victimes-pénale",
+    "destination": "/blog/categories/indemnisation-des-victimes-pénale",
     "permanent": true
   },
   {
@@ -161,7 +161,7 @@
   },
   {
     "source": "/actualites-penal-affaires-delinquance-economique-financiere",
-    "destination": "/nos-affaires/categories/droit-pénal-des-affaires",
+    "destination": "/blog/categories/droit-pénal-des-affaires",
     "permanent": true
   },
   {
