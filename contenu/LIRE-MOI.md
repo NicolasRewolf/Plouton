@@ -12,6 +12,7 @@ contenu/
 ├── categories.json        ← 17 catégories blog
 ├── equipe.json            ← équipe
 ├── expertises/            ← pages expertise (1 JSON = 1 page)
+├── reference/             ← registry pôles, rapports santé, deviations
 ├── expertises-cards.json  ← cartes homepage
 ├── expertises-heroes.json ← mapping images hero
 ├── faq/                   ← FAQ unifiée (1 fichier / expertise pour l’instant)

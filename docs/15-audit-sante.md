@@ -1,20 +1,29 @@
 # Audit santé — site web
 
-_Fait le 2026-07-17, sur le code réel. Instantané : à refaire aux grandes étapes._
+_Fait le 2026-07-17, sur le code réel. **Addendum 2026-07-18** ci-dessous._
 
-**Note globale : V1 solide (~8/10).** Fondations excellentes, contenu sain.
-Ce qui manque = des **modules pas encore construits** (surtout le backoffice), pas des défauts de structure.
+**Note globale : V1 solide (~8,5/10).** Fondations excellentes, contenu sain.
+Ce qui manque = des **modules pas encore construits** (surtout le backoffice Demandes), pas des défauts de structure.
+
+---
+
+## Addendum 2026-07-18
+
+- Architecture approfondie : `queries.ts`, `expertise-loader.ts`, `poles-registry.json`, `demande-intake.ts`
+- UX expertises / formulaire / home / header nettement plus aboutis
+- Perf listes (index articles) + lazy below-fold
+- **Inchangé :** pas de backoffice Demandes, pas d’auth admin, PJ = noms seulement, mail alerte non branché
+- **Ne pas** migrer tout le contenu JSON → Postgres en priorité (décision implicite session : Demandes d’abord)
 
 ---
 
 ## Architecture — bon ✅
 
-- `site/src/app/` = les pages (+ routes dynamiques) · `components/` = **9 briques réutilisables**
-  (Header, Footer, ContactForm, ExpertisePageView, PostCard, FaqAccordion, StickyCta…) ·
-  `lib/` = **5 modules de fonctions** (contenu, blog, SEO, store…).
-- **41 fichiers, ~3 550 lignes.** TypeScript. Sitemap + robots + couche SEO présents.
-- Principe « **peu de gabarits, beaucoup de données** » respecté (une vue d'expertise nourrie par des fichiers, pas 14 pages copiées).
-- `store.ts` bien conçu : bascule automatique **fichiers locaux → Supabase** selon l'environnement, sans rien changer ailleurs. Clé secrète **côté serveur uniquement**.
+- `site/src/app/` = les pages (+ routes dynamiques) · `components/` = briques réutilisables
+  (Header, Footer, ContactForm, ExpertisePageView, ExpertiseBody, PostCard, FaqAccordion…) ·
+  `lib/` = contenu, queries, SEO, store, registry, loader…
+- Principe « **peu de gabarits, beaucoup de données** » respecté.
+- `store.ts` : bascule **fichiers locaux → Supabase** selon l'environnement. Clé secrète **serveur uniquement**.
 
 ## Santé du contenu — très bon ✅
 

@@ -12,7 +12,7 @@ Site public + backoffice du Cabinet Plouton.
 | **`site/`** | Site Next.js (visiteurs) | Vercel `www` |
 | **`admin/`** | Backoffice (placeholder) | Vercel `admin.` |
 | **`contenu/`** | Contenu produit + sources Wix | Tables Supabase + Storage |
-| **`base/`** | Schémas / migrations (placeholder) | Projet Supabase |
+| **`base/`** / **`supabase/`** | Migrations SQL | Projet Supabase |
 | **`scripts/`** | Imports & scrapers migration | Gardés pour rejouabilité |
 | **`docs/`** | Décisions & architecture | Toujours |
 
@@ -20,7 +20,7 @@ Fichiers racine : `LIRE-MOI.md` (toi) · `JOURNAL.md` (livraisons) · `AGENTS.md
 
 ---
 
-## Démarrer le POC
+## Démarrer en local
 
 ```bash
 cd site && npm install && npm run dev
@@ -32,17 +32,20 @@ cd site && npm install && npm run dev
 
 ## Par où lire ?
 
-1. [`JOURNAL.md`](./JOURNAL.md) — dernière livraison  
-2. [`docs/00-INDEX.md`](./docs/00-INDEX.md) — index docs  
-3. [`docs/09-architecture-site.md`](./docs/09-architecture-site.md) — gabarits + CMS  
-4. [`docs/11-stack-technique.md`](./docs/11-stack-technique.md) — Supabase / Vercel  
-5. [`contenu/LIRE-MOI.md`](./contenu/LIRE-MOI.md) — organisation contenu  
+1. [`docs/14-etat.md`](./docs/14-etat.md) — **où on en est**  
+2. [`JOURNAL.md`](./JOURNAL.md) — dernières livraisons  
+3. [`docs/PASSATION-2026-07-18.md`](./docs/PASSATION-2026-07-18.md) — reprise agent (Fable)  
+4. [`docs/09-architecture-site.md`](./docs/09-architecture-site.md) — gabarits + CMS  
+5. [`docs/11-stack-technique.md`](./docs/11-stack-technique.md) — Supabase / Vercel  
+6. [`contenu/LIRE-MOI.md`](./contenu/LIRE-MOI.md) — organisation contenu  
 
 ---
 
-## État
+## État (2026-07-18)
 
-POC local **sans cloud payant** : contenu en fichiers JSON.  
-Prochaine étape infra : Supabase + Vercel Pro (quand le design est validé).
+- Site **riche** en local + **preview Vercel** (login, noindex) — pas encore le vrai domaine
+- Contenu = **fichiers JSON** (`contenu/`) ; demandes = table Supabase **prête**, test prod à valider
+- Registry expertises : `contenu/reference/poles-registry.json`
 
-Site live actuel : https://www.jplouton-avocat.fr
+Site live actuel (Wix) : https://www.jplouton-avocat.fr  
+Preview : https://plouton-rewolf-s-projects.vercel.app

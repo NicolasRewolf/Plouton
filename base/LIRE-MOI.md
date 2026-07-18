@@ -4,7 +4,8 @@ Mémoire technique : schémas SQL, migrations Supabase, seed.
 
 | | |
 |--|--|
-| **État** | Placeholder — pas encore branché |
-| **Doc** | `docs/04-donnees.md` + `docs/11-stack-technique.md` |
+| **État** | Migrations actives plutôt dans `supabase/migrations/` |
+| **Doc** | `docs/04-donnees.md` + `docs/11-stack-technique.md` + `docs/14-etat.md` |
 
-Quand on crée le projet Supabase : migrations ici, contenu migré depuis `contenu/`.
+V1 en place : table **`demandes`** (`supabase/migrations/0001_demandes.sql`).  
+Articles / expertises / FAQ restent des fichiers `contenu/` jusqu’à décision contraire.

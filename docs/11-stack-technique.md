@@ -4,7 +4,7 @@ Où vit quoi. Pour Nicolas + pour l’IA.
 
 ---
 
-## État actuel (2026-07-17) — déployé ✅
+## État actuel (2026-07-18) — déployé ✅
 
 - **Vercel** : projet `plouton` lié à GitHub, Root Directory `site/`, prod **au vert**
   (<https://plouton-rewolf-s-projects.vercel.app>, protégée par login + `noindex`).
@@ -12,7 +12,8 @@ Où vit quoi. Pour Nicolas + pour l’IA.
 - **Supabase** : projet `Plouton` (ref `iofhcxwgqvorpmaexjwb`), table `demandes` créée
   (RLS + index), buckets `pieces-jointes` / `medias`. Forfait actuel = **Free** →
   passer en **Pro** avant la prod réelle (pas de pause, backups, 100 Go fichiers).
-- Vue complète : [`14-etat.md`](14-etat.md).
+- Contenu public = encore **JSON dans `contenu/`** (pas de migration posts → Postgres pour l’instant).
+- Vue complète : [`14-etat.md`](14-etat.md) · passation : [`PASSATION-2026-07-18.md`](PASSATION-2026-07-18.md).
 
 ---
 

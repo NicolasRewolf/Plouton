@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Passation vers Fable
+
+- Docs pilotes à jour (`14-etat`, `LIRE-MOI`, index, passation)
+- Message de reprise dans `docs/PASSATION-2026-07-18.md` : **rail fidélité** (Phases 0–3 + WIP Header) **vs** session UX/archi sur `main`
+- Point clé : ne pas écraser le Header de la nuit ; réconcilier avec `deviations.json`
+- Supabase « gros bang contenu » **reporté** — focus Demandes + polish reste ouvert
+
 ## 2026-07-18 — Perf React (Vercel best practices)
 
 - Cache lecture articles / site / FAQ (moins de relectures disque)

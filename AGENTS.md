@@ -6,12 +6,14 @@ Nicolas n’est pas développeur : livrer clair, noter dans `JOURNAL.md`.
 ## Lire d’abord
 
 1. `LIRE-MOI.md`
-2. `docs/00-INDEX.md`
-3. `docs/09-architecture-site.md` ← gabarits + CMS (**obligatoire**)
-4. `docs/06-ne-pas-perdre.md`
-5. `docs/05-decisions.md`
-6. `docs/11-stack-technique.md` si infra / déploiement
-7. `contenu/LIRE-MOI.md` si tu touches au contenu
+2. `docs/14-etat.md` ← **où on en est**
+3. `docs/PASSATION-2026-07-18.md` si reprise après un autre agent
+4. `docs/00-INDEX.md`
+5. `docs/09-architecture-site.md` ← gabarits + CMS (**obligatoire**)
+6. `docs/06-ne-pas-perdre.md`
+7. `docs/05-decisions.md`
+8. `docs/11-stack-technique.md` si infra / déploiement
+9. `contenu/LIRE-MOI.md` si tu touches au contenu
 
 ## Structure (ne pas mélanger)
 
@@ -22,13 +24,14 @@ Nicolas n’est pas développeur : livrer clair, noter dans `JOURNAL.md`.
 | `scripts/` | Imports one-shot | Runtime site |
 | `docs/` | Décisions | Code |
 | `admin/` | Futur backoffice | Contenu |
-| `base/` | Futur Supabase | Contenu |
+| `base/` / `supabase/` | Migrations SQL | Contenu |
 
 ## Principes non négociables
 
 ### Économie de code
 - **Peu de gabarits**, beaucoup de données.
-- Expertise = `ExpertisePageView` + JSON, pas une page React unique par URL.
+- Expertise = `ExpertisePageView` + `expertise-loader` + JSON, pas une page React unique par URL.
+- Taxonomie pôles / menu / objets form = `contenu/reference/poles-registry.json` (miroirer via `scripts/sync-poles-registry.py`).
 - Réutiliser Header, Footer, FAQ, ContactForm, PostCard.
 
 ### Données
