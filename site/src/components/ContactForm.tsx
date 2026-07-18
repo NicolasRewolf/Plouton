@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useMemo, useRef, useState, type DragEvent, type FormEvent, type ReactNode } from "react"
+import { useEffect, useRef, useState, type DragEvent, type FormEvent, type ReactNode } from "react"
 
 interface ContactFormProps {
   defaultObjet?: string
@@ -107,10 +107,7 @@ export function ContactForm({
     })
   }, [])
 
-  const fileLabel = useMemo(() => {
-    if (!files.length) return null
-    return files.map((f) => f.name).join(", ")
-  }, [files])
+  const [uploadWarning, setUploadWarning] = useState("")
 
   function addFiles(list: FileList | File[]) {
     const incoming = Array.from(list)
@@ -142,11 +139,7 @@ export function ContactForm({
     const nom = String(fd.get("nom") || "").trim()
     const messageRaw = String(fd.get("message") || "").trim()
     const modeLabel = MODES.find((m) => m.id === mode)?.label || mode
-    const prefix = [
-      urgence ? "⚠ Urgence signalée" : null,
-      `Mode souhaité : ${modeLabel}`,
-      fileLabel ? `Fichiers annoncés : ${fileLabel}` : null,
-    ]
+    const prefix = [urgence ? "⚠ Urgence signalée" : null, `Mode souhaité : ${modeLabel}`]
       .filter(Boolean)
       .join(" · ")
 
@@ -164,16 +157,35 @@ export function ContactForm({
     }
 
     try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      })
+      // Avec pièces jointes : multipart (les fichiers partent réellement) ;
+      // sans : JSON comme avant.
+      let res: Response
+      if (files.length) {
+        const body = new FormData()
+        body.append("payload", JSON.stringify(payload))
+        for (const f of files) body.append("fichiers", f, f.name)
+        res = await fetch("/api/contact", { method: "POST", body })
+      } else {
+        res = await fetch("/api/contact", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        })
+      }
       if (!res.ok) {
-        setError("Envoi impossible pour le moment — appelez-nous au 05 56 44 35 96.")
+        let msg = "Envoi impossible pour le moment — appelez-nous au 05 56 44 35 96."
+        try {
+          const data = await res.json()
+          if (data?.error) msg = data.error
+        } catch {}
+        setError(msg)
         setIsSubmitting(false)
         return
       }
+      try {
+        const data = await res.json()
+        if (data?.warning) setUploadWarning(data.warning)
+      } catch {}
       setSent(true)
     } catch {
       setError("Connexion interrompue — réessayez, ou appelez le cabinet.")
@@ -198,6 +210,11 @@ export function ContactForm({
           </p>
         </div>
         <div className="space-y-4 px-7 py-6 sm:px-9">
+          {uploadWarning ? (
+            <p className="rounded-[12px] bg-accent/10 px-3.5 py-3 text-[13px] text-accent" role="alert">
+              {uploadWarning}
+            </p>
+          ) : null}
           <p className="text-[14px] leading-relaxed text-navy">
             En cas d’urgence immédiate, appelez le{" "}
             <a
