@@ -9,7 +9,9 @@
   "intro": "Cabinet Plouton /\n\nChute à la maison, blessure lors d’une activité sportive, accident à l’école, dans un lieu accueillant du public ou chez un tiers… Un accident de la vie courante peut bouleverser votre quotidien. Beaucoup de victimes se demandent : \" Suis-je indemnisable ?\" - \"Qui va me défendre ?\" - \"À qui s’adresser quand l’assurance minimise l’indemnisation ?\" Notre cabinet d'avocats Plouton accompagne chaque année de nombreuses victimes comme vous, avec la conviction que chaque dossier mérite une prise en charge technique et humaine d’excellence.\n\nEn quelques chiffres Ils sont la cause de plus de 11 millions d’accidents dont 5 millions de blessés ayant recours aux urgences. Ils génèrent plus de 20 000 décès par an, soit 5 fois plus que les accidents de la circulation et 20 fois plus que les accidents du travail et sont la première cause de décès chez les enfants de 1 à 14 ans et chez les seniors (75 ans et plus).",
   "formObjet": "Autre",
   "faqExpertise": "Accidents de la vie courante",
-  "blogCategories": [],
+  "blogCategories": [
+    "Accidents de la vie courante"
+  ],
   "toc": [
     {
       "id": "qu-est-ce-qu-un-accident-de-la-vie-courante-juridiquement",
@@ -38,6 +40,14 @@
     {
       "id": "affaires-recentes-accidents-de-la-vie-courante",
       "label": "Affaires récentes / Accidents de la vie courante"
+    },
+    {
+      "id": "faq",
+      "label": "Foire aux questions : accidents de la vie courante"
+    },
+    {
+      "id": "affaires",
+      "label": "Nos affaires : accidents de la vie courante"
     }
   ],
   "sections": [

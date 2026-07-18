@@ -10,7 +10,7 @@
   "formObjet": "Droit Pénal",
   "faqExpertise": "Foire Aux Questions / Trafic de stupéfiants",
   "blogCategories": [
-    "Droit Pénal"
+    "Trafic de stupéfiants"
   ],
   "toc": [
     {
@@ -44,6 +44,14 @@
     {
       "id": "affaires-recentes-trafic-de-stupefiants",
       "label": "Affaires récentes / Trafic de stupéfiants"
+    },
+    {
+      "id": "faq",
+      "label": "Foire aux questions : trafic de stupéfiants"
+    },
+    {
+      "id": "affaires",
+      "label": "Nos affaires : trafic de stupéfiants"
     }
   ],
   "sections": [

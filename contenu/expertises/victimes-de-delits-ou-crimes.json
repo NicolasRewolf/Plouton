@@ -9,7 +9,9 @@
   "intro": "Cabinet Plouton /\n\nDepuis plus de 20 ans, le cabinet est intervenu régulièrement au soutien des victimes et de leurs familles, au cours de multiples procès civils et pénaux dont plusieurs ont été médiatisés.\n\n​\n\nMaître Plouton, fondateur du cabinet et avocat pénaliste d’expérience a régulièrement constaté l’isolement et la vulnérabilité des victimes, que ce soit dans le cadre d’un procès ou des démarches amiables face aux compagnies d’assurances qui n’hésitent pas, pour certaines, à tirer avantage de cette fragilité en proposant des indemnisations dérisoires. Le long processus d’indemnisation, l’expertise médicale, l’audience ou la négociation d’une transaction sont toujours des épreuves pour ces dernières.\n\n​\n\nIl a ainsi structuré son cabinet autour d’un pôle spécifique relatif à l’indemnisation des victimes d’accidents, d’infractions pénales et au droit des assurances pour accompagner au mieux ses clients vers la reconnaissance de leur condition de victime ainsi qu’une parfaite indemnisation de leurs préjudices. Le cabinet intervient sur tout le territoire national et peut vous représenter devant différentes juridictions, notamment le Tribunal de Grande Instance, le Tribunal Administratif, la Commission d’Indemnisation des Victimes d’Infractions (CIVI), et bien d'autres.",
   "formObjet": "Autre",
   "faqExpertise": "victimes de délits ou de crimes",
-  "blogCategories": [],
+  "blogCategories": [
+    "Victimes de délits ou crimes"
+  ],
   "toc": [
     {
       "id": "evaluer-et-preparer-votre-dossier-d-indemnisation",
@@ -42,6 +44,14 @@
     {
       "id": "affaires-recentes-victimes-de-delits-ou-crimes",
       "label": "Affaires récentes / Victimes de délits ou crimes"
+    },
+    {
+      "id": "faq",
+      "label": "Foire aux questions : victimes de délits ou crimes"
+    },
+    {
+      "id": "affaires",
+      "label": "Nos affaires : victimes de délits ou crimes"
     }
   ],
   "sections": [

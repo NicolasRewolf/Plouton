@@ -1,17 +1,18 @@
 import Image from "next/image"
-import Link from "next/link"
+import type { AffaireCardItem } from "@/components/AffaireCard"
+import { AffairesCarousel } from "@/components/AffairesCarousel"
 import { ContactForm } from "@/components/ContactForm"
 import { FaqAccordion } from "@/components/FaqAccordion"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
-import type { ArticleIndexItem, ExpertisePage, FaqItem, SiteConfig } from "@/lib/content"
+import type { ExpertisePage, FaqItem, SiteConfig } from "@/lib/content"
 import { JsonLd, organizationSchema } from "@/lib/seo"
 
 interface ExpertisePageViewProps {
   expertise: ExpertisePage
   site: SiteConfig
   faq: FaqItem[]
-  related: ArticleIndexItem[]
+  related: AffaireCardItem[]
   pageUrl: string
   heroImage?: string | null
 }
@@ -240,34 +241,28 @@ export function ExpertisePageView({
         </section>
 
         {faq.length ? (
-          <section id="faq" className="mb-16 scroll-mt-28">
-            <h2 className="font-display text-[1.35rem] font-medium text-navy">
-              {tocSecondary.find((t) => t.id === "faq")?.label || "Foire Aux Questions"}
-            </h2>
-            <div className="mt-6">
-              <FaqAccordion items={faq} />
-            </div>
-          </section>
+          <div className="mb-16">
+            <FaqAccordion
+              items={faq}
+              title={
+                tocSecondary.find((t) => t.id === "faq")?.label ||
+                `Foire aux questions : ${(expertise.blogCategories[0] || expertise.title).toLowerCase()}`
+              }
+            />
+          </div>
         ) : null}
 
         {related.length ? (
-          <section id="affaires" className="scroll-mt-28">
-            <h2 className="font-display text-[1.35rem] font-medium text-navy">
-              {tocSecondary.find((t) => t.id === "affaires")?.label || "Nos affaires"}
-            </h2>
-            <div className="mt-6 grid gap-0">
-              {related.map((p) => (
-                <Link
-                  key={p.slug}
-                  href={`/post/${p.slug}`}
-                  className="group block border-b border-line py-4"
-                >
-                  <p className="font-medium text-navy group-hover:text-accent">{p.title}</p>
-                  <p className="mt-1 line-clamp-2 text-sm text-muted">{p.excerpt}</p>
-                </Link>
-              ))}
-            </div>
-          </section>
+          <div className="mt-4">
+            <AffairesCarousel
+              articles={related}
+              categoryLabel={expertise.blogCategories[0]}
+              title={
+                tocSecondary.find((t) => t.id === "affaires")?.label ||
+                `Nos affaires : ${(expertise.blogCategories[0] || "actualités").toLowerCase()}`
+              }
+            />
+          </div>
         ) : null}
       </div>
 

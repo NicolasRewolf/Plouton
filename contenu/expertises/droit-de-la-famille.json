@@ -9,7 +9,9 @@
   "intro": "Cabinet Plouton\n\nLe droit de la famille, ce n’est pas seulement des textes et des procédures : c’est ce qui protège vos liens les plus intimes — couple, enfants, patrimoine. Derrière chaque dossier, il y a une histoire de vie, souvent chargée d’émotion et d’enjeux décisifs.\n\n​\n\nNotre rôle : transformer ces moments de fragilité en décisions claires, sécurisées et justes. Divorce, garde des enfants, partage des biens, urgences familiales… nous plaçons l’humain au centre de la stratégie juridique, avec une seule priorité : défendre ce qui compte le plus pour vous.",
   "formObjet": "Droit de la famille",
   "faqExpertise": "Droit de la famille",
-  "blogCategories": [],
+  "blogCategories": [
+    "Droit de la famille"
+  ],
   "toc": [
     {
       "id": "le-couple-anticiper-et-se-proteger",
@@ -38,6 +40,14 @@
     {
       "id": "affaires-recentes-droit-de-la-famille",
       "label": "Affaires récentes : Droit de la famille"
+    },
+    {
+      "id": "faq",
+      "label": "Foire aux questions : droit de la famille"
+    },
+    {
+      "id": "affaires",
+      "label": "Nos affaires : droit de la famille"
     }
   ],
   "sections": [

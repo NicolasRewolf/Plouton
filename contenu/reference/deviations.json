@@ -1,0 +1,12 @@
+[
+  {
+    "id": "affaires-editorial-gallery",
+    "page": "nos-affaires",
+    "anchor": "page:/nos-affaires",
+    "property": "layout",
+    "live": "liste texte scrapée / UI Wix filtre-tri",
+    "ours": "grille éditoriale cards + filtres catégorie (style Apple News)",
+    "reason": "Demande Nicolas 2026-07-18 : page live illisible après scrape ; layout moderne éditorial volontaire en attendant convergence pixel Phase 5.",
+    "skill": "better-ui (shadows, radius concentriques, scale press) + better-typography (text-wrap balance, measure, tracking labels)"
+  }
+]

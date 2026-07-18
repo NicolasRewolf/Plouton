@@ -10,7 +10,7 @@
   "formObjet": "Droit Pénal",
   "faqExpertise": "Foire Aux Questions / Violences conjuagales, incestes et féminicides",
   "blogCategories": [
-    "Droit Pénal"
+    "Violences Conjugales et féminicides"
   ],
   "toc": [
     {
@@ -52,6 +52,14 @@
     {
       "id": "nos-affaires-recentes-en-violences-conjugales-et-feminicides",
       "label": "Nos affaires récentes en violences conjugales et féminicides"
+    },
+    {
+      "id": "faq",
+      "label": "Foire aux questions : violences conjugales et féminicides"
+    },
+    {
+      "id": "affaires",
+      "label": "Nos affaires : violences conjugales et féminicides"
     }
   ],
   "sections": [

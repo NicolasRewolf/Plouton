@@ -5,8 +5,10 @@ import {
   getExpertise,
   getFaq,
   getSite,
-  publishedArticles,
+  listArticles,
 } from "@/lib/content"
+
+const RELATED_LIMIT = 16
 
 /** Heroes locaux (téléchargés depuis Wix). Fallback = droit pénal. */
 const HERO_BY_SLUG: Record<string, string> = {
@@ -45,14 +47,23 @@ export function ExpertiseRoutePage({ slug }: { slug: string }) {
   const site = getSite()
   const faqKey = expertise.slug === "droit-penal" ? "droit-penal" : expertise.slug
   const faq = getFaq(faqKey)
-  const matched = publishedArticles().filter((a) =>
-    expertise.blogCategories.some((c) =>
-      a.categories.some(
-        (ac) => ac.toLowerCase() === c.toLowerCase() || ac.toLowerCase().includes(c.toLowerCase())
-      )
+  const labels = expertise.blogCategories.map((c) => c.toLowerCase())
+  const related = listArticles()
+    .filter((a) => a.status === "published")
+    .filter((a) =>
+      a.categories.some((ac) => labels.includes(ac.toLowerCase()))
     )
-  )
-  const related = matched.slice(0, 6)
+    .slice(0, RELATED_LIMIT)
+    .map((a) => ({
+      slug: a.slug,
+      title: a.title,
+      excerpt: a.excerpt,
+      publishedAt: a.publishedAt,
+      categories: a.categories,
+      coverImage: a.coverImage,
+      minutesToRead: a.minutesToRead,
+      viewCount: a.viewCount,
+    }))
   const pagePath = expertise.path || `/${expertise.pole}/${expertise.slug}`
   const pageUrl = `${site.url}${pagePath}`
   const hero =

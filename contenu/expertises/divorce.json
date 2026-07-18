@@ -9,7 +9,9 @@
   "intro": "Mis à jour le 17/04/2026\n\nClarté sur la procédure, protection de vos intérêts, priorité à l'apaisement. Vous gardez la main, on sécurise le juridique.\n\n4,6/5 étoiles (193 avis) sur Google\n\nBordeaux centre\n\nFort de plus de 20 ans d’expérience dans le divorce en droit de la famille, le Cabinet Plouton vous accompagne à Bordeaux avec une méthode claire : diagnostic précis (enfants, logement, comptes, patrimoine), choix de la voie (consentement mutuel par acte d’avocats quand l’accord est possible ; contentieux maîtrisé devant le JAF quand il faut convaincre), puis chiffrage et sécurisation de chaque enjeu (pension, prestation compensatoire, liquidation).",
   "formObjet": "Droit de la famille",
   "faqExpertise": "Droit de la famille",
-  "blogCategories": [],
+  "blogCategories": [
+    "Divorce"
+  ],
   "toc": [
     {
       "id": "deux-possibilites-divorce-par-consentement-mutuel-ou-divorce-contentieux",
@@ -50,6 +52,14 @@
     {
       "id": "les-dernieres-affaires-juridiques-en-droit-du-divorce-traitees-par-le-cabinet-plouton",
       "label": "Les dernières affaires juridiques en droit du divorce traitées par le Cabinet Plouton"
+    },
+    {
+      "id": "faq",
+      "label": "Foire aux questions : divorce"
+    },
+    {
+      "id": "affaires",
+      "label": "Nos affaires : divorce"
     }
   ],
   "sections": [

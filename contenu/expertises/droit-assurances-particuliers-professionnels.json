@@ -9,7 +9,9 @@
   "intro": "Cabinet Plouton /\n\nLe cabinet Plouton, fort de son expertise en droit des assurances, accompagne ses clients, particuliers et professionnels, dans toutes les étapes d'un sinistre, de la déclaration à l'indemnisation. En analysant méticuleusement les contrats d'assurance et en s'appuyant sur les dispositions légales applicables, le cabinet défend les droits de ses clients face aux pratiques abusives des assureurs, telles que les clauses illicites ou le défaut de conseil des courtiers.",
   "formObjet": "Autre",
   "faqExpertise": "Droit des assurances particuliers et professionnels",
-  "blogCategories": [],
+  "blogCategories": [
+    "Droit des assurances"
+  ],
   "toc": [
     {
       "id": "indemnisation-des-pertes-dexploitation",
@@ -34,6 +36,14 @@
     {
       "id": "affaires-recentes-droit-des-assurances-particuliers-et-professionnels",
       "label": "Affaires récentes / Droit des assurances particuliers et professionnels"
+    },
+    {
+      "id": "faq",
+      "label": "Foire aux questions : droit des assurances"
+    },
+    {
+      "id": "affaires",
+      "label": "Nos affaires : droit des assurances"
     }
   ],
   "sections": [

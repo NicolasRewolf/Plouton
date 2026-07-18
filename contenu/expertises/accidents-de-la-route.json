@@ -9,7 +9,9 @@
   "intro": "Cabinet Plouton /\n\nVous êtes victime d'un accident de la route ? En tant qu'avocat spécialisé en accident de la route à Bordeaux , le cabinet Plouton met 20 ans d'expérience au service de votre indemnisation intégrale. Les accidents de la route peuvent bouleverser définitivement une vie en engendrant de longues conséquences physiques , psychologiques , économiques ou encore matérielles .\n\nFort de ce constat, notre cabinet d’avocats conçoit chaque stratégie d’indemnisation comme une pièce unique . Rien n’est laissé à l’intuition, chaque souffrance doit être traduite en droit , chaque chiffre débattu, chaque oubli réparé .\n\nDepuis 20 ans , le cabinet Plouton a su transformer les maux des victimes de la route en mots justes, concrets et humains pour la mise en place de procédures d’indemnisation adaptées à leurs réels et complets besoins. No us ne plaidons pas qu’un dossier, nous plaidons un avenir.",
   "formObjet": "Accidents de la route",
   "faqExpertise": "accidents de la route",
-  "blogCategories": [],
+  "blogCategories": [
+    "Accidents de la route"
+  ],
   "toc": [
     {
       "id": "immediatement-apres-un-accident-de-la-circulation-quelles-demarches-entreprendre",
@@ -50,6 +52,14 @@
     {
       "id": "les-dernieres-affaires-d-accident-de-la-route-traitees-par-le-cabinet-plouton",
       "label": "Les dernières affaires d' accident de la route traitées par le cabinet Plouton"
+    },
+    {
+      "id": "faq",
+      "label": "Foire aux questions : accidents de la route"
+    },
+    {
+      "id": "affaires",
+      "label": "Nos affaires : accidents de la route"
     }
   ],
   "sections": [

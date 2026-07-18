@@ -5,6 +5,27 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Page « Nos affaires » refaite (style éditorial)
+
+- Liste illisible remplacée par une **grande grille de cards** (image, catégorie, extrait, vues)
+- **Filtres par catégorie** en haut + bouton « Voir plus »
+- Écart volontaire noté dans `contenu/reference/deviations.json` (pas une copie pixel Wix)
+- À voir : http://localhost:3000/nos-affaires
+
+## 2026-07-18 — Carrousel affaires sur les pages expertise
+
+- Même style de cards en **bandeau horizontal** en bas de chaque expertise
+- Catégorie branchée correctement (ex. accidents de la route → articles « Accidents de la route »)
+- À tester : `/defense-penale/droit-penal` et `/indemnisation-des-victimes/accidents-de-la-route`
+
+## 2026-07-18 — FAQ expertise (composant commun)
+
+- FAQ déjà dans `contenu/faq/` (1 fichier par expertise, avec sous-catégories)
+- Accordéon + **filtres par sous-sujet** (même style que Nos affaires)
+- Branché sur les ~15 pages expertise — le contenu change, le composant reste le même
+
+---
+
 ## 2026-07-17 — Audit santé du site (repo au clair)
 
 - Site public **sain** : archi propre (9 composants, 5 modules), **422 articles** OK, SEO préservé

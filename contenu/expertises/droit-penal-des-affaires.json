@@ -10,7 +10,7 @@
   "formObjet": "Droit pénal des affaires",
   "faqExpertise": "droit pénal des affaires",
   "blogCategories": [
-    "Droit Pénal"
+    "Droit pénal des affaires"
   ],
   "toc": [
     {
@@ -40,6 +40,14 @@
     {
       "id": "nos-affaires-recentes-en-droit-penal-des-affaires",
       "label": "Nos affaires récentes en droit pénal des affaires"
+    },
+    {
+      "id": "faq",
+      "label": "Foire aux questions : droit pénal des affaires"
+    },
+    {
+      "id": "affaires",
+      "label": "Nos affaires : droit pénal des affaires"
     }
   ],
   "sections": [
