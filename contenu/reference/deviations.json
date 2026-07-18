@@ -6,7 +6,7 @@
     "property": "layout",
     "live": "liste texte scrapée / UI Wix filtre-tri",
     "ours": "grille éditoriale cards + filtres catégorie (style Apple News)",
-    "reason": "Demande Nicolas 2026-07-18 : page live illisible après scrape ; layout moderne éditorial volontaire en attendant convergence pixel Phase 5.",
+    "reason": "Demande Nicolas 2026-07-18 : page live illisible après scrape ; layout moderne éditorial volontaire — écart assumé (pixel Phases 4–6 en pause, priorité C5).",
     "skill": "better-ui (shadows, radius concentriques, scale press) + better-typography (text-wrap balance, measure, tracking labels)"
   },
   {
@@ -117,7 +117,7 @@
     "property": "layout+content",
     "live": "bloc texte unique Wix (mentions + données perso obsolètes CNIL 1978), pas de TOC, pas de page confidentialité dédiée",
     "ours": "LegalPageView minimal (H1/H2/H3) + TOC sticky (rail desktop / pastilles mobile) ; 3 JSON structurés ; données société croisées API entreprises",
-    "reason": "Demande Nicolas 2026-07-18 : pages légales obligatoires, hyper minimalistes, TOC sticky — side mission cloisonnée hors chantier Footer Fable.",
+    "reason": "Demande Nicolas 2026-07-18 : pages légales obligatoires, hyper minimalistes, TOC sticky — side mission cloisonnée (Footer déjà mergé PR #6).",
     "skill": "better-ui (sticky TOC, scale press pastilles) + better-typography (measure, hierarchy H1→H3, text-balance)"
   },
   {

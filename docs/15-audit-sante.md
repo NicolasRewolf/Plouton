@@ -1,11 +1,18 @@
 # Audit santé — site web
 
-_Fait le 2026-07-17, sur le code réel. **Addendum 2026-07-18** ci-dessous._
+_Fait le 2026-07-17, sur le code réel. **Addendum 2026-07-18 soir** ci-dessous._
 
 **Note globale : V1 solide (~8,5/10).** Fondations excellentes, contenu sain.
-Ce qui manque = des **modules pas encore construits** (surtout le backoffice Demandes), pas des défauts de structure.
+Ce qui manque = surtout **C5** (lecture publique DB) + polish / modules secondaires — pas des défauts de structure.
 
 ---
+
+## Addendum 2026-07-18 (soir — pré-C5)
+
+- **C0–C4** mergés · dual-run : public = JSON ; admin = DB
+- Pages : médias, ressources, hubs, élus, redirects, uniformité UI ✅
+- UI canon : **`AffaireCard`** + **`SiteCta`** ([`16-composants-ui.md`](16-composants-ui.md))
+- Pixel 4–6 **pause** · next = **C5**
 
 ## Addendum 2026-07-18 (soir — C4)
 
@@ -24,10 +31,11 @@ Ce qui manque = des **modules pas encore construits** (surtout le backoffice Dem
 ## Architecture — bon ✅
 
 - `site/src/app/` = les pages (+ routes dynamiques) · `components/` = briques réutilisables
-  (Header, Footer, ContactForm, ExpertisePageView, ExpertiseBody, PostCard, FaqAccordion…) ·
+  (Header, Footer, ContactForm, ExpertisePageView, ExpertiseBody, **AffaireCard**, **SiteCta**, FaqAccordion…) ·
   `lib/` = contenu, queries, SEO, store, registry, loader…
 - Principe « **peu de gabarits, beaucoup de données** » respecté.
 - `store.ts` : bascule **fichiers locaux → Supabase** selon l'environnement. Clé secrète **serveur uniquement**.
+- `PostCard` = wrapper déprécié → `AffaireCard` (ne plus étendre).
 
 ## Santé du contenu — très bon ✅
 
@@ -41,18 +49,19 @@ Ce qui manque = des **modules pas encore construits** (surtout le backoffice Dem
 
 Exports Wix d'origine **archivés** dans `contenu/sources/wix/` (`Posts.csv`, `Categories.csv`, `Equipe.csv`) — filet de sécurité intact.
 
-## GitHub ↔ Supabase — câblé, à tester ⚙️
+## GitHub ↔ Supabase — câblé ⚙️
 
-Chaîne réelle : **GitHub → (déploie) → Vercel → (au runtime, via les clés) → Supabase.**
-Câblage correct, clés sur Production, table `demandes` présente.
-**Reste à faire** : un test d'envoi de bout en bout en prod (le site est derrière le login Vercel).
+Chaîne réelle : **GitHub → (déploie) → Vercel → (au runtime, via les clés) → Supabase.**  
+Tables `demandes` + `posts` (C4). Auth admin.  
+**Reste :** **C5** lecture publique + smoke tests prod (site derrière login Vercel).
 
 ## Limites connues — à construire ⚠️
 
 Par priorité :
 
 1. **C5** — lecture publique des posts depuis la DB + publish live (ISR/cache) + covers Storage.
-2. **Mineurs** : pas de tests automatisés ; anti-spam formulaire ; 1 cover + 4 metas manquantes.
+2. Recherche + simulateurs divorce.
+3. **Mineurs** : pas de tests automatisés ; anti-spam formulaire ; 1 cover + 4 metas manquantes.
 
 ## À ne pas retoucher (sain) 🛡️
 

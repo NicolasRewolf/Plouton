@@ -1,5 +1,15 @@
 # Workflow pixel-perfect v2 — boucle de convergence outillée
 
+> ## ⏸ EN PAUSE (2026-07-18 soir)
+>
+> **Priorité produit = C5** (site public ← Supabase).  
+> Ne **pas** lancer les Phases 4–6 pixel sauf **demande explicite** de Nicolas.  
+> Le socle Phases 0–3 (harnais `scripts/visual/`, `contenu/reference/`, fonts, Ricos) est **conservé**.  
+> Header figé · Footer déjà mergé (PR #6) · Expertises hors pixel.  
+> Voir [`14-etat.md`](14-etat.md) · [`PASSATION-2026-07-18.md`](PASSATION-2026-07-18.md).
+
+---
+
 Remplace le workflow manuel (« screenshot, corriger écart par écart à l'œil »).
 Principe : la vérité terrain du live Wix est **figée dans le repo** et chaque
 template converge via un **diff automatique numérique**, jamais à l'impression.
@@ -59,9 +69,10 @@ feed blog (18 p.) → accueil → one-offs. Détail : plan
 `~/.claude/plans/comme-tu-sais-mon-synthetic-crown.md`.
 
 > **Exception Plouton (décision 2026-07-18) :** le Header de `main` est **gelé**
-> (vérité produit, pas de reconvergence pixel). La boucle Phase 4 commence aux
-> briques suivantes : Footer → CTA/boutons → FAQ → cartes → bannières. Voir
-> `deviations.json` → `header-frozen-main` et `docs/05-decisions.md`.
+> (vérité produit, pas de reconvergence pixel). Footer **déjà mergé** (PR #6).
+> Phases 4–6 = **pause** — ne pas enchaîner CTA/FAQ/cartes/accueil « comme Wix »
+> tant que C5 n’est pas fait. Voir `deviations.json` → `header-frozen-main`
+> et `docs/05-decisions.md`.
 
 ## Captures locales
 

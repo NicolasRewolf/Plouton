@@ -3,16 +3,17 @@
 Chaque bloc = **un composant**, branché sur des données.  
 Pas de copie-colle entre pages.
 
+**Canon UI (soir 18/07) :** voir [`16-composants-ui.md`](16-composants-ui.md) — `AffaireCard` + `SiteCta` / `.btn-pill`.
+
 | Bloc | Données | Où |
 |------|---------|-----|
-| `SiteHeader` | nav pôles + liens | partout |
-| `SiteFooter` | idem + tel | partout |
-| `PhoneCta` / `RdvCta` | tel fixe, lien honoraires | hero, sticky, footer |
+| `SiteHeader` | nav pôles + liens | partout (figé) |
+| `SiteFooter` | idem + tel | partout (convergé PR #6) |
+| `SiteCta` / `.btn-pill` | tel, lien honoraires, RDV | heroes, sticky, footer, bannières |
 | `ExpertiseCard` | CMS Expertises | homepage, hubs |
 | `TeamGrid` | CMS Équipe | home, notre-cabinet |
-| `PostCard` | Blog | **déprécié** → utiliser `AffaireCard` |
 | `AffaireCard` | Blog / affaires | listings, carrousels, posts similaires |
-| `SiteCta` / `.btn-pill` | CTA public | heroes, sticky, footer, bannières |
+| `PostCard` | — | **déprécié** (wrapper → `AffaireCard`) |
 | `BlogListing` | Blog + filtres | nos-affaires, catégories, médias, ressources |
 | `FaqAccordion` | FAQ unifiée filtrée | pages expertise (+ divorce) |
 | `FaqSubfilters` | sous-expertises distinctes | pages expertise riches |
@@ -22,6 +23,8 @@ Pas de copie-colle entre pages.
 | `SimulatorPension` / `SimulatorPrestation` | — | **seulement** divorce, lazy |
 | `CookedTracker` | — | layout site |
 | `Search` | index pages+posts | header |
+
+> Anciens noms `PhoneCta` / `RdvCta` → remplacés par **`SiteCta`** (même style pill).
 
 ## Mapping expertise → filtres (à compléter en build)
 

@@ -82,7 +82,7 @@ Nav secondaire **Affaires / Médias / Ressources** = **vues filtrées du blog**,
 | Page expertise | Articles liés (même thème / catégorie) |
 | Page post | Corps + tags + related posts |
 
-**Règle smart :** un seul composant `PostCard` + un seul `BlogListing` paramétré (catégorie, tri, limite).
+**Règle smart :** un seul composant `AffaireCard` + un seul `BlogListing` paramétré (catégorie, tri, limite). CTA public = `SiteCta` / `.btn-pill` ([`16-composants-ui.md`](16-composants-ui.md)).
 
 ### FAQ (plusieurs collections Wix aujourd’hui — à unifier demain)
 
@@ -140,7 +140,7 @@ site/
     post/[slug]/
     blog/...
     nos-affaires/
-  components/blocks/    ← FAQ, Form, PostCard, Team, CaseStudy, TOC, Simulators
+  components/blocks/    ← FAQ, Form, AffaireCard, SiteCta, Team, CaseStudy, TOC, Simulators
   content/ ou base/     ← pages expertise en MDX/CMS + clés de filtre
 ```
 
@@ -179,7 +179,7 @@ Sert : catégories blog, (anciennement stub médias).
 Page `/comprendre-le-droit` — **pas** un listing blog plat.
 
 - Données : `contenu/pages/comprendre-le-droit.json` (intro + sections + slugs)
-- UI : `RessourcesHub` + `PostCard`
+- UI : `RessourcesHub` + `AffaireCard`
 - « Articles les plus consultés » = tri `viewCount` (`stats-posts.json`), filtre catégorie Ressources
 - Sections thématiques = **slugs hardcodés** (les Tags Wix dans `Posts.csv` ne sont que des UUID, pas de libellés dans le produit)
 - Nav **Médias** → `/blog/categories/médias` (grille `BlogListing`) ; `/medias` = redirect 301
@@ -219,7 +219,7 @@ Avant d’ajouter un fichier page :
 
 1. Est-ce un **nouveau gabarit** ou une **instance** d’un gabarit existant ?  
 2. Le contenu vient-il d’une **collection déjà mappée** ?  
-3. Peut-on **réutiliser** `FaqAccordion` / `PostCard` / `ContactForm` ?  
+3. Peut-on **réutiliser** `FaqAccordion` / `AffaireCard` / `SiteCta` / `ContactForm` ?  
 4. Est-ce **above-the-fold** critique perf (LCP) ou below-fold lazy ?  
 5. L’URL est-elle dans le **plan de redirections** ?
 

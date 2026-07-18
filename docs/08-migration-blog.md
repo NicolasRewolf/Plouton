@@ -1,5 +1,14 @@
 # Migration blog — sans casse
 
+> ## ✅ FAIT (soir 18/07)
+>
+> - **422 articles** en JSON (`contenu/articles/`) + index  
+> - Seed Supabase table `posts` (C4 MVP, PR #8) — slugs inchangés  
+> - Lecture **publique** encore JSON (dual-run) → bascule = **C5**  
+> Ce doc reste la référence du **comment** on a migré / ce qu’il ne faut pas casser.
+
+---
+
 Objectif : **les 422 articles** arrivent sur le nouveau site **avec les mêmes URLs**, le même contenu, les mêmes catégories. Google et les gens ne voient presque rien changer.
 
 ---
