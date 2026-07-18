@@ -139,5 +139,15 @@
     "ours": "mix X : radius 6, fond soft, poids 400, flèche légère, hover lift + gap",
     "reason": "Demande Nicolas 2026-07-18 : CTA trop gras/banals ; validation propal X.",
     "skill": "better-ui (scale 0.96, interruptible transitions, shadows)"
+  },
+  {
+    "id": "expertise-ui-premium",
+    "page": "expertises",
+    "anchor": "component:ExpertisePageView+ExpertiseBody+ExpertiseToc",
+    "property": "layout+atmosphere+cta",
+    "live": "hero Wix plat / listes / CTA dispersés",
+    "ours": "hero navy-fog + motif, 2 SiteCta, slash + hover scale, cartes layered/hover, TeamCtaBanner avant contact, aside glass, TOC sticky ombré, FABs polish",
+    "reason": "Demande Nicolas 2026-07-18 : pages expertises trop plates ; inspiration patterns premium (Tailark/Aceternity/etc.) sans installer les libs — identité navy+coral.",
+    "skill": "better-ui (ombres layered, scale 0.96, radius concentriques, outline images, transitions spécifiques, prefers-reduced-motion)"
   }
 ]

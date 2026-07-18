@@ -5,6 +5,8 @@ import { ExpertiseBody } from "@/components/ExpertiseBody"
 import { ExpertiseToc, type ExpertiseTocItem } from "@/components/ExpertiseToc"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
+import { SiteCta } from "@/components/SiteCta"
+import { TeamCtaBanner } from "@/components/TeamCtaBanner"
 import type { ExpertisePage, FaqItem, SiteConfig } from "@/lib/content"
 import { getRegistryExpertise, formObjets } from "@/lib/registry"
 import { JsonLd } from "@/lib/seo"
@@ -55,59 +57,77 @@ export function ExpertisePageView({
     .map((p) => p.trim())
     .filter(Boolean)
 
+  const introLead = introParas[0] || ""
+
   return (
     <>
       <Header variant="site" />
       <JsonLd data={schema} />
 
-      {/* Hero asymétrique — texte + photo slash */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-[#f4f7f9] via-white to-white">
-        <div className="mx-auto grid max-w-6xl gap-10 px-5 pb-10 pt-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-end lg:gap-14 lg:px-8 lg:pb-12 lg:pt-16">
+      {/* Hero premium — navy-fog + slash signature + CTAs */}
+      <section className="expertise-hero relative overflow-hidden">
+        <div
+          className="expertise-hero-motif pointer-events-none absolute inset-0"
+          aria-hidden
+        />
+        <div className="relative mx-auto grid max-w-6xl gap-10 px-5 pb-12 pt-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-end lg:gap-14 lg:px-8 lg:pb-14 lg:pt-16">
           <div className="relative z-10 max-w-xl">
             <div className="flex items-center gap-2.5">
               <Image
                 src="/brand/logo-mark.svg"
                 alt=""
-                width={22}
-                height={16}
-                className="h-4 w-auto"
+                width={20}
+                height={14}
+                className="h-3.5 w-auto opacity-80"
                 priority
               />
-              <p className="text-[13px] font-medium tracking-[0.04em] text-navy/70">
+              <p className="text-[12px] font-medium tracking-[0.04em] text-navy/55">
                 Cabinet Plouton
               </p>
             </div>
 
-            <p className="mt-7 text-[11px] font-semibold uppercase tracking-[0.16em] text-accent">
+            <p className="mt-6 text-[11px] font-semibold uppercase tracking-[0.16em] text-accent">
               {expertise.poleLabel}
             </p>
-            <h1 className="mt-2.5 font-display text-[clamp(1.9rem,3.8vw,2.75rem)] font-medium leading-[1.08] tracking-[-0.03em] text-accent text-balance">
+            <h1 className="mt-2.5 font-display text-[clamp(2rem,4.2vw,3rem)] font-medium leading-[1.06] tracking-[-0.03em] text-navy text-balance">
               {expertise.title}
             </h1>
 
-            <div className="mt-6 space-y-3.5 text-[15px] leading-[1.65] text-pretty text-navy/85">
-              {introParas.slice(0, 2).map((para, i) => (
-                <p key={i}>{para}</p>
-              ))}
+            {introLead ? (
+              <p className="mt-6 max-w-lg text-[15px] leading-[1.65] text-pretty text-navy/85 sm:text-[16px]">
+                {introLead}
+              </p>
+            ) : null}
+
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <SiteCta href="#contact" variant="primary" arrow className="min-h-11">
+                Prendre rendez-vous
+              </SiteCta>
+              <SiteCta href={site.phone.href} variant="secondary" className="min-h-11">
+                Appeler
+              </SiteCta>
             </div>
           </div>
 
           <div className="relative mx-auto w-full max-w-[520px] lg:mx-0 lg:justify-self-end">
             {heroImage ? (
-              <div className="relative aspect-[5/4] w-full">
-                <div className="mask-slash-stripes absolute inset-0">
+              <div className="expertise-hero-media group relative aspect-[5/4] w-full">
+                <div className="mask-slash-stripes absolute inset-0 overflow-hidden">
                   <Image
                     src={heroImage}
                     alt=""
                     fill
                     priority
-                    className="object-cover object-center outline outline-1 outline-black/10"
+                    className="object-cover object-center outline outline-1 outline-[oklch(0_0_0_/_0.1)] transition-transform duration-500 ease-[cubic-bezier(0.2,0,0,1)] group-hover:scale-[1.03] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
                     sizes="(max-width: 1024px) 90vw, 480px"
                   />
                 </div>
               </div>
             ) : (
-              <div className="aspect-[5/4] w-full rounded-[4px] bg-fog" aria-hidden />
+              <div
+                className="aspect-[5/4] w-full rounded-[4px] bg-fog shadow-[0_1px_2px_rgba(23,71,94,0.04),0_12px_32px_rgba(23,71,94,0.06)]"
+                aria-hidden
+              />
             )}
           </div>
         </div>
@@ -117,8 +137,11 @@ export function ExpertisePageView({
 
       <ExpertiseBody sections={sections} links={expertise.inlineLinks || []} />
 
-      <div className="bg-white">
-        <div className="mx-auto max-w-6xl px-5 py-14 lg:px-8">
+      {/* Une seule bande conversion avant le formulaire */}
+      <TeamCtaBanner />
+
+      <div className="bg-gradient-to-b from-white via-[#f7f9fa] to-white">
+        <div className="mx-auto max-w-6xl px-5 py-14 lg:px-8 lg:py-16">
           <section id="contact" className="scroll-mt-36">
             <div className="grid gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:items-start">
               <ContactForm
@@ -134,7 +157,7 @@ export function ExpertisePageView({
                   "Les rendez-vous sont pris dans les 7 jours. En cas d’urgence, le rendez-vous peut être immédiat."
                 }
               />
-              <aside className="rounded-[22px] bg-fog/70 p-6 sm:p-7 lg:sticky lg:top-28">
+              <aside className="expertise-aside rounded-[24px] bg-white/75 p-6 shadow-[0_1px_2px_rgba(23,71,94,0.04),0_12px_36px_rgba(23,71,94,0.08)] outline outline-1 outline-[oklch(0_0_0_/_0.06)] backdrop-blur-xl sm:p-7 lg:sticky lg:top-28">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-accent">
                   Le cabinet
                 </p>
@@ -145,20 +168,23 @@ export function ExpertisePageView({
                   </div>
                   <div>
                     <p className="font-medium">Téléphone</p>
-                    <a
-                      href={site.phone.href}
-                      className="mt-1 block font-medium text-accent underline-offset-2 hover:underline decoration-from-font"
-                    >
-                      {site.phone.display}
-                    </a>
+                    <p className="mt-1 font-medium text-navy">{site.phone.display}</p>
                   </div>
                   <div>
                     <p className="font-medium">Adresse</p>
                     <p className="mt-1 leading-relaxed text-muted">
-                      {site.address.street}, {site.address.postalCode} {site.address.city}
+                      {site.address.street}, {site.address.postalCode}{" "}
+                      {site.address.city}
                     </p>
                   </div>
                 </div>
+                <SiteCta
+                  href={site.phone.href}
+                  variant="primary"
+                  className="mt-6 min-h-11 w-full justify-center sm:w-auto"
+                >
+                  Appeler le cabinet
+                </SiteCta>
               </aside>
             </div>
           </section>
@@ -184,19 +210,19 @@ export function ExpertisePageView({
         </div>
       </div>
 
-      {/* FABs — comme le live */}
+      {/* FABs — polished, hit area 48px */}
       <div className="fixed bottom-6 right-5 z-30 flex flex-col gap-3">
         <a
           href={`mailto:${site.email}`}
           aria-label="Écrire un e-mail"
-          className="flex h-12 w-12 items-center justify-center rounded-full bg-white text-navy shadow-[0_4px_14px_rgba(0,0,0,0.15)] hover:text-accent"
+          className="expertise-fab flex h-12 w-12 items-center justify-center rounded-full bg-white text-navy"
         >
           <MailIcon />
         </a>
         <a
           href={site.phone.href}
           aria-label="Appeler le cabinet"
-          className="flex h-12 w-12 items-center justify-center rounded-full bg-white text-navy shadow-[0_4px_14px_rgba(0,0,0,0.15)] hover:text-accent"
+          className="expertise-fab flex h-12 w-12 items-center justify-center rounded-full bg-white text-navy"
         >
           <PhoneIcon />
         </a>

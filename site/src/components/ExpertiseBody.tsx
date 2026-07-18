@@ -30,6 +30,11 @@ interface CaseItem {
   paragraphs: string[]
 }
 
+const CARD_SHADOW =
+  "shadow-[0_1px_2px_rgba(23,71,94,0.04),0_10px_28px_rgba(23,71,94,0.06)]"
+const CARD_HOVER =
+  "transition-[transform,box-shadow] duration-200 ease-[cubic-bezier(0.2,0,0,1)] hover:-translate-y-0.5 hover:shadow-[0_2px_6px_rgba(23,71,94,0.06),0_18px_40px_rgba(23,71,94,0.1)] motion-reduce:transition-none motion-reduce:hover:translate-y-0"
+
 function cleanText(raw: string) {
   return raw.replace(/\u200b/g, "").replace(/\s+/g, " ").trim()
 }
@@ -206,7 +211,7 @@ function Paragraphs({
 function SectionHeading({ title, titleAccent }: { title: string; titleAccent?: string | null }) {
   const { before, accent, after } = accentSplit(title, titleAccent)
   return (
-    <h2 className="max-w-3xl font-display text-[clamp(1.35rem,2.4vw,1.75rem)] font-medium leading-[1.2] tracking-[-0.02em] text-balance">
+    <h2 className="max-w-3xl font-display text-[clamp(1.4rem,2.5vw,1.85rem)] font-medium leading-[1.2] tracking-[-0.02em] text-balance">
       {accent ? (
         <>
           {before ? <span className="text-navy">{before} </span> : null}
@@ -222,7 +227,7 @@ function SectionHeading({ title, titleAccent }: { title: string; titleAccent?: s
 
 function Lead({ children }: { children: ReactNode }) {
   return (
-    <div className="mt-5 max-w-3xl border-l-2 border-accent/80 pl-4 text-[15px] leading-[1.7] text-pretty text-navy/85 sm:pl-5">
+    <div className="mt-6 max-w-3xl border-l-2 border-accent/80 pl-4 text-[15px] leading-[1.7] text-pretty text-navy/85 sm:pl-5">
       {children}
     </div>
   )
@@ -230,13 +235,13 @@ function Lead({ children }: { children: ReactNode }) {
 
 function StepList({ items, links }: { items: BulletItem[]; links: InlineLink[] }) {
   return (
-    <ol className="mt-8 space-y-4">
+    <ol className="mt-10 space-y-4">
       {items.map((item, i) => (
         <li
           key={`${item.title}-${i}`}
-          className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 rounded-[18px] bg-white p-4 shadow-[0_1px_2px_rgba(23,71,94,0.04),0_10px_28px_rgba(23,71,94,0.06)] sm:gap-x-5 sm:p-5"
+          className={`grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 rounded-[20px] bg-white p-4 sm:gap-x-5 sm:p-5 ${CARD_SHADOW} ${CARD_HOVER}`}
         >
-          <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-navy text-[13px] font-semibold tabular-nums text-white">
+          <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-navy text-[13px] font-semibold tabular-nums text-white shadow-[0_1px_2px_rgba(23,71,94,0.2)]">
             {i + 1}
           </span>
           <div className="min-w-0 pt-0.5">
@@ -261,7 +266,7 @@ function HeadedSteps({ blocks, links }: { blocks: Block[]; links: InlineLink[] }
   const steps = blocks.filter((b) => b.heading)
   if (!steps.length) return null
   return (
-    <ol className="mt-8 space-y-0">
+    <ol className="mt-10 space-y-0">
       {steps.map((step, i) => {
         const bullets = step.body ? parseBulletItems(step.body) : null
         const titledBullets = bullets?.filter((b) => b.title) || []
@@ -277,14 +282,14 @@ function HeadedSteps({ blocks, links }: { blocks: Block[]; links: InlineLink[] }
         return (
           <li key={`${step.heading}-${i}`} className="relative grid grid-cols-[auto_1fr] gap-x-4 sm:gap-x-5">
             <div className="flex flex-col items-center">
-              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-navy text-[13px] font-semibold tabular-nums text-white">
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-navy text-[13px] font-semibold tabular-nums text-white shadow-[0_1px_2px_rgba(23,71,94,0.2)]">
                 {i + 1}
               </span>
               {i < steps.length - 1 ? (
-                <span className="mt-2 w-px flex-1 bg-line" aria-hidden />
+                <span className="mt-2 w-px flex-1 bg-gradient-to-b from-navy/25 to-navy/5" aria-hidden />
               ) : null}
             </div>
-            <div className={`min-w-0 ${i < steps.length - 1 ? "pb-8" : ""}`}>
+            <div className={`min-w-0 ${i < steps.length - 1 ? "pb-10" : ""}`}>
               <h3 className="font-display text-[17px] font-medium leading-snug tracking-[-0.015em] text-navy text-balance sm:text-[18px]">
                 {linkify(step.heading, links)}
               </h3>
@@ -312,18 +317,20 @@ function HeadedSteps({ blocks, links }: { blocks: Block[]; links: InlineLink[] }
 
 function CaseGrid({ cases, links }: { cases: CaseItem[]; links: InlineLink[] }) {
   return (
-    <div className="mt-8 grid gap-4 md:grid-cols-2">
+    <div className="mt-10 grid gap-4 md:grid-cols-2">
       {cases.map((c) => (
         <article
           key={c.title}
-          className="flex flex-col rounded-[20px] bg-white p-5 shadow-[0_1px_2px_rgba(23,71,94,0.04),0_12px_32px_rgba(23,71,94,0.07)] sm:p-6"
+          className={`flex flex-col rounded-[22px] bg-white p-5 sm:p-6 ${CARD_SHADOW} ${CARD_HOVER}`}
         >
           {c.amount ? (
-            <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-accent">
+            <p className="inline-flex w-fit items-center rounded-full bg-accent/[0.1] px-3 py-1 text-[12px] font-semibold uppercase tracking-[0.1em] text-accent">
               {c.amount}
             </p>
           ) : null}
-          <h3 className="mt-2 font-display text-[16px] font-medium leading-snug tracking-[-0.015em] text-navy text-balance sm:text-[17px]">
+          <h3
+            className={`font-display text-[16px] font-medium leading-snug tracking-[-0.015em] text-navy text-balance sm:text-[17px] ${c.amount ? "mt-3" : ""}`}
+          >
             {linkify(c.title, links)}
           </h3>
           <div className="mt-3 flex-1 space-y-2.5 text-[14px] leading-[1.65] text-navy/80">
@@ -341,9 +348,12 @@ function CaseGrid({ cases, links }: { cases: CaseItem[]; links: InlineLink[] }) 
 
 function DefGrid({ items, links }: { items: BulletItem[]; links: InlineLink[] }) {
   return (
-    <div className="mt-8 grid gap-3 sm:grid-cols-2">
+    <div className="mt-10 grid gap-3 sm:grid-cols-2">
       {items.map((item, i) => (
-        <div key={`${item.title}-${i}`} className="rounded-[16px] bg-fog/70 px-4 py-4 sm:px-5">
+        <div
+          key={`${item.title}-${i}`}
+          className={`rounded-[18px] bg-white px-4 py-4 sm:px-5 sm:py-5 ${CARD_SHADOW} ${CARD_HOVER}`}
+        >
           {item.title ? (
             <p className="text-[14px] font-semibold leading-snug text-navy">
               {linkify(item.title, links)}
@@ -362,7 +372,7 @@ function DefGrid({ items, links }: { items: BulletItem[]; links: InlineLink[] })
 
 function ProseBlocks({ blocks, links }: { blocks: Block[]; links: InlineLink[] }) {
   return (
-    <div className="mt-7 space-y-8">
+    <div className="mt-8 space-y-8">
       {blocks.map((b, i) => (
         <div key={i} className="max-w-3xl">
           {b.heading ? (
@@ -413,7 +423,7 @@ function renderSectionBody(blocks: Block[], links: InlineLink[]) {
     const otherBlocks = blocks.filter((b) => b !== defBlock)
 
     return (
-      <div className="mt-7 space-y-8">
+      <div className="mt-8 space-y-8">
         {defBlock.heading ? (
           <h3 className="font-display text-[17px] font-medium leading-snug tracking-[-0.015em] text-navy">
             {linkify(defBlock.heading, links)}
@@ -442,19 +452,19 @@ export function ExpertiseBody({
   links?: InlineLink[]
 }) {
   return (
-    <div className="bg-[#f7f8f9]">
+    <div className="expertise-body bg-[#f4f7f9]">
       {sections.map((section, si) => {
         const blocks = normalizeBlocks(section.blocks || [])
         const lead = section.lead && !isJunk(section.lead) ? section.lead : null
-        const zebra = si % 2 === 1
+        const tone = si % 2 === 1 ? "expertise-section-alt" : "expertise-section"
 
         return (
           <section
             key={section.id}
             id={section.id}
-            className={`scroll-mt-36 border-b border-line/50 ${zebra ? "bg-white" : "bg-transparent"}`}
+            className={`scroll-mt-36 border-b border-navy/[0.06] ${tone}`}
           >
-            <div className="mx-auto max-w-6xl px-5 py-12 sm:py-14 lg:px-8 lg:py-16">
+            <div className="mx-auto max-w-6xl px-5 py-14 sm:py-16 lg:px-8 lg:py-20">
               <SectionHeading title={section.title} titleAccent={section.titleAccent} />
               {lead ? (
                 <Lead>

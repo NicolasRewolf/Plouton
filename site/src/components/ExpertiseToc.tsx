@@ -67,7 +67,7 @@ export function ExpertiseToc({ items }: { items: ExpertiseTocItem[] }) {
   return (
     <nav
       aria-label="Sommaire"
-      className="sticky top-[68px] z-40 border-y border-white/40 bg-white/70 backdrop-blur-xl lg:top-[72px]"
+      className="expertise-toc sticky top-[68px] z-40 border-y border-white/50 bg-white/75 shadow-[0_8px_28px_rgba(23,71,94,0.06)] backdrop-blur-xl lg:top-[72px]"
     >
       <div
         ref={scrollerRef}
@@ -76,16 +76,17 @@ export function ExpertiseToc({ items }: { items: ExpertiseTocItem[] }) {
         {items.map((t) => {
           const isActive = activeId === t.id
           const base =
-            "inline-flex min-h-10 shrink-0 items-center gap-1.5 rounded-full px-3.5 py-2 text-[13px] font-medium leading-none tracking-[-0.01em] transition-[background-color,color,box-shadow,transform] duration-200 active:scale-[0.96]"
+            "inline-flex min-h-11 shrink-0 items-center gap-1.5 rounded-full px-3.5 py-2 text-[13px] font-medium leading-none tracking-[-0.01em] transition-[background-color,color,box-shadow,transform] duration-200 active:scale-[0.96] motion-reduce:transition-none motion-reduce:active:scale-100"
 
           let tone: string
           if (isActive && t.isCta)
-            tone = "bg-accent text-white shadow-[0_1px_2px_rgba(254,75,66,0.2)]"
-          else if (isActive)
-            tone = "bg-navy text-white shadow-[0_1px_2px_rgba(23,71,94,0.18)]"
-          else if (t.isCta)
             tone =
-              "bg-navy/[0.06] text-navy hover:bg-navy/[0.1]"
+              "bg-accent text-white shadow-[0_1px_2px_rgba(254,75,66,0.25),0_6px_16px_rgba(254,75,66,0.22)]"
+          else if (isActive)
+            tone =
+              "bg-navy text-white shadow-[0_1px_2px_rgba(23,71,94,0.22),0_6px_16px_rgba(23,71,94,0.18)]"
+          else if (t.isCta)
+            tone = "bg-navy/[0.06] text-navy hover:bg-navy/[0.1]"
           else tone = "bg-navy/[0.04] text-navy/80 hover:bg-navy/[0.08] hover:text-navy"
 
           return (

@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Expertises : UI premium
+
+- Hero plus vivant (fond doux navy/fog) + 2 boutons clairs : RDV et Appeler
+- Cartes du corps (étapes, dossiers €…) plus soignées, légère animation au survol
+- Bande équipe avant le formulaire + sommaire sticky peaufiné
+- À ouvrir : `/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux`
+
 ## 2026-07-18 — C5 : publish live (DB → site)
 
 - Le site public lit les articles **dans la base** (plus seulement les fichiers)

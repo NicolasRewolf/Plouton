@@ -4,6 +4,12 @@ On note ici les choix importants, pour ne pas les rejouer à chaque fois.
 
 ---
 
+## 2026-07-18 — Expertises UI premium (hors pixel)
+
+**Décision :** le gabarit unique expertises (`ExpertisePageView` / `Body` / `Toc`) s’écarte du pixel Wix pour un rendu premium moderne (atmosphère, CTAs hero, cartes layered, bande conversion).  
+**Pourquoi :** Nicolas veut une sensation « libs UI » sans installer Tailark/Aceternity/etc. — patterns réutilisés dans le design system Plouton (navy + coral).  
+**Contraintes :** `SiteCta` / `AffaireCard` uniquement ; CSS only (pas framer-motion) ; déviation notée dans `contenu/reference/deviations.json` (`expertise-ui-premium`).
+
 ## 2026-07-18 — Uniformité UI (cartes + CTA)
 
 **Décision :** une seule carte article (`AffaireCard`) et un seul style de CTA public (`SiteCta` / `.btn-pill`).  

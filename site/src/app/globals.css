@@ -110,6 +110,63 @@ body {
   mask-position: center;
 }
 
+/* Expertise — atmosphere hero + sections (navy/fog, pas purple) */
+.expertise-hero {
+  background:
+    radial-gradient(ellipse 80% 60% at 12% 8%, rgba(23, 71, 94, 0.07), transparent 55%),
+    radial-gradient(ellipse 55% 45% at 88% 18%, rgba(254, 75, 66, 0.05), transparent 50%),
+    linear-gradient(180deg, #eef3f6 0%, #f7f9fa 42%, #ffffff 100%);
+}
+
+.expertise-hero-motif {
+  background-image:
+    radial-gradient(rgba(23, 71, 94, 0.045) 0.7px, transparent 0.7px);
+  background-size: 18px 18px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), transparent 78%);
+  -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), transparent 78%);
+  opacity: 0.9;
+}
+
+.expertise-section {
+  background: transparent;
+}
+
+.expertise-section-alt {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.92) 0%, rgba(255, 255, 255, 0.72) 100%);
+}
+
+.expertise-fab {
+  box-shadow:
+    0 1px 2px rgba(23, 71, 94, 0.06),
+    0 10px 28px rgba(23, 71, 94, 0.12);
+  transition:
+    transform 0.2s cubic-bezier(0.2, 0, 0, 1),
+    box-shadow 0.2s cubic-bezier(0.2, 0, 0, 1),
+    color 0.15s ease;
+}
+
+.expertise-fab:hover {
+  color: var(--color-accent);
+  transform: translateY(-2px) scale(1.04);
+  box-shadow:
+    0 2px 6px rgba(23, 71, 94, 0.08),
+    0 16px 36px rgba(23, 71, 94, 0.16);
+}
+
+.expertise-fab:active {
+  transform: scale(0.96);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .expertise-fab,
+  .expertise-fab:hover,
+  .expertise-fab:active {
+    transition: none;
+    transform: none;
+  }
+}
+
 /* CTA hero / pages — mix X (Nicolas 2026-07-18) : radius 6, fond soft, flèche légère */
 .btn-pill {
   display: inline-flex;
