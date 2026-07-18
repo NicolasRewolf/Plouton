@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { getSite } from "@/lib/content"
+import { megaPolesFromRegistry } from "@/lib/registry"
 
 const menu = [
   { href: "/", label: "Accueil" },
@@ -11,16 +12,10 @@ const menu = [
   { href: "/mentions-legales", label: "Mentions légales" },
 ]
 
-const defense = [
-  { href: "/defense-penale/droit-penal", label: "Droit pénal" },
-  { href: "/defense-penale/proces-criminel", label: "Procès criminels" },
-  { href: "/defense-penale/trafic-de-stupefiants", label: "Trafic de stupéfiants" },
-  {
-    href: "/defense-penale/violences-conjugales-et-feminicides",
-    label: "Violences conjugales et féminicides",
-  },
-  { href: "/defense-penale/droit-penal-des-affaires", label: "Droit pénal des affaires" },
-]
+const defense =
+  megaPolesFromRegistry()
+    .find((p) => p.id === "defense")
+    ?.children.map((c) => ({ href: c.href, label: c.label })) ?? []
 
 export function Footer() {
   const site = getSite()

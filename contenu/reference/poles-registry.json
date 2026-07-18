@@ -1,0 +1,137 @@
+{
+  "poles": [
+    {
+      "id": "defense",
+      "slug": "defense-penale",
+      "label": "Défense pénale",
+      "shortLabel": "Défense pénale",
+      "href": "/defense-penale/droit-penal",
+      "expertises": [
+        {
+          "slug": "droit-penal",
+          "label": "Droit pénal",
+          "hint": "Garde à vue, correctionnel, assises",
+          "formObjet": "Droit Pénal",
+          "hero": "/brand/expertises/droit-penal.jpg"
+        },
+        {
+          "slug": "proces-criminel",
+          "label": "Procès criminels",
+          "hint": "Cour d’assises & crimes",
+          "formObjet": "Procès criminels",
+          "hero": "/brand/expertises/proces-criminel.jpg"
+        },
+        {
+          "slug": "trafic-de-stupefiants",
+          "label": "Trafic de stupéfiants",
+          "hint": "Défense des dossiers complexes",
+          "formObjet": "Trafic de stupéfiants",
+          "hero": "/brand/expertises/trafic-de-stupefiants.jpg"
+        },
+        {
+          "slug": "violences-conjugales-et-feminicides",
+          "label": "Violences conjugales et féminicides",
+          "hint": "Protection & poursuites",
+          "formObjet": "Violences conjugales et féminicides",
+          "hero": "/brand/expertises/violences-conjugales-et-feminicides.jpg"
+        },
+        {
+          "slug": "droit-penal-des-affaires",
+          "label": "Droit pénal des affaires",
+          "hint": "Entreprises & dirigeants",
+          "formObjet": "Droit pénal des affaires",
+          "hero": "/brand/expertises/droit-penal-des-affaires.jpg"
+        }
+      ]
+    },
+    {
+      "id": "victimes",
+      "slug": "indemnisation-des-victimes",
+      "label": "Indemnisation des victimes",
+      "shortLabel": "Indemnisation",
+      "href": "/indemnisation-des-victimes/victimes-de-delits-ou-crimes",
+      "expertises": [
+        {
+          "slug": "victimes-de-delits-ou-crimes",
+          "label": "Victimes de délits ou crimes",
+          "hint": "Partie civile & CIVI",
+          "formObjet": "Victimes de délits ou crimes",
+          "hero": "/brand/expertises/victimes-de-delits-ou-crimes.jpg"
+        },
+        {
+          "slug": "accidents-de-la-route",
+          "label": "Accidents de la route",
+          "hint": "Loi Badinter & préjudices",
+          "formObjet": "Accidents de la route",
+          "hero": "/brand/expertises/accidents-de-la-route.jpg"
+        },
+        {
+          "slug": "droit-et-accidents-du-travail",
+          "label": "Droit et accidents du travail",
+          "hint": "Faute inexcusable",
+          "formObjet": "Droit et accidents du travail",
+          "hero": "/brand/expertises/droit-et-accidents-du-travail.jpg"
+        },
+        {
+          "slug": "accidents-et-erreurs-medicales",
+          "label": "Accidents et erreurs médicales",
+          "hint": "ONIAM & expertise",
+          "formObjet": "Accidents et erreurs médicales",
+          "hero": "/brand/expertises/accidents-et-erreurs-medicales.jpg"
+        },
+        {
+          "slug": "accidents-de-la-vie-courante",
+          "label": "Accidents de la vie courante",
+          "hint": "Dommages corporels",
+          "formObjet": "Accidents de la vie courante",
+          "hero": "/brand/expertises/accidents-de-la-vie-courante.jpg"
+        }
+      ]
+    },
+    {
+      "id": "contrats",
+      "slug": "droit-des-contrats-et-des-personnes",
+      "label": "Droit des contrats et des personnes",
+      "shortLabel": "Contrats & personnes",
+      "href": "/droit-des-contrats-et-des-personnes/droit-de-la-famille",
+      "expertises": [
+        {
+          "slug": "droit-assurances-particuliers-professionnels",
+          "label": "Droit des assurances",
+          "hint": "Sinistres & litiges",
+          "formObjet": "Droit des assurances",
+          "hero": "/brand/expertises/droit-assurances-particuliers-professionnels.jpg"
+        },
+        {
+          "slug": "defense-des-consommateurs",
+          "label": "Défense des consommateurs",
+          "hint": "Crédit, abus, garanties",
+          "formObjet": "Défense des consommateurs",
+          "hero": "/brand/expertises/defense-des-consommateurs.jpg"
+        },
+        {
+          "slug": "droit-de-la-famille",
+          "label": "Droit de la famille",
+          "hint": "Union, enfants, patrimoine",
+          "formObjet": "Droit de la famille",
+          "hero": "/brand/expertises/droit-de-la-famille.jpg"
+        },
+        {
+          "slug": "divorce",
+          "label": "Divorce",
+          "hint": "Stratégie & négociation",
+          "path": "/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux",
+          "formObjet": "Divorce",
+          "hero": "/brand/expertises/divorce.jpg"
+        }
+      ]
+    }
+  ],
+  "extraFormObjets": ["Nous rejoindre (candidature)", "Autre / je ne sais pas encore"],
+  "sideLinks": [
+    { "label": "Affaires", "href": "/nos-affaires" },
+    { "label": "Médias", "href": "/medias" },
+    { "label": "Ressources", "href": "/comprendre-le-droit" },
+    { "label": "Équipe", "href": "/notre-cabinet" }
+  ]
+}

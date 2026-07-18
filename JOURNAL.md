@@ -5,6 +5,15 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Architecture : un seul cerveau contenu
+
+- **Queries** : articles publiés, FAQ, related — une seule boîte (`queries.ts`)
+- **Loader expertise** : page prête avant affichage (FAQ, hero, TOC, schema)
+- **Registry** : menu + objets formulaire + photos dans `poles-registry.json`
+- **Formulaire** : le serveur valide avant d’enregistrer
+- Affaires / médias / related : mêmes règles de filtre
+- Nettoyage scrape aussi au check `--fix` (plus seulement à l’affichage)
+
 ## 2026-07-18 — Fin de soirée (balai)
 
 - Dossier doublon `illustrations pages expertise/` supprimé (déjà dans `brand/expertises/`)

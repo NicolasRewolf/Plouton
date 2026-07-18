@@ -1,26 +1,15 @@
 import {
-  getCategories,
-  listArticles,
-  type Article,
-  type Category,
-} from "@/lib/content"
+  articlesOfCategory,
+  findCategoryBySlug,
+  publishedFull,
+} from "@/lib/queries"
+import type { Article, Category } from "@/lib/content"
 
-/** Articles publiés, triés récents d'abord (lecture complète — build/SSG). */
-export function publishedFull(): Article[] {
-  return listArticles().filter((a) => a.status === "published")
-}
+export { publishedFull, articlesOfCategory }
 
 export function findCategory(slugParam: string): Category | null {
-  const target = decodeURIComponent(slugParam).normalize("NFC")
-  return (
-    getCategories().find((c) => c.slug.normalize("NFC") === target) ?? null
-  )
+  return findCategoryBySlug(slugParam)
 }
 
-export function articlesOfCategory(category: Category): Article[] {
-  return publishedFull().filter(
-    (a) =>
-      a.categoryIds?.includes(category.id) ||
-      a.categories.includes(category.label)
-  )
-}
+/** @deprecated prefer articlesOfCategory from queries */
+export type { Article, Category }

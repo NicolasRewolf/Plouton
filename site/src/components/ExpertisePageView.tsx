@@ -8,77 +8,34 @@ import { FaqAccordion } from "@/components/FaqAccordion"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
 import type { ExpertisePage, FaqItem, SiteConfig } from "@/lib/content"
-import { JsonLd, organizationSchema } from "@/lib/seo"
+import { getRegistryExpertise } from "@/lib/registry"
+import { JsonLd } from "@/lib/seo"
 
 interface ExpertisePageViewProps {
   expertise: ExpertisePage
   site: SiteConfig
   faq: FaqItem[]
   related: AffaireCardItem[]
+  tocItems: ExpertiseTocItem[]
+  sections: ExpertisePage["sections"]
   pageUrl: string
   heroImage?: string | null
+  schema: Record<string, unknown>[]
 }
 
-function isLegacyScrapedBlock(id: string, labelOrTitle?: string | null) {
-  const key = `${id} ${labelOrTitle || ""}`.toLowerCase()
-  if (id === "contact") return false
-  return (
-    id === "faq" ||
-    id === "affaires" ||
-    /foire-aux-questions|questions-frequentes|affaires-recentes|nos-affaires-recentes|les-dernieres-affaires|actualites|je-prends-rendez-vous|rendez-vous-maintenant|rendez-vous-pour/.test(
-      id
-    ) ||
-    /foire aux questions|questions fr[eé]quentes|affaires r[eé]centes|nos affaires r[eé]centes|derni[eè]res? affaires|^actualit[eé]s|^je prends rendez-vous/.test(
-      key
-    )
-  )
-}
-
-function buildTocItems({
-  expertise,
-  sections,
-  hasFaq,
-  hasAffaires,
-}: {
-  expertise: ExpertisePage
-  sections: ExpertisePage["sections"]
-  hasFaq: boolean
-  hasAffaires: boolean
-}): ExpertiseTocItem[] {
-  const sectionIds = new Set(sections.map((s) => s.id))
-  const items: ExpertiseTocItem[] = []
-
-  for (const t of expertise.toc) {
-    if (isLegacyScrapedBlock(t.id, t.label)) continue
-    if (t.id === "contact") {
-      items.push({
-        id: "contact",
-        label: t.shortLabel || "Je prends rendez-vous",
-        isCta: true,
-      })
-      continue
-    }
-    if (!sectionIds.has(t.id)) continue
-    items.push({ id: t.id, label: t.shortLabel || t.label })
-  }
-
-  if (!items.some((i) => i.id === "contact"))
-    items.push({ id: "contact", label: "Je prends rendez-vous", isCta: true })
-
-  if (hasFaq) items.push({ id: "faq", label: "FAQ" })
-  if (hasAffaires) items.push({ id: "affaires", label: "Nos affaires" })
-
-  return items
-}
-
+/** Presentational expertise gabarit — data from loadExpertisePage. */
 export function ExpertisePageView({
   expertise,
   site,
   faq,
   related,
-  pageUrl,
+  tocItems,
+  sections,
+  pageUrl: _pageUrl,
   heroImage,
+  schema,
 }: ExpertisePageViewProps) {
+  void _pageUrl
   const intro = expertise.intro
     .replace(/^Cabinet Plouton\s*\/\s*/i, "")
     .replace(/\u200b/g, "")
@@ -88,55 +45,6 @@ export function ExpertisePageView({
     .split(/\n\n+/)
     .map((p) => p.trim())
     .filter(Boolean)
-
-  const sections = expertise.sections.filter((s) => !isLegacyScrapedBlock(s.id, s.title))
-  const tocItems = buildTocItems({
-    expertise,
-    sections,
-    hasFaq: faq.length > 0,
-    hasAffaires: related.length > 0,
-  })
-
-  const schema = [
-    organizationSchema(site),
-    {
-      "@context": "https://schema.org",
-      "@type": "LegalService",
-      "@id": `${pageUrl}#service`,
-      name: expertise.title,
-      description: expertise.metaDescription,
-      provider: { "@id": site.cabinetId },
-      areaServed: "FR",
-      url: pageUrl,
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Accueil", item: site.url },
-        {
-          "@type": "ListItem",
-          position: 2,
-          name: expertise.poleLabel,
-          item: `${site.url}${expertise.path || `/${expertise.pole}`}`,
-        },
-        { "@type": "ListItem", position: 3, name: expertise.title, item: pageUrl },
-      ],
-    },
-    ...(faq.length
-      ? [
-          {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: faq.map((f) => ({
-              "@type": "Question",
-              name: f.question,
-              acceptedAnswer: { "@type": "Answer", text: f.answer },
-            })),
-          },
-        ]
-      : []),
-  ]
 
   return (
     <>
@@ -205,7 +113,10 @@ export function ExpertisePageView({
           <section id="contact" className="scroll-mt-36">
             <div className="grid gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:items-start">
               <ContactForm
-                defaultObjet={expertise.formObjet}
+                defaultObjet={
+                  getRegistryExpertise(expertise.slug)?.formObjet ||
+                  expertise.formObjet
+                }
                 pageSource={expertise.slug}
                 heading={expertise.contactAside?.title || "Je prends rendez-vous"}
                 lead={

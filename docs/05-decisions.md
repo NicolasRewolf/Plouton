@@ -136,3 +136,8 @@ Détail → `docs/12-seo-geo.md`.
 ### Recherche sur le site
 **Décision :** **on garde**.  
 **Conséquence :** recherche pages + blog dans le site public.
+
+### Registry pôles / expertises (2026-07-18)
+**Décision :** une seule liste officielle `contenu/reference/poles-registry.json` (menu, objets formulaire, heroes).  
+**Miroir client :** `site/src/data/poles-registry.json` (à resync si on édite).  
+**Conséquence :** ajouter / renommer une expertise = d’abord le registry, puis le JSON page.

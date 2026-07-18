@@ -14,6 +14,7 @@ import {
   getSite,
   publishedArticles,
 } from "@/lib/content"
+import { relatedForArticle } from "@/lib/queries"
 import { RicosBody } from "@/lib/ricos/render"
 import type { RicosDoc } from "@/lib/ricos/types"
 import { JsonLd, organizationSchema } from "@/lib/seo"
@@ -86,14 +87,16 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const updatedLabel = article.updatedAt
     ? new Date(article.updatedAt).toLocaleDateString("fr-FR", { month: "long", year: "numeric" })
     : null
-  const others = publishedArticles().filter((a) => a.slug !== article.slug)
-  const sameCategory = others.filter((a) =>
-    a.categories.some((c) => article.categories.includes(c))
-  )
-  // Comme Wix : même catégorie d'abord, complété par les plus récents
-  const related = [...sameCategory, ...others.filter((a) => !sameCategory.includes(a))]
-    .slice(0, 2)
-    .map((a) => ({ ...a, viewCount: getArticle(a.slug)?.viewCount ?? 0 }))
+  const related = relatedForArticle(article, 2).map((a) => ({
+    slug: a.slug,
+    title: a.title,
+    excerpt: a.excerpt,
+    publishedAt: a.publishedAt,
+    categories: a.categories,
+    coverImage: a.coverImage,
+    minutesToRead: a.minutesToRead,
+    viewCount: a.viewCount ?? 0,
+  }))
   const stats = { views: article.viewCount ?? 0, likes: 0, comments: 0 }
 
   const schema = [

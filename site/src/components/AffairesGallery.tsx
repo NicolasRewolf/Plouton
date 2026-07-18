@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react"
 import { AffaireCard, type AffaireCardItem } from "@/components/AffaireCard"
+import { labelEquals } from "@/lib/category-match"
 
 interface CategoryOption {
   label: string
@@ -18,7 +19,7 @@ function matchesCategory(
   if (!slug) return true
   const cat = categories.find((c) => c.slug === slug)
   if (!cat) return false
-  return article.categories.includes(cat.label)
+  return article.categories.some((c) => labelEquals(c, cat.label))
 }
 
 /** Grille éditoriale « Nos affaires » — filtres + cards preview. */

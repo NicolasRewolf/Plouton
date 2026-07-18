@@ -2,7 +2,8 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
-import { getContentPage, getSite, publishedArticles } from "@/lib/content"
+import { getContentPage } from "@/lib/content"
+import { mediasArticles } from "@/lib/queries"
 
 export function generateMetadata(): Metadata {
   const page = getContentPage("medias")
@@ -14,10 +15,7 @@ export function generateMetadata(): Metadata {
 
 export default function MediasPage() {
   const page = getContentPage("medias")
-  const medias = publishedArticles().filter((a) =>
-    a.categories.some((c) => c.toLowerCase().includes("média"))
-  )
-  const list = medias.length ? medias : publishedArticles().slice(0, 24)
+  const list = mediasArticles()
 
   return (
     <>

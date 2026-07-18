@@ -8,6 +8,10 @@ Outils de **migration / import** (pas le runtime du site).
 | `scrape-expertises-live.py` | Pages live → `contenu/expertises/` + `pages/` |
 | `scrape-faq-live.py` | FAQ live → `contenu/faq/` (Playwright) |
 | `check-expertises-live.py` | Snapshot MD live + deep-check titres / textes / liens |
+| `sync-poles-registry.py` | Miroir registry → `site/src/data/` (après edit contenu) |
+
+**Source de vérité taxonomie :** `contenu/reference/poles-registry.json`  
+(mirroir client : `site/src/data/poles-registry.json` — `python3 scripts/sync-poles-registry.py`).
 
 ```bash
 # Blog

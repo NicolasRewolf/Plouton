@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useMemo, useRef, useState, type DragEvent, type FormEvent, type ReactNode } from "react"
+import { formObjets } from "@/lib/registry"
 
 interface ContactFormProps {
   defaultObjet?: string
@@ -11,24 +12,7 @@ interface ContactFormProps {
   lead?: string
 }
 
-const OBJETS = [
-  "Droit Pénal",
-  "Procès criminels",
-  "Trafic de stupéfiants",
-  "Violences conjugales et féminicides",
-  "Droit pénal des affaires",
-  "Victimes de délits ou crimes",
-  "Accidents de la route",
-  "Droit et accidents du travail",
-  "Accidents et erreurs médicales",
-  "Accidents de la vie courante",
-  "Droit des assurances",
-  "Défense des consommateurs",
-  "Droit de la famille",
-  "Divorce",
-  "Nous rejoindre (candidature)",
-  "Autre / je ne sais pas encore",
-]
+const OBJETS = formObjets()
 
 const MODES = [
   {

@@ -485,9 +485,45 @@ def check_expertise(data: dict, live: dict, md: str) -> dict:
     }
 
 
+def is_legacy_scraped_block(section_id: str, title: str | None = None) -> bool:
+    """Mirror site/src/lib/expertise-hygiene.ts — strip at ingest."""
+    if section_id == "contact":
+        return False
+    key = f"{section_id} {title or ''}".lower()
+    if section_id in ("faq", "affaires"):
+        return True
+    if re.search(
+        r"foire-aux-questions|questions-frequentes|affaires-recentes|nos-affaires-recentes|"
+        r"les-dernieres-affaires|actualites|je-prends-rendez-vous|rendez-vous-maintenant|rendez-vous-pour",
+        section_id,
+    ):
+        return True
+    if re.search(
+        r"foire aux questions|questions fr[eé]quentes|affaires r[eé]centes|nos affaires r[eé]centes|"
+        r"derni[eè]res? affaires|^actualit[eé]s|^je prends rendez-vous",
+        key,
+    ):
+        return True
+    return False
+
+
 def clean_junk(data: dict) -> int:
-    """Remove orphan digit leads/blocks and empty zwsp bodies. Returns count fixed."""
+    """Remove orphan digit leads/blocks, empty zwsp bodies, legacy scraped sections."""
     fixed = 0
+    before_sec = len(data.get("sections") or [])
+    data["sections"] = [
+        s
+        for s in (data.get("sections") or [])
+        if not is_legacy_scraped_block(s.get("id") or "", s.get("title"))
+    ]
+    fixed += before_sec - len(data["sections"])
+    before_toc = len(data.get("toc") or [])
+    data["toc"] = [
+        t
+        for t in (data.get("toc") or [])
+        if not is_legacy_scraped_block(t.get("id") or "", t.get("label"))
+    ]
+    fixed += before_toc - len(data["toc"])
     for sec in data.get("sections") or []:
         lead = sec.get("lead")
         if lead is not None and is_junk_text(lead):

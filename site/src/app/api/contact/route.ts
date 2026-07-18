@@ -1,12 +1,23 @@
 import { NextResponse } from "next/server"
-import { getStore, type DemandeInput } from "@/lib/store"
+import { intakeDemande } from "@/lib/demande-intake"
+import { getStore } from "@/lib/store"
 
 export const runtime = "nodejs"
 
 export async function POST(req: Request) {
-  const data = (await req.json()) as DemandeInput
+  let raw: unknown
   try {
-    const { id } = await getStore().createDemande(data)
+    raw = await req.json()
+  } catch {
+    return NextResponse.json({ ok: false, error: "JSON invalide." }, { status: 400 })
+  }
+
+  const intake = intakeDemande(raw)
+  if (!intake.ok)
+    return NextResponse.json({ ok: false, error: intake.error }, { status: intake.status })
+
+  try {
+    const { id } = await getStore().createDemande(intake.data)
     return NextResponse.json({ ok: true, id })
   } catch (e) {
     console.error("createDemande failed:", e)
