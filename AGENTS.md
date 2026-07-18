@@ -24,7 +24,7 @@ Nicolas n’est pas développeur : livrer clair, noter dans `JOURNAL.md`.
 | `contenu/` | JSON produit + `sources/wix/` | `node_modules`, secrets |
 | `scripts/` | Imports one-shot | Runtime site |
 | `docs/` | Décisions | Code |
-| `admin/` | Futur backoffice | Contenu |
+| `admin/` | Placeholder (vrai admin = `site/src/app/admin/`) | Contenu |
 | `base/` / `supabase/` | Migrations SQL | Contenu |
 
 ## Principes non négociables
@@ -67,8 +67,8 @@ Détail : `docs/16-composants-ui.md`.
 - Below-fold en lazy.
 - Pas de JS Wix / tags inutiles.
 
-### Backoffice (`admin/`)
-- Cible : `admin.jplouton-avocat.fr`
+### Backoffice (`site/src/app/admin/` ; `admin/` = placeholder)
+- Cible domaine : `admin.jplouton-avocat.fr`
 - V1 : **Demandes** + **Blog**
 - Publish libre (avocats + Nicolas)
 - Mail : `accueil@jplouton-avocat.fr`

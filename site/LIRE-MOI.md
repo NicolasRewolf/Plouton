@@ -1,6 +1,6 @@
 # site/
 
-Site public Next.js (App Router) — POC local.
+Site public Next.js (App Router) — preview Vercel + local.
 
 ```bash
 npm install
@@ -8,23 +8,29 @@ npm run dev
 # → http://127.0.0.1:3000
 ```
 
-## Contenu
+## Contenu (dual-run C4)
 
-Lu depuis `../contenu/` (fichiers JSON). Pas de Supabase pour l’instant.
+| Surface | Source |
+|---------|--------|
+| **Public** (`/post/...`, `/blog`, expertises…) | Encore **JSON** `../contenu/` via `content.ts` / `queries.ts` |
+| **Admin** (`/admin`) | Lit/écrit **Supabase** (`posts`, `demandes`) — magic link |
+
+Bascule lecture publique = **C5**. Détail : `docs/14-etat.md`.
 
 ## Code
 
 ```
 src/
-├── app/           ← routes (pages)
-├── components/    ← UI réutilisable
-├── fonts/         ← Google Sans / Source Sans
-└── lib/           ← content.ts, seo, expertise-route
+├── app/           ← routes (pages) + admin/
+├── components/    ← UI (AffaireCard, SiteCta, …)
+├── fonts/         ← Google Sans / Source Sans + Wix
+└── lib/           ← content, queries, seo, store, supabase
 ```
 
-## Admin POC
+## Admin réel
 
-`/admin` dans cette app = édition locale temporaire.  
-Le vrai backoffice ira dans `/admin` monorepo + Supabase.
+`/admin` dans **cette** app = backoffice actuel (Demandes + Blog).  
+Le dossier monorepo `admin/` reste un placeholder pour une future app dédiée.
 
-Détail stack → `docs/11-stack-technique.md`.
+Détail stack → `docs/11-stack-technique.md`.  
+UI canon → `docs/16-composants-ui.md`.

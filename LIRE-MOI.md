@@ -41,10 +41,11 @@ cd site && npm install && npm run dev
 
 ---
 
-## État (2026-07-18)
+## État (2026-07-18 soir)
 
 - Site **riche** en local + **preview Vercel** (login, noindex) — pas encore le vrai domaine
-- Contenu = **fichiers JSON** (`contenu/`) ; demandes = table Supabase **prête**, test prod à valider
+- **Dual-run C4** : public = JSON git ; admin = Supabase (`posts` + `demandes`)
+- **Next = C5** (site public lit la base) · pixel Phases 4–6 **en pause**
 - Registry expertises : `contenu/reference/poles-registry.json`
 
 Site live actuel (Wix) : https://www.jplouton-avocat.fr  

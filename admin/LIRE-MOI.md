@@ -1,12 +1,12 @@
 # admin/
 
-Backoffice cabinet : **Blog** + **Demandes**.
+Placeholder — **pas** l’app backoffice active.
 
 | | |
 |--|--|
-| **État** | Placeholder — pas encore d’app dédiée |
-| **Cible** | `admin.jplouton-avocat.fr` (Vercel) |
-| **Doc** | `docs/02-backoffice.md` + `docs/05-decisions.md` |
+| **État** | Placeholder docs seulement |
+| **Vrai backoffice** | `site/src/app/admin/` (magic link Supabase — Demandes + Blog) |
+| **Cible domaine** | `admin.jplouton-avocat.fr` (future app dédiée éventuelle) |
+| **Doc** | `docs/02-backoffice.md` + `docs/05-decisions.md` + `docs/14-etat.md` |
 
-Aujourd’hui un POC admin léger vit dans `site/src/app/admin/` (édition fichiers locale).  
-La vraie app `admin/` arrivera avec **Supabase Auth**.
+Ne pas chercher le code métier ici — il est dans `site/`.

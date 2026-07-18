@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Clean repo pré-C5
+
+- Worktrees Claude + branches mortes (déjà mergées) retirés — repo allégé
+- **Tous les docs** alignés : C0–C4 faits, next **C5**, pixel en pause, UI = AffaireCard + SiteCta
+- Passation soir à jour ; photo matin « 0 row » archivée
+- Prêt pour le plan **C5** (pas démarré ici)
+
 ## 2026-07-18 — Uniformité UI (cartes + boutons)
 
 - **Même carte** partout pour les articles (blog, ressources, posts similaires…)

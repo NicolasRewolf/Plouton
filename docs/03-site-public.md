@@ -6,21 +6,24 @@ Dossier technique : `site/`
 
 Les visiteurs : personnes qui cherchent un avocat, lisent un article, demandent un contact.
 
-## Contenu prévu (repris du site actuel)
+## Contenu (repris du site actuel + enrichi)
 
-- Accueil  
-- Les expertises (3 pôles + sous-pages)  
-- Le cabinet / l’équipe  
-- Les affaires  
-- Honoraires & rendez-vous  
-- Le blog (422 articles à migrer)  
-- Mentions légales / confidentialité  
+- Accueil
+- Les expertises (3 pôles + sous-pages + hubs)
+- Le cabinet / l’équipe
+- Les affaires / blog (422 articles)
+- Médias + hub Ressources
+- Honoraires & rendez-vous
+- Mentions légales / confidentialité / cookies
 
 ## Lien avec le backoffice
 
-Ce que le client publie dans le backoffice **apparaît ici**.  
-Ce que le visiteur envoie dans un formulaire **arrive dans Demandes**.
+Ce que le cabinet édite dans `/admin` **écrit** en Supabase (`posts`, `demandes`).  
+**Lecture publique** = encore **JSON git** (dual-run C4) → **C5** = le site lit la base.
 
-## État
+## État (soir 18/07)
 
-Pas encore construit. On s’appuie sur l’exemple **outremerplouton** pour le style et la stack.
+**Live sur Vercel** (preview protégée, noindex) — pas encore le vrai domaine.  
+Socle riche : expertises, hubs, blog, formulaires, légales, admin.  
+Prochaine priorité : **C5** (lecture publique Supabase + publish sans commit).  
+UI canonique : `AffaireCard` + `SiteCta` ([`16-composants-ui.md`](16-composants-ui.md)).

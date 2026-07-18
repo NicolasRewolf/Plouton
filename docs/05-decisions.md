@@ -157,13 +157,13 @@ Détail → `docs/12-seo-geo.md`.
 **Conséquence :** plus de retouche Header côté Fable (voir aussi pivot matin ci-dessous).
 
 ### Pivot stratégie — Supabase d’abord (2026-07-18 matin)
-**Décision :** arrêt de la priorité « copie fidèle / pixel-perfect » (Phases 4–6). On **garde** le socle 0–3 dans `main`. Priorité = canalisations **C0–C5** (Demandes prouvées → PJ → auth/UI → mail/CSV → posts DB → publish live). UI au fil de l’eau (Nicolas + Cursor).  
-**Pourquoi :** le contenu public est encore **100 % JSON git** ; Supabase n’a qu’une table `demandes` à **0 row**. Le plan pixel listait déjà « persistance admin / écritures Supabase » en *hors périmètre* — ce trou est devenu le périmètre.  
-**Conséquence :** stop `diff.mjs` / templates Wix ; Footer branche en attente ; ne pas migrer les 422 posts avant C0–C3. Détail + message Fable : `docs/PASSATION-2026-07-18.md`.
 
+**Décision :** arrêt de la priorité « copie fidèle / pixel-perfect » (Phases 4–6). On **garde** le socle 0–3 dans `main`. Priorité = canalisations **C0–C5** (Demandes → PJ → auth/UI → mail/CSV → posts DB → publish live). UI au fil de l’eau (Nicolas + Cursor).  
+**Pourquoi (photo matin, obsolète) :** le contenu public était encore **100 % JSON git** ; Supabase n’avait qu’une table `demandes` à **0 row**. *(Soir 18/07 : C0–C4 livrés — demandes + posts seedés ; public encore dual-run JSON → C5.)* Le plan pixel listait déjà « persistance admin / écritures Supabase » en *hors périmètre* — ce trou est devenu le périmètre.  
+**Conséquence :** stop `diff.mjs` / templates Wix prioritaires ; Footer **mergé** PR #6 (plus « en attente ») ; ne pas migrer les 422 posts avant C0–C3 *(fait)*. Détail : `docs/PASSATION-2026-07-18.md`.
 
 ### Pages légales (2026-07-18)
 **Décision :** un gabarit `LegalPageView` + TOC sticky ; contenu en JSON (`mentions-legales`, `politique-de-confidentialite`, `cookies`).  
 **Pourquoi :** obligation légale (formulaires + RGPD) ; le live Wix n’avait qu’un bloc mentions peu structuré.  
 **Sources :** live Wix (textes IP / responsabilité) + API entreprises / Pappers (SIREN, SIRET, siège) + inspiration UI Outremer (structure claire, pas de copie de thème).  
-**Hors périmètre :** pas de refonte Footer (chantier Fable) — le lien Mentions du Footer de `main` est conservé ; les autres pages légales se croisent entre elles + lien formulaire → confidentialité.
+**Note Footer :** Footer convergé **mergé** PR #6 — les pages légales se croisent entre elles + lien formulaire → confidentialité.

@@ -11,7 +11,7 @@ Changer un canonique → **propager partout dans la même PR**.
 | `SiteCta` | CTA public (`primary` \| `secondary`, flèche optionnelle, `tel:` OK) | Heroes, sticky, footer, bannières équipe, liens RDV |
 | `.btn-pill` / `.btn-pill-primary` / `.btn-pill-icon` | Styles CTA dans `site/src/app/globals.css` (mix X) | Utilisés via `SiteCta` ou classes directes si besoin ponctuel |
 
-`PostCard` = **déprécié** : thin wrapper → `AffaireCard`. Ne plus l’étendre.
+`PostCard` = **déprécié** : thin wrapper → `AffaireCard` (`site/src/components/PostCard.tsx`). Conservé pour compat ; **aucun import actif**. Ne plus l’étendre.
 
 ## Exceptions (documentées)
 
