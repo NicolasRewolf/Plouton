@@ -5,6 +5,12 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Header figé (décision)
+
+- Le menu du haut (Header) sur `main` est **validé et gelé** — on ne le refait plus « comme Wix »
+- Écarts volontaires notés dans `deviations.json` ; décision dans `docs/05-decisions.md`
+- Passation / état : Fable reprend la fidélité **sans toucher au Header** (Footer, boutons, FAQ…)
+
 ## 2026-07-18 — Passation vers Fable
 
 - Docs pilotes à jour (`14-etat`, `LIRE-MOI`, index, passation)

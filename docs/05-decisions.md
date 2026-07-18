@@ -141,3 +141,8 @@ Détail → `docs/12-seo-geo.md`.
 **Décision :** une seule liste officielle `contenu/reference/poles-registry.json` (menu, objets formulaire, heroes).  
 **Miroir client :** `site/src/data/poles-registry.json` (à resync si on édite).  
 **Conséquence :** ajouter / renommer une expertise = d’abord le registry, puis le JSON page.
+
+### Header figé (2026-07-18)
+**Décision :** le Header actuel sur `main` est **parfait et figé** — plus de reconvergence pixel vers Wix, pas d’écrasement par le chantier Fable.  
+**Pourquoi :** UX validée par Nicolas ; les écarts vs live sont des déviations assumées (`contenu/reference/deviations.json` → `header-frozen-main`).  
+**Conséquence :** Phase 4 fidélité reprend sur Footer / CTA / FAQ / cartes / etc., **sans toucher au Header**.

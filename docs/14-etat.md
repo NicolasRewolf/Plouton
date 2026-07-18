@@ -33,7 +33,7 @@ Audit santé : [`15-audit-sante.md`](15-audit-sante.md).
 - Formulaire RDV refait + **intake validé côté serveur**
 - Expertises : hero, TOC, corps mis en page, liens internes, **13/14 illustrations** (manque Divorce)
 - Accueil : photo équipe + section expertises (flèches)
-- Header méga-menu ; Nos affaires éditorial ; FAQ + carrousel
+- Header méga-menu (**frozen** 2026-07-18) ; Nos affaires éditorial ; FAQ + carrousel
 - **Registry pôles** + loader expertise + queries unifiées
 - **Perf** : index léger, cache, lazy below-fold
 - Script `check-expertises-live.py`
@@ -42,9 +42,9 @@ Audit santé : [`15-audit-sante.md`](15-audit-sante.md).
 ## 🔁 Chantier Fable « copie fidèle » (parallèle)
 
 - Phases **0–3** déjà dans l’historique `main` (vérité terrain, polices, Ricos, harvest)
-- Suite prévue : convergence Header/Footer puis templates (`docs/13-workflow-pixel-perfect.md`)
-- **Attention** : Header UX de la nuit vs Header « pixel » en WIP worktree — à réconcilier, pas écraser
-- `contenu/navigation.json` existe mais **n’est pas encore branché** sur le Header de `main` (qui utilise `poles-registry.json`)
+- Suite prévue : Phase 4 **sans Header** (Footer → CTA → FAQ → cartes…) puis templates (`docs/13-workflow-pixel-perfect.md`)
+- **Header frozen** (décision 2026-07-18) : Header de `main` = vérité produit ; écarts vs Wix = déviations (`header-frozen-main`) ; Fable ne le retouche pas
+- `contenu/navigation.json` = harvest brut ; le Header frozen reste sur `poles-registry.json`
 
 ## 🔧 Câblé, à finir de valider
 
@@ -53,10 +53,10 @@ Audit santé : [`15-audit-sante.md`](15-audit-sante.md).
 
 ## 🔜 Prochaines étapes (ordre suggéré)
 
-1. **Reconcile Header** (Fable + session soir) + baseline SEO propre
+1. Phase 4 fidélité **sans Header** (Footer / CTA / FAQ / PostCard…) + baseline SEO propre
 2. Illustration **Divorce** + polish si besoin
 3. Test formulaire → `demandes`
-4. Reprise boucle fidélité (expertise → hubs → article → blog → accueil)
+4. Suite boucle fidélité (expertise → hubs → article → blog → accueil)
 5. Backoffice **Demandes** + auth · PJ réelles · mail alerte
 6. Cutover domaine · Cooked · Nomad (jour J)
 

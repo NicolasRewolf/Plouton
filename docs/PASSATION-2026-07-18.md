@@ -14,7 +14,7 @@ et une session UX/archi/perf sur `main` avec Nicolas + Cursor. Lis tout avant de
 > - **Poussé** sur `claude/wix-nextjs-migration-strategy-a31825` : Phases **0–3** (captures, polices/tokens, harvest Ricos/FAQ/nav, renderer Ricos + template article).
 > - **Mergé dans `main`** via PR #4 (`306fd7e` et avant).
 > - **Dernier message** : Header/Footer en cours de convergence dans le **worktree** (non reviewé / non commité proprement) ; baseline SEO à **re-run** (mesures polluées par le hot-reload).
-> - Suite prévue chez toi : review Header → briques → template expertise → hubs → article → blog → accueil (`docs/13-workflow-pixel-perfect.md`).
+> - Suite prévue chez toi : **Phase 4 sans Header** → Footer → CTA/boutons → FAQ → cartes → bannières → puis templates (`docs/13-workflow-pixel-perfect.md`).
 >
 > ### Ce qu’on a fait **sans toi** sur `main` (après ton merge)
 > ~14 commits UX / archi / perf — **volontairement « améliorer en chemin »**, déjà consignés dans `contenu/reference/deviations.json` quand c’était un écart assumé.
@@ -32,15 +32,15 @@ et une session UX/archi/perf sur `main` avec Nicolas + Cursor. Lis tout avant de
 > HEAD `main` ≈ `0a9a106`. Remote à jour.
 >
 > ### ⚠️ Points de friction à gérer ensemble
-> 1. **Header** : tu allais le converger via `contenu/navigation.json` + boucle diff ; sur `main` il y a déjà un méga-menu « editorial ». À **reconciler** (pas écraser à l’aveugle) — soit brancher ton nav JSON dans le Header actuel, soit reprendre la convergence en déclarant nos écarts dans `deviations.json`.
+> 1. **Header = vérité produit, frozen** : le Header de `main` est **figé** (décision Nicolas 2026-07-18). Tu **ne le retouches pas**. Ses écarts vs live Wix = déviations assumées (`deviations.json` → `header-frozen-main`). Oublie le WIP Header du worktree. Reprendre Phase 4 sur **Footer / CTA / FAQ / PostCard / etc.**
 > 2. **Taxonomie** : `poles-registry.json` (menu / objets form / heroes) vs `navigation.json` (harvest). Une seule source de vérité à terme — proposition : registry = produit ; navigation.json = raw harvest.
-> 3. **Worktree** `claude/wix-nextjs-migration-strategy-a31825` : dirty, ne pas merger sans diff vs `main`.
+> 3. **Worktree** `claude/wix-nextjs-migration-strategy-a31825` : dirty, ne pas merger sans diff vs `main` (et **ne pas** re-merger un Header alternatif).
 > 4. Supabase « contenu » : **pas** lancé cette session ; table `demandes` déjà OK, test prod à faire.
 >
 > ### Docs
-> `docs/14-etat.md` · ce fichier · `JOURNAL.md` · `docs/13-workflow-pixel-perfect.md` · `AGENTS.md`.
+> `docs/14-etat.md` · ce fichier · `JOURNAL.md` · `docs/13-workflow-pixel-perfect.md` · `AGENTS.md` · `docs/05-decisions.md`.
 >
-> Objectif : **garder ta boucle de fidélité** + **ne pas perdre** les gains UX de la nuit. Nicolas tranche si conflit design.
+> Objectif : **garder ta boucle de fidélité** à partir des briques post-Header + **ne pas perdre** les gains UX de la nuit. Header = hors scope.
 
 ---
 
@@ -48,8 +48,8 @@ et une session UX/archi/perf sur `main` avec Nicolas + Cursor. Lis tout avant de
 
 | Rail | Branche / endroit | Statut |
 |------|-------------------|--------|
-| Fidélité Wix (Fable) | `claude/wix-nextjs-migration-strategy-a31825` + worktree | Phases 0–3 sur remote ; Phase 4 Header **WIP** worktree |
-| UX + archi + perf (session soir) | `main` | Mergé / poussé |
+| Fidélité Wix (Fable) | `claude/wix-nextjs-migration-strategy-a31825` + worktree | Phases 0–3 sur remote ; Phase 4 = **Footer+** (Header frozen sur `main`) |
+| UX + archi + perf (session soir) | `main` | Mergé / poussé ; Header = vérité produit |
 
 `main` est **en avance** de ~14 commits sur le tip Phase 3 de ta branche.
 
@@ -57,9 +57,9 @@ et une session UX/archi/perf sur `main` avec Nicolas + Cursor. Lis tout avant de
 
 - `contenu/reference/` — captures + specs + tokens
 - `contenu/ricos/` × 422
-- `contenu/navigation.json` (présent, **pas encore branché** dans le Header de `main`)
+- `contenu/navigation.json` (présent ; Header de `main` = **frozen**, branché sur `poles-registry.json` — ne pas forcer `navigation.json` dans le Header)
 - `contenu/reference/poles-registry.json` + `site/src/data/poles-registry.json`
-- `contenu/reference/deviations.json` — **élargi** cette nuit (form, hero, TOC, body, etc.)
+- `contenu/reference/deviations.json` — dont **`header-frozen-main`**
 - `scripts/visual/` — kit diff
 - Polices `site/public/fonts/wix/` + `theme.wix.css` / `fonts.wix.css`
 
@@ -73,8 +73,8 @@ python3 scripts/sync-poles-registry.py   # après edit registry
 
 ## Prochaines priorités (Nicolas décide)
 
-1. Reconcile Header (fidélité vs UX nuit) + re-run baseline propre  
+1. Reprise Phase 4 **sans Header** (Footer → CTA → FAQ → PostCard / cartes…) + baseline SEO propre  
 2. Illustration Divorce  
 3. Test formulaire → Supabase  
-4. Reprise boucle Phase 4–5 (expertise template…)  
+4. Suite boucle Phase 4–5 (expertise template…)  
 5. Backoffice Demandes / auth (plus tard)

@@ -10,13 +10,13 @@
     "skill": "better-ui (shadows, radius concentriques, scale press) + better-typography (text-wrap balance, measure, tracking labels)"
   },
   {
-    "id": "header-mega-menu-v2",
+    "id": "header-frozen-main",
     "page": "*",
     "anchor": "component:Header",
-    "property": "layout+interaction",
-    "live": "mega-menu Wix Studio (hover colonnes)",
-    "ours": "méga-menu éditorial : panneau, flèches animées, chips, drawer mobile, micro-interactions",
-    "reason": "Demande Nicolas 2026-07-18 : vrai méga-menu moderne / intuitif avec détails satisfaisants (better-ui).",
+    "property": "layout+sticky+drawer (méga-menu / sticky / drawer mobile)",
+    "live": "Header Wix Studio (mega-menu hover colonnes, sticky, mobile)",
+    "ours": "Header de main figé : méga-menu éditorial, sticky, drawer mobile, micro-interactions better-ui — vérité produit",
+    "reason": "Décision produit Nicolas 2026-07-18 : UX validée, Header freeze. Écarts vs Wix = déviations assumées. Pas de reconvergence pixel, pas d’écrasement par le chantier Fable.",
     "skill": "better-ui (interruptible transitions, chevron rotate, scale 0.96, contextual icon blur crossfade, layered shadows)"
   },
   {

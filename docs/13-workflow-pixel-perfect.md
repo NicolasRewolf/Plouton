@@ -58,6 +58,11 @@ puis templates : expertise (18 p.) → hubs de pôles → article (422 p.) →
 feed blog (18 p.) → accueil → one-offs. Détail : plan
 `~/.claude/plans/comme-tu-sais-mon-synthetic-crown.md`.
 
+> **Exception Plouton (décision 2026-07-18) :** le Header de `main` est **gelé**
+> (vérité produit, pas de reconvergence pixel). La boucle Phase 4 commence aux
+> briques suivantes : Footer → CTA/boutons → FAQ → cartes → bannières. Voir
+> `deviations.json` → `header-frozen-main` et `docs/05-decisions.md`.
+
 ## Captures locales
 
 `capture.mjs --target local` suppose `npm run dev` actif dans `site/` (port 3000).
