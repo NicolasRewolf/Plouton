@@ -9,10 +9,11 @@ Où vit quoi. Pour Nicolas + pour l’IA.
 - **Vercel** : projet `plouton` lié à GitHub, Root Directory `site/`, prod **au vert**
   (<https://plouton-rewolf-s-projects.vercel.app>, protégée par login + `noindex`).
   Forfait actuel = **Hobby** → passer en **Pro** avant le cutover (usage commercial).
-- **Supabase** : projet `Plouton` (ref `iofhcxwgqvorpmaexjwb`), table `demandes` créée
-  (RLS + index), buckets `pieces-jointes` / `medias`. Forfait actuel = **Free** →
+- **Supabase** : projet `Plouton` (ref `iofhcxwgqvorpmaexjwb`), tables `demandes` + `posts`
+  (RLS), buckets `pieces-jointes` / `medias`. Forfait actuel = **Free** →
   passer en **Pro** avant la prod réelle (pas de pause, backups, 100 Go fichiers).
-- Contenu public = encore **JSON dans `contenu/`** (pas de migration posts → Postgres pour l’instant).
+- Contenu **public** = encore **JSON dans `contenu/`** (dual-run C4) ; admin blog écrit dans `posts`.
+  Lecture publique DB = **C5**.
 - Vue complète : [`14-etat.md`](14-etat.md) · passation : [`PASSATION-2026-07-18.md`](PASSATION-2026-07-18.md).
 
 ---

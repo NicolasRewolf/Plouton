@@ -1,6 +1,6 @@
 # État d'avancement — Plouton
 
-_Mis à jour : 2026-07-18 (midi — canalisations C0–C3)_
+_Mis à jour : 2026-07-18 (après-midi — C4 MVP)_
 
 Vue unique de « où on en est ». À relire en premier, mettre à jour à chaque grande étape.
 Détail des livraisons dans [`../JOURNAL.md`](../JOURNAL.md).
@@ -23,11 +23,10 @@ Audit santé : [`15-audit-sante.md`](15-audit-sante.md).
 - **Site en production sur Vercel** — build au vert, pages générées.
   URL : <https://plouton-rewolf-s-projects.vercel.app>
   🔒 Protégé par **login Vercel + `noindex`** → invisible pour le public et Google.
-  C'est **voulu** tant que le vrai domaine n'est pas branché.
-- **Base Supabase** (projet `Plouton`) — table **`demandes`** + buckets + auth avocats (branche canalisations).
+- **Base Supabase** (projet `Plouton`) — tables **`demandes`** + **`posts`** (RLS) + buckets + auth.
 - **Clés Supabase** sur Vercel (Production + Preview).
 - **Déploiement auto** : push / merge `main` → redéploie.
-- **PR canalisations** : <https://github.com/NicolasRewolf/Plouton/pull/7> (C0–C3)
+- **PR #7** (C0–C3) mergée sur `main` · **C4** = branche `feat/canalisations-c4`
 
 ## ✅ Fait — contenu & site (socle)
 
@@ -35,43 +34,43 @@ Audit santé : [`15-audit-sante.md`](15-audit-sante.md).
 - **14 pages expertises** (3 pôles) + pages cabinet
 - `/blog` + catégories ; **161 redirections 301** ; médias rapatriés
 - Gabarit article `/post/{slug}` (Ricos) + SEO titres/metas live
-- Backoffice **blog** en POC (`/admin`) — Demandes = boîte réelle (C2)
+- Backoffice **blog** + **demandes** (`/admin`, auth)
 
-## ✅ Fait — canalisations C0–C3 (branche `claude/canalisations-c0`)
+## ✅ Fait — canalisations C0–C4
 
 | Phase | Statut | Quoi |
 |-------|--------|------|
-| **C0** | ✅ | Formulaire → `demandes` (env alignés) |
-| **C1** | ✅ | PJ multipart → bucket `pieces-jointes` |
-| **C2** | ✅ | Magic link + `/admin/demandes` (liste/détail/statut/notes/PJ) |
-| **C3a** | ✅ code | Resend → `accueil@…` (clé à poser sur Vercel) |
-| **C3b** | ✅ | Import CSV Wix **752** rows (statut `Archivé`, notes `Import Wix C3`) |
+| **C0** | ✅ | Formulaire → `demandes` |
+| **C1** | ✅ | PJ → bucket `pieces-jointes` |
+| **C2** | ✅ | Magic link + `/admin/demandes` |
+| **C3** | ✅ | Resend + import CSV Wix (~752 Archivé) |
+| **C4** | ✅ MVP | Table `posts` + seed **422** + `saveArticle` DB · dual-run public JSON |
 
-## ✅ Fait — session UX / archi sur `main`
+## 🔧 Dual-run C4 (important)
 
-- Formulaire RDV + intake serveur · expertises · Header **frozen** · pages légales · liens pointillés · CTA mix X
-- Registry pôles · perf · passation
+- **Site public** (`/post/...`, `/blog`) = encore **JSON git**
+- **Admin** = lit DB en priorité, **écrit** en DB (brouillon sans redeploy)
+- Bascule lecture publique = **C5**
 
 ## ⏸ Chantier « copie fidèle » — en pause
 
 - Phases **0–3** dans `main` (garder) · Phase 4–6 pixel : pause · Header frozen
 
-## 🔧 À brancher côté Nicolas (2 min)
+## 🔧 À brancher côté Nicolas
 
-1. **Supabase Auth → URL Configuration** : Site URL + Redirect URLs (Preview + `localhost:3000`)
-2. **Vercel** : `NEXT_PUBLIC_SITE_ORIGIN` (URL Preview/prod, sans slash final)
-3. **Resend** : créer clé → `RESEND_API_KEY` sur Vercel (+ optionnel `RESEND_FROM` une fois le domaine branché)
-4. **Merger la PR #7**
+1. **Supabase Auth → URL Configuration** (si pas déjà fait)
+2. **Resend** : `RESEND_API_KEY` sur Vercel
+3. Smoke test : login admin → éditer un article → vérifier statut en DB
+4. Merger la PR C4
 
-## 🔜 Suite canalisations
+## 🔜 Suite
 
-5. **C4** — Table `posts` + seed 422 slugs + écriture admin DB  
-6. **C5** — Publish live sans commit + covers Storage  
-7. Polish UI · Divorce · cutover
+1. **C5** — Publish live (status + cache/ISR) ; covers → `medias` ; `/post/{slug}` lit la DB
+2. Polish UI · Divorce · cutover
 
 ## 🙋 Ce qui dépend de Nicolas
 
-- Actions dashboard ci-dessus + merge PR
+- Merge PR C4 + smoke test admin
 - Illustration Divorce (si dispo)
 - Forfaits **Pro** Vercel + Supabase avant cutover
 - Feu vert Nomad / Cooked pour le jour J

@@ -7,13 +7,17 @@ Ce qui manque = des **modules pas encore construits** (surtout le backoffice Dem
 
 ---
 
-## Addendum 2026-07-18
+## Addendum 2026-07-18 (soir — C4)
+
+- **C0–C3** livrés (demandes, PJ, auth, mail, CSV) · **C4 MVP** : table `posts` + 422 seedés + écriture admin
+- Dual-run : public = JSON git ; admin = DB
+- Suite **C5** : `/post/{slug}` lit la DB + publish sans commit
+
+## Addendum 2026-07-18 (matin)
 
 - Architecture approfondie : `queries.ts`, `expertise-loader.ts`, `poles-registry.json`, `demande-intake.ts`
 - UX expertises / formulaire / home / header nettement plus aboutis
 - Perf listes (index articles) + lazy below-fold
-- **Inchangé :** pas de backoffice Demandes, pas d’auth admin, PJ = noms seulement, mail alerte non branché
-- **Ne pas** migrer tout le contenu JSON → Postgres en priorité (décision implicite session : Demandes d’abord)
 
 ---
 
@@ -47,12 +51,8 @@ Câblage correct, clés sur Production, table `demandes` présente.
 
 Par priorité :
 
-1. **Backoffice « Demandes » : n'existe pas** — c'est la pièce V1 la plus importante (voir les leads, pièces jointes, statuts).
-2. **Auth de l'admin : aucune** — l'URL `/admin` est ouverte à qui la connaît (juste `noindex`). À brancher sur Supabase Auth.
-3. **Édition d'articles en prod : bloquée** (volontairement « à venir » — nécessite la table `posts` + auth). Marche seulement en local.
-4. **Pièces jointes du formulaire : POC** — envoie le **nom** du fichier, pas le fichier ; le bucket `pieces-jointes` n'est pas encore utilisé par le code.
-5. **Email d'alerte nouvelle demande : non branché.**
-6. **Mineurs** : pas de tests automatisés ; pas d'anti-spam / limite de débit sur le formulaire ; 1 cover + 4 metas manquantes.
+1. **C5** — lecture publique des posts depuis la DB + publish live (ISR/cache) + covers Storage.
+2. **Mineurs** : pas de tests automatisés ; anti-spam formulaire ; 1 cover + 4 metas manquantes.
 
 ## À ne pas retoucher (sain) 🛡️
 
