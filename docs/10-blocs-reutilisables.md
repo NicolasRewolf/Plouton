@@ -10,7 +10,9 @@ Pas de copie-colle entre pages.
 | `PhoneCta` / `RdvCta` | tel fixe, lien honoraires | hero, sticky, footer |
 | `ExpertiseCard` | CMS Expertises | homepage, hubs |
 | `TeamGrid` | CMS Équipe | home, notre-cabinet |
-| `PostCard` | Blog | home, listings, related |
+| `PostCard` | Blog | **déprécié** → utiliser `AffaireCard` |
+| `AffaireCard` | Blog / affaires | listings, carrousels, posts similaires |
+| `SiteCta` / `.btn-pill` | CTA public | heroes, sticky, footer, bannières |
 | `BlogListing` | Blog + filtres | nos-affaires, catégories, médias, ressources |
 | `FaqAccordion` | FAQ unifiée filtrée | pages expertise (+ divorce) |
 | `FaqSubfilters` | sous-expertises distinctes | pages expertise riches |

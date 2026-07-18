@@ -25,7 +25,10 @@ export function formatAffaireDate(iso: string) {
   })
 }
 
-/** Card preview d’une affaire — grille Nos affaires + carrousels expertises. */
+/**
+ * Carte article canonique — blog, médias, ressources, nos-affaires,
+ * carrousels expertise, posts similaires. Pas d’autre carte article.
+ */
 export function AffaireCard({
   article,
   featured,

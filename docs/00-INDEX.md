@@ -10,6 +10,7 @@ Lis dans cet ordre selon le besoin.
 | [`14-etat.md`](14-etat.md) | 👉 **Où on en est** (état d'avancement) |
 | [`PASSATION-2026-07-18.md`](PASSATION-2026-07-18.md) | 👉 Reprise agent (session soir 18/07) |
 | [`15-audit-sante.md`](15-audit-sante.md) | Audit santé du site (archi, contenu, limites) |
+| [`16-composants-ui.md`](16-composants-ui.md) | 👉 **Composants UI canoniques** (cartes, CTA) |
 | [`../JOURNAL.md`](../JOURNAL.md) | Dernières livraisons |
 | [`05-decisions.md`](05-decisions.md) | Décisions figées |
 | [`06-ne-pas-perdre.md`](06-ne-pas-perdre.md) | Ce qu’il ne faut pas casser |

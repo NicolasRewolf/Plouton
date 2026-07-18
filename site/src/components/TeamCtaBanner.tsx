@@ -1,8 +1,8 @@
 import Image from "next/image"
-import Link from "next/link"
+import { SiteCta } from "@/components/SiteCta"
 import { getSite } from "@/lib/content"
 
-/** Pré-footer conversion du live : photo équipe + note Google + CTA rendez-vous */
+/** Pré-footer conversion : photo équipe + note Google + CTA rendez-vous */
 export function TeamCtaBanner() {
   const site = getSite()
   return (
@@ -41,15 +41,9 @@ export function TeamCtaBanner() {
             <br />
             Nos avocats vous écoutent et vous conseillent.
           </p>
-          <Link
-            href="/honoraires-rendez-vous"
-            className="mt-6 inline-flex items-center gap-3 border border-line bg-white px-5 py-3 text-sm text-ink transition-colors hover:border-navy"
-          >
+          <SiteCta href="/honoraires-rendez-vous" variant="primary" arrow className="mt-6">
             Prendre rendez-vous
-            <span aria-hidden className="flex size-5 items-center justify-center rounded-full border border-current text-xs">
-              →
-            </span>
-          </Link>
+          </SiteCta>
         </div>
       </div>
     </section>

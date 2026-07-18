@@ -4,6 +4,15 @@ On note ici les choix importants, pour ne pas les rejouer à chaque fois.
 
 ---
 
+## 2026-07-18 — Uniformité UI (cartes + CTA)
+
+**Décision :** une seule carte article (`AffaireCard`) et un seul style de CTA public (`SiteCta` / `.btn-pill`).  
+**Pourquoi :** éviter les boutons et cartes « au feeling » selon les pages. L’agent propage tout changement de composant canonique dans la même PR.  
+**Exceptions :** Header figé, admin, submit `ContactForm`, pastilles TOC.  
+**Doc :** `docs/16-composants-ui.md`.
+
+---
+
 ## 2026-07-16 — Un repo, deux apps (site + admin)
 
 **Décision :** `site/` pour les visiteurs, `admin/` pour le backoffice, dans le même repo.  

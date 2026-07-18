@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { notFound } from "next/navigation"
+import { AffaireCard } from "@/components/AffaireCard"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
 import { StickyCta } from "@/components/StickyCta"
@@ -298,36 +299,9 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
               </Link>
             </div>
             <div className="mt-4 grid gap-5 sm:grid-cols-2">
-              {related.map((a) => {
-                const rs = { views: a.viewCount, likes: 0, comments: 0 }
-                return (
-                  <article key={a.slug} className="border border-line bg-white">
-                    <Link href={`/post/${a.slug}`} className="block">
-                      <span className="block aspect-[16/9] w-full bg-fog">
-                        {a.coverImage ? (
-                          <Image
-                            src={a.coverImage}
-                            alt=""
-                            width={640}
-                            height={360}
-                            className="h-full w-full object-cover"
-                          />
-                        ) : null}
-                      </span>
-                      <span className="block px-5 pt-4 font-display text-[17px] leading-snug text-ink">
-                        {a.title.length > 62 ? `${a.title.slice(0, 62)}…` : a.title}
-                      </span>
-                    </Link>
-                    <div className="mt-4 flex items-center gap-4 border-t border-line px-5 py-3 text-xs text-ink/60">
-                      <span>👁 {rs.views}</span>
-                      <span>💬 {rs.comments}</span>
-                      <span className="ml-auto text-accent">
-                        {rs.likes > 0 ? `${rs.likes} ` : ""}♥
-                      </span>
-                    </div>
-                  </article>
-                )
-              })}
+              {related.map((a) => (
+                <AffaireCard key={a.slug} article={a} titleAs="h3" />
+              ))}
             </div>
           </section>
         ) : null}
