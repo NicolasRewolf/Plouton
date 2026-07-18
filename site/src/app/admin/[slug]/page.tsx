@@ -4,18 +4,18 @@ import Link from "next/link"
 import { useParams, useRouter } from "next/navigation"
 import { useEffect, useRef, useState, type FormEvent } from "react"
 import { AdminEditorLazy } from "@/components/admin/AdminEditorLazy"
-import type { Article } from "@/lib/content"
 import {
-  articleBodyToEditorJs,
-  type EditorJsDocument,
-} from "@/lib/editorjs"
+  articleToEditorHtml,
+  htmlToParagraphs,
+} from "@/lib/article-body"
+import type { Article } from "@/lib/content"
 
 export default function EditPostPage() {
   const { slug } = useParams<{ slug: string }>()
   const router = useRouter()
   const formRef = useRef<HTMLFormElement>(null)
   const [article, setArticle] = useState<Article | null>(null)
-  const [bodyDoc, setBodyDoc] = useState<EditorJsDocument | null>(null)
+  const [bodyHtml, setBodyHtml] = useState<string | null>(null)
   const [error, setError] = useState("")
   const [saving, setSaving] = useState(false)
 
@@ -28,12 +28,12 @@ export default function EditPostPage() {
           return
         }
         setArticle(data)
-        setBodyDoc(articleBodyToEditorJs(data.body))
+        setBodyHtml(articleToEditorHtml(data))
       })
   }, [slug])
 
   async function save(status: "draft" | "published") {
-    if (!article || !bodyDoc) return
+    if (!article || bodyHtml === null) return
     const form = formRef.current
     if (!form) return
     setSaving(true)
@@ -45,8 +45,8 @@ export default function EditPostPage() {
       excerpt: String(fd.get("excerpt")),
       author: String(fd.get("author")),
       status,
-      body: bodyDoc,
-      bodyHtml: undefined,
+      bodyHtml,
+      body: htmlToParagraphs(bodyHtml),
     }
     const res = await fetch("/api/posts", {
       method: "PUT",
@@ -67,7 +67,7 @@ export default function EditPostPage() {
     void save(article?.status === "published" ? "published" : "draft")
   }
 
-  if (!article || !bodyDoc)
+  if (!article || bodyHtml === null)
     return (
       <p className="px-6 py-16 text-center text-[14px] text-muted">Chargement…</p>
     )
@@ -113,7 +113,7 @@ export default function EditPostPage() {
               className="admin-input text-[16px] font-medium"
             />
           </label>
-          <AdminEditorLazy initialData={bodyDoc} onChange={setBodyDoc} />
+          <AdminEditorLazy initialHtml={bodyHtml} onChange={setBodyHtml} />
         </div>
 
         <aside className="space-y-4 lg:sticky lg:top-6 lg:self-start">

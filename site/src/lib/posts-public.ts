@@ -22,10 +22,12 @@ import {
   POSTS_CACHE_TAG,
 } from "@/lib/posts-db"
 import {
-  editorJsToPlainParagraphs,
   hasUsableArticleBody,
+  hasUsableHtml,
   isEditorJsDoc,
-} from "@/lib/editorjs"
+  htmlToParagraphs,
+  editorJsToHtml,
+} from "@/lib/article-body"
 
 export { POSTS_CACHE_TAG }
 
@@ -37,7 +39,7 @@ function bodySignature(article: Pick<Article, "body" | "bodyHtml">): string {
   const html = (article.bodyHtml || "").trim()
   let body = ""
   if (isEditorJsDoc(article.body))
-    body = editorJsToPlainParagraphs(article.body).join("\n\n")
+    body = htmlToParagraphs(editorJsToHtml(article.body)).join("\n\n")
   else if (Array.isArray(article.body))
     body = article.body.map((p) => p.trim()).join("\n\n")
   return `${html}\n---\n${body}`
@@ -51,7 +53,6 @@ export function preferDbBody(article: Article): boolean {
 }
 
 export type PostBodyMode =
-  | "editorjs"
   | "db-html"
   | "db-blocks"
   | "ricos"
@@ -62,17 +63,12 @@ export type PostBodyMode =
 export function resolvePostBodyMode(article: Article): PostBodyMode {
   const ricos = getRicos(article.slug)
   if (preferDbBody(article)) {
-    // Editor.js en premier : un save admin ne doit pas rester bloqué sur bodyHtml seed.
-    if (isEditorJsDoc(article.body) && hasUsableArticleBody(article.body))
-      return "editorjs"
-    if (article.bodyHtml?.trim()) return "db-html"
+    if (hasUsableHtml(article.bodyHtml)) return "db-html"
     if (Array.isArray(article.body) && hasUsableArticleBody(article.body))
       return "db-blocks"
   }
   if (ricos) return "ricos"
-  if (isEditorJsDoc(article.body) && hasUsableArticleBody(article.body))
-    return "editorjs"
-  if (article.bodyHtml?.trim()) return "html"
+  if (hasUsableHtml(article.bodyHtml)) return "html"
   return "blocks"
 }
 

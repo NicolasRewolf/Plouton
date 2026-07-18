@@ -181,8 +181,10 @@ Détail → `docs/12-seo-geo.md`.
 **Pourquoi :** « je publie → visible sans redeploy », sans ouvrir la table au monde via anon.  
 **Conséquence :** clé secrète obligatoire sur Vercel pour le live public ; build sans clé = JSON only.
 
-### Editor.js = éditeur blog admin (2026-07-18)
+### TipTap = éditeur blog admin (2026-07-18)
 
-**Décision :** backoffice blog rédigé avec **Editor.js** (`@editorjs/editorjs` + header / list / quote / delimiter / paragraph / link). Stockage `posts.body` jsonb = document `{ blocks, time?, version? }`. Rendu public = composant RSC `EditorJsBody` (mode `editorjs` dans `resolvePostBodyMode`). Les 422 non réédités restent en **Ricos**. Migration douce : à l’ouverture d’un `string[]`, conversion en blocs ; au save → doc Editor.js (et `bodyHtml` seed effacé pour ne pas masquer le nouveau corps). Images éditeur = **C5.1** (Storage).  
+**Décision :** backoffice blog rédigé avec **TipTap** (barre de formatage sticky façon Wix — gras, listes, titres, lien…). Stockage : HTML dans `posts.body_html` + paragraphes texte dans `posts.body` (signature / fallback). Rendu public = `bodyHtml` (mode `db-html`). Les 422 non réédités restent en **Ricos**. Editor.js a été retiré (mauvais fit UX). Images éditeur = **C5.1** (Storage).
+
+~~### Editor.js = éditeur blog admin (2026-07-18)~~ — **obsolète**, remplacé par TipTap le même jour.  
 **Pourquoi :** les textareas admin étaient inutilisables pour rédiger ; besoin titres / listes / citations sans HTML brut.  
 **Conséquence :** `Article.body` = `string[] | EditorJsDocument` ; pas de libs UI type Magic UI — shell admin Tailwind only (navy/fog).

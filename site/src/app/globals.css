@@ -454,49 +454,61 @@ a.link-inline:hover {
 .admin-btn-secondary:hover:not(:disabled) {
   background: var(--color-fog);
 }
-/* Editor.js — toolbar / toolbox doivent pouvoir déborder (pas d’overflow:hidden parent) */
-.admin-editor {
-  overflow: visible;
-}
-.admin-editor-holder {
-  overflow: visible;
-}
-.admin-editor .ce-block__content,
-.admin-editor .ce-toolbar__content {
-  max-width: min(100%, 680px);
-}
-.admin-editor .ce-paragraph,
-.admin-editor .ce-header {
+/* TipTap admin editor */
+.admin-editor .admin-tiptap-content {
   color: var(--color-navy);
-  line-height: 1.65;
 }
-.admin-editor .ce-header {
+.admin-editor .ProseMirror {
+  min-height: 360px;
+  outline: none;
+}
+.admin-editor .ProseMirror p.is-editor-empty:first-child::before {
+  color: var(--color-muted);
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+.admin-editor .ProseMirror h2 {
   font-family: var(--font-display);
+  font-size: 1.45rem;
   font-weight: 500;
   letter-spacing: -0.02em;
+  margin: 1.25rem 0 0.5rem;
 }
-.admin-editor .codex-editor__redactor {
-  padding-bottom: 3rem !important;
+.admin-editor .ProseMirror h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 1rem 0 0.4rem;
 }
-.admin-editor .ce-toolbar__plus,
-.admin-editor .ce-toolbar__settings-btn {
+.admin-editor .ProseMirror p {
+  margin: 0 0 0.85rem;
+  line-height: 1.7;
+}
+.admin-editor .ProseMirror ul {
+  list-style: disc;
+  margin: 0 0 0.85rem 1.25rem;
+}
+.admin-editor .ProseMirror ol {
+  list-style: decimal;
+  margin: 0 0 0.85rem 1.25rem;
+}
+.admin-editor .ProseMirror blockquote {
+  border-left: 3px solid var(--color-accent);
+  margin: 1rem 0;
+  padding-left: 1rem;
   color: var(--color-navy);
-  background: #fff;
-  border: 1px solid rgba(23, 71, 94, 0.12);
-  border-radius: 8px;
+  opacity: 0.9;
 }
-.admin-editor .ce-toolbar__plus:hover,
-.admin-editor .ce-toolbar__settings-btn:hover {
-  background: var(--color-fog);
+.admin-editor .ProseMirror hr {
+  border: 0;
+  border-top: 1px solid var(--color-line);
+  margin: 1.5rem 0;
 }
-.admin-editor .ce-popover,
-.admin-editor .ce-inline-toolbar,
-.admin-editor .ce-conversion-toolbar {
-  z-index: 50;
-  border-radius: 12px;
-  border: 1px solid rgba(23, 71, 94, 0.12);
-  box-shadow: 0 8px 28px rgba(23, 71, 94, 0.12);
-}
-.admin-editor .ce-popover-item:hover {
-  background: var(--color-fog) !important;
+.admin-editor .admin-editor-link,
+.admin-editor .ProseMirror a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }

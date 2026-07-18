@@ -3,7 +3,11 @@ import {
   getArticle,
   type Article,
 } from "@/lib/content"
-import { emptyEditorJsDoc, isEditorJsDoc } from "@/lib/editorjs"
+import {
+  hasUsableHtml,
+  htmlToParagraphs,
+  isEditorJsDoc,
+} from "@/lib/article-body"
 import { resolveAdminArticleList } from "@/lib/posts-public"
 import { revalidatePostSurfaces } from "@/lib/revalidate-posts"
 import { getStore, type ContentStore } from "@/lib/store"
@@ -11,7 +15,6 @@ import { supabaseServer } from "@/lib/supabase/server"
 
 export const runtime = "nodejs"
 
-/** Store avec lecture DB optionnelle (SupabaseStore). */
 interface StoreWithGet extends ContentStore {
   getArticleBySlug?(slug: string): Promise<Article | null>
 }
@@ -29,12 +32,20 @@ async function requireAdmin() {
   }
 }
 
-function normalizeIncomingBody(body: Article["body"] | undefined): Article["body"] {
-  if (isEditorJsDoc(body)) {
-    return body.blocks?.length ? body : emptyEditorJsDoc("Contenu à rédiger.")
+function normalizeIncoming(body: Partial<Article>): Pick<Article, "body" | "bodyHtml"> {
+  const html = (body.bodyHtml || "").trim()
+  if (hasUsableHtml(html) || html === "<p></p>") {
+    return {
+      bodyHtml: html || "<p></p>",
+      body: htmlToParagraphs(html || "<p></p>"),
+    }
   }
-  if (Array.isArray(body) && body.length) return body
-  return emptyEditorJsDoc("Contenu à rédiger.")
+  if (Array.isArray(body.body) && body.body.length)
+    return { body: body.body, bodyHtml: body.bodyHtml }
+  // Legacy Editor.js encore en DB
+  if (isEditorJsDoc(body.body))
+    return { body: body.body, bodyHtml: body.bodyHtml }
+  return { body: ["Contenu à rédiger."], bodyHtml: "<p></p>" }
 }
 
 export async function GET(req: Request) {
@@ -44,7 +55,6 @@ export async function GET(req: Request) {
   const { searchParams } = new URL(req.url)
   const slug = searchParams.get("slug")
   if (slug) {
-    // Dual-run : DB d'abord (brouillons / éditions admin), sinon JSON git.
     const store = getStore() as StoreWithGet
     if (store.getArticleBySlug) {
       const fromDb = await store.getArticleBySlug(slug)
@@ -54,7 +64,6 @@ export async function GET(req: Request) {
     if (!article) return NextResponse.json({ error: "introuvable" }, { status: 404 })
     return NextResponse.json(article)
   }
-  // Liste admin : DB (publiés + brouillons), fallback JSON
   return NextResponse.json(await resolveAdminArticleList())
 }
 
@@ -66,6 +75,7 @@ export async function POST(req: Request) {
   if (!body.slug || !body.title)
     return NextResponse.json({ error: "slug et title requis" }, { status: 400 })
 
+  const normalized = normalizeIncoming(body)
   const article: Article = {
     slug: body.slug.replace(/[^a-z0-9-àâäéèêëïîôùûüç]/gi, "-").toLowerCase(),
     title: body.title,
@@ -74,9 +84,8 @@ export async function POST(req: Request) {
     status: body.status === "published" ? "published" : "draft",
     author: body.author || "Cabinet Plouton",
     categories: body.categories || ["Ressources et notions juridiques"],
-    body: normalizeIncomingBody(body.body),
-    // Save Editor.js → on n’écrase pas le rendu avec un vieux bodyHtml seed
-    bodyHtml: isEditorJsDoc(body.body) ? undefined : body.bodyHtml,
+    body: normalized.body,
+    bodyHtml: normalized.bodyHtml,
     metaTitle: body.metaTitle,
     metaDescription: body.metaDescription,
     coverImage: body.coverImage,
@@ -105,10 +114,11 @@ export async function PUT(req: Request) {
 
   const body = (await req.json()) as Article
   if (!body.slug) return NextResponse.json({ error: "slug requis" }, { status: 400 })
+  const normalized = normalizeIncoming(body)
   const article: Article = {
     ...body,
-    body: normalizeIncomingBody(body.body),
-    bodyHtml: isEditorJsDoc(body.body) ? undefined : body.bodyHtml,
+    body: normalized.body,
+    bodyHtml: normalized.bodyHtml,
     updatedAt: body.updatedAt || new Date().toISOString().slice(0, 10),
   }
   try {
