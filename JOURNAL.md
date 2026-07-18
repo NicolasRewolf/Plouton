@@ -5,6 +5,12 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — TipTap (barre fixe façon Wix)
+
+- Editor.js retiré — remplacé par **TipTap**
+- Barre de formatage **fixe en haut** : paragraphe, gras, italique, listes, lien… (comme Wix)
+- Tests : Admin → Nouvel article → utiliser la barre → Publier
+
 ## 2026-07-18 — Fix Editor.js (toolbar visible)
 
 - L’éditeur coupait le bouton **+** et les menus (overflow) — corrigé

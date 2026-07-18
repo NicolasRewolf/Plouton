@@ -4,17 +4,14 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useRef, useState, type FormEvent } from "react"
 import { AdminEditorLazy } from "@/components/admin/AdminEditorLazy"
-import {
-  emptyEditorJsDoc,
-  type EditorJsDocument,
-} from "@/lib/editorjs"
+import { htmlToParagraphs } from "@/lib/article-body"
 
 export default function NewPostPage() {
   const router = useRouter()
   const formRef = useRef<HTMLFormElement>(null)
   const [error, setError] = useState("")
   const [saving, setSaving] = useState(false)
-  const [bodyDoc, setBodyDoc] = useState<EditorJsDocument>(() => emptyEditorJsDoc())
+  const [bodyHtml, setBodyHtml] = useState("<p></p>")
 
   async function save(status: "draft" | "published") {
     const form = formRef.current
@@ -40,7 +37,8 @@ export default function NewPostPage() {
         excerpt: fd.get("excerpt"),
         status,
         author: fd.get("author"),
-        body: bodyDoc,
+        bodyHtml,
+        body: htmlToParagraphs(bodyHtml),
       }),
     })
     setSaving(false)
@@ -88,7 +86,7 @@ export default function NewPostPage() {
               placeholder="Titre de l’article"
             />
           </label>
-          <AdminEditorLazy initialData={bodyDoc} onChange={setBodyDoc} />
+          <AdminEditorLazy initialHtml={bodyHtml} onChange={setBodyHtml} />
         </div>
 
         <aside className="space-y-4 lg:sticky lg:top-6 lg:self-start">

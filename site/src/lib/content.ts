@@ -1,7 +1,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { cache } from "react"
-import type { ArticleBody } from "@/lib/editorjs"
+import type { ArticleBody } from "@/lib/article-body"
 
 /** Racine des données. Surchargée via CONTENT_ROOT (déploiement, tests). */
 export const contentRoot = process.env.CONTENT_ROOT

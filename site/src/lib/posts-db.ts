@@ -9,10 +9,12 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js"
 import type { Article, ArticleIndexItem } from "@/lib/content"
 import {
-  emptyEditorJsDoc,
+  editorJsToHtml,
+  hasUsableHtml,
+  htmlToParagraphs,
   isEditorJsDoc,
   type ArticleBody,
-} from "@/lib/editorjs"
+} from "@/lib/article-body"
 
 /** Tag Next.js cache — invalidé au publish. */
 export const POSTS_CACHE_TAG = "posts"
@@ -82,21 +84,19 @@ export function articleToPostRow(article: Article) {
 }
 
 function normalizeBodyForDb(body: Article["body"] | undefined): ArticleBody {
-  if (isEditorJsDoc(body)) {
-    return body.blocks?.length ? body : emptyEditorJsDoc("Contenu à rédiger.")
-  }
   if (Array.isArray(body) && body.length) return body
+  if (isEditorJsDoc(body)) return htmlToParagraphs(editorJsToHtml(body))
   return ["Contenu à rédiger."]
 }
 
 function parseBodyFromDb(raw: unknown): ArticleBody {
-  if (isEditorJsDoc(raw)) return raw
   if (Array.isArray(raw)) return raw.map(String)
+  if (isEditorJsDoc(raw)) return htmlToParagraphs(editorJsToHtml(raw))
   if (typeof raw === "string") {
     try {
       const parsed = JSON.parse(raw) as unknown
-      if (isEditorJsDoc(parsed)) return parsed
       if (Array.isArray(parsed)) return parsed.map(String)
+      if (isEditorJsDoc(parsed)) return htmlToParagraphs(editorJsToHtml(parsed))
     } catch {
       /* plain string */
     }
@@ -106,7 +106,13 @@ function parseBodyFromDb(raw: unknown): ArticleBody {
 }
 
 export function postRowToArticle(row: PostRow): Article {
-  const body = parseBodyFromDb(row.body)
+  let body = parseBodyFromDb(row.body)
+  let bodyHtml = row.body_html || undefined
+  // Legacy Editor.js en jsonb → HTML TipTap
+  if (!hasUsableHtml(bodyHtml) && isEditorJsDoc(row.body)) {
+    bodyHtml = editorJsToHtml(row.body)
+    body = htmlToParagraphs(bodyHtml)
+  }
   return {
     slug: row.slug,
     title: row.title,
@@ -126,7 +132,7 @@ export function postRowToArticle(row: PostRow): Article {
     wixId: row.wix_id || undefined,
     metaTitle: row.meta_title || undefined,
     metaDescription: row.meta_description || undefined,
-    bodyHtml: row.body_html || undefined,
+    bodyHtml,
     body,
   }
 }

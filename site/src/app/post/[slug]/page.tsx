@@ -3,7 +3,6 @@ import Image from "next/image"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { AffaireCard } from "@/components/AffaireCard"
-import { EditorJsBody } from "@/components/EditorJsBody"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
 import { StickyCta } from "@/components/StickyCta"
@@ -14,7 +13,6 @@ import {
   getRicos,
   getSite,
 } from "@/lib/content"
-import { isEditorJsDoc } from "@/lib/editorjs"
 import {
   resolvePostBodyMode,
   resolvePublishedArticle,
@@ -192,10 +190,6 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
              * liens, couleurs, tableaux, listes, accordéons, embeds. */
             <div className="prose-plouton prose-blog mt-8">
               <RicosBody doc={ricos.ricos as RicosDoc} slug={article.slug} />
-            </div>
-          ) : bodyMode === "editorjs" && isEditorJsDoc(article.body) ? (
-            <div className="prose-plouton prose-blog mt-8">
-              <EditorJsBody doc={article.body} />
             </div>
           ) : bodyMode === "db-html" || bodyMode === "html" ? (
             <div
