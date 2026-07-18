@@ -15,23 +15,28 @@
   "toc": [
     {
       "id": "accidents-du-travail-et-maladies-professionnelles",
-      "label": "Accidents du travail et maladies professionnelles"
+      "label": "Accidents du travail et maladies professionnelles",
+      "shortLabel": "Accidents et maladies"
     },
     {
       "id": "notre-expertise-penale-au-service-des-droits-du-salarie",
-      "label": "Notre expertise pénale au service des droits du salarié."
+      "label": "Notre expertise pénale au service des droits du salarié.",
+      "shortLabel": "Expertise pénale"
     },
     {
       "id": "contentieux-lies-au-contrat-de-travail",
-      "label": "Contentieux liés au contrat de travail"
+      "label": "Contentieux liés au contrat de travail",
+      "shortLabel": "Contentieux contrat"
     },
     {
       "id": "harcelement-et-securite-au-travail",
-      "label": "Harcèlement et sécurité au travail"
+      "label": "Harcèlement et sécurité au travail",
+      "shortLabel": "Harcèlement & sécurité"
     },
     {
       "id": "contact",
-      "label": "Je prends rendez-vous"
+      "label": "Je prends rendez-vous",
+      "shortLabel": "Je prends rendez-vous"
     }
   ],
   "sections": [
@@ -51,14 +56,6 @@
         },
         {
           "heading": "",
-          "body": "Notre parfaite maîtrise de la matière pénale nous permet de nous distinguer de la plupart des cabinets intervenant en matière d’accidents du travail et de maladies professionnelles, vous garantissant ainsi une maîtrise complète et globale de votre dossier et de votre procédure d’indemnisation."
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
           "body": "La voie pénale est en effet la « voie royale », car elle permet non seulement de vous assurer que le responsable de l’accident, de votre maladie et de vos souffrances soit condamné à la hauteur de sa responsabilité réelle, mais facilite également la reconnaissance de la faute inexcusable de l’employeur. Cette faute inexcusable garantit une indemnisation complète des préjudices de la victime directe et de ceux de sa famille."
         },
         {
@@ -71,15 +68,7 @@
         },
         {
           "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
           "body": "En cas de reconnaissance de la faute inexcusable de l’employeur, vous pourrez bénéficier d’une majoration à son maximum (généralement le doublement) de la rente accident de travail ou de l’indemnité en capital qui vous sera versée à la suite de l’accident ou de la maladie professionnelle, outre l’indemnisation de postes de préjudice complémentaires qui ne sont pas couverts par la rente :"
-        },
-        {
-          "heading": "",
-          "body": "​"
         },
         {
           "heading": "L’intérêt de la voie pénale et les conséquences en cas de condamnation",
@@ -87,27 +76,11 @@
         },
         {
           "heading": "",
-          "body": "De nombreux accidents du travail ou maladies professionnelles trouvent leur cause dans un manquement volontaire ou involontaire par l’employeur à une obligation de prudence ou de sécurité prévue par la loi ou les règlements. Sa responsabilité pénale pourra alors être recherchée et notamment :"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
           "body": "Si l’employeur est condamné L’employeur condamné définitivement par le juge pénal sera considéré comme ayant nécessairement commis une faute inexcusable. Ainsi, contrairement à une procédure civile en reconnaissance de faute inexcusable, vous n’aurez pas à en rapporter la preuve. La condamnation pénale, à la condition d’être définitive, exclut par son autorité la nécessité de caractériser la conscience du danger auquel l’employeur a exposé son salarié. Celle-ci se déduit automatiquement de la reconnaissance, par le juge répressif, d’une faute pénale, même non intentionnelle. L’absence d’intention de causer le dommage n’exclut pas la conscience du risque de le générer. La victime directe et ses proches pourront alors solliciter leur indemnisation intégrale devant le pôle social du Tribunal Judiciaire territorialement compétent ou devant la CIVI si la faute est imputable à un tiers (en cas d’accident survenu sur un chantier, dans les locaux où le salarié était détaché ou en mission d’intérim notamment). En cas de décès de la victime, le juge pénal indemnisera directement ses proches (victimes indirectes) de leur préjudice d’affection. Ils pourront alors saisir le pôle social du Tribunal Judiciaire et/ou la CIVI si la faute est imputable à un tiers pour l’indemnisation de leurs autres postes de préjudice."
         },
         {
           "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
           "body": "Si l’employeur est relaxé Enfin, si l’employeur est relaxé par le juge pénal, cette décision ne vous privera pas du droit et de la possibilité de solliciter devant le pôle social du Tribunal Judiciaire la reconnaissance de sa faute inexcusable. Il vous faudra alors démontrer que l’employeur devait avoir conscience du danger auquel le salarié était exposé et qu’il n’a pas pris les mesures nécessaires pour l’en préserver, mais également établir le lien de causalité entre cette faute civile et le préjudice qui en est découlé."
-        },
-        {
-          "heading": "",
-          "body": "​"
         },
         {
           "heading": "",
@@ -131,19 +104,11 @@
         },
         {
           "heading": "",
-          "body": "Le droit du travail est au cœur des activités humaines de par sa dimension économique mais aussi sociale. Il n’est donc pas étonnant que les salles d’audience où se dénouent les contentieux et drames liés au droit du travail demeurent, des enceintes où, à l'instar du procès pénal, règne encore le principe de l’oralité des débats."
-        },
-        {
-          "heading": "",
           "body": "La plaidoirie de l'avocat revêt, dans cette matière, toute son importance, tant les considérations pratiques, matérielles et humaines sont au cœur de ces décisions de justice."
         },
         {
           "heading": "",
           "body": "Que vous soyez employeur ou salarié,notre cabinet d’avocats pénaliste vous accompagne et vous représente devant le conseil des prud’hommes, les chambres sociales des cours d’appel, les Tribunaux des Affaires de Sécurité Sociales et tribunaux correctionnels."
-        },
-        {
-          "heading": "",
-          "body": "​"
         },
         {
           "heading": "",
@@ -167,15 +132,7 @@
         },
         {
           "heading": "",
-          "body": "Que vous soyez employeur ou salarié, le cabinet vous représente ou vous assiste tout au long de la phase transactionnelle et/ou en matière judiciaire."
-        },
-        {
-          "heading": "",
           "body": "Nous intervenons ainsi devant les conseil de prud’hommes et les chambres sociales des cours d’appel dans les procédures suivantes :"
-        },
-        {
-          "heading": "",
-          "body": "​"
         },
         {
           "heading": "",
@@ -214,6 +171,28 @@
           "body": "2012 > 2025"
         }
       ]
+    }
+  ],
+  "inlineLinks": [
+    {
+      "text": "blessures involontaires",
+      "href": "/post/blessures-involontaires-responsabilité-pénale-des-personnes-morales"
+    },
+    {
+      "text": "ITT pénale",
+      "href": "/post/itt-pénale-définition-en-2025"
+    },
+    {
+      "text": "CIVI",
+      "href": "/post/indemnisation-civi-2025-guide-complet-pour-les-victimes-d-infractions"
+    },
+    {
+      "text": "abandon de poste",
+      "href": "/post/abandon-de-poste-quels-risques"
+    },
+    {
+      "text": "Notre expertise",
+      "href": "/indemnisation-des-victimes/droit-et-accidents-du-travail"
     }
   ]
 }

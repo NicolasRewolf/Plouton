@@ -28,5 +28,55 @@
     "ours": "bandeau avis Google + prix 1er RDV, parcours 3 étapes, modes cabinet/visio/tél avec icônes, urgence, dropzone, CTA + appel",
     "reason": "Demande Nicolas 2026-07-18 : le formulaire doit donner envie et être au moins aussi clair/complet que le live.",
     "skill": "better-ui + better-typography"
+  },
+  {
+    "id": "expertise-hero-asymmetric-v1",
+    "page": "expertises",
+    "anchor": "component:ExpertisePageView/hero",
+    "property": "layout",
+    "live": "titre + intro centrés / image slash au-dessus",
+    "ours": "hero asymétrique : marque + pôle + H1 + intro à gauche, photo slash + picto à droite",
+    "reason": "Demande Nicolas 2026-07-18 : trouver un rythme frais entre logo, H1, photo catégorie et sommaire.",
+    "skill": "better-ui + better-typography"
+  },
+  {
+    "id": "expertise-toc-short-blur-v2",
+    "page": "expertises",
+    "anchor": "component:ExpertiseToc",
+    "property": "ux",
+    "live": "ancres courtes sticky (sidebar / top)",
+    "ours": "pastilles courtes (shortLabel live), verre flou, état actif au scroll — sans barre rouge",
+    "reason": "Demande Nicolas 2026-07-18 : ancres trop longues / ombre chelou / barre rouge moche.",
+    "skill": "better-ui"
+  },
+  {
+    "id": "expertise-body-layouts-v1",
+    "page": "expertises",
+    "anchor": "component:ExpertiseBody",
+    "property": "layout",
+    "live": "listes numérotées, blocs éditoriaux Wix",
+    "ours": "autolayout : steps cards, timeline H3, case cards €, def grid — dédoublonnage scrape",
+    "reason": "Demande Nicolas 2026-07-18 : le corps expertise était du HTML vomi, 0 mise en page.",
+    "skill": "better-ui + better-typography"
+  },
+  {
+    "id": "expertise-faq-affaires-as-components",
+    "page": "expertises",
+    "anchor": "sections:faq+affaires",
+    "property": "content-source",
+    "live": "FAQ + affaires scrapées en HTML dans la page",
+    "ours": "composants FaqAccordion + AffairesCarousel (données contenu/faq + articles)",
+    "reason": "Évite les doublons ; le check live ignore volontairement ces H2.",
+    "skill": "économie de code"
+  },
+  {
+    "id": "trafic-live-path-singular",
+    "page": "trafic-de-stupefiants",
+    "anchor": "path vs livePath",
+    "property": "url",
+    "live": "/defense-penale/trafic-de-stupefiant (sans s)",
+    "ours": "/defense-penale/trafic-de-stupefiants (avec s) + livePath pour le check",
+    "reason": "URL Next déjà en plural ; Wix live en singulier. On ne casse pas nos liens internes.",
+    "skill": "—"
   }
 ]

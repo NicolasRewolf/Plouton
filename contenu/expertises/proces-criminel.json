@@ -15,27 +15,33 @@
   "toc": [
     {
       "id": "competences-acquises-localement-etendues-au-niveau-national",
-      "label": "Compétences acquises localement, étendues au niveau national."
+      "label": "Compétences acquises localement, étendues au niveau national.",
+      "shortLabel": "Compétences étendues"
     },
     {
       "id": "preparation-systematique-de-nos-clients-aux-specificites-d-un-proces-criminel",
-      "label": "Préparation systématique de nos clients aux spécificités d'un procès criminel"
+      "label": "Préparation systématique de nos clients aux spécificités d'un procès criminel",
+      "shortLabel": "Vous préparer au procés"
     },
     {
       "id": "maitrise-de-la-procedure-pendant-le-proces-criminel",
-      "label": "Maîtrise de la procédure pendant le procès criminel"
+      "label": "Maîtrise de la procédure pendant le procès criminel",
+      "shortLabel": "Maîtrise de la procédure"
     },
     {
       "id": "nous-maitrisons-les-specificites-d-un-proces-criminel",
-      "label": "Nous maîtrisons les spécificités d'un procès criminel"
+      "label": "Nous maîtrisons les spécificités d'un procès criminel",
+      "shortLabel": "Spécificité procés criminel"
     },
     {
       "id": "vous-etes-victimes-notre-cabinet-vous-accompagne-pour-faire-entendre-votre-voix-et-obtenir-l-indemnisation-de-vos-prejudices",
-      "label": "Vous êtes victimes ? Notre cabinet vous accompagne pour faire entendre votre voix et obtenir l'indemnisation de vos préjudices"
+      "label": "Vous êtes victimes ? Notre cabinet vous accompagne pour faire entendre votre voix et obtenir l'indemnisation de vos préjudices",
+      "shortLabel": "Vous êtes victimes ?"
     },
     {
       "id": "contact",
-      "label": "Je prends rendez-vous"
+      "label": "Je prends rendez-vous",
+      "shortLabel": "Je prends rendez-vous"
     }
   ],
   "sections": [
@@ -52,10 +58,6 @@
         {
           "heading": "",
           "body": "Et donc également devant :"
-        },
-        {
-          "heading": "",
-          "body": "​"
         }
       ]
     },
@@ -67,19 +69,11 @@
       "blocks": [
         {
           "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
           "body": "C’est la raison pour laquelle notre cabinet d’avocats met systématiquement en place des rendez-vous préparatoires pour ses clients afin de les aider à gérer au mieux les interrogatoires dont ils feront l'objet lors des débats."
         },
         {
           "heading": "",
           "body": "A cette occasion, nous procédons avec eux à l’étude de la liste des jurés, des témoins et experts et du plan d’audience qui sont des indicateurs essentiels sur le déroulé à venir du procès criminel."
-        },
-        {
-          "heading": "",
-          "body": "​"
         },
         {
           "heading": "",
@@ -92,12 +86,7 @@
       "title": "Maîtrise de la procédure pendant le procès criminel",
       "titleAccent": "Maîtrise",
       "lead": "L’intervention de l'avocat à l'occasion d'un procès criminel ne doit pas se limiter à \"une belle plaidoirie\" à l'issue des débats. La plaidoirie ne vient en effet que parachever le travail essentiel qui doit être mené, bien souvent dans l'adversité, pendant le déroulé du procès et parfois dès son ouverture. C'est pourquoi, si vous nous confiez votre défense, nous interviendrons tout au long des débats à l'occasion de questions posées aux témoins, experts, enquêteurs, à l’accusé, à la partie civile. Les avocats expérimentés du cabinet Plouton peuvent également :",
-      "blocks": [
-        {
-          "heading": "",
-          "body": "​"
-        }
-      ]
+      "blocks": []
     },
     {
       "id": "nous-maitrisons-les-specificites-d-un-proces-criminel",
@@ -115,23 +104,7 @@
         },
         {
           "heading": "",
-          "body": "Au sein des procès criminels, deux principes essentiels structurent l'ensemble de la procédure et garantissent une justice transparente et équitable. Dans notre cabinet, nous mettons un point d’honneur à défendre vos droits en nous appuyant sur ces fondements incontournables."
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
           "body": "La procédure devant la Cour d’assises se déploie en plusieurs étapes bien distinctes, requérant une maîtrise parfaite des techniques d’investigation et de défense. Forts de plus de 20 ans d’expérience, notre cabinet intervient à chaque phase afin de s'assurer que tous les éléments de votre dossier soient examinés de manière rigoureuse et contradictoire."
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
         },
         {
           "heading": "",
@@ -155,15 +128,7 @@
         },
         {
           "heading": "",
-          "body": "La victime et sa famille sont bien souvent les laissés-pour-compte de la procédure et tenues dans l’ignorance de l’avancement de l’enquête. C’est pourquoi nous régularisons, dans votre intérêt et dès que vous aurez saisi notre cabinet d'avocats, une constitution de partie civile par voie d’intervention auprès du juge d’instruction chargé de l’enquête."
-        },
-        {
-          "heading": "",
           "body": "Cela vous permettra :"
-        },
-        {
-          "heading": "",
-          "body": "​"
         },
         {
           "heading": "",
@@ -175,10 +140,6 @@
         },
         {
           "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
           "body": "Enfin, si une décision de culpabilité est prononcée, nous sollicitons, dans le cadre de l’audience civile, votre indemnisation ou une expertise médicale pour l’évaluation de vos préjudices. Il est également possible de saisir la CIVI (Commission d’Indemnisation des Victimes d’Infractions) en parallèle du procès pénal si l’accusé est insolvable."
         },
         {
@@ -186,6 +147,12 @@
           "body": "Pour de plus amples informations, nous vous invitons à parcourir notre page : Indemnisation victime d’infraction pénale"
         }
       ]
+    }
+  ],
+  "inlineLinks": [
+    {
+      "text": "Spécificité procés criminel",
+      "href": "/defense-penale/proces-criminel"
     }
   ]
 }

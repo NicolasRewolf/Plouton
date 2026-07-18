@@ -15,35 +15,43 @@
   "toc": [
     {
       "id": "vous-proteger-immediatement",
-      "label": "Vous protéger immédiatement"
+      "label": "Vous protéger immédiatement",
+      "shortLabel": "Vous protéger immédiatement"
     },
     {
       "id": "notre-expertise-aux-cotes-des-victimes",
-      "label": "Notre expertise aux côtés des victimes"
+      "label": "Notre expertise aux côtés des victimes",
+      "shortLabel": "20 ans d'expertise"
     },
     {
       "id": "face-a-l-inceste-et-les-violences-sexuelles-intra-familiales-un-engagement-fort-du-cabinet",
-      "label": "Face à l'inceste et les violences sexuelles intra-familiales : un engagement fort du cabinet"
+      "label": "Face à l'inceste et les violences sexuelles intra-familiales : un engagement fort du cabinet",
+      "shortLabel": "Inceste"
     },
     {
       "id": "vous-accompagner-dans-toutes-les-dimensions-de-la-procedure",
-      "label": "Vous accompagner dans toutes les dimensions de la procédure"
+      "label": "Vous accompagner dans toutes les dimensions de la procédure",
+      "shortLabel": "Accompagner famille et enfants"
     },
     {
       "id": "accompagner-les-familles-et-les-enfants-de-victimes",
-      "label": "Accompagner les familles et les enfants de victimes"
+      "label": "Accompagner les familles et les enfants de victimes",
+      "shortLabel": "Accompagnement procédure"
     },
     {
       "id": "vous-faire-obtenir-reparation-des-prejudices-subis",
-      "label": "Vous faire obtenir réparation des préjudices subis"
+      "label": "Vous faire obtenir réparation des préjudices subis",
+      "shortLabel": "Obtenir réparation préjudices"
     },
     {
       "id": "lapres-notre-approche-pluridisciplinaire-et-humaine",
-      "label": "L’après, notre approche pluridisciplinaire et humaine"
+      "label": "L’après, notre approche pluridisciplinaire et humaine",
+      "shortLabel": "L'après, vous reconstruire"
     },
     {
       "id": "contact",
-      "label": "Je prends rendez-vous"
+      "label": "Je prends rendez-vous",
+      "shortLabel": "Je prends rendez-vous"
     }
   ],
   "sections": [
@@ -56,14 +64,6 @@
         {
           "heading": "Obtenir une ordonnances de protection ou autres dispositifs de mise en sécurité immédiate",
           "body": "Le cabinet vous assiste dans l'obtention de mesures concrètes pour assurer votre sécurité et celle de vos enfants. Nous offrons des conseils juridiques et une représentation pour demander :\n\n​\n\n• L'ordonnance de protection : Le Juge aux affaires familiales peut interdire à l'auteur des violences de vous rencontrer, de vous contacter, de se rendre dans certains lieux, de détenir une arme et ordonner la remise de celles-ci aux autorités. Aussi, depuis peu, il existe L'Ordonnance Provisoire de Protection Immédiate (OPPI) : c'est une procédure d'extrême urgence. Le juge prend une décision en 24 heures, sans audience contradictoire au départ, pour vous protéger tout de suite. En savoir plus sur l'ordonnance de protection et son application .\n\n• Le Bracelet Anti-Rapprochement (BAR), un dispositif de surveillance pour garantir votre sécurité. En savoir plus sur le fonctionnement du BAR .\n\n• Le Téléphone Grave Danger (TGD). En savoir plus sur son fonctionnement .\n\n• Des mesures pénales : Le placement sous contrôle judiciaire de l'auteur avec interdiction de contact, une mesure d'éloignement dans le cadre d'un sursis probatoire, ou une interdiction de paraître sur un territoire déterminé."
-        },
-        {
-          "heading": "",
-          "body": "Le cabinet vous assiste dans l'obtention de mesures concrètes pour assurer votre sécurité et celle de vos enfants. Nous offrons des conseils juridiques et une représentation pour demander :"
-        },
-        {
-          "heading": "",
-          "body": "​"
         }
       ]
     },
@@ -78,24 +78,12 @@
           "body": "Notre cabinet met aujourd'hui ses compétences au service des victimes de violences conjugales et des familles de victimes de féminicide. Cette expertise s'appuie sur un parcours pénaliste de plus de vingt ans : Maître Julien Plouton, qui a débuté sa carrière dans la Défense, a également été amené à représenter des auteurs de crimes sur conjoint (coup mortel sur conjoint, meurtre ou assassinat sur conjoint). Cette connaissance intime des mécaniques criminelles renforce aujourd'hui sa capacité à conseiller et à obtenir justice pour celles et ceux que ces violences ont visés."
         },
         {
-          "heading": "",
-          "body": "Notre cabinet met aujourd'hui ses compétences au service des victimes de violences conjugales et des familles de victimes de féminicide. Cette expertise s'appuie sur un parcours pénaliste de plus de vingt ans : Maître Julien Plouton, qui a débuté sa carrière dans la Défense, a également été amené à représenter des auteurs de crimes sur conjoint (coup mortel sur conjoint, meurtre ou assassinat sur conjoint). Cette connaissance intime des mécaniques criminelles renforce aujourd'hui sa capacité à conseiller et à obtenir justice pour celles et ceux que ces violences ont visés."
-        },
-        {
           "heading": "Comprendre les mécaniques pour mieux défendre",
-          "body": "Dans le cadre de ces affaires, Maître Plouton a constaté que les auteurs présentent des profils psychologiques similaires. Souvent marqués par des traumatismes infantiles, ils développent une dépendance affective, une angoisse de l'abandon et des failles narcissiques qui les poussent à instaurer des mécanismes de contrôle et de domination. Cette mécanique est souvent qualifiée de contrôle coercitif, une forme de violence psychologique qu'il est essentiel de reconnaître pour agir . Cette compréhension de leur psychologie est aujourd'hui un atout majeur pour construire une défense solide pour les victimes."
-        },
-        {
-          "heading": "",
           "body": "Dans le cadre de ces affaires, Maître Plouton a constaté que les auteurs présentent des profils psychologiques similaires. Souvent marqués par des traumatismes infantiles, ils développent une dépendance affective, une angoisse de l'abandon et des failles narcissiques qui les poussent à instaurer des mécanismes de contrôle et de domination. Cette mécanique est souvent qualifiée de contrôle coercitif, une forme de violence psychologique qu'il est essentiel de reconnaître pour agir . Cette compréhension de leur psychologie est aujourd'hui un atout majeur pour construire une défense solide pour les victimes."
         },
         {
           "heading": "Dossiers emblématiques plaidés",
           "body": "L'engagement du cabinet se traduit par la défense dans des affaires complexes et médiatisées. Maître Plouton a notamment :\n\n• Défendu une femme accusée de coup mortel sur conjoint dans un contexte de violences subies, soulevant la question de la légitime défense dans un contexte de maricide .\n\n• Assuré la défense de la famille de Chahinez Daoud, victime du féminicide de Mérignac. (Revue de presse de l'affaire)\n\n• Assuré la défense de la famille de Nasrine Bensalem, victime du féminicide de Cenon.\n\n• Obtenu justice pour une femme victime de violences habituelles et injustement accusée par son ex-conjoint ."
-        },
-        {
-          "heading": "",
-          "body": "L'engagement du cabinet se traduit par la défense dans des affaires complexes et médiatisées. Maître Plouton a notamment :"
         }
       ]
     },
@@ -116,10 +104,6 @@
         {
           "heading": "Un engagement au-delà des prétoires",
           "body": "Sollicité pour son expertise, Maître Plouton a contribué en 2025 aux travaux préparatoires de la proposition de loi Billon sur l'imprescriptibilité des crimes sexuels sur mineurs , aux côtés de l'association Face à l'Inceste. Le cabinet intervient également dans la presse nationale — magazine ELLE , Sud-Ouest — pour faire entendre la voix des victimes."
-        },
-        {
-          "heading": "",
-          "body": "Sollicité pour son expertise, Maître Plouton a contribué en 2025 aux travaux préparatoires de la proposition de loi Billon sur l'imprescriptibilité des crimes sexuels sur mineurs , aux côtés de l'association Face à l'Inceste. Le cabinet intervient également dans la presse nationale — magazine ELLE , Sud-Ouest — pour faire entendre la voix des victimes."
         }
       ]
     },
@@ -134,24 +118,12 @@
           "body": "Notre cabinet intervient à vos côtés dans toutes les étapes de la procédure relevant du droit pénal. Nous travaillons en étroite collaboration avec les autorités judiciaires pour une prise en charge rapide de votre plainte :\n\n• Assistance lors du dépôt de plainte et des confrontations : Un avocat vous assiste pour vous protéger et renforcer votre dossier.\n\n• Représentation en procédure pénale : Nous vous représentons lors de la constitution de partie civile et pendant les audiences, en défendant rigoureusement vos intérêts."
         },
         {
-          "heading": "",
-          "body": "Notre cabinet intervient à vos côtés dans toutes les étapes de la procédure relevant du droit pénal. Nous travaillons en étroite collaboration avec les autorités judiciaires pour une prise en charge rapide de votre plainte :"
-        },
-        {
           "heading": "Droit de la famille",
           "body": "En parallèle de la procédure pénale, nous vous assistons dans les démarches en droit de la famille pour garantir une prise en charge globale :\n\n• Procédures de divorce ou de séparation.\n\n• Questions relatives à la garde des enfants et aux demandes de pensions alimentaires."
         },
         {
-          "heading": "",
-          "body": "En parallèle de la procédure pénale, nous vous assistons dans les démarches en droit de la famille pour garantir une prise en charge globale :"
-        },
-        {
           "heading": "Constitution de dossier, preuves et audience",
           "body": "Nous vous guidons tout au long de la procédure en vous expliquant vos droits et en vous aidant à rassembler tous les éléments essentiels pour constituer un dossier complet et convaincant :\n\n• Assistance dans la collecte des preuves : Nous vous aidons à obtenir et organiser les témoignages, rapports médicaux et constats de blessures.\n\n• Support personnalisé : Notre objectif est de vous fournir un accompagnement sur-mesure pour aborder sereinement chaque étape."
-        },
-        {
-          "heading": "",
-          "body": "Nous vous guidons tout au long de la procédure en vous expliquant vos droits et en vous aidant à rassembler tous les éléments essentiels pour constituer un dossier complet et convaincant :"
         }
       ]
     },
@@ -166,15 +138,7 @@
           "body": "Dans les affaires de féminicides, nous accompagnons les familles pour faire entendre leur voix. Nous veillons à défendre leurs intérêts devant le juge aux affaires familiales et le juge des enfants pour :\n\n• Obtenir la déchéance de l’autorité parentale de l’auteur des faits.\n\n• La constitution d’un conseil de famille qui pourra assurer le suivi, l’entretien et l’éducation des enfants mineurs."
         },
         {
-          "heading": "",
-          "body": "Dans les affaires de féminicides, nous accompagnons les familles pour faire entendre leur voix. Nous veillons à défendre leurs intérêts devant le juge aux affaires familiales et le juge des enfants pour :"
-        },
-        {
           "heading": "Les enfants comme victimes à part entière",
-          "body": "Les enfants des victimes de féminicides et de violences conjugales doivent absolument être considérés comme des victimes directes de ces faits. Nous attachons une attention particulière aux mesures d’accompagnement et de protection des enfants qui sont nécessairement impactés par les violences au sein du couple parental, car ces faits gravissimes peuvent avoir une influence délétère sur leur construction psychique et leur parcours de vie."
-        },
-        {
-          "heading": "",
           "body": "Les enfants des victimes de féminicides et de violences conjugales doivent absolument être considérés comme des victimes directes de ces faits. Nous attachons une attention particulière aux mesures d’accompagnement et de protection des enfants qui sont nécessairement impactés par les violences au sein du couple parental, car ces faits gravissimes peuvent avoir une influence délétère sur leur construction psychique et leur parcours de vie."
         }
       ]
@@ -194,15 +158,7 @@
           "body": "Le cabinet vous accompagne pour obtenir la réparation intégrale des préjudices subis :"
         },
         {
-          "heading": "",
-          "body": "​"
-        },
-        {
           "heading": "Que faire en cas d’auteur insolvable ?",
-          "body": "Le cabinet Plouton dispose d'une expertise approfondie des mécanismes d'indemnisation des victimes, y compris dans les cas où l'auteur des violences est insolvable. Pour un exposé détaillé, nous vous invitons à consulter notre page dédiée à l'indemnisation des victimes d'infraction pénale."
-        },
-        {
-          "heading": "",
           "body": "Le cabinet Plouton dispose d'une expertise approfondie des mécanismes d'indemnisation des victimes, y compris dans les cas où l'auteur des violences est insolvable. Pour un exposé détaillé, nous vous invitons à consulter notre page dédiée à l'indemnisation des victimes d'infraction pénale."
         }
       ]
@@ -218,26 +174,76 @@
           "body": "Le cabinet collabore avec des psychothérapeutes expérimentés pour offrir un soutien psychologique adapté, essentiel pour aider les victimes à se reconstruire après le traumatisme des violences."
         },
         {
-          "heading": "",
-          "body": "Le cabinet collabore avec des psychothérapeutes expérimentés pour offrir un soutien psychologique adapté, essentiel pour aider les victimes à se reconstruire après le traumatisme des violences."
-        },
-        {
           "heading": "Associations partenaires",
-          "body": "Nous travaillons en partenariat avec des associations de victimes de féminicide ou de lutte contre les violences faites aux femmes . Elles offrent un espace d'écoute, de partage, de soutien et peuvent accompagner les victimes dans leurs démarches."
-        },
-        {
-          "heading": "",
           "body": "Nous travaillons en partenariat avec des associations de victimes de féminicide ou de lutte contre les violences faites aux femmes . Elles offrent un espace d'écoute, de partage, de soutien et peuvent accompagner les victimes dans leurs démarches."
         },
         {
           "heading": "Justice restaurative et prévention de la récidive",
           "body": "Convaincus que la lutte ne peut se limiter à l'aspect juridique, nous pouvons mettre les victimes en relation avec des professionnels de la justice restaurative . Nous soutenons également le travail des centres de prise en charge des auteurs de violences conjugales ( CPCA ) qui visent à prévenir la récidive par un accompagnement complet des auteurs."
-        },
-        {
-          "heading": "",
-          "body": "Convaincus que la lutte ne peut se limiter à l'aspect juridique, nous pouvons mettre les victimes en relation avec des professionnels de la justice restaurative . Nous soutenons également le travail des centres de prise en charge des auteurs de violences conjugales ( CPCA ) qui visent à prévenir la récidive par un accompagnement complet des auteurs."
         }
       ]
+    }
+  ],
+  "inlineLinks": [
+    {
+      "text": "En savoir plus sur l'ordonnance de protection et son application",
+      "href": "/post/demander-une-ordonnance-de-protection-en-2025"
+    },
+    {
+      "text": "contrôle coercitif, une forme de violence psychologique qu'il est essentiel de reconnaître pour agir",
+      "href": "/post/contrôle-coercitif-reconnaître-agir"
+    },
+    {
+      "text": "légitime défense dans un contexte de maricide",
+      "href": "/post/défense-des-femmes-victimes-de-violences-conjugales-maricide-et-légitime-défense-une-affaire"
+    },
+    {
+      "text": "(Revue de presse de l'affaire)",
+      "href": "/post/revue-de-presse-affaire-chahinez-daoud-plouton"
+    },
+    {
+      "text": "Nasrine Bensalem, victime du féminicide de Cenon.",
+      "href": "/post/féminicide-de-nasrine-à-cenon"
+    },
+    {
+      "text": "femme victime de violences habituelles et injustement accusée par son ex-conjoint",
+      "href": "/post/justice-a-été-rendue-pour-une-femme-victime-de-violences-conjugales-habituelles-et-accusée-par-son-e"
+    },
+    {
+      "text": "CIVI",
+      "href": "/post/indemnisation-civi-2025-guide-complet-pour-les-victimes-d-infractions"
+    },
+    {
+      "text": "près de 130 000 euros d'indemnités pour deux jeunes victimes de viols incestueux",
+      "href": "/post/victimes-de-viol-incestueux-et-d-agression-sexuelle-le-cabinet-obtient-devant-la-civi-plus-de-130"
+    },
+    {
+      "text": "un père devant le Tribunal correctionnel d'Alès",
+      "href": "/post/agressions-sexuelles-incestueuses-sur-mineur-de-quinze-ans-le-cabinet-intervient"
+    },
+    {
+      "text": "un couple parental poursuivi pour non-dénonciation",
+      "href": "/post/accompagnement-défense-et-indemnisation-des-victimes-d-inceste"
+    },
+    {
+      "text": "magazine ELLE",
+      "href": "/post/intervention-de-maître-plouton-dans-l-enquête-elle-sur-l-inceste-le-cabinet-acteur-engagé-auprès"
+    },
+    {
+      "text": "Sud-Ouest",
+      "href": "/post/inceste-avocat-plouton-temoignage-conséquences"
+    },
+    {
+      "text": "droit de la famille",
+      "href": "/droit-des-contrats-et-des-personnes/droit-de-la-famille"
+    },
+    {
+      "text": "notre page dédiée à l'indemnisation des victimes d'infraction pénale.",
+      "href": "/indemnisation-des-victimes/victimes-de-delits-ou-crimes"
+    },
+    {
+      "text": "20 ans d'expertise",
+      "href": "/defense-penale/violences-conjugales-et-feminicides"
     }
   ]
 }

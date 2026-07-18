@@ -5,6 +5,20 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Home : section « À vos côtés » avec photo équipe
+
+- Sous le hero : photo de groupe à gauche, texte à droite (comme le site actuel)
+- Titre en deux couleurs (rouge + bleu) + citation en petit
+- Photo ajoutée dans `site/public/brand/equipe-home.webp`
+- À voir : http://localhost:3000/
+
+## 2026-07-18 — Maintenance globale expertises (check live)
+
+- Script `scripts/check-expertises-live.py` : snapshot MD de chaque page + contrôle titres / textes / liens
+- MD live → `contenu/sources/live-md/expertises/` · rapport → `contenu/reference/expertise-health-report.json`
+- Relance `--fix` : **0 erreur** sur 14 pages (junk nettoyé, liens rafraîchis)
+- Trafic : URL live en singulier (`livePath`) sans casser notre URL avec s
+
 ## 2026-07-18 — Page « Nos affaires » refaite (style éditorial)
 
 - Liste illisible remplacée par une **grande grille de cards** (image, catégorie, extrait, vues)
@@ -46,6 +60,29 @@ Pas de jargon. 5 lignes max par livraison.
 
 - Sections « Je prends rendez-vous maintenant » retirées (le vrai formulaire suffit)
 - Sommaire sticky sous le header : pastille active selon le scroll + barre rouge de progression
+
+## 2026-07-18 — Expertise hero + sommaire (v2)
+
+- Ancres **courtes** (comme le live : « Premiers réflexes », etc.)
+- Bandeau sommaire en **verre flou**, sans barre rouge ni ombre bizarre
+- Nouveau hero : pôle + H1 + intro à gauche, photo slash + picto à droite
+
+## 2026-07-18 — Corps expertise mis en page
+
+- Plus de mur H2/texte : **étapes numérotées**, **cartes exemples €**, **grille de définitions**
+- Nettoyage auto du scrape (doublons, numéros orphelins)
+- Sections en bandes alternées, plus large, rythme de lecture
+
+## 2026-07-18 — Liens internes expertise restaurés
+
+- Le scrape avait perdu les `<a>` → textes nus
+- Liens harvestés du live (`inlineLinks`) et réinjectés dans le corps (Badinter, ITT, pretium, articles…)
+
+## 2026-07-18 — Accidents de la route : textes nettoyés (MD live)
+
+- JSON reconstruit depuis l’export markdown du live (titres, leads, étapes)
+- Fini les « 1 / 2 / 3 » orphelins, doublons, accents cassés (« On constate »)
+- Liens internes (Badinter, ITT, pretium, affaires…) branchés dans le corps
 
 ## 2026-07-18 — Formulaire RDV v3 (envie + clarté)
 

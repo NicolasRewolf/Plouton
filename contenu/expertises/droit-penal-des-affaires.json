@@ -15,23 +15,28 @@
   "toc": [
     {
       "id": "une-expertise-dediee-pour-chaque-acteur-du-monde-des-affaires",
-      "label": "Une expertise dédiée pour chaque acteur du monde des affaires"
+      "label": "Une expertise dédiée pour chaque acteur du monde des affaires",
+      "shortLabel": "Notre expertise juridique par métiers"
     },
     {
       "id": "notre-intervention-en-amont-anticiper-et-maitriser-le-risque-penal-des-affaires",
-      "label": "Notre intervention en amont : anticiper et maîtriser le risque pénal des affaires"
+      "label": "Notre intervention en amont : anticiper et maîtriser le risque pénal des affaires",
+      "shortLabel": "Anticiper et préparer le dirigeant"
     },
     {
       "id": "reagir-a-l-urgence-notre-defense-des-la-mise-en-cause",
-      "label": "Réagir à l'urgence : notre défense dès la mise en cause"
+      "label": "Réagir à l'urgence : notre défense dès la mise en cause",
+      "shortLabel": "Réagir à l'urgence"
     },
     {
       "id": "exemples-en-penal-des-affaires-remportees-par-le-cabinet",
-      "label": "Exemples en pénal des affaires remportées par le cabinet"
+      "label": "Exemples en pénal des affaires remportées par le cabinet",
+      "shortLabel": "Exemples d'affaires remportées"
     },
     {
       "id": "contact",
-      "label": "Je prends rendez-vous"
+      "label": "Je prends rendez-vous",
+      "shortLabel": "Je prends rendez-vous"
     }
   ],
   "sections": [
@@ -46,32 +51,16 @@
           "body": "La responsabilité pénale des dirigeants sociaux peut être engagée à titre personnel pour les infractions qu'ils commettent directement, mais aussi pour des infractions spécifiques liées à leurs fonctions. Notre cabinet assure votre défense pénale financière, que ce soit pour contester des poursuites ou pour faire valoir vos droits en tant que victimes d'agissements internes . Nos domaines d'intervention incluent :\n\n• L'abus de biens sociaux (ABS) : Usage, de mauvaise foi, des biens de la société à des fins personnelles, contraire à l'intérêt social. (Art. L.241-3 & L.242-6 C. com. ; jusqu'à 5 ans d'emprisonnement et 375 000 € d'amende).\n\n• La fraude fiscale, le blanchiment ou la banqueroute : Soustraction frauduleuse à l'impôt (Art. 1741 C. gén. impôts ; jusqu'à 5 ans et 500 000 €) , justification mensongère de l'origine de fonds illicites (Art. 324-1 C. pénal ; jusqu'à 5 ans et 375 000 €) ou gestion frauduleuse menant à la cessation de paiements.\n\n• L'escroquerie ou l'abus de confiance : Tromperie pour obtenir un bien (Art. 313-1 C. pénal ; jusqu'à 5 ans et 375 000 €) ou détournement de fonds remis (Art. 314-1 C. pénal ; jusqu'à 5 ans et 375 000 €).\n\n• Les infractions au droit du travail : Travail dissimulé, harcèlement, ou accident du travail pouvant mener à des poursuites pour homicide ou blessures involontaires .\n\n• Les pratiques commerciales trompeuses et autres infractions au droit de la consommation."
         },
         {
-          "heading": "",
-          "body": "La responsabilité pénale des dirigeants sociaux peut être engagée à titre personnel pour les infractions qu'ils commettent directement, mais aussi pour des infractions spécifiques liées à leurs fonctions. Notre cabinet assure votre défense pénale financière, que ce soit pour contester des poursuites ou pour faire valoir vos droits en tant que victimes d'agissements internes . Nos domaines d'intervention incluent :"
-        },
-        {
           "heading": "Accompagnement des élus et des décideurs publics",
           "body": "Être élu ou dirigeant public implique des responsabilités pénales spécifiques. Conscients des enjeux juridiques et politiques de ces dossiers, nous vous assistons pour des mises en cause relatives à :\n\n• La prise illégale d’intérêts .\n\n• Le favoritisme dans l'attribution de marchés publics.\n\n• Le détournement de fonds publics.\n\n• La corruption ou le trafic d’influence (Art. 433-1 & 432-11 C. pénal ; jusqu'à 10 ans d'emprisonnement et 1 000 000 € d'amende)."
-        },
-        {
-          "heading": "",
-          "body": "Être élu ou dirigeant public implique des responsabilités pénales spécifiques. Conscients des enjeux juridiques et politiques de ces dossiers, nous vous assistons pour des mises en cause relatives à :"
         },
         {
           "heading": "Soutien des syndicalistes et des représentants du personnel",
           "body": "L'action syndicale peut parfois conduire à des mises en cause pénales. Nous défendons les représentants du personnel, notamment pour des faits de :\n\n• Délit d’entrave au fonctionnement du Comité Social et Économique (CSE)\n\n• Diffamation ou injure dans un contexte de conflit social\n\n• Violences lors de mouvements sociaux"
         },
         {
-          "heading": "",
-          "body": "L'action syndicale peut parfois conduire à des mises en cause pénales. Nous défendons les représentants du personnel, notamment pour des faits de :"
-        },
-        {
           "heading": "Protection des personnalités et des entreprises victimes",
           "body": "Votre réputation est un actif précieux. Dans un monde hyperconnecté, une accusation publique peut causer des dommages irréversibles. Notre action vise à protéger votre honneur et obtenir réparation en cas de :\n\n• Diffamation et injure publique\n\n• Atteinte à l'e-réputation et cyberharcèlement\n\n• Atteinte à la vie privée ou au droit à l'image"
-        },
-        {
-          "heading": "",
-          "body": "Votre réputation est un actif précieux. Dans un monde hyperconnecté, une accusation publique peut causer des dommages irréversibles. Notre action vise à protéger votre honneur et obtenir réparation en cas de :"
         }
       ]
     },
@@ -86,24 +75,12 @@
           "body": "Être bien défendu est essentiel. Ne pas être inquiété est encore mieux. Nous accompagnons les entreprises pour transformer le risque pénal en un avantage compétitif à travers des actions concrètes :\n\n• Audit et cartographie des risques pénaux : Nous réalisons un audit sur mesure de vos activités, processus et zones géographiques pour identifier précisément vos vulnérabilités et hiérarchiser les menaces.\n\n• Élaboration de programmes de conformité (Compliance ) : Sur la base de l'audit, nous concevons des dispositifs de prévention robustes, incluant des codes de conduite anti-corruption (loi Sapin II), des procédures d'alerte interne (whistleblowing) sécurisées et des contrôles internes efficaces.\n\n• Optimisation des délégations de pouvoirs : Nous rédigeons des délégations de pouvoirs précises et efficaces pour structurer les responsabilités et protéger le dirigeant.\n\n• Formation et simulation de crise : Nous formons vos dirigeants et cadres les plus exposés non seulement à la théorie, mais aussi à la pratique, via des mises en situation pour les préparer à réagir de manière adéquate en cas de perquisition ou de garde à vue."
         },
         {
-          "heading": "",
-          "body": "Être bien défendu est essentiel. Ne pas être inquiété est encore mieux. Nous accompagnons les entreprises pour transformer le risque pénal en un avantage compétitif à travers des actions concrètes :"
-        },
-        {
           "heading": "2. Clarifier les faits : le pilotage des enquêtes internes",
           "body": "Lorsqu'une suspicion de fraude ou de manquement éthique émerge, l'enquête interne est un outil de gouvernance essentiel. Nous la pilotons pour :\n\n• Établir les faits objectivement : Nous menons des investigations confidentielles et impartiales, à charge et à décharge, dans le respect des droits des salariés, pour comprendre la réalité d'une situation.\n\n• Permettre une prise de décision éclairée : Le rapport d'enquête vous donne les clés pour décider des suites à donner : sanctions disciplinaires, actions correctrices ou dépôt de plainte.\n\n• Préparer une coopération avec les autorités : Une enquête interne rigoureuse est souvent un prérequis pour négocier avec la justice et peut être un atout majeur pour obtenir une issue favorable comme une Convention Judiciaire d'Intérêt Public (CJIP)."
         },
         {
-          "heading": "",
-          "body": "Lorsqu'une suspicion de fraude ou de manquement éthique émerge, l'enquête interne est un outil de gouvernance essentiel. Nous la pilotons pour :"
-        },
-        {
           "heading": "3. Piloter la crise : une gestion juridique et médiatique intégrée",
           "body": "Une mise en cause pénale est une crise qui menace votre réputation et votre activité. Nous intégrons la cellule de crise pour :\n\n• Coordonner la stratégie globale : Nous travaillons en synergie avec la direction et les équipes de communication pour assurer une parfaite cohérence entre la défense judiciaire et la communication externe.\n\n• Maîtriser le message : Nous aidons à élaborer des éléments de langage qui protègent vos intérêts juridiques tout en rassurant vos parties prenantes. La première heure est décisive pour maîtriser l'impact médiatique.\n\n• Protéger votre e-réputation : Nous agissons contre la propagation d'informations fausses ou diffamatoires en ligne pour préserver votre image."
-        },
-        {
-          "heading": "",
-          "body": "Une mise en cause pénale est une crise qui menace votre réputation et votre activité. Nous intégrons la cellule de crise pour :"
         }
       ]
     },
@@ -130,6 +107,40 @@
           "body": "• Dossier : Travail dissimulé & vice de procédure Contexte : Un chef d'entreprise était poursuivi pour travail dissimulé sur la base d'un procès-verbal complexe. Stratégie du Cabinet : Notre analyse juridique a révélé une faille majeure dans l'acte d'accusation, rendant les poursuites irrégulières. Résultat : Le tribunal a suivi notre argumentation et a annulé la totalité de la procédure. En savoir plus...\n• Dossier : Blanchiment international Contexte : Notre client était mis en cause dans une affaire complexe de blanchiment à dimension internationale. Stratégie du Cabinet : Une défense rigoureuse a été élaborée, démontant les mécanismes de l'accusation. Résultat : Une décision favorable a été obtenue en appel, protégeant sa situation personnelle et professionnelle. Lire les détails...\n• Dossier : Accusation d'escroquerie Contexte : Un directeur d'agence bancaire était accusé d'escroquerie, mettant en péril sa carrière. Stratégie du Cabinet : La défense s'est concentrée sur la preuve de l'absence de toute manœuvre frauduleuse. Résultat : Le cabinet a obtenu une relaxe complète, lavant notre client de tout soupçon. Consulter l'affaire..."
         }
       ]
+    }
+  ],
+  "inlineLinks": [
+    {
+      "text": "le cabinet",
+      "href": "/notre-cabinet"
+    },
+    {
+      "text": "Notre expertise juridique par métiers",
+      "href": "/defense-penale/droit-penal-des-affaires"
+    },
+    {
+      "text": "contester des poursuites",
+      "href": "/post/défense-pénale-d-une-cheffe-d-entreprise-devant-la-cour-d-appel-de-bordeaux"
+    },
+    {
+      "text": "victimes d'agissements internes",
+      "href": "/post/abus-de-confiance-et-détournement-de-clientèle-par-un-salarié-la-société-victime-indemnisée-pour-p"
+    },
+    {
+      "text": "accident du travail",
+      "href": "/indemnisation-des-victimes/droit-et-accidents-du-travail"
+    },
+    {
+      "text": "blessures involontaires",
+      "href": "/post/blessures-involontaires-responsabilité-pénale-des-personnes-morales"
+    },
+    {
+      "text": "En savoir plus...",
+      "href": "/post/chef-d-entreprise-poursuivi-pour-travail-dissimulé-nullité-de-la-citation-à-comparaitre"
+    },
+    {
+      "text": "Anticiper et préparer le dirigeant",
+      "href": "/defense-penale/droit-penal-des-affaires"
     }
   ]
 }

@@ -15,27 +15,33 @@
   "toc": [
     {
       "id": "defendre",
-      "label": "Défendre vos intérêts"
+      "label": "Défendre vos intérêts",
+      "shortLabel": "Défendre vos intérêts"
     },
     {
       "id": "strategie",
-      "label": "Notre stratégie"
+      "label": "Notre stratégie",
+      "shortLabel": "Notre stratégie"
     },
     {
       "id": "complexes",
-      "label": "Spécialiste affaires complexes"
+      "label": "Spécialiste affaires complexes",
+      "shortLabel": "Spécialiste affaires complexes"
     },
     {
       "id": "equipe",
-      "label": "Une équipe expérimentée"
+      "label": "Une équipe expérimentée",
+      "shortLabel": "Une équipe expérimentée"
     },
     {
       "id": "methodes",
-      "label": "Méthodes clés"
+      "label": "Méthodes clés",
+      "shortLabel": "Méthodes clées"
     },
     {
       "id": "contact",
-      "label": "Je prends rendez-vous"
+      "label": "Je prends rendez-vous",
+      "shortLabel": "Je prends rendez-vous"
     }
   ],
   "contactAside": {
@@ -170,6 +176,32 @@
           "body": "Le droit pénal est en constante évolution. Le Cabinet Plouton assure une veille juridique permanente pour se tenir informé des dernières réformes législatives et de l'évolution de la jurisprudence. Cette veille permet d'anticiper les changements de la loi et d'adapter les stratégies de défense en conséquence, pour offrir à ses clients une défense efficace et à la pointe du droit."
         }
       ]
+    }
+  ],
+  "inlineLinks": [
+    {
+      "text": "garde à vue",
+      "href": "/post/la-garde-à-vue-définition-droits-et-conséquences"
+    },
+    {
+      "text": "lors d'une audition libre",
+      "href": "/post/garde-à-vue-ou-audition-libre-différences-essentielles-à-connaître"
+    },
+    {
+      "text": "assistance d'un avocat.",
+      "href": "/defense-penale/droit-penal"
+    },
+    {
+      "text": "assignation à résidence sous surveillance électronique",
+      "href": "/post/l-assignation-à-résidence-sous-surveillance-électronique-arse-comprendre"
+    },
+    {
+      "text": "devant la Cour d'assises",
+      "href": "/defense-penale/proces-criminel"
+    },
+    {
+      "text": "des gardes à vue ou des auditions.",
+      "href": "/post/garde-à-vue-ou-audition-libre-différences-essentielles-à-connaître"
     }
   ]
 }

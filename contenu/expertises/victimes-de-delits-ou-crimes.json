@@ -15,27 +15,33 @@
   "toc": [
     {
       "id": "evaluer-et-preparer-votre-dossier-d-indemnisation",
-      "label": "Évaluer et préparer votre dossier d'indemnisation"
+      "label": "Évaluer et préparer votre dossier d'indemnisation",
+      "shortLabel": "Évaluer le dossier"
     },
     {
       "id": "construire-une-indemnisation-complete-et-adaptee",
-      "label": "Construire une indemnisation complète et adaptée"
+      "label": "Construire une indemnisation complète et adaptée",
+      "shortLabel": "Construire l’indemnisation"
     },
     {
       "id": "elaboration-d-une-strategie-sur-mesure",
-      "label": "Élaboration d'une stratégie sur mesure"
+      "label": "Élaboration d'une stratégie sur mesure",
+      "shortLabel": "Stratégie sur mesure"
     },
     {
       "id": "assurer-un-accompagnement-complet-jusqu-a-la-reparation-finale",
-      "label": "Assurer un accompagnement complet jusqu'à la réparation finale"
+      "label": "Assurer un accompagnement complet jusqu'à la réparation finale",
+      "shortLabel": "Accompagnement complet"
     },
     {
       "id": "territoire-et-juridictions-dintervention",
-      "label": "Territoire et juridictions d’intervention"
+      "label": "Territoire et juridictions d’intervention",
+      "shortLabel": "Territoire d’intervention"
     },
     {
       "id": "contact",
-      "label": "Je prends rendez-vous"
+      "label": "Je prends rendez-vous",
+      "shortLabel": "Je prends rendez-vous"
     }
   ],
   "sections": [
@@ -50,15 +56,7 @@
           "body": "Dès le premier échange, en cabinet ou en visioconférence sécurisée, nous analysons votre affaire et votre dossier médical. Notre objectif est de déterminer la nature exacte de vos préjudices (corporels, psychologiques, financiers) et d'identifier rapidement les points à mettre en avant pour votre défense."
         },
         {
-          "heading": "",
-          "body": "Dès le premier échange, en cabinet ou en visioconférence sécurisée, nous analysons votre affaire et votre dossier médical. Notre objectif est de déterminer la nature exacte de vos préjudices (corporels, psychologiques, financiers) et d'identifier rapidement les points à mettre en avant pour votre défense."
-        },
-        {
           "heading": "L'identification des responsabilités et le chiffrage initial",
-          "body": "Nous étudions rigoureusement les circonstances de l'accident ou de l'infraction pénale : la faute, la négligence ou le manquement à une obligation de sécurité. Cette analyse approfondie nous permet d'évaluer la solidité de votre dossier et de chiffrer vos préjudices (pertes de revenus, frais de santé, souffrances endurées, etc.) dès le départ."
-        },
-        {
-          "heading": "",
           "body": "Nous étudions rigoureusement les circonstances de l'accident ou de l'infraction pénale : la faute, la négligence ou le manquement à une obligation de sécurité. Cette analyse approfondie nous permet d'évaluer la solidité de votre dossier et de chiffrer vos préjudices (pertes de revenus, frais de santé, souffrances endurées, etc.) dès le départ."
         },
         {
@@ -86,10 +84,6 @@
           "body": "Lorsque votre état de santé n'est pas consolidé ou que les conséquences financières sont immédiates (frais de soins, perte de revenus, etc.), nous sollicitons une provision (avance) sur l'indemnisation définitive. Cela vous permet de subvenir rapidement à vos besoins et à ceux de votre famille."
         },
         {
-          "heading": "",
-          "body": "Lorsque votre état de santé n'est pas consolidé ou que les conséquences financières sont immédiates (frais de soins, perte de revenus, etc.), nous sollicitons une provision (avance) sur l'indemnisation définitive. Cela vous permet de subvenir rapidement à vos besoins et à ceux de votre famille."
-        },
-        {
           "heading": "Exemples de reconnaissance de préjudice obtenus par le cabinet",
           "body": "Le cabinet Plouton a obtenu de nombreuses reconnaissances de préjudices spécifiques et techniques, notamment :\n\n• Préjudice d’angoisse de mort imminente : pour les victimes décédées.\n\n• Frais d’acquisition de logements et véhicules adaptés : pour les victimes tétraplégiques ou à mobilité réduite.\n\n• Frais d’assistance par une tierce personne : qu’il s’agisse de professionnels ou de proches aidants.\n\n• Préjudice d’affection : reconnu pour un enfant conçu mais non né au moment du décès de son parent.\n\n• Préjudices d’accompagnement et troubles dans les conditions d’existence : pour les proches des victimes, incluant leurs propres pertes économiques.\n\n• Pertes de gains professionnels actuels et futurs : en particulier pour les indépendants (chefs d’entreprise, artisans, commerçants, professions libérales)."
         },
@@ -102,15 +96,7 @@
           "body": "Nous faisons appel à un réseau de partenaires reconnus : médecins-conseils spécialisés en réparation du préjudice corporel, ergothérapeutes, psychologues ou experts-comptables. Leur évaluation précise de vos dommages (besoins en aide humaine, aménagement du logement, pertes professionnelles, etc.) renforce la crédibilité de votre dossier."
         },
         {
-          "heading": "",
-          "body": "Nous faisons appel à un réseau de partenaires reconnus : médecins-conseils spécialisés en réparation du préjudice corporel, ergothérapeutes, psychologues ou experts-comptables. Leur évaluation précise de vos dommages (besoins en aide humaine, aménagement du logement, pertes professionnelles, etc.) renforce la crédibilité de votre dossier."
-        },
-        {
           "heading": "Se constituer partie civile et solliciter des expertises complémentaires",
-          "body": "La constitution de partie civile peut être faite oralement ou par écrit, et vous n'êtes pas obligé de comparaître à l'audience. Vous pouvez vous faire représenter par notre cabinet. Dans le cadre d'une instruction ou d'un procès pénal, nous pouvons demander une expertise médicale complémentaire pour évaluer précisément vos préjudices. Notre cabinet vous assiste lors de ces opérations d'expertise."
-        },
-        {
-          "heading": "",
           "body": "La constitution de partie civile peut être faite oralement ou par écrit, et vous n'êtes pas obligé de comparaître à l'audience. Vous pouvez vous faire représenter par notre cabinet. Dans le cadre d'une instruction ou d'un procès pénal, nous pouvons demander une expertise médicale complémentaire pour évaluer précisément vos préjudices. Notre cabinet vous assiste lors de ces opérations d'expertise."
         }
       ]
@@ -140,10 +126,6 @@
         {
           "heading": "Maîtriser les négociations avec les compagnies d'assurance",
           "body": "Forts de notre expérience de plus de 20 ans et de notre connaissance des pratiques des assureurs, nous défendons fermement vos intérêts. La formation économique et financière de notre fondateur, Julien Plouton, (HEC, DESS en droit des affaires et fiscalité) nous permet d'analyser précisément les bilans et liasses fiscales pour justifier vos pertes de gains professionnels."
-        },
-        {
-          "heading": "",
-          "body": "Forts de notre expérience de plus de 20 ans et de notre connaissance des pratiques des assureurs, nous défendons fermement vos intérêts. La formation économique et financière de notre fondateur, Julien Plouton, (HEC, DESS en droit des affaires et fiscalité) nous permet d'analyser précisément les bilans et liasses fiscales pour justifier vos pertes de gains professionnels."
         }
       ]
     },
@@ -158,16 +140,8 @@
           "body": "Nous restons à votre écoute tout au long de la procédure. Si votre état de santé évolue ou s'aggrave, nous mettons à jour les pièces de votre dossier, sollicitons de nouvelles expertises et veillons à ce que l'ensemble de vos préjudices (physiques, psychologiques, économiques) soit pris en compte."
         },
         {
-          "heading": "",
-          "body": "Nous restons à votre écoute tout au long de la procédure. Si votre état de santé évolue ou s'aggrave, nous mettons à jour les pièces de votre dossier, sollicitons de nouvelles expertises et veillons à ce que l'ensemble de vos préjudices (physiques, psychologiques, économiques) soit pris en compte."
-        },
-        {
           "heading": "Un soutien humain, de la constitution du dossier à l'indemnisation intégrale",
           "body": "Au-delà des aspects juridiques et financiers, nous sommes conscients de l'impact émotionnel que représente un accident ou une infraction pénale. Nous privilégions un accompagnement individuel, empreint d'humanité et de disponibilité, pour vous permettre d'avancer sereinement vers la reconnaissance de votre statut de victime et l'obtention d'une indemnisation juste.\n\nLe cabinet s'engage à vous assister à chaque étape : constitution du dossier, opérations d'expertise, négociations, audience, jusqu'à l'obtention finale de vos droits."
-        },
-        {
-          "heading": "",
-          "body": "Au-delà des aspects juridiques et financiers, nous sommes conscients de l'impact émotionnel que représente un accident ou une infraction pénale. Nous privilégions un accompagnement individuel, empreint d'humanité et de disponibilité, pour vous permettre d'avancer sereinement vers la reconnaissance de votre statut de victime et l'obtention d'une indemnisation juste."
         },
         {
           "heading": "",
@@ -175,10 +149,6 @@
         },
         {
           "heading": "Une indemnisation intégrale de tous les préjudices, y compris familiaux",
-          "body": "Le cabinet accorde une attention particulière à vos proches et à vos ayants droit : décès ou invalidité d'un membre de la famille, conséquences financières (perte de revenus, frais d'obsèques), conséquences morales (deuil pathologique, préjudice d'affection, préjudice d'accompagnement). Nous veillons à ce que chaque poste de préjudice soit pleinement indemnisé."
-        },
-        {
-          "heading": "",
           "body": "Le cabinet accorde une attention particulière à vos proches et à vos ayants droit : décès ou invalidité d'un membre de la famille, conséquences financières (perte de revenus, frais d'obsèques), conséquences morales (deuil pathologique, préjudice d'affection, préjudice d'accompagnement). Nous veillons à ce que chaque poste de préjudice soit pleinement indemnisé."
         }
       ]
@@ -195,5 +165,6 @@
         }
       ]
     }
-  ]
+  ],
+  "inlineLinks": []
 }

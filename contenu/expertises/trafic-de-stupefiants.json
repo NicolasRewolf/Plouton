@@ -15,27 +15,33 @@
   "toc": [
     {
       "id": "garde-a-vue-pour-stupefiants-proteger-vos-droits-des-l-interpellation",
-      "label": "Garde à vue pour stupéfiants : protéger vos droits dès l'interpellation"
+      "label": "Garde à vue pour stupéfiants : protéger vos droits dès l'interpellation",
+      "shortLabel": "Garde à vue"
     },
     {
       "id": "vices-de-procedure-dans-les-affaires-de-stupefiants-nullites-et-contestations",
-      "label": "Vices de procédure dans les affaires de stupéfiants : Nullités et contestations"
+      "label": "Vices de procédure dans les affaires de stupéfiants : Nullités et contestations",
+      "shortLabel": "Vices de procédure"
     },
     {
       "id": "construire-une-defense-sur-mesure",
-      "label": "Construire une défense sur-mesure"
+      "label": "Construire une défense sur-mesure",
+      "shortLabel": "Défense sur-mesure"
     },
     {
       "id": "vous-accompagner-tout-au-long-de-la-procedure",
-      "label": "Vous accompagner tout au long de la procédure"
+      "label": "Vous accompagner tout au long de la procédure",
+      "shortLabel": "Tout au long de la procédure"
     },
     {
       "id": "pourquoi-choisir-le-cabinet-plouton",
-      "label": "Pourquoi choisir le cabinet Plouton ?"
+      "label": "Pourquoi choisir le cabinet Plouton ?",
+      "shortLabel": "Pourquoi le cabinet Plouton"
     },
     {
       "id": "contact",
-      "label": "Je prends rendez-vous"
+      "label": "Je prends rendez-vous",
+      "shortLabel": "Je prends rendez-vous"
     }
   ],
   "sections": [
@@ -51,31 +57,7 @@
         },
         {
           "heading": "",
-          "body": "La garde à vue est un moment critique où vos droits peuvent être facilement bafoués. Le cabinet Plouton intervient immédiatement pour vous conseiller et veiller à ce que vos droits soient respectés, et ce dès votre placement en garde à vue."
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
           "body": "Cette assistance prend plusieurs formes :"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
         },
         {
           "heading": "Soutien lors des interrogatoires et confrontations organisés par le juge d’instruction",
@@ -83,31 +65,7 @@
         },
         {
           "heading": "",
-          "body": "Le cabinet Plouton accorde une importance capitale à la préparation de ses clients aux interrogatoires et confrontations. Ces moments clés de la procédure pénale peuvent s'avérer périlleux, et une mauvaise gestion peut avoir des conséquences dramatiques sur l'issue de l'affaire."
-        },
-        {
-          "heading": "",
           "body": "Le cabinet s'engage à accompagner ses clients à chaque étape de ces moments cruciaux afin d'éviter les erreurs qui pourraient être exploitées par l'accusation."
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
         },
         {
           "heading": "",
@@ -115,15 +73,7 @@
         },
         {
           "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
           "body": "Outre cet accompagnement, le cabinet Plouton peut également intervenir pour :"
-        },
-        {
-          "heading": "",
-          "body": "​"
         }
       ]
     },
@@ -143,10 +93,6 @@
         },
         {
           "heading": "",
-          "body": "Le cabinet cherche à faire exclure des éléments clés du dossier, tels que des écoutes téléphoniques illégales, des perquisitions irrégulières, des surveillances ou géolocalisations non justifiées, un mandat d'arrêt européen ne respectant pas les critères posés par le code de procédure pénale. Pour ce faire, il scrute la légalité de chaque élément de preuve et identifie les vices de procédure susceptibles d'entraîner leur exclusion du dossier."
-        },
-        {
-          "heading": "",
           "body": "Le cabinet conteste les preuves présentées par l'accusation en remettant en cause leur origine, leur validité ou leur interprétation. Il s'attache à démontrer que les preuves sont insuffisantes, contradictoires ou qu'elles ont été obtenues illégalement."
         },
         {
@@ -156,10 +102,6 @@
         {
           "heading": "",
           "body": "Au-delà de ces exemples précis, le cabinet peut également s'appuyer sur d'autres stratégies pour contester les preuves et affaiblir les charges, en fonction des spécificités de chaque dossier :"
-        },
-        {
-          "heading": "",
-          "body": "​"
         }
       ]
     },
@@ -179,47 +121,11 @@
         },
         {
           "heading": "",
-          "body": "Chaque affaire de trafic de stupéfiants est unique et présente des enjeux spécifiques. Le cabinet Plouton prend le temps d'analyser en profondeur les faits, les preuves, et les charges retenues contre son client."
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
           "body": "Cette analyse minutieuse permet d'élaborer une stratégie de défense sur mesure, en tenant compte des points forts et des faiblesses du dossier."
         },
         {
           "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
           "body": "Le cabinet peut ainsi :"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
         },
         {
           "heading": "",
@@ -232,22 +138,6 @@
         {
           "heading": "",
           "body": "Le cabinet peut ainsi rédiger :"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
         },
         {
           "heading": "",
@@ -267,18 +157,6 @@
         },
         {
           "heading": "",
-          "body": "L'instruction est une phase cruciale de la procédure pénale en matière de trafic de stupéfiants. C'est à ce stade que le juge d'instruction est chargé d'enquêter sur les faits et de rassembler les preuves. Le cabinet Plouton intervient activement pendant cette phase pour défendre les intérêts de son client et veiller au respect de ses droits."
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
           "body": "L'objectif du cabinet est de minimiser l'impact de l'instruction sur la vie du client et de préparer au mieux le procès à venir."
         },
         {
@@ -286,36 +164,8 @@
           "body": "Une fois l'instruction terminée, le cabinet Plouton se consacre à la préparation du procès. Cette phase est tout aussi importante que l'instruction, car elle permet de définir la stratégie de défense et de se préparer aux arguments de l'accusation.\n\n​\n\n• Rendez-vous préparatoires : Le cabinet organise des rendez-vous avec son client pour discuter des différentes options de défense, des points forts et des faiblesses du dossier, et de la stratégie à adopter lors du procès. Ces rendez-vous sont essentiels pour établir une relation de confiance et de collaboration entre l'avocat et son client.\n\n• Définition de la ligne de défense : En collaboration avec son client, Maître Plouton définit la ligne de défense la plus adaptée aux circonstances de l'affaire et aux objectifs du client.\n\n• Recherche de preuves et de témoignage s : Le cabinet peut également être amené à rechercher des preuves ou des témoignages supplémentaires pour étayer la défense de son client."
         },
         {
-          "heading": "",
-          "body": "Une fois l'instruction terminée, le cabinet Plouton se consacre à la préparation du procès. Cette phase est tout aussi importante que l'instruction, car elle permet de définir la stratégie de défense et de se préparer aux arguments de l'accusation."
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
           "heading": "Défense en audience",
           "body": "Le procès est l'étape ultime de la procédure pénale. C'est le moment où l'accusation et la défense présentent leurs arguments devant le tribunal. Le cabinet Plouton met toute son expertise et sa détermination à défendre son client et à obtenir le meilleur résultat possible.\n\n​\n\n• Plaidoirie : Maître Plouton plaide avec conviction et éloquence pour convaincre le tribunal de l'innocence de son client ou de la faiblesse des charges retenues contre lui. Il s'appuie sur les éléments du dossier, les jurisprudences, et les témoignages pour démontrer que les accusations sont infondées ou que les preuves sont insuffisantes.\n\n​\n\n• Contestation des arguments de l'accusation : Le cabinet répond aux arguments de l'accusation et démonte point par point les éléments à charge et n'hésite pas à contester les qualifications pénales retenues et la durée de la prévention.\n\n​\n\n• Protection des droits du client : Le cabinet s'assure que les droits du client sont respectés tout au long du procès et que la procédure se déroule dans le respect des principes du droit.\n\n​\n\nMaître Plouton peut également intervenir en appel si la décision du tribunal n'est pas satisfaisante"
-        },
-        {
-          "heading": "",
-          "body": "Le procès est l'étape ultime de la procédure pénale. C'est le moment où l'accusation et la défense présentent leurs arguments devant le tribunal. Le cabinet Plouton met toute son expertise et sa détermination à défendre son client et à obtenir le meilleur résultat possible."
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
         },
         {
           "heading": "",
@@ -335,39 +185,11 @@
         },
         {
           "heading": "",
-          "body": "Maître Julien Plouton et son équipe possèdent une connaissance approfondie du droit pénal et une expertise pointue dans les affaires de trafic de stupéfiants. Le cabinet est familier des juridictions spécialisées, comme la JIRS de Bordeaux, qui traitent des affaires complexes de trafic de stupéfiants. Cette expérience solide permet au cabinet d'anticiper les stratégies de l'accusation et de construire une défense adaptée aux spécificités de chaque juridiction."
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
           "body": "Maître Plouton est intervenu dans certaines des affaires de trafic de stupéfiants les plus emblématiques de la région, démontrant ainsi sa capacité à gérer des dossiers complexes et à obtenir des résultats significatifs pour ses clients."
-        },
-        {
-          "heading": "",
-          "body": "​"
         },
         {
           "heading": "Un engagement total",
           "body": "Le cabinet Plouton s'engage à protéger les droits de ses clients et à leur offrir la meilleure défense possible. Cet engagement se traduit par une implication totale à chaque étape de la procédure :\n\n​\n\n• Analyse minutieuse de la procédure pénale : Le cabinet examine chaque détail de la procédure pour identifier des vices ou des nullités qui pourraient permettre de faire écarter des éléments à charge, tels que des écoutes téléphoniques, des surveillances policières ou des perquisitions.\n\n​\n\n• Accompagnement personnalisé : Le cabinet accompagne ses clients lors des interrogatoires, des audiences devant le juge d'instruction ou le juge des libertés et de la détention, et lors du procès.\n\n​\n\n• Défense déterminée : Les avocats du cabinet plaident avec détermination pour obtenir la décision la plus favorable possible, que ce soit en première instance ou en appel."
-        },
-        {
-          "heading": "",
-          "body": "Le cabinet Plouton s'engage à protéger les droits de ses clients et à leur offrir la meilleure défense possible. Cet engagement se traduit par une implication totale à chaque étape de la procédure :"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
         },
         {
           "heading": "Des résultats concrets",
@@ -375,21 +197,16 @@
         },
         {
           "heading": "",
-          "body": "Le cabinet Plouton s'attache à obtenir des résultats concrets pour ses clients, en s'appuyant sur sa maîtrise du droit, sa connaissance des procédures, et sa capacité à construire des stratégies de défense efficaces. Le cabinet a ainsi pu obtenir :"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
-          "body": "​"
-        },
-        {
-          "heading": "",
           "body": "Le cabinet Plouton est ainsi une référence en matière de défense pénale dans les affaires de trafic de stupéfiants à Bordeaux. Son expérience, son engagement et ses résultats concrets font de lui un partenaire de choix pour tout individu confronté à ce type d'accusations."
         }
       ]
     }
-  ]
+  ],
+  "inlineLinks": [
+    {
+      "text": "les affaires « Air Cocaïne »",
+      "href": "/post/dossier-air-cocaïne-à-la-jirs-de-bordeaux-le-cabinet-évite-le-retour-en-détention-à-son-client"
+    }
+  ],
+  "livePath": "/defense-penale/trafic-de-stupefiant"
 }

@@ -119,7 +119,9 @@ export interface ExpertisePage {
   formObjet: string
   faqExpertise: string
   blogCategories: string[]
-  toc: { id: string; label: string }[]
+  toc: { id: string; label: string; shortLabel?: string }[]
+  /** Liens internes harvestés du live (réinjectés dans le corps). */
+  inlineLinks?: { text: string; href: string }[]
   contactAside?: { title: string; text: string }
   sections: {
     id: string
@@ -306,7 +308,14 @@ export function getAccueil() {
       ctas: { label: string; href: string }[]
     }
     tickerLabel: string
-    intro: { heading: string; body: string; citation: string }
+    intro: {
+      image: string
+      imageAlt: string
+      heading: string
+      headingLines: { text: string; color: string }[]
+      body: string
+      citation: string
+    }
     expertiseIntro: { eyebrow: string; heading: string }
     poles: {
       label: string
