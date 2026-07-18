@@ -35,18 +35,19 @@ const PROP_GROUPS = {
 PROP_GROUPS.tokens = [...PROP_GROUPS.fonts, ...PROP_GROUPS.color];
 
 function parseArgs(argv) {
-  const a = { page: null, viewport: 'all', origin: null, only: 'all', skipCapture: false, pixel: true };
+  const a = { page: null, viewport: 'all', origin: null, only: 'all', skipCapture: false, pixel: true, zone: null };
   for (let i = 2; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === '--page') a.page = argv[++i];
     else if (arg === '--viewport') a.viewport = argv[++i];
     else if (arg === '--origin') a.origin = argv[++i];
     else if (arg === '--only') a.only = argv[++i];
+    else if (arg === '--zone') a.zone = argv[++i];
     else if (arg === '--skip-capture') a.skipCapture = true;
     else if (arg === '--no-pixel') a.pixel = false;
     else { console.error(`Argument inconnu : ${arg}`); process.exit(2); }
   }
-  if (!a.page) { console.error('Usage : --page <id> [--viewport id|all] [--origin URL] [--only fonts,color,layout|all] [--skip-capture] [--no-pixel]'); process.exit(2); }
+  if (!a.page) { console.error('Usage : --page <id> [--viewport id|all] [--origin URL] [--only fonts,color,layout|all] [--zone header|footer|main] [--skip-capture] [--no-pixel]'); process.exit(2); }
   return a;
 }
 
@@ -137,8 +138,12 @@ function comparePair(live, local, { tier, aliases, props }) {
   if (tier === 'block') {
     if (has('w')) {
       const d = Math.abs(live.w - local.w);
-      if (d > 8) out.push({ prop: 'w', live: live.w, local: local.w, sev: 'major', delta: d });
-      else if (d > 2) out.push({ prop: 'w', live: live.w, local: local.w, sev: 'minor', delta: d });
+      // Largeur de conteneur invisible : si hauteur ET x concordent (même
+      // nombre de lignes, même point d'ancrage du texte), l'écart de largeur
+      // d'un bloc texte aligné à gauche ne se voit pas → mineur.
+      const sameBox = Math.abs(live.h - local.h) <= 2 && Math.abs(live.x - local.x) <= 2;
+      if (d > 8) out.push({ prop: 'w', live: live.w, local: local.w, sev: sameBox ? 'info' : 'major', delta: d });
+      else if (d > 2 && !sameBox) out.push({ prop: 'w', live: live.w, local: local.w, sev: 'minor', delta: d });
     }
     if (has('h')) {
       const d = Math.abs(live.h - local.h);
@@ -160,14 +165,9 @@ function comparePair(live, local, { tier, aliases, props }) {
       const d = Math.abs((px(ls.borderRadius) || 0) - (px(cs.borderRadius) || 0));
       out.push({ prop: 'borderRadius', live: ls.borderRadius, local: cs.borderRadius, sev: d > 2 ? 'major' : 'minor', delta: d });
     }
-    for (const p of ['padding', 'margin']) {
-      if (!has(p)) continue;
-      if (ls[p] !== cs[p]) {
-        const la = (ls[p] || '').split(' ').map(px); const lb = (cs[p] || '').split(' ').map(px);
-        const d = Math.max(...la.map((v, i) => Math.abs((v || 0) - (lb[i] ?? lb[0] ?? 0))));
-        out.push({ prop: p, live: ls[p], local: cs[p], sev: 'minor', delta: isNum(d) ? d : null });
-      }
-    }
+    // margin/padding volontairement NON diffés : Wix positionne en absolu là où
+    // nous sommes en flux — le rythme vertical réel est déjà jugé par deltaY,
+    // la boîte par w/h/x. Les valeurs restent dans les specs pour le debug.
     if (has('boxShadow') && (ls.boxShadow === 'none') !== (cs.boxShadow === 'none'))
       out.push({ prop: 'boxShadow', live: ls.boxShadow, local: cs.boxShadow, sev: 'minor' });
   } else {
@@ -183,16 +183,37 @@ function comparePair(live, local, { tier, aliases, props }) {
 }
 
 // ---------------------------------------------------------------- déviations
+// Deux formats coexistent dans contenu/reference/deviations.json :
+//  - entrées "documentaires" (registre produit de la nuit du 18/07 : id, page,
+//    anchor, property, live, ours, reason, skill) — listées dans le rapport ;
+//  - champs machine optionnels sur ces mêmes entrées :
+//      zone: "header"|"footer"  → la zone entière est exclue du diff (gel produit)
+//      keyPattern + props       → soustraction fine par ancre (glob sur la clé)
 function loadDeviations() {
   const p = path.join(REPO_ROOT, 'contenu', 'reference', 'deviations.json');
   if (!fs.existsSync(p)) return [];
-  return (JSON.parse(fs.readFileSync(p, 'utf8')).deviations || []);
+  const raw = JSON.parse(fs.readFileSync(p, 'utf8'));
+  return Array.isArray(raw) ? raw : raw.deviations || [];
+}
+
+/** L'entrée s'applique-t-elle à cette page ? `page` est libre dans le registre
+ * ("*", "expertises", "honoraires-rendez-vous + expertises"…). */
+function devPageApplies(dev, pageId, template) {
+  const spec = (dev.page || '*').toLowerCase();
+  if (spec === '*') return true;
+  const tokens = spec.split(/[\s+,/]+/).filter(Boolean);
+  return tokens.some(
+    (t) => t === pageId || t === template || (t === 'expertises' && template === 'expertise')
+  );
 }
 function globToRe(g) {
   return new RegExp('^' + g.split('*').map((s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('.*') + '$');
 }
-function deviationCovers(dev, { pageId, vwId, key, prop }) {
-  if (dev.page !== '*' && dev.page !== pageId) return false;
+function deviationCovers(dev, { pageId, template, vwId, key, prop }) {
+  // Seules les entrées avec champs machine fins couvrent des ancres ; les
+  // entrées documentaires ou de zone ne doivent JAMAIS tout avaler.
+  if (dev.zone || (!dev.keyPattern && !dev.props)) return false;
+  if (!devPageApplies(dev, pageId, template)) return false;
   if (dev.viewport && dev.viewport !== '*' && dev.viewport !== vwId) return false;
   if (!globToRe(dev.keyPattern || '*').test(key)) return false;
   const props = dev.props || ['*'];
@@ -278,8 +299,44 @@ for (const vwId of vwIds) {
     }
   }
 
+  // ---- zones gelées (déviations produit) + focus --zone
+  const zoneDevs = deviations.filter((d) => d.zone && devPageApplies(d, pageDef.id, pageDef.template));
+  const excludedZones = new Map(zoneDevs.map((d) => [d.zone, d.id || d.reason || 'déviation']));
+  if (excludedZones.size && !liveSpec.blocks.some((b) => b.zone)) {
+    console.error(
+      `⚠ ${pageDef.id}@${vwId} : la référence live ne porte pas encore les zones — recapturer : node capture.mjs --target live --page ${pageDef.id} --viewport ${vwId}`
+    );
+  }
+  const zoneExcluded = { live: 0, local: 0 };
+  const keepEntry = (e, side) => {
+    const z = e.zone || 'main';
+    if (excludedZones.has(z)) { zoneExcluded[side]++; return false; }
+    if (args.zone && z !== args.zone) return false;
+    return true;
+  };
+  const filterSpec = (spec, side) => ({
+    ...spec,
+    blocks: spec.blocks.filter((e) => keepEntry(e, side)),
+    inlines: spec.inlines.filter((e) => keepEntry(e, side)),
+    images: spec.images.filter((e) => keepEntry(e, side)),
+  });
+  const fLive = filterSpec(liveSpec, 'live');
+  const fLocal = filterSpec(localSpec, 'local');
+  // Avec une zone gelée ou un focus --zone, toutes les mesures géométriques
+  // globales (hauteur, bornes des sections pixel) se font sur le CONTENU
+  // restant, pas sur la page entière.
+  const clampToContent = excludedZones.size > 0 || !!args.zone;
+  const contentBounds = (spec) => {
+    const flow = spec.blocks.filter((b) => !b.fixed);
+    if (!flow.length) return { top: 0, bottom: spec.meta.pageHeight };
+    return {
+      top: Math.max(0, Math.min(...flow.map((b) => b.y)) - 8),
+      bottom: Math.max(...flow.map((b) => b.y + b.h)) + 8,
+    };
+  };
+
   // ---- appariement des ancres
-  const ctx = { pageId: pageDef.id, vwId };
+  const ctx = { pageId: pageDef.id, template: pageDef.template, vwId };
   const mismatches = []; const assumed = []; const pairs = [];
   const unmatchedLive = []; const unmatchedLocal = new Map();
 
@@ -298,8 +355,8 @@ for (const vwId of vwIds) {
     });
   };
   for (const tier of ['blocks', 'inlines', 'images']) {
-    const liveIdx = indexByText(liveSpec[tier]);
-    const localIdx = indexByText(localSpec[tier]);
+    const liveIdx = indexByText(fLive[tier]);
+    const localIdx = indexByText(fLocal[tier]);
     const localByKey = new Map(localIdx.map((x) => [x.mkey, x]));
     const usedLocal = new Set();
     const tierPairs = [];
@@ -311,9 +368,9 @@ for (const vwId of vwIds) {
         usedLocal.add(cx);
         tierPairs.push([lx.e, cx.e]);
         if (tier !== 'images' && lx.e.role !== cx.e.role) {
-          const rec = { tier, key: lx.e.key, text: (lx.e.text || '').slice(0, 60), prop: 'role', live: lx.e.role, local: cx.e.role, sev: 'minor' };
-          const dev = deviations.find((x) => deviationCovers(x, { ...ctx, key: lx.e.key, prop: 'role' }));
-          if (dev) assumed.push({ ...rec, reason: dev.reason }); else mismatches.push(rec);
+          // Rôle divergent = info non-gatante : balisage sémantique local
+          // (li/a/h*) volontairement meilleur que la soupe de <p> Wix.
+          mismatches.push({ tier, key: lx.e.key, text: (lx.e.text || '').slice(0, 60), prop: 'role', live: lx.e.role, local: cx.e.role, sev: 'info' });
         }
       } else unmatchedLive.push({ tier, key: lx.e.key });
     }
@@ -381,6 +438,7 @@ for (const vwId of vwIds) {
   // ---- clustering par cause racine
   const majors = mismatches.filter((m) => m.sev === 'major');
   const minors = mismatches.filter((m) => m.sev === 'minor');
+  const infos = mismatches.filter((m) => m.sev === 'info');
   const clusters = new Map();
   for (const m of majors) {
     const sig = `${m.prop} | ${m.live} → ${m.local}`;
@@ -405,8 +463,16 @@ for (const vwId of vwIds) {
       livePng = res.png;
     }
     const localPng = fs.readFileSync(localPngPath);
-    const liveSections = buildSections(liveSpec);
-    const localSections = buildSections(localSpec);
+    const clampSections = (sections, spec) => {
+      if (!clampToContent || !sections.length) return sections;
+      const b = contentBounds(spec);
+      sections[0] = { ...sections[0], startY: Math.max(sections[0].startY, b.top) };
+      const last = sections.length - 1;
+      sections[last] = { ...sections[last], endY: Math.min(sections[last].endY, b.bottom) };
+      return sections;
+    };
+    const liveSections = clampSections(buildSections(fLive), fLive);
+    const localSections = clampSections(buildSections(fLocal), fLocal);
     const localById = new Map(localSections.map((s) => [s.id, s]));
     const outSecDir = path.join(reportDir(pageDef.id, vwId), 'sections');
     fs.mkdirSync(outSecDir, { recursive: true });
@@ -458,8 +524,13 @@ for (const vwId of vwIds) {
     }
   }
 
-  // ---- hauteur de page
-  const hLive = liveSpec.meta.pageHeight; const hLocal = localSpec.meta.pageHeight;
+  // ---- hauteur (de page, ou du contenu hors zones gelées)
+  const hLive = clampToContent
+    ? Math.round(contentBounds(fLive).bottom - contentBounds(fLive).top)
+    : liveSpec.meta.pageHeight;
+  const hLocal = clampToContent
+    ? Math.round(contentBounds(fLocal).bottom - contentBounds(fLocal).top)
+    : localSpec.meta.pageHeight;
   const heightDelta = (hLocal - hLive) / hLive;
 
   // ---- gates
@@ -480,10 +551,18 @@ for (const vwId of vwIds) {
     origins: { live: manifest.liveOrigin, local: localOrigin },
     pageHeight: { live: hLive, local: hLocal, delta: Math.round(heightDelta * 1000) / 10 },
     counts: {
-      majors: majors.length, minors: minors.length, assumed: assumed.length,
+      majors: majors.length, minors: minors.length, infos: infos.length, assumed: assumed.length,
       unmatchedLive: unmatchedLive.length, unmatchedLocal: unmatchedLocal.size,
     },
     gates, pass, clusters: clusterList, majors, minors, assumed,
+    zones: {
+      excluded: [...excludedZones.entries()].map(([zone, id]) => ({ zone, id })),
+      excludedAnchors: zoneExcluded,
+      focus: args.zone,
+    },
+    declaredDeviations: deviations
+      .filter((d) => !d.zone && !d.keyPattern && !d.props && devPageApplies(d, pageDef.id, pageDef.template))
+      .map((d) => d.id),
     unmatchedLocal: [...unmatchedLocal.values()],
     sections: sectionResults,
   };
@@ -492,7 +571,14 @@ for (const vwId of vwIds) {
   const md = [];
   md.push(`# spec-diff ${pageDef.id} @${vwId} — ${result.ranAt}`);
   md.push('');
-  md.push(`Hauteur page : live ${hLive}px vs local ${hLocal}px (Δ ${result.pageHeight.delta}%) ${gates.height ? '✓' : '✗'}`);
+  md.push(`Hauteur ${clampToContent ? 'du contenu (hors zones gelées)' : 'page'} : live ${hLive}px vs local ${hLocal}px (Δ ${result.pageHeight.delta}%) ${gates.height ? '✓' : '✗'}`);
+  if (excludedZones.size)
+    md.push(
+      `Zones gelées exclues : ${[...excludedZones.entries()].map(([z, id]) => `${z} (${id})`).join(', ')} — ${zoneExcluded.live} ancres live / ${zoneExcluded.local} locales hors diff`
+    );
+  if (args.zone) md.push(`Focus --zone ${args.zone} : seules les ancres de cette zone sont comparées`);
+  if (result.declaredDeviations.length)
+    md.push(`Déviations produit déclarées sur cette page (registre) : ${result.declaredDeviations.join(', ')}`);
   md.push(`Gates : majeurs=${majors.length} ${gates.majors ? '✓' : '✗'} | mineurs=${minors.length} ${gates.minors ? '✓' : '✗'} | pixel ${gates.pixel ? '✓' : '✗'} | **${pass ? 'PASS' : 'FAIL'}**`);
   md.push('');
   if (clusterList.length) {
@@ -512,6 +598,13 @@ for (const vwId of vwIds) {
     md.push(`## Mineurs (${minors.length})`);
     for (const m of minors.slice(0, 25))
       md.push(`- ${m.key} [${m.prop}] ${m.live} vs ${m.local}${m.delta != null ? ` (Δ${m.delta})` : ''}`);
+    md.push('');
+  }
+  if (infos.length) {
+    md.push(`## Infos non gatantes (${infos.length}) — sémantique locale volontaire`);
+    const byProp = {};
+    for (const i of infos) byProp[`${i.prop}:${i.live}→${i.local}`] = (byProp[`${i.prop}:${i.live}→${i.local}`] || 0) + 1;
+    for (const [k, n] of Object.entries(byProp)) md.push(`- [${n}×] ${k}`);
     md.push('');
   }
   if (unmatchedLive.length || unmatchedLocal.size) {

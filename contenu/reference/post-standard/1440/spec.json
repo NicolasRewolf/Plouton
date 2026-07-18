@@ -1,12 +1,12 @@
 {
  "meta": {
-  "url": "https://www.jplouton-avocat.fr/post/abandon-de-chantier-par-un-entrepreneur-indemnisation-de-plus-de-25-000-pour-le-client?cooked_aid=aezg2eecbhmrpih2oomkiwaq3sp3gmrpih2oo&cooked_sid=u7coigbjkmrpih2oo",
+  "url": "https://www.jplouton-avocat.fr/post/abandon-de-chantier-par-un-entrepreneur-indemnisation-de-plus-de-25-000-pour-le-client?cooked_aid=oqxnximkvmrq3t2i7jze0s3bpi3mrq3t2i7&cooked_sid=3l768lmxaf3mrq3t2i7",
   "pageHeight": 4528,
   "viewportW": 1440,
   "viewportH": 900,
   "textCoverage": 0.98,
-  "blockCount": 87,
-  "inlineCount": 44,
+  "blockCount": 74,
+  "inlineCount": 40,
   "imageCount": 7,
   "pageId": "post-standard",
   "path": "/post/abandon-de-chantier-par-un-entrepreneur-indemnisation-de-plus-de-25-000-pour-le-client",
@@ -14,12 +14,13 @@
   "viewportId": "1440",
   "target": "live",
   "origin": "https://www.jplouton-avocat.fr",
-  "capturedAt": "2026-07-17T22:30:19.964Z"
+  "capturedAt": "2026-07-18T08:27:31.533Z"
  },
  "blocks": [
   {
    "key": "b:p:DÉFENSE PÉNALE#1",
    "role": "p",
+   "zone": "header",
    "text": "DÉFENSE PÉNALE",
    "fullTextLen": 14,
    "x": 246.81,
@@ -56,6 +57,7 @@
   {
    "key": "b:p:INDEMNISATION DES VICTIMES#1",
    "role": "p",
+   "zone": "header",
    "text": "INDEMNISATION DES VICTIMES",
    "fullTextLen": 26,
    "x": 367.92,
@@ -92,6 +94,7 @@
   {
    "key": "b:p:DROIT DES CONTRATS ET DES PERSONNES#1",
    "role": "p",
+   "zone": "header",
    "text": "DROIT DES CONTRATS ET DES PERSONNES",
    "fullTextLen": 35,
    "x": 555.38,
@@ -128,6 +131,7 @@
   {
    "key": "b:p:Affaires#1",
    "role": "p",
+   "zone": "header",
    "text": "Affaires",
    "fullTextLen": 8,
    "x": 849.94,
@@ -164,6 +168,7 @@
   {
    "key": "b:p:Médias#1",
    "role": "p",
+   "zone": "header",
    "text": "Médias",
    "fullTextLen": 6,
    "x": 922.64,
@@ -200,6 +205,7 @@
   {
    "key": "b:p:Ressources#1",
    "role": "p",
+   "zone": "header",
    "text": "Ressources",
    "fullTextLen": 10,
    "x": 986.44,
@@ -236,6 +242,7 @@
   {
    "key": "b:p:Équipe#1",
    "role": "p",
+   "zone": "header",
    "text": "Équipe",
    "fullTextLen": 6,
    "x": 1079.86,
@@ -272,6 +279,7 @@
   {
    "key": "b:p:Search#1",
    "role": "p",
+   "zone": "header",
    "text": "Search",
    "fullTextLen": 6,
    "x": 1231.06,
@@ -308,6 +316,7 @@
   {
    "key": "b:p:Contact & RDV#1",
    "role": "p",
+   "zone": "header",
    "text": "Contact & RDV",
    "fullTextLen": 13,
    "x": 1322.52,
@@ -344,6 +353,7 @@
   {
    "key": "b:h1:Abandon de chantier : 26 200 € obtenus pour le client#1",
    "role": "h1",
+   "zone": "main",
    "text": "Abandon de chantier : 26 200 € obtenus pour le client",
    "fullTextLen": 53,
    "x": 350,
@@ -380,6 +390,7 @@
   {
    "key": "b:p:Julien Plouton - Avocat à la Cour#1",
    "role": "p",
+   "zone": "main",
    "text": "Julien Plouton - Avocat à la Cour",
    "fullTextLen": 33,
    "x": 394,
@@ -416,6 +427,7 @@
   {
    "key": "b:li:14 mai 2020#1",
    "role": "li",
+   "zone": "main",
    "text": "14 mai 2020",
    "fullTextLen": 11,
    "x": 582.73,
@@ -452,6 +464,7 @@
   {
    "key": "b:li:2 min de lecture#1",
    "role": "li",
+   "zone": "main",
    "text": "2 min de lecture",
    "fullTextLen": 16,
    "x": 667.7,
@@ -488,6 +501,7 @@
   {
    "key": "b:p:Dernière mise à jour : 3 avr. 2025#1",
    "role": "p",
+   "zone": "main",
    "text": "Dernière mise à jour : 3 avr. 2025",
    "fullTextLen": 34,
    "x": 350,
@@ -522,10 +536,11 @@
    }
   },
   {
-   "key": "b:p:Noté 0 étoile sur 5.#1",
+   "key": "b:p:Noté NaN étoiles sur 5.#1",
    "role": "p",
-   "text": "Noté 0 étoile sur 5.",
-   "fullTextLen": 20,
+   "zone": "main",
+   "text": "Noté NaN étoiles sur 5.",
+   "fullTextLen": 23,
    "x": 406,
    "y": 376.19,
    "w": 1,
@@ -558,44 +573,9 @@
    }
   },
   {
-   "key": "b:p:Pas encore de note#1",
-   "role": "p",
-   "text": "Pas encore de note",
-   "fullTextLen": 18,
-   "x": 476,
-   "y": 379.19,
-   "w": 109.8,
-   "h": 14,
-   "fixed": false,
-   "deltaY": 3,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "14px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "14px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "textAlign": "center",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "padding": "0px",
-    "margin": "0px 0px 0px 12px",
-    "borderRadius": "0px",
-    "borderWidth": "0px 0px 0px 0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "boxShadow": "none",
-    "display": "block",
-    "flexDirection": "row",
-    "gap": "normal",
-    "maxWidth": "none",
-    "position": "static",
-    "textDecorationLine": "none"
-   }
-  },
-  {
    "key": "b:p:Décision du Tribunal judiciaire de Libourne du 14 mai 2020, N° RG 19/00782#1",
    "role": "p",
+   "zone": "main",
    "text": "Décision du Tribunal judiciaire de Libourne du 14 mai 2020, N° RG 19/00782",
    "fullTextLen": 74,
    "x": 350,
@@ -603,7 +583,7 @@
    "w": 740,
    "h": 22.41,
    "fixed": false,
-   "deltaY": 36,
+   "deltaY": 39,
    "style": {
     "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
     "fontSize": "14px",
@@ -632,6 +612,7 @@
   {
    "key": "b:p:Le Tribunal judiciaire de Libourne a condamné un entrepreneur à verser 26 200 € #1",
    "role": "p",
+   "zone": "main",
    "text": "Le Tribunal judiciaire de Libourne a condamné un entrepreneur à verser 26 200 € ",
    "fullTextLen": 365,
    "x": 350,
@@ -668,6 +649,7 @@
   {
    "key": "b:p:Les faits : un chantier abandonné après paiement intégral#1",
    "role": "p",
+   "zone": "main",
    "text": "Les faits : un chantier abandonné après paiement intégral",
    "fullTextLen": 57,
    "x": 350,
@@ -704,6 +686,7 @@
   {
    "key": "b:p:Un immeuble subissait des désordres consécutifs à une sécheresse importante cour#1",
    "role": "p",
+   "zone": "main",
    "text": "Un immeuble subissait des désordres consécutifs à une sécheresse importante cour",
    "fullTextLen": 296,
    "x": 350,
@@ -740,6 +723,7 @@
   {
    "key": "b:p:L'immeuble demeurait ainsi dans un état pitoyable, ses façades non restaurées pr#1",
    "role": "p",
+   "zone": "main",
    "text": "L'immeuble demeurait ainsi dans un état pitoyable, ses façades non restaurées pr",
    "fullTextLen": 178,
    "x": 350,
@@ -776,6 +760,7 @@
   {
    "key": "b:p:Les démarches amiables restées sans réponse#1",
    "role": "p",
+   "zone": "main",
    "text": "Les démarches amiables restées sans réponse",
    "fullTextLen": 43,
    "x": 350,
@@ -812,6 +797,7 @@
   {
    "key": "b:p:L'exécution des travaux était sollicitée successivement par un courrier recomman#1",
    "role": "p",
+   "zone": "main",
    "text": "L'exécution des travaux était sollicitée successivement par un courrier recomman",
    "fullTextLen": 279,
    "x": 350,
@@ -848,6 +834,7 @@
   {
    "key": "b:p:Un préjudice aggravé lors de la revente de l'immeuble#1",
    "role": "p",
+   "zone": "main",
    "text": "Un préjudice aggravé lors de la revente de l'immeuble",
    "fullTextLen": 53,
    "x": 350,
@@ -884,6 +871,7 @@
   {
    "key": "b:p:Les complications liées à l'absence de rénovation de la façade ont été catastrop#1",
    "role": "p",
+   "zone": "main",
    "text": "Les complications liées à l'absence de rénovation de la façade ont été catastrop",
    "fullTextLen": 276,
    "x": 350,
@@ -920,6 +908,7 @@
   {
    "key": "b:p:Les acheteurs ont également conditionné la vente à une indemnité transactionnell#1",
    "role": "p",
+   "zone": "main",
    "text": "Les acheteurs ont également conditionné la vente à une indemnité transactionnell",
    "fullTextLen": 228,
    "x": 350,
@@ -956,6 +945,7 @@
   {
    "key": "b:p:La décision du Tribunal judiciaire de Libourne#1",
    "role": "p",
+   "zone": "main",
    "text": "La décision du Tribunal judiciaire de Libourne",
    "fullTextLen": 46,
    "x": 350,
@@ -992,6 +982,7 @@
   {
    "key": "b:p:La décision du Tribunal judiciaire de Libourne du 14 mai 2020 fait droit à toute#1",
    "role": "p",
+   "zone": "main",
    "text": "La décision du Tribunal judiciaire de Libourne du 14 mai 2020 fait droit à toute",
    "fullTextLen": 287,
    "x": 350,
@@ -1028,6 +1019,7 @@
   {
    "key": "b:p:Le client a ainsi pu être remboursé de la moins-value ainsi que de l'indemnité t#1",
    "role": "p",
+   "zone": "main",
    "text": "Le client a ainsi pu être remboursé de la moins-value ainsi que de l'indemnité t",
    "fullTextLen": 246,
    "x": 350,
@@ -1064,6 +1056,7 @@
   {
    "key": "b:p:Une issue favorable pour le client#1",
    "role": "p",
+   "zone": "main",
    "text": "Une issue favorable pour le client",
    "fullTextLen": 34,
    "x": 350,
@@ -1100,6 +1093,7 @@
   {
    "key": "b:p:Cette décision est en tous points favorable au client, qui pourra désormais tour#1",
    "role": "p",
+   "zone": "main",
    "text": "Cette décision est en tous points favorable au client, qui pourra désormais tour",
    "fullTextLen": 387,
    "x": 350,
@@ -1136,6 +1130,7 @@
   {
    "key": "b:a:Défense des consommateurs#1",
    "role": "a",
+   "zone": "main",
    "text": "Défense des consommateurs",
    "fullTextLen": 25,
    "x": 354,
@@ -1170,116 +1165,9 @@
    }
   },
   {
-   "key": "b:p:193193 vues#1",
-   "role": "p",
-   "text": "193193 vues",
-   "fullTextLen": 11,
-   "x": 350,
-   "y": 1667.84,
-   "w": 50.64,
-   "h": 21,
-   "fixed": false,
-   "deltaY": 130,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "14px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "21px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "textAlign": "start",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "padding": "0px",
-    "margin": "0px",
-    "borderRadius": "0px",
-    "borderWidth": "0px 0px 0px 0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "boxShadow": "none",
-    "display": "block",
-    "flexDirection": "row",
-    "gap": "normal",
-    "maxWidth": "none",
-    "position": "static",
-    "textDecorationLine": "none"
-   }
-  },
-  {
-   "key": "b:p:00 commentaire#1",
-   "role": "p",
-   "text": "00 commentaire",
-   "fullTextLen": 14,
-   "x": 422.64,
-   "y": 1667.84,
-   "w": 87.86,
-   "h": 21,
-   "fixed": false,
-   "deltaY": 0,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "14px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "21px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "textAlign": "start",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "padding": "0px",
-    "margin": "0px",
-    "borderRadius": "0px",
-    "borderWidth": "0px 0px 0px 0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "boxShadow": "none",
-    "display": "block",
-    "flexDirection": "row",
-    "gap": "normal",
-    "maxWidth": "none",
-    "position": "static",
-    "textDecorationLine": "none"
-   }
-  },
-  {
-   "key": "b:p:Vous n'aimez plus ce post#1",
-   "role": "p",
-   "text": "Vous n'aimez plus ce post",
-   "fullTextLen": 25,
-   "x": 1071,
-   "y": 1668.84,
-   "w": 1,
-   "h": 1,
-   "fixed": false,
-   "deltaY": 1,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "14px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "14px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "textAlign": "center",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "padding": "0px",
-    "margin": "0px",
-    "borderRadius": "0px",
-    "borderWidth": "0px 0px 0px 0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "boxShadow": "none",
-    "display": "block",
-    "flexDirection": "row",
-    "gap": "normal",
-    "maxWidth": "none",
-    "position": "absolute",
-    "textDecorationLine": "none"
-   }
-  },
-  {
    "key": "b:h2:Posts similaires#1",
    "role": "h2",
+   "zone": "main",
    "text": "Posts similaires",
    "fullTextLen": 16,
    "x": 250,
@@ -1287,7 +1175,7 @@
    "w": 115.66,
    "h": 27,
    "fixed": false,
-   "deltaY": 111,
+   "deltaY": 242,
    "style": {
     "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
     "fontSize": "18px",
@@ -1316,6 +1204,7 @@
   {
    "key": "b:a:Voir tout#1",
    "role": "a",
+   "zone": "main",
    "text": "Voir tout",
    "fullTextLen": 9,
    "x": 1139.83,
@@ -1352,6 +1241,7 @@
   {
    "key": "b:a:Victime d'une arnaque en ligne : nommer l'escroquerie, agir, faire valoir vos dr#1",
    "role": "a",
+   "zone": "main",
    "text": "Victime d'une arnaque en ligne : nommer l'escroquerie, agir, faire valoir vos dr",
    "fullTextLen": 84,
    "x": 275,
@@ -1386,116 +1276,9 @@
    }
   },
   {
-   "key": "b:p:220#1",
-   "role": "p",
-   "text": "220",
-   "fullTextLen": 3,
-   "x": 300,
-   "y": 2097.34,
-   "w": 17.91,
-   "h": 18,
-   "fixed": false,
-   "deltaY": 83.14,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "12px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "18px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "textAlign": "start",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "padding": "0px",
-    "margin": "0px 0px 0px 6px",
-    "borderRadius": "0px",
-    "borderWidth": "0px 0px 0px 0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "boxShadow": "none",
-    "display": "block",
-    "flexDirection": "row",
-    "gap": "normal",
-    "maxWidth": "none",
-    "position": "static",
-    "textDecorationLine": "none"
-   }
-  },
-  {
-   "key": "b:p:0#1",
-   "role": "p",
-   "text": "0",
-   "fullTextLen": 1,
-   "x": 360.91,
-   "y": 2097.34,
-   "w": 5.97,
-   "h": 18,
-   "fixed": false,
-   "deltaY": 0,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "12px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "18px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "textAlign": "start",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "padding": "0px",
-    "margin": "0px 0px 0px 6px",
-    "borderRadius": "0px",
-    "borderWidth": "0px 0px 0px 0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "boxShadow": "none",
-    "display": "block",
-    "flexDirection": "row",
-    "gap": "normal",
-    "maxWidth": "none",
-    "position": "static",
-    "textDecorationLine": "none"
-   }
-  },
-  {
-   "key": "b:p:Vous n'aimez plus ce post#2",
-   "role": "p",
-   "text": "Vous n'aimez plus ce post",
-   "fullTextLen": 25,
-   "x": 496.66,
-   "y": 2097.34,
-   "w": 1,
-   "h": 1,
-   "fixed": false,
-   "deltaY": 0,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "12px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "12px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "textAlign": "center",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "padding": "0px",
-    "margin": "0px",
-    "borderRadius": "0px",
-    "borderWidth": "0px 0px 0px 0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "boxShadow": "none",
-    "display": "block",
-    "flexDirection": "row",
-    "gap": "normal",
-    "maxWidth": "none",
-    "position": "absolute",
-    "textDecorationLine": "none"
-   }
-  },
-  {
    "key": "b:a:Leasing d'imprimantes truqué : 7 PME défendues à Toulouse#1",
    "role": "a",
+   "zone": "main",
    "text": "Leasing d'imprimantes truqué : 7 PME défendues à Toulouse",
    "fullTextLen": 57,
    "x": 599.66,
@@ -1503,7 +1286,7 @@
    "w": 240.67,
    "h": 44,
    "fixed": false,
-   "deltaY": -83.12,
+   "deltaY": 0.02,
    "style": {
     "fontFamily": "wfont_47d637_b856fe7b5486413b948b231a5f646ec2, wf_b856fe7b5486413b948b231a5, orig_google_sans_medium",
     "fontSize": "18px",
@@ -1530,116 +1313,9 @@
    }
   },
   {
-   "key": "b:p:171#1",
-   "role": "p",
-   "text": "171",
-   "fullTextLen": 3,
-   "x": 624.66,
-   "y": 2097.34,
-   "w": 17.91,
-   "h": 18,
-   "fixed": false,
-   "deltaY": 83.12,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "12px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "18px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "textAlign": "start",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "padding": "0px",
-    "margin": "0px 0px 0px 6px",
-    "borderRadius": "0px",
-    "borderWidth": "0px 0px 0px 0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "boxShadow": "none",
-    "display": "block",
-    "flexDirection": "row",
-    "gap": "normal",
-    "maxWidth": "none",
-    "position": "static",
-    "textDecorationLine": "none"
-   }
-  },
-  {
-   "key": "b:p:0#2",
-   "role": "p",
-   "text": "0",
-   "fullTextLen": 1,
-   "x": 685.56,
-   "y": 2097.34,
-   "w": 5.97,
-   "h": 18,
-   "fixed": false,
-   "deltaY": 0,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "12px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "18px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "textAlign": "start",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "padding": "0px",
-    "margin": "0px 0px 0px 6px",
-    "borderRadius": "0px",
-    "borderWidth": "0px 0px 0px 0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "boxShadow": "none",
-    "display": "block",
-    "flexDirection": "row",
-    "gap": "normal",
-    "maxWidth": "none",
-    "position": "static",
-    "textDecorationLine": "none"
-   }
-  },
-  {
-   "key": "b:p:Vous n'aimez plus ce post#3",
-   "role": "p",
-   "text": "Vous n'aimez plus ce post",
-   "fullTextLen": 25,
-   "x": 821.33,
-   "y": 2097.34,
-   "w": 1,
-   "h": 1,
-   "fixed": false,
-   "deltaY": 0,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "12px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "12px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "textAlign": "center",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "padding": "0px",
-    "margin": "0px",
-    "borderRadius": "0px",
-    "borderWidth": "0px 0px 0px 0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "boxShadow": "none",
-    "display": "block",
-    "flexDirection": "row",
-    "gap": "normal",
-    "maxWidth": "none",
-    "position": "absolute",
-    "textDecorationLine": "none"
-   }
-  },
-  {
    "key": "b:a:Location financière : 30 000 € restitués à une PME (CA Versailles)#1",
    "role": "a",
+   "zone": "main",
    "text": "Location financière : 30 000 € restitués à une PME (CA Versailles)",
    "fullTextLen": 66,
    "x": 924.33,
@@ -1647,7 +1323,7 @@
    "w": 240.66,
    "h": 44,
    "fixed": false,
-   "deltaY": -83.14,
+   "deltaY": -0.02,
    "style": {
     "fontFamily": "wfont_47d637_b856fe7b5486413b948b231a5f646ec2, wf_b856fe7b5486413b948b231a5, orig_google_sans_medium",
     "fontSize": "18px",
@@ -1674,116 +1350,9 @@
    }
   },
   {
-   "key": "b:p:126#1",
-   "role": "p",
-   "text": "126",
-   "fullTextLen": 3,
-   "x": 949.33,
-   "y": 2097.34,
-   "w": 17.91,
-   "h": 18,
-   "fixed": false,
-   "deltaY": 83.14,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "12px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "18px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "textAlign": "start",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "padding": "0px",
-    "margin": "0px 0px 0px 6px",
-    "borderRadius": "0px",
-    "borderWidth": "0px 0px 0px 0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "boxShadow": "none",
-    "display": "block",
-    "flexDirection": "row",
-    "gap": "normal",
-    "maxWidth": "none",
-    "position": "static",
-    "textDecorationLine": "none"
-   }
-  },
-  {
-   "key": "b:p:0#3",
-   "role": "p",
-   "text": "0",
-   "fullTextLen": 1,
-   "x": 1010.23,
-   "y": 2097.34,
-   "w": 5.97,
-   "h": 18,
-   "fixed": false,
-   "deltaY": 0,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "12px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "18px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "textAlign": "start",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "padding": "0px",
-    "margin": "0px 0px 0px 6px",
-    "borderRadius": "0px",
-    "borderWidth": "0px 0px 0px 0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "boxShadow": "none",
-    "display": "block",
-    "flexDirection": "row",
-    "gap": "normal",
-    "maxWidth": "none",
-    "position": "static",
-    "textDecorationLine": "none"
-   }
-  },
-  {
-   "key": "b:p:Vous n'aimez plus ce post#4",
-   "role": "p",
-   "text": "Vous n'aimez plus ce post",
-   "fullTextLen": 25,
-   "x": 1145.98,
-   "y": 2097.34,
-   "w": 1,
-   "h": 1,
-   "fixed": false,
-   "deltaY": 0,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "12px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "12px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "textAlign": "center",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "padding": "0px",
-    "margin": "0px",
-    "borderRadius": "0px",
-    "borderWidth": "0px 0px 0px 0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "boxShadow": "none",
-    "display": "block",
-    "flexDirection": "row",
-    "gap": "normal",
-    "maxWidth": "none",
-    "position": "absolute",
-    "textDecorationLine": "none"
-   }
-  },
-  {
    "key": "b:p:4,6/5 étoiles (190 avis) sur Google#1",
    "role": "p",
+   "zone": "main",
    "text": "4,6/5 étoiles (190 avis) sur Google",
    "fullTextLen": 35,
    "x": 375,
@@ -1791,7 +1360,7 @@
    "w": 194,
    "h": 14,
    "fixed": false,
-   "deltaY": 335,
+   "deltaY": 418.14,
    "style": {
     "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
     "fontSize": "14px",
@@ -1820,6 +1389,7 @@
   {
    "key": "b:p:Vous êtes concerné par cette situation ? Nos avocats vous écoutent et vous conse#1",
    "role": "p",
+   "zone": "main",
    "text": "Vous êtes concerné par cette situation ? Nos avocats vous écoutent et vous conse",
    "fullTextLen": 87,
    "x": 122,
@@ -1856,6 +1426,7 @@
   {
    "key": "b:p:Prendre rendez-vous#1",
    "role": "p",
+   "zone": "main",
    "text": "Prendre rendez-vous",
    "fullTextLen": 19,
    "x": 296.47,
@@ -1892,6 +1463,7 @@
   {
    "key": "b:p:RESSOURCES#1",
    "role": "p",
+   "zone": "main",
    "text": "RESSOURCES",
    "fullTextLen": 10,
    "x": 751.48,
@@ -1928,6 +1500,7 @@
   {
    "key": "b:p:Le droit expliqué clairement, par des avocats. 48 articles pour comprendre vos d#1",
    "role": "p",
+   "zone": "main",
    "text": "Le droit expliqué clairement, par des avocats. 48 articles pour comprendre vos d",
    "fullTextLen": 119,
    "x": 720,
@@ -1964,6 +1537,7 @@
   {
    "key": "b:p:Lire#1",
    "role": "p",
+   "zone": "main",
    "text": "Lire",
    "fullTextLen": 4,
    "x": 942.41,
@@ -2000,6 +1574,7 @@
   {
    "key": "b:p:© Site web imaginé par l'agence REWOLF | rewolf.studio#1",
    "role": "p",
+   "zone": "footer",
    "text": "© Site web imaginé par l'agence REWOLF | rewolf.studio",
    "fullTextLen": 54,
    "x": 1113.44,
@@ -2036,6 +1611,7 @@
   {
    "key": "b:p:Menu#1",
    "role": "p",
+   "zone": "footer",
    "text": "Menu",
    "fullTextLen": 4,
    "x": 48,
@@ -2072,6 +1648,7 @@
   {
    "key": "b:p:Accueil#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accueil",
    "fullTextLen": 7,
    "x": 48.5,
@@ -2108,6 +1685,7 @@
   {
    "key": "b:p:Notre cabinet#1",
    "role": "p",
+   "zone": "footer",
    "text": "Notre cabinet",
    "fullTextLen": 13,
    "x": 48,
@@ -2144,6 +1722,7 @@
   {
    "key": "b:p:Rendez-vous, accès & honoraires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "fullTextLen": 31,
    "x": 48,
@@ -2180,6 +1759,7 @@
   {
    "key": "b:p:Nos affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Nos affaires",
    "fullTextLen": 12,
    "x": 48,
@@ -2216,6 +1796,7 @@
   {
    "key": "b:p:Ressources#2",
    "role": "p",
+   "zone": "footer",
    "text": "Ressources",
    "fullTextLen": 10,
    "x": 48,
@@ -2252,6 +1833,7 @@
   {
    "key": "b:p:Mentions légales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Mentions légales",
    "fullTextLen": 16,
    "x": 48,
@@ -2288,6 +1870,7 @@
   {
    "key": "b:p:Défense Pénale#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense Pénale",
    "fullTextLen": 14,
    "x": 337.64,
@@ -2324,6 +1907,7 @@
   {
    "key": "b:p:Droit pénal#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal",
    "fullTextLen": 11,
    "x": 337.64,
@@ -2360,6 +1944,7 @@
   {
    "key": "b:p:Procès criminels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Procès criminels",
    "fullTextLen": 16,
    "x": 337.64,
@@ -2396,6 +1981,7 @@
   {
    "key": "b:p:Trafic de stupéfiants#1",
    "role": "p",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "fullTextLen": 21,
    "x": 337.64,
@@ -2432,6 +2018,7 @@
   {
    "key": "b:p:Violences conjugales et féminicides#1",
    "role": "p",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "fullTextLen": 35,
    "x": 337.64,
@@ -2468,6 +2055,7 @@
   {
    "key": "b:p:Droit pénal des affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "fullTextLen": 24,
    "x": 337.64,
@@ -2504,6 +2092,7 @@
   {
    "key": "b:p:Indemnisation des victimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "fullTextLen": 26,
    "x": 643.03,
@@ -2540,6 +2129,7 @@
   {
    "key": "b:p:Victimes de délits ou crimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "fullTextLen": 28,
    "x": 643.03,
@@ -2576,6 +2166,7 @@
   {
    "key": "b:p:Accidents de la route#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la route",
    "fullTextLen": 21,
    "x": 643.03,
@@ -2612,6 +2203,7 @@
   {
    "key": "b:p:Droit et accidents du travail#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "fullTextLen": 29,
    "x": 643.03,
@@ -2648,6 +2240,7 @@
   {
    "key": "b:p:Accidents et erreurs médicales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "fullTextLen": 30,
    "x": 643.03,
@@ -2684,6 +2277,7 @@
   {
    "key": "b:p:Accidents de la vie courante#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "fullTextLen": 28,
    "x": 643.03,
@@ -2720,6 +2314,7 @@
   {
    "key": "b:p:Droit des contrats et des personnes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "fullTextLen": 35,
    "x": 920.52,
@@ -2756,6 +2351,7 @@
   {
    "key": "b:p:Droit des assurances particuliers et professionnels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "fullTextLen": 51,
    "x": 920.52,
@@ -2792,6 +2388,7 @@
   {
    "key": "b:p:Défense des consommateurs#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "fullTextLen": 25,
    "x": 920.52,
@@ -2828,6 +2425,7 @@
   {
    "key": "b:p:Droit de la famille#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit de la famille",
    "fullTextLen": 19,
    "x": 920.52,
@@ -2864,6 +2462,7 @@
   {
    "key": "b:p:Divorce#1",
    "role": "p",
+   "zone": "footer",
    "text": "Divorce",
    "fullTextLen": 7,
    "x": 920.52,
@@ -2900,6 +2499,7 @@
   {
    "key": "b:p:05 56 44 35 96#1",
    "role": "p",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "fullTextLen": 14,
    "x": 59,
@@ -2936,6 +2536,7 @@
   {
    "key": "b:p:Contact & RDV#2",
    "role": "p",
+   "zone": "footer",
    "text": "Contact & RDV",
    "fullTextLen": 13,
    "x": 197.33,
@@ -2972,6 +2573,7 @@
   {
    "key": "b:p:Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R#1",
    "role": "p",
+   "zone": "footer",
    "text": "Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R",
    "fullTextLen": 136,
    "x": 49.91,
@@ -3008,6 +2610,7 @@
   {
    "key": "b:p:Contact#1",
    "role": "p",
+   "zone": "footer",
    "text": "Contact",
    "fullTextLen": 7,
    "x": 48,
@@ -3044,6 +2647,7 @@
   {
    "key": "b:p:Une question sur vos droits ? Contactez le cabinet Plouton.#1",
    "role": "p",
+   "zone": "main",
    "text": "Une question sur vos droits ? Contactez le cabinet Plouton.",
    "fullTextLen": 59,
    "x": 573.86,
@@ -3080,6 +2684,7 @@
   {
    "key": "b:p:Nous appeler#1",
    "role": "p",
+   "zone": "main",
    "text": "Nous appeler",
    "fullTextLen": 12,
    "x": 611.45,
@@ -3116,6 +2721,7 @@
   {
    "key": "b:p:Je prends rendez-vous !#1",
    "role": "p",
+   "zone": "main",
    "text": "Je prends rendez-vous !",
    "fullTextLen": 23,
    "x": 737.89,
@@ -3154,6 +2760,7 @@
   {
    "key": "i:a:Affaires#1",
    "role": "a",
+   "zone": "header",
    "text": "Affaires",
    "x": 849.94,
    "y": 32.75,
@@ -3181,6 +2788,7 @@
   {
    "key": "i:a:Médias#1",
    "role": "a",
+   "zone": "header",
    "text": "Médias",
    "x": 922.64,
    "y": 32.75,
@@ -3208,6 +2816,7 @@
   {
    "key": "i:a:Ressources#1",
    "role": "a",
+   "zone": "header",
    "text": "Ressources",
    "x": 986.44,
    "y": 32.75,
@@ -3235,6 +2844,7 @@
   {
    "key": "i:a:Équipe#1",
    "role": "a",
+   "zone": "header",
    "text": "Équipe",
    "x": 1079.86,
    "y": 32.75,
@@ -3262,6 +2872,7 @@
   {
    "key": "i:button:Search#1",
    "role": "button",
+   "zone": "header",
    "text": "Search",
    "x": 1231.06,
    "y": 20,
@@ -3289,6 +2900,7 @@
   {
    "key": "i:a:Contact & RDV#1",
    "role": "a",
+   "zone": "header",
    "text": "Contact & RDV",
    "x": 1312.52,
    "y": 23.25,
@@ -3314,12 +2926,13 @@
    }
   },
   {
-   "key": "i:button:Noté 0 étoile sur 5.Pas encore de note#1",
+   "key": "i:button:Noté NaN étoiles sur 5.#1",
    "role": "button",
-   "text": "Noté 0 étoile sur 5.Pas encore de note",
+   "zone": "main",
+   "text": "Noté NaN étoiles sur 5.",
    "x": 350,
    "y": 377.19,
-   "w": 235.8,
+   "w": 114,
    "h": 18,
    "href": null,
    "style": {
@@ -3343,6 +2956,7 @@
   {
    "key": "i:a:défaut d'exécution de ses obligations contractuelles#1",
    "role": "a",
+   "zone": "main",
    "text": "défaut d'exécution de ses obligations contractuelles",
    "x": 445.81,
    "y": 1209.97,
@@ -3368,116 +2982,9 @@
    }
   },
   {
-   "key": "i:button:Vous n'aimez plus ce post#1",
-   "role": "button",
-   "text": "Vous n'aimez plus ce post",
-   "x": 1071,
-   "y": 1668.84,
-   "w": 19,
-   "h": 19,
-   "href": null,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "14px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "14px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "textDecorationLine": "none",
-    "borderRadius": "0px",
-    "borderWidth": "0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "paddingTop": "0px",
-    "paddingLeft": "0px"
-   }
-  },
-  {
-   "key": "i:button:Vous n'aimez plus ce post#2",
-   "role": "button",
-   "text": "Vous n'aimez plus ce post",
-   "x": 496.66,
-   "y": 2097.34,
-   "w": 19,
-   "h": 18,
-   "href": null,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "12px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "12px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "textDecorationLine": "none",
-    "borderRadius": "0px",
-    "borderWidth": "0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "paddingTop": "0px",
-    "paddingLeft": "0px"
-   }
-  },
-  {
-   "key": "i:button:Vous n'aimez plus ce post#3",
-   "role": "button",
-   "text": "Vous n'aimez plus ce post",
-   "x": 821.33,
-   "y": 2097.34,
-   "w": 19,
-   "h": 18,
-   "href": null,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "12px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "12px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "textDecorationLine": "none",
-    "borderRadius": "0px",
-    "borderWidth": "0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "paddingTop": "0px",
-    "paddingLeft": "0px"
-   }
-  },
-  {
-   "key": "i:button:Vous n'aimez plus ce post#4",
-   "role": "button",
-   "text": "Vous n'aimez plus ce post",
-   "x": 1145.98,
-   "y": 2097.34,
-   "w": 19,
-   "h": 18,
-   "href": null,
-   "style": {
-    "fontFamily": "wfont_fce596_fe1dbd76ea054b39b695163378dbc5a3, wf_fe1dbd76ea054b39b69516337, orig_source_sans_3_regular",
-    "fontSize": "12px",
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "lineHeight": "12px",
-    "letterSpacing": "normal",
-    "textTransform": "none",
-    "color": "rgb(23, 71, 94)",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
-    "textDecorationLine": "none",
-    "borderRadius": "0px",
-    "borderWidth": "0px",
-    "borderColor": "rgb(23, 71, 94)",
-    "paddingTop": "0px",
-    "paddingLeft": "0px"
-   }
-  },
-  {
    "key": "i:a:4,6/5 étoiles (190 avis) sur Google#1",
    "role": "a",
+   "zone": "main",
    "text": "4,6/5 étoiles (190 avis) sur Google",
    "x": 375,
    "y": 2429.34,
@@ -3505,6 +3012,7 @@
   {
    "key": "i:a:Prendre rendez-vous#1",
    "role": "a",
+   "zone": "main",
    "text": "Prendre rendez-vous",
    "x": 122,
    "y": 2656.09,
@@ -3532,6 +3040,7 @@
   {
    "key": "i:a:Lire#1",
    "role": "a",
+   "zone": "main",
    "text": "Lire",
    "x": 720,
    "y": 3391.84,
@@ -3559,6 +3068,7 @@
   {
    "key": "i:a:REWOLF | rewolf.studio#1",
    "role": "a",
+   "zone": "footer",
    "text": "REWOLF | rewolf.studio",
    "x": 1275.98,
    "y": 4461.69,
@@ -3586,6 +3096,7 @@
   {
    "key": "i:a:Accueil#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accueil",
    "x": 48.5,
    "y": 4199.25,
@@ -3613,6 +3124,7 @@
   {
    "key": "i:a:Notre cabinet#1",
    "role": "a",
+   "zone": "footer",
    "text": "Notre cabinet",
    "x": 48,
    "y": 4237.66,
@@ -3640,6 +3152,7 @@
   {
    "key": "i:a:Rendez-vous, accès & honoraires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "x": 48,
    "y": 4276.06,
@@ -3667,6 +3180,7 @@
   {
    "key": "i:a:Nos affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Nos affaires",
    "x": 48,
    "y": 4314.47,
@@ -3694,6 +3208,7 @@
   {
    "key": "i:a:Ressources#2",
    "role": "a",
+   "zone": "footer",
    "text": "Ressources",
    "x": 48,
    "y": 4352.88,
@@ -3721,6 +3236,7 @@
   {
    "key": "i:a:Mentions légales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Mentions légales",
    "x": 48,
    "y": 4391.28,
@@ -3748,6 +3264,7 @@
   {
    "key": "i:a:Défense Pénale#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense Pénale",
    "x": 337.64,
    "y": 4160.84,
@@ -3775,6 +3292,7 @@
   {
    "key": "i:a:Droit pénal#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal",
    "x": 337.64,
    "y": 4199.25,
@@ -3802,6 +3320,7 @@
   {
    "key": "i:a:Procès criminels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Procès criminels",
    "x": 337.64,
    "y": 4237.66,
@@ -3829,6 +3348,7 @@
   {
    "key": "i:a:Trafic de stupéfiants#1",
    "role": "a",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "x": 337.64,
    "y": 4276.06,
@@ -3856,6 +3376,7 @@
   {
    "key": "i:a:Violences conjugales et féminicides#1",
    "role": "a",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "x": 337.64,
    "y": 4314.47,
@@ -3883,6 +3404,7 @@
   {
    "key": "i:a:Droit pénal des affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "x": 337.64,
    "y": 4352.88,
@@ -3910,6 +3432,7 @@
   {
    "key": "i:a:Indemnisation des victimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "x": 643.03,
    "y": 4160.84,
@@ -3937,6 +3460,7 @@
   {
    "key": "i:a:Victimes de délits ou crimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "x": 643.03,
    "y": 4199.25,
@@ -3964,6 +3488,7 @@
   {
    "key": "i:a:Accidents de la route#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la route",
    "x": 643.03,
    "y": 4237.66,
@@ -3991,6 +3516,7 @@
   {
    "key": "i:a:Droit et accidents du travail#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "x": 643.03,
    "y": 4276.06,
@@ -4018,6 +3544,7 @@
   {
    "key": "i:a:Accidents et erreurs médicales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "x": 643.03,
    "y": 4314.47,
@@ -4045,6 +3572,7 @@
   {
    "key": "i:a:Accidents de la vie courante#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "x": 643.03,
    "y": 4352.88,
@@ -4072,6 +3600,7 @@
   {
    "key": "i:a:Droit des contrats et des personnes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "x": 920.52,
    "y": 4160.84,
@@ -4099,6 +3628,7 @@
   {
    "key": "i:a:Droit des assurances particuliers et professionnels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "x": 920.52,
    "y": 4199.25,
@@ -4126,6 +3656,7 @@
   {
    "key": "i:a:Défense des consommateurs#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "x": 920.52,
    "y": 4237.66,
@@ -4153,6 +3684,7 @@
   {
    "key": "i:a:Droit de la famille#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit de la famille",
    "x": 920.52,
    "y": 4276.06,
@@ -4180,6 +3712,7 @@
   {
    "key": "i:a:Divorce#1",
    "role": "a",
+   "zone": "footer",
    "text": "Divorce",
    "x": 920.52,
    "y": 4314.47,
@@ -4207,6 +3740,7 @@
   {
    "key": "i:a:05 56 44 35 96#1",
    "role": "a",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "x": 48,
    "y": 3916.84,
@@ -4234,6 +3768,7 @@
   {
    "key": "i:a:Contact & RDV#2",
    "role": "a",
+   "zone": "footer",
    "text": "Contact & RDV",
    "x": 186.33,
    "y": 3916.84,
@@ -4261,6 +3796,7 @@
   {
    "key": "i:a:15 Pl. Sainte-Eulalie, 33000 Bordeaux#1",
    "role": "a",
+   "zone": "footer",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "x": 49.91,
    "y": 3824.34,
@@ -4288,6 +3824,7 @@
   {
    "key": "i:a:Nous appeler#1",
    "role": "a",
+   "zone": "main",
    "text": "Nous appeler",
    "x": 573.61,
    "y": 797.67,
@@ -4315,6 +3852,7 @@
   {
    "key": "i:a:Je prends rendez-vous !#1",
    "role": "a",
+   "zone": "main",
    "text": "Je prends rendez-vous !",
    "x": 701.05,
    "y": 797.67,
@@ -4344,6 +3882,7 @@
   {
    "key": "img:img:d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2#1",
    "anchor": "d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Julien Plouton - Avocat à la Cour",
    "x": 350,
    "y": 161,
@@ -4359,6 +3898,7 @@
   {
    "key": "img:img:nsplsh_112d71100a784100988e00ad5cd4e334#1",
    "anchor": "nsplsh_112d71100a784100988e00ad5cd4e334",
+   "zone": "main",
    "alt": "Personne pensive devant un écran d'ordinateur (faux site marchand, alerte de blo",
    "x": 251,
    "y": 1827.84,
@@ -4374,6 +3914,7 @@
   {
    "key": "img:img:nsplsh_eb80b6dc20ec43efbccf8c96d7b52414#1",
    "anchor": "nsplsh_eb80b6dc20ec43efbccf8c96d7b52414",
+   "zone": "main",
    "alt": "Leasing d'imprimantes truqué : 7 PME défendues à Toulouse",
    "x": 575.66,
    "y": 1827.84,
@@ -4389,6 +3930,7 @@
   {
    "key": "img:img:nsplsh_b28ef5076c8f443399c3ec71fe1c0819#1",
    "anchor": "nsplsh_b28ef5076c8f443399c3ec71fe1c0819",
+   "zone": "main",
    "alt": "photocopieur",
    "x": 900.33,
    "y": 1827.84,
@@ -4404,6 +3946,7 @@
   {
    "key": "img:img:d05c9e_ed2551b85ab444aeb16f16e4b205fc69#1",
    "anchor": "d05c9e_ed2551b85ab444aeb16f16e4b205fc69",
+   "zone": "main",
    "alt": "divorce v2.jpg",
    "x": 0,
    "y": 2160.34,
@@ -4419,6 +3962,7 @@
   {
    "key": "img:img:d05c9e_cf0a4239b5a9454e84a5a2081f17aa95#1",
    "anchor": "d05c9e_cf0a4239b5a9454e84a5a2081f17aa95",
+   "zone": "main",
    "alt": "Logo de Google Avis",
    "x": 175,
    "y": 2414.59,
@@ -4434,6 +3978,7 @@
   {
    "key": "img:img:nsplsh_c5c71d86d13c4d6cb9f87d1517edf867#1",
    "anchor": "nsplsh_c5c71d86d13c4d6cb9f87d1517edf867",
+   "zone": "main",
    "alt": "Image de Fahad Bin Kamal Anik",
    "x": 0,
    "y": 2960.34,

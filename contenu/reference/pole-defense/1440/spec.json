@@ -1,6 +1,6 @@
 {
  "meta": {
-  "url": "https://www.jplouton-avocat.fr/defense-penale?cooked_aid=wj5qemqqc2jmrpigng7yim9rgu8vnfmrpigng7&cooked_sid=o5p9e6l1wwfmrpigng7",
+  "url": "https://www.jplouton-avocat.fr/defense-penale?cooked_aid=4er1sa6sgb3mrq3svvkz2sblk1022mrq3svvk&cooked_sid=c61w815gm4mrq3svvk",
   "pageHeight": 2011,
   "viewportW": 1440,
   "viewportH": 900,
@@ -14,12 +14,13 @@
   "viewportId": "1440",
   "target": "live",
   "origin": "https://www.jplouton-avocat.fr",
-  "capturedAt": "2026-07-17T22:29:59.253Z"
+  "capturedAt": "2026-07-18T08:27:21.976Z"
  },
  "blocks": [
   {
    "key": "b:p:DÉFENSE PÉNALE#1",
    "role": "p",
+   "zone": "header",
    "text": "DÉFENSE PÉNALE",
    "fullTextLen": 14,
    "x": 246.81,
@@ -56,6 +57,7 @@
   {
    "key": "b:p:INDEMNISATION DES VICTIMES#1",
    "role": "p",
+   "zone": "header",
    "text": "INDEMNISATION DES VICTIMES",
    "fullTextLen": 26,
    "x": 367.92,
@@ -92,6 +94,7 @@
   {
    "key": "b:p:DROIT DES CONTRATS ET DES PERSONNES#1",
    "role": "p",
+   "zone": "header",
    "text": "DROIT DES CONTRATS ET DES PERSONNES",
    "fullTextLen": 35,
    "x": 555.38,
@@ -128,6 +131,7 @@
   {
    "key": "b:p:Affaires#1",
    "role": "p",
+   "zone": "header",
    "text": "Affaires",
    "fullTextLen": 8,
    "x": 849.94,
@@ -164,6 +168,7 @@
   {
    "key": "b:p:Médias#1",
    "role": "p",
+   "zone": "header",
    "text": "Médias",
    "fullTextLen": 6,
    "x": 922.64,
@@ -200,6 +205,7 @@
   {
    "key": "b:p:Ressources#1",
    "role": "p",
+   "zone": "header",
    "text": "Ressources",
    "fullTextLen": 10,
    "x": 986.44,
@@ -236,6 +242,7 @@
   {
    "key": "b:p:Équipe#1",
    "role": "p",
+   "zone": "header",
    "text": "Équipe",
    "fullTextLen": 6,
    "x": 1079.86,
@@ -272,6 +279,7 @@
   {
    "key": "b:p:Search#1",
    "role": "p",
+   "zone": "header",
    "text": "Search",
    "fullTextLen": 6,
    "x": 1231.06,
@@ -308,6 +316,7 @@
   {
    "key": "b:p:Contact & RDV#1",
    "role": "p",
+   "zone": "header",
    "text": "Contact & RDV",
    "fullTextLen": 13,
    "x": 1322.52,
@@ -344,6 +353,7 @@
   {
    "key": "b:h2:Droit pénal#1",
    "role": "h2",
+   "zone": "main",
    "text": "Droit pénal",
    "fullTextLen": 11,
    "x": 74,
@@ -380,6 +390,7 @@
   {
    "key": "b:h2:Procès criminels#1",
    "role": "h2",
+   "zone": "main",
    "text": "Procès criminels",
    "fullTextLen": 16,
    "x": 74,
@@ -416,6 +427,7 @@
   {
    "key": "b:h2:Trafic de stupéfiants#1",
    "role": "h2",
+   "zone": "main",
    "text": "Trafic de stupéfiants",
    "fullTextLen": 21,
    "x": 74,
@@ -452,6 +464,7 @@
   {
    "key": "b:h2:Violences conjugales et féminicides#1",
    "role": "h2",
+   "zone": "main",
    "text": "Violences conjugales et féminicides",
    "fullTextLen": 35,
    "x": 74,
@@ -488,6 +501,7 @@
   {
    "key": "b:h2:Droit pénal des affaires#1",
    "role": "h2",
+   "zone": "main",
    "text": "Droit pénal des affaires",
    "fullTextLen": 24,
    "x": 74,
@@ -524,6 +538,7 @@
   {
    "key": "b:h1:Défense Pénale#1",
    "role": "h1",
+   "zone": "main",
    "text": "Défense Pénale",
    "fullTextLen": 14,
    "x": 49.5,
@@ -560,6 +575,7 @@
   {
    "key": "b:p:Vous êtes mis en cause dans une procédure pénale ? Le Cabinet vous accompagne to#1",
    "role": "p",
+   "zone": "main",
    "text": "Vous êtes mis en cause dans une procédure pénale ? Le Cabinet vous accompagne to",
    "fullTextLen": 224,
    "x": 745,
@@ -596,6 +612,7 @@
   {
    "key": "b:p:© Site web imaginé par l'agence REWOLF | rewolf.studio#1",
    "role": "p",
+   "zone": "footer",
    "text": "© Site web imaginé par l'agence REWOLF | rewolf.studio",
    "fullTextLen": 54,
    "x": 1113.44,
@@ -632,6 +649,7 @@
   {
    "key": "b:p:Menu#1",
    "role": "p",
+   "zone": "footer",
    "text": "Menu",
    "fullTextLen": 4,
    "x": 48,
@@ -668,6 +686,7 @@
   {
    "key": "b:p:Accueil#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accueil",
    "fullTextLen": 7,
    "x": 48.5,
@@ -704,6 +723,7 @@
   {
    "key": "b:p:Notre cabinet#1",
    "role": "p",
+   "zone": "footer",
    "text": "Notre cabinet",
    "fullTextLen": 13,
    "x": 48,
@@ -740,6 +760,7 @@
   {
    "key": "b:p:Rendez-vous, accès & honoraires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "fullTextLen": 31,
    "x": 48,
@@ -776,6 +797,7 @@
   {
    "key": "b:p:Nos affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Nos affaires",
    "fullTextLen": 12,
    "x": 48,
@@ -812,6 +834,7 @@
   {
    "key": "b:p:Ressources#2",
    "role": "p",
+   "zone": "footer",
    "text": "Ressources",
    "fullTextLen": 10,
    "x": 48,
@@ -848,6 +871,7 @@
   {
    "key": "b:p:Mentions légales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Mentions légales",
    "fullTextLen": 16,
    "x": 48,
@@ -884,6 +908,7 @@
   {
    "key": "b:p:Défense Pénale#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense Pénale",
    "fullTextLen": 14,
    "x": 337.64,
@@ -920,6 +945,7 @@
   {
    "key": "b:p:Droit pénal#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal",
    "fullTextLen": 11,
    "x": 337.64,
@@ -956,6 +982,7 @@
   {
    "key": "b:p:Procès criminels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Procès criminels",
    "fullTextLen": 16,
    "x": 337.64,
@@ -992,6 +1019,7 @@
   {
    "key": "b:p:Trafic de stupéfiants#1",
    "role": "p",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "fullTextLen": 21,
    "x": 337.64,
@@ -1028,6 +1056,7 @@
   {
    "key": "b:p:Violences conjugales et féminicides#1",
    "role": "p",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "fullTextLen": 35,
    "x": 337.64,
@@ -1064,6 +1093,7 @@
   {
    "key": "b:p:Droit pénal des affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "fullTextLen": 24,
    "x": 337.64,
@@ -1100,6 +1130,7 @@
   {
    "key": "b:p:Indemnisation des victimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "fullTextLen": 26,
    "x": 643.03,
@@ -1136,6 +1167,7 @@
   {
    "key": "b:p:Victimes de délits ou crimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "fullTextLen": 28,
    "x": 643.03,
@@ -1172,6 +1204,7 @@
   {
    "key": "b:p:Accidents de la route#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la route",
    "fullTextLen": 21,
    "x": 643.03,
@@ -1208,6 +1241,7 @@
   {
    "key": "b:p:Droit et accidents du travail#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "fullTextLen": 29,
    "x": 643.03,
@@ -1244,6 +1278,7 @@
   {
    "key": "b:p:Accidents et erreurs médicales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "fullTextLen": 30,
    "x": 643.03,
@@ -1280,6 +1315,7 @@
   {
    "key": "b:p:Accidents de la vie courante#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "fullTextLen": 28,
    "x": 643.03,
@@ -1316,6 +1352,7 @@
   {
    "key": "b:p:Droit des contrats et des personnes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "fullTextLen": 35,
    "x": 920.52,
@@ -1352,6 +1389,7 @@
   {
    "key": "b:p:Droit des assurances particuliers et professionnels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "fullTextLen": 51,
    "x": 920.52,
@@ -1388,6 +1426,7 @@
   {
    "key": "b:p:Défense des consommateurs#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "fullTextLen": 25,
    "x": 920.52,
@@ -1424,6 +1463,7 @@
   {
    "key": "b:p:Droit de la famille#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit de la famille",
    "fullTextLen": 19,
    "x": 920.52,
@@ -1460,6 +1500,7 @@
   {
    "key": "b:p:Divorce#1",
    "role": "p",
+   "zone": "footer",
    "text": "Divorce",
    "fullTextLen": 7,
    "x": 920.52,
@@ -1496,6 +1537,7 @@
   {
    "key": "b:p:05 56 44 35 96#1",
    "role": "p",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "fullTextLen": 14,
    "x": 59,
@@ -1532,6 +1574,7 @@
   {
    "key": "b:p:Contact & RDV#2",
    "role": "p",
+   "zone": "footer",
    "text": "Contact & RDV",
    "fullTextLen": 13,
    "x": 197.33,
@@ -1568,6 +1611,7 @@
   {
    "key": "b:p:Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R#1",
    "role": "p",
+   "zone": "footer",
    "text": "Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R",
    "fullTextLen": 136,
    "x": 49.91,
@@ -1604,6 +1648,7 @@
   {
    "key": "b:p:Contact#1",
    "role": "p",
+   "zone": "footer",
    "text": "Contact",
    "fullTextLen": 7,
    "x": 48,
@@ -1642,6 +1687,7 @@
   {
    "key": "i:a:Affaires#1",
    "role": "a",
+   "zone": "header",
    "text": "Affaires",
    "x": 849.94,
    "y": 32.75,
@@ -1669,6 +1715,7 @@
   {
    "key": "i:a:Médias#1",
    "role": "a",
+   "zone": "header",
    "text": "Médias",
    "x": 922.64,
    "y": 32.75,
@@ -1696,6 +1743,7 @@
   {
    "key": "i:a:Ressources#1",
    "role": "a",
+   "zone": "header",
    "text": "Ressources",
    "x": 986.44,
    "y": 32.75,
@@ -1723,6 +1771,7 @@
   {
    "key": "i:a:Équipe#1",
    "role": "a",
+   "zone": "header",
    "text": "Équipe",
    "x": 1079.86,
    "y": 32.75,
@@ -1750,6 +1799,7 @@
   {
    "key": "i:button:Search#1",
    "role": "button",
+   "zone": "header",
    "text": "Search",
    "x": 1231.06,
    "y": 20,
@@ -1777,6 +1827,7 @@
   {
    "key": "i:a:Contact & RDV#1",
    "role": "a",
+   "zone": "header",
    "text": "Contact & RDV",
    "x": 1312.52,
    "y": 23.25,
@@ -1804,6 +1855,7 @@
   {
    "key": "i:a:REWOLF | rewolf.studio#1",
    "role": "a",
+   "zone": "footer",
    "text": "REWOLF | rewolf.studio",
    "x": 1275.98,
    "y": 1944.72,
@@ -1831,6 +1883,7 @@
   {
    "key": "i:a:Accueil#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accueil",
    "x": 48.5,
    "y": 1682.28,
@@ -1858,6 +1911,7 @@
   {
    "key": "i:a:Notre cabinet#1",
    "role": "a",
+   "zone": "footer",
    "text": "Notre cabinet",
    "x": 48,
    "y": 1720.69,
@@ -1885,6 +1939,7 @@
   {
    "key": "i:a:Rendez-vous, accès & honoraires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "x": 48,
    "y": 1759.09,
@@ -1912,6 +1967,7 @@
   {
    "key": "i:a:Nos affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Nos affaires",
    "x": 48,
    "y": 1797.5,
@@ -1939,6 +1995,7 @@
   {
    "key": "i:a:Ressources#2",
    "role": "a",
+   "zone": "footer",
    "text": "Ressources",
    "x": 48,
    "y": 1835.91,
@@ -1966,6 +2023,7 @@
   {
    "key": "i:a:Mentions légales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Mentions légales",
    "x": 48,
    "y": 1874.31,
@@ -1993,6 +2051,7 @@
   {
    "key": "i:a:Défense Pénale#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense Pénale",
    "x": 337.64,
    "y": 1643.88,
@@ -2020,6 +2079,7 @@
   {
    "key": "i:a:Droit pénal#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal",
    "x": 337.64,
    "y": 1682.28,
@@ -2047,6 +2107,7 @@
   {
    "key": "i:a:Procès criminels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Procès criminels",
    "x": 337.64,
    "y": 1720.69,
@@ -2074,6 +2135,7 @@
   {
    "key": "i:a:Trafic de stupéfiants#1",
    "role": "a",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "x": 337.64,
    "y": 1759.09,
@@ -2101,6 +2163,7 @@
   {
    "key": "i:a:Violences conjugales et féminicides#1",
    "role": "a",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "x": 337.64,
    "y": 1797.5,
@@ -2128,6 +2191,7 @@
   {
    "key": "i:a:Droit pénal des affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "x": 337.64,
    "y": 1835.91,
@@ -2155,6 +2219,7 @@
   {
    "key": "i:a:Indemnisation des victimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "x": 643.03,
    "y": 1643.88,
@@ -2182,6 +2247,7 @@
   {
    "key": "i:a:Victimes de délits ou crimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "x": 643.03,
    "y": 1682.28,
@@ -2209,6 +2275,7 @@
   {
    "key": "i:a:Accidents de la route#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la route",
    "x": 643.03,
    "y": 1720.69,
@@ -2236,6 +2303,7 @@
   {
    "key": "i:a:Droit et accidents du travail#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "x": 643.03,
    "y": 1759.09,
@@ -2263,6 +2331,7 @@
   {
    "key": "i:a:Accidents et erreurs médicales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "x": 643.03,
    "y": 1797.5,
@@ -2290,6 +2359,7 @@
   {
    "key": "i:a:Accidents de la vie courante#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "x": 643.03,
    "y": 1835.91,
@@ -2317,6 +2387,7 @@
   {
    "key": "i:a:Droit des contrats et des personnes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "x": 920.52,
    "y": 1643.88,
@@ -2344,6 +2415,7 @@
   {
    "key": "i:a:Droit des assurances particuliers et professionnels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "x": 920.52,
    "y": 1682.28,
@@ -2371,6 +2443,7 @@
   {
    "key": "i:a:Défense des consommateurs#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "x": 920.52,
    "y": 1720.69,
@@ -2398,6 +2471,7 @@
   {
    "key": "i:a:Droit de la famille#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit de la famille",
    "x": 920.52,
    "y": 1759.09,
@@ -2425,6 +2499,7 @@
   {
    "key": "i:a:Divorce#1",
    "role": "a",
+   "zone": "footer",
    "text": "Divorce",
    "x": 920.52,
    "y": 1797.5,
@@ -2452,6 +2527,7 @@
   {
    "key": "i:a:05 56 44 35 96#1",
    "role": "a",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "x": 48,
    "y": 1399.88,
@@ -2479,6 +2555,7 @@
   {
    "key": "i:a:Contact & RDV#2",
    "role": "a",
+   "zone": "footer",
    "text": "Contact & RDV",
    "x": 186.33,
    "y": 1399.88,
@@ -2506,6 +2583,7 @@
   {
    "key": "i:a:15 Pl. Sainte-Eulalie, 33000 Bordeaux#1",
    "role": "a",
+   "zone": "footer",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "x": 49.91,
    "y": 1307.38,

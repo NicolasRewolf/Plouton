@@ -1,6 +1,6 @@
 {
  "meta": {
-  "url": "https://www.jplouton-avocat.fr/notre-cabinet?cooked_aid=u3impfqg6mrpijelaoqhcsaz25ramrpijela&cooked_sid=0f2b35fjfmcmmrpijela",
+  "url": "https://www.jplouton-avocat.fr/notre-cabinet?cooked_aid=1f988eancgtjmrq3utokmzbzdr87o4mrq3utok&cooked_sid=g7crock7vbhmrq3utok",
   "pageHeight": 9231,
   "viewportW": 375,
   "viewportH": 812,
@@ -14,12 +14,13 @@
   "viewportId": "375",
   "target": "live",
   "origin": "https://www.jplouton-avocat.fr",
-  "capturedAt": "2026-07-17T22:32:10.153Z"
+  "capturedAt": "2026-07-18T08:28:54.862Z"
  },
  "blocks": [
   {
    "key": "b:p:Search#1",
    "role": "p",
+   "zone": "header",
    "text": "Search",
    "fullTextLen": 6,
    "x": 172.48,
@@ -56,6 +57,7 @@
   {
    "key": "b:p:Menu mobile - burger#1",
    "role": "p",
+   "zone": "header",
    "text": "Menu mobile - burger",
    "fullTextLen": 20,
    "x": 328.98,
@@ -92,6 +94,7 @@
   {
    "key": "b:p:Avocat Fondateur#1",
    "role": "p",
+   "zone": "main",
    "text": "Avocat Fondateur",
    "fullTextLen": 16,
    "x": 16,
@@ -128,6 +131,7 @@
   {
    "key": "b:h2:Me Julien Plouton#1",
    "role": "h2",
+   "zone": "main",
    "text": "Me Julien Plouton",
    "fullTextLen": 17,
    "x": 16,
@@ -164,6 +168,7 @@
   {
    "key": "b:p:Maître Plouton, diplômé de l’EFB (Ecole de Formation du Barreau de Paris) a prêt#1",
    "role": "p",
+   "zone": "main",
    "text": "Maître Plouton, diplômé de l’EFB (Ecole de Formation du Barreau de Paris) a prêt",
    "fullTextLen": 977,
    "x": 16,
@@ -200,6 +205,7 @@
   {
    "key": "b:p:Avocate associée#1",
    "role": "p",
+   "zone": "main",
    "text": "Avocate associée",
    "fullTextLen": 16,
    "x": 16,
@@ -236,6 +242,7 @@
   {
    "key": "b:h2:Me Mathilde Manson#1",
    "role": "h2",
+   "zone": "main",
    "text": "Me Mathilde Manson",
    "fullTextLen": 18,
    "x": 16,
@@ -272,6 +279,7 @@
   {
    "key": "b:p:Maître Mathilde Manson a suivi un cursus pénaliste et processualiste, validé par#1",
    "role": "p",
+   "zone": "main",
    "text": "Maître Mathilde Manson a suivi un cursus pénaliste et processualiste, validé par",
    "fullTextLen": 725,
    "x": 16,
@@ -308,6 +316,7 @@
   {
    "key": "b:p:Avocat collaborateur#1",
    "role": "p",
+   "zone": "main",
    "text": "Avocat collaborateur",
    "fullTextLen": 20,
    "x": 16,
@@ -344,6 +353,7 @@
   {
    "key": "b:h2:Me Andéol Brachanet#1",
    "role": "h2",
+   "zone": "main",
    "text": "Me Andéol Brachanet",
    "fullTextLen": 19,
    "x": 16,
@@ -380,6 +390,7 @@
   {
    "key": "b:p:Animé par la passion de défendre, Andéol Brachanet a prêté serment en 2019. Il p#1",
    "role": "p",
+   "zone": "main",
    "text": "Animé par la passion de défendre, Andéol Brachanet a prêté serment en 2019. Il p",
    "fullTextLen": 410,
    "x": 16,
@@ -416,6 +427,7 @@
   {
    "key": "b:p:Avocate collaboratrice#1",
    "role": "p",
+   "zone": "main",
    "text": "Avocate collaboratrice",
    "fullTextLen": 22,
    "x": 16,
@@ -452,6 +464,7 @@
   {
    "key": "b:h2:Me Jade Adil#1",
    "role": "h2",
+   "zone": "main",
    "text": "Me Jade Adil",
    "fullTextLen": 12,
    "x": 16,
@@ -488,6 +501,7 @@
   {
    "key": "b:p:Maître Jade Adil a rejoint le cabinet en qualité de collaboratrice après avoir p#1",
    "role": "p",
+   "zone": "main",
    "text": "Maître Jade Adil a rejoint le cabinet en qualité de collaboratrice après avoir p",
    "fullTextLen": 745,
    "x": 16,
@@ -524,6 +538,7 @@
   {
    "key": "b:p:Avocate collaboratrice#2",
    "role": "p",
+   "zone": "main",
    "text": "Avocate collaboratrice",
    "fullTextLen": 22,
    "x": 16,
@@ -560,6 +575,7 @@
   {
    "key": "b:h2:Axelle Fesneau#1",
    "role": "h2",
+   "zone": "main",
    "text": "Axelle Fesneau",
    "fullTextLen": 14,
    "x": 16,
@@ -596,6 +612,7 @@
   {
    "key": "b:p:Axelle Fesneau a rejoint le cabinet dans le cadre de son stage final à l’École d#1",
    "role": "p",
+   "zone": "main",
    "text": "Axelle Fesneau a rejoint le cabinet dans le cadre de son stage final à l’École d",
    "fullTextLen": 549,
    "x": 16,
@@ -632,6 +649,7 @@
   {
    "key": "b:p:Assistante juridique#1",
    "role": "p",
+   "zone": "main",
    "text": "Assistante juridique",
    "fullTextLen": 20,
    "x": 16,
@@ -668,6 +686,7 @@
   {
    "key": "b:h2:Alexia Simonini#1",
    "role": "h2",
+   "zone": "main",
    "text": "Alexia Simonini",
    "fullTextLen": 15,
    "x": 16,
@@ -704,6 +723,7 @@
   {
    "key": "b:p:Alexia Simonini est diplômée de l’Ecole Nationale de droit et de procédure pour #1",
    "role": "p",
+   "zone": "main",
    "text": "Alexia Simonini est diplômée de l’Ecole Nationale de droit et de procédure pour ",
    "fullTextLen": 509,
    "x": 16,
@@ -740,6 +760,7 @@
   {
    "key": "b:p:4,6/5 étoiles (193 avis) sur Google#1",
    "role": "p",
+   "zone": "main",
    "text": "4,6/5 étoiles (193 avis) sur Google",
    "fullTextLen": 35,
    "x": 101,
@@ -776,6 +797,7 @@
   {
    "key": "b:h1:Notre équipe d'avocats — Cabinet Plouton#1",
    "role": "h1",
+   "zone": "main",
    "text": "Notre équipe d'avocats — Cabinet Plouton",
    "fullTextLen": 40,
    "x": 16,
@@ -812,6 +834,7 @@
   {
    "key": "b:p:Animé par la passion de défendre depuis 2005, Maître Julien PLOUTON a créé son p#1",
    "role": "p",
+   "zone": "main",
    "text": "Animé par la passion de défendre depuis 2005, Maître Julien PLOUTON a créé son p",
    "fullTextLen": 277,
    "x": 16,
@@ -848,6 +871,7 @@
   {
    "key": "b:p:​#1",
    "role": "p",
+   "zone": "main",
    "text": "​",
    "fullTextLen": 1,
    "x": 16,
@@ -884,6 +908,7 @@
   {
    "key": "b:p:Attaché à nouer une relation privilégiée avec chacune des personnes qu’il accomp#1",
    "role": "p",
+   "zone": "main",
    "text": "Attaché à nouer une relation privilégiée avec chacune des personnes qu’il accomp",
    "fullTextLen": 278,
    "x": 16,
@@ -920,6 +945,7 @@
   {
    "key": "b:p:Je prends rendez-vous#1",
    "role": "p",
+   "zone": "main",
    "text": "Je prends rendez-vous",
    "fullTextLen": 21,
    "x": 106.72,
@@ -956,6 +982,7 @@
   {
    "key": "b:p:© Site web imaginé par l'agence REWOLF | rewolf.studio#1",
    "role": "p",
+   "zone": "footer",
    "text": "© Site web imaginé par l'agence REWOLF | rewolf.studio",
    "fullTextLen": 54,
    "x": 11.75,
@@ -992,6 +1019,7 @@
   {
    "key": "b:p:Menu#1",
    "role": "p",
+   "zone": "footer",
    "text": "Menu",
    "fullTextLen": 4,
    "x": 12.5,
@@ -1028,6 +1056,7 @@
   {
    "key": "b:p:Accueil#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accueil",
    "fullTextLen": 7,
    "x": 13,
@@ -1064,6 +1093,7 @@
   {
    "key": "b:p:Notre cabinet#1",
    "role": "p",
+   "zone": "footer",
    "text": "Notre cabinet",
    "fullTextLen": 13,
    "x": 13,
@@ -1100,6 +1130,7 @@
   {
    "key": "b:p:Rendez-vous, accès & honoraires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "fullTextLen": 31,
    "x": 13,
@@ -1136,6 +1167,7 @@
   {
    "key": "b:p:Nos affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Nos affaires",
    "fullTextLen": 12,
    "x": 13,
@@ -1172,6 +1204,7 @@
   {
    "key": "b:p:Ressources#1",
    "role": "p",
+   "zone": "footer",
    "text": "Ressources",
    "fullTextLen": 10,
    "x": 13,
@@ -1208,6 +1241,7 @@
   {
    "key": "b:p:Mentions légales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Mentions légales",
    "fullTextLen": 16,
    "x": 13,
@@ -1244,6 +1278,7 @@
   {
    "key": "b:p:Défense Pénale#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense Pénale",
    "fullTextLen": 14,
    "x": 11.5,
@@ -1280,6 +1315,7 @@
   {
    "key": "b:p:Droit pénal#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal",
    "fullTextLen": 11,
    "x": 12,
@@ -1316,6 +1352,7 @@
   {
    "key": "b:p:Procès criminels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Procès criminels",
    "fullTextLen": 16,
    "x": 12,
@@ -1352,6 +1389,7 @@
   {
    "key": "b:p:Trafic de stupéfiants#1",
    "role": "p",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "fullTextLen": 21,
    "x": 12,
@@ -1388,6 +1426,7 @@
   {
    "key": "b:p:Violences conjugales et féminicides#1",
    "role": "p",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "fullTextLen": 35,
    "x": 12,
@@ -1424,6 +1463,7 @@
   {
    "key": "b:p:Droit pénal des affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "fullTextLen": 24,
    "x": 12,
@@ -1460,6 +1500,7 @@
   {
    "key": "b:p:Indemnisation des victimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "fullTextLen": 26,
    "x": 12,
@@ -1496,6 +1537,7 @@
   {
    "key": "b:p:Victimes de délits ou crimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "fullTextLen": 28,
    "x": 12.5,
@@ -1532,6 +1574,7 @@
   {
    "key": "b:p:Accidents de la route#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la route",
    "fullTextLen": 21,
    "x": 12.5,
@@ -1568,6 +1611,7 @@
   {
    "key": "b:p:Droit et accidents du travail#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "fullTextLen": 29,
    "x": 12.5,
@@ -1604,6 +1648,7 @@
   {
    "key": "b:p:Accidents et erreurs médicales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "fullTextLen": 30,
    "x": 12.5,
@@ -1640,6 +1685,7 @@
   {
    "key": "b:p:Accidents de la vie courante#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "fullTextLen": 28,
    "x": 12.5,
@@ -1676,6 +1722,7 @@
   {
    "key": "b:p:Droit des contrats et des personnes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "fullTextLen": 35,
    "x": 12,
@@ -1712,6 +1759,7 @@
   {
    "key": "b:p:Droit des assurances particuliers et professionnels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "fullTextLen": 51,
    "x": 12.5,
@@ -1748,6 +1796,7 @@
   {
    "key": "b:p:Défense des consommateurs#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "fullTextLen": 25,
    "x": 12.5,
@@ -1784,6 +1833,7 @@
   {
    "key": "b:p:Droit de la famille#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit de la famille",
    "fullTextLen": 19,
    "x": 12.5,
@@ -1820,6 +1870,7 @@
   {
    "key": "b:p:Divorce#1",
    "role": "p",
+   "zone": "footer",
    "text": "Divorce",
    "fullTextLen": 7,
    "x": 12.5,
@@ -1856,6 +1907,7 @@
   {
    "key": "b:p:05 56 44 35 96#1",
    "role": "p",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "fullTextLen": 14,
    "x": 23,
@@ -1892,6 +1944,7 @@
   {
    "key": "b:p:Contact & RDV#1",
    "role": "p",
+   "zone": "footer",
    "text": "Contact & RDV",
    "fullTextLen": 13,
    "x": 161.33,
@@ -1928,6 +1981,7 @@
   {
    "key": "b:p:Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R#1",
    "role": "p",
+   "zone": "footer",
    "text": "Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R",
    "fullTextLen": 136,
    "x": 12.5,
@@ -1964,6 +2018,7 @@
   {
    "key": "b:p:Contact#1",
    "role": "p",
+   "zone": "footer",
    "text": "Contact",
    "fullTextLen": 7,
    "x": 12,
@@ -2002,6 +2057,7 @@
   {
    "key": "i:button:Search#1",
    "role": "button",
+   "zone": "header",
    "text": "Search",
    "x": 172.48,
    "y": 15,
@@ -2029,6 +2085,7 @@
   {
    "key": "i:button:Menu mobile - burger#1",
    "role": "button",
+   "zone": "header",
    "text": "Menu mobile - burger",
    "x": 328.98,
    "y": 20,
@@ -2056,6 +2113,7 @@
   {
    "key": "i:a:4,6/5 étoiles (193 avis) sur Google#1",
    "role": "a",
+   "zone": "main",
    "text": "4,6/5 étoiles (193 avis) sur Google",
    "x": 101,
    "y": 111,
@@ -2083,6 +2141,7 @@
   {
    "key": "i:a:Je prends rendez-vous#1",
    "role": "a",
+   "zone": "main",
    "text": "Je prends rendez-vous",
    "x": 90.72,
    "y": 543.47,
@@ -2110,6 +2169,7 @@
   {
    "key": "i:a:REWOLF | rewolf.studio#1",
    "role": "a",
+   "zone": "footer",
    "text": "REWOLF | rewolf.studio",
    "x": 174.3,
    "y": 9098.83,
@@ -2137,6 +2197,7 @@
   {
    "key": "i:a:Accueil#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accueil",
    "x": 13,
    "y": 7997.73,
@@ -2164,6 +2225,7 @@
   {
    "key": "i:a:Notre cabinet#1",
    "role": "a",
+   "zone": "footer",
    "text": "Notre cabinet",
    "x": 13,
    "y": 8035.14,
@@ -2191,6 +2253,7 @@
   {
    "key": "i:a:Rendez-vous, accès & honoraires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "x": 13,
    "y": 8072.55,
@@ -2218,6 +2281,7 @@
   {
    "key": "i:a:Nos affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Nos affaires",
    "x": 13,
    "y": 8109.95,
@@ -2245,6 +2309,7 @@
   {
    "key": "i:a:Ressources#1",
    "role": "a",
+   "zone": "footer",
    "text": "Ressources",
    "x": 13,
    "y": 8147.36,
@@ -2272,6 +2337,7 @@
   {
    "key": "i:a:Mentions légales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Mentions légales",
    "x": 13,
    "y": 8184.77,
@@ -2299,6 +2365,7 @@
   {
    "key": "i:a:Défense Pénale#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense Pénale",
    "x": 11.5,
    "y": 8558.41,
@@ -2326,6 +2393,7 @@
   {
    "key": "i:a:Droit pénal#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal",
    "x": 12,
    "y": 8608.61,
@@ -2353,6 +2421,7 @@
   {
    "key": "i:a:Procès criminels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Procès criminels",
    "x": 12,
    "y": 8646.02,
@@ -2380,6 +2449,7 @@
   {
    "key": "i:a:Trafic de stupéfiants#1",
    "role": "a",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "x": 12,
    "y": 8683.42,
@@ -2407,6 +2477,7 @@
   {
    "key": "i:a:Violences conjugales et féminicides#1",
    "role": "a",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "x": 12,
    "y": 8720.83,
@@ -2434,6 +2505,7 @@
   {
    "key": "i:a:Droit pénal des affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "x": 12,
    "y": 8758.23,
@@ -2461,6 +2533,7 @@
   {
    "key": "i:a:Indemnisation des victimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "x": 12,
    "y": 8271.67,
@@ -2488,6 +2561,7 @@
   {
    "key": "i:a:Victimes de délits ou crimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "x": 12.5,
    "y": 8321.88,
@@ -2515,6 +2589,7 @@
   {
    "key": "i:a:Accidents de la route#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la route",
    "x": 12.5,
    "y": 8359.28,
@@ -2542,6 +2617,7 @@
   {
    "key": "i:a:Droit et accidents du travail#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "x": 12.5,
    "y": 8396.69,
@@ -2569,6 +2645,7 @@
   {
    "key": "i:a:Accidents et erreurs médicales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "x": 12.5,
    "y": 8434.09,
@@ -2596,6 +2673,7 @@
   {
    "key": "i:a:Accidents de la vie courante#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "x": 12.5,
    "y": 8471.5,
@@ -2623,6 +2701,7 @@
   {
    "key": "i:a:Droit des contrats et des personnes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "x": 12,
    "y": 8845.64,
@@ -2650,6 +2729,7 @@
   {
    "key": "i:a:Droit des assurances particuliers et professionnels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "x": 12.5,
    "y": 8895.84,
@@ -2677,6 +2757,7 @@
   {
    "key": "i:a:Défense des consommateurs#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "x": 12.5,
    "y": 8933.25,
@@ -2704,6 +2785,7 @@
   {
    "key": "i:a:Droit de la famille#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit de la famille",
    "x": 12.5,
    "y": 8970.66,
@@ -2731,6 +2813,7 @@
   {
    "key": "i:a:Divorce#1",
    "role": "a",
+   "zone": "footer",
    "text": "Divorce",
    "x": 12.5,
    "y": 9008.06,
@@ -2758,6 +2841,7 @@
   {
    "key": "i:a:05 56 44 35 96#1",
    "role": "a",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "x": 12,
    "y": 7454.03,
@@ -2785,6 +2869,7 @@
   {
    "key": "i:a:Contact & RDV#1",
    "role": "a",
+   "zone": "footer",
    "text": "Contact & RDV",
    "x": 150.33,
    "y": 7454.03,
@@ -2812,6 +2897,7 @@
   {
    "key": "i:a:15 Pl. Sainte-Eulalie, 33000 Bordeaux#1",
    "role": "a",
+   "zone": "footer",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "x": 12.5,
    "y": 7375.53,
@@ -2841,6 +2927,7 @@
   {
    "key": "img:img:d05c9e_0ed300b22462422cb1e93c6c5bb0d351#1",
    "anchor": "d05c9e_0ed300b22462422cb1e93c6c5bb0d351",
+   "zone": "main",
    "alt": "divorce v2.jpg",
    "x": 16,
    "y": 633.47,
@@ -2856,6 +2943,7 @@
   {
    "key": "img:img:d05c9e_d2e0f1c6293f48328556677c74ed7160#1",
    "anchor": "d05c9e_d2e0f1c6293f48328556677c74ed7160",
+   "zone": "main",
    "alt": "Me Julien Plouton",
    "x": 16,
    "y": 1087.47,
@@ -2871,6 +2959,7 @@
   {
    "key": "img:img:d05c9e_3da79c3d06024ca9bfbe9df39a7eb414#1",
    "anchor": "d05c9e_3da79c3d06024ca9bfbe9df39a7eb414",
+   "zone": "main",
    "alt": "Me Mathilde Manson",
    "x": 16,
    "y": 2227,
@@ -2886,6 +2975,7 @@
   {
    "key": "img:img:d05c9e_89c8ff1a1f7a4017b3b3f749415a0a8c#1",
    "anchor": "d05c9e_89c8ff1a1f7a4017b3b3f749415a0a8c",
+   "zone": "main",
    "alt": "Me Andéol Brachanet",
    "x": 16,
    "y": 3254.5,
@@ -2901,6 +2991,7 @@
   {
    "key": "img:img:d05c9e_990cba964710453dba10a7ef7c77125a#1",
    "anchor": "d05c9e_990cba964710453dba10a7ef7c77125a",
+   "zone": "main",
    "alt": "Me Jade Adil",
    "x": 16,
    "y": 4125.16,
@@ -2916,6 +3007,7 @@
   {
    "key": "img:img:d05c9e_334031009a2b423db220803f0458060d#1",
    "anchor": "d05c9e_334031009a2b423db220803f0458060d",
+   "zone": "main",
    "alt": "Axelle Fesneau",
    "x": 16,
    "y": 5219.88,
@@ -2931,6 +3023,7 @@
   {
    "key": "img:img:d05c9e_f8ee99c42a06491f880fc0edc7347045#1",
    "anchor": "d05c9e_f8ee99c42a06491f880fc0edc7347045",
+   "zone": "main",
    "alt": "Alexia Simonini",
    "x": 16,
    "y": 6157.75,
@@ -2946,6 +3039,7 @@
   {
    "key": "img:img:d05c9e_cf0a4239b5a9454e84a5a2081f17aa95#1",
    "anchor": "d05c9e_cf0a4239b5a9454e84a5a2081f17aa95",
+   "zone": "main",
    "alt": "google_g_icon_download.png",
    "x": 16,
    "y": 96,

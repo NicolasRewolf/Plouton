@@ -1,6 +1,6 @@
 {
  "meta": {
-  "url": "https://www.jplouton-avocat.fr/mentions-legales?cooked_aid=lh5emelmxznmrpiknjnw11nychxhx7mrpiknjn&cooked_sid=pcmphpl9himrpiknjn",
+  "url": "https://www.jplouton-avocat.fr/mentions-legales?cooked_aid=or19cbnj1imrq3vge3moy53fpf9uhmrq3vge3&cooked_sid=xgu156md3qlmrq3vge3",
   "pageHeight": 3684,
   "viewportW": 375,
   "viewportH": 812,
@@ -14,12 +14,13 @@
   "viewportId": "375",
   "target": "live",
   "origin": "https://www.jplouton-avocat.fr",
-  "capturedAt": "2026-07-17T22:33:06.524Z"
+  "capturedAt": "2026-07-18T08:29:22.391Z"
  },
  "blocks": [
   {
    "key": "b:p:Search#1",
    "role": "p",
+   "zone": "header",
    "text": "Search",
    "fullTextLen": 6,
    "x": 172.48,
@@ -56,6 +57,7 @@
   {
    "key": "b:p:Menu mobile - burger#1",
    "role": "p",
+   "zone": "header",
    "text": "Menu mobile - burger",
    "fullTextLen": 20,
    "x": 328.98,
@@ -92,6 +94,7 @@
   {
    "key": "b:p:Éditeur Ce site Internet est la propriété du Cabinet d’Avocats Julien Plouton. C#1",
    "role": "p",
+   "zone": "main",
    "text": "Éditeur Ce site Internet est la propriété du Cabinet d’Avocats Julien Plouton. C",
    "fullTextLen": 284,
    "x": 24,
@@ -128,6 +131,7 @@
   {
    "key": "b:p:Directeur de la publication M. Julien PLOUTON#1",
    "role": "p",
+   "zone": "main",
    "text": "Directeur de la publication M. Julien PLOUTON",
    "fullTextLen": 45,
    "x": 24,
@@ -164,6 +168,7 @@
   {
    "key": "b:p:Design & développement Agence REWOLF 33000 Bordeaux, France 0631621776#1",
    "role": "p",
+   "zone": "main",
    "text": "Design & développement Agence REWOLF 33000 Bordeaux, France 0631621776",
    "fullTextLen": 70,
    "x": 24,
@@ -200,6 +205,7 @@
   {
    "key": "b:p:https://www.rewolf.studio/ Propriété intellectuelle Le contenu de ce site Web es#1",
    "role": "p",
+   "zone": "main",
    "text": "https://www.rewolf.studio/ Propriété intellectuelle Le contenu de ce site Web es",
    "fullTextLen": 609,
    "x": 24,
@@ -236,6 +242,7 @@
   {
    "key": "b:p:Liens Hypertextes Les pages de ce site Web pourront présenter des liens avec d’a#1",
    "role": "p",
+   "zone": "main",
    "text": "Liens Hypertextes Les pages de ce site Web pourront présenter des liens avec d’a",
    "fullTextLen": 421,
    "x": 24,
@@ -272,6 +279,7 @@
   {
    "key": "b:p:Responsabilités Le Cabinet d’Avocats Julien Plouton ne pourra être tenu responsa#1",
    "role": "p",
+   "zone": "main",
    "text": "Responsabilités Le Cabinet d’Avocats Julien Plouton ne pourra être tenu responsa",
    "fullTextLen": 413,
    "x": 24,
@@ -308,6 +316,7 @@
   {
    "key": "b:p:Protection des données personnelles Ce site Web est en cours de déclaration aupr#1",
    "role": "p",
+   "zone": "main",
    "text": "Protection des données personnelles Ce site Web est en cours de déclaration aupr",
    "fullTextLen": 713,
    "x": 24,
@@ -344,6 +353,7 @@
   {
    "key": "b:p:Pour l’exercer, adressez-vous à : Cabinet d’Avocats Julien Plouton, 15 Pl. Saint#1",
    "role": "p",
+   "zone": "main",
    "text": "Pour l’exercer, adressez-vous à : Cabinet d’Avocats Julien Plouton, 15 Pl. Saint",
    "fullTextLen": 105,
    "x": 24,
@@ -380,6 +390,7 @@
   {
    "key": "b:p:© Site web imaginé par l'agence REWOLF | rewolf.studio#1",
    "role": "p",
+   "zone": "footer",
    "text": "© Site web imaginé par l'agence REWOLF | rewolf.studio",
    "fullTextLen": 54,
    "x": 11.75,
@@ -416,6 +427,7 @@
   {
    "key": "b:p:Menu#1",
    "role": "p",
+   "zone": "footer",
    "text": "Menu",
    "fullTextLen": 4,
    "x": 12.5,
@@ -452,6 +464,7 @@
   {
    "key": "b:p:Accueil#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accueil",
    "fullTextLen": 7,
    "x": 13,
@@ -488,6 +501,7 @@
   {
    "key": "b:p:Notre cabinet#1",
    "role": "p",
+   "zone": "footer",
    "text": "Notre cabinet",
    "fullTextLen": 13,
    "x": 13,
@@ -524,6 +538,7 @@
   {
    "key": "b:p:Rendez-vous, accès & honoraires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "fullTextLen": 31,
    "x": 13,
@@ -560,6 +575,7 @@
   {
    "key": "b:p:Nos affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Nos affaires",
    "fullTextLen": 12,
    "x": 13,
@@ -596,6 +612,7 @@
   {
    "key": "b:p:Ressources#1",
    "role": "p",
+   "zone": "footer",
    "text": "Ressources",
    "fullTextLen": 10,
    "x": 13,
@@ -632,6 +649,7 @@
   {
    "key": "b:p:Mentions légales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Mentions légales",
    "fullTextLen": 16,
    "x": 13,
@@ -668,6 +686,7 @@
   {
    "key": "b:p:Défense Pénale#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense Pénale",
    "fullTextLen": 14,
    "x": 11.5,
@@ -704,6 +723,7 @@
   {
    "key": "b:p:Droit pénal#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal",
    "fullTextLen": 11,
    "x": 12,
@@ -740,6 +760,7 @@
   {
    "key": "b:p:Procès criminels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Procès criminels",
    "fullTextLen": 16,
    "x": 12,
@@ -776,6 +797,7 @@
   {
    "key": "b:p:Trafic de stupéfiants#1",
    "role": "p",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "fullTextLen": 21,
    "x": 12,
@@ -812,6 +834,7 @@
   {
    "key": "b:p:Violences conjugales et féminicides#1",
    "role": "p",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "fullTextLen": 35,
    "x": 12,
@@ -848,6 +871,7 @@
   {
    "key": "b:p:Droit pénal des affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "fullTextLen": 24,
    "x": 12,
@@ -884,6 +908,7 @@
   {
    "key": "b:p:Indemnisation des victimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "fullTextLen": 26,
    "x": 12,
@@ -920,6 +945,7 @@
   {
    "key": "b:p:Victimes de délits ou crimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "fullTextLen": 28,
    "x": 12.5,
@@ -956,6 +982,7 @@
   {
    "key": "b:p:Accidents de la route#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la route",
    "fullTextLen": 21,
    "x": 12.5,
@@ -992,6 +1019,7 @@
   {
    "key": "b:p:Droit et accidents du travail#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "fullTextLen": 29,
    "x": 12.5,
@@ -1028,6 +1056,7 @@
   {
    "key": "b:p:Accidents et erreurs médicales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "fullTextLen": 30,
    "x": 12.5,
@@ -1064,6 +1093,7 @@
   {
    "key": "b:p:Accidents de la vie courante#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "fullTextLen": 28,
    "x": 12.5,
@@ -1100,6 +1130,7 @@
   {
    "key": "b:p:Droit des contrats et des personnes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "fullTextLen": 35,
    "x": 12,
@@ -1136,6 +1167,7 @@
   {
    "key": "b:p:Droit des assurances particuliers et professionnels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "fullTextLen": 51,
    "x": 12.5,
@@ -1172,6 +1204,7 @@
   {
    "key": "b:p:Défense des consommateurs#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "fullTextLen": 25,
    "x": 12.5,
@@ -1208,6 +1241,7 @@
   {
    "key": "b:p:Droit de la famille#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit de la famille",
    "fullTextLen": 19,
    "x": 12.5,
@@ -1244,6 +1278,7 @@
   {
    "key": "b:p:Divorce#1",
    "role": "p",
+   "zone": "footer",
    "text": "Divorce",
    "fullTextLen": 7,
    "x": 12.5,
@@ -1280,6 +1315,7 @@
   {
    "key": "b:p:05 56 44 35 96#1",
    "role": "p",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "fullTextLen": 14,
    "x": 23,
@@ -1316,6 +1352,7 @@
   {
    "key": "b:p:Contact & RDV#1",
    "role": "p",
+   "zone": "footer",
    "text": "Contact & RDV",
    "fullTextLen": 13,
    "x": 161.33,
@@ -1352,6 +1389,7 @@
   {
    "key": "b:p:Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R#1",
    "role": "p",
+   "zone": "footer",
    "text": "Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R",
    "fullTextLen": 136,
    "x": 12.5,
@@ -1388,6 +1426,7 @@
   {
    "key": "b:p:Contact#1",
    "role": "p",
+   "zone": "footer",
    "text": "Contact",
    "fullTextLen": 7,
    "x": 12,
@@ -1426,6 +1465,7 @@
   {
    "key": "i:button:Search#1",
    "role": "button",
+   "zone": "header",
    "text": "Search",
    "x": 172.48,
    "y": 15,
@@ -1453,6 +1493,7 @@
   {
    "key": "i:button:Menu mobile - burger#1",
    "role": "button",
+   "zone": "header",
    "text": "Menu mobile - burger",
    "x": 328.98,
    "y": 20,
@@ -1480,6 +1521,7 @@
   {
    "key": "i:a:Cabinet d’Avocats Julien Plouton#1",
    "role": "a",
+   "zone": "main",
    "text": "Cabinet d’Avocats Julien Plouton",
    "x": 24,
    "y": 47.41,
@@ -1507,6 +1549,7 @@
   {
    "key": "i:a:15 Pl. Sainte-Eulalie, 33000 Bordeaux#1",
    "role": "a",
+   "zone": "main",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "x": 118.47,
    "y": 137.03,
@@ -1534,6 +1577,7 @@
   {
    "key": "i:a:https://www.rewolf.studio/#1",
    "role": "a",
+   "zone": "main",
    "text": "https://www.rewolf.studio/",
    "x": 24,
    "y": 338.69,
@@ -1561,6 +1605,7 @@
   {
    "key": "i:a:15 Pl. Sainte-Eulalie, 33000 Bordeaux#2",
    "role": "a",
+   "zone": "main",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "x": 24,
    "y": 1526.22,
@@ -1588,6 +1633,7 @@
   {
    "key": "i:a:REWOLF | rewolf.studio#1",
    "role": "a",
+   "zone": "footer",
    "text": "REWOLF | rewolf.studio",
    "x": 174.3,
    "y": 3551.33,
@@ -1615,6 +1661,7 @@
   {
    "key": "i:a:Accueil#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accueil",
    "x": 13,
    "y": 2450.23,
@@ -1642,6 +1689,7 @@
   {
    "key": "i:a:Notre cabinet#1",
    "role": "a",
+   "zone": "footer",
    "text": "Notre cabinet",
    "x": 13,
    "y": 2487.64,
@@ -1669,6 +1717,7 @@
   {
    "key": "i:a:Rendez-vous, accès & honoraires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "x": 13,
    "y": 2525.05,
@@ -1696,6 +1745,7 @@
   {
    "key": "i:a:Nos affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Nos affaires",
    "x": 13,
    "y": 2562.45,
@@ -1723,6 +1773,7 @@
   {
    "key": "i:a:Ressources#1",
    "role": "a",
+   "zone": "footer",
    "text": "Ressources",
    "x": 13,
    "y": 2599.86,
@@ -1750,6 +1801,7 @@
   {
    "key": "i:a:Mentions légales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Mentions légales",
    "x": 13,
    "y": 2637.27,
@@ -1777,6 +1829,7 @@
   {
    "key": "i:a:Défense Pénale#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense Pénale",
    "x": 11.5,
    "y": 3010.91,
@@ -1804,6 +1857,7 @@
   {
    "key": "i:a:Droit pénal#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal",
    "x": 12,
    "y": 3061.11,
@@ -1831,6 +1885,7 @@
   {
    "key": "i:a:Procès criminels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Procès criminels",
    "x": 12,
    "y": 3098.52,
@@ -1858,6 +1913,7 @@
   {
    "key": "i:a:Trafic de stupéfiants#1",
    "role": "a",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "x": 12,
    "y": 3135.92,
@@ -1885,6 +1941,7 @@
   {
    "key": "i:a:Violences conjugales et féminicides#1",
    "role": "a",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "x": 12,
    "y": 3173.33,
@@ -1912,6 +1969,7 @@
   {
    "key": "i:a:Droit pénal des affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "x": 12,
    "y": 3210.73,
@@ -1939,6 +1997,7 @@
   {
    "key": "i:a:Indemnisation des victimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "x": 12,
    "y": 2724.17,
@@ -1966,6 +2025,7 @@
   {
    "key": "i:a:Victimes de délits ou crimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "x": 12.5,
    "y": 2774.38,
@@ -1993,6 +2053,7 @@
   {
    "key": "i:a:Accidents de la route#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la route",
    "x": 12.5,
    "y": 2811.78,
@@ -2020,6 +2081,7 @@
   {
    "key": "i:a:Droit et accidents du travail#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "x": 12.5,
    "y": 2849.19,
@@ -2047,6 +2109,7 @@
   {
    "key": "i:a:Accidents et erreurs médicales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "x": 12.5,
    "y": 2886.59,
@@ -2074,6 +2137,7 @@
   {
    "key": "i:a:Accidents de la vie courante#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "x": 12.5,
    "y": 2924,
@@ -2101,6 +2165,7 @@
   {
    "key": "i:a:Droit des contrats et des personnes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "x": 12,
    "y": 3298.14,
@@ -2128,6 +2193,7 @@
   {
    "key": "i:a:Droit des assurances particuliers et professionnels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "x": 12.5,
    "y": 3348.34,
@@ -2155,6 +2221,7 @@
   {
    "key": "i:a:Défense des consommateurs#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "x": 12.5,
    "y": 3385.75,
@@ -2182,6 +2249,7 @@
   {
    "key": "i:a:Droit de la famille#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit de la famille",
    "x": 12.5,
    "y": 3423.16,
@@ -2209,6 +2277,7 @@
   {
    "key": "i:a:Divorce#1",
    "role": "a",
+   "zone": "footer",
    "text": "Divorce",
    "x": 12.5,
    "y": 3460.56,
@@ -2236,6 +2305,7 @@
   {
    "key": "i:a:05 56 44 35 96#1",
    "role": "a",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "x": 12,
    "y": 1906.53,
@@ -2263,6 +2333,7 @@
   {
    "key": "i:a:Contact & RDV#1",
    "role": "a",
+   "zone": "footer",
    "text": "Contact & RDV",
    "x": 150.33,
    "y": 1906.53,
@@ -2290,6 +2361,7 @@
   {
    "key": "i:a:15 Pl. Sainte-Eulalie, 33000 Bordeaux#3",
    "role": "a",
+   "zone": "footer",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "x": 12.5,
    "y": 1828.03,

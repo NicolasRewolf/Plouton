@@ -1,6 +1,6 @@
 {
  "meta": {
-  "url": "https://www.jplouton-avocat.fr/blog/categories/droit-p%C3%A9nal?cooked_aid=rcuo8l1awxamrpiq7iipp6464t6nxkmrpiq7ii&cooked_sid=u6osv5tt0lmrpiq7ii",
+  "url": "https://www.jplouton-avocat.fr/blog/categories/droit-p%C3%A9nal?cooked_aid=z55m6vinxymrq3uawho7hphdc6s2cmrq3uawh&cooked_sid=ecpm22la25rmrq3uawh",
   "pageHeight": 15122,
   "viewportW": 375,
   "viewportH": 812,
@@ -14,12 +14,13 @@
   "viewportId": "375",
   "target": "live",
   "origin": "https://www.jplouton-avocat.fr",
-  "capturedAt": "2026-07-17T22:37:29.826Z"
+  "capturedAt": "2026-07-18T08:28:32.822Z"
  },
  "blocks": [
   {
    "key": "b:p:Search#1",
    "role": "p",
+   "zone": "header",
    "text": "Search",
    "fullTextLen": 6,
    "x": 172.48,
@@ -56,6 +57,7 @@
   {
    "key": "b:p:Menu mobile - burger#1",
    "role": "p",
+   "zone": "header",
    "text": "Menu mobile - burger",
    "fullTextLen": 20,
    "x": 328.98,
@@ -92,6 +94,7 @@
   {
    "key": "b:a:Tous les articles#1",
    "role": "a",
+   "zone": "main",
    "text": "Tous les articles",
    "fullTextLen": 17,
    "x": 30,
@@ -128,6 +131,7 @@
   {
    "key": "b:a:Droit Pénal#1",
    "role": "a",
+   "zone": "main",
    "text": "Droit Pénal",
    "fullTextLen": 11,
    "x": 149.28,
@@ -164,6 +168,7 @@
   {
    "key": "b:button:Plus#1",
    "role": "button",
+   "zone": "main",
    "text": "Plus",
    "fullTextLen": 4,
    "x": 244.75,
@@ -200,6 +205,7 @@
   {
    "key": "b:h1:Droit Pénal#1",
    "role": "h1",
+   "zone": "main",
    "text": "Droit Pénal",
    "fullTextLen": 11,
    "x": 50,
@@ -236,6 +242,7 @@
   {
    "key": "b:p:Découvrez l’actualité en droit pénal avec le Cabinet Julien Plouton, avocat à Bo#1",
    "role": "p",
+   "zone": "main",
    "text": "Découvrez l’actualité en droit pénal avec le Cabinet Julien Plouton, avocat à Bo",
    "fullTextLen": 435,
    "x": 50,
@@ -272,6 +279,7 @@
   {
    "key": "b:h2:Homicide involontaire routier dans les Landes : dix-huit mois de sursis simple s#1",
    "role": "h2",
+   "zone": "main",
    "text": "Homicide involontaire routier dans les Landes : dix-huit mois de sursis simple s",
    "fullTextLen": 148,
    "x": 54,
@@ -308,6 +316,7 @@
   {
    "key": "b:p:Un instant d'épuisement au volant, et plusieurs vies basculent. Quand l'accident#1",
    "role": "p",
+   "zone": "main",
    "text": "Un instant d'épuisement au volant, et plusieurs vies basculent. Quand l'accident",
    "fullTextLen": 480,
    "x": 54,
@@ -344,6 +353,7 @@
   {
    "key": "b:p:Droit Pénal#1",
    "role": "p",
+   "zone": "main",
    "text": "Droit Pénal",
    "fullTextLen": 11,
    "x": 54,
@@ -380,6 +390,7 @@
   {
    "key": "b:p:Axelle Fresneau - Avocat à la cour#1",
    "role": "p",
+   "zone": "main",
    "text": "Axelle Fresneau - Avocat à la cour",
    "fullTextLen": 34,
    "x": 96,
@@ -416,6 +427,7 @@
   {
    "key": "b:p:8 juil.#1",
    "role": "p",
+   "zone": "main",
    "text": "8 juil.",
    "fullTextLen": 7,
    "x": 96,
@@ -452,6 +464,7 @@
   {
    "key": "b:p:4 min de lecture#1",
    "role": "p",
+   "zone": "main",
    "text": "4 min de lecture",
    "fullTextLen": 16,
    "x": 140.86,
@@ -488,6 +501,7 @@
   {
    "key": "b:h2:Relaxe pour le gérant d'un garage automobile poursuivi en tant que siveur dans u#1",
    "role": "h2",
+   "zone": "main",
    "text": "Relaxe pour le gérant d'un garage automobile poursuivi en tant que siveur dans u",
    "fullTextLen": 110,
    "x": 54,
@@ -524,6 +538,7 @@
   {
    "key": "b:p:Le 18 juin 2026, le Tribunal Correctionnel de Bordeaux a rendu sa décision dans #1",
    "role": "p",
+   "zone": "main",
    "text": "Le 18 juin 2026, le Tribunal Correctionnel de Bordeaux a rendu sa décision dans ",
    "fullTextLen": 473,
    "x": 54,
@@ -560,6 +575,7 @@
   {
    "key": "b:p:Droit pénal des affaires#1",
    "role": "p",
+   "zone": "main",
    "text": "Droit pénal des affaires",
    "fullTextLen": 24,
    "x": 54,
@@ -596,6 +612,7 @@
   {
    "key": "b:p:Andéol Brachanet - Avocat à la Cour#1",
    "role": "p",
+   "zone": "main",
    "text": "Andéol Brachanet - Avocat à la Cour",
    "fullTextLen": 35,
    "x": 96,
@@ -632,6 +649,7 @@
   {
    "key": "b:p:2 juil.#1",
    "role": "p",
+   "zone": "main",
    "text": "2 juil.",
    "fullTextLen": 7,
    "x": 96,
@@ -668,6 +686,7 @@
   {
    "key": "b:p:6 min de lecture#1",
    "role": "p",
+   "zone": "main",
    "text": "6 min de lecture",
    "fullTextLen": 16,
    "x": 140.86,
@@ -704,6 +723,7 @@
   {
    "key": "b:h2:Trafic de stupéfiants à Bordeaux : alors que le Parquet demandait une peine de 6#1",
    "role": "h2",
+   "zone": "main",
    "text": "Trafic de stupéfiants à Bordeaux : alors que le Parquet demandait une peine de 6",
    "fullTextLen": 138,
    "x": 54,
@@ -740,6 +760,7 @@
   {
    "key": "b:p:Avocat trafic de stupéfiants à Bordeaux : retour sur une défense devant la JIRS #1",
    "role": "p",
+   "zone": "main",
    "text": "Avocat trafic de stupéfiants à Bordeaux : retour sur une défense devant la JIRS ",
    "fullTextLen": 176,
    "x": 54,
@@ -776,6 +797,7 @@
   {
    "key": "b:p:Trafic de stupéfiants#1",
    "role": "p",
+   "zone": "main",
    "text": "Trafic de stupéfiants",
    "fullTextLen": 21,
    "x": 54,
@@ -812,6 +834,7 @@
   {
    "key": "b:p:Jade Adil - Avocat à la cour#1",
    "role": "p",
+   "zone": "main",
    "text": "Jade Adil - Avocat à la cour",
    "fullTextLen": 28,
    "x": 96,
@@ -848,6 +871,7 @@
   {
    "key": "b:p:1 juil.#1",
    "role": "p",
+   "zone": "main",
    "text": "1 juil.",
    "fullTextLen": 7,
    "x": 96,
@@ -884,6 +908,7 @@
   {
    "key": "b:p:3 min de lecture#1",
    "role": "p",
+   "zone": "main",
    "text": "3 min de lecture",
    "fullTextLen": 16,
    "x": 140.86,
@@ -920,6 +945,7 @@
   {
    "key": "b:h2:Abus de biens sociaux : citation directe CMA CGM irrecevable#1",
    "role": "h2",
+   "zone": "main",
    "text": "Abus de biens sociaux : citation directe CMA CGM irrecevable",
    "fullTextLen": 60,
    "x": 54,
@@ -956,6 +982,7 @@
   {
    "key": "b:p:Tribunal correctionnel de Papeete : le Cabinet Plouton obtient l'irrecevabilité #1",
    "role": "p",
+   "zone": "main",
    "text": "Tribunal correctionnel de Papeete : le Cabinet Plouton obtient l'irrecevabilité ",
    "fullTextLen": 141,
    "x": 54,
@@ -992,6 +1019,7 @@
   {
    "key": "b:p:Droit pénal des affaires#2",
    "role": "p",
+   "zone": "main",
    "text": "Droit pénal des affaires",
    "fullTextLen": 24,
    "x": 54,
@@ -1028,6 +1056,7 @@
   {
    "key": "b:p:Andéol Brachanet - Avocat à la Cour#2",
    "role": "p",
+   "zone": "main",
    "text": "Andéol Brachanet - Avocat à la Cour",
    "fullTextLen": 35,
    "x": 96,
@@ -1064,6 +1093,7 @@
   {
    "key": "b:p:24 juin#1",
    "role": "p",
+   "zone": "main",
    "text": "24 juin",
    "fullTextLen": 7,
    "x": 96,
@@ -1100,6 +1130,7 @@
   {
    "key": "b:p:5 min de lecture#1",
    "role": "p",
+   "zone": "main",
    "text": "5 min de lecture",
    "fullTextLen": 16,
    "x": 147.34,
@@ -1136,6 +1167,7 @@
   {
    "key": "b:h2:Coups de feu devant le BARA CLUB : une nuit placée sous le signe de la stupéfact#1",
    "role": "h2",
+   "zone": "main",
    "text": "Coups de feu devant le BARA CLUB : une nuit placée sous le signe de la stupéfact",
    "fullTextLen": 93,
    "x": 54,
@@ -1172,6 +1204,7 @@
   {
    "key": "b:p:Tentative de meurtre à Mimizan : mis en examen et extradé du Maroc, notre client#1",
    "role": "p",
+   "zone": "main",
    "text": "Tentative de meurtre à Mimizan : mis en examen et extradé du Maroc, notre client",
    "fullTextLen": 223,
    "x": 54,
@@ -1208,6 +1241,7 @@
   {
    "key": "b:p:Médias#1",
    "role": "p",
+   "zone": "main",
    "text": "Médias",
    "fullTextLen": 6,
    "x": 54,
@@ -1244,6 +1278,7 @@
   {
    "key": "b:p:Julien Plouton - Avocat à la Cour#1",
    "role": "p",
+   "zone": "main",
    "text": "Julien Plouton - Avocat à la Cour",
    "fullTextLen": 33,
    "x": 96,
@@ -1280,6 +1315,7 @@
   {
    "key": "b:p:3 juin#1",
    "role": "p",
+   "zone": "main",
    "text": "3 juin",
    "fullTextLen": 6,
    "x": 96,
@@ -1316,6 +1352,7 @@
   {
    "key": "b:p:6 min de lecture#2",
    "role": "p",
+   "zone": "main",
    "text": "6 min de lecture",
    "fullTextLen": 16,
    "x": 141.38,
@@ -1352,6 +1389,7 @@
   {
    "key": "b:h2:Double assassinat de Retjons dans les Landes : Un drame terrible et sanglant sur#1",
    "role": "h2",
+   "zone": "main",
    "text": "Double assassinat de Retjons dans les Landes : Un drame terrible et sanglant sur",
    "fullTextLen": 110,
    "x": 54,
@@ -1388,6 +1426,7 @@
   {
    "key": "b:p:Mis en examen pour double assassinat dans les Landes, un homme de 54 ans est pla#1",
    "role": "p",
+   "zone": "main",
    "text": "Mis en examen pour double assassinat dans les Landes, un homme de 54 ans est pla",
    "fullTextLen": 206,
    "x": 54,
@@ -1424,6 +1463,7 @@
   {
    "key": "b:p:Médias#2",
    "role": "p",
+   "zone": "main",
    "text": "Médias",
    "fullTextLen": 6,
    "x": 54,
@@ -1460,6 +1500,7 @@
   {
    "key": "b:p:Julien Plouton - Avocat à la Cour#2",
    "role": "p",
+   "zone": "main",
    "text": "Julien Plouton - Avocat à la Cour",
    "fullTextLen": 33,
    "x": 96,
@@ -1496,6 +1537,7 @@
   {
    "key": "b:p:14 mai#1",
    "role": "p",
+   "zone": "main",
    "text": "14 mai",
    "fullTextLen": 6,
    "x": 96,
@@ -1532,6 +1574,7 @@
   {
    "key": "b:p:6 min de lecture#3",
    "role": "p",
+   "zone": "main",
    "text": "6 min de lecture",
    "fullTextLen": 16,
    "x": 147.28,
@@ -1568,6 +1611,7 @@
   {
    "key": "b:h2:Grossiste en CBD relaxé à Bordeaux : trafic de stupéfiants écarté#1",
    "role": "h2",
+   "zone": "main",
    "text": "Grossiste en CBD relaxé à Bordeaux : trafic de stupéfiants écarté",
    "fullTextLen": 65,
    "x": 54,
@@ -1604,6 +1648,7 @@
   {
    "key": "b:p:Tribunal correctionnel de Bordeaux, 2 avril 2026 : relaxe d'un grossiste en fleu#1",
    "role": "p",
+   "zone": "main",
    "text": "Tribunal correctionnel de Bordeaux, 2 avril 2026 : relaxe d'un grossiste en fleu",
    "fullTextLen": 156,
    "x": 54,
@@ -1640,6 +1685,7 @@
   {
    "key": "b:p:Droit pénal des affaires#3",
    "role": "p",
+   "zone": "main",
    "text": "Droit pénal des affaires",
    "fullTextLen": 24,
    "x": 54,
@@ -1676,6 +1722,7 @@
   {
    "key": "b:p:Julien Plouton - Avocat à la Cour#3",
    "role": "p",
+   "zone": "main",
    "text": "Julien Plouton - Avocat à la Cour",
    "fullTextLen": 33,
    "x": 96,
@@ -1712,6 +1759,7 @@
   {
    "key": "b:p:30 avr.#1",
    "role": "p",
+   "zone": "main",
    "text": "30 avr.",
    "fullTextLen": 7,
    "x": 96,
@@ -1748,6 +1796,7 @@
   {
    "key": "b:p:4 min de lecture#2",
    "role": "p",
+   "zone": "main",
    "text": "4 min de lecture",
    "fullTextLen": 16,
    "x": 146.45,
@@ -1784,6 +1833,7 @@
   {
    "key": "b:h2:Appels malveillants : les proches aussi indemnisés (Bordeaux)#1",
    "role": "h2",
+   "zone": "main",
    "text": "Appels malveillants : les proches aussi indemnisés (Bordeaux)",
    "fullTextLen": 61,
    "x": 54,
@@ -1820,6 +1870,7 @@
   {
    "key": "b:p:Tribunal correctionnel de Bordeaux, 26 février 2026 : les parents d'une victime #1",
    "role": "p",
+   "zone": "main",
    "text": "Tribunal correctionnel de Bordeaux, 26 février 2026 : les parents d'une victime ",
    "fullTextLen": 151,
    "x": 54,
@@ -1856,6 +1907,7 @@
   {
    "key": "b:p:Violences Conjugales et féminicides#1",
    "role": "p",
+   "zone": "main",
    "text": "Violences Conjugales et féminicides",
    "fullTextLen": 35,
    "x": 54,
@@ -1892,6 +1944,7 @@
   {
    "key": "b:p:Julien Plouton - Avocat à la Cour#4",
    "role": "p",
+   "zone": "main",
    "text": "Julien Plouton - Avocat à la Cour",
    "fullTextLen": 33,
    "x": 96,
@@ -1928,6 +1981,7 @@
   {
    "key": "b:p:3 avr.#1",
    "role": "p",
+   "zone": "main",
    "text": "3 avr.",
    "fullTextLen": 6,
    "x": 96,
@@ -1964,6 +2018,7 @@
   {
    "key": "b:p:4 min de lecture#3",
    "role": "p",
+   "zone": "main",
    "text": "4 min de lecture",
    "fullTextLen": 16,
    "x": 140.48,
@@ -2000,6 +2055,7 @@
   {
    "key": "b:h2:Ordonnance de protection : droit de visite du père maintenu#1",
    "role": "h2",
+   "zone": "main",
    "text": "Ordonnance de protection : droit de visite du père maintenu",
    "fullTextLen": 59,
    "x": 54,
@@ -2036,6 +2092,7 @@
   {
    "key": "b:p:Bordeaux, février 2026 : malgré un contrôle judiciaire, le JAF maintient le droi#1",
    "role": "p",
+   "zone": "main",
    "text": "Bordeaux, février 2026 : malgré un contrôle judiciaire, le JAF maintient le droi",
    "fullTextLen": 158,
    "x": 54,
@@ -2072,6 +2129,7 @@
   {
    "key": "b:p:Droit de la famille#1",
    "role": "p",
+   "zone": "main",
    "text": "Droit de la famille",
    "fullTextLen": 19,
    "x": 54,
@@ -2108,6 +2166,7 @@
   {
    "key": "b:p:Jade Adil - Avocat à la cour#2",
    "role": "p",
+   "zone": "main",
    "text": "Jade Adil - Avocat à la cour",
    "fullTextLen": 28,
    "x": 96,
@@ -2144,6 +2203,7 @@
   {
    "key": "b:p:21 mars#1",
    "role": "p",
+   "zone": "main",
    "text": "21 mars",
    "fullTextLen": 7,
    "x": 96,
@@ -2180,6 +2240,7 @@
   {
    "key": "b:p:4 min de lecture#4",
    "role": "p",
+   "zone": "main",
    "text": "4 min de lecture",
    "fullTextLen": 16,
    "x": 153.47,
@@ -2216,6 +2277,7 @@
   {
    "key": "b:h2:Fusillade aux Aubiers : notre client placé sous le statut de témoin assisté pour#1",
    "role": "h2",
+   "zone": "main",
    "text": "Fusillade aux Aubiers : notre client placé sous le statut de témoin assisté pour",
    "fullTextLen": 123,
    "x": 54,
@@ -2252,6 +2314,7 @@
   {
    "key": "b:p:Le 5 février 2025, les policiers étaient alertés par des témoins de coups de feu#1",
    "role": "p",
+   "zone": "main",
    "text": "Le 5 février 2025, les policiers étaient alertés par des témoins de coups de feu",
    "fullTextLen": 478,
    "x": 54,
@@ -2288,6 +2351,7 @@
   {
    "key": "b:p:Droit Pénal#2",
    "role": "p",
+   "zone": "main",
    "text": "Droit Pénal",
    "fullTextLen": 11,
    "x": 54,
@@ -2324,6 +2388,7 @@
   {
    "key": "b:p:Cabinet Plouton#1",
    "role": "p",
+   "zone": "main",
    "text": "Cabinet Plouton",
    "fullTextLen": 15,
    "x": 96,
@@ -2360,6 +2425,7 @@
   {
    "key": "b:p:1 mars#1",
    "role": "p",
+   "zone": "main",
    "text": "1 mars",
    "fullTextLen": 6,
    "x": 96,
@@ -2396,6 +2462,7 @@
   {
    "key": "b:p:3 min de lecture#2",
    "role": "p",
+   "zone": "main",
    "text": "3 min de lecture",
    "fullTextLen": 16,
    "x": 147.52,
@@ -2432,6 +2499,7 @@
   {
    "key": "b:h2:Reconstitution criminelle – Féminicide de Nasrine Bensalem à Cenon#1",
    "role": "h2",
+   "zone": "main",
    "text": "Reconstitution criminelle – Féminicide de Nasrine Bensalem à Cenon",
    "fullTextLen": 66,
    "x": 54,
@@ -2468,6 +2536,7 @@
   {
    "key": "b:p:Reconstitution criminelle à Cenon : notre cabinet assiste la famille de Nasrine #1",
    "role": "p",
+   "zone": "main",
    "text": "Reconstitution criminelle à Cenon : notre cabinet assiste la famille de Nasrine ",
    "fullTextLen": 170,
    "x": 54,
@@ -2504,6 +2573,7 @@
   {
    "key": "b:p:Droit Pénal#3",
    "role": "p",
+   "zone": "main",
    "text": "Droit Pénal",
    "fullTextLen": 11,
    "x": 54,
@@ -2540,6 +2610,7 @@
   {
    "key": "b:p:Cabinet Plouton#2",
    "role": "p",
+   "zone": "main",
    "text": "Cabinet Plouton",
    "fullTextLen": 15,
    "x": 96,
@@ -2576,6 +2647,7 @@
   {
    "key": "b:p:23 févr.#1",
    "role": "p",
+   "zone": "main",
    "text": "23 févr.",
    "fullTextLen": 8,
    "x": 96,
@@ -2612,6 +2684,7 @@
   {
    "key": "b:p:3 min de lecture#3",
    "role": "p",
+   "zone": "main",
    "text": "3 min de lecture",
    "fullTextLen": 16,
    "x": 149.8,
@@ -2648,6 +2721,7 @@
   {
    "key": "b:h2:Saisie pénale à Pau : restitution de 39 000 € à un tiers#1",
    "role": "h2",
+   "zone": "main",
    "text": "Saisie pénale à Pau : restitution de 39 000 € à un tiers",
    "fullTextLen": 56,
    "x": 54,
@@ -2684,6 +2758,7 @@
   {
    "key": "b:p:Tribunal correctionnel de Pau : notre cabinet obtient la restitution de 39 000 €#1",
    "role": "p",
+   "zone": "main",
    "text": "Tribunal correctionnel de Pau : notre cabinet obtient la restitution de 39 000 €",
    "fullTextLen": 158,
    "x": 54,
@@ -2720,6 +2795,7 @@
   {
    "key": "b:p:Droit Pénal#4",
    "role": "p",
+   "zone": "main",
    "text": "Droit Pénal",
    "fullTextLen": 11,
    "x": 54,
@@ -2756,6 +2832,7 @@
   {
    "key": "b:p:Jade Adil - Avocat à la cour#3",
    "role": "p",
+   "zone": "main",
    "text": "Jade Adil - Avocat à la cour",
    "fullTextLen": 28,
    "x": 96,
@@ -2792,6 +2869,7 @@
   {
    "key": "b:p:19 févr.#1",
    "role": "p",
+   "zone": "main",
    "text": "19 févr.",
    "fullTextLen": 8,
    "x": 96,
@@ -2828,6 +2906,7 @@
   {
    "key": "b:p:4 min de lecture#5",
    "role": "p",
+   "zone": "main",
    "text": "4 min de lecture",
    "fullTextLen": 16,
    "x": 149.8,
@@ -2864,6 +2943,7 @@
   {
    "key": "b:h2:Affaire Chahinez Daoud : le tribunal de Paris rejette le sursis#1",
    "role": "h2",
+   "zone": "main",
    "text": "Affaire Chahinez Daoud : le tribunal de Paris rejette le sursis",
    "fullTextLen": 63,
    "x": 54,
@@ -2900,6 +2980,7 @@
   {
    "key": "b:p:Féminicide de Mérignac : le tribunal judiciaire de Paris rejette le sursis à sta#1",
    "role": "p",
+   "zone": "main",
    "text": "Féminicide de Mérignac : le tribunal judiciaire de Paris rejette le sursis à sta",
    "fullTextLen": 155,
    "x": 54,
@@ -2936,6 +3017,7 @@
   {
    "key": "b:p:Violences Conjugales et féminicides#2",
    "role": "p",
+   "zone": "main",
    "text": "Violences Conjugales et féminicides",
    "fullTextLen": 35,
    "x": 54,
@@ -2972,6 +3054,7 @@
   {
    "key": "b:p:Mathilde Manson - Avocat à la Cour#1",
    "role": "p",
+   "zone": "main",
    "text": "Mathilde Manson - Avocat à la Cour",
    "fullTextLen": 34,
    "x": 96,
@@ -3008,6 +3091,7 @@
   {
    "key": "b:p:18 févr.#1",
    "role": "p",
+   "zone": "main",
    "text": "18 févr.",
    "fullTextLen": 8,
    "x": 96,
@@ -3044,6 +3128,7 @@
   {
    "key": "b:p:5 min de lecture#2",
    "role": "p",
+   "zone": "main",
    "text": "5 min de lecture",
    "fullTextLen": 16,
    "x": 149.8,
@@ -3080,6 +3165,7 @@
   {
    "key": "b:h2:Un capitaine de cargo russo ukrainien interpellé au port de Bayonne avec 2 gramm#1",
    "role": "h2",
+   "zone": "main",
    "text": "Un capitaine de cargo russo ukrainien interpellé au port de Bayonne avec 2 gramm",
    "fullTextLen": 165,
    "x": 54,
@@ -3116,6 +3202,7 @@
   {
    "key": "b:p:Avocat pénaliste à Bordeaux : poursuites devant le Tribunal maritime pour naviga#1",
    "role": "p",
+   "zone": "main",
    "text": "Avocat pénaliste à Bordeaux : poursuites devant le Tribunal maritime pour naviga",
    "fullTextLen": 133,
    "x": 54,
@@ -3152,6 +3239,7 @@
   {
    "key": "b:p:Médias#3",
    "role": "p",
+   "zone": "main",
    "text": "Médias",
    "fullTextLen": 6,
    "x": 54,
@@ -3188,6 +3276,7 @@
   {
    "key": "b:p:Julien Plouton - Avocat à la Cour#5",
    "role": "p",
+   "zone": "main",
    "text": "Julien Plouton - Avocat à la Cour",
    "fullTextLen": 33,
    "x": 96,
@@ -3224,6 +3313,7 @@
   {
    "key": "b:p:12 févr.#1",
    "role": "p",
+   "zone": "main",
    "text": "12 févr.",
    "fullTextLen": 8,
    "x": 96,
@@ -3260,6 +3350,7 @@
   {
    "key": "b:p:3 min de lecture#4",
    "role": "p",
+   "zone": "main",
    "text": "3 min de lecture",
    "fullTextLen": 16,
    "x": 149.8,
@@ -3296,6 +3387,7 @@
   {
    "key": "b:h2:Assassinat à Commensacq (40) : l'affaire Guy Lecomte sur France 2#1",
    "role": "h2",
+   "zone": "main",
    "text": "Assassinat à Commensacq (40) : l'affaire Guy Lecomte sur France 2",
    "fullTextLen": 65,
    "x": 54,
@@ -3332,6 +3424,7 @@
   {
    "key": "b:p:Assassinat de Guy Lecomte à Commensacq (Landes) : retour sur l'enquête, le procè#1",
    "role": "p",
+   "zone": "main",
    "text": "Assassinat de Guy Lecomte à Commensacq (Landes) : retour sur l'enquête, le procè",
    "fullTextLen": 153,
    "x": 54,
@@ -3368,6 +3461,7 @@
   {
    "key": "b:p:Médias#4",
    "role": "p",
+   "zone": "main",
    "text": "Médias",
    "fullTextLen": 6,
    "x": 54,
@@ -3404,6 +3498,7 @@
   {
    "key": "b:p:Cabinet Plouton#3",
    "role": "p",
+   "zone": "main",
    "text": "Cabinet Plouton",
    "fullTextLen": 15,
    "x": 96,
@@ -3440,6 +3535,7 @@
   {
    "key": "b:p:8 févr.#1",
    "role": "p",
+   "zone": "main",
    "text": "8 févr.",
    "fullTextLen": 7,
    "x": 96,
@@ -3476,6 +3572,7 @@
   {
    "key": "b:p:3 min de lecture#5",
    "role": "p",
+   "zone": "main",
    "text": "3 min de lecture",
    "fullTextLen": 16,
    "x": 143.84,
@@ -3512,6 +3609,7 @@
   {
    "key": "b:h2:Proxénétisme aggravé à Bordeaux : 18 mois avec sursis probatoire#1",
    "role": "h2",
+   "zone": "main",
    "text": "Proxénétisme aggravé à Bordeaux : 18 mois avec sursis probatoire",
    "fullTextLen": 64,
    "x": 54,
@@ -3548,6 +3646,7 @@
   {
    "key": "b:p:Proxénétisme aggravé et site Sexmodel devant le tribunal de Bordeaux : analyse d#1",
    "role": "p",
+   "zone": "main",
    "text": "Proxénétisme aggravé et site Sexmodel devant le tribunal de Bordeaux : analyse d",
    "fullTextLen": 157,
    "x": 54,
@@ -3584,6 +3683,7 @@
   {
    "key": "b:p:Droit Pénal#5",
    "role": "p",
+   "zone": "main",
    "text": "Droit Pénal",
    "fullTextLen": 11,
    "x": 54,
@@ -3620,6 +3720,7 @@
   {
    "key": "b:p:Jade Adil - Avocat à la cour#4",
    "role": "p",
+   "zone": "main",
    "text": "Jade Adil - Avocat à la cour",
    "fullTextLen": 28,
    "x": 96,
@@ -3656,6 +3757,7 @@
   {
    "key": "b:p:1 févr.#1",
    "role": "p",
+   "zone": "main",
    "text": "1 févr.",
    "fullTextLen": 7,
    "x": 96,
@@ -3692,6 +3794,7 @@
   {
    "key": "b:p:3 min de lecture#6",
    "role": "p",
+   "zone": "main",
    "text": "3 min de lecture",
    "fullTextLen": 16,
    "x": 143.84,
@@ -3728,6 +3831,7 @@
   {
    "key": "b:h2:Féminicide de Lison : femmage à Bordeaux et droits des familles#1",
    "role": "h2",
+   "zone": "main",
    "text": "Féminicide de Lison : femmage à Bordeaux et droits des familles",
    "fullTextLen": 63,
    "x": 54,
@@ -3764,6 +3868,7 @@
   {
    "key": "b:p:Féminicide de Lison Méral : lors du femmage à l'Athénée Municipal de Bordeaux, r#1",
    "role": "p",
+   "zone": "main",
    "text": "Féminicide de Lison Méral : lors du femmage à l'Athénée Municipal de Bordeaux, r",
    "fullTextLen": 150,
    "x": 54,
@@ -3800,6 +3905,7 @@
   {
    "key": "b:p:Médias#5",
    "role": "p",
+   "zone": "main",
    "text": "Médias",
    "fullTextLen": 6,
    "x": 54,
@@ -3836,6 +3942,7 @@
   {
    "key": "b:p:Julien Plouton - Avocat à la Cour#6",
    "role": "p",
+   "zone": "main",
    "text": "Julien Plouton - Avocat à la Cour",
    "fullTextLen": 33,
    "x": 96,
@@ -3872,6 +3979,7 @@
   {
    "key": "b:p:10 janv.#1",
    "role": "p",
+   "zone": "main",
    "text": "10 janv.",
    "fullTextLen": 8,
    "x": 96,
@@ -3908,6 +4016,7 @@
   {
    "key": "b:p:4 min de lecture#6",
    "role": "p",
+   "zone": "main",
    "text": "4 min de lecture",
    "fullTextLen": 16,
    "x": 152.08,
@@ -3944,6 +4053,7 @@
   {
    "key": "b:h2:Trafic de stupéfiants Brive-Marseille : 9 ans réduits à 7 ans en appel#1",
    "role": "h2",
+   "zone": "main",
    "text": "Trafic de stupéfiants Brive-Marseille : 9 ans réduits à 7 ans en appel",
    "fullTextLen": 70,
    "x": 54,
@@ -3980,6 +4090,7 @@
   {
    "key": "b:p:Trafic de stupéfiants entre Brive et Marseille : la cour d'appel de Limoges rédu#1",
    "role": "p",
+   "zone": "main",
    "text": "Trafic de stupéfiants entre Brive et Marseille : la cour d'appel de Limoges rédu",
    "fullTextLen": 167,
    "x": 54,
@@ -4016,6 +4127,7 @@
   {
    "key": "b:p:Droit Pénal#6",
    "role": "p",
+   "zone": "main",
    "text": "Droit Pénal",
    "fullTextLen": 11,
    "x": 54,
@@ -4052,6 +4164,7 @@
   {
    "key": "b:p:Julien Plouton - Avocat à la Cour#7",
    "role": "p",
+   "zone": "main",
    "text": "Julien Plouton - Avocat à la Cour",
    "fullTextLen": 33,
    "x": 96,
@@ -4088,6 +4201,7 @@
   {
    "key": "b:p:30 déc. 2025#1",
    "role": "p",
+   "zone": "main",
    "text": "30 déc. 2025",
    "fullTextLen": 12,
    "x": 96,
@@ -4124,6 +4238,7 @@
   {
    "key": "b:p:4 min de lecture#7",
    "role": "p",
+   "zone": "main",
    "text": "4 min de lecture",
    "fullTextLen": 16,
    "x": 175.66,
@@ -4160,6 +4275,7 @@
   {
    "key": "b:h2:Vol avec violences et séquestration : Analyse d'une défense pénale à forts enjeu#1",
    "role": "h2",
+   "zone": "main",
    "text": "Vol avec violences et séquestration : Analyse d'une défense pénale à forts enjeu",
    "fullTextLen": 81,
    "x": 54,
@@ -4196,6 +4312,7 @@
   {
    "key": "b:p:Accusé de faits criminels requalifiés en correctionnelle, notre client encourait#1",
    "role": "p",
+   "zone": "main",
    "text": "Accusé de faits criminels requalifiés en correctionnelle, notre client encourait",
    "fullTextLen": 258,
    "x": 54,
@@ -4232,6 +4349,7 @@
   {
    "key": "b:p:Droit Pénal#7",
    "role": "p",
+   "zone": "main",
    "text": "Droit Pénal",
    "fullTextLen": 11,
    "x": 54,
@@ -4268,6 +4386,7 @@
   {
    "key": "b:p:Julien Plouton - Avocat à la Cour#8",
    "role": "p",
+   "zone": "main",
    "text": "Julien Plouton - Avocat à la Cour",
    "fullTextLen": 33,
    "x": 96,
@@ -4304,6 +4423,7 @@
   {
    "key": "b:p:18 déc. 2025#1",
    "role": "p",
+   "zone": "main",
    "text": "18 déc. 2025",
    "fullTextLen": 12,
    "x": 96,
@@ -4340,6 +4460,7 @@
   {
    "key": "b:p:4 min de lecture#8",
    "role": "p",
+   "zone": "main",
    "text": "4 min de lecture",
    "fullTextLen": 16,
    "x": 175.66,
@@ -4376,6 +4497,7 @@
   {
    "key": "b:h2:Vente de meubles et pratiques commerciales trompeuses : relaxe totale pour un sa#1",
    "role": "h2",
+   "zone": "main",
    "text": "Vente de meubles et pratiques commerciales trompeuses : relaxe totale pour un sa",
    "fullTextLen": 108,
    "x": 54,
@@ -4412,6 +4534,7 @@
   {
    "key": "b:p:Peut-on condamner un salarié pour les méthodes de vente agressives mises en plac#1",
    "role": "p",
+   "zone": "main",
    "text": "Peut-on condamner un salarié pour les méthodes de vente agressives mises en plac",
    "fullTextLen": 296,
    "x": 54,
@@ -4448,6 +4571,7 @@
   {
    "key": "b:p:Droit Pénal#8",
    "role": "p",
+   "zone": "main",
    "text": "Droit Pénal",
    "fullTextLen": 11,
    "x": 54,
@@ -4484,6 +4608,7 @@
   {
    "key": "b:p:Julien Plouton - Avocat à la Cour#9",
    "role": "p",
+   "zone": "main",
    "text": "Julien Plouton - Avocat à la Cour",
    "fullTextLen": 33,
    "x": 96,
@@ -4520,6 +4645,7 @@
   {
    "key": "b:p:15 déc. 2025#1",
    "role": "p",
+   "zone": "main",
    "text": "15 déc. 2025",
    "fullTextLen": 12,
    "x": 96,
@@ -4556,6 +4682,7 @@
   {
    "key": "b:p:4 min de lecture#9",
    "role": "p",
+   "zone": "main",
    "text": "4 min de lecture",
    "fullTextLen": 16,
    "x": 175.66,
@@ -4592,6 +4719,7 @@
   {
    "key": "b:p:© Site web imaginé par l'agence REWOLF | rewolf.studio#1",
    "role": "p",
+   "zone": "footer",
    "text": "© Site web imaginé par l'agence REWOLF | rewolf.studio",
    "fullTextLen": 54,
    "x": 11.75,
@@ -4628,6 +4756,7 @@
   {
    "key": "b:p:Menu#1",
    "role": "p",
+   "zone": "footer",
    "text": "Menu",
    "fullTextLen": 4,
    "x": 12.5,
@@ -4664,6 +4793,7 @@
   {
    "key": "b:p:Accueil#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accueil",
    "fullTextLen": 7,
    "x": 13,
@@ -4700,6 +4830,7 @@
   {
    "key": "b:p:Notre cabinet#1",
    "role": "p",
+   "zone": "footer",
    "text": "Notre cabinet",
    "fullTextLen": 13,
    "x": 13,
@@ -4736,6 +4867,7 @@
   {
    "key": "b:p:Rendez-vous, accès & honoraires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "fullTextLen": 31,
    "x": 13,
@@ -4772,6 +4904,7 @@
   {
    "key": "b:p:Nos affaires#1",
    "role": "p",
+   "zone": "footer",
    "text": "Nos affaires",
    "fullTextLen": 12,
    "x": 13,
@@ -4808,6 +4941,7 @@
   {
    "key": "b:p:Ressources#1",
    "role": "p",
+   "zone": "footer",
    "text": "Ressources",
    "fullTextLen": 10,
    "x": 13,
@@ -4844,6 +4978,7 @@
   {
    "key": "b:p:Mentions légales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Mentions légales",
    "fullTextLen": 16,
    "x": 13,
@@ -4880,6 +5015,7 @@
   {
    "key": "b:p:Défense Pénale#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense Pénale",
    "fullTextLen": 14,
    "x": 11.5,
@@ -4916,6 +5052,7 @@
   {
    "key": "b:p:Droit pénal#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal",
    "fullTextLen": 11,
    "x": 12,
@@ -4952,6 +5089,7 @@
   {
    "key": "b:p:Procès criminels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Procès criminels",
    "fullTextLen": 16,
    "x": 12,
@@ -4988,6 +5126,7 @@
   {
    "key": "b:p:Trafic de stupéfiants#2",
    "role": "p",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "fullTextLen": 21,
    "x": 12,
@@ -5024,6 +5163,7 @@
   {
    "key": "b:p:Violences conjugales et féminicides#1",
    "role": "p",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "fullTextLen": 35,
    "x": 12,
@@ -5060,6 +5200,7 @@
   {
    "key": "b:p:Droit pénal des affaires#4",
    "role": "p",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "fullTextLen": 24,
    "x": 12,
@@ -5096,6 +5237,7 @@
   {
    "key": "b:p:Indemnisation des victimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "fullTextLen": 26,
    "x": 12,
@@ -5132,6 +5274,7 @@
   {
    "key": "b:p:Victimes de délits ou crimes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "fullTextLen": 28,
    "x": 12.5,
@@ -5168,6 +5311,7 @@
   {
    "key": "b:p:Accidents de la route#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la route",
    "fullTextLen": 21,
    "x": 12.5,
@@ -5204,6 +5348,7 @@
   {
    "key": "b:p:Droit et accidents du travail#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "fullTextLen": 29,
    "x": 12.5,
@@ -5240,6 +5385,7 @@
   {
    "key": "b:p:Accidents et erreurs médicales#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "fullTextLen": 30,
    "x": 12.5,
@@ -5276,6 +5422,7 @@
   {
    "key": "b:p:Accidents de la vie courante#1",
    "role": "p",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "fullTextLen": 28,
    "x": 12.5,
@@ -5312,6 +5459,7 @@
   {
    "key": "b:p:Droit des contrats et des personnes#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "fullTextLen": 35,
    "x": 12,
@@ -5348,6 +5496,7 @@
   {
    "key": "b:p:Droit des assurances particuliers et professionnels#1",
    "role": "p",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "fullTextLen": 51,
    "x": 12.5,
@@ -5384,6 +5533,7 @@
   {
    "key": "b:p:Défense des consommateurs#1",
    "role": "p",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "fullTextLen": 25,
    "x": 12.5,
@@ -5420,6 +5570,7 @@
   {
    "key": "b:p:Droit de la famille#2",
    "role": "p",
+   "zone": "footer",
    "text": "Droit de la famille",
    "fullTextLen": 19,
    "x": 12.5,
@@ -5456,6 +5607,7 @@
   {
    "key": "b:p:Divorce#1",
    "role": "p",
+   "zone": "footer",
    "text": "Divorce",
    "fullTextLen": 7,
    "x": 12.5,
@@ -5492,6 +5644,7 @@
   {
    "key": "b:p:05 56 44 35 96#1",
    "role": "p",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "fullTextLen": 14,
    "x": 23,
@@ -5528,6 +5681,7 @@
   {
    "key": "b:p:Contact & RDV#1",
    "role": "p",
+   "zone": "footer",
    "text": "Contact & RDV",
    "fullTextLen": 13,
    "x": 161.33,
@@ -5564,6 +5718,7 @@
   {
    "key": "b:p:Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R#1",
    "role": "p",
+   "zone": "footer",
    "text": "Le cabinet d'avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi. R",
    "fullTextLen": 136,
    "x": 12.5,
@@ -5600,6 +5755,7 @@
   {
    "key": "b:p:Contact#1",
    "role": "p",
+   "zone": "footer",
    "text": "Contact",
    "fullTextLen": 7,
    "x": 12,
@@ -5638,6 +5794,7 @@
   {
    "key": "i:button:Search#1",
    "role": "button",
+   "zone": "header",
    "text": "Search",
    "x": 172.48,
    "y": 15,
@@ -5665,6 +5822,7 @@
   {
    "key": "i:button:Menu mobile - burger#1",
    "role": "button",
+   "zone": "header",
    "text": "Menu mobile - burger",
    "x": 328.98,
    "y": 20,
@@ -5692,6 +5850,7 @@
   {
    "key": "i:a:Homicide involontaire routier dans les Landes : dix-huit mois de sursis simple s#1",
    "role": "a",
+   "zone": "main",
    "text": "Homicide involontaire routier dans les Landes : dix-huit mois de sursis simple s",
    "x": 54,
    "y": 1044.47,
@@ -5719,6 +5878,7 @@
   {
    "key": "i:a:Droit Pénal#1",
    "role": "a",
+   "zone": "main",
    "text": "Droit Pénal",
    "x": 54,
    "y": 1009.47,
@@ -5746,6 +5906,7 @@
   {
    "key": "i:a:Relaxe pour le gérant d'un garage automobile poursuivi en tant que siveur dans u#1",
    "role": "a",
+   "zone": "main",
    "text": "Relaxe pour le gérant d'un garage automobile poursuivi en tant que siveur dans u",
    "x": 54,
    "y": 1639.47,
@@ -5773,6 +5934,7 @@
   {
    "key": "i:a:Droit pénal des affaires#1",
    "role": "a",
+   "zone": "main",
    "text": "Droit pénal des affaires",
    "x": 54,
    "y": 1604.47,
@@ -5800,6 +5962,7 @@
   {
    "key": "i:a:Trafic de stupéfiants à Bordeaux : alors que le Parquet demandait une peine de 6#1",
    "role": "a",
+   "zone": "main",
    "text": "Trafic de stupéfiants à Bordeaux : alors que le Parquet demandait une peine de 6",
    "x": 54,
    "y": 2198.47,
@@ -5827,6 +5990,7 @@
   {
    "key": "i:a:Trafic de stupéfiants#1",
    "role": "a",
+   "zone": "main",
    "text": "Trafic de stupéfiants",
    "x": 54,
    "y": 2163.47,
@@ -5854,6 +6018,7 @@
   {
    "key": "i:a:Abus de biens sociaux : citation directe CMA CGM irrecevable#1",
    "role": "a",
+   "zone": "main",
    "text": "Abus de biens sociaux : citation directe CMA CGM irrecevable",
    "x": 54,
    "y": 2809.47,
@@ -5881,6 +6046,7 @@
   {
    "key": "i:a:Droit pénal des affaires#2",
    "role": "a",
+   "zone": "main",
    "text": "Droit pénal des affaires",
    "x": 54,
    "y": 2774.47,
@@ -5908,6 +6074,7 @@
   {
    "key": "i:a:Coups de feu devant le BARA CLUB : une nuit placée sous le signe de la stupéfact#1",
    "role": "a",
+   "zone": "main",
    "text": "Coups de feu devant le BARA CLUB : une nuit placée sous le signe de la stupéfact",
    "x": 54,
    "y": 3416.47,
@@ -5935,6 +6102,7 @@
   {
    "key": "i:a:Médias#1",
    "role": "a",
+   "zone": "main",
    "text": "Médias",
    "x": 54,
    "y": 3381.47,
@@ -5962,6 +6130,7 @@
   {
    "key": "i:a:Double assassinat de Retjons dans les Landes : Un drame terrible et sanglant sur#1",
    "role": "a",
+   "zone": "main",
    "text": "Double assassinat de Retjons dans les Landes : Un drame terrible et sanglant sur",
    "x": 54,
    "y": 4044.47,
@@ -5989,6 +6158,7 @@
   {
    "key": "i:a:Médias#2",
    "role": "a",
+   "zone": "main",
    "text": "Médias",
    "x": 54,
    "y": 4009.47,
@@ -6016,6 +6186,7 @@
   {
    "key": "i:a:Grossiste en CBD relaxé à Bordeaux : trafic de stupéfiants écarté#1",
    "role": "a",
+   "zone": "main",
    "text": "Grossiste en CBD relaxé à Bordeaux : trafic de stupéfiants écarté",
    "x": 54,
    "y": 4620.47,
@@ -6043,6 +6214,7 @@
   {
    "key": "i:a:Droit pénal des affaires#3",
    "role": "a",
+   "zone": "main",
    "text": "Droit pénal des affaires",
    "x": 54,
    "y": 4585.47,
@@ -6070,6 +6242,7 @@
   {
    "key": "i:a:Appels malveillants : les proches aussi indemnisés (Bordeaux)#1",
    "role": "a",
+   "zone": "main",
    "text": "Appels malveillants : les proches aussi indemnisés (Bordeaux)",
    "x": 54,
    "y": 5475.47,
@@ -6097,6 +6270,7 @@
   {
    "key": "i:a:Violences Conjugales et féminicides#1",
    "role": "a",
+   "zone": "main",
    "text": "Violences Conjugales et féminicides",
    "x": 54,
    "y": 5440.47,
@@ -6124,6 +6298,7 @@
   {
    "key": "i:a:Ordonnance de protection : droit de visite du père maintenu#1",
    "role": "a",
+   "zone": "main",
    "text": "Ordonnance de protection : droit de visite du père maintenu",
    "x": 54,
    "y": 6081.47,
@@ -6151,6 +6326,7 @@
   {
    "key": "i:a:Droit de la famille#1",
    "role": "a",
+   "zone": "main",
    "text": "Droit de la famille",
    "x": 54,
    "y": 6046.47,
@@ -6178,6 +6354,7 @@
   {
    "key": "i:a:Fusillade aux Aubiers : notre client placé sous le statut de témoin assisté pour#1",
    "role": "a",
+   "zone": "main",
    "text": "Fusillade aux Aubiers : notre client placé sous le statut de témoin assisté pour",
    "x": 54,
    "y": 6763.47,
@@ -6205,6 +6382,7 @@
   {
    "key": "i:a:Droit Pénal#2",
    "role": "a",
+   "zone": "main",
    "text": "Droit Pénal",
    "x": 54,
    "y": 6728.47,
@@ -6232,6 +6410,7 @@
   {
    "key": "i:a:Reconstitution criminelle – Féminicide de Nasrine Bensalem à Cenon#1",
    "role": "a",
+   "zone": "main",
    "text": "Reconstitution criminelle – Féminicide de Nasrine Bensalem à Cenon",
    "x": 54,
    "y": 7332.47,
@@ -6259,6 +6438,7 @@
   {
    "key": "i:a:Droit Pénal#3",
    "role": "a",
+   "zone": "main",
    "text": "Droit Pénal",
    "x": 54,
    "y": 7297.47,
@@ -6286,6 +6466,7 @@
   {
    "key": "i:a:Saisie pénale à Pau : restitution de 39 000 € à un tiers#1",
    "role": "a",
+   "zone": "main",
    "text": "Saisie pénale à Pau : restitution de 39 000 € à un tiers",
    "x": 54,
    "y": 7924.47,
@@ -6313,6 +6494,7 @@
   {
    "key": "i:a:Droit Pénal#4",
    "role": "a",
+   "zone": "main",
    "text": "Droit Pénal",
    "x": 54,
    "y": 7889.47,
@@ -6340,6 +6522,7 @@
   {
    "key": "i:a:Affaire Chahinez Daoud : le tribunal de Paris rejette le sursis#1",
    "role": "a",
+   "zone": "main",
    "text": "Affaire Chahinez Daoud : le tribunal de Paris rejette le sursis",
    "x": 54,
    "y": 8652.47,
@@ -6367,6 +6550,7 @@
   {
    "key": "i:a:Violences Conjugales et féminicides#2",
    "role": "a",
+   "zone": "main",
    "text": "Violences Conjugales et féminicides",
    "x": 54,
    "y": 8617.47,
@@ -6394,6 +6578,7 @@
   {
    "key": "i:a:Un capitaine de cargo russo ukrainien interpellé au port de Bayonne avec 2 gramm#1",
    "role": "a",
+   "zone": "main",
    "text": "Un capitaine de cargo russo ukrainien interpellé au port de Bayonne avec 2 gramm",
    "x": 54,
    "y": 9235.47,
@@ -6421,6 +6606,7 @@
   {
    "key": "i:a:Médias#3",
    "role": "a",
+   "zone": "main",
    "text": "Médias",
    "x": 54,
    "y": 9200.47,
@@ -6448,6 +6634,7 @@
   {
    "key": "i:a:Assassinat à Commensacq (40) : l'affaire Guy Lecomte sur France 2#1",
    "role": "a",
+   "zone": "main",
    "text": "Assassinat à Commensacq (40) : l'affaire Guy Lecomte sur France 2",
    "x": 54,
    "y": 9773.47,
@@ -6475,6 +6662,7 @@
   {
    "key": "i:a:Médias#4",
    "role": "a",
+   "zone": "main",
    "text": "Médias",
    "x": 54,
    "y": 9738.47,
@@ -6502,6 +6690,7 @@
   {
    "key": "i:a:Proxénétisme aggravé à Bordeaux : 18 mois avec sursis probatoire#1",
    "role": "a",
+   "zone": "main",
    "text": "Proxénétisme aggravé à Bordeaux : 18 mois avec sursis probatoire",
    "x": 54,
    "y": 10365.47,
@@ -6529,6 +6718,7 @@
   {
    "key": "i:a:Droit Pénal#5",
    "role": "a",
+   "zone": "main",
    "text": "Droit Pénal",
    "x": 54,
    "y": 10330.47,
@@ -6556,6 +6746,7 @@
   {
    "key": "i:a:Féminicide de Lison : femmage à Bordeaux et droits des familles#1",
    "role": "a",
+   "zone": "main",
    "text": "Féminicide de Lison : femmage à Bordeaux et droits des familles",
    "x": 54,
    "y": 10897.47,
@@ -6583,6 +6774,7 @@
   {
    "key": "i:a:Médias#5",
    "role": "a",
+   "zone": "main",
    "text": "Médias",
    "x": 54,
    "y": 10862.47,
@@ -6610,6 +6802,7 @@
   {
    "key": "i:a:Trafic de stupéfiants Brive-Marseille : 9 ans réduits à 7 ans en appel#1",
    "role": "a",
+   "zone": "main",
    "text": "Trafic de stupéfiants Brive-Marseille : 9 ans réduits à 7 ans en appel",
    "x": 54,
    "y": 11489.47,
@@ -6637,6 +6830,7 @@
   {
    "key": "i:a:Droit Pénal#6",
    "role": "a",
+   "zone": "main",
    "text": "Droit Pénal",
    "x": 54,
    "y": 11454.47,
@@ -6664,6 +6858,7 @@
   {
    "key": "i:a:Vol avec violences et séquestration : Analyse d'une défense pénale à forts enjeu#1",
    "role": "a",
+   "zone": "main",
    "text": "Vol avec violences et séquestration : Analyse d'une défense pénale à forts enjeu",
    "x": 54,
    "y": 12081.47,
@@ -6691,6 +6886,7 @@
   {
    "key": "i:a:Droit Pénal#7",
    "role": "a",
+   "zone": "main",
    "text": "Droit Pénal",
    "x": 54,
    "y": 12046.47,
@@ -6718,6 +6914,7 @@
   {
    "key": "i:a:Vente de meubles et pratiques commerciales trompeuses : relaxe totale pour un sa#1",
    "role": "a",
+   "zone": "main",
    "text": "Vente de meubles et pratiques commerciales trompeuses : relaxe totale pour un sa",
    "x": 54,
    "y": 12778.47,
@@ -6745,6 +6942,7 @@
   {
    "key": "i:a:Droit Pénal#8",
    "role": "a",
+   "zone": "main",
    "text": "Droit Pénal",
    "x": 54,
    "y": 12743.47,
@@ -6772,6 +6970,7 @@
   {
    "key": "i:a:REWOLF | rewolf.studio#1",
    "role": "a",
+   "zone": "footer",
    "text": "REWOLF | rewolf.studio",
    "x": 174.3,
    "y": 14989.77,
@@ -6799,6 +6998,7 @@
   {
    "key": "i:a:Accueil#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accueil",
    "x": 13,
    "y": 13888.67,
@@ -6826,6 +7026,7 @@
   {
    "key": "i:a:Notre cabinet#1",
    "role": "a",
+   "zone": "footer",
    "text": "Notre cabinet",
    "x": 13,
    "y": 13926.08,
@@ -6853,6 +7054,7 @@
   {
    "key": "i:a:Rendez-vous, accès & honoraires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Rendez-vous, accès & honoraires",
    "x": 13,
    "y": 13963.48,
@@ -6880,6 +7082,7 @@
   {
    "key": "i:a:Nos affaires#1",
    "role": "a",
+   "zone": "footer",
    "text": "Nos affaires",
    "x": 13,
    "y": 14000.89,
@@ -6907,6 +7110,7 @@
   {
    "key": "i:a:Ressources#1",
    "role": "a",
+   "zone": "footer",
    "text": "Ressources",
    "x": 13,
    "y": 14038.3,
@@ -6934,6 +7138,7 @@
   {
    "key": "i:a:Mentions légales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Mentions légales",
    "x": 13,
    "y": 14075.7,
@@ -6961,6 +7166,7 @@
   {
    "key": "i:a:Défense Pénale#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense Pénale",
    "x": 11.5,
    "y": 14449.34,
@@ -6988,6 +7194,7 @@
   {
    "key": "i:a:Droit pénal#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal",
    "x": 12,
    "y": 14499.55,
@@ -7015,6 +7222,7 @@
   {
    "key": "i:a:Procès criminels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Procès criminels",
    "x": 12,
    "y": 14536.95,
@@ -7042,6 +7250,7 @@
   {
    "key": "i:a:Trafic de stupéfiants#2",
    "role": "a",
+   "zone": "footer",
    "text": "Trafic de stupéfiants",
    "x": 12,
    "y": 14574.36,
@@ -7069,6 +7278,7 @@
   {
    "key": "i:a:Violences conjugales et féminicides#1",
    "role": "a",
+   "zone": "footer",
    "text": "Violences conjugales et féminicides",
    "x": 12,
    "y": 14611.77,
@@ -7096,6 +7306,7 @@
   {
    "key": "i:a:Droit pénal des affaires#4",
    "role": "a",
+   "zone": "footer",
    "text": "Droit pénal des affaires",
    "x": 12,
    "y": 14649.17,
@@ -7123,6 +7334,7 @@
   {
    "key": "i:a:Indemnisation des victimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Indemnisation des victimes",
    "x": 12,
    "y": 14162.61,
@@ -7150,6 +7362,7 @@
   {
    "key": "i:a:Victimes de délits ou crimes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Victimes de délits ou crimes",
    "x": 12.5,
    "y": 14212.81,
@@ -7177,6 +7390,7 @@
   {
    "key": "i:a:Accidents de la route#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la route",
    "x": 12.5,
    "y": 14250.22,
@@ -7204,6 +7418,7 @@
   {
    "key": "i:a:Droit et accidents du travail#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit et accidents du travail",
    "x": 12.5,
    "y": 14287.63,
@@ -7231,6 +7446,7 @@
   {
    "key": "i:a:Accidents et erreurs médicales#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents et erreurs médicales",
    "x": 12.5,
    "y": 14325.03,
@@ -7258,6 +7474,7 @@
   {
    "key": "i:a:Accidents de la vie courante#1",
    "role": "a",
+   "zone": "footer",
    "text": "Accidents de la vie courante",
    "x": 12.5,
    "y": 14362.44,
@@ -7285,6 +7502,7 @@
   {
    "key": "i:a:Droit des contrats et des personnes#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des contrats et des personnes",
    "x": 12,
    "y": 14736.58,
@@ -7312,6 +7530,7 @@
   {
    "key": "i:a:Droit des assurances particuliers et professionnels#1",
    "role": "a",
+   "zone": "footer",
    "text": "Droit des assurances particuliers et professionnels",
    "x": 12.5,
    "y": 14786.78,
@@ -7339,6 +7558,7 @@
   {
    "key": "i:a:Défense des consommateurs#1",
    "role": "a",
+   "zone": "footer",
    "text": "Défense des consommateurs",
    "x": 12.5,
    "y": 14824.19,
@@ -7366,6 +7586,7 @@
   {
    "key": "i:a:Droit de la famille#2",
    "role": "a",
+   "zone": "footer",
    "text": "Droit de la famille",
    "x": 12.5,
    "y": 14861.59,
@@ -7393,6 +7614,7 @@
   {
    "key": "i:a:Divorce#1",
    "role": "a",
+   "zone": "footer",
    "text": "Divorce",
    "x": 12.5,
    "y": 14899,
@@ -7420,6 +7642,7 @@
   {
    "key": "i:a:05 56 44 35 96#1",
    "role": "a",
+   "zone": "footer",
    "text": "05 56 44 35 96",
    "x": 12,
    "y": 13344.97,
@@ -7447,6 +7670,7 @@
   {
    "key": "i:a:Contact & RDV#1",
    "role": "a",
+   "zone": "footer",
    "text": "Contact & RDV",
    "x": 150.33,
    "y": 13344.97,
@@ -7474,6 +7698,7 @@
   {
    "key": "i:a:15 Pl. Sainte-Eulalie, 33000 Bordeaux#1",
    "role": "a",
+   "zone": "footer",
    "text": "15 Pl. Sainte-Eulalie, 33000 Bordeaux",
    "x": 12.5,
    "y": 13266.47,
@@ -7503,6 +7728,7 @@
   {
    "key": "img:img:d05c9e_587742c02c0244b1ae10520f29e85b3f#1",
    "anchor": "d05c9e_587742c02c0244b1ae10520f29e85b3f",
+   "zone": "main",
    "alt": "",
    "x": 30,
    "y": 152,
@@ -7518,6 +7744,7 @@
   {
    "key": "img:img:a18962_8b3c1fa242f541539e6b1b1cccde0fca#1",
    "anchor": "a18962_8b3c1fa242f541539e6b1b1cccde0fca",
+   "zone": "main",
    "alt": "Homicide involontaire routier dans les Landes : dix-huit mois de sursis simple s",
    "x": 30,
    "y": 717.47,
@@ -7533,6 +7760,7 @@
   {
    "key": "img:img:d05c9e_4c38898ded1e4c8b860bce8aa4711cc3%7Emv2#1",
    "anchor": "d05c9e_4c38898ded1e4c8b860bce8aa4711cc3%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Axelle Fresneau - Avocat à la cour",
    "x": 54,
    "y": 957.47,
@@ -7548,6 +7776,7 @@
   {
    "key": "img:img:nsplsh_7f482708ec924c269cd092eddcd1bd77#1",
    "anchor": "nsplsh_7f482708ec924c269cd092eddcd1bd77",
+   "zone": "main",
    "alt": "un escroc devant une voiture",
    "x": 30,
    "y": 1309.47,
@@ -7563,6 +7792,7 @@
   {
    "key": "img:img:d05c9e_7305cc4ac99f4ef9ac07c4e0cb35c4e2%7Emv2#1",
    "anchor": "d05c9e_7305cc4ac99f4ef9ac07c4e0cb35c4e2%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Andéol Brachanet - Avocat à la Cour",
    "x": 54,
    "y": 1552.47,
@@ -7578,6 +7808,7 @@
   {
    "key": "img:img:ece85d_9de10973478647479430ff99b02552bf#1",
    "anchor": "ece85d_9de10973478647479430ff99b02552bf",
+   "zone": "main",
    "alt": "cession de stupéfiants",
    "x": 30,
    "y": 1904.47,
@@ -7593,6 +7824,7 @@
   {
    "key": "img:img:d05c9e_65594de32d58480aa8a58132340cf545%7Emv2#1",
    "anchor": "d05c9e_65594de32d58480aa8a58132340cf545%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Jade Adil - Avocat à la cour",
    "x": 54,
    "y": 2111.47,
@@ -7608,6 +7840,7 @@
   {
    "key": "img:img:07454f_5e1afb499fda4e95ae762812074418d3#1",
    "anchor": "07454f_5e1afb499fda4e95ae762812074418d3",
+   "zone": "main",
    "alt": "Abus de biens sociaux : citation directe CMA CGM irrecevable",
    "x": 30,
    "y": 2463.47,
@@ -7623,6 +7856,7 @@
   {
    "key": "img:img:07454f_142ffa5a68ce45e1ae59b296a7904034#1",
    "anchor": "07454f_142ffa5a68ce45e1ae59b296a7904034",
+   "zone": "main",
    "alt": "Coups de feu devant le BARA CLUB : une nuit placée sous le signe de la stupéfact",
    "x": 30,
    "y": 3074.47,
@@ -7638,6 +7872,7 @@
   {
    "key": "img:img:07454f_e88378754ed54a69b167647722bc8a2f#1",
    "anchor": "07454f_e88378754ed54a69b167647722bc8a2f",
+   "zone": "main",
    "alt": "Double assassinat de Retjons dans les Landes : Un drame terrible et sanglant sur",
    "x": 30,
    "y": 3681.47,
@@ -7653,6 +7888,7 @@
   {
    "key": "img:img:07454f_c916a28edcd342328562a4beebaf627f#1",
    "anchor": "07454f_c916a28edcd342328562a4beebaf627f",
+   "zone": "main",
    "alt": "article du journal sud ouest sur notre affaire de relaxe d'un chef d'entreprise ",
    "x": 30,
    "y": 4309.47,
@@ -7668,6 +7904,7 @@
   {
    "key": "img:img:nsplsh_9ccb864254cc4005910f7ba78416a599#1",
    "anchor": "nsplsh_9ccb864254cc4005910f7ba78416a599",
+   "zone": "main",
    "alt": "combiné d'un téléphone",
    "x": 30,
    "y": 4885.47,
@@ -7683,6 +7920,7 @@
   {
    "key": "img:img:d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2#1",
    "anchor": "d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Julien Plouton - Avocat à la Cour",
    "x": 54,
    "y": 5388.47,
@@ -7698,6 +7936,7 @@
   {
    "key": "img:img:ece85d_c5a7ba95345447e6a959ae27499b2791#1",
    "anchor": "ece85d_c5a7ba95345447e6a959ae27499b2791",
+   "zone": "main",
    "alt": "un parent tient son enfant par la main",
    "x": 30,
    "y": 5740.47,
@@ -7713,6 +7952,7 @@
   {
    "key": "img:img:d05c9e_65594de32d58480aa8a58132340cf545%7Emv2#2",
    "anchor": "d05c9e_65594de32d58480aa8a58132340cf545%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Jade Adil - Avocat à la cour",
    "x": 54,
    "y": 5994.47,
@@ -7728,6 +7968,7 @@
   {
    "key": "img:img:07454f_517eee33020d495c872c955d8d9d0882#1",
    "anchor": "07454f_517eee33020d495c872c955d8d9d0882",
+   "zone": "main",
    "alt": "Fusillade aux Aubiers : notre client placé sous le statut de témoin assisté pour",
    "x": 30,
    "y": 6346.47,
@@ -7743,6 +7984,7 @@
   {
    "key": "img:img:d05c9e_524449f2db0b47ac854cf6f6f780180f%7Emv2#1",
    "anchor": "d05c9e_524449f2db0b47ac854cf6f6f780180f%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Cabinet Plouton",
    "x": 54,
    "y": 6676.47,
@@ -7758,6 +8000,7 @@
   {
    "key": "img:img:07454f_dff42b592a9d4544ab8fac58e36f0a50#1",
    "anchor": "07454f_dff42b592a9d4544ab8fac58e36f0a50",
+   "zone": "main",
    "alt": "fourgon de police présent pour une reconstitution criminelle.it",
    "x": 30,
    "y": 7028.47,
@@ -7773,6 +8016,7 @@
   {
    "key": "img:img:d05c9e_524449f2db0b47ac854cf6f6f780180f%7Emv2#2",
    "anchor": "d05c9e_524449f2db0b47ac854cf6f6f780180f%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Cabinet Plouton",
    "x": 54,
    "y": 7245.47,
@@ -7788,6 +8032,7 @@
   {
    "key": "img:img:nsplsh_cea54cdf67f34ba4b5cfffe06969c930#1",
    "anchor": "nsplsh_cea54cdf67f34ba4b5cfffe06969c930",
+   "zone": "main",
    "alt": "Saisie pénale à Pau : restitution de 39 000 € à un tiers",
    "x": 30,
    "y": 7597.47,
@@ -7803,6 +8048,7 @@
   {
    "key": "img:img:d05c9e_65594de32d58480aa8a58132340cf545%7Emv2#3",
    "anchor": "d05c9e_65594de32d58480aa8a58132340cf545%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Jade Adil - Avocat à la cour",
    "x": 54,
    "y": 7837.47,
@@ -7818,6 +8064,7 @@
   {
    "key": "img:img:0a84a1_0437e9123e34490c9b2efa6ab9a38810#1",
    "anchor": "0a84a1_0437e9123e34490c9b2efa6ab9a38810",
+   "zone": "main",
    "alt": "féminicide",
    "x": 30,
    "y": 8189.47,
@@ -7833,6 +8080,7 @@
   {
    "key": "img:img:d05c9e_4da697ae06c54a709373d772d1007c24%7Emv2#1",
    "anchor": "d05c9e_4da697ae06c54a709373d772d1007c24%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Mathilde Manson - Avocat à la Cour",
    "x": 54,
    "y": 8565.47,
@@ -7848,6 +8096,7 @@
   {
    "key": "img:img:d05c9e_af20258939d64b88b2c2515098cb5ce5#1",
    "anchor": "d05c9e_af20258939d64b88b2c2515098cb5ce5",
+   "zone": "main",
    "alt": "maître Julien Plouton, avocat pénaliste",
    "x": 30,
    "y": 8917.47,
@@ -7863,6 +8112,7 @@
   {
    "key": "img:img:d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2#2",
    "anchor": "d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Julien Plouton - Avocat à la Cour",
    "x": 54,
    "y": 9148.47,
@@ -7878,6 +8128,7 @@
   {
    "key": "img:img:d05c9e_88be4c73ef8345ff92e09643fc30ac33#1",
    "anchor": "d05c9e_88be4c73ef8345ff92e09643fc30ac33",
+   "zone": "main",
    "alt": "maitre Julien Plouton, avocat pénaliste",
    "x": 30,
    "y": 9500.47,
@@ -7893,6 +8144,7 @@
   {
    "key": "img:img:d05c9e_524449f2db0b47ac854cf6f6f780180f%7Emv2#3",
    "anchor": "d05c9e_524449f2db0b47ac854cf6f6f780180f%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Cabinet Plouton",
    "x": 54,
    "y": 9686.47,
@@ -7908,6 +8160,7 @@
   {
    "key": "img:img:nsplsh_838b0c4e30684ce3984a4f3734ed280a#1",
    "anchor": "nsplsh_838b0c4e30684ce3984a4f3734ed280a",
+   "zone": "main",
    "alt": "Proxénétisme aggravé à Bordeaux : 18 mois avec sursis probatoire",
    "x": 30,
    "y": 10038.47,
@@ -7923,6 +8176,7 @@
   {
    "key": "img:img:d05c9e_65594de32d58480aa8a58132340cf545%7Emv2#4",
    "anchor": "d05c9e_65594de32d58480aa8a58132340cf545%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Jade Adil - Avocat à la cour",
    "x": 54,
    "y": 10278.47,
@@ -7938,6 +8192,7 @@
   {
    "key": "img:img:07454f_aa47862b363940d686130fd8263474b8#1",
    "anchor": "07454f_aa47862b363940d686130fd8263474b8",
+   "zone": "main",
    "alt": "Féminicide de Lison : femmage à Bordeaux et droits des familles",
    "x": 30,
    "y": 10630.47,
@@ -7953,6 +8208,7 @@
   {
    "key": "img:img:d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2#3",
    "anchor": "d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Julien Plouton - Avocat à la Cour",
    "x": 54,
    "y": 10810.47,
@@ -7968,6 +8224,7 @@
   {
    "key": "img:img:ece85d_8bbd946c2fe8401ab87f41d3bf1211f0#1",
    "anchor": "ece85d_8bbd946c2fe8401ab87f41d3bf1211f0",
+   "zone": "main",
    "alt": "Trafic de stupéfiants Brive-Marseille : 9 ans réduits à 7 ans en appel",
    "x": 30,
    "y": 11162.47,
@@ -7983,6 +8240,7 @@
   {
    "key": "img:img:d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2#4",
    "anchor": "d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Julien Plouton - Avocat à la Cour",
    "x": 54,
    "y": 11402.47,
@@ -7998,6 +8256,7 @@
   {
    "key": "img:img:nsplsh_6c37703344554b6146726b#1",
    "anchor": "nsplsh_6c37703344554b6146726b",
+   "zone": "main",
    "alt": "Vol avec violences et séquestration : Analyse d'une défense pénale à forts enjeu",
    "x": 30,
    "y": 11754.47,
@@ -8013,6 +8272,7 @@
   {
    "key": "img:img:d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2#5",
    "anchor": "d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Julien Plouton - Avocat à la Cour",
    "x": 54,
    "y": 11994.47,
@@ -8028,6 +8288,7 @@
   {
    "key": "img:img:nsplsh_0f2cc81577a14eda8640ddf6e6f08f0c#1",
    "anchor": "nsplsh_0f2cc81577a14eda8640ddf6e6f08f0c",
+   "zone": "main",
    "alt": "Vente de meubles et pratiques commerciales trompeuses : relaxe totale pour un sa",
    "x": 30,
    "y": 12346.47,
@@ -8043,6 +8304,7 @@
   {
    "key": "img:img:d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2#6",
    "anchor": "d05c9e_4c063e22b8664559befdb1ec2c1d5d7d%7Emv2",
+   "zone": "main",
    "alt": "Photo du rédacteur: Julien Plouton - Avocat à la Cour",
    "x": 54,
    "y": 12691.47,

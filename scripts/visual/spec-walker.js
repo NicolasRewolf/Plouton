@@ -115,6 +115,18 @@ export function walkSpec(opts) {
   }
   const leaves = candidates.filter((el) => !hasBlockTextDesc.has(el));
 
+  // Zone structurelle — permet au diff d'exclure une zone gelée (ex. Header
+  // figé côté produit) ou de cibler une brique (--zone footer).
+  // Un <header>/<footer> imbriqué dans <main> ou <article> est du contenu
+  // (HTML5 : footer d'article — Wix en met 4 par post), pas une zone de site.
+  const zoneOf = (el) => {
+    const h = el.closest('header, [data-zone="header"]');
+    if (h && !h.closest('main, article')) return 'header';
+    const f = el.closest('footer, [role="contentinfo"], [data-zone="footer"]');
+    if (f && !f.closest('main, article')) return 'footer';
+    return 'main';
+  };
+
   const scrollY = window.scrollY || 0;
   const occ = Object.create(null);
   const keyFor = (tier, role, text) => {
@@ -135,6 +147,7 @@ export function walkSpec(opts) {
     const entry = {
       key: keyFor('b', role, short),
       role,
+      zone: zoneOf(el),
       text: short,
       fullTextLen: text.length,
       x: round2(r.x),
@@ -165,6 +178,7 @@ export function walkSpec(opts) {
     inlines.push({
       key: keyFor('i', isBtn ? 'button' : 'a', short),
       role: isBtn ? 'button' : 'a',
+      zone: zoneOf(el),
       text: short,
       x: round2(v.r.x),
       y: round2(v.r.y + scrollY),
@@ -187,6 +201,7 @@ export function walkSpec(opts) {
     images.push({
       key: keyFor('img', 'img', anchor),
       anchor,
+      zone: zoneOf(img),
       alt: norm(img.alt).slice(0, MAX_TEXT),
       x: round2(v.r.x),
       y: round2(v.r.y + scrollY),
