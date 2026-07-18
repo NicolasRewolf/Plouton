@@ -99,5 +99,15 @@
     "ours": "corail accent + soulignement pointillé unique ; ignore underline/couleur Wix sur runs LINK",
     "reason": "Demande Nicolas 2026-07-18 : double soulignement bleu/rouge trop bizarre ; style B + dotted partout.",
     "skill": "better-typography (underline from-font, skip-ink, decoration-style dotted)"
+  },
+  {
+    "id": "hero-cta-mix-x-v1",
+    "page": "accueil (+ notre-cabinet)",
+    "anchor": ".btn-pill",
+    "property": "cta-style",
+    "live": "pilules + pastille flèche cerclée",
+    "ours": "mix X : radius 6, fond soft, poids 400, flèche légère, hover lift + gap",
+    "reason": "Demande Nicolas 2026-07-18 : CTA trop gras/banals ; validation propal X.",
+    "skill": "better-ui (scale 0.96, interruptible transitions, shadows)"
   }
 ]

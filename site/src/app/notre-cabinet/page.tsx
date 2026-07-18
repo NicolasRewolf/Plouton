@@ -70,10 +70,7 @@ export default function NotreCabinetPage() {
                     {p.trim()}
                   </p>
                 ))}
-              <Link
-                href="/honoraires-rendez-vous"
-                className="btn-pill mt-6 border-navy text-navy"
-              >
+              <Link href="/honoraires-rendez-vous" className="btn-pill btn-pill-primary mt-6">
                 Je prends rendez-vous
                 <span className="btn-pill-icon" aria-hidden>
                   →

@@ -5,6 +5,12 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — CTA accueil : mix X
+
+- Fini les pilules + pastille flèche
+- Radius 6, fond soft, texte regular, flèche légère, hover lift
+- Aussi sur « Notre cabinet »
+
 ## 2026-07-18 — Liens internes : corail + pointillés
 
 - Style unique articles / prose / expertises (plus de double soulignement Wix)

@@ -70,10 +70,10 @@ export default function HomePage() {
                 <Link
                   key={cta.label}
                   href={cta.href}
-                  className={`btn-pill ${i === 0 ? "text-accent" : "text-navy"}`}
+                  className={`btn-pill ${i === 0 ? "btn-pill-primary" : ""}`}
                 >
                   {cta.label}
-                  <span className="btn-pill-icon border-accent text-accent" aria-hidden>
+                  <span className="btn-pill-icon" aria-hidden>
                     →
                   </span>
                 </Link>
