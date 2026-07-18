@@ -5,24 +5,36 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Home intro : vraie photo découpée
+
+- Bonne photo PNG (portrait) à la place du mauvais paysage
+- Fond **blanc** = même couleur que le fond de la photo → plus de carré visible
+- À voir : http://localhost:3000/ (sous le hero)
+
 ## 2026-07-18 — Hero expertise : logos en trop retirés
 
 - Plus de grand logo rouge en filigrane
 - Plus de logo dans un cercle sur la photo
 - Reste juste le petit picto à côté de « Cabinet Plouton »
 
-## 2026-07-18 — Illustrations hero pages expertise
+## 2026-07-18 — Home expertises : flèches rondes
 
-- 13 visuels fournis branchés dans `site/public/brand/expertises/` (noms = slugs)
-- Manque encore : **divorce** (ancienne image conservée)
-- À voir sur n’importe quelle page expertise (photo en haut à droite)
+- Même section 3 pôles (titre coloré, listes à traits)
+- Flèches fines remplacées par les **cercles →** déjà utilisés sur le site (boutons hero, etc.)
+- À voir : http://localhost:3000/#expertises
 
 ## 2026-07-18 — Home : section « À vos côtés » avec photo équipe
 
 - Sous le hero : photo de groupe à gauche, texte à droite (comme le site actuel)
 - Titre en deux couleurs (rouge + bleu) + citation en petit
-- Photo ajoutée dans `site/public/brand/equipe-home.webp`
+- Photo : `site/public/brand/equipe-home.png`
 - À voir : http://localhost:3000/
+
+## 2026-07-18 — Illustrations hero pages expertise
+
+- 13 visuels fournis branchés dans `site/public/brand/expertises/` (noms = slugs)
+- Manque encore : **divorce** (ancienne image conservée)
+- À voir sur n’importe quelle page expertise (photo en haut à droite)
 
 ## 2026-07-18 — Maintenance globale expertises (check live)
 

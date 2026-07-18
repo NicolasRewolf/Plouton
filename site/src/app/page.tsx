@@ -128,27 +128,70 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Intro — textes complets live */}
-      <section className="mx-auto grid max-w-[1100px] gap-10 px-6 py-20 lg:grid-cols-2 lg:gap-16 lg:px-10 lg:py-28">
-        <h2 className="font-display text-[30px] font-normal leading-snug tracking-tight text-navy">
-          {page.intro.heading}
-        </h2>
-        <div>
-          <p className="text-[16px] leading-relaxed text-navy">{page.intro.body}</p>
-          <p className="mt-8 whitespace-pre-line text-[12px] leading-relaxed text-citation">
-            {page.intro.citation}
-          </p>
+      {/* Intro — photo équipe découpée + texte
+          Fond = blanc photo : le « carré » de la photo disparaît. */}
+      <section className="bg-white px-6 py-14 lg:px-10 lg:py-20">
+        <div className="mx-auto grid max-w-[1200px] items-center gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-12 xl:gap-16">
+          <Image
+            src={page.intro.image}
+            alt={page.intro.imageAlt}
+            width={1166}
+            height={1500}
+            className="mx-auto h-auto w-full max-w-[520px] lg:mx-0 lg:max-w-none"
+            sizes="(max-width: 1024px) 80vw, 42vw"
+            priority={false}
+          />
+
+          <div className="lg:py-6">
+            <h2 className="font-display text-[clamp(1.55rem,2.4vw,2rem)] font-medium leading-[1.22] tracking-tight">
+              {page.intro.headingLines.map((line) => (
+                <span
+                  key={line.text}
+                  className={
+                    line.color === "accent"
+                      ? "block text-accent"
+                      : "block text-navy"
+                  }
+                >
+                  {line.text}
+                  {line.color === "navy" ? (
+                    <span className="text-accent" aria-hidden>
+                      {" "}
+                      *
+                    </span>
+                  ) : null}{" "}
+                </span>
+              ))}
+            </h2>
+
+            <p className="mt-7 text-[15px] leading-[1.75] text-navy">
+              {renderBoldText(page.intro.body)}
+            </p>
+
+            <p className="mt-12 max-w-xl whitespace-pre-line text-[10px] leading-relaxed text-[#cfcfcf] lg:mt-16">
+              <span className="text-accent">*</span>
+              {page.intro.citation.replace(/^\*\s*/, " ")}
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Expertises */}
       <section id="expertises" className="border-t border-line bg-white px-6 py-16 lg:px-10 lg:py-24">
         <div className="mx-auto max-w-[1200px]">
-          <p className="text-[12px] font-bold tracking-[0.14em] text-muted">
+          <p className="text-[12px] font-bold tracking-[0.14em] text-accent">
             {page.expertiseIntro.eyebrow}
           </p>
           <h2 className="mt-2 max-w-xl font-display text-[30px] font-normal leading-snug text-navy">
-            {page.expertiseIntro.heading}
+            {page.expertiseIntro.headingAccent.map((part) =>
+              part.accent ? (
+                <span key={part.text} className="text-accent">
+                  {part.text}
+                </span>
+              ) : (
+                <span key={part.text}>{part.text}</span>
+              )
+            )}
           </h2>
 
           <div className="mt-14 grid gap-14 lg:grid-cols-3 lg:gap-10">
@@ -156,12 +199,21 @@ export default function HomePage() {
               <div key={pole.label}>
                 <p className="text-[11px] font-bold tracking-[0.12em] text-accent">{pole.label}</p>
                 <h3 className="mt-2 font-display text-[30px] font-normal text-navy">{pole.title}</h3>
-                <p className="mt-3 text-[16px] leading-relaxed text-navy">{pole.intro}</p>
-                <ul className="mt-6 space-y-2">
+                <p className="mt-3 text-[15px] leading-relaxed text-navy/80">{pole.intro}</p>
+                <ul className="mt-6">
                   {pole.items.map((item) => (
-                    <li key={item.title}>
-                      <Link href={item.href} className="text-[16px] text-navy hover:text-accent">
-                        {item.title}
+                    <li key={item.title} className="border-b border-line">
+                      <Link
+                        href={item.href}
+                        className="group flex items-center justify-between gap-3 py-3.5 text-[15px] text-navy transition-colors hover:text-accent"
+                      >
+                        <span>{item.title}</span>
+                        <span
+                          className="flex size-6 shrink-0 items-center justify-center rounded-full border border-accent text-[11px] leading-none text-accent transition-transform duration-200 group-hover:translate-x-0.5"
+                          aria-hidden
+                        >
+                          →
+                        </span>
                       </Link>
                     </li>
                   ))}
@@ -237,4 +289,17 @@ export default function HomePage() {
       <Footer />
     </>
   )
+}
+
+function renderBoldText(text: string) {
+  const parts = text.split(/(\*\*[^*]+\*\*)/g)
+  return parts.map((part, i) => {
+    if (part.startsWith("**") && part.endsWith("**"))
+      return (
+        <strong key={i} className="font-semibold text-navy">
+          {part.slice(2, -2)}
+        </strong>
+      )
+    return <span key={i}>{part}</span>
+  })
 }

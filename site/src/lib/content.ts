@@ -316,7 +316,11 @@ export function getAccueil() {
       body: string
       citation: string
     }
-    expertiseIntro: { eyebrow: string; heading: string }
+    expertiseIntro: {
+      eyebrow: string
+      heading: string
+      headingAccent: { text: string; accent: boolean }[]
+    }
     poles: {
       label: string
       title: string

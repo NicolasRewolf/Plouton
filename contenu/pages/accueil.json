@@ -27,13 +27,28 @@
   },
   "tickerLabel": "ACTUALITÉS",
   "intro": {
+    "image": "/brand/equipe-home.png",
+    "imageAlt": "L'équipe du Cabinet Plouton",
     "heading": "À vos côtés depuis 20 ans pour défendre vos droits et lutter contre \"un certain sentiment d'injustice\" *",
-    "body": "Il y a des moments où tout bascule. Une accusation, un accident, un conflit qui menace de tout emporter. Dans ces moments, le Cabinet Plouton est à vos côtés. Implantés à Bordeaux depuis plus de 20 ans, nous sommes des avocats qui ont fait de la défense de vos droits et de la réparation des préjudices notre unique vocation. Notre cabinet allie une expertise de pointe en défense pénale et en contentieux complexes – de l'indemnisation des victimes au droit de la famille – à une approche profondément humaine. Nous ne nous contentons pas de plaider : nous écoutons, nous comprenons et nous construisons avec vous la stratégie qui fera la différence. Avec rigueur et combativité, nous luttons pour que justice vous soit rendue.",
+    "headingLines": [
+      { "text": "À vos côtés depuis 20 ans", "color": "accent" },
+      {
+        "text": "pour défendre vos droits et lutter contre « un certain sentiment d'injustice »",
+        "color": "navy"
+      }
+    ],
+    "body": "**Il y a des moments où tout bascule.** Une accusation, un accident, un conflit qui menace de tout emporter. Dans ces moments, **le Cabinet Plouton est à vos côtés.** **Implantés à Bordeaux depuis plus de 20 ans,** nous sommes des avocats qui ont fait de la défense de vos droits et de la réparation des préjudices **notre unique vocation.** Notre cabinet allie une expertise de pointe en défense pénale et en contentieux complexes – de l'indemnisation des victimes au droit de la famille – à une approche profondément humaine. Nous ne nous contentons pas de plaider : nous écoutons, nous comprenons et nous construisons avec vous la stratégie qui fera la différence. Avec rigueur et combativité, nous luttons pour que justice vous soit rendue.",
     "citation": "* « La loi élève des barrières, fixe des interdits mais ce sont les juges qui condamnent. La justice est une affaire d'hommes, elle doit conserver une dimension humaine. Le temps de l'ordinateur judiciaire n'est pas encore venu. Lorsque l'équilibre n'est plus respecté, le rôle de l'avocat consiste à tenter de réduire la marge d'erreurs. il est souvent seul, décrié, incompris. C'est une tache ingrate qui ne va pas sans problème de conscience, sans remise en question permanente, un métier d'angoisse. Pourtant, de toutes ses forces, de tout son talent, par tous les moyens légaux, l'avocat doit lutter, même sans espoir, pour faire disparaitre le sentiment d'injustice »\n\n« Un certain sentiment d'injustice » Jean Louis PELLETIER"
   },
   "expertiseIntro": {
     "eyebrow": "NOTRE EXPERTISE",
-    "heading": "3 pôles de compétences, couvrant 13 domaines juridiques."
+    "heading": "3 pôles de compétences, couvrant 13 domaines juridiques.",
+    "headingAccent": [
+      { "text": "3 pôles", "accent": true },
+      { "text": " de compétences, couvrant ", "accent": false },
+      { "text": "13 domaines", "accent": true },
+      { "text": " juridiques.", "accent": false }
+    ]
   },
   "poles": [
     {
