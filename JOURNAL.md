@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Médias + hub Ressources
+
+- **Médias** dans le menu → vraie grille blog ; `/medias` redirige dessus (plus de liste pauvre)
+- **Ressources** (`/comprendre-le-droit`) : hub par thèmes + articles les plus lus
+- Contenu éditable dans un JSON (pas une nouvelle usine à pages)
+- Suite backlog : hubs pôles, Défense des élus, redirects cassés
+
 ## 2026-07-18 — C4 MVP : canal blog (écriture CMS)
 
 - Table **`posts`** en base + **422** articles seedés (slugs inchangés)

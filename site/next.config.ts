@@ -45,6 +45,12 @@ const nextConfig: NextConfig = {
         destination: "/indemnisation-des-victimes/accidents-de-la-route",
         permanent: true,
       },
+      // Live Wix : /medias = 404 ; grille réelle = catégorie blog Médias
+      {
+        source: "/medias",
+        destination: "/blog/categories/médias",
+        permanent: true,
+      },
     ]
     const manualSources = new Set(manual.map((r) => r.source))
     return [...manual, ...wixRedirects.filter((r) => !manualSources.has(r.source))]

@@ -130,7 +130,7 @@
   "extraFormObjets": ["Nous rejoindre (candidature)", "Autre / je ne sais pas encore"],
   "sideLinks": [
     { "label": "Affaires", "href": "/nos-affaires" },
-    { "label": "Médias", "href": "/medias" },
+    { "label": "Médias", "href": "/blog/categories/médias" },
     { "label": "Ressources", "href": "/comprendre-le-droit" },
     { "label": "Équipe", "href": "/notre-cabinet" }
   ]

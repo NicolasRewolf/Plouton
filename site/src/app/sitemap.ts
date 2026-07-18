@@ -20,7 +20,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/honoraires-rendez-vous",
     "/notre-cabinet",
     "/nos-affaires",
-    "/medias",
     "/comprendre-le-droit",
     "/mentions-legales",
     "/politique-de-confidentialite",
