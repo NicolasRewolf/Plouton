@@ -101,6 +101,11 @@ Ironie utile : le plan pixel listait déjà explicitement *« persistance admin 
 > Docs : `docs/14-etat.md` · ce fichier · `docs/11-stack-technique.md` · `base/LIRE-MOI.md` · `docs/15-audit-sante.md`.
 >
 > Quand tu repartes : **C0 en premier** (prouver 1 row `demandes`), pas un schema posts.
+>
+> ### Addendum soir — C0–C4
+>
+> C0–C3 mergés (PR #7). **C4 MVP** livré (`feat/canalisations-c4`) : table `posts`, seed 422,
+> `saveArticle` DB, dual-run public JSON. Prochaine étape = **C5** (lecture publique DB + publish).
 
 ---
 

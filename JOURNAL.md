@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — C4 MVP : canal blog (écriture CMS)
+
+- Table **`posts`** en base + **422** articles seedés (slugs inchangés)
+- L’admin peut **enregistrer** un article en DB (plus d’erreur « à venir »)
+- Le **site public** lit encore les fichiers JSON — bascule lecture = **C5**
+- Script : `python3 scripts/seed-posts.py` · branche `feat/canalisations-c4`
+
 ## 2026-07-18 — Canalisations C0–C3 (PR #7)
 
 - **C0–C2** : demandes en base, pièces jointes, login magic link, boîte `/admin/demandes`

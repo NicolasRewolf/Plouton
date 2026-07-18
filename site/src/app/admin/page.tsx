@@ -14,8 +14,8 @@ export default function AdminBlogPage() {
         <div>
           <h1 className="font-display text-3xl">Backoffice blog</h1>
           <p className="mt-1 text-sm text-muted">
-            {articles.length} articles importés depuis Wix · fichiers dans{" "}
-            <code>contenu/articles/</code>
+            {articles.length} articles · édition admin → base Supabase (C4) · site
+            public lit encore le JSON git jusqu’à C5
           </p>
         </div>
         <Link
