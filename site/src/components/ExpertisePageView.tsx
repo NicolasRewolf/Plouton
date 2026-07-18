@@ -143,15 +143,8 @@ export function ExpertisePageView({
       <Header variant="site" />
       <JsonLd data={schema} />
 
-      {/* Hero asymétrique — texte + photo slash + marque */}
+      {/* Hero asymétrique — texte + photo slash */}
       <section className="relative overflow-hidden bg-gradient-to-b from-[#f4f7f9] via-white to-white">
-        <div
-          className="pointer-events-none absolute -right-16 top-8 hidden opacity-[0.07] lg:block"
-          aria-hidden
-        >
-          <Image src="/brand/logo-mark.svg" alt="" width={320} height={240} className="h-auto w-[280px]" />
-        </div>
-
         <div className="mx-auto grid max-w-6xl gap-10 px-5 pb-10 pt-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-end lg:gap-14 lg:px-8 lg:pb-12 lg:pt-16">
           <div className="relative z-10 max-w-xl">
             <div className="flex items-center gap-2.5">
@@ -193,18 +186,6 @@ export function ExpertisePageView({
                     priority
                     className="object-cover object-center outline outline-1 outline-black/10"
                     sizes="(max-width: 1024px) 90vw, 480px"
-                  />
-                </div>
-                <div
-                  className="absolute -bottom-3 -left-3 flex h-14 w-14 items-center justify-center rounded-full bg-white shadow-[0_8px_24px_rgba(23,71,94,0.12)] sm:h-16 sm:w-16"
-                  aria-hidden
-                >
-                  <Image
-                    src="/brand/logo-mark.svg"
-                    alt=""
-                    width={28}
-                    height={21}
-                    className="h-[18px] w-auto sm:h-[21px]"
                   />
                 </div>
               </div>

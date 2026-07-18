@@ -5,6 +5,12 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-18 — Hero expertise : logos en trop retirés
+
+- Plus de grand logo rouge en filigrane
+- Plus de logo dans un cercle sur la photo
+- Reste juste le petit picto à côté de « Cabinet Plouton »
+
 ## 2026-07-18 — Illustrations hero pages expertise
 
 - 13 visuels fournis branchés dans `site/public/brand/expertises/` (noms = slugs)
