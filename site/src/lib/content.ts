@@ -1,6 +1,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { cache } from "react"
+import type { ArticleBody } from "@/lib/editorjs"
 
 /** Racine des données. Surchargée via CONTENT_ROOT (déploiement, tests). */
 export const contentRoot = process.env.CONTENT_ROOT
@@ -61,8 +62,12 @@ export interface Article {
   metaDescription?: string
   /** HTML structuré (titres, listes, liens) depuis Rich Content Wix */
   bodyHtml?: string
-  /** Fallback texte / édition admin */
-  body: string[]
+  /**
+   * Corps article :
+   * - `string[]` = seed / ancien admin (paragraphes)
+   * - document Editor.js = articles rédigés / réédités dans le backoffice
+   */
+  body: ArticleBody
 }
 
 export interface ArticleIndexItem {

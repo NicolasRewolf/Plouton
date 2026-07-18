@@ -21,6 +21,11 @@ import {
   listPublishedSlugs,
   POSTS_CACHE_TAG,
 } from "@/lib/posts-db"
+import {
+  editorJsToPlainParagraphs,
+  hasUsableArticleBody,
+  isEditorJsDoc,
+} from "@/lib/editorjs"
 
 export { POSTS_CACHE_TAG }
 
@@ -30,7 +35,11 @@ function normSlug(slug: string): string {
 
 function bodySignature(article: Pick<Article, "body" | "bodyHtml">): string {
   const html = (article.bodyHtml || "").trim()
-  const body = (article.body || []).map((p) => p.trim()).join("\n\n")
+  let body = ""
+  if (isEditorJsDoc(article.body))
+    body = editorJsToPlainParagraphs(article.body).join("\n\n")
+  else if (Array.isArray(article.body))
+    body = article.body.map((p) => p.trim()).join("\n\n")
   return `${html}\n---\n${body}`
 }
 
@@ -41,17 +50,28 @@ export function preferDbBody(article: Article): boolean {
   return bodySignature(article) !== bodySignature(jsonTwin)
 }
 
-export type PostBodyMode = "db-html" | "db-blocks" | "ricos" | "html" | "blocks"
+export type PostBodyMode =
+  | "editorjs"
+  | "db-html"
+  | "db-blocks"
+  | "ricos"
+  | "html"
+  | "blocks"
 
 /** Chemin de rendu du corps (documenté dans docs/05-decisions.md). */
 export function resolvePostBodyMode(article: Article): PostBodyMode {
   const ricos = getRicos(article.slug)
   if (preferDbBody(article)) {
+    // Editor.js en premier : un save admin ne doit pas rester bloqué sur bodyHtml seed.
+    if (isEditorJsDoc(article.body) && hasUsableArticleBody(article.body))
+      return "editorjs"
     if (article.bodyHtml?.trim()) return "db-html"
-    if (article.body?.some((p) => p.trim() && p !== "Contenu à rédiger."))
+    if (Array.isArray(article.body) && hasUsableArticleBody(article.body))
       return "db-blocks"
   }
   if (ricos) return "ricos"
+  if (isEditorJsDoc(article.body) && hasUsableArticleBody(article.body))
+    return "editorjs"
   if (article.bodyHtml?.trim()) return "html"
   return "blocks"
 }

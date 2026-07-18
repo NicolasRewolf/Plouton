@@ -2,15 +2,26 @@
 
 import Link from "next/link"
 import { useRouter } from "next/navigation"
-import { useState, type FormEvent } from "react"
+import { useRef, useState, type FormEvent } from "react"
+import { AdminEditorLazy } from "@/components/admin/AdminEditorLazy"
+import {
+  emptyEditorJsDoc,
+  type EditorJsDocument,
+} from "@/lib/editorjs"
 
 export default function NewPostPage() {
   const router = useRouter()
+  const formRef = useRef<HTMLFormElement>(null)
   const [error, setError] = useState("")
+  const [saving, setSaving] = useState(false)
+  const [bodyDoc, setBodyDoc] = useState<EditorJsDocument>(() => emptyEditorJsDoc())
 
-  async function onSubmit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault()
-    const fd = new FormData(e.currentTarget)
+  async function save(status: "draft" | "published") {
+    const form = formRef.current
+    if (!form) return
+    setSaving(true)
+    setError("")
+    const fd = new FormData(form)
     const title = String(fd.get("title") || "")
     const slug =
       String(fd.get("slug") || "") ||
@@ -20,10 +31,6 @@ export default function NewPostPage() {
         .replace(/[\u0300-\u036f]/g, "")
         .replace(/[^a-z0-9]+/g, "-")
         .replace(/^-|-$/g, "")
-    const body = String(fd.get("body") || "")
-      .split(/\n\n+/)
-      .map((s) => s.trim())
-      .filter(Boolean)
     const res = await fetch("/api/posts", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -31,11 +38,12 @@ export default function NewPostPage() {
         title,
         slug,
         excerpt: fd.get("excerpt"),
-        status: fd.get("status"),
+        status,
         author: fd.get("author"),
-        body,
+        body: bodyDoc,
       }),
     })
+    setSaving(false)
     if (!res.ok) {
       setError("Enregistrement impossible")
       return
@@ -44,47 +52,100 @@ export default function NewPostPage() {
     router.refresh()
   }
 
+  function onSubmit(e: FormEvent) {
+    e.preventDefault()
+    void save("draft")
+  }
+
   return (
-    <div className="mx-auto max-w-2xl px-4 py-12">
-      <h1 className="font-display text-3xl mb-6">Nouvel article</h1>
-      <form onSubmit={onSubmit} className="grid gap-4">
-        <label className="grid gap-1 text-sm">
-          Titre *
-          <input required name="title" className="border border-line px-3 py-2 bg-white" />
-        </label>
-        <label className="grid gap-1 text-sm">
-          Slug (URL)
-          <input name="slug" placeholder="auto si vide" className="border border-line px-3 py-2 bg-white" />
-        </label>
-        <label className="grid gap-1 text-sm">
-          Extrait
-          <textarea name="excerpt" rows={2} className="border border-line px-3 py-2 bg-white" />
-        </label>
-        <label className="grid gap-1 text-sm">
-          Auteur
-          <input name="author" defaultValue="Cabinet Plouton" className="border border-line px-3 py-2 bg-white" />
-        </label>
-        <label className="grid gap-1 text-sm">
-          Statut
-          <select name="status" className="border border-line px-3 py-2 bg-white">
-            <option value="draft">Brouillon</option>
-            <option value="published">Publié</option>
-          </select>
-        </label>
-        <label className="grid gap-1 text-sm">
-          Corps (paragraphes séparés par une ligne vide ; ## pour un titre)
-          <textarea required name="body" rows={12} className="border border-line px-3 py-2 bg-white font-mono text-sm" />
-        </label>
-        {error ? <p className="text-accent text-sm">{error}</p> : null}
-        <div className="flex gap-3">
-          <button type="submit" className="bg-accent text-white px-4 py-2 hover:bg-accent-hover">
-            Enregistrer
-          </button>
-          <Link href="/admin" className="px-4 py-2 border border-line">
-            Annuler
-          </Link>
+    <main className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 lg:py-10">
+      <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <p className="text-[12px] font-medium tracking-[0.12em] text-navy/45 uppercase">
+            Blog
+          </p>
+          <h1 className="font-display mt-1 text-[26px] font-medium text-navy">
+            Nouvel article
+          </h1>
         </div>
+        <Link href="/admin" className="text-[13px] text-muted hover:text-navy">
+          ← Retour liste
+        </Link>
+      </div>
+
+      <form
+        ref={formRef}
+        onSubmit={onSubmit}
+        className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_280px]"
+      >
+        <div className="space-y-4">
+          <label className="grid gap-1.5 text-[13px] font-medium text-navy">
+            Titre *
+            <input
+              required
+              name="title"
+              className="admin-input text-[16px] font-medium"
+              placeholder="Titre de l’article"
+            />
+          </label>
+          <AdminEditorLazy initialData={bodyDoc} onChange={setBodyDoc} />
+        </div>
+
+        <aside className="space-y-4 lg:sticky lg:top-6 lg:self-start">
+          <div className="rounded-[14px] border border-[rgba(23,71,94,0.1)] bg-white p-4 shadow-[0_1px_2px_rgba(23,71,94,0.04)]">
+            <p className="text-[12px] font-semibold tracking-wide text-navy/50 uppercase">
+              Publication
+            </p>
+            <p className="mt-2 text-[12px] leading-relaxed text-muted">
+              Brouillon = visible seulement ici. Publier = en ligne tout de suite.
+            </p>
+            <div className="mt-4 flex flex-col gap-2">
+              <button
+                type="submit"
+                disabled={saving}
+                className="admin-btn admin-btn-secondary w-full"
+              >
+                {saving ? "…" : "Enregistrer brouillon"}
+              </button>
+              <button
+                type="button"
+                disabled={saving}
+                className="admin-btn admin-btn-primary w-full"
+                onClick={() => void save("published")}
+              >
+                Publier
+              </button>
+            </div>
+            {error ? <p className="mt-3 text-[13px] text-accent">{error}</p> : null}
+          </div>
+
+          <div className="rounded-[14px] border border-[rgba(23,71,94,0.1)] bg-white p-4 shadow-[0_1px_2px_rgba(23,71,94,0.04)]">
+            <p className="text-[12px] font-semibold tracking-wide text-navy/50 uppercase">
+              Métadonnées
+            </p>
+            <label className="mt-3 grid gap-1 text-[13px] text-navy">
+              Slug (URL)
+              <input
+                name="slug"
+                placeholder="auto si vide"
+                className="admin-input font-mono text-[12px]"
+              />
+            </label>
+            <label className="mt-3 grid gap-1 text-[13px] text-navy">
+              Auteur
+              <input
+                name="author"
+                defaultValue="Cabinet Plouton"
+                className="admin-input"
+              />
+            </label>
+            <label className="mt-3 grid gap-1 text-[13px] text-navy">
+              Extrait
+              <textarea name="excerpt" rows={3} className="admin-input resize-y" />
+            </label>
+          </div>
+        </aside>
       </form>
-    </div>
+    </main>
   )
 }

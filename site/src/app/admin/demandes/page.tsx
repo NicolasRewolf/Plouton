@@ -16,13 +16,6 @@ interface DemandeRow {
   fichiers: string[]
 }
 
-async function deconnexion() {
-  "use server"
-  const supabase = await supabaseServer()
-  await supabase.auth.signOut()
-  redirect("/admin/login")
-}
-
 export default async function DemandesPage({
   searchParams,
 }: {
@@ -46,20 +39,18 @@ export default async function DemandesPage({
   if (error) throw new Error(`Lecture demandes : ${error.message}`)
 
   return (
-    <main className="mx-auto w-full max-w-4xl px-5 py-10">
-      <header className="flex flex-wrap items-center justify-between gap-4">
-        <div>
-          <h1 className="font-display text-[26px] font-medium text-navy">Demandes</h1>
-          <p className="mt-1 text-[13px] text-muted">
-            {demandes?.length ?? 0} demande{(demandes?.length ?? 0) > 1 ? "s" : ""}
-            {statut ? ` · ${statut}` : ""} — connecté : {user.email}
-          </p>
-        </div>
-        <form action={deconnexion}>
-          <button type="submit" className="text-[13px] text-muted underline-offset-2 hover:underline">
-            Se déconnecter
-          </button>
-        </form>
+    <main className="mx-auto w-full max-w-5xl px-4 py-8 sm:px-6 lg:py-10">
+      <header>
+        <p className="text-[12px] font-medium tracking-[0.12em] text-navy/45 uppercase">
+          Backoffice
+        </p>
+        <h1 className="font-display mt-1 text-[28px] font-medium text-navy sm:text-[32px]">
+          Demandes
+        </h1>
+        <p className="mt-1.5 text-[13px] text-muted">
+          {demandes?.length ?? 0} demande{(demandes?.length ?? 0) > 1 ? "s" : ""}
+          {statut ? ` · ${statut}` : ""} — {user.email}
+        </p>
       </header>
 
       <nav className="mt-6 flex flex-wrap gap-2" aria-label="Filtrer par statut">
@@ -107,7 +98,9 @@ export default async function DemandesPage({
         ))}
       </ul>
       {!demandes?.length ? (
-        <p className="mt-10 text-center text-[14px] text-muted">Aucune demande{statut ? ` en « ${statut} »` : ""}.</p>
+        <p className="mt-10 text-center text-[14px] text-muted">
+          Aucune demande{statut ? ` en « ${statut} »` : ""}.
+        </p>
       ) : null}
     </main>
   )

@@ -18,7 +18,7 @@ Changer un canonique → **propager partout dans la même PR**.
 | Zone | Pourquoi |
 |------|----------|
 | `Header` (bouton Contact nav + drawer) | Header **figé** (décision produit) — ne pas aligner sur `SiteCta` |
-| `/admin/*` | Backoffice, autre langage UI |
+| `/admin/*` | Backoffice, autre langage UI — shell sidebar + `.admin-btn` / `.admin-input` (navy/fog), pas `SiteCta` |
 | `ContactForm` (submit, modes RDV) | Formulaire complexe, parcours dédié |
 | Pastilles TOC (`ExpertiseToc`, `LegalToc`) | Navigation d’ancres, pas des CTA marketing |
 | Chips filtre (ex. nos-affaires, FAQ) | Filtres locaux, pas des CTA |
