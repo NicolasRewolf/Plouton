@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : droit des assurances (fidélité Wix)
+
+- Sous-titres sinistres rétablis : Incendies / Inondations-Sécheresse-Tempêtes / Vols
+- Texte RDV Wix rétabli
+- Droit de la famille : déjà OK sur le fond (intro complète) — trous restants mineurs (2 H4 protection + RDV), reportés
+- Tests : `/droit-des-contrats-et-des-personnes/droit-assurances-particuliers-professionnels`
+
 ## 2026-07-19 — Lot 6 audit : demandes + nav RDV
 
 - **Demandes admin** : recherche (nom, e-mail, objet…) + pages Suivant/Précédent (plus de plafond 200 sans suite)
