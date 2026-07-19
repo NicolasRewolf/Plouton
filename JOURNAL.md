@@ -5,6 +5,16 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Audit Wix→Next lot 2 (contenu / SEO / front)
+
+- Réseaux FB / IG / LinkedIn dans le footer (URLs du site live)
+- Loupe → page Recherche (titres / extraits) ; flux RSS `/rss.xml`
+- Fix « civile » cassé par le lien CIVI ; carrousel expertises 20 affaires
+- Articles : date avec année, 3 similaires, contact honnête (plus de faux commentaires)
+- Nos affaires : tri + récentes / + consultées ; canonical / partage social pages clés
+- Tests : loupe Header ; `/recherche?q=civi` ; `/rss.xml` ; page violences conjugales ; `/nos-affaires`
+
+
 ## 2026-07-19 — Médias & Ressources filtrables (plus de blog fourre-tout)
 
 - **Médias** = vraie page `/medias` avec filtres (comme Nos affaires)

@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { Footer } from "@/components/Footer"
@@ -5,7 +6,18 @@ import { Header } from "@/components/Header"
 import { SiteCta } from "@/components/SiteCta"
 import { getAccueil, getEquipe, getSite } from "@/lib/content"
 import { publishedIndex } from "@/lib/queries"
-import { JsonLd, organizationSchema } from "@/lib/seo"
+import { absoluteUrl, JsonLd, organizationSchema } from "@/lib/seo"
+
+
+export const metadata: Metadata = {
+  alternates: { canonical: absoluteUrl("/") },
+  openGraph: {
+    url: absoluteUrl("/"),
+    title: getSite().title,
+    description: getSite().description,
+    images: [{ url: "/brand/equipe-home.png" }],
+  },
+}
 
 export default async function HomePage() {
   const site = getSite()

@@ -5,15 +5,16 @@ import { Header } from "@/components/Header"
 import { SiteCta } from "@/components/SiteCta"
 import { TeamMurBlanc } from "@/components/TeamMurBlanc"
 import { getEquipe, getSite, readPageJson } from "@/lib/content"
-import { JsonLd, organizationSchema } from "@/lib/seo"
+import { JsonLd, organizationSchema, withCanonicalOg } from "@/lib/seo"
 
 export function generateMetadata(): Metadata {
   const page = readPageJson<{ metaTitle: string; metaDescription: string }>("notre-cabinet")
   if (!page) return { title: "Notre équipe" }
-  return {
+  return withCanonicalOg({
     title: { absolute: page.metaTitle },
     description: page.metaDescription,
-  }
+    path: "/notre-cabinet",
+  })
 }
 
 export default function NotreCabinetPage() {
