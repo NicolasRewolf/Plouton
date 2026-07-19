@@ -64,11 +64,11 @@ export function buildArticleGraph(opts: {
   const description =
     safeMetaDescription(article.metaDescription, article.excerpt) ||
     article.excerpt
-  const words =
-    article.minutesToRead && article.minutesToRead > 0
-      ? undefined
-      : wordCountFromHtml(article.bodyHtml)
-  const wordCount = words
+  // `wordCount` et `timeRequired` sont deux champs distincts : la présence
+  // d'un temps de lecture ne doit pas empêcher de compter les mots (sinon
+  // wordCount n'est émis sur aucun des 422 articles, qui ont tous un
+  // minutesToRead).
+  const wordCount = wordCountFromHtml(article.bodyHtml)
   const minutes =
     article.minutesToRead ||
     (wordCount ? Math.max(1, Math.round(wordCount / 250)) : undefined)

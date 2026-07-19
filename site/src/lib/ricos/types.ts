@@ -66,6 +66,8 @@ export interface RicosNode {
   }
   htmlData?: {
     html?: string
+    /** Embed distant sans markup inline (ex. replay TF1) — cf. ricos-to-pm. */
+    url?: string
     source?: string
     containerData?: ContainerData
   }
