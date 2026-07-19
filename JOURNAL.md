@@ -5,6 +5,16 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : Divorce (texte MD fidèle H2/H3/H4)
+
+- JSON réécrit depuis le MD Wix : 7 sections H2, 23 blocs H3, 5 sous-blocs H4 ; 12 puces
+- Simulateurs prestation compensatoire + pension alimentaire conservés (branchés sur leurs H2)
+- H3 « garde » rattachés au H2 Garde (dans le MD scrape : sous Partage, colonnes Wix) ; lead Garde = doublon patrimoine (comme MD)
+- Listes et liens conservés ; FAQ / formulaire / carrousel hors sections
+- Tests : `/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux` — build OK
+
+---
+
 ## 2026-07-19 — Expertises : Défense des élus (texte MD fidèle H2/H3/H4)
 
 - JSON réécrit depuis le MD scrapé (pas d’export frais) : 6 sections H2, 13 blocs H3, 0 H4 ; 7 puces
