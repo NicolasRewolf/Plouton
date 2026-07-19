@@ -5,6 +5,15 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : Défense des élus (texte MD fidèle H2/H3/H4)
+
+- JSON réécrit depuis le MD scrapé (pas d’export frais) : 6 sections H2, 13 blocs H3, 0 H4 ; 7 puces
+- Listes « Réagir à l’urgence » + « prise illégale d’intérêts » conservées ; FAQ / formulaire hors sections
+- Note : corps « E-réputation » = doublon de « Diffamation… » (comme sur le MD / Wix) ; source MD bruitée (`/$`, XML)
+- Tests : `/defense-penale/defense-des-elus` — build OK
+
+---
+
 ## 2026-07-19 — Expertises : Droit pénal des affaires (texte MD fidèle H2/H3/H4)
 
 - JSON réécrit depuis le MD Wix : 4 sections H2, 7 blocs H3, 0 H4 ; 37 puces (dont 3 dossiers exemples imbriqués)
