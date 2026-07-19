@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : accidents et erreurs médicales (fidélité Wix)
+
+- Intro 3 paragraphes déjà OK (rien à recréer)
+- Liens « Notre cabinet » / « Notre cabinet d’avocats » rétablis
+- Texte RDV Wix rétabli (« hors des horaires habituels »)
+- Tests : `/indemnisation-des-victimes/accidents-et-erreurs-medicales`
+
 ## 2026-07-19 — Lot 6 audit : demandes + nav RDV
 
 - **Demandes admin** : recherche (nom, e-mail, objet…) + pages Suivant/Précédent (plus de plafond 200 sans suite)
