@@ -6,7 +6,7 @@
   "title": "Avocat indemnisation des victimes de délits ou crimes",
   "metaTitle": "Avocat Victimes d'Infractions Bordeaux | Cabinet Plouton",
   "metaDescription": "Victime d'un délit ou d'un crime ? Cabinet Plouton à Bordeaux : constitution de partie civile, indemnisation CIVI et SARVI. Préjudices corporels et moraux.",
-  "intro": "Cabinet Plouton /\n\nDepuis plus de 20 ans, le cabinet est intervenu régulièrement au soutien des victimes et de leurs familles, au cours de multiples procès civils et pénaux dont plusieurs ont été médiatisés.\n\n​\n\nMaître Plouton, fondateur du cabinet et avocat pénaliste d’expérience a régulièrement constaté l’isolement et la vulnérabilité des victimes, que ce soit dans le cadre d’un procès ou des démarches amiables face aux compagnies d’assurances qui n’hésitent pas, pour certaines, à tirer avantage de cette fragilité en proposant des indemnisations dérisoires. Le long processus d’indemnisation, l’expertise médicale, l’audience ou la négociation d’une transaction sont toujours des épreuves pour ces dernières.\n\n​\n\nIl a ainsi structuré son cabinet autour d’un pôle spécifique relatif à l’indemnisation des victimes d’accidents, d’infractions pénales et au droit des assurances pour accompagner au mieux ses clients vers la reconnaissance de leur condition de victime ainsi qu’une parfaite indemnisation de leurs préjudices. Le cabinet intervient sur tout le territoire national et peut vous représenter devant différentes juridictions, notamment le Tribunal de Grande Instance, le Tribunal Administratif, la Commission d’Indemnisation des Victimes d’Infractions (CIVI), et bien d'autres.",
+  "intro": "Depuis plus de 20 ans, le cabinet est intervenu régulièrement au soutien des victimes et de leurs familles, au cours de multiples procès civils et pénaux dont plusieurs ont été médiatisés.\n\nMaître Plouton, fondateur du cabinet et avocat pénaliste d’expérience a régulièrement constaté l’isolement et la vulnérabilité des victimes, que ce soit dans le cadre d’un procès ou des démarches amiables face aux compagnies d’assurances qui n’hésitent pas, pour certaines, à tirer avantage de cette fragilité en proposant des indemnisations dérisoires. Le long processus d’indemnisation, l’expertise médicale, l’audience ou la négociation d’une transaction sont toujours des épreuves pour ces dernières.\n\nIl a ainsi structuré son cabinet autour d’un pôle spécifique relatif à l’indemnisation des victimes d’accidents, d’infractions pénales et au droit des assurances pour accompagner au mieux ses clients vers la reconnaissance de leur condition de victime ainsi qu’une parfaite indemnisation de leurs préjudices. Le cabinet intervient sur tout le territoire national et peut vous représenter devant différentes juridictions, notamment le Tribunal de Grande Instance, le Tribunal Administratif, la Commission d’Indemnisation des Victimes d’Infractions (CIVI), et bien d'autres.",
   "formObjet": "Victimes de délits ou crimes",
   "faqExpertise": "victimes-de-delits-ou-crimes",
   "blogCategories": [
@@ -44,51 +44,83 @@
       "shortLabel": "Je prends rendez-vous"
     }
   ],
+  "contactAside": {
+    "title": "Je prends rendez-vous maintenant !",
+    "text": "Les rendez-vous sont pris dans les 7 jours. En cas d’urgence, le rendez-vous peut être immédiat et même en dehors des horaires habituels du cabinet."
+  },
+  "inlineLinks": [],
   "sections": [
     {
       "id": "evaluer-et-preparer-votre-dossier-d-indemnisation",
       "title": "Évaluer et préparer votre dossier d'indemnisation",
-      "titleAccent": "Évaluer et préparer",
+      "titleAccent": "Évaluer et préparer votre dossier d'indemnisation",
       "lead": null,
       "blocks": [
         {
           "heading": "Un premier rendez-vous pour comprendre votre situation",
+          "headingLevel": 3,
           "body": "Dès le premier échange, en cabinet ou en visioconférence sécurisée, nous analysons votre affaire et votre dossier médical. Notre objectif est de déterminer la nature exacte de vos préjudices (corporels, psychologiques, financiers) et d'identifier rapidement les points à mettre en avant pour votre défense."
         },
         {
           "heading": "L'identification des responsabilités et le chiffrage initial",
+          "headingLevel": 3,
           "body": "Nous étudions rigoureusement les circonstances de l'accident ou de l'infraction pénale : la faute, la négligence ou le manquement à une obligation de sécurité. Cette analyse approfondie nous permet d'évaluer la solidité de votre dossier et de chiffrer vos préjudices (pertes de revenus, frais de santé, souffrances endurées, etc.) dès le départ."
         },
         {
           "heading": "Les conditions essentielles de l'indemnisation",
-          "body": "Pour être indemnisable, votre préjudice doit réunir trois conditions cumulatives :\n\n• Être certain : le préjudice doit être actuel et non simplement potentiel ou futur\n\n• Être direct : il doit être directement lié à l'infraction\n\n• Être déterminé : il doit pouvoir être clairement identifié et évalué"
+          "headingLevel": 3,
+          "body": "Pour être indemnisable, votre préjudice doit réunir trois conditions cumulatives :",
+          "bullets": [
+            "Être certain : le préjudice doit être actuel et non simplement potentiel ou futur",
+            "Être direct : il doit être directement lié à l'infraction",
+            "Être déterminé : il doit pouvoir être clairement identifié et évalué"
+          ]
         },
         {
           "heading": "Victimes d'infractions pénales : les premières démarches",
-          "body": "• Déposer plainte rapidement : si vous ou un proche êtes victime d'une infraction pénale (homicide, violences, viols ou agressions sexuelles, escroquerie, vol…), il est impératif de se rendre sans délai au Commissariat ou à la Gendarmerie.\n\n• Faire établir un certificat médical initial : en cas de séquelles physiques ou psychiques, ce certificat décrit précisément vos lésions (hématomes, fractures, lésions cutanées…) et constitue un élément de preuve essentiel.\n\n• Se rendre au CAUVA (Centre d'Accueil d'Urgences des Victimes d'Agressions) : pour les infractions les plus graves et si vous êtes hospitalisé, un médecin légiste y constatera vos blessures et remettra un rapport aux autorités judiciaires.\n\n• Vérifier vos contrats d'assurance : consultez vos polices d'assurance (habitation, automobile, protection juridique) qui peuvent prévoir une prise en charge de certains préjudices."
+          "headingLevel": 3,
+          "body": "",
+          "bullets": [
+            "Déposer plainte rapidement : si vous ou un proche êtes victime d'une infraction pénale (homicide, violences, viols ou agressions sexuelles, escroquerie, vol…), il est impératif de se rendre sans délai au Commissariat ou à la Gendarmerie.",
+            "Faire établir un certificat médical initial : en cas de séquelles physiques ou psychiques, ce certificat décrit précisément vos lésions (hématomes, fractures, lésions cutanées…) et constitue un élément de preuve essentiel.",
+            "Se rendre au CAUVA (Centre d'Accueil d'Urgences des Victimes d'Agressions) : pour les infractions les plus graves et si vous êtes hospitalisé, un médecin légiste y constatera vos blessures et remettra un rapport aux autorités judiciaires.",
+            "Vérifier vos contrats d'assurance : consultez vos polices d'assurance (habitation, automobile, protection juridique) qui peuvent prévoir une prise en charge de certains préjudices."
+          ]
         }
       ]
     },
     {
       "id": "construire-une-indemnisation-complete-et-adaptee",
       "title": "Construire une indemnisation complète et adaptée",
-      "titleAccent": "Construire",
+      "titleAccent": "Construire une indemnisation complète et adaptée",
       "lead": null,
       "blocks": [
         {
           "heading": "Obtenir des provisions pour faire face aux dépenses urgentes",
+          "headingLevel": 3,
           "body": "Lorsque votre état de santé n'est pas consolidé ou que les conséquences financières sont immédiates (frais de soins, perte de revenus, etc.), nous sollicitons une provision (avance) sur l'indemnisation définitive. Cela vous permet de subvenir rapidement à vos besoins et à ceux de votre famille."
         },
         {
           "heading": "Exemples de reconnaissance de préjudice obtenus par le cabinet",
-          "body": "Le cabinet Plouton a obtenu de nombreuses reconnaissances de préjudices spécifiques et techniques, notamment :\n\n• Préjudice d’angoisse de mort imminente : pour les victimes décédées.\n\n• Frais d’acquisition de logements et véhicules adaptés : pour les victimes tétraplégiques ou à mobilité réduite.\n\n• Frais d’assistance par une tierce personne : qu’il s’agisse de professionnels ou de proches aidants.\n\n• Préjudice d’affection : reconnu pour un enfant conçu mais non né au moment du décès de son parent.\n\n• Préjudices d’accompagnement et troubles dans les conditions d’existence : pour les proches des victimes, incluant leurs propres pertes économiques.\n\n• Pertes de gains professionnels actuels et futurs : en particulier pour les indépendants (chefs d’entreprise, artisans, commerçants, professions libérales)."
+          "headingLevel": 3,
+          "body": "Le cabinet Plouton a obtenu de nombreuses reconnaissances de préjudices spécifiques et techniques, notamment :",
+          "bullets": [
+            "Préjudice d’angoisse de mort imminente : pour les victimes décédées.",
+            "Frais d’acquisition de logements et véhicules adaptés : pour les victimes tétraplégiques ou à mobilité réduite.",
+            "Frais d’assistance par une tierce personne : qu’il s’agisse de professionnels ou de proches aidants.",
+            "Préjudice d’affection : reconnu pour un enfant conçu mais non né au moment du décès de son parent.",
+            "Préjudices d’accompagnement et troubles dans les conditions d’existence : pour les proches des victimes, incluant leurs propres pertes économiques.",
+            "Pertes de gains professionnels actuels et futurs : en particulier pour les indépendants (chefs d’entreprise, artisans, commerçants, professions libérales)."
+          ]
         },
         {
           "heading": "Collaborer avec des experts médicaux, techniques et financiers",
+          "headingLevel": 3,
           "body": "Nous faisons appel à un réseau de partenaires reconnus : médecins-conseils spécialisés en réparation du préjudice corporel, ergothérapeutes, psychologues ou experts-comptables. Leur évaluation précise de vos dommages (besoins en aide humaine, aménagement du logement, pertes professionnelles, etc.) renforce la crédibilité de votre dossier."
         },
         {
           "heading": "Se constituer partie civile et solliciter des expertises complémentaires",
+          "headingLevel": 3,
           "body": "La constitution de partie civile peut être faite oralement ou par écrit, et vous n'êtes pas obligé de comparaître à l'audience. Vous pouvez vous faire représenter par notre cabinet. Dans le cadre d'une instruction ou d'un procès pénal, nous pouvons demander une expertise médicale complémentaire pour évaluer précisément vos préjudices. Notre cabinet vous assiste lors de ces opérations d'expertise."
         }
       ]
@@ -96,23 +128,58 @@
     {
       "id": "elaboration-d-une-strategie-sur-mesure",
       "title": "Élaboration d'une stratégie sur mesure",
-      "titleAccent": "Élaboration",
+      "titleAccent": "Élaboration d'une stratégie sur mesure",
       "lead": null,
       "blocks": [
         {
           "heading": "Choisir la procédure la plus adaptée",
-          "body": "En fonction de votre situation, nous déterminons la voie la plus pertinente dans les délais impartis :\n\n• Action pénale (plainte, constitution de partie civile)\n\n• Saisine de la CIVI : délai de 3 ans à compter de l'infraction, prolongeable d'un an après la dernière décision judiciaire"
+          "headingLevel": 3,
+          "body": "En fonction de votre situation, nous déterminons la voie la plus pertinente dans les délais impartis :",
+          "bullets": [
+            "Action pénale (plainte, constitution de partie civile)",
+            "Saisine de la CIVI : délai de 3 ans à compter de l'infraction, prolongeable d'un an après la dernière décision judiciaire"
+          ]
         },
         {
           "heading": "Actions civiles : devant la juridiction pénale ou civile",
-          "body": "• Exercice de l'action civile : En tant que victime, vous avez la possibilité de faire valoir vos droits soit devant la juridiction pénale, soit directement devant la juridiction civile.\n\n• Décision de condamnation et intérêts civils : Une fois l’action publique jugée, la juridiction pénale peut statuer sur l’action civile ou renvoyer l’affaire pour un examen ultérieur devant la juridiction civile.\n\n• Les différentes voies d’indemnisation : Le système français prévoit plusieurs dispositifs permettant aux victimes d’infractions pénales d’obtenir réparation : CIVI (Commission d'Indemnisation des Victimes d'Infractions) — La CIVI indemnise les victimes d’atteintes graves aux personnes, de dommages corporels significatifs et, dans certains cas, de dommages matériels. Elle est compétente pour les infractions commises en France, ainsi qu’à l’étranger pour les victimes françaises. Certaines conditions de ressources et de nature d’infraction s’appliquent. SARVI (Service d'Aide au Recouvrement des Victimes d'Infractions) — Le SARVI intervient lorsque la victime a obtenu une décision de justice pénale lui accordant des dommages et intérêts, mais que l’auteur des faits est insolvable. Ce service facilite le recouvrement des sommes dues.\n\n• Accompagnement en cas d’auteur insolvable : Nous vous accompagnons dans la saisine de la CIVI ou du SARVI afin de garantir votre indemnisation. La CIVI peut être saisie même en cas de relaxe du prévenu ou si l’auteur des faits n’a pas été identifié."
+          "headingLevel": 3,
+          "body": "",
+          "children": [
+            {
+              "heading": "",
+              "body": "Exercice de l'action civile\nEn tant que victime, vous avez la possibilité de faire valoir vos droits soit devant la juridiction pénale, soit directement devant la juridiction civile."
+            },
+            {
+              "heading": "",
+              "body": "Décision de condamnation et intérêts civils\nUne fois l’action publique jugée, la juridiction pénale peut statuer sur l’action civile ou renvoyer l’affaire pour un examen ultérieur devant la juridiction civile."
+            },
+            {
+              "heading": "",
+              "body": "Les différentes voies d’indemnisation\nLe système français prévoit plusieurs dispositifs permettant aux victimes d’infractions pénales d’obtenir réparation :",
+              "bullets": [
+                "CIVI (Commission d'Indemnisation des Victimes d'Infractions)\nLa CIVI indemnise les victimes d’atteintes graves aux personnes, de dommages corporels significatifs et, dans certains cas, de dommages matériels. Elle est compétente pour les infractions commises en France, ainsi qu’à l’étranger pour les victimes françaises. Certaines conditions de ressources et de nature d’infraction s’appliquent.",
+                "SARVI (Service d'Aide au Recouvrement des Victimes d'Infractions)\nLe SARVI intervient lorsque la victime a obtenu une décision de justice pénale lui accordant des dommages et intérêts, mais que l’auteur des faits est insolvable. Ce service facilite le recouvrement des sommes dues."
+              ]
+            },
+            {
+              "heading": "",
+              "body": "Accompagnement en cas d’auteur insolvable\nNous vous accompagnons dans la saisine de la CIVI ou du SARVI afin de garantir votre indemnisation. La CIVI peut être saisie même en cas de relaxe du prévenu ou si l’auteur des faits n’a pas été identifié."
+            }
+          ]
         },
         {
           "heading": "Maîtriser le recouvrement des indemnités",
-          "body": "• En cas de condamnation avec sursis et mise à l'épreuve : nous collaborons avec le juge d'application des peines qui contrôle le respect de l'obligation d'indemnisation\n\n• En cas de biens confisqués : nous intervenons auprès de l'AGRASC pour obtenir le règlement des dommages et intérêts sur le produit de la vente\n\n• Procédure de recouvrement : nous supervisons les démarches amiables et, si nécessaire, l'intervention d'un huissier de justice (dont les frais devront être avancés)"
+          "headingLevel": 3,
+          "body": "",
+          "bullets": [
+            "En cas de condamnation avec sursis et mise à l'épreuve : : nous collaborons avec le juge d'application des peines qui contrôle le respect de l'obligation d'indemnisation",
+            "En cas de biens confisqués : nous intervenons auprès de l'AGRASC pour obtenir le règlement des dommages et intérêts sur le produit de la vente",
+            "Procédure de recouvrement : nous supervisons les démarches amiables et, si nécessaire, l'intervention d'un huissier de justice (dont les frais devront être avancés)"
+          ]
         },
         {
           "heading": "Maîtriser les négociations avec les compagnies d'assurance",
+          "headingLevel": 3,
           "body": "Forts de notre expérience de plus de 20 ans et de notre connaissance des pratiques des assureurs, nous défendons fermement vos intérêts. La formation économique et financière de notre fondateur, Julien Plouton, (HEC, DESS en droit des affaires et fiscalité) nous permet d'analyser précisément les bilans et liasses fiscales pour justifier vos pertes de gains professionnels."
         }
       ]
@@ -120,19 +187,22 @@
     {
       "id": "assurer-un-accompagnement-complet-jusqu-a-la-reparation-finale",
       "title": "Assurer un accompagnement complet jusqu'à la réparation finale",
-      "titleAccent": "Assurer",
+      "titleAccent": "Assurer un accompagnement complet jusqu'à la réparation finale",
       "lead": null,
       "blocks": [
         {
           "heading": "Un suivi régulier de votre état et de vos besoins",
+          "headingLevel": 3,
           "body": "Nous restons à votre écoute tout au long de la procédure. Si votre état de santé évolue ou s'aggrave, nous mettons à jour les pièces de votre dossier, sollicitons de nouvelles expertises et veillons à ce que l'ensemble de vos préjudices (physiques, psychologiques, économiques) soit pris en compte."
         },
         {
           "heading": "Un soutien humain, de la constitution du dossier à l'indemnisation intégrale",
+          "headingLevel": 3,
           "body": "Au-delà des aspects juridiques et financiers, nous sommes conscients de l'impact émotionnel que représente un accident ou une infraction pénale. Nous privilégions un accompagnement individuel, empreint d'humanité et de disponibilité, pour vous permettre d'avancer sereinement vers la reconnaissance de votre statut de victime et l'obtention d'une indemnisation juste.\n\nLe cabinet s'engage à vous assister à chaque étape : constitution du dossier, opérations d'expertise, négociations, audience, jusqu'à l'obtention finale de vos droits."
         },
         {
           "heading": "Une indemnisation intégrale de tous les préjudices, y compris familiaux",
+          "headingLevel": 3,
           "body": "Le cabinet accorde une attention particulière à vos proches et à vos ayants droit : décès ou invalidité d'un membre de la famille, conséquences financières (perte de revenus, frais d'obsèques), conséquences morales (deuil pathologique, préjudice d'affection, préjudice d'accompagnement). Nous veillons à ce que chaque poste de préjudice soit pleinement indemnisé."
         }
       ]
@@ -140,19 +210,22 @@
     {
       "id": "territoire-et-juridictions-dintervention",
       "title": "Territoire et juridictions d’intervention",
-      "titleAccent": "juridictions d’intervention",
+      "titleAccent": "Territoire et juridictions d’intervention",
       "lead": "Le cabinet Plouton intervient sur tout le territoire national. Nous sommes compétents pour représenter nos clients devant :",
       "blocks": [
         {
           "heading": "",
-          "body": "• Le Tribunal Judiciaire\n• Le Tribunal Administratif\n• Le Pôle Social\n• La Commission Régionale de Conciliation et d’Indemnisation (CRCI)\n• La Commission d’Indemnisation des Victimes d’Infraction (CIVI)\n• Le Tribunal Correctionnel, la Cour Criminelle Départementale et la Cour d’Assises pour les affaires pénales graves. Peu importe votre localisation, nous mettons à votre disposition une expertise complète pour défendre vos droits."
+          "body": "",
+          "bullets": [
+            "Le Tribunal  Judiciaire",
+            "Le Tribunal Administratif",
+            "Le Pôle Social",
+            "La Commission Régionale de Conciliation et d’Indemnisation (CRCI)",
+            "La Commission d’Indemnisation des Victimes d’Infraction (CIVI)",
+            "Le Tribunal Correctionnel, la Cour Criminelle Départementale et la Cour d’Assises pour les affaires pénales graves.\nPeu importe votre localisation, nous mettons à votre disposition une expertise complète pour défendre vos droits."
+          ]
         }
       ]
     }
-  ],
-  "inlineLinks": [],
-  "contactAside": {
-    "title": "Je prends rendez-vous maintenant !",
-    "text": "Les rendez-vous sont pris dans les 7 jours. En cas d’urgence, le rendez-vous peut être immédiat et même en dehors des horaires habituels du cabinet."
-  }
+  ]
 }
