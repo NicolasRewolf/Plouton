@@ -245,13 +245,6 @@ function groupCases(blocks: Block[]): CaseItem[] | null {
   return cases.length >= 2 ? cases : null
 }
 
-function proseParas(text: string) {
-  return text
-    .split(/\n\n+/)
-    .map((p) => p.trim())
-    .filter((p) => p && !isJunk(p))
-}
-
 function isBulletLine(line: string) {
   return /^[•\-–—*]\s+/.test(line) || /^\d+[\.)]\s+/.test(line)
 }
@@ -486,7 +479,7 @@ function HeadedSteps({ blocks, links }: { blocks: Block[]; links: InlineLink[] }
             <div className={`min-w-0 ${i < steps.length - 1 ? "pb-8" : ""}`}>
               <BlockHeading
                 heading={step.heading}
-                headingLevel={step.headingLevel === 4 ? 4 : 3}
+                level={step.headingLevel === 4 ? 4 : 3}
                 links={links}
               />
               {intro ? (
@@ -503,7 +496,9 @@ function HeadedSteps({ blocks, links }: { blocks: Block[]; links: InlineLink[] }
                   <Paragraphs text={step.body} links={links} />
                 </div>
               ) : null}
-              {step.bullets?.length ? <SimpleBullets items={step.bullets} links={links} /> : null}
+              {step.bullets?.length ? (
+                <BulletList items={step.bullets} links={links} />
+              ) : null}
               {step.children?.length ? (
                 <div className="mt-5 space-y-6">
                   <ProseBlocks blocks={step.children} links={links} />
@@ -625,7 +620,7 @@ function renderSectionBody(blocks: Block[], links: InlineLink[]) {
         {defBlock.heading ? (
           <BlockHeading
             heading={defBlock.heading}
-            headingLevel={defBlock.headingLevel === 4 ? 4 : 3}
+            level={defBlock.headingLevel === 4 ? 4 : 3}
             links={links}
           />
         ) : null}

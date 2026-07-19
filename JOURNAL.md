@@ -7,7 +7,7 @@ Pas de jargon. 5 lignes max par livraison.
 
 ## 2026-07-19 — Expertises : règle H2/H3 + sources MD Wix
 
-- 15 MD Wix synchronisés dans `contenu/sources/live-md/expertises/` (dont `defense-des-elus` manquant)
+- 15 MD Wix synchronisés dans `contenu/sources/live-md/expertises/` (dont `defense-des-elus` ajouté)
 - Règle non négociable hardcodée : H2→section, H3→bloc, H4→sous-bloc, listes conservées
 - Renderer `ExpertiseBody` capable de H3 vs H4 + listes à puces
 - **Pas** encore les 15 réécritures JSON complètes — fondation seulement
