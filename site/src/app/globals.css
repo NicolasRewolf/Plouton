@@ -512,3 +512,22 @@ a.link-inline:hover {
   text-decoration: underline;
   text-decoration-style: dotted;
 }
+.admin-editor .admin-editor-image,
+.admin-editor .ProseMirror img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+.admin-editor .admin-editor-youtube,
+.admin-editor .ProseMirror div[data-youtube-video] {
+  margin: 1.25rem 0;
+}
+.admin-editor .ProseMirror iframe {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  height: auto;
+  border: 0;
+  border-radius: 8px;
+}

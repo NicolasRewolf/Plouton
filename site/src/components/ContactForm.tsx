@@ -154,6 +154,8 @@ export function ContactForm({
       page_source: pageSource,
       utm: { ...utm, mode_rdv: mode, urgence: urgence ? "1" : "0" },
       cooked,
+      // Honeypot anti-spam — les bots le remplissent, les humains non
+      website: String(fd.get("website") || ""),
     }
 
     try {
@@ -297,6 +299,22 @@ export function ContactForm({
         <fieldset className="mt-8 space-y-4">
           <legend className="sr-only">Vos coordonnées</legend>
           <SectionLabel>Vos coordonnées</SectionLabel>
+          {/* Honeypot — caché aux humains (CSS), visible aux bots */}
+          <div
+            aria-hidden="true"
+            className="absolute -left-[9999px] h-0 w-0 overflow-hidden opacity-0"
+          >
+            <label>
+              Site web
+              <input
+                type="text"
+                name="website"
+                tabIndex={-1}
+                autoComplete="off"
+                defaultValue=""
+              />
+            </label>
+          </div>
           <div className="grid gap-3.5 sm:grid-cols-2">
             <Field label="Prénom" name="prenom" required autoComplete="given-name" />
             <Field label="Nom" name="nom" required autoComplete="family-name" />

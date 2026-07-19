@@ -1,6 +1,6 @@
 # État d'avancement — Plouton
 
-_Mis à jour : 2026-07-19 (Médias / Ressources filtrables)_
+_Mis à jour : 2026-07-19 (lot 5 admin + formulaires)_
 
 Vue unique de « où on en est ». À relire en premier, mettre à jour à chaque grande étape.
 Détail des livraisons dans [`../JOURNAL.md`](../JOURNAL.md).
@@ -76,7 +76,7 @@ UI canonique : [`16-composants-ui.md`](16-composants-ui.md).
 Trous majeurs encore ouverts :
 1. **Recherche** = morte / non branchée
 2. Polish UI « site fini » encore loin (pixel en pause)
-3. **C5.1** covers Storage (images articles) pas encore branché
+3. **C5.1** covers Storage — **partiel** (upload admin + URL ; bucket `medias` déjà public)
 
 Gagné : 15 expertises, 3 hubs pôles, 422 posts, formulaires/admin, légales, Header figé, Footer, **3 hubs contenus filtrables** (Affaires / Médias / Ressources), uniformité cartes/CTA, **publish live C5**, **simulateurs divorce**.
 
@@ -91,8 +91,8 @@ Gagné : 15 expertises, 3 hubs pôles, 422 posts, formulaires/admin, légales, H
 | 5 | **Redirects** — `/blog` → hubs (plus de fourre-tout) | ✅ |
 | 6 | **C5** — site public lit Supabase + publish live | ✅ |
 | 6a | **Admin** — TipTap (barre fixe Wix) + dashboard | ✅ |
-| 6b | **C5.1** — covers / bucket `medias` | à faire |
-| 7 | Recherche site | plus tard |
+| 6b | **C5.1** — covers / bucket `medias` | ✅ partiel (URL + upload admin) |
+| 7 | Recherche site | ✅ |
 | 7a | **Simulateurs divorce** (pension + prestation) | ✅ |
 | 8 | Polish UI (accueil, listes, vernis) | au fil de l’eau |
 

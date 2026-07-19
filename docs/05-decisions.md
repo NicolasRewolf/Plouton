@@ -184,14 +184,19 @@ Détail → `docs/12-seo-geo.md`.
 3. Corps rendu : si le corps DB **diffère** du JSON seed (édition admin) → `bodyHtml` puis `body` ; sinon **Ricos** `contenu/ricos/` (les 422 seed restent fidèles).
 4. Publish → `revalidateTag('posts')` + `revalidatePath` (article, blog, listes, accueil, sitemap).
 5. Liste admin = DB (publiés + brouillons).
-6. Covers Storage bucket `medias` = **C5.1** (hors MVP si non branché ici).
+6. Covers Storage bucket `medias` = **C5.1** — **partiel lot 5** (URL + upload admin `/api/posts/media`).
 
 **Pourquoi :** « je publie → visible sans redeploy », sans ouvrir la table au monde via anon.  
 **Conséquence :** clé secrète obligatoire sur Vercel pour le live public ; build sans clé = JSON only.
 
 ### TipTap = éditeur blog admin (2026-07-18)
 
-**Décision :** backoffice blog rédigé avec **TipTap** (barre de formatage sticky façon Wix — gras, listes, titres, lien…). Stockage : HTML dans `posts.body_html` + paragraphes texte dans `posts.body` (signature / fallback). Rendu public = `bodyHtml` (mode `db-html`). Les 422 non réédités restent en **Ricos**. Editor.js a été retiré (mauvais fit UX). Images éditeur = **C5.1** (Storage).
+**Décision :** backoffice blog rédigé avec **TipTap** (barre sticky — gras, listes, titres, lien, **image**, **YouTube**). Stockage : HTML dans `posts.body_html` + paragraphes texte dans `posts.body`. Rendu public = `bodyHtml` (mode `db-html`). Les 422 non réédités restent en **Ricos**. Editor.js retiré. Images = URL ou upload bucket `medias`.
+
+### Soft-delete + programmation articles (2026-07-19)
+
+**Décision :** statuts `archived` (soft-delete UI) et `scheduled` (visible dès `published_at` ≤ aujourd’hui, promotion auto au load). Pas de cron V1.  
+**Conséquence :** contrainte SQL `posts_status_check` élargie (migration `0005`).
 
 ~~### Editor.js = éditeur blog admin (2026-07-18)~~ — **obsolète**, remplacé par TipTap le même jour.  
 **Pourquoi :** les textareas admin étaient inutilisables pour rédiger ; besoin titres / listes / citations sans HTML brut.  
