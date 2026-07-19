@@ -1,17 +1,37 @@
 import Link from "next/link"
+import dynamic from "next/dynamic"
 import type { ReactNode } from "react"
+
+/** Simulateurs divorce — client islands, hors bundle hero. */
+const SimulatorPension = dynamic(() =>
+  import("@/components/simulators/SimulatorPension").then((m) => m.SimulatorPension)
+)
+const SimulatorPrestation = dynamic(() =>
+  import("@/components/simulators/SimulatorPrestation").then(
+    (m) => m.SimulatorPrestation
+  )
+)
 
 interface Block {
   heading: string
   body: string
 }
 
+type SectionSimulator = "pension-alimentaire" | "prestation-compensatoire"
+
 interface Section {
   id: string
   title: string
   titleAccent?: string | null
   lead?: string | null
+  simulator?: SectionSimulator
   blocks: Block[]
+}
+
+function SectionSimulatorSlot({ type }: { type: SectionSimulator }) {
+  if (type === "pension-alimentaire") return <SimulatorPension />
+  if (type === "prestation-compensatoire") return <SimulatorPrestation />
+  return null
 }
 
 export interface InlineLink {
@@ -503,6 +523,9 @@ export function ExpertiseBody({
                     className="text-[15px] leading-[1.7] text-pretty text-navy/85"
                   />
                 </Lead>
+              ) : null}
+              {section.simulator ? (
+                <SectionSimulatorSlot type={section.simulator} />
               ) : null}
               {blocks.length ? renderSectionBody(blocks, links) : null}
             </div>

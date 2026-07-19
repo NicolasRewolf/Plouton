@@ -5,6 +5,14 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Simulateurs divorce (lot audit 3)
+
+- Deux calculateurs de retour sur la page Divorce : **pension alimentaire** + **prestation compensatoire**
+- Pension = barème officiel Ministère de la Justice (pas de formule Wix trouvée dans les exports)
+- Prestation = estimation indicative (méthodes courantes des avocats) — pas de barème légal
+- Chaque outil rappelle : estimation indicative, sans valeur juridique + bouton pour contacter
+- Tests : page Divorce → ancres « Je simule… » / « Je calcule… » → remplir → voir le montant
+
 ## 2026-07-19 — Audit Wix→Next lot 2 (contenu / SEO / front)
 
 - Réseaux FB / IG / LinkedIn dans le footer (URLs du site live)

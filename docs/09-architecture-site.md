@@ -125,6 +125,11 @@ Sur la page accidents de la route : **filtres UI** (cases) = les **sous-domaines
 ### Simulateurs (divorce)
 
 - Composants isolés montés **seulement** sur la page divorce (lazy) — pas dans le bundle global
+- Déclenchement via le JSON expertise : champ optionnel `section.simulator`
+  - `"pension-alimentaire"` → `SimulatorPension` (barème justice.fr)
+  - `"prestation-compensatoire"` → `SimulatorPrestation` (méthodes doctrinales indicatives)
+- Formules dans `site/src/lib/simulators/` ; UI dans `site/src/components/simulators/`
+- Disclaimer obligatoire : estimation indicative, sans valeur juridique + CTA `#contact`
 
 ---
 
