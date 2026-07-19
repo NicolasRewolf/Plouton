@@ -184,6 +184,8 @@ export interface ExpertisePage {
   /** Liens internes harvestés du live (réinjectés dans le corps). */
   inlineLinks?: { text: string; href: string }[]
   contactAside?: { title: string; text: string }
+  /** CTA hero (ex. « Obtenir un premier avis ») — SiteCta vers #contact ou URL. */
+  heroCta?: { label: string; href: string }
   sections: {
     id: string
     title: string
