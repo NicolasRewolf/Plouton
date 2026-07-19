@@ -5,7 +5,7 @@
   "poleLabel": "Défense pénale",
   "title": "Avocat droit pénal",
   "metaTitle": "Avocat Pénaliste Bordeaux | Cabinet Plouton",
-  "metaDescription": "Avocat droit pénal à Bordeaux. Garde à vue, correctionnel, cour d'assises. Le Cabinet Plouton défend accusés et victimes à chaque étape de la procédure.",
+  "metaDescription": "Garde à vue, tribunal correctionnel, Cour d'assises ? Cabinet Plouton, avocat pénaliste à Bordeaux. 20 ans de défense pénale. Contactez-nous 24h/24.",
   "intro": "Confronté à une accusation pénale ou victime d'une infraction ? Le cabinet Plouton, cabinet d’avocats pénalistes à Bordeaux, vous offre une expertise pointue et un accompagnement personnalisé pour défendre vos droits et vos intérêts. Forts de plus de 20 ans d'expérience, Maître Julien Plouton et son équipe interviennent à tous les stades de la procédure pénale, de la garde à vue jusqu’au procès pénal.",
   "formObjet": "Droit Pénal",
   "faqExpertise": "droit-penal",
@@ -85,7 +85,11 @@
       "blocks": [
         {
           "heading": "Innocence, atténuation de responsabilité ou reconnaissance du statut de victime",
-          "body": "Préparation intensive pour chaque audience\n\nQue vous soyez accusé(e) d'une infraction ou victime, le cabinet Plouton mettra en place une stratégie de défense personnalisée pour protéger au mieux vos intérêts. L’objectif est de vous accompagner à chaque étape de la procédure, en vous expliquant les enjeux et en vous impliquant dans les décisions."
+          "body": ""
+        },
+        {
+          "heading": "Préparation intensive pour chaque audience",
+          "body": "Que vous soyez accusé(e) d'une infraction ou victime, le cabinet Plouton mettra en place une stratégie de défense personnalisée pour protéger au mieux vos intérêts. L’objectif est de vous accompagner à chaque étape de la procédure, en vous expliquant les enjeux et en vous impliquant dans les décisions."
         },
         {
           "heading": "Mises en situation avant interrogatoires ou procès (simulations d’audience, conseils sur les réponses)",
@@ -113,15 +117,23 @@
       "id": "complexes",
       "title": "Spécialistes des affaires pénales complexes",
       "titleAccent": null,
-      "lead": "Spécialistes des affaires pénales complexes\n\nLe Cabinet Plouton s'est forgé une solide réputation dans le domaine du droit pénal en intervenant régulièrement sur des affaires particulièrement délicates et complexes. L'équipe d'avocats pénalistes chevronnés dispose d'une expertise pointue pour défendre efficacement les intérêts de ses clients, qu'il s'agisse d'accusés ou de victimes, dans un large éventail d'infractions pénales.",
+      "lead": "Le Cabinet Plouton s'est forgé une solide réputation dans le domaine du droit pénal en intervenant régulièrement sur des affaires particulièrement délicates et complexes. L'équipe d'avocats pénalistes chevronnés dispose d'une expertise pointue pour défendre efficacement les intérêts de ses clients, qu'il s'agisse d'accusés ou de victimes, dans un large éventail d'infractions pénales.",
       "blocks": [
         {
-          "heading": "Atteintes aux personnes et aux biens",
-          "body": "Atteintes aux personnes : agressions sexuelles, harcèlement moral ou sexuel, violences volontaires, vols avec arme et vols aggravés, abus de faiblesse\nAtteintes aux biens : cambriolages, home et car jacking, escroqueries sophistiquées, recels, abus de confiance.\n\nFace à des accusations d'atteintes aux personnes, le Cabinet Plouton s'engage à mettre en œuvre tous les moyens nécessaires pour assurer une défense rigoureuse. Que ce soit pour des crimes aussi graves que le meurtre, le viol ou les agressions sexuelles, ou pour des délits de violences volontaires, l'équipe d'avocats expérimentés analysera avec minutie les éléments du dossier, rassemblera les preuves en votre faveur et plaidera avec conviction pour défendre vos droits.\n\nLe Cabinet Plouton intervient également dans les affaires d'atteintes aux biens, des infractions plus courantes mais qui peuvent s'avérer complexes. L'équipe d'avocats est en mesure de vous assister efficacement si vous êtes accusé(e) de vol avec arme, d'escroquerie ou de recel. Ils s'assureront que la procédure est respectée et que vos droits sont garantis tout au long du processus judiciaire."
+          "heading": "Atteintes aux personnes : agressions sexuelles, harcèlement moral ou sexuel, violences volontaires, vols avec arme et vols aggravés, abus de faiblesse",
+          "body": "Face à des accusations d'atteintes aux personnes, le Cabinet Plouton s'engage à mettre en œuvre tous les moyens nécessaires pour assurer une défense rigoureuse. Que ce soit pour des crimes aussi graves que le meurtre, le viol ou les agressions sexuelles, ou pour des délits de violences volontaires, l'équipe d'avocats expérimentés analysera avec minutie les éléments du dossier, rassemblera les preuves en votre faveur et plaidera avec conviction pour défendre vos droits."
         },
         {
-          "heading": "Délinquance organisée et cybercriminalité",
-          "body": "Délinquance organisée : Trafic et importation de stupéfiants, association de malfaiteurs, blanchiment d’argent, vols en bande organisée, extorsions de fonds\nCybercriminalité : Harcèlement en ligne, escroquerie à la cryptomonnaie et aux faux placements financiers, escroquerie aux faux ordres de virement, atteintes à la vie privée, diffamation.\n\nLe cabinet possède une expérience significative dans la gestion des dossiers liés à la délinquance organisée. Maître Julien Plouton et ses collaborateurs maîtrisent les subtilités juridiques relatives aux affaires de trafic de stupéfiants en bande organisée et d'association de malfaiteurs. Ils mettront en place une stratégie de défense adaptée à la complexité de ces affaires, en s'appuyant sur leur connaissance approfondie du droit pénal et de la procédure pénale.\n\nFace à l'essor de la cybercriminalité, le cabinet a développé une expertise spécifique dans ce domaine en constante évolution. Si vous êtes victime de harcèlement en ligne, d'atteinte à la vie privée ou de diffamation sur internet, les avocats du Cabinet Plouton vous accompagneront dans vos démarches pour obtenir justice et réparation. Ils vous conseilleront sur les différentes options qui s'offrent à vous et mettront tout en œuvre pour faire valoir vos droits"
+          "heading": "Atteintes aux biens : cambriolages, home et car jacking, escroqueries sophistiquées, recels, abus de confiance.",
+          "body": "Le Cabinet Plouton intervient également dans les affaires d'atteintes aux biens, des infractions plus courantes mais qui peuvent s'avérer complexes. L'équipe d'avocats est en mesure de vous assister efficacement si vous êtes accusé(e) de vol avec arme, d'escroquerie ou de recel. Ils s'assureront que la procédure est respectée et que vos droits sont garantis tout au long du processus judiciaire."
+        },
+        {
+          "heading": "Délinquance organisée : Trafic et importation de stupéfiants, association de malfaiteurs, blanchiment d’argent, vols en bande organisée, extorsions de fonds",
+          "body": "Le cabinet possède une expérience significative dans la gestion des dossiers liés à la délinquance organisée. Maître Julien Plouton et ses collaborateurs maîtrisent les subtilités juridiques relatives aux affaires de trafic de stupéfiants en bande organisée et d'association de malfaiteurs. Ils mettront en place une stratégie de défense adaptée à la complexité de ces affaires, en s'appuyant sur leur connaissance approfondie du droit pénal et de la procédure pénale."
+        },
+        {
+          "heading": "Cybercriminalité : Harcèlement en ligne, escroquerie à la cryptomonnaie et aux faux placements financiers, escroquerie aux faux ordres de virement, atteintes à la vie privée, diffamation.",
+          "body": "Face à l'essor de la cybercriminalité, le cabinet a développé une expertise spécifique dans ce domaine en constante évolution. Si vous êtes victime de harcèlement en ligne, d'atteinte à la vie privée ou de diffamation sur internet, les avocats du Cabinet Plouton vous accompagneront dans vos démarches pour obtenir justice et réparation. Ils vous conseilleront sur les différentes options qui s'offrent à vous et mettront tout en œuvre pour faire valoir vos droits"
         }
       ]
     },
@@ -129,10 +141,14 @@
       "id": "equipe",
       "title": "Une équipe rompue aux affaires sensibles",
       "titleAccent": null,
-      "lead": "Une équipe rompue aux affaires sensibles\n\nForte de plus de 20 années d'expérience dans le domaine du droit pénal, l'équipe du Cabinet Plouton est reconnue pour son expertise et sa maîtrise des enjeux liés aux affaires pénales les plus graves et celles  liées à la délinquance organisée. Cette expérience s'est construite au fil des années, notamment par la participation régulière à des procès devant des juridictions spécialisées.",
+      "lead": "Forte de plus de 20 années d'expérience dans le domaine du droit pénal, l'équipe du Cabinet Plouton est reconnue pour son expertise et sa maîtrise des enjeux liés aux affaires pénales les plus graves et celles  liées à la délinquance organisée. Cette expérience s'est construite au fil des années, notamment par la participation régulière à des procès devant des juridictions spécialisées.",
       "blocks": [
         {
           "heading": "20 ans d’expérience devant les juridictions d’exception",
+          "body": ""
+        },
+        {
+          "heading": "Plaidoyers réguliers devant les Juridictions Interrégionales Spécialisées (JIRS) et pôles financier",
           "body": "Maitre Julien Plouton et ses collaborateurs interviennent fréquemment devant les Juridictions Interrégionales Spécialisées (JIRS) et les pôles financiers, des juridictions chargées de traiter les affaires pénales les plus complexes et sensibles. Ces juridictions sont compétentes pour juger des affaires de criminalité organisée, de terrorisme, de grand banditisme, de trafic de stupéfiants international et de délinquance financière sophistiquée. La participation régulière du Cabinet à des procès devant ces instances témoigne de sa capacité à appréhender les enjeux spécifiques de ces affaires et à mettre en place des stratégies de défense adaptées."
         },
         {
@@ -157,8 +173,16 @@
       "id": "methodes",
       "title": "Méthodes clés pour une défense efficace",
       "titleAccent": null,
-      "lead": "Méthodes clés pour une défense efficace\n\nLe Cabinet Plouton met en œuvre une série de méthodes éprouvées pour assurer une défense efficace à ses clients, en privilégiant une approche personnalisée et stratégique.\n\nTravail de personnalisation, même en cas de culpabilité avérée\nOutils concrets pour votre sécurité juridique\n\nLe cabinet estime que la défense pénale doit toujours être individualisée, même lorsque la culpabilité ne peut être discutée. En effet, il est primordial de présenter les faits sous un angle favorable, en tenant compte du parcours personnel du client et des circonstances atténuantes qui pourraient influencer le jugement du tribunal.",
+      "lead": "Le Cabinet Plouton met en œuvre une série de méthodes éprouvées pour assurer une défense efficace à ses clients, en privilégiant une approche personnalisée et stratégique.",
       "blocks": [
+        {
+          "heading": "Travail de personnalisation, même en cas de culpabilité avérée",
+          "body": "Le cabinet estime que la défense pénale doit toujours être individualisée, même lorsque la culpabilité ne peut être discutée. En effet, il est primordial de présenter les faits sous un angle favorable, en tenant compte du parcours personnel du client et des circonstances atténuantes qui pourraient influencer le jugement du tribunal."
+        },
+        {
+          "heading": "Outils concrets pour votre sécurité juridique",
+          "body": ""
+        },
         {
           "heading": "Contextualisation des faits pour éviter une sur sanction (travail sur le parcours personnel, circonstances atténuantes).",
           "body": "L’équipe s'attache à comprendre les motivations qui ont pu conduire à l'infraction et à mettre en avant les éléments du passé et de la personnalité du client qui peuvent expliquer son comportement. Ce travail de fond permet de plaider pour une sanction juste et mesurée, en évitant une sur-sanction qui ne serait pas proportionnée à la gravité réelle des faits."
