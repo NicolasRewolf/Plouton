@@ -50,6 +50,26 @@ export default async function DemandePage({ params }: { params: Promise<{ id: st
     fichiers.push({ path, nom: path.split("/").pop() || path, url: signed?.signedUrl ?? null })
   }
 
+  // Fiche client légère : autres soumissions du même e-mail (pas un CRM).
+  type LinkedRow = {
+    id: string
+    received_at: string
+    objet: string | null
+    statut: string
+  }
+  let linked: LinkedRow[] = []
+  const email = typeof d.email === "string" ? d.email.trim() : ""
+  if (email) {
+    const { data: same } = await supabase
+      .from("demandes")
+      .select("id, received_at, objet, statut")
+      .eq("email", email)
+      .neq("id", id)
+      .order("received_at", { ascending: false })
+      .limit(30)
+    linked = (same as LinkedRow[] | null) ?? []
+  }
+
   return (
     <main className="mx-auto w-full max-w-3xl px-5 py-10">
       <Link href="/admin/demandes" className="text-[13px] text-muted hover:text-navy">
@@ -118,6 +138,44 @@ export default async function DemandePage({ params }: { params: Promise<{ id: st
             ))}
           </ul>
           <p className="mt-2 text-[12px] text-muted">Liens valables 1 h — bucket privé.</p>
+        </section>
+      ) : null}
+
+      {email ? (
+        <section className="mt-4 rounded-[16px] bg-white p-5 shadow-[0_1px_2px_rgba(23,71,94,0.06),0_8px_22px_rgba(23,71,94,0.05)]">
+          <h2 className="text-[12px] font-semibold uppercase tracking-[0.1em] text-navy/50">
+            Même client ({email})
+          </h2>
+          <p className="mt-1 text-[13px] text-muted">
+            Autres demandes liées à cet e-mail — {linked.length + 1} au total
+            (celle-ci incluse).
+          </p>
+          {linked.length ? (
+            <ul className="mt-3 space-y-2">
+              {linked.map((row) => (
+                <li key={row.id}>
+                  <Link
+                    href={`/admin/demandes/${row.id}`}
+                    className="flex flex-wrap items-center gap-x-3 gap-y-1 rounded-[12px] bg-fog/60 px-3.5 py-2.5 hover:bg-fog"
+                  >
+                    <span className="text-[12px] tabular-nums text-muted">
+                      {new Date(row.received_at).toLocaleDateString("fr-FR", {
+                        day: "2-digit",
+                        month: "short",
+                        year: "numeric",
+                      })}
+                    </span>
+                    <span className="min-w-0 flex-1 truncate text-[13px] font-medium text-navy">
+                      {row.objet || "(sans objet)"}
+                    </span>
+                    <span className={badgeClass(row.statut)}>{row.statut}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="mt-3 text-[13px] text-muted">Pas d&apos;autre soumission pour cet e-mail.</p>
+          )}
         </section>
       ) : null}
 

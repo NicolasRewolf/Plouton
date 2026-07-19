@@ -3,7 +3,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { useCallback, useEffect, useId, useRef, useState } from "react"
-import { MEGA_POLES, SIDE_LINKS, type NavPole } from "@/lib/nav"
+import { MEGA_ITEMS, SIDE_LINKS, type NavPole } from "@/lib/nav"
 
 const EASE = "cubic-bezier(0.2, 0, 0, 1)"
 const OPEN_DELAY = 80
@@ -114,7 +114,7 @@ export function Header({ variant = "site" }: HeaderProps) {
               }
             }}
           >
-            {MEGA_POLES.map((pole) => (
+            {MEGA_ITEMS.map((pole) => (
               <MegaTrigger
                 key={pole.id}
                 pole={pole}
@@ -271,7 +271,7 @@ function MegaPanel({
   onNavigate: () => void
 }) {
   const open = activeId !== null
-  const pole = MEGA_POLES.find((p) => p.id === activeId) ?? MEGA_POLES[0]
+  const pole = MEGA_ITEMS.find((p) => p.id === activeId) ?? MEGA_ITEMS[0]
 
   return (
     <div
@@ -294,7 +294,7 @@ function MegaPanel({
             className="animate-[megaFade_320ms_cubic-bezier(0.2,0,0,1)]"
           >
             <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-accent">
-              Expertise
+              {pole.id === "rdv" ? "Cabinet" : "Expertise"}
             </p>
             <h2 className="mt-3 font-display text-[22px] font-medium leading-[1.15] tracking-[-0.02em] text-navy text-balance">
               {pole.label}
@@ -305,7 +305,7 @@ function MegaPanel({
               className="group/cta mt-5 inline-flex items-center gap-2 text-[13px] font-medium text-navy transition-colors duration-200 hover:text-accent"
               style={{ transitionTimingFunction: EASE }}
             >
-              Voir le pôle
+              {pole.id === "rdv" ? "Voir la page" : "Voir le pôle"}
               <span className="inline-flex transition-transform duration-200 group-hover/cta:translate-x-0.5" style={{ transitionTimingFunction: EASE }}>
                 <ArrowRight />
               </span>
@@ -353,7 +353,7 @@ function MegaPanel({
 }
 
 function MobileDrawer({ open, onClose }: { open: boolean; onClose: () => void }) {
-  const [expanded, setExpanded] = useState<string | null>(MEGA_POLES[0]?.id ?? null)
+  const [expanded, setExpanded] = useState<string | null>(MEGA_ITEMS[0]?.id ?? null)
   const titleId = useId()
 
   return (
@@ -390,7 +390,7 @@ function MobileDrawer({ open, onClose }: { open: boolean; onClose: () => void })
 
         <div className="flex-1 overflow-y-auto px-4 py-5">
           <div className="space-y-1.5">
-            {MEGA_POLES.map((pole) => {
+            {MEGA_ITEMS.map((pole) => {
               const isOpen = expanded === pole.id
               return (
                 <div key={pole.id} className="rounded-[18px] bg-fog/60 p-1.5">

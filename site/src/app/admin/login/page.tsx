@@ -1,4 +1,5 @@
 import { redirect } from "next/navigation"
+import { isAllowedAdminEmail } from "@/lib/admin-emails"
 import { supabaseServer } from "@/lib/supabase/server"
 
 export const metadata = { title: "Connexion — Admin", robots: { index: false, follow: false } }
@@ -7,6 +8,8 @@ async function envoyerLien(formData: FormData) {
   "use server"
   const email = String(formData.get("email") || "").trim().toLowerCase()
   if (!email || !email.includes("@")) redirect("/admin/login?erreur=email")
+  if (!isAllowedAdminEmail(email)) redirect("/admin/login?erreur=acces")
+
   const supabase = await supabaseServer()
   const origin = process.env.NEXT_PUBLIC_SITE_ORIGIN || "http://localhost:3000"
   const { error } = await supabase.auth.signInWithOtp({
@@ -66,7 +69,9 @@ export default async function LoginPage({
               <p className="text-[13px] text-accent" role="alert">
                 {params.erreur === "email"
                   ? "Adresse invalide."
-                  : "Envoi impossible — réessayez."}
+                  : params.erreur === "acces"
+                    ? "Cette adresse n’a pas accès à l’espace cabinet."
+                    : "Envoi impossible — réessayez."}
               </p>
             ) : null}
             <button type="submit" className="admin-btn admin-btn-primary w-full min-h-12">

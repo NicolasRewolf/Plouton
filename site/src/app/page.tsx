@@ -98,7 +98,7 @@ export default async function HomePage() {
             <div className="mask-stripes absolute inset-0">
               <Image
                 src="/brand/hero-home.jpg"
-                alt=""
+                alt="Cabinet Plouton — avocats à Bordeaux"
                 fill
                 priority
                 className="object-cover object-[center_40%]"

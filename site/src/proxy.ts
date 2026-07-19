@@ -1,11 +1,13 @@
 import { NextResponse, type NextRequest } from "next/server"
 import { createServerClient } from "@supabase/ssr"
+import { isAllowedAdminEmail } from "@/lib/admin-emails"
 
 /**
  * Proxy (ex-middleware, Next 16) — périmètre /admin uniquement :
  * rafraîchit la session Supabase (cookies) et redirige les anonymes vers
- * /admin/login. Vérification optimiste : les pages et actions revérifient
- * l'utilisateur, et RLS reste le juge final côté données.
+ * /admin/login. Si `ADMIN_EMAILS` est défini, refuse les comptes hors liste.
+ * Vérification optimiste : les pages et actions revérifient l'utilisateur,
+ * et RLS reste le juge final côté données.
  */
 export async function proxy(request: NextRequest) {
   let response = NextResponse.next({ request })
@@ -34,6 +36,18 @@ export async function proxy(request: NextRequest) {
 
   const { pathname } = request.nextUrl
   const isLogin = pathname.startsWith("/admin/login")
+  const allowed = isAllowedAdminEmail(user?.email)
+
+  if (user && !allowed) {
+    if (!isLogin) {
+      const login = request.nextUrl.clone()
+      login.pathname = "/admin/login"
+      login.searchParams.set("erreur", "acces")
+      return NextResponse.redirect(login)
+    }
+    return response
+  }
+
   if (!user && !isLogin) {
     const login = request.nextUrl.clone()
     login.pathname = "/admin/login"

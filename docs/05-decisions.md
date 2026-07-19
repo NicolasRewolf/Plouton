@@ -4,6 +4,14 @@ On note ici les choix importants, pour ne pas les rejouer à chaque fois.
 
 ---
 
+## 2026-07-19 — Accès admin = allowlist e-mails (pas de rôles fins V1)
+
+**Décision :** pas de rôles « éditeur / admin / lecture seule » en V1. Si `ADMIN_EMAILS` est renseigné (virgules), seuls ces comptes passent `/admin` ; si vide, comportement historique (tout compte Auth déjà créé).  
+**Pourquoi :** le cabinet est petit ; Magic link + comptes créés à la main suffisent. Les rôles fins = chantier plus tard.  
+**Skip volontaire :** kanban demandes à 6 étapes Wix, réponse inbox in-app, commentaires blog.
+
+---
+
 ## 2026-07-19 — Trois hubs contenus (plus de blog fourre-tout)
 
 **Décision :** les surfaces publiques de listes d’articles sont **Affaires** (`/nos-affaires`), **Médias** (`/medias`) et **Ressources** (`/comprendre-le-droit`). `/blog` et `/blog/categories/…` ne sont plus des pages à indexer : **301** vers ces hubs.  
