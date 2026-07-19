@@ -17,19 +17,19 @@ interface AdminPostMetaProps {
   metaTitle: string
   metaDescription: string
   coverImage: string
-  categoryLabel: string
+  /** Multi-catégories (labels) — P0-D */
+  categoryLabels: string[]
   showSlug?: boolean
   slugDefault?: string
   onCoverChange: (url: string) => void
-  onCategoryChange: (label: string) => void
+  onCategoriesChange: (labels: string[]) => void
   onPublishedAtChange: (iso: string) => void
   onMetaTitleChange: (v: string) => void
   onMetaDescriptionChange: (v: string) => void
 }
 
 /**
- * Panneau métadonnées admin (SEO, date, cover, catégorie).
- * Champs name=* restent dans le formulaire parent pour author/excerpt/slug.
+ * Panneau métadonnées admin (SEO, date, cover, catégories multi).
  */
 export function AdminPostMeta({
   author,
@@ -38,11 +38,11 @@ export function AdminPostMeta({
   metaTitle,
   metaDescription,
   coverImage,
-  categoryLabel,
+  categoryLabels,
   showSlug,
   slugDefault,
   onCoverChange,
-  onCategoryChange,
+  onCategoriesChange,
   onPublishedAtChange,
   onMetaTitleChange,
   onMetaDescriptionChange,
@@ -57,6 +57,14 @@ export function AdminPostMeta({
       })
       .catch(() => {})
   }, [])
+
+  function toggleCategory(label: string) {
+    if (categoryLabels.includes(label)) {
+      onCategoriesChange(categoryLabels.filter((l) => l !== label))
+    } else {
+      onCategoriesChange([...categoryLabels, label])
+    }
+  }
 
   return (
     <div className="space-y-4">
@@ -77,11 +85,7 @@ export function AdminPostMeta({
         ) : null}
         <label className="mt-3 grid gap-1 text-[13px] text-navy">
           Auteur
-          <input
-            name="author"
-            defaultValue={author}
-            className="admin-input"
-          />
+          <input name="author" defaultValue={author} className="admin-input" />
         </label>
         <label className="mt-3 grid gap-1 text-[13px] text-navy">
           Date de publication
@@ -93,25 +97,44 @@ export function AdminPostMeta({
             className="admin-input"
           />
         </label>
-        <label className="mt-3 grid gap-1 text-[13px] text-navy">
-          Catégorie
-          <select
-            className="admin-input"
-            value={categoryLabel}
-            onChange={(e) => onCategoryChange(e.target.value)}
-          >
-            {!categoryLabel ? <option value="">— Choisir —</option> : null}
-            {categories.map((c) => (
-              <option key={c.id} value={c.label}>
-                {c.label}
-              </option>
-            ))}
-            {categoryLabel &&
-            !categories.some((c) => c.label === categoryLabel) ? (
-              <option value={categoryLabel}>{categoryLabel}</option>
-            ) : null}
-          </select>
-        </label>
+        <fieldset className="mt-3">
+          <legend className="text-[13px] text-navy">Catégories (plusieurs possibles)</legend>
+          <div className="mt-2 flex max-h-48 flex-col gap-1.5 overflow-y-auto rounded-lg border border-[rgba(23,71,94,0.1)] p-2">
+            {categories.map((c) => {
+              const checked = categoryLabels.includes(c.label)
+              return (
+                <label
+                  key={c.id}
+                  className="flex cursor-pointer items-center gap-2 text-[13px] text-navy"
+                >
+                  <input
+                    type="checkbox"
+                    checked={checked}
+                    onChange={() => toggleCategory(c.label)}
+                    className="size-3.5 accent-navy"
+                  />
+                  {c.label}
+                </label>
+              )
+            })}
+            {categoryLabels
+              .filter((l) => !categories.some((c) => c.label === l))
+              .map((l) => (
+                <label
+                  key={l}
+                  className="flex cursor-pointer items-center gap-2 text-[13px] text-navy"
+                >
+                  <input
+                    type="checkbox"
+                    checked
+                    onChange={() => toggleCategory(l)}
+                    className="size-3.5 accent-navy"
+                  />
+                  {l} <span className="text-muted">(hors liste)</span>
+                </label>
+              ))}
+          </div>
+        </fieldset>
         <label className="mt-3 grid gap-1 text-[13px] text-navy">
           Extrait
           <textarea

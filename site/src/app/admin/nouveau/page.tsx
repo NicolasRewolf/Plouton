@@ -15,9 +15,9 @@ export default function NewPostPage() {
   const [saving, setSaving] = useState(false)
   const [bodyHtml, setBodyHtml] = useState("<p></p>")
   const [coverImage, setCoverImage] = useState("")
-  const [categoryLabel, setCategoryLabel] = useState(
-    "Ressources et notions juridiques"
-  )
+  const [categoryLabels, setCategoryLabels] = useState<string[]>([
+    "Ressources et notions juridiques",
+  ])
   const [publishedAt, setPublishedAt] = useState(todayIsoDate())
   const [metaTitle, setMetaTitle] = useState("")
   const [metaDescription, setMetaDescription] = useState("")
@@ -50,7 +50,7 @@ export default function NewPostPage() {
         metaTitle: metaTitle || undefined,
         metaDescription: metaDescription || undefined,
         coverImage: coverImage || null,
-        categories: categoryLabel ? [categoryLabel] : undefined,
+        categories: categoryLabels.length ? categoryLabels : undefined,
         bodyHtml,
         body: htmlToParagraphs(bodyHtml),
       }),
@@ -147,10 +147,10 @@ export default function NewPostPage() {
             metaTitle={metaTitle}
             metaDescription={metaDescription}
             coverImage={coverImage}
-            categoryLabel={categoryLabel}
+            categoryLabels={categoryLabels}
             showSlug
             onCoverChange={setCoverImage}
-            onCategoryChange={setCategoryLabel}
+            onCategoriesChange={setCategoryLabels}
             onPublishedAtChange={setPublishedAt}
             onMetaTitleChange={setMetaTitle}
             onMetaDescriptionChange={setMetaDescription}

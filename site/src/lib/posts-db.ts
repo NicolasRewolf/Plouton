@@ -15,6 +15,7 @@ import {
   type PostStatus,
 } from "@/lib/post-status"
 import type { Article, ArticleIndexItem } from "@/lib/content"
+import { getCategories } from "@/lib/content"
 import {
   editorJsToHtml,
   hasUsableHtml,
@@ -301,6 +302,92 @@ export async function archivePost(slug: string): Promise<boolean> {
     return false
   }
   return true
+}
+
+/** Labels → category_ids (référentiel contenu/categories.json). */
+export function resolveCategoryIdsFromLabels(labels: string[]): string[] {
+  const cats = getCategories()
+  const byLabel = new Map(cats.map((c) => [c.label, c.id]))
+  const ids: string[] = []
+  for (const label of labels) {
+    const id = byLabel.get(label)
+    if (id && !ids.includes(id)) ids.push(id)
+  }
+  return ids
+}
+
+export type PostVersionRow = {
+  id: number
+  post_slug: string
+  body_html: string | null
+  body: unknown
+  title: string | null
+  categories: string[] | null
+  meta_title: string | null
+  meta_description: string | null
+  author_email: string | null
+  created_at: string
+}
+
+/** Snapshot avant PUT admin (P0-F). Best-effort si table absente. */
+export async function insertPostVersion(opts: {
+  slug: string
+  article: Article
+  authorEmail?: string | null
+}): Promise<boolean> {
+  const client = secretClient()
+  if (!client) return false
+  const { error } = await client.from("post_versions").insert({
+    post_slug: opts.slug,
+    body_html: opts.article.bodyHtml ?? null,
+    body: opts.article.body ?? null,
+    title: opts.article.title ?? null,
+    categories: opts.article.categories ?? [],
+    meta_title: opts.article.metaTitle ?? null,
+    meta_description: opts.article.metaDescription ?? null,
+    author_email: opts.authorEmail ?? null,
+  })
+  if (error) {
+    console.warn(`[posts-db] insertPostVersion(${opts.slug}): ${error.message}`)
+    return false
+  }
+  return true
+}
+
+export async function listPostVersions(
+  slug: string,
+  limit = 20
+): Promise<PostVersionRow[] | null> {
+  const client = secretClient()
+  if (!client) return null
+  const { data, error } = await client
+    .from("post_versions")
+    .select("*")
+    .eq("post_slug", slug)
+    .order("created_at", { ascending: false })
+    .limit(limit)
+  if (error) {
+    console.warn(`[posts-db] listPostVersions(${slug}): ${error.message}`)
+    return null
+  }
+  return (data || []) as PostVersionRow[]
+}
+
+export async function getPostVersion(
+  id: number
+): Promise<PostVersionRow | null> {
+  const client = secretClient()
+  if (!client) return null
+  const { data, error } = await client
+    .from("post_versions")
+    .select("*")
+    .eq("id", id)
+    .maybeSingle()
+  if (error) {
+    console.warn(`[posts-db] getPostVersion(${id}): ${error.message}`)
+    return null
+  }
+  return data as PostVersionRow | null
 }
 
 /** Slugs publiés (generateStaticParams). */

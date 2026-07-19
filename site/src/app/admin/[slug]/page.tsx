@@ -10,7 +10,25 @@ import {
   htmlToParagraphs,
 } from "@/lib/article-body"
 import type { Article } from "@/lib/content"
+import {
+  assessHtmlEditRisk,
+  mergeEditRisks,
+  type EditGuardResult,
+} from "@/lib/post-edit-guard"
 import { statusLabel, todayIsoDate, type PostStatus } from "@/lib/post-status"
+
+type VersionMeta = {
+  id: number
+  createdAt: string
+  title: string | null
+  authorEmail: string | null
+}
+
+const EMPTY_RISK: EditGuardResult = {
+  blocked: false,
+  reasons: [],
+  source: "none",
+}
 
 export default function EditPostPage() {
   const { slug } = useParams<{ slug: string }>()
@@ -19,39 +37,72 @@ export default function EditPostPage() {
   const [article, setArticle] = useState<Article | null>(null)
   const [bodyHtml, setBodyHtml] = useState<string | null>(null)
   const [coverImage, setCoverImage] = useState("")
-  const [categoryLabel, setCategoryLabel] = useState("")
+  const [categoryLabels, setCategoryLabels] = useState<string[]>([])
   const [publishedAt, setPublishedAt] = useState(todayIsoDate())
   const [metaTitle, setMetaTitle] = useState("")
   const [metaDescription, setMetaDescription] = useState("")
   const [error, setError] = useState("")
   const [saving, setSaving] = useState(false)
+  const [forceRichEdit, setForceRichEdit] = useState(false)
+  const [versions, setVersions] = useState<VersionMeta[]>([])
+  const [serverRisk, setServerRisk] = useState<EditGuardResult>(EMPTY_RISK)
+
+  const risk = mergeEditRisks(
+    serverRisk,
+    bodyHtml !== null ? assessHtmlEditRisk(bodyHtml) : EMPTY_RISK
+  )
 
   useEffect(() => {
     fetch(`/api/posts?slug=${encodeURIComponent(slug)}`)
       .then((r) => r.json())
-      .then((data: Article & { error?: string }) => {
-        if (data.error) {
-          setArticle(null)
-          return
+      .then(
+        (
+          data: Article & {
+            error?: string
+            editGuard?: EditGuardResult
+          }
+        ) => {
+          if (data.error) {
+            setArticle(null)
+            return
+          }
+          const { editGuard, ...articleData } = data
+          setArticle(articleData)
+          setBodyHtml(articleToEditorHtml(articleData))
+          setCoverImage(articleData.coverImage || "")
+          setCategoryLabels(
+            articleData.categories?.length ? articleData.categories : []
+          )
+          setPublishedAt(
+            (articleData.publishedAt || todayIsoDate()).slice(0, 10)
+          )
+          setMetaTitle(articleData.metaTitle || "")
+          setMetaDescription(articleData.metaDescription || "")
+          if (editGuard) setServerRisk(editGuard)
         }
-        setArticle(data)
-        setBodyHtml(articleToEditorHtml(data))
-        setCoverImage(data.coverImage || "")
-        setCategoryLabel(data.categories?.[0] || "")
-        setPublishedAt((data.publishedAt || todayIsoDate()).slice(0, 10))
-        setMetaTitle(data.metaTitle || "")
-        setMetaDescription(data.metaDescription || "")
+      )
+    fetch(`/api/posts/versions?slug=${encodeURIComponent(slug)}`)
+      .then((r) => r.json())
+      .then((data: { versions?: VersionMeta[] }) => {
+        if (Array.isArray(data.versions)) setVersions(data.versions)
       })
+      .catch(() => {})
   }, [slug])
 
   async function save(status: PostStatus) {
     if (!article || bodyHtml === null) return
     const form = formRef.current
     if (!form) return
+    if (risk.blocked && !forceRichEdit) {
+      setError(
+        "Édition gelée : contenu riche. Cochez « éditer quand même » seulement si vous acceptez la perte."
+      )
+      return
+    }
     setSaving(true)
     setError("")
     const fd = new FormData(form)
-    const next: Article = {
+    const next: Article & { forceRichEdit?: boolean } = {
       ...article,
       title: String(fd.get("title")),
       excerpt: String(fd.get("excerpt")),
@@ -60,14 +111,15 @@ export default function EditPostPage() {
       metaTitle: metaTitle || undefined,
       metaDescription: metaDescription || undefined,
       coverImage: coverImage || null,
-      categories: categoryLabel
-        ? [categoryLabel]
+      categories: categoryLabels.length
+        ? categoryLabels
         : article.categories?.length
           ? article.categories
           : ["Ressources et notions juridiques"],
       status,
       bodyHtml,
       body: htmlToParagraphs(bodyHtml),
+      forceRichEdit: forceRichEdit || undefined,
     }
     const res = await fetch("/api/posts", {
       method: "PUT",
@@ -76,7 +128,8 @@ export default function EditPostPage() {
     })
     setSaving(false)
     if (!res.ok) {
-      setError("Échec de l’enregistrement")
+      const data = (await res.json().catch(() => ({}))) as { error?: string }
+      setError(data.error || "Échec de l’enregistrement")
       return
     }
     router.push("/admin")
@@ -103,6 +156,39 @@ export default function EditPostPage() {
     }
     router.push("/admin")
     router.refresh()
+  }
+
+  async function restoreVersion(versionId: number) {
+    if (
+      !window.confirm(
+        "Restaurer cette version ? L’état actuel sera aussi sauvegardé dans l’historique."
+      )
+    )
+      return
+    setSaving(true)
+    setError("")
+    const res = await fetch("/api/posts/versions", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ versionId }),
+    })
+    setSaving(false)
+    if (!res.ok) {
+      setError("Restauration impossible")
+      return
+    }
+    const data = (await res.json()) as Article
+    setArticle(data)
+    setBodyHtml(articleToEditorHtml(data))
+    setCategoryLabels(data.categories || [])
+    setMetaTitle(data.metaTitle || "")
+    setMetaDescription(data.metaDescription || "")
+    setCoverImage(data.coverImage || "")
+    // refresh versions list
+    const v = await fetch(
+      `/api/posts/versions?slug=${encodeURIComponent(slug)}`
+    ).then((r) => r.json())
+    if (Array.isArray(v.versions)) setVersions(v.versions)
   }
 
   function onSubmit(e: FormEvent) {
@@ -144,6 +230,30 @@ export default function EditPostPage() {
         </div>
       </div>
 
+      {risk.blocked ? (
+        <div className="mb-6 rounded-[14px] border border-amber-300 bg-amber-50 px-4 py-3 text-[13px] text-navy">
+          <p className="font-semibold text-amber-900">Édition gelée (contenu riche)</p>
+          <p className="mt-1 text-navy/80">
+            Cet article contient des éléments (tableaux, accordéons, images,
+            embeds…) que l’éditeur actuel détruirait à la sauvegarde. Attendez
+            la mise à jour TipTap, ou forcez uniquement en connaissance de
+            cause.
+          </p>
+          <p className="mt-1 font-mono text-[11px] text-navy/60">
+            {risk.reasons.slice(0, 10).join(", ")}
+            {risk.reasons.length > 10 ? "…" : ""}
+          </p>
+          <label className="mt-3 flex items-center gap-2 text-[12px] text-amber-950">
+            <input
+              type="checkbox"
+              checked={forceRichEdit}
+              onChange={(e) => setForceRichEdit(e.target.checked)}
+            />
+            Éditer quand même (je comprends le risque de perte)
+          </label>
+        </div>
+      ) : null}
+
       <form
         ref={formRef}
         onSubmit={onSubmit}
@@ -156,6 +266,7 @@ export default function EditPostPage() {
               name="title"
               defaultValue={article.title}
               className="admin-input text-[16px] font-medium"
+              disabled={risk.blocked && !forceRichEdit}
             />
           </label>
           <AdminEditorLazy initialHtml={bodyHtml} onChange={setBodyHtml} />
@@ -175,7 +286,7 @@ export default function EditPostPage() {
             <div className="mt-4 flex flex-col gap-2">
               <button
                 type="button"
-                disabled={saving}
+                disabled={saving || (risk.blocked && !forceRichEdit)}
                 className="admin-btn admin-btn-secondary w-full"
                 onClick={() => void save("draft")}
               >
@@ -183,7 +294,7 @@ export default function EditPostPage() {
               </button>
               <button
                 type="button"
-                disabled={saving}
+                disabled={saving || (risk.blocked && !forceRichEdit)}
                 className="admin-btn admin-btn-primary w-full"
                 onClick={() => void save("published")}
               >
@@ -191,7 +302,7 @@ export default function EditPostPage() {
               </button>
               <button
                 type="button"
-                disabled={saving}
+                disabled={saving || (risk.blocked && !forceRichEdit)}
                 className="admin-btn admin-btn-secondary w-full"
                 onClick={() => void save("scheduled")}
                 title="Visible le jour de la date de publication"
@@ -217,13 +328,44 @@ export default function EditPostPage() {
             metaTitle={metaTitle}
             metaDescription={metaDescription}
             coverImage={coverImage}
-            categoryLabel={categoryLabel}
+            categoryLabels={categoryLabels}
             onCoverChange={setCoverImage}
-            onCategoryChange={setCategoryLabel}
+            onCategoriesChange={setCategoryLabels}
             onPublishedAtChange={setPublishedAt}
             onMetaTitleChange={setMetaTitle}
             onMetaDescriptionChange={setMetaDescription}
           />
+
+          {versions.length > 0 ? (
+            <div className="rounded-[14px] border border-[rgba(23,71,94,0.1)] bg-white p-4 shadow-[0_1px_2px_rgba(23,71,94,0.04)]">
+              <p className="text-[12px] font-semibold tracking-wide text-navy/50 uppercase">
+                Versions
+              </p>
+              <ul className="mt-3 space-y-2">
+                {versions.slice(0, 8).map((v) => (
+                  <li
+                    key={v.id}
+                    className="flex items-start justify-between gap-2 text-[12px]"
+                  >
+                    <span className="min-w-0 text-muted">
+                      {new Date(v.createdAt).toLocaleString("fr-FR")}
+                      {v.authorEmail ? (
+                        <span className="block truncate">{v.authorEmail}</span>
+                      ) : null}
+                    </span>
+                    <button
+                      type="button"
+                      disabled={saving}
+                      className="shrink-0 text-navy underline-offset-2 hover:underline"
+                      onClick={() => void restoreVersion(v.id)}
+                    >
+                      Restaurer
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
         </aside>
       </form>
     </main>

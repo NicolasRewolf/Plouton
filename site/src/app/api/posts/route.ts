@@ -9,7 +9,9 @@ import {
   isEditorJsDoc,
 } from "@/lib/article-body"
 import { isPostStatus, resolvePersistStatus, type PostStatus } from "@/lib/post-status"
-import { archivePost } from "@/lib/posts-db"
+import { editGuardMessage } from "@/lib/post-edit-guard"
+import { assessEditRisk } from "@/lib/post-edit-guard-server"
+import { archivePost, insertPostVersion, resolveCategoryIdsFromLabels } from "@/lib/posts-db"
 import { resolveAdminArticleList } from "@/lib/posts-public"
 import { revalidatePostSurfaces } from "@/lib/revalidate-posts"
 import { getStore, type ContentStore } from "@/lib/store"
@@ -68,11 +70,15 @@ export async function GET(req: Request) {
     const store = getStore() as StoreWithGet
     if (store.getArticleBySlug) {
       const fromDb = await store.getArticleBySlug(slug)
-      if (fromDb) return NextResponse.json(fromDb)
+      if (fromDb) {
+        const editGuard = assessEditRisk(slug, fromDb.bodyHtml)
+        return NextResponse.json({ ...fromDb, editGuard })
+      }
     }
     const article = getArticle(slug)
     if (!article) return NextResponse.json({ error: "introuvable" }, { status: 404 })
-    return NextResponse.json(article)
+    const editGuard = assessEditRisk(slug, article.bodyHtml)
+    return NextResponse.json({ ...article, editGuard })
   }
   return NextResponse.json(await resolveAdminArticleList())
 }
@@ -87,6 +93,13 @@ export async function POST(req: Request) {
 
   const publishedAt = body.publishedAt || new Date().toISOString().slice(0, 10)
   const normalized = normalizeIncoming(body)
+  const categories = body.categories?.length
+    ? body.categories
+    : ["Ressources et notions juridiques"]
+  const categoryIds =
+    body.categoryIds?.length
+      ? body.categoryIds
+      : resolveCategoryIdsFromLabels(categories)
   const article: Article = {
     slug: body.slug.replace(/[^a-z0-9-àâäéèêëïîôùûüç]/gi, "-").toLowerCase(),
     title: body.title,
@@ -94,16 +107,14 @@ export async function POST(req: Request) {
     publishedAt,
     status: normalizeStatus(body.status, publishedAt),
     author: body.author || "Cabinet Plouton",
-    categories: body.categories?.length
-      ? body.categories
-      : ["Ressources et notions juridiques"],
+    categories,
     body: normalized.body,
     bodyHtml: normalized.bodyHtml,
     metaTitle: body.metaTitle,
     metaDescription: body.metaDescription,
     coverImage: body.coverImage,
     tags: body.tags,
-    categoryIds: body.categoryIds,
+    categoryIds,
     authorId: body.authorId,
     wixId: body.wixId,
     url: body.url,
@@ -125,14 +136,49 @@ export async function PUT(req: Request) {
   const user = await requireAdmin()
   if (!user) return NextResponse.json({ error: "non autorisé" }, { status: 401 })
 
-  const body = (await req.json()) as Article
+  const body = (await req.json()) as Article & { forceRichEdit?: boolean }
   if (!body.slug) return NextResponse.json({ error: "slug requis" }, { status: 400 })
+
+  // P0-A — gel articles riches (Ricos / HTML) sauf override explicite
+  const risk = assessEditRisk(body.slug, body.bodyHtml)
+  if (risk.blocked && !body.forceRichEdit) {
+    return NextResponse.json(
+      {
+        error: editGuardMessage(risk),
+        code: "RICH_EDIT_BLOCKED",
+        reasons: risk.reasons,
+        source: risk.source,
+      },
+      { status: 409 }
+    )
+  }
+
+  const store = getStore() as StoreWithGet
+  const previous =
+    (store.getArticleBySlug && (await store.getArticleBySlug(body.slug))) ||
+    getArticle(body.slug)
+  if (previous) {
+    await insertPostVersion({
+      slug: body.slug,
+      article: previous,
+      authorEmail: user.email,
+    })
+  }
+
   const normalized = normalizeIncoming(body)
   const publishedAt = body.publishedAt || new Date().toISOString().slice(0, 10)
+  const categories = body.categories?.length
+    ? body.categories
+    : previous?.categories?.length
+      ? previous.categories
+      : ["Ressources et notions juridiques"]
+  const categoryIds = resolveCategoryIdsFromLabels(categories)
   const article: Article = {
     ...body,
     publishedAt,
     status: normalizeStatus(body.status, publishedAt),
+    categories,
+    categoryIds,
     body: normalized.body,
     bodyHtml: normalized.bodyHtml,
     updatedAt: body.updatedAt || new Date().toISOString().slice(0, 10),

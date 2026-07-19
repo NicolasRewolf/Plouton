@@ -76,7 +76,11 @@ create or replace view public.category_post_counts as
   from public.posts where status = 'published' group by 1;
 ```
 
-### `0007_cms_taxonomie.sql` — authors, categories
+### `0007_post_versions.sql` — snapshots admin (blog #18 P0-F)
+> **Pris** le 2026-07-19. Instantanés avant chaque PUT admin (`post_versions`).
+
+### `0008_authors.sql` (+ categories si besoin) — taxonomie blog
+> Remplace l’ancien numéro `0007_cms_taxonomie` (décalé car `0006` = FAQ, `0007` = post_versions).  
 > ~~`team_members`~~ **HORS PÉRIMÈTRE** (décision 2026-07-19) : l'équipe reste du contenu de page (hard-codé sur accueil + notre-cabinet, ou `equipe.json`).
 ```sql
 create table if not exists public.authors (
@@ -107,7 +111,8 @@ create table if not exists public.categories (
 -- NB : pas de colonne post_count → vue category_post_counts (0005).
 ```
 
-### `0008_cms_faq.sql` — faq
+### `0006_faq.sql` — faq (déjà appliqué)
+> Numéro réel en prod : **`0006_faq.sql`**. L’ancien libellé `0008_cms_faq` ci-dessous est historique.
 ```sql
 create table if not exists public.faq (
   id uuid primary key default gen_random_uuid(),
@@ -198,8 +203,9 @@ _Restent en JSON/inline (hors périmètre) : `getEquipe`, `getExpertise`/`listEx
 
 ## 5. Phasage recommandé (incrémental, vérifiable)
 
-1. **Migrations** `0006` (shared+vue) → `0007` (authors, categories) → `0008` (faq) → `0009` (singleton contact) — ⚠️ `0005` est déjà pris par `0005_posts_admin_statuses.sql` (Grok, 19/07). Additif, aucun risque.
-2. **Seed** depuis les JSON (`--dry-run` puis réel). Comptes attendus : `authors 6, categories 17, faq 246, content_singletons 1 (contact)`.
+1. **Migrations réelles** : `0005` posts statuses · `0006` faq · `0007` post_versions · **`0008` authors** (+ categories) · `0009` singleton contact.  
+   ⚠️ Ne pas appliquer `docs/17` « vues à l’envers » : réconcilier `view_count` DB ← max(`stats-posts.json`), puis supprimer le JSON.
+2. **Seed** depuis les JSON (`--dry-run` puis réel). Comptes attendus : `authors ~5 (sans Simonini), categories 17, faq ~281, content_singletons 1 (contact)`.
 3. **Débrancher une collection à la fois** : FAQ → auteurs → catégories → contact. Vérif page après chaque : rendu **identique** au JSON/Wix (audit expertises existant comme baseline).
 4. **Fix `view_count`** (lire `posts.view_count`, retirer `stats-posts.json`).
 5. Une fois la DB validée en prod, **supprimer les 3 JSON migrés** (`faq/`, `categories.json`, `auteurs.json`). On **garde** `equipe.json`, `expertises/`, `pages/`, `navigation.json`, `redirects.json`, `site.json` (contenu de page / config).

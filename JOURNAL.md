@@ -5,6 +5,16 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Blog P0 : gel anti-destruction + filet versions
+
+- Articles « riches » (tableaux, accordéons…) : sauvegarde admin **refusée** sauf case à cocher consciente
+- Seed articles : n’écrase plus par défaut ; plus de forçage « publié »
+- Métas tronquées masquées ; multi-catégories ; image/auteur SEO corrigés ; menu sans faux H2
+- Versions : snapshot avant chaque enregistrement + bouton Restaurer (migration `0007`)
+- Tests : `npm run build` (site)
+
+---
+
 ## 2026-07-19 — FAQ dans Supabase + admin
 
 - Une seule FAQ en base (plus de fichiers JSON lus par le site)
