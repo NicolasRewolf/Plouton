@@ -25,7 +25,7 @@
         "l-aménagement-de-peine-comment-peut-il-s-appliquer",
         "casier-judiciaire-comprendre-et-effacer"
       ],
-      "seeAllHref": "/blog/categories/ressources-et-notions-juridiques",
+      "seeAllHref": "#toutes-les-ressources",
       "seeAllLabel": "Toutes les ressources"
     },
     {
@@ -40,7 +40,7 @@
         "accident-du-travail-comment-obtenir-votre-indemnisation",
         "piéton-renversé-quel-est-le-montant-de-l-indemnisation"
       ],
-      "seeAllHref": "/blog/categories/ressources-et-notions-juridiques",
+      "seeAllHref": "#toutes-les-ressources",
       "seeAllLabel": "Toutes les ressources"
     },
     {
@@ -52,8 +52,8 @@
         "demander-une-ordonnance-de-protection-en-2025",
         "qu-est-ce-que-le-bracelet-anti-rapprochement"
       ],
-      "seeAllHref": "/blog/categories/violences-conjugales-féminicides",
-      "seeAllLabel": "Violences conjugales"
+      "seeAllHref": "#toutes-les-ressources",
+      "seeAllLabel": "Toutes les ressources"
     },
     {
       "id": "affaires-entreprise",
@@ -65,8 +65,8 @@
         "abandon-de-poste-quels-risques",
         "comprendre-et-prévenir-la-responsabilité-pénale-du-dirigeant"
       ],
-      "seeAllHref": "/blog/categories/droit-pénal-des-affaires",
-      "seeAllLabel": "Droit pénal des affaires"
+      "seeAllHref": "#toutes-les-ressources",
+      "seeAllLabel": "Toutes les ressources"
     },
     {
       "id": "assurances",
@@ -76,8 +76,8 @@
         "sinistre-automobile-mon-assurance-de-véhicule-me-réclame-la-preuve-achat",
         "sinistre-habitation-recours-assurance"
       ],
-      "seeAllHref": "/blog/categories/droit-des-assurances",
-      "seeAllLabel": "Droit des assurances"
+      "seeAllHref": "#toutes-les-ressources",
+      "seeAllLabel": "Toutes les ressources"
     }
   ]
 }

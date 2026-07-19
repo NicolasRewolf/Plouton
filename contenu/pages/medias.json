@@ -1,11 +1,11 @@
 {
   "slug": "medias",
-  "path": "/blog/categories/médias",
+  "path": "/medias",
   "title": "Médias",
   "metaTitle": "Médias & Presse — Interventions Cabinet Plouton",
   "metaDescription": "Régulièrement engagé dans des affaires à dimension nationale et régionale, notre Cabinet est amené à intervenir dans des dossiers relayés par la presse écrite et audiovisuelle ; cette rubrique rassemble les principales affaires ayant fait l’objet d’une couverture médiatique.",
   "intro": "Régulièrement engagé dans des affaires à dimension nationale et régionale, notre Cabinet est amené à intervenir dans des dossiers relayés par la presse écrite et audiovisuelle ; cette rubrique rassemble les principales affaires ayant fait l’objet d’une couverture médiatique.",
   "sections": [],
   "fullText": "",
-  "scrapeNote": "Live = /blog/categories/médias (BlogListing). /medias = 301 vers cette catégorie (404 sur Wix)."
+  "scrapeNote": "Page dédiée /medias avec grille filtrable (AffairesGallery). Ancienne URL /blog/categories/médias → 301 ici."
 }

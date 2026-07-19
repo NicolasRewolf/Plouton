@@ -106,7 +106,7 @@
     "anchor": "nav:Médias + /medias",
     "property": "url",
     "live": "/blog/categories/médias (grille) ; /medias = 404 Wix",
-    "ours": "menu → catégorie blog ; /medias = 301 vers la catégorie",
+    "ours": "/medias = page dédiée filtrable ; /blog/categories/médias = 301 vers /medias",
     "reason": "Évite le stub liste texte ; une seule grille BlogListing.",
     "skill": "—"
   },

@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { AffaireCard } from "@/components/AffaireCard"
 import { getCategories, type ArticleIndexItem } from "@/lib/content"
+import { categoryPublicHref } from "@/lib/gallery-filters"
 
 const PER_PAGE = 24
 
@@ -18,7 +19,7 @@ export function blogTotalPages(count: number) {
   return Math.max(1, Math.ceil(count / PER_PAGE))
 }
 
-/** Listing blog : nav catégories + grille de cartes + pagination. */
+/** Listing blog (legacy / redirects) — liens vers les 3 hubs publics. */
 export function BlogListing({
   articles,
   page,
@@ -37,18 +38,17 @@ export function BlogListing({
   return (
     <div className="bg-page px-3 py-8 sm:px-5">
       <div className="mx-auto max-w-[1140px]">
-        {/* Nav catégories, comme le live */}
         <nav className="flex flex-wrap items-center gap-x-6 gap-y-2 border-b border-line pb-4 text-sm">
           <Link
-            href="/blog"
+            href="/nos-affaires"
             className={!activeCategorySlug ? "font-semibold text-ink" : "text-ink/70 hover:text-accent"}
           >
-            Tous les articles
+            Affaires
           </Link>
           {categories.map((c) => (
             <Link
               key={c.slug}
-              href={`/blog/categories/${c.slug}`}
+              href={categoryPublicHref(c.label)}
               className={
                 activeCategorySlug === c.slug
                   ? "font-semibold text-ink"

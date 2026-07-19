@@ -7,33 +7,28 @@ import {
   filterCategoryOptions,
   toGalleryItems,
 } from "@/lib/gallery-filters"
-import { publishedIndex } from "@/lib/queries"
+import { mediasArticles } from "@/lib/queries"
 import { JsonLd, organizationSchema } from "@/lib/seo"
 
 const AffairesGallery = dynamic(() =>
   import("@/components/AffairesGallery").then((m) => m.AffairesGallery)
 )
 
-const INTRO =
-  "Derrière chaque affaire, une stratégie. Voici une sélection de dossiers traités par le cabinet — dans le respect du secret professionnel, pour éclairer nos méthodes et les décisions obtenues."
-
-export function generateMetadata(): Metadata {
-  const page = getContentPage("nos-affaires")
+export async function generateMetadata(): Promise<Metadata> {
+  const page = getContentPage("medias")
   return {
-    title: { absolute: page?.metaTitle || "Nos affaires" },
+    title: { absolute: page?.metaTitle || "Médias" },
     description:
       page?.metaDescription ||
-      "Affaires et dossiers traités par le Cabinet Plouton à Bordeaux : droit pénal, victimes, famille.",
+      "Affaires du Cabinet Plouton relayées par la presse écrite et audiovisuelle.",
   }
 }
 
-export default async function NosAffairesPage() {
-  const page = getContentPage("nos-affaires")
+export default async function MediasPage() {
+  const page = getContentPage("medias")
   const site = getSite()
-
-  const articles = toGalleryItems(await publishedIndex())
-  // Filtres = catégories réellement présentes sur les articles (labels exacts)
-  const categoryOptions = filterCategoryOptions(articles)
+  const articles = toGalleryItems(await mediasArticles())
+  const categoryOptions = filterCategoryOptions(articles, ["Médias"])
 
   return (
     <>
@@ -44,8 +39,9 @@ export default async function NosAffairesPage() {
           {
             "@context": "https://schema.org",
             "@type": "CollectionPage",
-            name: page?.title || "Nos affaires",
-            url: `${site.url}/nos-affaires`,
+            name: page?.title || "Médias",
+            description: page?.intro || page?.metaDescription,
+            url: `${site.url}/medias`,
           },
         ]}
       />
@@ -62,15 +58,23 @@ export default async function NosAffairesPage() {
               Cabinet Plouton
             </p>
             <h1 className="mt-3 font-display text-[clamp(2rem,4vw,3.25rem)] font-medium leading-[1.08] tracking-[-0.03em] text-navy text-balance">
-              {page?.title || "Nos dernières affaires"}
+              {page?.title || "Médias"}
             </h1>
             <p className="mt-5 max-w-2xl text-[16px] leading-relaxed text-pretty text-muted sm:text-[17px]">
-              {INTRO}
+              {page?.intro ||
+                "Affaires relayées par la presse écrite et audiovisuelle."}
             </p>
           </header>
 
           <div className="mt-12 lg:mt-14">
-            <AffairesGallery articles={articles} categories={categoryOptions} />
+            <AffairesGallery
+              articles={articles}
+              categories={categoryOptions}
+              itemSingular="média"
+              itemPlural="médias"
+              emptyMessage="Aucun média dans cette catégorie pour le moment."
+              loadMoreLabel="Voir plus de médias"
+            />
           </div>
         </div>
       </main>

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import type { ReactNode } from "react"
 import { AffaireCard } from "@/components/AffaireCard"
 import type {
   ArticleIndexItem,
@@ -9,10 +10,17 @@ interface RessourcesHubProps {
   hub: RessourcesHubContent
   mostConsulted: ArticleIndexItem[]
   sections: { section: RessourcesHubContent["sections"][number]; articles: ArticleIndexItem[] }[]
+  /** Grille filtrable en bas de page (toutes les ressources). */
+  allGallery?: ReactNode
 }
 
-/** Hub éditorial Ressources — hero + plus consultés + sections thématiques (données JSON). */
-export function RessourcesHub({ hub, mostConsulted, sections }: RessourcesHubProps) {
+/** Hub éditorial Ressources — hero + plus consultés + sections + grille filtrable. */
+export function RessourcesHub({
+  hub,
+  mostConsulted,
+  sections,
+  allGallery,
+}: RessourcesHubProps) {
   return (
     <main className="relative min-h-screen overflow-hidden bg-[linear-gradient(180deg,#ffffff_0%,#f5f7f8_42%,#eef2f4_100%)]">
       <div
@@ -49,6 +57,20 @@ export function RessourcesHub({ hub, mostConsulted, sections }: RessourcesHubPro
             />
           ) : null
         )}
+
+        {allGallery ? (
+          <section id="toutes-les-ressources" className="mt-16 scroll-mt-24 lg:mt-20">
+            <header className="max-w-2xl">
+              <h2 className="font-display text-[clamp(1.5rem,3vw,2rem)] font-medium tracking-[-0.02em] text-navy">
+                Toutes les ressources
+              </h2>
+              <p className="mt-3 text-[15px] leading-relaxed text-muted sm:text-[16px]">
+                Guides et notions juridiques — filtrez par thème.
+              </p>
+            </header>
+            <div className="mt-10">{allGallery}</div>
+          </section>
+        ) : null}
       </div>
     </main>
   )

@@ -1,6 +1,6 @@
 # État d'avancement — Plouton
 
-_Mis à jour : 2026-07-18 (TipTap admin + barre fixe)_
+_Mis à jour : 2026-07-19 (Médias / Ressources filtrables)_
 
 Vue unique de « où on en est ». À relire en premier, mettre à jour à chaque grande étape.
 Détail des livraisons dans [`../JOURNAL.md`](../JOURNAL.md).
@@ -78,17 +78,17 @@ Trous majeurs encore ouverts :
 2. Polish UI « site fini » encore loin (pixel en pause)
 3. **C5.1** covers Storage (images articles) pas encore branché
 
-Gagné : 15 expertises, 3 hubs pôles, 422 posts, formulaires/admin, légales, Header figé, Footer, **Médias** + **hub Ressources**, uniformité cartes/CTA, **publish live C5**.
+Gagné : 15 expertises, 3 hubs pôles, 422 posts, formulaires/admin, légales, Header figé, Footer, **3 hubs contenus filtrables** (Affaires / Médias / Ressources), uniformité cartes/CTA, **publish live C5**.
 
-## 🔜 Backlog site public (ordre logique — soir 18/07)
+## 🔜 Backlog site public (ordre logique)
 
 | # | Chantier | Statut |
 |---|----------|--------|
-| 1 | **Médias** — vraie grille + bon lien menu | ✅ |
-| 2 | **Ressources** — hub thématique `/comprendre-le-droit` | ✅ |
+| 1 | **Médias** — `/medias` + chips filtres | ✅ |
+| 2 | **Ressources** — hub + grille filtrable | ✅ |
 | 3 | **3 hubs pôles** | ✅ |
 | 4 | Expertise **Défense des élus** + menu | ✅ |
-| 5 | **Redirects** blog | ✅ |
+| 5 | **Redirects** — `/blog` → hubs (plus de fourre-tout) | ✅ |
 | 6 | **C5** — site public lit Supabase + publish live | ✅ |
 | 6a | **Admin** — TipTap (barre fixe Wix) + dashboard | ✅ |
 | 6b | **C5.1** — covers / bucket `medias` | à faire |

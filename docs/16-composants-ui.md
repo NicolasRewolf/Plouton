@@ -21,7 +21,7 @@ Changer un canonique → **propager partout dans la même PR**.
 | `/admin/*` | Backoffice, autre langage UI — shell sidebar + `.admin-btn` / `.admin-input` (navy/fog), pas `SiteCta` |
 | `ContactForm` (submit, modes RDV) | Formulaire complexe, parcours dédié |
 | Pastilles TOC (`ExpertiseToc`, `LegalToc`) | Navigation d’ancres, pas des CTA marketing |
-| Chips filtre (ex. nos-affaires, FAQ) | Filtres locaux, pas des CTA |
+| Chips filtre (nos-affaires, médias, ressources, FAQ) | Filtres locaux, pas des CTA |
 
 ## Hors scope carte article
 

@@ -20,6 +20,7 @@ const menu: NavLink[] = [
   { href: "/notre-cabinet", label: "Notre cabinet" },
   { href: "/honoraires-rendez-vous", label: "Rendez-vous, accès & honoraires" },
   { href: "/nos-affaires", label: "Nos affaires" },
+  { href: "/medias", label: "Médias" },
   { href: "/comprendre-le-droit", label: "Ressources" },
   { href: "/mentions-legales", label: "Mentions légales" },
 ]

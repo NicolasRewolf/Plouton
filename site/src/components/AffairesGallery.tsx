@@ -22,13 +22,27 @@ function matchesCategory(
   return article.categories.some((c) => labelEquals(c, cat.label))
 }
 
-/** Grille éditoriale « Nos affaires » — filtres + cards preview. */
+function pluralFr(n: number, singular: string, plural: string) {
+  return n > 1 ? plural : singular
+}
+
+/** Grille éditoriale filtrable — Affaires, Médias, Ressources. */
 export function AffairesGallery({
   articles,
   categories,
+  itemSingular = "affaire",
+  itemPlural = "affaires",
+  emptyMessage = "Aucune affaire dans cette catégorie pour le moment.",
+  loadMoreLabel = "Voir plus d'affaires",
+  filterAriaLabel = "Filtrer par catégorie",
 }: {
   articles: AffaireCardItem[]
   categories: CategoryOption[]
+  itemSingular?: string
+  itemPlural?: string
+  emptyMessage?: string
+  loadMoreLabel?: string
+  filterAriaLabel?: string
 }) {
   const [activeSlug, setActiveSlug] = useState<string | null>(null)
   const [visible, setVisible] = useState(PAGE_SIZE)
@@ -49,7 +63,7 @@ export function AffairesGallery({
   return (
     <div>
       <nav
-        aria-label="Filtrer par catégorie"
+        aria-label={filterAriaLabel}
         className="scrollbar-none -mx-1 flex gap-2 overflow-x-auto px-1 pb-1"
       >
         <FilterChip
@@ -68,7 +82,7 @@ export function AffairesGallery({
       </nav>
 
       <p className="mt-5 text-[13px] tabular-nums text-muted">
-        {filtered.length} affaire{filtered.length > 1 ? "s" : ""}
+        {filtered.length} {pluralFr(filtered.length, itemSingular, itemPlural)}
         {activeSlug ? " dans cette catégorie" : ""}
       </p>
 
@@ -83,9 +97,7 @@ export function AffairesGallery({
       </div>
 
       {filtered.length === 0 ? (
-        <p className="mt-16 text-center text-[15px] text-muted">
-          Aucune affaire dans cette catégorie pour le moment.
-        </p>
+        <p className="mt-16 text-center text-[15px] text-muted">{emptyMessage}</p>
       ) : null}
 
       {hasMore ? (
@@ -95,7 +107,7 @@ export function AffairesGallery({
             onClick={() => setVisible((n) => n + PAGE_SIZE)}
             className="rounded-full bg-navy px-7 py-3 text-[14px] font-medium text-white transition-[transform,background-color] duration-200 ease-[cubic-bezier(0.2,0,0,1)] hover:bg-navy-soft active:scale-[0.96]"
           >
-            Voir plus d&apos;affaires
+            {loadMoreLabel}
           </button>
         </div>
       ) : null}
