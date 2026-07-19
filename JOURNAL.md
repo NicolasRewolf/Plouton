@@ -5,6 +5,16 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — FAQ dans Supabase + admin
+
+- Une seule FAQ en base (plus de fichiers JSON lus par le site)
+- Import du CSV Wix (281 lignes) + Divorce depuis l’archive ; espace admin prêt
+- Les questions s’affichent sur les pages expertises (filtres sous-sujet inchangés)
+- Migration + import déjà faits sur Supabase Plouton
+- Tests : build OK
+
+---
+
 ## 2026-07-19 — Fix doublon /comprendre-le-droit
 
 - Les thèmes (Procédure pénale, Victimes, etc.) affichaient presque tout le catalogue, puis la grille du bas le montrait encore une fois

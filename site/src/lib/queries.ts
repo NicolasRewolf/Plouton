@@ -2,7 +2,6 @@ import fs from "node:fs"
 import path from "node:path"
 import {
   contentRoot,
-  getFaq,
   getExpertise,
   getCategories,
   type Article,
@@ -160,19 +159,14 @@ export async function mostViewedArticles(opts: {
 }
 
 /**
- * FAQ for an expertise — prefer slug file (contenu/faq/{slug}.json).
- * Falls back to faqExpertise only if it looks like a file key.
+ * FAQ for an expertise — lit Supabase (`public.faq`).
+ * Plus de JSON runtime (`contenu/faq/*.json` archivés).
  */
-export function faqForExpertise(expertise: ExpertisePage): FaqItem[] {
-  const bySlug = getFaq(expertise.slug)
-  if (bySlug.length) return bySlug
-
-  const key = (expertise.faqExpertise || "").trim()
-  if (!key) return []
-  if (/^[a-z0-9-]+$/i.test(key) && !key.includes(" ")) {
-    return getFaq(key)
-  }
-  return []
+export async function faqForExpertise(
+  expertise: ExpertisePage
+): Promise<FaqItem[]> {
+  const { getFaqForExpertise } = await import("@/lib/faq-db")
+  return getFaqForExpertise(expertise.slug)
 }
 
 export function requireExpertise(slug: string): ExpertisePage {
