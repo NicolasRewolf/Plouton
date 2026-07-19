@@ -220,13 +220,23 @@ function extractAmount(title: string) {
   return m ? m[1].replace(/\s+/g, "\u00a0") : undefined
 }
 
+/**
+ * Titre d'affaire = résultat chiffré (montant €, gain multiplié, réévaluation).
+ * Les mots seuls « indemnisation » / « soutien » sont trop courants dans les
+ * titres d'étapes ordinaires : les inclure faisait basculer des sections
+ * d'accompagnement en grille d'affaires (contenu perdu).
+ */
 function looksLikeCaseTitle(title: string) {
-  return /\d[\d\s.,]*\s*€|indemnisation|soutien|réévaluation|multipliée/i.test(title)
+  return /\d[\d\s.,]*\s*€|multipliée\s+par\s+\d|réévaluation/i.test(title)
 }
 
 function groupCases(blocks: Block[]): CaseItem[] | null {
-  const headed = blocks.filter((b) => b.heading && looksLikeCaseTitle(b.heading))
+  const headedBlocks = blocks.filter((b) => b.heading)
+  const headed = headedBlocks.filter((b) => looksLikeCaseTitle(b.heading))
   if (headed.length < 2) return null
+  // Section mixte (titres d'étapes + titres d'affaires) → ce n'est pas une
+  // grille d'affaires : on laisse HeadedSteps rendre tous les titres.
+  if (headed.length !== headedBlocks.length) return null
 
   const cases: CaseItem[] = []
   let current: CaseItem | null = null
@@ -529,7 +539,7 @@ function CaseGrid({ cases, links }: { cases: CaseItem[]; links: InlineLink[] }) 
             {linkify(c.title, links)}
           </h3>
           <div className="mt-3 flex-1 space-y-2.5 text-[14px] leading-[1.65] text-navy/80">
-            {c.paragraphs.slice(0, 3).map((p, i) => (
+            {c.paragraphs.map((p, i) => (
               <p key={i} className="text-pretty">
                 {linkify(p, links)}
               </p>

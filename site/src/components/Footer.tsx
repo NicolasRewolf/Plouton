@@ -159,10 +159,10 @@ export function Footer() {
         <p className="font-display mt-6 max-w-[800px] text-[22px] leading-[normal] font-normal tracking-[-0.03em] text-navy md:mt-12 lg:text-[18px]">
           Le cabinet d&apos;avocats Plouton est ouvert de 9h00 à 19h30, du lundi au vendredi.
           Retrouvez - nous au{" "}
+          {/* Fiche Google du cabinet (lien précis par CID) plutôt qu'une
+              recherche Maps sur l'adresse — fidélité au live Wix + SEO local. */}
           <a
-            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-              `${site.address.street}, ${site.address.postalCode} ${site.address.city}`
-            )}`}
+            href={site.googleReviewsUrl}
             target="_blank"
             rel="noopener"
             className="text-accent"
