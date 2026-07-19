@@ -4,7 +4,7 @@ Le droit pénal des affaires à Bordeaux, loin des clichés juridiques, est une 
 
 Depuis sa création, [](https://www.jplouton-avocat.fr/notre-cabinet)[le cabinet](https://www.jplouton-avocat.fr/notre-cabinet) a fait de cette matière l’un de ses piliers. Dirigé par Maître Julien Plouton, avocat formé aux plus hauts niveaux (HEC, DESS de Droit des affaires et fiscalité, DEA Etudes Européennes), notre équipe s’appuie sur une connaissance approfondie du terrain judiciaire, une grande rigueur procédurale et une capacité à agir vite, surtout lorsque votre image, votre entreprise ou votre avenir sont en jeu.​
 
-![Droit Pénal des affaires - Avocat Julien Plouton](https://static.wixstatic.com/media/d05c9e_a36ec3655b714c1eaf401d34043ca647~mv2.jpg/v1/fill/w_1292,h_862,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Droit%20P%C3%A9nal%20des%20affaires%20-%20Avocat%20Julien%20Plouton.jpg)
+![Droit Pénal des affaires - Avocat Julien Plouton](https://static.wixstatic.com/media/d05c9e_a36ec3655b714c1eaf401d34043ca647~mv2.jpg/v1/fill/w_1034,h_690,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Droit%20P%C3%A9nal%20des%20affaires%20-%20Avocat%20Julien%20Plouton.jpg)
 
 Cabinet Plouton /
 
@@ -340,6 +340,16 @@ En voir plus
 
 ## Nos affaires récentes en droit pénal des affaires
 
+![Droit Pénal des affaires - Avocat Julien Plouton](https://static.wixstatic.com/media/07454f_5e5bb9530fd84010a9bf2883e9429272~mv2.png/v1/fill/w_49,h_31,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/07454f_5e5bb9530fd84010a9bf2883e9429272~mv2.png)
+
+Droit pénal des affaires
+
+12 juil. 2026
+
+### Escroquerie au permis de conduire à Bordeaux : après l'annulation des premières poursuites, le tribunal retient plusieurs arguments de notre défense
+
+[Lire](https://www.jplouton-avocat.fr/post/escroquerie-au-permis-de-conduire-à-bordeaux-après-l-annulation-des-premières-poursuites-le-tribu)
+
 ![Droit Pénal des affaires - Avocat Julien Plouton](https://static.wixstatic.com/media/nsplsh_7f482708ec924c269cd092eddcd1bd77~mv2.jpg/v1/fill/w_147,h_99,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/nsplsh_7f482708ec924c269cd092eddcd1bd77~mv2.jpg)
 
 Droit pénal des affaires
@@ -529,16 +539,6 @@ Droit pénal des affaires
 ### Relaxe pour un chef d’entreprise poursuivi pour travail dissimulé aggravé
 
 [Lire](https://www.jplouton-avocat.fr/post/relaxe-pour-un-chef-d-entreprise-poursuivi-pour-travail-dissimulé-aggravé)
-
-![Droit Pénal des affaires - Avocat Julien Plouton](https://static.wixstatic.com/media/nsplsh_4135336f3164725153326b~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_147,h_98,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/nsplsh_4135336f3164725153326b~mv2_d_5472_3648_s_4_2.jpg)
-
-Droit pénal des affaires
-
-21 sept. 2022
-
-### Mandataire automobile : plaintes pour abus de confiance à Bordeaux
-
-[Lire](https://www.jplouton-avocat.fr/post/escroqueries-par-un-mandataire-automobile)
 
 [Read More](https://www.jplouton-avocat.fr/defense-penale/droit-penal-des-affaires) [Read More](tel:0556443596)
 
