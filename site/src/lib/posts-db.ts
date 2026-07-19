@@ -15,6 +15,7 @@ import {
   type PostStatus,
 } from "@/lib/post-status"
 import type { Article, ArticleIndexItem } from "@/lib/content"
+import { getCategories, resolveAuthorSlug } from "@/lib/content"
 import {
   editorJsToHtml,
   hasUsableHtml,
@@ -35,6 +36,9 @@ export interface PostRow {
   status: PostStatus
   author: string
   author_id: string | null
+  author_slug: string | null
+  reviewer_slug: string | null
+  reviewed_at: string | null
   categories: string[] | null
   tags: string[] | null
   category_ids: string[] | null
@@ -46,11 +50,12 @@ export interface PostRow {
   meta_title: string | null
   meta_description: string | null
   body_html: string | null
+  body_doc: unknown | null
   body: unknown
 }
 
 const INDEX_SELECT =
-  "slug, title, excerpt, published_at, status, categories, cover_image, minutes_to_read, url, view_count"
+  "slug, title, excerpt, published_at, status, categories, category_ids, cover_image, minutes_to_read, url, view_count"
 
 function hasSecretEnv(): boolean {
   return Boolean(
@@ -80,6 +85,10 @@ export function articleToPostRow(article: Article) {
     status,
     author: article.author || "",
     author_id: article.authorId ?? null,
+    author_slug:
+      article.authorSlug ?? resolveAuthorSlug(article) ?? null,
+    reviewer_slug: article.reviewerSlug ?? null,
+    reviewed_at: article.reviewedAt ?? null,
     categories: article.categories || [],
     tags: article.tags || [],
     category_ids: article.categoryIds || [],
@@ -91,6 +100,7 @@ export function articleToPostRow(article: Article) {
     meta_title: article.metaTitle ?? null,
     meta_description: article.metaDescription ?? null,
     body_html: article.bodyHtml ?? null,
+    body_doc: article.bodyDoc ?? null,
     body: normalizeBodyForDb(article.body),
   }
 }
@@ -135,6 +145,9 @@ export function postRowToArticle(row: PostRow): Article {
     status,
     author: row.author || "",
     authorId: row.author_id || undefined,
+    authorSlug: row.author_slug || row.author_id || undefined,
+    reviewerSlug: row.reviewer_slug || undefined,
+    reviewedAt: row.reviewed_at || undefined,
     categories: row.categories || [],
     tags: row.tags || undefined,
     categoryIds: row.category_ids || undefined,
@@ -146,6 +159,7 @@ export function postRowToArticle(row: PostRow): Article {
     metaTitle: row.meta_title || undefined,
     metaDescription: row.meta_description || undefined,
     bodyHtml,
+    bodyDoc: (row.body_doc as Article["bodyDoc"]) || undefined,
     body,
   }
 }
@@ -158,6 +172,7 @@ export function postRowToIndexItem(
     | "excerpt"
     | "published_at"
     | "categories"
+    | "category_ids"
     | "cover_image"
     | "minutes_to_read"
     | "url"
@@ -170,6 +185,7 @@ export function postRowToIndexItem(
     excerpt: row.excerpt || "",
     publishedAt: row.published_at || "",
     categories: row.categories || [],
+    categoryIds: row.category_ids || undefined,
     coverImage: row.cover_image,
     minutesToRead: row.minutes_to_read,
     url: row.url || `/post/${row.slug}`,
@@ -182,7 +198,7 @@ function sortByPublishedDesc(a: { publishedAt: string }, b: { publishedAt: strin
 }
 
 /** Article publié par slug — null si absent / brouillon / pas de Supabase.
- * scheduled avec date passée → promu en published (écriture best-effort). */
+ * La promotion scheduled → published est hors chemin de rendu (cron P1-I). */
 export async function getPublishedPost(slug: string): Promise<Article | null> {
   const client = secretClient()
   if (!client) return null
@@ -200,16 +216,6 @@ export async function getPublishedPost(slug: string): Promise<Article | null> {
   if (!data) return null
   const row = data as PostRow
   if (!isPubliclyVisible(row.status, row.published_at || undefined)) return null
-
-  if (row.status === "scheduled") {
-    const { error: upErr } = await client
-      .from("posts")
-      .update({ status: "published" })
-      .eq("slug", raw)
-    if (upErr) console.warn(`[posts-db] promote scheduled: ${upErr.message}`)
-    row.status = "published"
-  }
-
   return postRowToArticle(row)
 }
 
@@ -301,6 +307,92 @@ export async function archivePost(slug: string): Promise<boolean> {
     return false
   }
   return true
+}
+
+/** Labels → category_ids (référentiel contenu/categories.json). */
+export function resolveCategoryIdsFromLabels(labels: string[]): string[] {
+  const cats = getCategories()
+  const byLabel = new Map(cats.map((c) => [c.label, c.id]))
+  const ids: string[] = []
+  for (const label of labels) {
+    const id = byLabel.get(label)
+    if (id && !ids.includes(id)) ids.push(id)
+  }
+  return ids
+}
+
+export type PostVersionRow = {
+  id: number
+  post_slug: string
+  body_html: string | null
+  body: unknown
+  title: string | null
+  categories: string[] | null
+  meta_title: string | null
+  meta_description: string | null
+  author_email: string | null
+  created_at: string
+}
+
+/** Snapshot avant PUT admin (P0-F). Best-effort si table absente. */
+export async function insertPostVersion(opts: {
+  slug: string
+  article: Article
+  authorEmail?: string | null
+}): Promise<boolean> {
+  const client = secretClient()
+  if (!client) return false
+  const { error } = await client.from("post_versions").insert({
+    post_slug: opts.slug,
+    body_html: opts.article.bodyHtml ?? null,
+    body: opts.article.body ?? null,
+    title: opts.article.title ?? null,
+    categories: opts.article.categories ?? [],
+    meta_title: opts.article.metaTitle ?? null,
+    meta_description: opts.article.metaDescription ?? null,
+    author_email: opts.authorEmail ?? null,
+  })
+  if (error) {
+    console.warn(`[posts-db] insertPostVersion(${opts.slug}): ${error.message}`)
+    return false
+  }
+  return true
+}
+
+export async function listPostVersions(
+  slug: string,
+  limit = 20
+): Promise<PostVersionRow[] | null> {
+  const client = secretClient()
+  if (!client) return null
+  const { data, error } = await client
+    .from("post_versions")
+    .select("*")
+    .eq("post_slug", slug)
+    .order("created_at", { ascending: false })
+    .limit(limit)
+  if (error) {
+    console.warn(`[posts-db] listPostVersions(${slug}): ${error.message}`)
+    return null
+  }
+  return (data || []) as PostVersionRow[]
+}
+
+export async function getPostVersion(
+  id: number
+): Promise<PostVersionRow | null> {
+  const client = secretClient()
+  if (!client) return null
+  const { data, error } = await client
+    .from("post_versions")
+    .select("*")
+    .eq("id", id)
+    .maybeSingle()
+  if (error) {
+    console.warn(`[posts-db] getPostVersion(${id}): ${error.message}`)
+    return null
+  }
+  return data as PostVersionRow | null
 }
 
 /** Slugs publiés (generateStaticParams). */

@@ -4,6 +4,21 @@ On note ici les choix importants, pour ne pas les rejouer à chaque fois.
 
 ---
 
+## 2026-07-19 — Blog #18 P1 : auteurs + body_doc + TipTap riche
+
+**Orthographe Axelle :** **Fesneau** (équipe + LinkedIn) — id `axelle-fesneau` (plus de Fresneau).  
+**Auteurs blog :** 5 avocats uniquement (pas Simonini). Table `authors` + `posts.author_slug`. Les 6 articles signés « Cabinet Plouton » (GUID Wix) sont réattribués à **Julien Plouton**.  
+**Corps :** source cible = `posts.body_doc` (ProseMirror) ; `body_html` = cache ; Ricos → PM direct (jamais HTML). Dual-run Ricos reste tant que `body_doc` absent en DB.  
+**Cron :** `scheduled → published` via `/api/cron/publish-scheduled` (Vercel cron 06:00) — hors du rendu public.
+
+## 2026-07-19 — Blog #18 P0 : gel admin + TipTap + body_doc (cible)
+
+**Décision :** rester sur **TipTap 3** (pas de migration d’éditeur). Source de vérité cible = `posts.body_doc` (JSON ProseMirror) ; `body_html` = cache dérivé.  
+**Gel P0 :** tant que le schéma TipTap ne couvre pas Ricos (table/details/galerie…), l’API `PUT /api/posts` **refuse** les slugs riches sauf `forceRichEdit: true`.  
+**Seed :** `scripts/seed-posts.py` = insert-only par défaut (`--force` pour upsert) ; ne jamais forcer `status → published`.  
+**Versions :** table `post_versions` (migration `0007`) — snapshot avant chaque PUT + restauration admin.  
+**Pourquoi :** ~128/422 articles détruits au premier save TipTap (`preferDbBody` bascule sur HTML amputé).
+
 ## 2026-07-19 — Fidélité expertises : hiérarchie H2 / H3 / H4 du MD Wix
 
 **Décision :** les pages expertise suivent strictement la structure du Markdown Wix (`contenu/sources/live-md/expertises/{slug}.md`).

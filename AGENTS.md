@@ -7,14 +7,15 @@ Nicolas n’est pas développeur : livrer clair, noter dans `JOURNAL.md`.
 
 1. `LIRE-MOI.md`
 2. `docs/14-etat.md` ← **où on en est**
-3. `docs/PASSATION-2026-07-18.md` si reprise après un autre agent
-4. `docs/00-INDEX.md`
-5. `docs/09-architecture-site.md` ← gabarits + CMS (**obligatoire**)
-6. `docs/16-composants-ui.md` ← **composants UI canoniques**
-7. `docs/06-ne-pas-perdre.md`
-8. `docs/05-decisions.md`
-9. `docs/11-stack-technique.md` si infra / déploiement
-10. `contenu/LIRE-MOI.md` si tu touches au contenu
+3. `docs/18-blog-architecture-et-editeur.md` si chantier blog / éditeur / auteurs / SEO articles
+4. `docs/PASSATION-2026-07-18.md` si reprise après un autre agent
+5. `docs/00-INDEX.md`
+6. `docs/09-architecture-site.md` ← gabarits + CMS (**obligatoire**)
+7. `docs/16-composants-ui.md` ← **composants UI canoniques**
+8. `docs/06-ne-pas-perdre.md`
+9. `docs/05-decisions.md`
+10. `docs/11-stack-technique.md` si infra / déploiement
+11. `contenu/LIRE-MOI.md` si tu touches au contenu
 
 ## Structure (ne pas mélanger)
 

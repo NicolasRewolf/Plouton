@@ -8,6 +8,8 @@ Rien d’autre que du **contenu produit** + sources d’import. Pas de code.
 contenu/
 ├── site.json              ← NAP, téléphone, SEO cabinet
 ├── articles/              ← 422 posts JSON (produit)
+├── body-docs/             ← 422 docs ProseMirror (Ricos→PM, P1-C)
+├── auteurs.json           ← 5 avocats (pas Simonini ; Axelle = Fesneau)
 ├── articles-index.json    ← index léger (listes, ticker, sitemap)
 ├── categories.json        ← 17 catégories blog
 ├── equipe.json            ← équipe
@@ -34,7 +36,7 @@ Détail : [`sources/live-md/LIRE-MOI.md`](./sources/live-md/LIRE-MOI.md) + `docs
 
 | Zone | Rôle | Commit ? |
 |------|------|----------|
-| `articles/`, `expertises/`, `pages/`, `faq/`, `*.json` | Contenu **produit** | Oui |
+| `articles/`, `body-docs/`, `expertises/`, `pages/`, `*.json` | Contenu **produit** | Oui |
 | `sources/wix/` | Export brut pour scripts | Oui (sauf PII) |
 | `imports/*contact*` | Données perso | **Non** (gitignore) |
 

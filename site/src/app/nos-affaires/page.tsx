@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import dynamic from "next/dynamic"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
-import { authorNamesBySlug, getContentPage, getSite } from "@/lib/content"
+import { authorMetaByArticleSlug, getContentPage, getSite } from "@/lib/content"
 import {
   filterCategoryOptions,
   toGalleryItems,
@@ -35,7 +35,7 @@ export default async function NosAffairesPage() {
   const site = getSite()
 
   const articles = toGalleryItems(await affairesArticles(), {
-    authorBySlug: authorNamesBySlug(),
+    authorMetaBySlug: authorMetaByArticleSlug(),
   })
   // Filtres = catégories métier (pas les hubs Ressources / Médias)
   const categoryOptions = filterCategoryOptions(articles, HUB_EXCLUDE)

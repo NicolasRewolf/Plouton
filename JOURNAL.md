@@ -5,6 +5,63 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-20 — Briefs #17+#18 : lots validés (suite)
+
+- **P1-D** : body_doc×422 en base, vues uniques (258 357), index public = DB
+- **#17 contact** : table `content_singletons` + Footer branché
+- **#17 catégories** : lecture DB + compteurs live
+- **P1-F** : JSON-LD article `@graph` (Person / WebPage / BlogPosting / fil)
+- **P1-G/H/I** : autosave 25s, coller texte, CI metas OK, cron seul pour scheduled
+- Tests : check-body-docs · check-meta-descriptions · tsc
+
+---
+
+## 2026-07-20 — P1-D validé : body_doc en base + vues uniques
+
+- 422 `body_doc` + `body_html` injectés en Supabase ; compteur de mots rempli
+- Vues : 116 articles réconciliés (max Wix/DB) → **258 357** total ; JSON sorti du runtime
+- Index public = DB seule (plus de republication de brouillons via JSON)
+- Tests : check-body-docs OK · tsc OK
+
+---
+
+- Appliqué sur projet Plouton : versions, auteurs, `body_doc`, catégories, champs E-E-A-T
+- 5 avocats seedés + 16 catégories (sans « Défense des élus »)
+- MCP Supabase ajouté dans Cursor
+- Tests : tables OK côté base
+
+---
+
+## 2026-07-19 — Blog brief #18 : convertisseur fidèle + bascule corps
+
+- Convertisseur Ricos → ProseMirror **vérifié** (422/422) + cache HTML `contenu/body-html/`
+- Pages articles : plus de Ricos live — lecture du cache HTML (sauf édition admin)
+- Taxonomie + auteurs enrichis en migrations (`0009`, `0010`) — **à appliquer sur Supabase**
+- Vues : on garde le max (fichier Wix / base) pour ne rien perdre ; script de sync prêt
+- **Pas encore merge** — reste confort éditeur + SEO graphe + ton feu vert
+
+---
+
+## 2026-07-19 — Blog P1 : auteurs, TipTap riche, body_doc, SEO
+
+- Auteurs en base (orthographe **Axelle Fesneau**) ; 6 « Cabinet » → Julien ; pages `/auteur/…`
+- Éditeur TipTap : tableaux, accordéons, H4, exposant, alt image obligatoire
+- Convertisseur Ricos → ProseMirror (422 `contenu/body-docs/`) + colonne `body_doc`
+- Cron publication programmée ; metas régénérées (265) ; JSON-LD `@graph`
+- Tests : build site
+
+---
+
+## 2026-07-19 — Blog P0 : gel anti-destruction + filet versions
+
+- Articles « riches » (tableaux, accordéons…) : sauvegarde admin **refusée** sauf case à cocher consciente
+- Seed articles : n’écrase plus par défaut ; plus de forçage « publié »
+- Métas tronquées masquées ; multi-catégories ; image/auteur SEO corrigés ; menu sans faux H2
+- Versions : snapshot avant chaque enregistrement + bouton Restaurer (migration `0007`)
+- Tests : `npm run build` (site)
+
+---
+
 ## 2026-07-19 — FAQ dans Supabase + admin
 
 - Une seule FAQ en base (plus de fichiers JSON lus par le site)

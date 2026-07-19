@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { AffaireCard } from "@/components/AffaireCard"
-import { getCategories, type ArticleIndexItem } from "@/lib/content"
+import { resolveCategories } from "@/lib/categories-db"
+import type { ArticleIndexItem } from "@/lib/content"
 import { categoryPublicHref } from "@/lib/gallery-filters"
 
 const PER_PAGE = 24
@@ -20,7 +21,7 @@ export function blogTotalPages(count: number) {
 }
 
 /** Listing blog (legacy / redirects) — liens vers les 3 hubs publics. */
-export function BlogListing({
+export async function BlogListing({
   articles,
   page,
   basePath,
@@ -31,7 +32,7 @@ export function BlogListing({
   basePath: string
   activeCategorySlug?: string
 }) {
-  const categories = getCategories()
+  const categories = await resolveCategories()
   const { items, current, totalPages } = paginate(articles, page)
   const pageHref = (n: number) => (n === 1 ? basePath : `${basePath}/page/${n}`)
 

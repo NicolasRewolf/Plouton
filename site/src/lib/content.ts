@@ -54,6 +54,11 @@ export interface Article {
   status: "draft" | "published" | "archived" | "scheduled"
   author: string
   authorId?: string
+  /** Slug authors.id — URL /auteur/{authorSlug} (P1-A) */
+  authorSlug?: string
+  /** Relecteur E-E-A-T */
+  reviewerSlug?: string
+  reviewedAt?: string
   categories: string[]
   tags?: string[]
   categoryIds?: string[]
@@ -67,6 +72,8 @@ export interface Article {
   metaDescription?: string
   /** HTML structuré (titres, listes, liens) depuis Rich Content Wix */
   bodyHtml?: string
+  /** Document ProseMirror TipTap (source de vérité P1-D) */
+  bodyDoc?: Record<string, unknown> | null
   /**
    * Corps article :
    * - `string[]` = seed / ancien admin (paragraphes)
@@ -81,6 +88,7 @@ export interface ArticleIndexItem {
   excerpt: string
   publishedAt: string
   categories: string[]
+  categoryIds?: string[]
   coverImage?: string | null
   minutesToRead?: number | null
   url?: string
@@ -164,8 +172,20 @@ export interface Author {
   wixId?: string
   displayName: string
   shortName: string
+  /** Nom long Wix / JSON-LD alternateName */
+  legalName?: string
   avatar: string
   bio: string
+  /** Rôle cabinet (fusion équipe) — P1-A */
+  role?: string
+  /** Person.jobTitle */
+  jobTitle?: string
+  formation?: string
+  barAdmission?: string
+  knowsAbout?: string[]
+  /** false = hors signatures blog */
+  isAuthor?: boolean
+  linkedin?: string | null
 }
 
 export interface ExpertisePage {
@@ -320,8 +340,8 @@ export const getArticle = cache(function getArticle(slug: string): Article | nul
   return readJson<Article>(path.join("articles", hit))
 })
 
-/** Arbre Ricos exact du live (contenu/ricos/, harvest Phase 2) — source de
- * vérité du corps d'article ; bodyHtml (import CSV, lossy) reste le fallback. */
+/** Arbre Ricos — archive git uniquement (gel admin P0-A).
+ * Runtime public : `body_doc` / `body-html/` (brief #18 P1-D). */
 export const getRicos = cache(function getRicos(
   slug: string
 ): { slug: string; ricos: { nodes: unknown[] } } | null {
@@ -338,6 +358,49 @@ export const getRicos = cache(function getRicos(
     .readdirSync(dir)
     .find((f) => f.endsWith(".json") && f.slice(0, -5).normalize("NFC") === target)
   return hit ? readJson(path.join("ricos", hit)) : null
+})
+
+/** Document ProseMirror (contenu/body-docs/) — source de vérité corps. */
+export const getBodyDoc = cache(function getBodyDoc(
+  slug: string
+): Record<string, unknown> | null {
+  const raw = decodeURIComponent(slug).normalize("NFC")
+  const candidates = [raw, slug.normalize("NFC"), slug]
+  for (const s of candidates) {
+    const rel = path.join("body-docs", `${s}.json`)
+    if (fs.existsSync(path.join(root, rel)))
+      return readJson<Record<string, unknown>>(rel)
+  }
+  const dir = path.join(root, "body-docs")
+  if (!fs.existsSync(dir)) return null
+  const target = raw.normalize("NFC")
+  const hit = fs
+    .readdirSync(dir)
+    .find((f) => f.endsWith(".json") && f.slice(0, -5).normalize("NFC") === target)
+  return hit
+    ? readJson<Record<string, unknown>>(path.join("body-docs", hit))
+    : null
+})
+
+/** Cache HTML dérivé de body_doc (contenu/body-html/). */
+export const getBodyHtmlCache = cache(function getBodyHtmlCache(
+  slug: string
+): string | null {
+  const raw = decodeURIComponent(slug).normalize("NFC")
+  const candidates = [raw, slug.normalize("NFC"), slug]
+  for (const s of candidates) {
+    const full = path.join(root, "body-html", `${s}.html`)
+    if (fs.existsSync(full)) return fs.readFileSync(full, "utf8")
+  }
+  const dir = path.join(root, "body-html")
+  if (!fs.existsSync(dir)) return null
+  const target = raw.normalize("NFC")
+  const hit = fs
+    .readdirSync(dir)
+    .find((f) => f.endsWith(".html") && f.slice(0, -5).normalize("NFC") === target)
+  return hit
+    ? fs.readFileSync(path.join(dir, hit), "utf8")
+    : null
 })
 
 export function saveArticle(article: Article) {
@@ -414,33 +477,70 @@ export function listAuthors(): Author[] {
 export function getAuthor(article: Article): Author | null {
   const authors = listAuthors()
   return (
-    authors.find((a) => a.wixId === article.author) ??
+    authors.find((a) => a.id === article.authorSlug) ??
     authors.find((a) => a.id === article.authorId) ??
+    authors.find((a) => a.wixId === article.author) ??
     authors.find((a) => a.displayName === article.author) ??
+    authors.find((a) => a.shortName === article.author) ??
     null
   )
 }
 
-/** slug → shortName (GUID Wix des articles JSON). */
-export const authorNamesBySlug = cache(function authorNamesBySlug(): Record<string, string> {
+/** Résout authors.id depuis author / authorId (seed + admin). */
+export function resolveAuthorSlug(article: Pick<Article, "author" | "authorId" | "authorSlug">): string | null {
+  if (article.authorSlug) return article.authorSlug
   const authors = listAuthors()
+  const hit =
+    authors.find((a) => a.id === article.authorId) ??
+    authors.find((a) => a.wixId === article.author) ??
+    authors.find((a) => a.shortName === article.author) ??
+    authors.find((a) => a.displayName === article.author)
+  return hit?.id ?? null
+}
+
+/** slug article → { name, id } pour AffaireCard / maillage auteur. */
+export const authorMetaByArticleSlug = cache(function authorMetaByArticleSlug(): Record<
+  string,
+  { name: string; id: string }
+> {
+  const authors = listAuthors().filter((a) => a.isAuthor !== false)
   const byWix = new Map(
-    authors.filter((a) => a.wixId).map((a) => [a.wixId as string, a.shortName] as const)
+    authors
+      .filter((a) => a.wixId)
+      .map((a) => [a.wixId as string, a] as const)
   )
-  const map: Record<string, string> = {}
+  const byId = new Map(authors.map((a) => [a.id, a] as const))
+  const map: Record<string, { name: string; id: string }> = {}
   const dir = path.join(root, "articles")
   if (!fs.existsSync(dir)) return map
   for (const file of fs.readdirSync(dir)) {
     if (!file.endsWith(".json")) continue
     try {
-      const raw = readJson<{ slug?: string; author?: string }>(path.join("articles", file))
-      if (!raw.slug || !raw.author) continue
-      const name = byWix.get(raw.author)
-      if (name) map[raw.slug] = name
+      const raw = readJson<{
+        slug?: string
+        author?: string
+        authorId?: string
+        authorSlug?: string
+      }>(path.join("articles", file))
+      if (!raw.slug) continue
+      const hit =
+        (raw.authorSlug && byId.get(raw.authorSlug)) ||
+        (raw.authorId && byId.get(raw.authorId)) ||
+        (raw.author && byWix.get(raw.author)) ||
+        (raw.author && byId.get(raw.author))
+      if (hit) map[raw.slug] = { name: hit.shortName, id: hit.id }
     } catch {
       /* ignore */
     }
   }
+  return map
+})
+
+/** @deprecated Preférer authorMetaByArticleSlug */
+export const authorNamesBySlug = cache(function authorNamesBySlug(): Record<string, string> {
+  const meta = authorMetaByArticleSlug()
+  const map: Record<string, string> = {}
+  for (const [slug, m] of Object.entries(meta)) map[slug] = m.name
   return map
 })
 

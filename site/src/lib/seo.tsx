@@ -118,9 +118,10 @@ export function organizationSchema(site: {
       : {}),
     founder: {
       "@type": "Person",
-      "@id": site.founderId,
+      "@id": absoluteUrl("/auteur/julien-plouton#person"),
       name: "Julien Plouton",
-      jobTitle: "Avocat à la Cour",
+      jobTitle: "Avocat au barreau de Bordeaux",
+      url: absoluteUrl("/auteur/julien-plouton"),
     },
     // SEO local : zone desservie explicite (repris du live Wix, qui exposait
     // City + AdministrativeArea — signal perdu lors de la migration).
@@ -132,11 +133,5 @@ export function organizationSchema(site: {
       { "@type": "Country", name: "France" },
     ],
     priceRange: "€€",
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: site.rating.value,
-      reviewCount: site.rating.count,
-      bestRating: "5",
-    },
   }
 }

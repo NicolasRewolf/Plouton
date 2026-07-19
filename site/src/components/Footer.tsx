@@ -2,6 +2,7 @@ import Link from "next/link"
 import type { ReactNode } from "react"
 import { SiteCta } from "@/components/SiteCta"
 import { getSite } from "@/lib/content"
+import { resolveContact } from "@/lib/contact-db"
 import { megaPolesFromRegistry } from "@/lib/registry"
 import type { NavLink } from "@/lib/nav-types"
 
@@ -143,8 +144,9 @@ function FooterCol({
   )
 }
 
-export function Footer() {
+export async function Footer() {
   const site = getSite()
+  const contact = await resolveContact()
   const poles = megaPolesFromRegistry()
   const defense = poles.find((p) => p.id === "defense")
   const victimes = poles.find((p) => p.id === "victimes") ?? poles[1]
@@ -162,17 +164,18 @@ export function Footer() {
           {/* Fiche Google du cabinet (lien précis par CID) plutôt qu'une
               recherche Maps sur l'adresse — fidélité au live Wix + SEO local. */}
           <a
-            href={site.googleReviewsUrl}
+            href={contact.googleReviewsUrl}
             target="_blank"
             rel="noopener"
             className="text-accent"
           >
-            {site.address.street}, {site.address.postalCode} {site.address.city}
+            {contact.address.street}, {contact.address.postalCode}{" "}
+            {contact.address.city}
           </a>
         </p>
         <div className="mt-[25px] flex flex-wrap items-center gap-3 md:mt-12">
-          <SiteCta href={site.phone.href} variant="primary">
-            {site.phone.display}
+          <SiteCta href={contact.phone.href} variant="primary">
+            {contact.phone.display}
           </SiteCta>
           <SiteCta href="/honoraires-rendez-vous" variant="secondary" arrow>
             Contact &amp; RDV

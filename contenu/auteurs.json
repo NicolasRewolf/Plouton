@@ -3,48 +3,97 @@
     "id": "julien-plouton",
     "wixId": "07454f1f-c54a-4308-b897-19be554db88a",
     "displayName": "Julien Plouton - Avocat à la Cour",
+    "legalName": "Julien Plouton - Avocat à la Cour",
     "shortName": "Julien Plouton",
+    "jobTitle": "Avocat au barreau de Bordeaux",
     "avatar": "/brand/avatars/julien-plouton.jpg",
-    "bio": "Maître Julien Plouton — avocat au Barreau de Bordeaux, a prêté serment en 2004 après une formation à l'École de Formation du Barreau de Paris (EFB). Diplômé d'un DESS en droit des affaires et fiscalité, d'un DEA en droit européen et d'un master spécialisé HEC en droit et management international, il a fondé le Cabinet Plouton en 2009."
+    "bio": "Maître Julien Plouton — avocat au Barreau de Bordeaux, a prêté serment en 2004 après une formation à l'École de Formation du Barreau de Paris (EFB). Diplômé d'un DESS en droit des affaires et fiscalité, d'un DEA en droit européen et d'un master spécialisé HEC en droit et management international, il a fondé le Cabinet Plouton en 2009.",
+    "role": "Avocat Fondateur",
+    "barAdmission": "Barreau de Bordeaux, serment 2004",
+    "knowsAbout": [
+      "Droit pénal",
+      "Droit criminel",
+      "Indemnisation des victimes",
+      "Droit pénal des affaires"
+    ],
+    "isAuthor": true,
+    "linkedin": "https://www.linkedin.com/in/julien-plouton-12255b37/?originalSubdomain=fr"
   },
   {
     "id": "mathilde-manson",
     "wixId": "e7ef05f0-d3ab-4133-b386-5d1f783edc44",
     "displayName": "Mathilde Manson - Avocat à la Cour",
+    "legalName": "Mathilde Manson - Avocat à la Cour",
     "shortName": "Mathilde Manson",
+    "jobTitle": "Avocate au barreau de Bordeaux",
     "avatar": "/brand/avatars/mathilde-manson.jpg",
-    "bio": ""
-  },
-  {
-    "id": "jade-adil",
-    "wixId": "8a867897-4e1a-4714-8cc1-9282b3753d5a",
-    "displayName": "Jade Adil - Avocat à la cour",
-    "shortName": "Jade Adil",
-    "avatar": "/brand/avatars/jade-adil.jpg",
-    "bio": ""
-  },
-  {
-    "id": "cabinet-plouton",
-    "wixId": "21b78550-528e-4ad5-9a3d-88d8d4461040",
-    "displayName": "Cabinet Plouton",
-    "shortName": "Cabinet Plouton",
-    "avatar": "",
-    "bio": ""
+    "bio": "Maître Mathilde Manson a prêté serment en 2019. Elle intervient principalement en droit pénal des victimes, indemnisation et réparation des préjudices corporels et en droit des contrats.",
+    "role": "Avocate associée",
+    "barAdmission": "Barreau de Bordeaux, serment 2019",
+    "knowsAbout": [
+      "Indemnisation des victimes",
+      "Préjudice corporel",
+      "Droit des contrats"
+    ],
+    "isAuthor": true,
+    "linkedin": "https://www.linkedin.com/in/mathilde-manson-00a497a6/"
   },
   {
     "id": "andeol-brachanet",
     "wixId": "b6bed89f-af2d-4c3d-b6d9-bf3ff464bef5",
     "displayName": "Andéol Brachanet - Avocat à la Cour",
+    "legalName": "Andéol Brachanet - Avocat à la Cour",
     "shortName": "Andéol Brachanet",
+    "jobTitle": "Avocat au barreau de Bordeaux",
     "avatar": "/brand/avatars/andeol-brachanet.jpg",
-    "bio": ""
+    "bio": "Maître Andéol Brachanet a prêté serment en 2019. Il intervient principalement en droit pénal, droit pénal des affaires, droit du travail et droit des personnes.",
+    "role": "Avocat collaborateur",
+    "barAdmission": "Barreau de Bordeaux, serment 2019",
+    "knowsAbout": [
+      "Droit pénal",
+      "Droit pénal des affaires",
+      "Droit du travail",
+      "Droit des personnes"
+    ],
+    "isAuthor": true,
+    "linkedin": "https://barreau-bordeaux.avocat.fr/annuaire/maitre-andeol-brachanet-243.htm"
   },
   {
-    "id": "axelle-fresneau",
+    "id": "jade-adil",
+    "wixId": "8a867897-4e1a-4714-8cc1-9282b3753d5a",
+    "displayName": "Jade Adil - Avocat à la cour",
+    "legalName": "Jade Adil - Avocat à la cour",
+    "shortName": "Jade Adil",
+    "jobTitle": "Avocate au barreau de Bordeaux",
+    "avatar": "/brand/avatars/jade-adil.jpg",
+    "bio": "Maître Jade Adil a prêté serment en 2025. Elle intervient principalement en droit pénal général, droit de la famille et droit des personnes.",
+    "role": "Avocate collaboratrice",
+    "barAdmission": "Barreau de Bordeaux, serment 2025",
+    "knowsAbout": [
+      "Droit pénal",
+      "Droit de la famille",
+      "Droit des personnes"
+    ],
+    "isAuthor": true,
+    "linkedin": "https://www.linkedin.com/in/jade-adil-521744193/?originalSubdomain=fr"
+  },
+  {
+    "id": "axelle-fesneau",
     "wixId": "ec99027d-7c91-42ba-a067-a12c14e1daf3",
-    "displayName": "Axelle Fresneau - Avocat à la cour",
-    "shortName": "Axelle Fresneau",
+    "displayName": "Axelle Fesneau - Avocat à la cour",
+    "legalName": "Axelle Fesneau - Avocat à la cour",
+    "shortName": "Axelle Fesneau",
+    "jobTitle": "Avocate au barreau de Bordeaux",
     "avatar": "/brand/avatars/axelle-fresneau.jpg",
-    "bio": ""
+    "bio": "Maître Axelle Fesneau a prêté serment en novembre 2025. Elle intervient principalement en droit des contrats et de la consommation et en droit pénal.",
+    "role": "Avocate collaboratrice",
+    "barAdmission": "Barreau de Bordeaux, serment 2025",
+    "knowsAbout": [
+      "Droit des contrats",
+      "Droit de la consommation",
+      "Droit pénal"
+    ],
+    "isAuthor": true,
+    "linkedin": "https://www.linkedin.com/in/axelle-fesneau-08201a1b2/"
   }
 ]

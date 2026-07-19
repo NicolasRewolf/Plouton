@@ -27,17 +27,24 @@ export function categoryPublicHref(label: string): string {
 
 export function toGalleryItems(
   articles: ArticleIndexItem[],
-  extras?: { authorBySlug?: Record<string, string> }
+  extras?: {
+    authorBySlug?: Record<string, string>
+    authorMetaBySlug?: Record<string, { name: string; id: string }>
+  }
 ) {
-  return articles.map((a) => ({
-    slug: a.slug,
-    title: a.title,
-    excerpt: a.excerpt,
-    publishedAt: a.publishedAt,
-    categories: a.categories,
-    coverImage: a.coverImage,
-    minutesToRead: a.minutesToRead,
-    viewCount: a.viewCount ?? 0,
-    authorName: extras?.authorBySlug?.[a.slug],
-  }))
+  return articles.map((a) => {
+    const meta = extras?.authorMetaBySlug?.[a.slug]
+    return {
+      slug: a.slug,
+      title: a.title,
+      excerpt: a.excerpt,
+      publishedAt: a.publishedAt,
+      categories: a.categories,
+      coverImage: a.coverImage,
+      minutesToRead: a.minutesToRead,
+      viewCount: a.viewCount ?? 0,
+      authorName: meta?.name ?? extras?.authorBySlug?.[a.slug],
+      authorSlug: meta?.id,
+    }
+  })
 }

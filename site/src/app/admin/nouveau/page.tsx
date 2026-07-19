@@ -15,9 +15,12 @@ export default function NewPostPage() {
   const [saving, setSaving] = useState(false)
   const [bodyHtml, setBodyHtml] = useState("<p></p>")
   const [coverImage, setCoverImage] = useState("")
-  const [categoryLabel, setCategoryLabel] = useState(
-    "Ressources et notions juridiques"
-  )
+  const [categoryLabels, setCategoryLabels] = useState<string[]>([
+    "Ressources et notions juridiques",
+  ])
+  const [authorSlug, setAuthorSlug] = useState("julien-plouton")
+  const [authorLabel, setAuthorLabel] = useState("Julien Plouton")
+  const [bodyDoc, setBodyDoc] = useState<Record<string, unknown> | null>(null)
   const [publishedAt, setPublishedAt] = useState(todayIsoDate())
   const [metaTitle, setMetaTitle] = useState("")
   const [metaDescription, setMetaDescription] = useState("")
@@ -45,13 +48,16 @@ export default function NewPostPage() {
         slug,
         excerpt: fd.get("excerpt"),
         status,
-        author: fd.get("author"),
+        author: authorLabel,
+        authorId: authorSlug,
+        authorSlug,
         publishedAt,
         metaTitle: metaTitle || undefined,
         metaDescription: metaDescription || undefined,
         coverImage: coverImage || null,
-        categories: categoryLabel ? [categoryLabel] : undefined,
+        categories: categoryLabels.length ? categoryLabels : undefined,
         bodyHtml,
+        bodyDoc: bodyDoc || undefined,
         body: htmlToParagraphs(bodyHtml),
       }),
     })
@@ -100,7 +106,13 @@ export default function NewPostPage() {
               placeholder="Titre de l’article"
             />
           </label>
-          <AdminEditorLazy initialHtml={bodyHtml} onChange={setBodyHtml} />
+          <AdminEditorLazy
+            initialHtml={bodyHtml}
+            onChange={(html, json) => {
+              setBodyHtml(html)
+              if (json) setBodyDoc(json)
+            }}
+          />
         </div>
 
         <aside className="space-y-4 lg:sticky lg:top-6 lg:self-start">
@@ -141,19 +153,24 @@ export default function NewPostPage() {
           </div>
 
           <AdminPostMeta
-            author="Cabinet Plouton"
+            author={authorLabel}
+            authorSlug={authorSlug}
             excerpt=""
             publishedAt={publishedAt}
             metaTitle={metaTitle}
             metaDescription={metaDescription}
             coverImage={coverImage}
-            categoryLabel={categoryLabel}
+            categoryLabels={categoryLabels}
             showSlug
             onCoverChange={setCoverImage}
-            onCategoryChange={setCategoryLabel}
+            onCategoriesChange={setCategoryLabels}
             onPublishedAtChange={setPublishedAt}
             onMetaTitleChange={setMetaTitle}
             onMetaDescriptionChange={setMetaDescription}
+            onAuthorChange={({ author, authorId, authorSlug: s }) => {
+              setAuthorLabel(author)
+              setAuthorSlug(s || authorId)
+            }}
           />
         </aside>
       </form>

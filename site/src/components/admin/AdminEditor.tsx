@@ -1,25 +1,19 @@
 "use client"
 
 import { useEffect, type ReactNode } from "react"
-import { EditorContent, useEditor } from "@tiptap/react"
-import StarterKit from "@tiptap/starter-kit"
-import Link from "@tiptap/extension-link"
-import Image from "@tiptap/extension-image"
-import Youtube from "@tiptap/extension-youtube"
+import { EditorContent, useEditor, type Editor } from "@tiptap/react"
 import Placeholder from "@tiptap/extension-placeholder"
-import Underline from "@tiptap/extension-underline"
-import TextAlign from "@tiptap/extension-text-align"
+import { buildEditorExtensions } from "@/lib/tiptap/extensions"
 
 interface AdminEditorProps {
   /** HTML TipTap */
   initialHtml: string
-  onChange: (html: string) => void
+  onChange: (html: string, json?: Record<string, unknown>) => void
   placeholder?: string
 }
 
 /**
- * Éditeur TipTap — barre de formatage sticky (style Wix).
- * Image (URL / upload) + embed YouTube.
+ * Éditeur TipTap enrichi (P1-B) — table, details, H4, superscript, image+alt.
  */
 export function AdminEditor({
   initialHtml,
@@ -29,33 +23,27 @@ export function AdminEditor({
   const editor = useEditor({
     immediatelyRender: false,
     extensions: [
-      StarterKit.configure({
-        heading: { levels: [2, 3] },
-      }),
-      Underline,
-      TextAlign.configure({ types: ["heading", "paragraph"] }),
-      Link.configure({
-        openOnClick: false,
-        HTMLAttributes: { class: "admin-editor-link" },
-      }),
-      Image.configure({
-        HTMLAttributes: { class: "admin-editor-image" },
-        allowBase64: false,
-      }),
-      Youtube.configure({
-        modestBranding: true,
-        HTMLAttributes: { class: "admin-editor-youtube" },
-      }),
+      ...buildEditorExtensions(),
       Placeholder.configure({ placeholder }),
     ],
     content: initialHtml || "<p></p>",
     editorProps: {
       attributes: {
-        class: "admin-tiptap-content prose-plouton focus:outline-none min-h-[360px] px-4 py-5 sm:px-6",
+        class:
+          "admin-tiptap-content prose-plouton focus:outline-none min-h-[360px] px-4 py-5 sm:px-6",
+      },
+      handlePaste: (_view, event) => {
+        // DIY léger : laisse TipTap parser ; Word → après schéma (P1-G paste Start)
+        const html = event.clipboardData?.getData("text/html")
+        if (html && /mso-|WordDocument|urn:schemas-microsoft/.test(html)) {
+          // TipTap parse HTML ; on n’empêche pas — schéma table/details absorbe mieux
+          return false
+        }
+        return false
       },
     },
     onUpdate: ({ editor: ed }) => {
-      onChange(ed.getHTML())
+      onChange(ed.getHTML(), ed.getJSON() as Record<string, unknown>)
     },
   })
 
@@ -65,6 +53,18 @@ export function AdminEditor({
     if (initialHtml && initialHtml !== current && !editor.isFocused)
       editor.commands.setContent(initialHtml, { emitUpdate: false })
   }, [editor, initialHtml])
+
+  useEffect(() => {
+    if (!editor) return
+    const onBeforeUnload = (e: BeforeUnloadEvent) => {
+      if (!editor.isEmpty) {
+        e.preventDefault()
+        e.returnValue = ""
+      }
+    }
+    window.addEventListener("beforeunload", onBeforeUnload)
+    return () => window.removeEventListener("beforeunload", onBeforeUnload)
+  }, [editor])
 
   if (!editor) {
     return (
@@ -101,6 +101,13 @@ export function AdminEditor({
           >
             <span className="underline">U</span>
           </ToolBtn>
+          <ToolBtn
+            label="Exposant"
+            active={editor.isActive("superscript")}
+            onClick={() => editor.chain().focus().toggleSuperscript().run()}
+          >
+            x²
+          </ToolBtn>
           <Sep />
           <ToolBtn
             label="Liste à puces"
@@ -122,6 +129,25 @@ export function AdminEditor({
             onClick={() => editor.chain().focus().toggleBlockquote().run()}
           >
             ”
+          </ToolBtn>
+          <ToolBtn
+            label="Accordéon"
+            active={editor.isActive("details")}
+            onClick={() => editor.chain().focus().setDetails().run()}
+          >
+            ▾
+          </ToolBtn>
+          <ToolBtn
+            label="Tableau"
+            onClick={() =>
+              editor
+                .chain()
+                .focus()
+                .insertTable({ rows: 3, cols: 3, withHeaderRow: true })
+                .run()
+            }
+          >
+            ⊞
           </ToolBtn>
           <ToolBtn
             label="Séparateur"
@@ -150,6 +176,22 @@ export function AdminEditor({
             }}
           >
             Lien
+          </ToolBtn>
+          <ToolBtn
+            label="Coller sans mise en forme"
+            onClick={async () => {
+              try {
+                const text = await navigator.clipboard.readText()
+                if (!text.trim()) return
+                editor.commands.insertContent(text.replace(/\n+/g, "</p><p>"))
+              } catch {
+                window.alert(
+                  "Impossible de lire le presse-papiers. Utilisez Cmd+Shift+V."
+                )
+              }
+            }}
+          >
+            Txt
           </ToolBtn>
           <ToolBtn
             label="Image"
@@ -194,23 +236,23 @@ export function AdminEditor({
   )
 }
 
-async function insertImage(
-  editor: NonNullable<ReturnType<typeof useEditor>>
-) {
+async function insertImage(editor: Editor) {
   const choice = window.prompt(
     "Image : collez une URL, ou laissez vide pour choisir un fichier",
     "https://"
   )
   if (choice === null) return
+  let src = ""
   if (choice.trim() && choice.trim() !== "https://") {
-    editor.chain().focus().setImage({ src: choice.trim() }).run()
-    return
-  }
-  const input = document.createElement("input")
-  input.type = "file"
-  input.accept = "image/jpeg,image/png,image/webp,image/gif"
-  input.onchange = async () => {
-    const file = input.files?.[0]
+    src = choice.trim()
+  } else {
+    const input = document.createElement("input")
+    input.type = "file"
+    input.accept = "image/jpeg,image/png,image/webp,image/gif"
+    const file = await new Promise<File | null>((resolve) => {
+      input.onchange = () => resolve(input.files?.[0] || null)
+      input.click()
+    })
     if (!file) return
     const fd = new FormData()
     fd.append("file", file)
@@ -222,74 +264,77 @@ async function insertImage(
         window.alert(data.error || "Upload impossible")
         return
       }
-      editor.chain().focus().setImage({ src: data.url }).run()
+      src = data.url
     } catch {
       window.alert("Upload impossible")
+      return
     }
   }
-  input.click()
+  const alt = window.prompt("Texte alternatif (obligatoire pour l’accessibilité)", "") || ""
+  if (!alt.trim()) {
+    window.alert("L’alt image est obligatoire.")
+    return
+  }
+  editor.chain().focus().setImage({ src, alt: alt.trim() }).run()
 }
 
-function SelectBlock({
-  editor,
-}: {
-  editor: NonNullable<ReturnType<typeof useEditor>>
-}) {
+function SelectBlock({ editor }: { editor: Editor }) {
   const value = editor.isActive("heading", { level: 2 })
     ? "h2"
     : editor.isActive("heading", { level: 3 })
       ? "h3"
-      : "p"
-
+      : editor.isActive("heading", { level: 4 })
+        ? "h4"
+        : "p"
   return (
     <select
-      aria-label="Style de paragraphe"
-      className="mr-1 h-8 rounded-lg border-0 bg-fog/80 px-2 text-[12px] font-medium text-navy outline-none hover:bg-fog"
+      className="admin-editor-select"
       value={value}
       onChange={(e) => {
         const v = e.target.value
-        const chain = editor.chain().focus()
-        if (v === "h2") chain.toggleHeading({ level: 2 }).run()
-        else if (v === "h3") chain.toggleHeading({ level: 3 }).run()
-        else chain.setParagraph().run()
+        if (v === "p") editor.chain().focus().setParagraph().run()
+        else if (v === "h2")
+          editor.chain().focus().toggleHeading({ level: 2 }).run()
+        else if (v === "h3")
+          editor.chain().focus().toggleHeading({ level: 3 }).run()
+        else if (v === "h4")
+          editor.chain().focus().toggleHeading({ level: 4 }).run()
       }}
+      aria-label="Style de paragraphe"
     >
       <option value="p">Paragraphe</option>
-      <option value="h2">Titre</option>
-      <option value="h3">Sous-titre</option>
+      <option value="h2">Titre 2</option>
+      <option value="h3">Titre 3</option>
+      <option value="h4">Titre 4</option>
     </select>
   )
 }
 
+function Sep() {
+  return <span className="mx-1 h-5 w-px bg-[rgba(23,71,94,0.12)]" aria-hidden />
+}
+
 function ToolBtn({
-  children,
   label,
   active,
   onClick,
+  children,
 }: {
-  children: ReactNode
   label: string
   active?: boolean
   onClick: () => void
+  children: ReactNode
 }) {
   return (
     <button
       type="button"
       title={label}
       aria-label={label}
-      aria-pressed={active || false}
+      aria-pressed={active}
       onClick={onClick}
-      className={
-        active
-          ? "inline-flex h-8 min-w-8 items-center justify-center rounded-lg bg-navy px-2 text-[13px] font-medium text-white"
-          : "inline-flex h-8 min-w-8 items-center justify-center rounded-lg px-2 text-[13px] font-medium text-navy/80 hover:bg-fog"
-      }
+      className={`admin-editor-btn ${active ? "is-active" : ""}`}
     >
       {children}
     </button>
   )
-}
-
-function Sep() {
-  return <span aria-hidden className="mx-1 h-5 w-px bg-[rgba(23,71,94,0.12)]" />
 }

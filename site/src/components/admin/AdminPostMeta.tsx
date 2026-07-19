@@ -10,44 +10,65 @@ interface CategoryOpt {
   slug: string
 }
 
+interface AuthorOpt {
+  id: string
+  shortName: string
+  displayName: string
+}
+
 interface AdminPostMetaProps {
   author: string
+  authorSlug?: string
+  reviewerSlug?: string
   excerpt: string
   publishedAt: string
   metaTitle: string
   metaDescription: string
   coverImage: string
-  categoryLabel: string
+  /** Multi-catégories (labels) — P0-D */
+  categoryLabels: string[]
   showSlug?: boolean
   slugDefault?: string
   onCoverChange: (url: string) => void
-  onCategoryChange: (label: string) => void
+  onCategoriesChange: (labels: string[]) => void
   onPublishedAtChange: (iso: string) => void
   onMetaTitleChange: (v: string) => void
   onMetaDescriptionChange: (v: string) => void
+  onAuthorChange?: (opts: {
+    author: string
+    authorId: string
+    authorSlug: string
+  }) => void
+  onReviewerChange?: (slug: string) => void
 }
 
 /**
- * Panneau métadonnées admin (SEO, date, cover, catégorie).
- * Champs name=* restent dans le formulaire parent pour author/excerpt/slug.
+ * Panneau métadonnées admin (SEO, date, cover, catégories multi, auteur).
  */
 export function AdminPostMeta({
   author,
+  authorSlug,
+  reviewerSlug = "",
   excerpt,
   publishedAt,
   metaTitle,
   metaDescription,
   coverImage,
-  categoryLabel,
+  categoryLabels,
   showSlug,
   slugDefault,
   onCoverChange,
-  onCategoryChange,
+  onCategoriesChange,
   onPublishedAtChange,
   onMetaTitleChange,
   onMetaDescriptionChange,
+  onAuthorChange,
+  onReviewerChange,
 }: AdminPostMetaProps) {
   const [categories, setCategories] = useState<CategoryOpt[]>([])
+  const [authors, setAuthors] = useState<AuthorOpt[]>([])
+  const [selectedAuthor, setSelectedAuthor] = useState(authorSlug || "")
+  const [selectedReviewer, setSelectedReviewer] = useState(reviewerSlug || "")
 
   useEffect(() => {
     fetch("/api/categories")
@@ -56,7 +77,41 @@ export function AdminPostMeta({
         if (Array.isArray(data)) setCategories(data)
       })
       .catch(() => {})
+    fetch("/api/authors")
+      .then((r) => r.json())
+      .then((data: AuthorOpt[]) => {
+        if (Array.isArray(data)) setAuthors(data)
+      })
+      .catch(() => {})
   }, [])
+
+  useEffect(() => {
+    setSelectedAuthor(authorSlug || "")
+  }, [authorSlug])
+
+  useEffect(() => {
+    setSelectedReviewer(reviewerSlug || "")
+  }, [reviewerSlug])
+
+  function toggleCategory(label: string) {
+    if (categoryLabels.includes(label)) {
+      onCategoriesChange(categoryLabels.filter((l) => l !== label))
+    } else {
+      onCategoriesChange([...categoryLabels, label])
+    }
+  }
+
+  function onAuthorSelect(id: string) {
+    setSelectedAuthor(id)
+    const a = authors.find((x) => x.id === id)
+    if (a && onAuthorChange) {
+      onAuthorChange({
+        author: a.shortName,
+        authorId: a.id,
+        authorSlug: a.id,
+      })
+    }
+  }
 
   return (
     <div className="space-y-4">
@@ -77,11 +132,40 @@ export function AdminPostMeta({
         ) : null}
         <label className="mt-3 grid gap-1 text-[13px] text-navy">
           Auteur
-          <input
-            name="author"
-            defaultValue={author}
+          <select
+            name="authorSlug"
+            value={selectedAuthor}
+            onChange={(e) => onAuthorSelect(e.target.value)}
             className="admin-input"
-          />
+          >
+            <option value="">— choisir —</option>
+            {authors.map((a) => (
+              <option key={a.id} value={a.id}>
+                {a.shortName}
+              </option>
+            ))}
+          </select>
+          {/* Compat formulaires qui lisent encore name=author */}
+          <input type="hidden" name="author" value={author} />
+        </label>
+        <label className="mt-3 grid gap-1 text-[13px] text-navy">
+          Relu par (optionnel)
+          <select
+            name="reviewerSlug"
+            value={selectedReviewer}
+            onChange={(e) => {
+              setSelectedReviewer(e.target.value)
+              onReviewerChange?.(e.target.value)
+            }}
+            className="admin-input"
+          >
+            <option value="">— aucun —</option>
+            {authors.map((a) => (
+              <option key={`rev-${a.id}`} value={a.id}>
+                {a.shortName}
+              </option>
+            ))}
+          </select>
         </label>
         <label className="mt-3 grid gap-1 text-[13px] text-navy">
           Date de publication
@@ -93,25 +177,46 @@ export function AdminPostMeta({
             className="admin-input"
           />
         </label>
-        <label className="mt-3 grid gap-1 text-[13px] text-navy">
-          Catégorie
-          <select
-            className="admin-input"
-            value={categoryLabel}
-            onChange={(e) => onCategoryChange(e.target.value)}
-          >
-            {!categoryLabel ? <option value="">— Choisir —</option> : null}
-            {categories.map((c) => (
-              <option key={c.id} value={c.label}>
-                {c.label}
-              </option>
-            ))}
-            {categoryLabel &&
-            !categories.some((c) => c.label === categoryLabel) ? (
-              <option value={categoryLabel}>{categoryLabel}</option>
-            ) : null}
-          </select>
-        </label>
+        <fieldset className="mt-3">
+          <legend className="text-[13px] text-navy">
+            Catégories (plusieurs possibles)
+          </legend>
+          <div className="mt-2 flex max-h-48 flex-col gap-1.5 overflow-y-auto rounded-lg border border-[rgba(23,71,94,0.1)] p-2">
+            {categories.map((c) => {
+              const checked = categoryLabels.includes(c.label)
+              return (
+                <label
+                  key={c.id}
+                  className="flex cursor-pointer items-center gap-2 text-[13px] text-navy"
+                >
+                  <input
+                    type="checkbox"
+                    checked={checked}
+                    onChange={() => toggleCategory(c.label)}
+                    className="size-3.5 accent-navy"
+                  />
+                  {c.label}
+                </label>
+              )
+            })}
+            {categoryLabels
+              .filter((l) => !categories.some((c) => c.label === l))
+              .map((l) => (
+                <label
+                  key={l}
+                  className="flex cursor-pointer items-center gap-2 text-[13px] text-navy"
+                >
+                  <input
+                    type="checkbox"
+                    checked
+                    onChange={() => toggleCategory(l)}
+                    className="size-3.5 accent-navy"
+                  />
+                  {l} <span className="text-muted">(hors liste)</span>
+                </label>
+              ))}
+          </div>
+        </fieldset>
         <label className="mt-3 grid gap-1 text-[13px] text-navy">
           Extrait
           <textarea

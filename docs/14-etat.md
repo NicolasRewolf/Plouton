@@ -1,12 +1,14 @@
 # État d'avancement — Plouton
 
-_Mis à jour : 2026-07-19 (FAQ Supabase + admin)_
+_Mis à jour : 2026-07-20 (briefs #17+#18 — lots P1-D / contact / SEO en cours sur `fix/blog-17-18-complet`)_
+
 
 Vue unique de « où on en est ». À relire en premier, mettre à jour à chaque grande étape.
 Détail des livraisons dans [`../JOURNAL.md`](../JOURNAL.md).
 Passation agents : [`PASSATION-2026-07-18.md`](PASSATION-2026-07-18.md).
 Audit santé : [`15-audit-sante.md`](15-audit-sante.md).
 UI canonique : [`16-composants-ui.md`](16-composants-ui.md).
+Blog / éditeur : [`18-blog-architecture-et-editeur.md`](18-blog-architecture-et-editeur.md).
 
 ---
 
@@ -19,11 +21,11 @@ UI canonique : [`16-composants-ui.md`](16-composants-ui.md).
 
 ---
 
-## 📋 Plan C5 (figé)
+## 📋 Plan C5 (figé) — évolue avec brief #18
 
 1. Lecture publique **serveur** via `SUPABASE_SECRET_KEY` (`status = published`) — **pas** de RLS anon en V1.
-2. Si pas de ligne DB → **fallback JSON** git (dual-run sûr).
-3. Corps : si l’article DB a un corps **édité** (différent du JSON seed) → `bodyHtml` / `body` ; sinon **Ricos** fichier git (les 422 restent fidèles).
+2. Si pas de ligne DB → **fallback JSON** git (dual-run sûr, **filtre status**).
+3. Corps : **`body_doc` / `body-html/`** (plus de Ricos runtime). Ricos = archive git + gel admin.
 4. Au publish → `revalidatePath` / `revalidateTag` (article, listes, sitemap).
 5. Admin liste = **DB** (publiés + brouillons).
 6. Covers Storage = **C5.1** (reporté) si pas branché dans cette PR.
@@ -46,7 +48,7 @@ UI canonique : [`16-composants-ui.md`](16-composants-ui.md).
 - **15 pages expertises** (3 pôles, dont Défense des élus) + pages cabinet
 - **3 hubs de pôles** (`/defense-penale`, `/indemnisation-des-victimes`, `/droit-des-contrats-et-des-personnes`)
 - `/blog` + catégories ; **161 redirections 301** ; médias rapatriés
-- Gabarit article `/post/{slug}` (Ricos) + SEO titres/metas live
+- Gabarit article `/post/{slug}` (**body-html** / TipTap, plus Ricos runtime) + SEO titres/metas live
 - Backoffice **blog** + **demandes** dans `site/src/app/admin/` (magic link)
 - **Médias** + **hub Ressources** + uniformité UI (PR #9–#11)
 
@@ -64,10 +66,26 @@ UI canonique : [`16-composants-ui.md`](16-composants-ui.md).
 
 ## 🔧 Dual-run C5
 
-- **Site public** = DB `published` en priorité, **fallback JSON** si row absente
-- **Corps** = Ricos git tant que le corps DB = seed ; sinon `bodyHtml` TipTap / `body`
+- **Site public** = DB `published` en priorité, **fallback JSON** si row absente (brouillons exclus)
+- **Corps** = cache `contenu/body-html/` (dérivé `body_doc`) ; édition admin = `bodyHtml` DB
+- **Ricos** = archive + garde-fou admin uniquement (plus de rendu public)
 - **Admin** = TipTap + liste DB · publish → revalidate
 - **Pas** de RLS anon (lecture via `SUPABASE_SECRET_KEY` serveur)
+
+## ⚠ Brief #18 + #17 — avancement (branche `fix/blog-17-18-complet`)
+
+| Lot | Statut |
+|-----|--------|
+| P1-C convertisseur + CI | ✅ |
+| P1-D body_doc DB + vues + index DB | ✅ |
+| #17 FAQ / auteurs / catégories / contact | ✅ (contact + cat DB ; FAQ déjà) |
+| P1-F JSON-LD §4.1 | ✅ socle article |
+| P1-G confort éditeur | 🟡 autosave + coller texte (Paste Start / modale image = suite) |
+| P1-H metas CI | ✅ |
+| P1-I cron scheduled | ✅ |
+| P2 tags / sommaire / RGAA | ⏳ |
+
+**Merge seulement sur ton feu vert.**
 
 ## ⚠ Réalité pages publiques (hors articles)
 
@@ -93,6 +111,8 @@ Gagné : 15 expertises, 3 hubs pôles, 422 posts, formulaires/admin, légales, H
 | 6a | **Admin** — TipTap (barre fixe Wix) + dashboard | ✅ |
 | 6b | **C5.1** — covers / bucket `medias` | ✅ partiel (URL + upload admin) |
 | 6c | **FAQ** — Supabase + admin + import CSV | ✅ |
+| 6d | **Blog #18 P0** — gel riches + seed sûr + versions + SEO filet | 🟡 PR #61 |
+| 6e | **Blog #18 P1** — auteurs, TipTap riche, body_doc, `/auteur`, cron | 🟡 PR |
 | 7 | Recherche site | ✅ |
 | 7a | **Simulateurs divorce** (pension + prestation) | ✅ |
 | 8 | Polish UI (accueil, listes, vernis) | au fil de l’eau |
@@ -104,7 +124,10 @@ Gagné : 15 expertises, 3 hubs pôles, 422 posts, formulaires/admin, légales, H
 2. **Supabase Auth → URL Configuration** (si pas déjà fait)
 3. **Resend** : `RESEND_API_KEY` sur Vercel
 4. Smoke test C5 : admin → éditer + publier → page `/post/...` à jour **sans** redeploy
-5. Vérifier seed **422** toujours en base (sinon `python3 scripts/seed-posts.py`)
+5. Vérifier seed **422** toujours en base (sinon `python3 scripts/seed-posts.py` — **sans** `--force`)
+6. Appliquer migration **`0007_post_versions.sql`** sur Supabase Plouton (filet versions admin)
+7. Appliquer **`0008_authors_body_doc.sql`** + `python3 scripts/seed-authors.py`
+8. (Optionnel) backfill body_doc : `node scripts/backfill-body-doc.mjs --write-files` puis seed DB
 
 ## 🙋 Ce qui dépend de Nicolas
 

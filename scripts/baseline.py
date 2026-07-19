@@ -21,6 +21,11 @@ import unicodedata
 from pathlib import Path
 from urllib.parse import quote
 
+try:
+    from bs4 import BeautifulSoup
+except ImportError:  # fallback si bs4 absent — regex robuste attributs
+    BeautifulSoup = None  # type: ignore[misc, assignment]
+
 ROOT = Path(__file__).resolve().parent.parent
 BASELINE = ROOT / "contenu" / "baseline" / "live-baseline.json"
 LIVE = "https://www.jplouton-avocat.fr"
@@ -63,9 +68,40 @@ def fetch(origin: str, path: str) -> dict:
     except Exception:  # noqa: BLE001
         return {"path": path, "status": 0}
 
+    def clean(s: str) -> str:
+        return html.unescape(re.sub(r"\s+", " ", s)).strip()
+
     def first(pattern: str) -> str:
         m = re.search(pattern, body, re.I | re.S)
-        return html.unescape(re.sub(r"\s+", " ", m.group(1))).strip() if m else ""
+        return clean(m.group(1)) if m else ""
+
+    # P0-C — meta description via BeautifulSoup (ordre attributs variable)
+    meta_description = ""
+    title = ""
+    h1 = ""
+    canonical = ""
+    if BeautifulSoup is not None:
+        soup = BeautifulSoup(body, "html.parser")
+        title = clean(soup.title.get_text()) if soup.title else ""
+        md = soup.find("meta", attrs={"name": re.compile(r"^description$", re.I)})
+        if md and md.get("content"):
+            meta_description = clean(str(md["content"]))
+        h1_el = soup.find("h1")
+        h1 = clean(h1_el.get_text()) if h1_el else ""
+        can = soup.find("link", attrs={"rel": re.compile(r"\bcanonical\b", re.I)})
+        if can and can.get("href"):
+            canonical = clean(str(can["href"]))
+    else:
+        title = first(r"<title[^>]*>(.*?)</title>")
+        meta_description = first(
+            r'<meta[^>]+name=["\']description["\'][^>]+content=["\'](.*?)["\']'
+        ) or first(
+            r'<meta[^>]+content=["\'](.*?)["\'][^>]+name=["\']description["\']'
+        )
+        h1 = first(r"<h1[^>]*>(.*?)</h1>")
+        canonical = first(
+            r'<link[^>]+rel=["\']canonical["\'][^>]+href=["\'](.*?)["\']'
+        )
 
     text = re.sub(r"<(script|style|noscript)[^>]*>.*?</\1>", " ", body, flags=re.I | re.S)
     text = re.sub(r"<[^>]+>", " ", text)
@@ -74,12 +110,10 @@ def fetch(origin: str, path: str) -> dict:
     return {
         "path": path,
         "status": status,
-        "title": first(r"<title[^>]*>(.*?)</title>"),
-        "metaDescription": first(
-            r'<meta[^>]+name=["\']description["\'][^>]+content=["\'](.*?)["\']'
-        ) or first(r'<meta[^>]+content=["\'](.*?)["\'][^>]+name=["\']description["\']'),
-        "h1": first(r"<h1[^>]*>(.*?)</h1>"),
-        "canonical": first(r'<link[^>]+rel=["\']canonical["\'][^>]+href=["\'](.*?)["\']'),
+        "title": title,
+        "metaDescription": meta_description,
+        "h1": h1,
+        "canonical": canonical,
         "words": words,
     }
 
