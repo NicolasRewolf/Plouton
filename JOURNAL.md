@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : accidents de la route (fidélité Wix)
+
+- Nomenclature Dintilhac : 3 puces d’intro visibles + sous-titres extra/patrimoniaux structurés
+- Déjà OK : 3ᵉ paragraphe d’intro, texte RDV, titres #### (lot 1), section Piétons vide (= Wix)
+- Skip : SEO/réseaux ; doublons FAQ proches (2 formulations, réponses différentes — non fusionnés)
+- Tests : `/indemnisation-des-victimes/accidents-de-la-route`
+
 ## 2026-07-19 — Lot 6 audit : demandes + nav RDV
 
 - **Demandes admin** : recherche (nom, e-mail, objet…) + pages Suivant/Précédent (plus de plafond 200 sans suite)
