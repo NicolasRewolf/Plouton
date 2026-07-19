@@ -5,6 +5,14 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : victimes de délits ou crimes (fidélité Wix)
+
+- Doublons de scrape retirés ; typo « : : » corrigée
+- Puces « Actions civiles » : titres visibles (comme sur Wix)
+- Texte RDV Wix rétabli (« hors des horaires habituels »)
+- Déjà OK : corps éditorial, FAQ 4 questions, carrousel (étiquette + limite 20), SEO/réseaux
+- Tests : `/indemnisation-des-victimes/victimes-de-delits-ou-crimes`
+
 ## 2026-07-19 — Expertises : Divorce Bordeaux (fidélité Wix)
 
 - Procédure contentieuse : titres d’étapes rétablis (assignation, mesures provisoires, jugement, finalisation, mise en état) + puces
