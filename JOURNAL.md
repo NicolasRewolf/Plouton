@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : droit pénal (fidélité Wix)
+
+- Titres complets rétablis (Atteintes personnes / biens, Délinquance organisée, Cybercriminalité, JIRS, Préparation intensive, Travail de personnalisation, Outils concrets)
+- Meta description remise comme sur Wix (garde à vue / 20 ans / 24h/24)
+- Déjà OK post-lots : FAQ 8 questions, SEO canonical/OG, liste d’affaires (20)
+- Tests : `/defense-penale/droit-penal` → sections Complexes / Équipe / Méthodes → titres longs visibles
+
 ## 2026-07-19 — Lot 6 audit : demandes + nav RDV
 
 - **Demandes admin** : recherche (nom, e-mail, objet…) + pages Suivant/Précédent (plus de plafond 200 sans suite)
