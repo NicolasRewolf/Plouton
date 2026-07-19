@@ -194,5 +194,9 @@
       "text": "Notre expertise",
       "href": "/indemnisation-des-victimes/droit-et-accidents-du-travail"
     }
-  ]
+  ],
+  "contactAside": {
+    "title": "Je prends rendez-vous maintenant !",
+    "text": "Les rendez-vous sont pris dans les 7 jours. En cas d’urgence, le rendez-vous peut être immédiat et même en dehors des horaires habituels du cabinet."
+  }
 }

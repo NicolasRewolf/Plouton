@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : droit et accidents du travail (fidélité Wix)
+
+- Bug « civi le » déjà corrigé (lien CIVI borné au mot)
+- Texte RDV Wix rétabli (« hors des horaires habituels »)
+- Corps + FAQ déjà fidèles ; 2 affaires 2012 déjà en catégorie (carrousel OK côté données)
+- Tests : `/indemnisation-des-victimes/droit-et-accidents-du-travail`
+
 ## 2026-07-19 — Expertises : accidents de la vie courante (fidélité Wix)
 
 - Méthodologie 7 étapes déjà complète (rien à recréer)
