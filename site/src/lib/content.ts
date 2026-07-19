@@ -392,6 +392,29 @@ export function getAuthor(article: Article): Author | null {
   )
 }
 
+/** slug → shortName (GUID Wix des articles JSON). */
+export const authorNamesBySlug = cache(function authorNamesBySlug(): Record<string, string> {
+  const authors = listAuthors()
+  const byWix = new Map(
+    authors.filter((a) => a.wixId).map((a) => [a.wixId as string, a.shortName] as const)
+  )
+  const map: Record<string, string> = {}
+  const dir = path.join(root, "articles")
+  if (!fs.existsSync(dir)) return map
+  for (const file of fs.readdirSync(dir)) {
+    if (!file.endsWith(".json")) continue
+    try {
+      const raw = readJson<{ slug?: string; author?: string }>(path.join("articles", file))
+      if (!raw.slug || !raw.author) continue
+      const name = byWix.get(raw.author)
+      if (name) map[raw.slug] = name
+    } catch {
+      /* ignore */
+    }
+  }
+  return map
+})
+
 export function getExpertiseCards() {
   return readJson<
     { title: string; domaineFiltre: string; url: string; synthese: string }[]

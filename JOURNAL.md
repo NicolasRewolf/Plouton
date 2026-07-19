@@ -5,6 +5,22 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Lot 6 audit : demandes + nav RDV
+
+- **Demandes admin** : recherche (nom, e-mail, objet…) + pages Suivant/Précédent (plus de plafond 200 sans suite)
+- **Même client** : sur une demande, liste des autres soumissions du même e-mail
+- **Menu** : entrée « RDV & accès » (prise de RDV / horaires / honoraires) → page `/honoraires-rendez-vous`
+- **Accès admin** : option `ADMIN_EMAILS` (liste d’e-mails autorisés) — à remplir sur Vercel si besoin ; sinon inchangé
+- Images cartes / hero : texte alternatif = titre (plus de `alt` vide)
+- Skip (volontaire) : kanban 6 étapes, inbox réponse, commentaires blog, rôles fins (éditeur vs admin)
+
+## 2026-07-19 — Lot 4 audit : contenu pages expertise / hubs
+
+- FAQ droit pénal restaurée (8 questions + filtres) ; 3ᵉ paragraphe d’intro expertise de nouveau visible
+- Défense des élus : 4 blocs « Réagir à l’urgence » ; procès criminel : puces procédure remises
+- Comprendre le droit : sections thématiques élargies (56 ressources) ; Nos affaires sans les guides
+- Reste : section « Piétons… » accidents de la route vide aussi côté Wix (rien à recopier)
+
 ## 2026-07-19 — Médias & Ressources filtrables (plus de blog fourre-tout)
 
 - **Médias** = vraie page `/medias` avec filtres (comme Nos affaires)

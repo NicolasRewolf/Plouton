@@ -2,12 +2,12 @@ import type { Metadata } from "next"
 import dynamic from "next/dynamic"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
-import { getContentPage, getSite } from "@/lib/content"
+import { authorNamesBySlug, getContentPage, getSite } from "@/lib/content"
 import {
   filterCategoryOptions,
   toGalleryItems,
 } from "@/lib/gallery-filters"
-import { publishedIndex } from "@/lib/queries"
+import { affairesArticles } from "@/lib/queries"
 import { JsonLd, organizationSchema } from "@/lib/seo"
 
 const AffairesGallery = dynamic(() =>
@@ -16,6 +16,8 @@ const AffairesGallery = dynamic(() =>
 
 const INTRO =
   "Derrière chaque affaire, une stratégie. Voici une sélection de dossiers traités par le cabinet — dans le respect du secret professionnel, pour éclairer nos méthodes et les décisions obtenues."
+
+const HUB_EXCLUDE = ["Ressources et notions juridiques", "Médias"]
 
 export function generateMetadata(): Metadata {
   const page = getContentPage("nos-affaires")
@@ -31,9 +33,11 @@ export default async function NosAffairesPage() {
   const page = getContentPage("nos-affaires")
   const site = getSite()
 
-  const articles = toGalleryItems(await publishedIndex())
-  // Filtres = catégories réellement présentes sur les articles (labels exacts)
-  const categoryOptions = filterCategoryOptions(articles)
+  const articles = toGalleryItems(await affairesArticles(), {
+    authorBySlug: authorNamesBySlug(),
+  })
+  // Filtres = catégories métier (pas les hubs Ressources / Médias)
+  const categoryOptions = filterCategoryOptions(articles, HUB_EXCLUDE)
 
   return (
     <>
