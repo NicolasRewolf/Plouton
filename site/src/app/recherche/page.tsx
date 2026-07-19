@@ -3,6 +3,7 @@ import Link from "next/link"
 import { AffaireCard } from "@/components/AffaireCard"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
+import { authorMetaByArticleSlug } from "@/lib/content"
 import { publishedIndex } from "@/lib/queries"
 import { withCanonicalOg } from "@/lib/seo"
 
@@ -29,6 +30,7 @@ export default async function RecherchePage({
   const needle = normalize(q)
 
   const all = await publishedIndex()
+  const authorMeta = authorMetaByArticleSlug()
   const results =
     needle.length < 2
       ? []
@@ -80,7 +82,9 @@ export default async function RecherchePage({
 
         {results.length ? (
           <div className="mt-8 grid gap-5 sm:grid-cols-2">
-            {results.map((a) => (
+            {results.map((a) => {
+              const meta = authorMeta[a.slug]
+              return (
               <AffaireCard
                 key={a.slug}
                 article={{
@@ -92,10 +96,13 @@ export default async function RecherchePage({
                   coverImage: a.coverImage,
                   minutesToRead: a.minutesToRead,
                   viewCount: a.viewCount,
+                  authorName: meta?.name,
+                  authorSlug: meta?.id,
                 }}
                 titleAs="h2"
               />
-            ))}
+              )
+            })}
           </div>
         ) : q && needle.length >= 2 ? (
           <p className="mt-10 text-[15px] text-muted">

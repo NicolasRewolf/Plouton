@@ -5,6 +5,25 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Migrations Supabase blog #18 (live)
+
+- Appliqué sur projet Plouton : versions, auteurs, `body_doc`, catégories, champs E-E-A-T
+- 5 avocats seedés + 16 catégories (sans « Défense des élus »)
+- MCP Supabase ajouté dans Cursor
+- Tests : tables OK côté base
+
+---
+
+## 2026-07-19 — Blog brief #18 : convertisseur fidèle + bascule corps
+
+- Convertisseur Ricos → ProseMirror **vérifié** (422/422) + cache HTML `contenu/body-html/`
+- Pages articles : plus de Ricos live — lecture du cache HTML (sauf édition admin)
+- Taxonomie + auteurs enrichis en migrations (`0009`, `0010`) — **à appliquer sur Supabase**
+- Vues : on garde le max (fichier Wix / base) pour ne rien perdre ; script de sync prêt
+- **Pas encore merge** — reste confort éditeur + SEO graphe + ton feu vert
+
+---
+
 ## 2026-07-19 — Blog P1 : auteurs, TipTap riche, body_doc, SEO
 
 - Auteurs en base (orthographe **Axelle Fesneau**) ; 6 « Cabinet » → Julien ; pages `/auteur/…`
