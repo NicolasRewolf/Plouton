@@ -196,8 +196,25 @@ export interface ExpertisePage {
      * Aujourd’hui : simulateurs divorce uniquement.
      */
     simulator?: "pension-alimentaire" | "prestation-compensatoire"
-    blocks: { heading: string; body: string }[]
+    /**
+     * Blocs = H3 (défaut) / H4 du MD Wix.
+     * `headingLevel: 4` ou `children` pour ne pas aplatir les H4 au niveau H3.
+     * Listes : markdown `- ` dans `body` OU `bullets: string[]`.
+     */
+    blocks: ExpertiseBlock[]
   }[]
+}
+
+/** Bloc éditorial expertise — miroir H3/H4 + listes du MD Wix. */
+export interface ExpertiseBlock {
+  heading: string
+  body: string
+  /** 3 = H3 (défaut), 4 = H4 — ne pas aplatir. */
+  headingLevel?: 3 | 4
+  /** Liste à puces explicite (alternative au markdown dans body). */
+  bullets?: string[]
+  /** Sous-blocs H4 sous un H3 (alternative à une séquence flat headingLevel:4). */
+  children?: ExpertiseBlock[]
 }
 
 export interface LegalSubsection {

@@ -4,6 +4,25 @@ On note ici les choix importants, pour ne pas les rejouer à chaque fois.
 
 ---
 
+## 2026-07-19 — Fidélité expertises : hiérarchie H2 / H3 / H4 du MD Wix
+
+**Décision :** les pages expertise suivent strictement la structure du Markdown Wix (`contenu/sources/live-md/expertises/{slug}.md`).
+
+| MD Wix | JSON (`contenu/expertises/`) |
+|--------|------------------------------|
+| **H2** | une `section` (même titre) |
+| **H3** sous ce H2 | un bloc (`heading` + `headingLevel: 3`) |
+| **H4** | sous-bloc / `headingLevel: 4` (jamais aplati au même niveau que H3) |
+| Paragraphes, listes à puces, liens | conserver dans `body` (markdown `- `) ou `bullets: string[]` |
+
+**Interdit :** fusionner des sections, inventer du texte, transformer des listes en prose « pour faire plus joli ».
+
+**Pourquoi :** le scrape / la réécriture avaient aplati ou simplifié le corps ; Nicolas exige la même hiérarchie que Wix.  
+**Rendu :** `ExpertiseBody` distingue H3 / H4 et affiche les listes.  
+**Sources :** `contenu/sources/live-md/LIRE-MOI.md`.
+
+---
+
 ## 2026-07-19 — Accès admin = allowlist e-mails (pas de rôles fins V1)
 
 **Décision :** pas de rôles « éditeur / admin / lecture seule » en V1. Si `ADMIN_EMAILS` est renseigné (virgules), seuls ces comptes passent `/admin` ; si vide, comportement historique (tout compte Auth déjà créé).  
