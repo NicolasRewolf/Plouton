@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : droit pénal des affaires (fidélité Wix)
+
+- Lien intro « mise en cause pénale » → page Droit pénal
+- Texte RDV Wix rétabli ; exemples d’affaires mieux structurés
+- Déjà OK : corps des 4 sections, FAQ, carrousel, SEO/réseaux
+- Tests : `/defense-penale/droit-penal-des-affaires`
+
 ## 2026-07-19 — Expertises : défense des consommateurs (fidélité Wix)
 
 - Doublons de scrape retirés ; typo « rapports technique s » corrigée
