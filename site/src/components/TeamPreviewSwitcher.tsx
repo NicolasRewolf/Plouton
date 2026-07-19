@@ -41,7 +41,7 @@ const LABELS: { id: Variant; title: string; blurb: string }[] = [
   {
     id: "cadre",
     title: "E · Mur blanc",
-    blurb: "Beaucoup d’air, cadres fins, typo discrète — galerie / musée.",
+    blurb: "Mur blanc galerie — au survol : « Lire le parcours » pour ouvrir la bio.",
   },
   {
     id: "hierarchy",
@@ -381,6 +381,9 @@ function CineCadre({
     <div className="bg-[#fafafa]">
       <HeroLight title={introTitle} text={introText} />
       <div className="mx-auto max-w-5xl px-5 pb-28 lg:px-8">
+        <p className="mb-10 text-center text-[13px] text-navy/45">
+          Cliquez sur un portrait pour lire le parcours
+        </p>
         <div className="grid gap-x-10 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
           {equipe.map((m) => (
             <button
@@ -389,10 +392,20 @@ function CineCadre({
               onClick={() => onOpen(m.id)}
               className="group text-left"
             >
-              <span className="relative block aspect-[3/4] overflow-hidden bg-fog outline outline-1 outline-[oklch(0_0_0_/_0.08)] -outline-offset-1">
+              <span className="relative block aspect-[3/4] overflow-hidden bg-fog outline outline-1 outline-[oklch(0_0_0_/_0.08)] -outline-offset-1 transition-[outline-color,box-shadow] duration-300 group-hover:outline-[oklch(0_0_0_/_0.18)] group-hover:shadow-[0_12px_32px_rgba(23,71,94,0.1)]">
                 <Portrait m={m} slow />
+                {/* Voile + invitation au clic */}
+                <span
+                  aria-hidden
+                  className="absolute inset-0 bg-navy/0 transition-colors duration-300 group-hover:bg-navy/35"
+                />
+                <span className="absolute inset-x-0 bottom-0 flex translate-y-2 items-end justify-center p-5 opacity-0 transition-[opacity,transform] duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                  <span className="rounded-full bg-white px-4 py-2 text-[12px] font-semibold tracking-wide text-navy shadow-sm">
+                    Lire le parcours →
+                  </span>
+                </span>
               </span>
-              <span className="mt-5 block text-center font-display text-[15px] font-medium tracking-[-0.01em] text-navy">
+              <span className="mt-5 block text-center font-display text-[15px] font-medium tracking-[-0.01em] text-navy transition-colors group-hover:text-accent">
                 {m.name}
               </span>
               <span className="mt-1 block text-center text-[11px] tracking-[0.08em] text-navy/45 uppercase">
