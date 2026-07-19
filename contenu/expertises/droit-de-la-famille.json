@@ -60,27 +60,7 @@
         },
         {
           "heading": "Protection face au conjoint ou partenaire violent",
-          "body": "Lorsqu’une situation de violences conjugales apparaît, il est essentiel d’agir vite. Notre cabinet met son expertise pénale et familiale au service des victimes, avec une prise en charge complète et humaine.\n\nNous vous assistons dès la rédaction de la requête et jusqu’à l’audience devant le juge, généralement fixée sous sept jours. Grâce à la réactivité du cabinet et à une préparation rigoureuse, une décision peut être rendue sous quinze jours lorsque le dossier est complet.\n\nNos avocats vous aident à constituer un dossier de preuves solide (plaintes, témoignages, certificats médicaux, photos, vidéos) pour démontrer le danger actuel et vraisemblable.\n\nLe juge peut alors ordonner :\n\n​\n\n• l’interdiction de contact ou d’approcher certains lieux,\n\n• la suspension de l’autorité parentale,\n\n• l’attribution gratuite du logement, voire le maintien du paiement par le conjoint violent.\n\nNous vous accompagnons également dans la procédure pénale : dépôt de plainte, audience, constitution de partie civile, r eprésentation en cas de féminicide ou de contrôle coercitif.\n\nPour les violences dans le cadre d’un mariage, découvrez notre accompagnement en divorce pour faute ou violences. (CTA page divorce)"
-        },
-        {
-          "heading": "",
-          "body": "Nous vous assistons dès la rédaction de la requête et jusqu’à l’audience devant le juge, généralement fixée sous sept jours. Grâce à la réactivité du cabinet et à une préparation rigoureuse, une décision peut être rendue sous quinze jours lorsque le dossier est complet."
-        },
-        {
-          "heading": "",
-          "body": "Nos avocats vous aident à constituer un dossier de preuves solide (plaintes, témoignages, certificats médicaux, photos, vidéos) pour démontrer le danger actuel et vraisemblable."
-        },
-        {
-          "heading": "",
-          "body": "Le juge peut alors ordonner :"
-        },
-        {
-          "heading": "",
-          "body": "Nous vous accompagnons également dans la procédure pénale : dépôt de plainte, audience, constitution de partie civile, r eprésentation en cas de féminicide ou de contrôle coercitif."
-        },
-        {
-          "heading": "",
-          "body": "Pour les violences dans le cadre d’un mariage, découvrez notre accompagnement en divorce pour faute ou violences. (CTA page divorce)"
+          "body": "Lorsqu’une situation de violences conjugales apparaît, il est essentiel d’agir vite. Notre cabinet met son expertise pénale et familiale au service des victimes, avec une prise en charge complète et humaine.\n\n#### L’ordonnance de protection : les étapes essentielles\n\nNous vous assistons dès la rédaction de la requête et jusqu’à l’audience devant le juge, généralement fixée sous sept jours. Grâce à la réactivité du cabinet et à une préparation rigoureuse, une décision peut être rendue sous quinze jours lorsque le dossier est complet.\n\nNos avocats vous aident à constituer un dossier de preuves solide (plaintes, témoignages, certificats médicaux, photos, vidéos) pour démontrer le danger actuel et vraisemblable.\n\nLe juge peut alors ordonner :\n\n• l’interdiction de contact ou d’approcher certains lieux,\n\n• la suspension de l’autorité parentale,\n\n• l’attribution gratuite du logement, voire le maintien du paiement par le conjoint violent.\n\n#### Accompagnement pénal et expertise spécifique\n\nNous vous accompagnons également dans la procédure pénale : dépôt de plainte, audience, constitution de partie civile, représentation en cas de féminicide ou de contrôle coercitif.\n\nPour les violences dans le cadre d’un mariage, découvrez notre accompagnement en divorce pour faute ou violences. (CTA page divorce)"
         }
       ]
     },
@@ -187,12 +167,16 @@
       "href": "/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux"
     },
     {
-      "text": "eprésentation en cas de féminicide",
+      "text": "représentation en cas de féminicide",
       "href": "/defense-penale/violences-conjugales-et-feminicides"
     },
     {
       "text": "contrôle coercitif.",
       "href": "/post/contrôle-coercitif-reconnaître-agir"
     }
-  ]
+  ],
+  "contactAside": {
+    "title": "Je prends rendez-vous maintenant !",
+    "text": "Les rendez-vous sont pris dans les 7 jours. En cas d’urgence, le rendez-vous peut être immédiat et même en dehors des horaires habituels du cabinet."
+  }
 }

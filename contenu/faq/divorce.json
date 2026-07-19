@@ -1,5 +1,40 @@
 [
   {
+    "question": "Faut-il vendre sa maison avant ou après le divorce ?",
+    "answer": "Ça dépend de votre régime matrimonial et de la situation du logement. Aucune règle « mieux avant / mieux après » valable pour tous. Si c’est le logement familial, aucun époux ne peut le vendre sans le consentement de l’autre, même s’il en est seul propriétaire (C. civ., art. 215). En cas de refus injustifié, un époux peut être autorisé par le juge à signer seul (art. 217). Dans un divorce par consentement mutuel, la liquidation/partage (et donc la vente ou une convention d’indivision) doit être réglée avant le dépôt chez le notaire ; en divorce judiciaire, le partage peut se faire avant ou après le jugement.",
+    "sousExpertise": "Divorce et séparation"
+  },
+  {
+    "question": "En instance de divorce, peut-on vivre en concubinage ?",
+    "answer": "Le devoir de fidélité subsiste jusqu’au divorce : une relation nouvelle peut être invoquée comme faute dans un divorce pour faute (appréciation du JAF au cas par cas). Après le divorce, les devoirs de cohabitation et de fidélité cessent. Je ne peux pas me prononcer pour votre cas particulier.",
+    "sousExpertise": "Divorce et séparation"
+  },
+  {
+    "question": "En combien de temps est acté un divorce à l’amiable ?",
+    "answer": "Il n’y a pas de durée globale fixée par la loi. Ce qui est certain : 15 jours de réflexion avant signature ; transmission au notaire sous 7 jours ; dépôt par le notaire sous 15 jours ; le divorce prend effet au jour du dépôt. Le reste dépend surtout de la vitesse de préparation des pièces et de l’accord des époux.",
+    "sousExpertise": "Divorce et séparation"
+  },
+  {
+    "question": "Quelles sont les conséquences pour celui qui demande le divorce ?",
+    "answer": "Le fait d’« être le demandeur » n’entraîne pas, à lui seul, de sanction spécifique. Effets communs du divorce : dissolution du mariage, liquidation/partage du patrimoine, éventuelle prestation compensatoire (le juge peut la refuser si le divorce est prononcé aux torts exclusifs de celui qui la réclame), pensions pour les enfants, règles sur le nom, etc.",
+    "sousExpertise": "Divorce et séparation"
+  },
+  {
+    "question": "Comment obtenir un divorce rapide ?",
+    "answer": "La voie la plus rapide est généralement le divorce par consentement mutuel par acte d’avocats (sans juge, sauf si un enfant mineur demande à être entendu ou situation particulière). Délais légaux certains : un délai de réflexion de 15 jours avant signature ; la convention est transmise au notaire dans les 7 jours, puis déposée sous 15 jours ; le divorce prend effet à la date du dépôt.",
+    "sousExpertise": "Divorce et séparation"
+  },
+  {
+    "question": "Que devient une donation en cas de divorce ?",
+    "answer": "Principe officiel : ce qui a déjà produit ses effets pendant le mariage est maintenu ; ce qui ne produit ses effets qu’au décès (ex. donation au dernier vivant, certains avantages matrimoniaux) est, en principe, révoqué par le divorce, sauf volonté contraire de celui qui a consenti. Depuis le 01/01/2005, une donation entre époux de biens présents qui a produit effet est irrévocable.",
+    "sousExpertise": "Régimes matrimoniaux et aspects patrimoniaux"
+  },
+  {
+    "question": "Combien de fois peut-on faire appel pour un divorce ?",
+    "answer": "Une seule fois. Délai de principe : 1 mois à compter de la signification du jugement ; ensuite, seule la voie du pourvoi en cassation reste ouverte.",
+    "sousExpertise": "Divorce et séparation"
+  },
+  {
     "question": "Quelles mesures de protection peuvent être mises en place en cas de violences conjugales ?",
     "answer": "Face aux violences conjugales, plusieurs outils juridiques permettent une protection rapide. Lʼordonnance de protection (art. 515-9 du Code civil) peut être obtenue en quelques jours : elle peut interdire au conjoint violent dʼapprocher la victime ou le domicile. Depuis la loi du 18 juin 2024, une ordonnance provisoire de protection immédiate peut être délivrée par le juge aux affaires familiales dans les 24 heures.\n\nLe non-respect de ces ordonnances constitue un délit puni de 3 ans dʼemprisonnement et 45 000 € dʼamende (art. 227-4-2 du Code pénal).\n\nEn parallèle, le dépôt de plainte déclenche une procédure pénale : les violences conjugales sont réprimées par les articles 222-1 et suivants du Code pénal, avec des circonstances aggravantes spécifiques au cadre conjugal. Le 3919 (numéro national gratuit) oriente les victimes vers les structures dʼaccueil adaptées.\n\nUn avocat peut formuler la demande dʼordonnance de protection, accompagner la victime au dépôt de plainte et assurer le suivi de la procédure pénale.",
     "sousExpertise": "Protection et médiation"
