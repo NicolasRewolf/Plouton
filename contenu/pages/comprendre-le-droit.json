@@ -3,8 +3,8 @@
   "path": "/comprendre-le-droit",
   "title": "Ressources",
   "h1": "Comprendre le droit",
-  "metaTitle": "Ressources — Comprendre le droit | Cabinet Plouton",
-  "metaDescription": "Le droit expliqué clairement par le Cabinet Plouton. Guides et notions juridiques : procédure pénale, victimes, famille, affaires.",
+  "metaTitle": "Comprendre le droit — Articles & fiches juridiques | Cabinet Plouton Bordeaux",
+  "metaDescription": "Garde à vue, indemnisation, violences conjugales, droit pénal des affaires… Les avocats du Cabinet Plouton expliquent vos droits en termes clairs. Plus de 50 fiches et articles rédigés par des pénalistes bordelais.",
   "intro": "Le droit expliqué clairement, par des avocats. Guides et notions juridiques pour comprendre vos droits, quelle que soit votre situation.",
   "tagsNote": "Dans Posts.csv, le champ Tags ne contient que des UUID Wix (pas de libellés utilisables). Les sections ci-dessous = aperçus (slugs hardcodés) ; le catalogue complet est la grille « Toutes les ressources ». Tri « plus consultés » = viewCount (stats Wix / articles JSON).",
   "mostConsulted": {
