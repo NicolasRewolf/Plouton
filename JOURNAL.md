@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : procès criminel (fidélité Wix)
+
+- Phrase cassée « Et donc également devant : » : liste Charente (Angoulême) + Dordogne (Périgueux) rétablie depuis la source live
+- Audit expertises archivé dans `docs/scratch/audit-expertises.html` (référence pour la suite)
+- Déjà OK post-lots : puces procédure, FAQ, lien indemnisation, SEO canonical/OG
+- Tests : page `/defense-penale/proces-criminel` → section Compétences → liste des deux cours d’assises
+
 ## 2026-07-19 — Lot 6 audit : demandes + nav RDV
 
 - **Demandes admin** : recherche (nom, e-mail, objet…) + pages Suivant/Précédent (plus de plafond 200 sans suite)
