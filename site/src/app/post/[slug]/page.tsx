@@ -21,7 +21,7 @@ import {
 import { relatedForArticle } from "@/lib/queries"
 import { RicosBody } from "@/lib/ricos/render"
 import type { RicosDoc } from "@/lib/ricos/types"
-import { JsonLd, organizationSchema } from "@/lib/seo"
+import { JsonLd, absoluteUrl, organizationSchema } from "@/lib/seo"
 
 export const dynamicParams = true
 
@@ -38,17 +38,22 @@ export async function generateMetadata({
   const { slug } = await params
   const article = await resolvePublishedArticle(slug)
   if (!article) return {}
+  const path = `/post/${article.slug}`
   return {
     // Titre/meta du live Wix (baseline) — identiques au byte près
     title: { absolute: article.metaTitle ?? article.title },
     description: article.metaDescription ?? article.excerpt,
+    alternates: { canonical: absoluteUrl(path) },
     openGraph: {
       type: "article",
+      url: absoluteUrl(path),
       title: article.title,
       description: article.excerpt,
       publishedTime: article.publishedAt,
       authors: [article.author],
-      images: article.coverImage ? [article.coverImage] : undefined,
+      images: article.coverImage
+        ? [article.coverImage]
+        : [{ url: "/brand/equipe-home.png" }],
     },
   }
 }
@@ -89,11 +94,12 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const publishedLabel = new Date(article.publishedAt).toLocaleDateString("fr-FR", {
     day: "numeric",
     month: "short",
+    year: "numeric",
   })
   const updatedLabel = article.updatedAt
     ? new Date(article.updatedAt).toLocaleDateString("fr-FR", { month: "long", year: "numeric" })
     : null
-  const related = (await relatedForArticle(article, 2)).map((a) => ({
+  const related = (await relatedForArticle(article, 3)).map((a) => ({
     slug: a.slug,
     title: a.title,
     excerpt: a.excerpt,
@@ -101,9 +107,9 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
     categories: a.categories,
     coverImage: a.coverImage,
     minutesToRead: a.minutesToRead,
-    viewCount: 0,
+    viewCount: a.viewCount ?? 0,
   }))
-  const stats = { views: article.viewCount ?? 0, likes: 0, comments: 0 }
+  const stats = { views: article.viewCount ?? 0, likes: 0 }
 
   const schema = [
     organizationSchema(site),
@@ -285,7 +291,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             </a>
             <span className="text-line">|</span>
             <span className="text-sm text-ink/60">
-              {stats.views} vues · {stats.comments} commentaire{stats.comments > 1 ? "s" : ""}
+              {stats.views} vue{stats.views > 1 ? "s" : ""}
             </span>
             <span className="ml-auto inline-flex items-center gap-1 text-sm text-accent">
               {stats.likes > 0 ? stats.likes : null}
@@ -305,7 +311,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
                 Voir tout
               </Link>
             </div>
-            <div className="mt-4 grid gap-5 sm:grid-cols-2">
+            <div className="mt-4 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {related.map((a) => (
                 <AffaireCard key={a.slug} article={a} titleAs="h3" />
               ))}
@@ -313,29 +319,18 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
           </section>
         ) : null}
 
-        {/* Commentaires (données : import Wix → Supabase) */}
+        {/* Contact — pas de faux formulaire commentaire */}
         <section className="mx-auto mt-10 max-w-[940px] border border-line bg-white px-5 py-10 sm:px-10 lg:px-24">
-          <div className="flex items-center justify-between">
-            <h2 className="font-display text-lg text-ink">Commentaires</h2>
-            <p className="flex items-center gap-2 text-sm text-ink/70">
-              <span aria-hidden className="tracking-[0.2em] text-[#c4cdd2]">
-                ★★★★★
-              </span>
-              Pas encore de note
-            </p>
-          </div>
-          <hr className="mt-4 border-line" />
+          <h2 className="font-display text-lg text-ink">Une question sur cette affaire&nbsp;?</h2>
+          <p className="mt-3 max-w-xl text-[14px] leading-relaxed text-ink/70">
+            Les commentaires publics ne sont pas ouverts sur ce site. Pour échanger avec le cabinet,
+            utilisez le formulaire de contact.
+          </p>
           <Link
-            href="/contact"
-            className="mt-6 block border border-line px-5 py-5 text-sm text-ink/70 transition-colors hover:border-navy"
+            href="/honoraires-rendez-vous"
+            className="btn-pill btn-pill-primary mt-6 inline-flex"
           >
-            <span className="flex items-center gap-3">
-              Ajouter une note
-              <span aria-hidden className="tracking-[0.2em] text-accent">
-                ☆☆☆☆☆
-              </span>
-            </span>
-            <span className="mt-3 block">Rédigez un commentaire...</span>
+            Contactez-nous
           </Link>
         </section>
       </div>

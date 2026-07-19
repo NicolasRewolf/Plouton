@@ -1,3 +1,54 @@
+import type { Metadata } from "next"
+import { getSite } from "@/lib/content"
+
+/** URL absolue du site (canonical / OG). */
+export function absoluteUrl(path = "/"): string {
+  const base = getSite().url.replace(/\/$/, "")
+  if (!path || path === "/") return base
+  const normalized = path.startsWith("/") ? path : `/${path}`
+  return `${base}${normalized}`
+}
+
+/** Métadonnées Open Graph de base pour une page publique. */
+export function pageOpenGraph(opts: {
+  path: string
+  title?: string
+  description?: string
+  image?: string
+}): NonNullable<Metadata["openGraph"]> {
+  return {
+    url: absoluteUrl(opts.path),
+    ...(opts.title ? { title: opts.title } : {}),
+    ...(opts.description ? { description: opts.description } : {}),
+    images: [{ url: opts.image || "/brand/equipe-home.png" }],
+  }
+}
+
+/** Canonical + Open Graph pour les pages clés (chemins relatifs OK avec metadataBase). */
+export function withCanonicalOg(opts: {
+  title: string | { absolute: string }
+  description?: string | null
+  path: string
+  type?: "website" | "article"
+  image?: string
+}): Metadata {
+  const absoluteTitle =
+    typeof opts.title === "string" ? opts.title : opts.title.absolute
+  const description = opts.description || undefined
+  return {
+    title: opts.title,
+    description,
+    alternates: { canonical: absoluteUrl(opts.path) },
+    openGraph: {
+      type: opts.type ?? "website",
+      title: absoluteTitle,
+      description,
+      url: absoluteUrl(opts.path),
+      images: [{ url: opts.image || "/brand/equipe-home.png" }],
+    },
+  }
+}
+
 export function JsonLd({ data }: { data: Record<string, unknown> | Record<string, unknown>[] }) {
   return (
     <script
@@ -17,7 +68,18 @@ export function organizationSchema(site: {
   cabinetId: string
   founderId: string
   rating: { value: string; count: number }
+  social?: {
+    facebook?: string
+    instagram?: string
+    linkedin?: string
+  }
 }) {
+  const sameAs = [
+    site.social?.facebook,
+    site.social?.instagram,
+    site.social?.linkedin,
+  ].filter(Boolean) as string[]
+
   return {
     "@context": "https://schema.org",
     "@type": ["Organization", "LegalService"],
@@ -27,6 +89,7 @@ export function organizationSchema(site: {
     url: site.url,
     telephone: site.phone.e164,
     email: site.email,
+    ...(sameAs.length ? { sameAs } : {}),
     address: {
       "@type": "PostalAddress",
       streetAddress: site.address.street,

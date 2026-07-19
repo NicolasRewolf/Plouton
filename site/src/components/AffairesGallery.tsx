@@ -9,6 +9,8 @@ interface CategoryOption {
   slug: string
 }
 
+type SortMode = "recent" | "views"
+
 const PAGE_SIZE = 24
 
 function matchesCategory(
@@ -26,6 +28,16 @@ function pluralFr(n: number, singular: string, plural: string) {
   return n > 1 ? plural : singular
 }
 
+function sortArticles(articles: AffaireCardItem[], sort: SortMode) {
+  const copy = [...articles]
+  if (sort === "views")
+    return copy.sort((a, b) => (b.viewCount ?? 0) - (a.viewCount ?? 0))
+  return copy.sort(
+    (a, b) =>
+      new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+  )
+}
+
 /** Grille éditoriale filtrable — Affaires, Médias, Ressources. */
 export function AffairesGallery({
   articles,
@@ -35,6 +47,7 @@ export function AffairesGallery({
   emptyMessage = "Aucune affaire dans cette catégorie pour le moment.",
   loadMoreLabel = "Voir plus d'affaires",
   filterAriaLabel = "Filtrer par catégorie",
+  enableSort = false,
 }: {
   articles: AffaireCardItem[]
   categories: CategoryOption[]
@@ -43,20 +56,33 @@ export function AffairesGallery({
   emptyMessage?: string
   loadMoreLabel?: string
   filterAriaLabel?: string
+  /** Chips « + récentes / + consultées » (nos-affaires). */
+  enableSort?: boolean
 }) {
   const [activeSlug, setActiveSlug] = useState<string | null>(null)
+  const [sort, setSort] = useState<SortMode>("recent")
   const [visible, setVisible] = useState(PAGE_SIZE)
 
-  const filtered = useMemo(
-    () => articles.filter((a) => matchesCategory(a, activeSlug, categories)),
-    [articles, activeSlug, categories]
+  const hasViewStats = useMemo(
+    () => enableSort && articles.some((a) => (a.viewCount ?? 0) > 0),
+    [articles, enableSort]
   )
+
+  const filtered = useMemo(() => {
+    const byCat = articles.filter((a) => matchesCategory(a, activeSlug, categories))
+    return hasViewStats ? sortArticles(byCat, sort) : byCat
+  }, [articles, activeSlug, categories, sort, hasViewStats])
 
   const shown = filtered.slice(0, visible)
   const hasMore = visible < filtered.length
 
   function selectCategory(slug: string | null) {
     setActiveSlug(slug)
+    setVisible(PAGE_SIZE)
+  }
+
+  function selectSort(next: SortMode) {
+    setSort(next)
     setVisible(PAGE_SIZE)
   }
 
@@ -80,6 +106,21 @@ export function AffairesGallery({
           />
         ))}
       </nav>
+
+      {hasViewStats ? (
+        <nav aria-label="Trier les affaires" className="mt-3 flex flex-wrap gap-2">
+          <FilterChip
+            label="+ récentes"
+            active={sort === "recent"}
+            onClick={() => selectSort("recent")}
+          />
+          <FilterChip
+            label="+ consultées"
+            active={sort === "views"}
+            onClick={() => selectSort("views")}
+          />
+        </nav>
+      ) : null}
 
       <p className="mt-5 text-[13px] tabular-nums text-muted">
         {filtered.length} {pluralFr(filtered.length, itemSingular, itemPlural)}

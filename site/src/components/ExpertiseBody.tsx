@@ -65,6 +65,17 @@ function escapeRegExp(s: string) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
 }
 
+/** Numéros d’urgence — cliquables en `tel:` (violences conjugales, etc.). */
+const EMERGENCY_TELS: InlineLink[] = [
+  { text: "3919", href: "tel:3919" },
+  { text: "119", href: "tel:119" },
+  { text: "17", href: "tel:17" },
+]
+
+function isTelHref(href: string) {
+  return href.startsWith("tel:")
+}
+
 /** Token court alphanumérique → bornes de mot (évite CIVI dans « civile »). */
 function linkPattern(text: string) {
   const escaped = escapeRegExp(text)
@@ -73,13 +84,13 @@ function linkPattern(text: string) {
   return escaped
 }
 
-/** Réinjecte les liens internes harvestés du live (phrases → URLs). */
-function linkify(text: string, links: InlineLink[]): ReactNode[] {
+/** Réinjecte les liens internes harvestés du live (phrases → URLs) + urgences. */
+export function linkify(text: string, links: InlineLink[] = []): ReactNode[] {
   if (!text) return []
-  if (!links.length) return [text]
 
-  const usable = [...links]
-    .filter((l) => l.text && l.href && l.text.length >= 4)
+  const usable = [...links, ...EMERGENCY_TELS]
+    .filter((l) => l.text && l.href)
+    .filter((l) => isTelHref(l.href) || l.text.length >= 4)
     .sort((a, b) => b.text.length - a.text.length)
 
   if (!usable.length) return [text]
@@ -92,6 +103,12 @@ function linkify(text: string, links: InlineLink[]): ReactNode[] {
   return parts.map((part, i) => {
     const href = hrefByLower.get(part.toLowerCase())
     if (!href) return <span key={i}>{part}</span>
+    if (isTelHref(href))
+      return (
+        <a key={i} href={href} className="link-inline font-medium">
+          {part}
+        </a>
+      )
     return (
       <Link key={i} href={href} className="link-inline font-medium">
         {part}
@@ -223,11 +240,24 @@ function Paragraphs({
 }) {
   return (
     <>
-      {proseParas(text).map((para, i) => (
-        <p key={i} className={className || "text-[15px] leading-[1.7] text-pretty text-navy/90"}>
-          {linkify(para, links)}
-        </p>
-      ))}
+      {proseParas(text).map((para, i) => {
+        const mdHeading = para.match(/^#{2,4}\s+(.+)$/)
+        if (mdHeading) {
+          return (
+            <h4
+              key={i}
+              className="font-display text-[16px] font-medium leading-snug tracking-[-0.015em] text-navy text-balance sm:text-[17px]"
+            >
+              {linkify(mdHeading[1], links)}
+            </h4>
+          )
+        }
+        return (
+          <p key={i} className={className || "text-[15px] leading-[1.7] text-pretty text-navy/90"}>
+            {linkify(para, links)}
+          </p>
+        )
+      })}
     </>
   )
 }

@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     locale: "fr_FR",
     siteName: site.name,
     url: site.url,
+    images: [{ url: "/brand/equipe-home.png" }],
   },
   robots: { index: true, follow: true },
 }

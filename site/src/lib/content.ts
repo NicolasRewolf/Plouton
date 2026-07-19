@@ -38,6 +38,11 @@ export interface SiteConfig {
   googleReviewsUrl: string
   cabinetId: string
   founderId: string
+  social?: {
+    facebook?: string
+    instagram?: string
+    linkedin?: string
+  }
 }
 
 export interface Article {
@@ -224,8 +229,9 @@ export interface ContentPage {
 export interface LegalPageContent extends ContentPage {
   h1?: string
   updatedAt?: string
-  todos?: string[]
   relatedLinks?: { href: string; label: string }[]
+  /** Points à confirmer (affichés en bandeau « À confirmer »). */
+  todos?: string[]
   sections?: LegalSection[]
 }
 
