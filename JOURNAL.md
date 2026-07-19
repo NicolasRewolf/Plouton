@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : droit de la famille (fidélité Wix)
+
+- Sous-titres protection rétablis : ordonnance de protection + accompagnement pénal
+- Texte RDV Wix rétabli (« hors des horaires habituels »)
+- Lien « représentation en cas de féminicide » lisible (plus de « r » orphelin)
+- Tests : `/droit-des-contrats-et-des-personnes/droit-de-la-famille`
+
 ## 2026-07-19 — Expertises : droit des assurances (fidélité Wix)
 
 - Sous-titres sinistres rétablis : Incendies / Inondations-Sécheresse-Tempêtes / Vols
