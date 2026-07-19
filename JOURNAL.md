@@ -5,6 +5,15 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : Accidents de la route (texte MD fidèle H2/H3/H4)
+
+- JSON réécrit depuis le MD Wix : 7 sections H2, 16 blocs H3, 2 sous-blocs H4 ; 48 puces
+- H4 Dintilhac (extra-patrimoniaux / patrimoniaux) sous le H3 nomenclature ; H2 Piétons vide (comme MD)
+- Listes et liens conservés ; FAQ / formulaire / carrousel hors sections
+- Tests : `/indemnisation-des-victimes/accidents-de-la-route` — build OK
+
+---
+
 ## 2026-07-19 — Expertises : Divorce (texte MD fidèle H2/H3/H4)
 
 - JSON réécrit depuis le MD Wix : 7 sections H2, 23 blocs H3, 5 sous-blocs H4 ; 12 puces
