@@ -12,6 +12,73 @@ Pas de jargon. 5 lignes max par livraison.
 - Skip : SEO/réseaux ; doublons FAQ proches (2 formulations, réponses différentes — non fusionnés)
 - Tests : `/indemnisation-des-victimes/accidents-de-la-route`
 
+## 2026-07-19 — Expertises : trafic de stupéfiants (fidélité Wix)
+
+- Sous-titres « Faire annuler… » / « Mettre en doute… » rétablis ; section défense dédoublonnée
+- Puce « Plaider la peine et le contexte » de nouveau visible ; texte RDV Wix
+- Skip : SEO/réseaux ; carrousel = 20 plus récentes (4 dossiers 2022 hors fenêtre, normal)
+- Tests : `/defense-penale/trafic-de-stupefiants`
+
+## 2026-07-19 — Expertises : violences conjugales et féminicides (fidélité Wix)
+
+- Liens intro/corps : « Notre cabinet » + article Billon (imprescriptibilité)
+- Texte RDV Wix rétabli ; typo « r etrouver » + espaces avant ponctuation corrigés
+- Blocs orphelins de scrape retirés
+- Skip : SEO/réseaux (lots 1–2) ; tél. urgences déjà lot 1
+- Tests : `/defense-penale/violences-conjugales-et-feminicides`
+
+## 2026-07-19 — Expertises : droit pénal des affaires (fidélité Wix)
+
+- Lien intro « mise en cause pénale » → page Droit pénal
+- Texte RDV Wix rétabli ; exemples d’affaires mieux structurés
+- Déjà OK : corps des 4 sections, FAQ, carrousel, SEO/réseaux
+- Tests : `/defense-penale/droit-penal-des-affaires`
+
+## 2026-07-19 — Expertises : défense des consommateurs (fidélité Wix)
+
+- Doublons de scrape retirés ; typo « rapports technique s » corrigée
+- Texte RDV Wix rétabli (« hors des horaires habituels »)
+- Déjà OK : corps éditorial, FAQ enrichie (17 Q), carrousel (limite 20), SEO/réseaux
+- Tests : `/droit-des-contrats-et-des-personnes/defense-des-consommateurs`
+
+## 2026-07-19 — Expertises : victimes de délits ou crimes (fidélité Wix)
+
+- Doublons de scrape retirés ; typo « : : » corrigée
+- Puces « Actions civiles » : titres visibles (comme sur Wix)
+- Texte RDV Wix rétabli (« hors des horaires habituels »)
+- Déjà OK : corps éditorial, FAQ 4 questions, carrousel (étiquette + limite 20), SEO/réseaux
+- Tests : `/indemnisation-des-victimes/victimes-de-delits-ou-crimes`
+
+## 2026-07-19 — Expertises : Divorce Bordeaux (fidélité Wix)
+
+- Procédure contentieuse : titres d’étapes rétablis (assignation, mesures provisoires, jugement, finalisation, mise en état) + puces
+- FAQ Wix (7 questions) restaurée en tête ; les 14 questions déjà présentes sont gardées
+- CTA « Obtenir un premier avis » dans le hero ; texte RDV Wix ; section Garde de nouveau remplie
+- Doublons de scrape nettoyés ; simulateurs / SEO / réseaux déjà OK (lots précédents)
+- Tests : `/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux`
+
+## 2026-07-19 — Expertises : droit pénal (fidélité Wix)
+
+- Titres complets rétablis (Atteintes personnes / biens, Délinquance organisée, Cybercriminalité, JIRS, Préparation intensive, Travail de personnalisation, Outils concrets)
+- Meta description remise comme sur Wix (garde à vue / 20 ans / 24h/24)
+- Déjà OK post-lots : FAQ 8 questions, SEO canonical/OG, liste d’affaires (20)
+- Tests : `/defense-penale/droit-penal` → sections Complexes / Équipe / Méthodes → titres longs visibles
+
+## 2026-07-19 — Expertises : défense des élus (fidélité Wix)
+
+- Titre « E-réputation et cyberharcèlement » de nouveau visible (le gabarit le faisait disparaître car le texte était un doublon)
+- Doublons inutiles nettoyés dans le JSON (paragraphes répétés sans titre)
+- Note : sur le site Wix live, le texte sous ce titre est **aussi** une copie de « Diffamation… » — on n’a rien inventé ; à réécrire plus tard côté contenu si voulu
+- Déjà OK : 4 blocs « Réagir à l’urgence », FAQ
+- Tests : `/defense-penale/defense-des-elus` → section Presse → voir le titre E-réputation
+
+## 2026-07-19 — Expertises : procès criminel (fidélité Wix)
+
+- Phrase cassée « Et donc également devant : » : liste Charente (Angoulême) + Dordogne (Périgueux) rétablie depuis la source live
+- Audit expertises archivé dans `docs/scratch/audit-expertises.html` (référence pour la suite)
+- Déjà OK post-lots : puces procédure, FAQ, lien indemnisation, SEO canonical/OG
+- Tests : page `/defense-penale/proces-criminel` → section Compétences → liste des deux cours d’assises
+
 ## 2026-07-19 — Lot 6 audit : demandes + nav RDV
 
 - **Demandes admin** : recherche (nom, e-mail, objet…) + pages Suivant/Précédent (plus de plafond 200 sans suite)
