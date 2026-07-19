@@ -158,15 +158,14 @@ function normalizeBlocks(blocks: Block[]): Block[] {
     if (bodyKey && seenBodies.has(bodyKey) && !heading) continue
     if (bodyKey) seenBodies.add(bodyKey)
 
-    // Drop body that only repeats the previous heading block
+    // Drop body that only echoes the previous block (Wix scrape double),
+    // but keep a distinct heading even if the body was wrongly duplicated on Wix.
     if (out.length) {
       const prev = out[out.length - 1]
-      if (
-        prev.heading &&
-        bodyKey &&
+      const bodyEchoesPrev =
+        Boolean(bodyKey) &&
         cleanText(prev.body).slice(0, 120).toLowerCase() === bodyKey.slice(0, 120)
-      )
-        continue
+      if (bodyEchoesPrev && (!heading || heading === prev.heading)) continue
     }
 
     out.push({ heading, body })
