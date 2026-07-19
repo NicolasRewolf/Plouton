@@ -5,6 +5,14 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : Procès criminel (texte MD fidèle H2/H3/H4)
+
+- JSON réécrit depuis le MD Wix : 5 sections H2, 4 blocs H3, 0 H4 ; 13 puces
+- Listes et lien indemnisation conservés ; FAQ / formulaire / carrousel hors sections
+- Tests : `/defense-penale/proces-criminel` — build OK
+
+---
+
 ## 2026-07-19 — Expertises : Droit pénal (texte MD fidèle H2/H3/H4)
 
 - JSON réécrit depuis le MD Wix : 5 sections H2, 15 blocs H3, 13 sous-blocs H4 (plus d’aplatissement)
