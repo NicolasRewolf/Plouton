@@ -9,18 +9,16 @@ import { StickyCta } from "@/components/StickyCta"
 import { TeamCtaBanner } from "@/components/TeamCtaBanner"
 import {
   getAuthor,
-  getRicos,
   getSite,
 } from "@/lib/content"
 import { categoryPublicHref } from "@/lib/gallery-filters"
 import {
   resolvePostBodyMode,
+  resolvePublicBodyHtml,
   resolvePublishedArticle,
   resolvePublishedSlugs,
 } from "@/lib/posts-public"
 import { relatedForArticle } from "@/lib/queries"
-import { RicosBody } from "@/lib/ricos/render"
-import type { RicosDoc } from "@/lib/ricos/types"
 import { JsonLd, absoluteUrl, organizationSchema } from "@/lib/seo"
 import { safeMetaDescription } from "@/lib/meta-description"
 
@@ -100,7 +98,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const article = await resolvePublishedArticle(slug)
   if (!article) notFound()
   const bodyMode = resolvePostBodyMode(article)
-  const ricos = bodyMode === "ricos" ? getRicos(article.slug) : null
+  const bodyHtml = resolvePublicBodyHtml(article)
   const site = getSite()
   const url = `${site.url}/post/${article.slug}`
   const author = getAuthor(article)
@@ -141,10 +139,17 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
         dateModified: article.updatedAt ?? article.publishedAt,
         author: {
           "@type": "Person",
+          ...(authorSlug
+            ? { "@id": absoluteUrl(`/auteur/${authorSlug}#person`) }
+            : {}),
           name: author?.shortName ?? author?.displayName ?? article.author,
+          ...(author?.jobTitle || author?.role
+            ? { jobTitle: author.jobTitle || author.role }
+            : {}),
           ...(authorSlug
             ? { url: absoluteUrl(`/auteur/${authorSlug}`) }
             : {}),
+          ...(author?.linkedin ? { sameAs: [author.linkedin] } : {}),
         },
         publisher: { "@id": site.cabinetId },
         mainEntityOfPage: url,
@@ -237,16 +242,10 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             </h1>
           </header>
 
-          {bodyMode === "ricos" && ricos ? (
-            /* Arbre Ricos exact du live (Phase 3) — structure fidèle :
-             * liens, couleurs, tableaux, listes, accordéons, embeds. */
-            <div className="prose-plouton prose-blog mt-8">
-              <RicosBody doc={ricos.ricos as RicosDoc} slug={article.slug} />
-            </div>
-          ) : bodyMode === "db-html" || bodyMode === "html" ? (
+          {bodyMode === "html" && bodyHtml ? (
             <div
               className="prose-plouton prose-blog mt-8"
-              dangerouslySetInnerHTML={{ __html: article.bodyHtml || "" }}
+              dangerouslySetInnerHTML={{ __html: bodyHtml }}
             />
           ) : (
             <div className="prose-plouton prose-blog mt-8">

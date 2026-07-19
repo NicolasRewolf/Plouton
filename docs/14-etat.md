@@ -1,12 +1,13 @@
 # État d'avancement — Plouton
 
-_Mis à jour : 2026-07-19 (FAQ Supabase + admin)_
+_Mis à jour : 2026-07-19 (brief #18 P1-C/D en cours sur `fix/blog-18-brief-fidele`)_
 
 Vue unique de « où on en est ». À relire en premier, mettre à jour à chaque grande étape.
 Détail des livraisons dans [`../JOURNAL.md`](../JOURNAL.md).
 Passation agents : [`PASSATION-2026-07-18.md`](PASSATION-2026-07-18.md).
 Audit santé : [`15-audit-sante.md`](15-audit-sante.md).
 UI canonique : [`16-composants-ui.md`](16-composants-ui.md).
+Blog / éditeur : [`18-blog-architecture-et-editeur.md`](18-blog-architecture-et-editeur.md).
 
 ---
 
@@ -19,11 +20,11 @@ UI canonique : [`16-composants-ui.md`](16-composants-ui.md).
 
 ---
 
-## 📋 Plan C5 (figé)
+## 📋 Plan C5 (figé) — évolue avec brief #18
 
 1. Lecture publique **serveur** via `SUPABASE_SECRET_KEY` (`status = published`) — **pas** de RLS anon en V1.
-2. Si pas de ligne DB → **fallback JSON** git (dual-run sûr).
-3. Corps : si l’article DB a un corps **édité** (différent du JSON seed) → `bodyHtml` / `body` ; sinon **Ricos** fichier git (les 422 restent fidèles).
+2. Si pas de ligne DB → **fallback JSON** git (dual-run sûr, **filtre status**).
+3. Corps : **`body_doc` / `body-html/`** (plus de Ricos runtime). Ricos = archive git + gel admin.
 4. Au publish → `revalidatePath` / `revalidateTag` (article, listes, sitemap).
 5. Admin liste = **DB** (publiés + brouillons).
 6. Covers Storage = **C5.1** (reporté) si pas branché dans cette PR.
@@ -46,7 +47,7 @@ UI canonique : [`16-composants-ui.md`](16-composants-ui.md).
 - **15 pages expertises** (3 pôles, dont Défense des élus) + pages cabinet
 - **3 hubs de pôles** (`/defense-penale`, `/indemnisation-des-victimes`, `/droit-des-contrats-et-des-personnes`)
 - `/blog` + catégories ; **161 redirections 301** ; médias rapatriés
-- Gabarit article `/post/{slug}` (Ricos) + SEO titres/metas live
+- Gabarit article `/post/{slug}` (**body-html** / TipTap, plus Ricos runtime) + SEO titres/metas live
 - Backoffice **blog** + **demandes** dans `site/src/app/admin/` (magic link)
 - **Médias** + **hub Ressources** + uniformité UI (PR #9–#11)
 
@@ -64,10 +65,18 @@ UI canonique : [`16-composants-ui.md`](16-composants-ui.md).
 
 ## 🔧 Dual-run C5
 
-- **Site public** = DB `published` en priorité, **fallback JSON** si row absente
-- **Corps** = Ricos git tant que le corps DB = seed ; sinon `bodyHtml` TipTap / `body`
+- **Site public** = DB `published` en priorité, **fallback JSON** si row absente (brouillons exclus)
+- **Corps** = cache `contenu/body-html/` (dérivé `body_doc`) ; édition admin = `bodyHtml` DB
+- **Ricos** = archive + garde-fou admin uniquement (plus de rendu public)
 - **Admin** = TipTap + liste DB · publish → revalidate
 - **Pas** de RLS anon (lecture via `SUPABASE_SECRET_KEY` serveur)
+
+## ⚠ Brief #18 — reste à faire (branche `fix/blog-18-brief-fidele`)
+
+- ✅ Migrations `0007`–`0010` + seed auteurs **appliquées** sur Supabase (2026-07-19)
+- Fin dual-run JSON (quand DB 100 % sûre) ; backfill `body_doc` en base encore à lancer
+- Confort éditeur (autosave, collage Word) + graphe JSON-LD §4.1 complet
+- **Merge seulement sur ton feu vert**
 
 ## ⚠ Réalité pages publiques (hors articles)
 

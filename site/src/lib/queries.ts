@@ -111,7 +111,11 @@ export async function affairesArticles(): Promise<ArticleIndexItem[]> {
   )
 }
 
-/** Vues Wix (stats-posts.json) — pour hubs / tri « plus consultés ». */
+/**
+ * Snapshot Wix (stats-posts.json). Brief #18 P1-D : après reconcile SQL
+ * (GREATEST), ce JSON disparaît — en attendant : max(JSON, DB) pour ne
+ * jamais perdre de vues (116 slugs divergent, JSON souvent ≥).
+ */
 function postViewCounts(): Record<string, number> {
   try {
     const raw = JSON.parse(
@@ -129,7 +133,9 @@ function withViews(
   item: ArticleIndexItem,
   views: Record<string, number>
 ): ArticleIndexItem {
-  return { ...item, viewCount: views[item.slug] ?? item.viewCount ?? 0 }
+  const fromJson = views[item.slug] ?? 0
+  const fromDb = item.viewCount ?? 0
+  return { ...item, viewCount: Math.max(fromJson, fromDb) }
 }
 
 /** Résout une liste de slugs (ordre préservé) depuis l’index. */

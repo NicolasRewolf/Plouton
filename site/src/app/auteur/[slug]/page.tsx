@@ -74,12 +74,15 @@ export default async function AuteurPage({
     "@type": "ProfilePage",
     mainEntity: {
       "@type": "Person",
+      "@id": absoluteUrl(`/auteur/${author.id}#person`),
       name: author.shortName,
-      jobTitle: author.role || "Avocat à la Cour",
+      ...(author.legalName ? { alternateName: author.legalName } : {}),
+      jobTitle: author.jobTitle || author.role || "Avocat à la Cour",
       description: author.bio,
       image: author.avatar ? absoluteUrl(author.avatar) : undefined,
       url: absoluteUrl(`/auteur/${author.id}`),
       ...(author.linkedin ? { sameAs: [author.linkedin] } : {}),
+      ...(author.knowsAbout?.length ? { knowsAbout: author.knowsAbout } : {}),
       worksFor: { "@type": "LegalService", name: "Cabinet Plouton" },
     },
   }

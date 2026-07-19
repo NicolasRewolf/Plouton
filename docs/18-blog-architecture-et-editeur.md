@@ -1,0 +1,531 @@
+# 18 — Blog : architecture, éditeur, auteurs et SEO
+
+_Rédigé le 2026-07-19. Audit 360 (8 agents, 5 axes de code + 2 recherches éditeur) + reconnaissance
+live de l'éditeur Wix. Spec de décision : Claude audite/spécifie → Cursor/Grok applique._
+
+> ⚠️ **Avant de coder** (`site/AGENTS.md`) : ce Next.js est non-standard, lire
+> `node_modules/next/dist/docs/` avant d'écrire la couche de rendu ou de cache.
+
+> **Correction d'une prémisse fausse** : le brief initial de cet audit indiquait que l'admin
+> utilisait Editor.js. C'est FAUX — l'admin est déjà sur **Tiptap 3.28**. Il n'y a donc
+> **aucune migration d'éditeur à faire**. Les agents l'ont détecté et corrigé ; les conclusions
+> ci-dessous intègrent cette réalité.
+
+**Urgence n°1** : `128 / 422` articles sont détruits irréversiblement à la première sauvegarde
+dans l'admin. Voir §6, lot **P0-A**. À traiter avant d'ouvrir l'admin aux rédacteurs.
+
+---
+
+# Synthèse décisionnelle — Système de blog Plouton
+
+*Racine du dépôt : `/Users/nicolas/Desktop/Plouton/.claude/worktrees/avis-avancee-projet-5df3c6/`. Tous les chemins ci-dessous sont relatifs à cette racine.*
+
+---
+
+## 0. Avertissement liminaire : une des deux recherches part d'une prémisse fausse
+
+La recherche n°2 chiffre 12 à 17 jours-homme pour « migrer Editor.js vers Tiptap ». **Cette migration n'existe pas.** Le back-office est déjà sur Tiptap 3.28 (`site/package.json`, `site/src/components/admin/AdminEditor.tsx:31-50`), et Editor.js ne subsiste que comme chemin de *lecture* mort (`site/src/lib/article-body.ts:21-24`) : 0 article sur 422 est en Editor.js. La recherche n°1 l'a vérifié dans le code et a raison.
+
+**Conséquence sur l'arbitrage** : toute la section « coût de migration » de la recherche n°2 est à jeter, mais son analyse comparative des licences, du SSR et du collage Word reste valide et je m'en sers ci-dessous. Le vrai chantier n'est pas « quel éditeur », c'est **« quel format de corps »** — et personne ne l'a posé comme la question centrale. C'est pourtant elle qui commande tout le reste.
+
+---
+
+## 1. Le diagnostic en une page
+
+Le système n'a pas un problème, il a **une cause racine unique qui se propage sur cinq axes** : *rien n'a de source de vérité déclarée*. Chaque donnée existe en 2 à 4 exemplaires, et l'arbitrage entre eux est fait à l'exécution par des comparaisons de chaînes.
+
+### Niveau 1 — Porte à sens unique (à bloquer aujourd'hui)
+
+| # | Incohérence | Mécanique | Exposition |
+|---|---|---|---|
+| **1** | **Le corps d'article existe en 3 exemplaires** : `contenu/ricos/*.json` (422 fichiers, 19,65 Mo, fidèle), `posts.body_html` (2,96 Mo, dérivé CSV lossy), `posts.body[]` (2,37 Mo, texte aplati). Le public rend le **Ricos** ; l'admin ouvre le **bodyHtml**. | `resolvePostBodyMode()` (`site/src/lib/posts-public.ts:64-74`) bascule en `db-html` dès que la signature du corps DB diverge du seed. Or l'admin régénère `body` et `bodyHtml` à **chaque** sauvegarde (`site/src/app/admin/[slug]/page.tsx:68-71`) : la divergence est garantie même sans modification. | **128/422 articles (30,3 %)** dégradés à la première sauvegarde. 81 perdent effectivement du contenu (76 tableaux, 104 accordéons, 74 images, 45 aperçus de liens, 17 boutons, 16 vidéos, 9 galeries). Irréversible : aucun historique de versions. |
+| **2** | **Le schéma Tiptap est strictement plus pauvre que le moteur de rendu.** 33 types Ricos rendus publiquement, ~12 productibles par l'éditeur. | ProseMirror supprime au parsing tout ce qui n'est pas dans le schéma, puis `onUpdate → getHTML()` réécrit la version amputée (`AdminEditor.tsx:57-59`). Silencieux. | 71 articles contiennent table/details/figure/h4/iframe. Corriger une virgule les détruit. |
+| **3** | **`scripts/seed-posts.py` se présente comme idempotent et ne l'est pas** : upsert full-row + coercition `status → published` (l.82-84). | Rejouer le seed après la moindre édition annule tout, republie les archivés et publie les programmés. | Le risque est maximal parce que la docstring invite explicitement à le relancer. |
+| **4** | **58 % des metaDescription sont tronquées à l'apostrophe** — valeurs réelles en base : `"L"`, `"Cour d"`, `"Victime d"`. | Cause racine prouvée : la regex de `scripts/baseline.py:79` ferme sa capture sur la classe `["']`. Le correctif de référence existe déjà dans le dépôt (`scripts/scrape-expertises-live.py:277`, BeautifulSoup). | 224 pages servent une description vide de sens ; 8 articles partagent `"Victime d"`, 8 `"Cour d"`, 7 `"L"`. Et **`??` ne rattrape pas** : `metaDescription ?? excerpt` (`site/src/app/post/[slug]/page.tsx:45`) laisse passer une chaîne d'un caractère. La contamination touche aussi `contenu/baseline/live-baseline.json` (228/413) et donc les pages piliers commerciales. |
+
+### Niveau 2 — Dégradation structurelle à chaque écriture
+
+- **Catégories** : l'admin lit `categories[0]` et réécrit un tableau à un élément (`admin/[slug]/page.tsx:40` et `:63-67`). **231/422 articles** perdent jusqu'à 5 catégories à la première sauvegarde. `categoryIds` n'est jamais recalculé → les deux colonnes désynchronisent et `articleMatchesCategory` (`queries.ts:27-35`) devient non déterministe selon le chemin emprunté.
+- **Auteurs** : deux référentiels disjoints sans champ de jointure (`contenu/auteurs.json` clé slug+wixId, `contenu/equipe.json` clé GUID d'un autre espace), avec une orthographe divergente (Fresneau / Fesneau) et des fichiers image divergents. L'admin expose un **GUID Wix de 36 caractères** dans un champ texte libre (`AdminPostMeta.tsx:81-84`) : taper « Julien Plouton » casse la liaison définitivement, car le `displayName` réel est « Julien Plouton - Avocat à la Cour ». Le corpus est aujourd'hui à 100 % sain — cette propreté **n'est protégée par rien**.
+- **Aucun filet** : 0 autosave, 0 `beforeunload`, 0 historique de versions, 0 aperçu de brouillon. Toutes les destructions ci-dessus sont donc définitives.
+
+### Niveau 3 — Doubles sources de vérité passives
+
+- **Vues** : `posts.view_count` (257 587) est écrasé à chaque lecture par `contenu/stats-posts.json` (258 357) dans `queries.ts:115-133`. 116 valeurs divergent. **`docs/17-cms-supabase-spec.md:35` recommande l'inverse** — appliquer la spec telle quelle ferait perdre 770 vues et fausserait les tris « les plus consultés ».
+- **Taxonomie** : `categories.json` porte un `postCount` figé à l'import (« Défense des élus : 0 »).
+- **Index** : `articles-index.json` n'a pas de champ `status`. Si Supabase tombe, `posts-public.ts:91-94` republie brouillons et archivés.
+- **Champs fantômes** : `tags` (colonne + mapping + rendu, 0 donnée, 0 champ de saisie), `coverImageWix` (421 valeurs, jamais persistées), `listArticles`/`publishedArticles`/`getFaq` (0 appelant, et `publishedArticles` ne filtre pas les publiés).
+
+### Niveau 4 — SEO : la couche la plus visible, la moins coûteuse à réparer
+
+Le corpus éditorial est **excellent** (0 doublon de titre/excerpt/corps, 0 orphelin, médiane 680 mots, 12 à 23 liens internes par article, sourcing Legifrance réel). Ce qui est cassé est purement mécanique :
+
+`image` JSON-LD relative sur 422/422 (inéligibilité rich results Article) · `article:author` = UUID brut sur 422/422 · `dateModified` = `datePublished` sur 422/422 · breadcrumb pointant vers un fragment `/#affaires` · `aggregateRating` auto-attribué répliqué sur 422 pages (risque d'action manuelle domaine entier) · `og:site_name` et `og:locale` écrasés par l'override de page · cover jamais rendue dans le DOM · 46/47 images de corps en `alt=""` · lastmod du sitemap = heure du build sur 27 URLs, à la milliseconde près · 241/418 metaTitle > 60 car.
+
+**Hiérarchie de traitement** : le niveau 1 est du gel et de la réparation de script (jours). Le niveau 2 est le vrai chantier d'architecture (semaines). Le niveau 4 est du gain immédiat et découplé — il ne faut pas l'attendre.
+
+---
+
+## 2. L'architecture cible
+
+### Principe directeur
+
+> **Une donnée, un lieu, un format. Tout le reste est un cache dérivé, régénérable par script, jamais éditable, et vérifié en CI.**
+
+Postgres est la source de vérité. `contenu/*.json` devient un artefact d'import archivé, sorti du runtime.
+
+### 2.1 Le corps d'article — l'arbitrage central
+
+**Décision : `posts.body_doc jsonb` = document ProseMirror. C'est la source unique. `posts.body_html text` = cache dérivé, généré côté serveur à l'écriture par `@tiptap/static-renderer`, jamais édité à la main, régénérable pour les 422 en une commande.**
+
+Pourquoi pas « HTML source unique », que recommande la recherche n°1 ? Parce que **c'est exactement le mode de défaillance actuel**. Si le stockage est du HTML, chaque ouverture dans l'admin fait passer ce HTML par le parseur ProseMirror, qui le contraint au schéma et le mute silencieusement. Le round-trip n'est pas l'identité, et il ne le sera jamais de façon prouvable. Si le stockage **est** le format de l'éditeur, l'étape de parsing disparaît : ouvrir un article ne peut plus l'abîmer. C'est la seule garantie structurelle, et c'est ce qui protège les 71 articles à markup riche pour de bon.
+
+Trois gains dérivés, tous alignés sur les axes SEO et éditorial :
+1. **Extraction structurée gratuite** : `wordCount`, `timeRequired`, sommaire + ancres H2/H3, paires Question/Réponse pour le `FAQPage`, `citation` (les liens `legifrance.gouv.fr` du document) — tout se lit dans l'arbre, sans regex sur du HTML.
+2. **SSR inchangé et sans coût** : `renderToHTMLString()` tourne en Server Component, sans DOM. La page reste un Server Component avec le corps dans le HTML initial, zéro JS d'éditeur envoyé au visiteur.
+3. **Portabilité** : le JSON ProseMirror est réimportable dans BlockNote ou Milkdown si Tiptap disparaît.
+
+**Garde-fou obligatoire** : un test CI qui régénère `body_html` depuis `body_doc` pour les 422 et exige un diff vide. Le jour où le mapping éditeur et le mapping rendu divergent, l'avocat publie autre chose que ce qu'il a vu — c'est le risque n°1 de ce format et il se neutralise par ce seul test.
+
+**Ce qui disparaît** : `resolvePostBodyMode`, `preferDbBody`, `bodySignature`, la colonne `posts.body`, le décodage Editor.js résiduel, `contenu/ricos/` hors du runtime (conservé en archive git), et les 5 modes de rendu de `post/[slug]/page.tsx:89-210`.
+
+### 2.2 Schéma de base cible
+
+```sql
+-- 0007_authors.sql
+create table public.authors (
+  slug          text primary key,              -- "julien-plouton"
+  display_name  text not null,                 -- "Julien Plouton"
+  legal_name    text,                          -- "Julien Plouton - Avocat à la Cour"
+  short_name    text not null,
+  job_title     text not null,                 -- "Avocat au barreau de Bordeaux"
+  bio           text not null,                 -- 6/6 obligatoires (source: equipe.json)
+  formation     text,
+  bar_admission text,                          -- "Barreau de Bordeaux, serment 2004"
+  knows_about   text[] default '{}',           -- domaines de droit -> Person.knowsAbout
+  linkedin_url  text,
+  avatar        text not null,
+  wix_id        text unique,                   -- archive, plus jamais lu à l'exécution
+  is_author     boolean not null default true, -- exclut Alexia Simonini (assistante)
+  db_updated_at timestamptz not null default now()
+);
+
+-- 0008_posts_v2.sql
+alter table public.posts
+  add column body_doc      jsonb,                       -- SOURCE DE VÉRITÉ
+  add column author_slug   text references authors(slug),
+  add column reviewer_slug text references authors(slug), -- E-E-A-T: relecture avocat
+  add column reviewed_at   timestamptz,
+  add column tags          text[] not null default '{}',
+  add column word_count    integer,
+  add column cover_alt     text,
+  add column cover_width   integer,
+  add column cover_height  integer,
+  add column published_at_ts timestamptz,               -- remplace la date tronquée
+  add column content_updated_at timestamptz;            -- dateModified ÉDITORIAL réel
+
+comment on column public.posts.body_html is
+  'CACHE DÉRIVÉ de body_doc via @tiptap/static-renderer. Ne jamais éditer. Régénérable.';
+comment on column public.posts.db_updated_at is
+  'Technique (trigger). Ne pas utiliser pour dateModified — voir content_updated_at.';
+
+alter table public.posts drop column body;              -- après vérif modes blocks inatteignables
+alter table public.posts drop column author, drop column author_id;
+
+-- 0009_taxonomy.sql
+create table public.categories (
+  id text primary key, label text not null unique, slug text not null unique,
+  description text, sort_order integer not null default 0
+);
+create view public.category_post_counts as
+  select c.id, c.slug, count(p.slug) filter (where p.status = 'published') as post_count
+  from categories c left join posts p on c.id = any(p.category_ids) group by c.id, c.slug;
+
+-- 0010_post_versions.sql
+create table public.post_versions (
+  id bigserial primary key,
+  post_slug text not null references posts(slug) on delete cascade,
+  body_doc jsonb not null, title text, categories text[], meta_title text, meta_description text,
+  author_email text, created_at timestamptz not null default now()
+);
+create index on post_versions (post_slug, created_at desc);
+```
+
+**Décisions tranchées dans ce schéma :**
+
+- **Vues** : `posts.view_count` devient la source unique, **après** un `UPDATE` depuis `stats-posts.json` (le snapshot le plus récent, toujours ≥). Puis suppression de `withViews`/`postViewCounts` et du JSON. La spec `docs/17` est à corriger avant application.
+- **Catégories** : `category_ids[]` devient la clé de jointure, `categories[]` (labels) devient un cache dérivé recalculé serveur à l'écriture. Fin de la double stratégie de matching. `category_ids` est ajouté à `INDEX_SELECT` (`posts-db.ts:52-53`), ce qui rend enfin atteignable la branche id de `queries.ts:33`.
+- **Tags** : le champ passe de mort à vivant, mais **les pages tag ne sont pas indexables au départ**. Les tags alimentent les blocs « articles liés » et le maillage interne. Une page `/theme/<tag>` n'est créée et indexée qu'au-delà de **8 articles** portant le tag — en dessous, c'est du thin content et du budget de crawl gaspillé. C'est l'unique levier de profondeur qui reste sur un corpus déjà dense : 191 articles n'ont qu'une catégorie, et « Droit Pénal » en agrège 121.
+- **« Défense des élus »** : supprimée du référentiel et de la navigation (0 article, soft 404 potentiel). Casse de libellés harmonisée en minuscules (« Droit pénal », « Violences conjugales »).
+- **Statuts** : `draft | scheduled | published | archived` conservés, mais la promotion `scheduled → published` **sort du chemin de rendu**. Aujourd'hui l'UPDATE est dans `unstable_cache` (`posts-db.ts:204-211`) : il peut ne jamais s'exécuter, ou s'exécuter pendant `next build`, et il n'invalide aucun tag. Cible : route `/api/cron/publish` appelée par Vercel Cron, qui promeut puis appelle `revalidatePostSurfaces`.
+- **`articles-index.json` et le dual-run** : supprimés. Les 422 lignes sont en DB. Maintenir un fallback JSON sans champ `status` crée un mode de défaillance où une panne Supabase republie brouillons et archivés. On tranche : DB seule, `fetchPublishedIndexMerged` / `resolveAdminArticleList` / la branche FsStore disparaissent.
+
+### 2.3 Médias
+
+Bucket Supabase `medias` unique. À l'insertion : **`alt` obligatoire** (bloquant côté UI et côté API), `caption` optionnelle, `width`/`height` capturées et stockées (elles alimentent `ImageObject` et évitent le CLS). Les images encore hotlinkées depuis `static.wixstatic.com` (74 nœuds IMAGE) sont rapatriées pendant la conversion du corpus — c'est le seul moment où on les touche de toute façon.
+
+---
+
+## 3. Le choix d'éditeur
+
+### Décision : **rester sur Tiptap 3**, et acheter **Tiptap Start** (49 $/mois en annuel, ~588 $/an) pour le Paste Handler.
+
+**Pourquoi rester** — l'argument est court parce que la question est mal posée : il n'y a pas de migration à faire. Tiptap 3.28 est en place, il produit déjà le format cible, son cœur est MIT sans copyleft (contrairement à BlockNote XL en GPL-3.0 et CKEditor en GPL-2+, tous deux incompatibles avec un back-office propriétaire livré à un client), il est le plus mature du panel (v3.28.0, 37,7k étoiles, 979 releases), et **tout ce qui manque est disponible en MIT** : `@tiptap/extension-table` (TableKit), `Details`, `DragHandle` et `TableOfContents` sont repassés MIT en juin 2025 ; `@tiptap/static-renderer` (MIT) règle le SSR ; les UI Components s'installent en copiant le code source dans le dépôt (modèle shadcn, `npx @tiptap/cli add`) pour le slash menu, la bubble toolbar et le drag handle.
+
+Les alternatives ne gagnent sur aucun critère décisif : BlockNote est en 0.x avec une API non figée et un piège de licence à 195 $/mois ; Plate repose sur Slate, auto-déclaré « in beta », « not backed by any huge company », avec 4 majeures en 9 mois ; Lexical est un framework où tout est à construire ; Novel n'a plus de release depuis 17 mois ; Milkdown a un bus factor de 1 annoncé publiquement par son mainteneur.
+
+### L'argument décisif pour des avocats qui collent du Word
+
+**Le problème du collage Word est à 70 % un problème de *schéma*, pas de *nettoyage*.** ProseMirror ne « casse » pas Word : il supprime silencieusement tout ce que le schéma ne déclare pas. Un avocat qui colle un tableau comparatif perd son tableau parce qu'il n'y a **aucune extension Table** (`AdminEditor.tsx:31-50`), pas parce que le HTML de Word est sale. Élargir le schéma (lot 4 ci-dessous) résout donc l'essentiel de la douleur ressentie, avant même d'avoir écrit une ligne de nettoyage.
+
+Les 30 % restants — les listes Word, que Word exporte en paragraphes `MsoListParagraph` avec la puce dans un commentaire conditionnel — sont un vrai travail de reconstruction. **Je tranche contre la recherche n°1 sur ce point : acheter, ne pas construire.** 2 à 3 jours-homme de développement clipboard coûtent au bas mot 2 000 à 3 000 €, soit 4 à 5 ans d'abonnement, pour un résultat inférieur sur les cas Word Windows complexes. Et l'objection de confidentialité soulevée par la recherche n°1 ne tient pas : `@tiptap-pro/extension-paste-handler` est **un paquet npm qui s'exécute dans le navigateur**. L'abonnement n'est qu'un jeton de registre npm ; aucun brouillon ne transite par Tiptap Cloud, qu'on n'active pas.
+
+**Condition de sortie** : si le cabinet refuse tout abonnement récurrent, le repli est un `transformPastedHTML` maison ou `@intevation/tiptap-extension-office-paste` (communautaire, MIT). L'architecture est identique dans les deux cas — c'est une décision réversible, pas structurante.
+
+**À prévoir dans tous les cas** : un bouton « Coller sans mise en forme » (Cmd+Shift+V) visible dans la barre d'outils, et une recette **avec un avocat, sur ses propres documents**, avant mise en production. Un test synthétique ne détecte rien.
+
+### Extensions à ajouter au schéma (couverture des 33 types Ricos)
+
+| Besoin | Solution | Coût |
+|---|---|---|
+| Tableaux (76 nœuds TABLE, 1379 cellules) | `@tiptap/extension-table` (MIT) | 0,5 j |
+| Accordéons (104 COLLAPSIBLE_ITEM) | `@tiptap/extension-details` (MIT, repassé en juin 2025) | 0,5 j |
+| Titres H4 (7 articles) | `heading: { levels: [2,3,4] }` | 0 |
+| Exposant (23 SUPERSCRIPT — `art. 1240 al. 2`) | `@tiptap/extension-superscript` + subscript | 0,25 j |
+| Ancres (71 ANCHOR) | `@tiptap/extension-unique-id` + id dérivé du texte sur H2/H3 | 0,5 j |
+| Sommaire | `@tiptap/extension-table-of-contents` (MIT) | 0,25 j |
+| Figure + légende (28) | Nœud custom `figure`/`figcaption`, alt obligatoire | 1 j |
+| Aperçu de lien (45), Bouton (17), Vidéo (16), Galerie (9), iframe (4) | 5 nœuds custom à attributs typés, rendus par composants React | 2 j |
+| Callout / encadré juridique | Nœud custom typé (référence, source, lien Légifrance) | 0,5 j |
+
+**Arbitrage tranché sur COLOR (4 937 nœuds) et FONT_SIZE (1 020)** : **on ne les porte pas.** Les couleurs et tailles inline arbitraires sont de la dette de design importée de Wix, et 73 articles les ont déjà perdues dans `bodyHtml` sans dommage constaté. Le convertisseur les supprime, produit un rapport d'audit des 4 937 occurrences, et on relit ~20 articles au hasard pour vérifier qu'aucune ne portait du sens. En cas de sens réel (surlignage d'un point de droit), on mappe vers une marque sémantique `highlight` — pas vers un code hexadécimal.
+
+### Plan de migration des 422 articles
+
+**Le chemin est Ricos → ProseMirror JSON, en direct. Jamais via HTML.** Passer par HTML ajoute une passe lossy à une chaîne qui en compte déjà trop, et c'est précisément ce qui a produit les `bodyHtml` appauvris qu'on cherche à abandonner. Ricos est déjà un arbre de nœuds ; le mapping vers ProseMirror est structurel, type à type, et `site/src/lib/ricos/render.tsx` documente déjà les 33 types (le `next build` sert de test de complétude via `site/src/lib/ricos/types.ts:1-4`).
+
+1. **Inventaire exhaustif** des types et attributs réellement présents dans les 422 Ricos, avant d'écrire une ligne de convertisseur. *0,5 j.*
+2. **Convertisseur `ricos-to-prosemirror.ts`**, un cas par type, exception levée sur type inconnu (pas de silence). *3 j.*
+3. **Backfill idempotent et rejouable** vers `body_doc`, sans jamais supprimer `contenu/ricos/` ni `body_html` pendant la validation. *0,5 j.*
+4. **Diff automatisé sur les 422** : comparaison du texte brut normalisé avant/après, alerte au-delà d'un seuil ; plus un comptage par type de nœud (76 tableaux entrants doivent donner 76 tableaux sortants). Personne ne relira 422 articles à l'œil — la régression doit être détectable par machine. *1,5 j.*
+5. **Relecture visuelle manuelle de 40 articles** choisis parmi les plus longs et les plus riches en nœuds. *1 j.*
+6. **Bascule** : `body_doc` devient la source, `body_html` est régénéré, `resolvePostBodyMode` et toute la cascade sont supprimés. *1,5 j.*
+
+**Total conversion : 8 jours-homme.** Les 422 articles ne sont pas le poste coûteux — le convertisseur tourne en quelques minutes. Le coût est dans le convertisseur et dans la preuve de non-régression.
+
+---
+
+## 4. Le plan SEO des articles
+
+### 4.1 Le balisage JSON-LD cible, champ par champ
+
+Un **seul** bloc `<script type="application/ld+json">` par page, contenant un `@graph` avec des `@id` stables et croisés. C'est ce qui permet la réconciliation d'entités — aujourd'hui trois blocs séparés coexistent et l'auteur de l'article n'est jamais raccordé au `founder` déjà déclaré dans `site/src/lib/seo.tsx:119-124`.
+
+```jsonc
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    // ─── 1. Le cabinet (inchangé sauf aggregateRating SUPPRIMÉ) ───
+    {
+      "@type": ["LegalService", "Organization"],
+      "@id": "https://www.jplouton-avocat.fr/#cabinet",
+      "name": "Cabinet Plouton",
+      "url": "https://www.jplouton-avocat.fr/",
+      "logo": { "@type": "ImageObject", "@id": ".../#logo", "url": "<absolue>", "width": 512, "height": 512 },
+      "address": { "@type": "PostalAddress", "addressLocality": "Bordeaux", "addressCountry": "FR", "...": "..." },
+      "areaServed": [{ "@type": "AdministrativeArea", "name": "Nouvelle-Aquitaine" }],
+      "founder": { "@id": "https://www.jplouton-avocat.fr/auteur/julien-plouton#person" },
+      "member": [{ "@id": ".../auteur/julien-plouton#person" }, "... les 5 autres"],
+      "knowsAbout": ["Droit pénal", "Indemnisation des victimes", "Droit pénal des affaires"]
+      // aggregateRating: SUPPRIMÉ — voir 4.2
+    },
+
+    // ─── 2. Le site ───
+    {
+      "@type": "WebSite", "@id": ".../#website",
+      "url": "https://www.jplouton-avocat.fr/", "name": "Cabinet Plouton",
+      "publisher": { "@id": ".../#cabinet" }, "inLanguage": "fr-FR"
+    },
+
+    // ─── 3. L'auteur — entité pivot E-E-A-T ───
+    {
+      "@type": "Person",
+      "@id": "https://www.jplouton-avocat.fr/auteur/julien-plouton#person",
+      "name": "Julien Plouton",
+      "url": "https://www.jplouton-avocat.fr/auteur/julien-plouton",   // page RÉELLE, à créer
+      "image": { "@type": "ImageObject", "url": "<avatar absolu>" },
+      "jobTitle": "Avocat au barreau de Bordeaux",
+      "worksFor": { "@id": ".../#cabinet" },
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "<depuis equipe.json.formation>" },
+      "knowsAbout": ["Droit pénal", "Cour d'assises", "Indemnisation du préjudice corporel"],
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Inscription au barreau",
+        "recognizedBy": { "@type": "Organization", "name": "Barreau de Bordeaux" }
+      },
+      "sameAs": ["<linkedin depuis equipe.json>", "<fiche annuaire du barreau>"],
+      "description": "<bio>"
+    },
+
+    // ─── 4. La page ───
+    {
+      "@type": "WebPage",
+      "@id": "<url canonique de l'article>",
+      "url": "<url canonique>",
+      "name": "<metaTitle>",
+      "isPartOf": { "@id": ".../#website" },
+      "primaryImageOfPage": { "@id": "<url>#cover" },
+      "breadcrumb": { "@id": "<url>#breadcrumb" },
+      "inLanguage": "fr-FR",
+      "datePublished": "2026-07-09T09:00:00+02:00",
+      "dateModified": "<content_updated_at, ISO 8601 COMPLET>",
+      "reviewedBy": { "@id": ".../auteur/<relecteur>#person" },   // si reviewer_slug
+      "lastReviewed": "<reviewed_at>"                            // signal YMYL fort
+    },
+
+    // ─── 5. L'article ───
+    {
+      "@type": "BlogPosting",
+      "@id": "<url>#article",
+      "isPartOf": { "@id": "<url>" },
+      "mainEntityOfPage": { "@id": "<url>" },      // objet, plus une chaîne nue
+      "url": "<url canonique>",
+      "headline": "<title, tronqué à 110 car.>",
+      "alternativeHeadline": "<metaTitle si différent>",
+      "description": "<metaDescription VALIDÉE, cf. 4.2>",
+      "image": {                                    // ABSOLUE + dimensions
+        "@type": "ImageObject", "@id": "<url>#cover",
+        "url": "https://www.jplouton-avocat.fr/media/blog-covers/<slug>.jpg",
+        "width": 1200, "height": 797,
+        "caption": "<cover_alt>"
+      },
+      "author": { "@id": ".../auteur/<slug>#person" },   // référence, plus un name nu
+      "publisher": { "@id": ".../#cabinet" },
+      "datePublished": "<ISO 8601 complet avec fuseau>",
+      "dateModified": "<ISO 8601 complet, ≠ datePublished>",
+      "articleSection": ["Droit pénal", "Procès criminels"],   // depuis categories, 422/422
+      "keywords": ["garde à vue", "comparution immédiate"],     // depuis tags
+      "wordCount": 2186,                                        // calculé depuis body_doc
+      "timeRequired": "PT8M",                                   // minutesToRead, 422/422
+      "inLanguage": "fr-FR",
+      "isAccessibleForFree": true,
+      "citation": [                                             // extrait de body_doc
+        { "@type": "WebPage", "name": "Article 1240 du Code civil",
+          "url": "https://www.legifrance.gouv.fr/..." }
+      ],
+      "about": [{ "@type": "Thing", "name": "Responsabilité civile délictuelle" }],
+      "speakable": { "@type": "SpeakableSpecification",
+                     "cssSelector": [".article-chapo", ".faq-answer"] }
+    },
+
+    // ─── 6. Le fil d'Ariane — hiérarchie RÉELLE, plus de fragment ───
+    {
+      "@type": "BreadcrumbList", "@id": "<url>#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Accueil",
+          "item": "https://www.jplouton-avocat.fr/" },
+        { "@type": "ListItem", "position": 2, "name": "<categories[0]>",
+          "item": "<categoryPublicHref(categories[0])>" },   // déjà résolu en page.tsx:255
+        { "@type": "ListItem", "position": 3, "name": "<title>" }   // pas d'item sur le dernier
+      ]
+    },
+
+    // ─── 7. FAQ (26 articles concernés) ───
+    {
+      "@type": "FAQPage", "@id": "<url>#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "<H3 de la section FAQ>",
+          "acceptedAnswer": { "@type": "Answer", "text": "<réponse, HTML autorisé>" } }
+      ]
+    }
+  ]
+}
+```
+
+**Nuance importante que l'audit ne pose pas** : depuis août 2023, Google réserve de fait les rich results FAQ aux sites gouvernementaux et de santé faisant autorité. **Le `FAQPage` ne rapportera donc pas d'étoiles en SERP.** Il reste à implémenter, mais pour une autre raison : les paires Q/R balisées sont le format le plus repris par les AI Overviews, ChatGPT Search et Perplexity sur les requêtes juridiques longue traîne. C'est un investissement GEO, pas un investissement SERP — il faut le vendre comme tel, sinon le client attendra un résultat qui ne viendra pas.
+
+### 4.2 Les metaDescription — la réparation en trois temps
+
+1. **Corriger la cause** (`scripts/baseline.py:79-82`) : abandonner la regex pour BeautifulSoup, comme le fait déjà `scripts/scrape-expertises-live.py:277`. Vérifier aussi la ligne 80 (attribut inversé) et le pattern `canonical` ligne 82, qui portent le même défaut. **Sans ce correctif, toute reprise de données est réinfectée au prochain passage du script.** *0,5 j.*
+2. **Filet de sécurité runtime immédiat**, découplé et déployable aujourd'hui, dans `site/src/app/post/[slug]/page.tsx:45` :
+   ```ts
+   const ELISION = /\b(l|d|s|n|c|j|m|t|qu|jusqu|aujourd|lorsqu|puisqu)$/i;
+   const md = article.metaDescription?.trim();
+   const description = (md && md.length >= 80 && !ELISION.test(md)) ? md : buildFallback(article.excerpt);
+   ```
+   Ce seul bloc neutralise l'exposition SEO de 224 pages avant même la reprise des données. La règle d'élision est un détecteur fiable à 100 % sur ce corpus : 224 détections, 0 faux positif constaté.
+3. **Régénérer** baseline puis propager vers les 422 articles **et** les pages piliers (`contenu/baseline/live-baseline.json`, 228/413 contaminées, dont `/indemnisation-des-victimes/accidents-de-la-route` — la page à plus forte intention commerciale du site). Test CI bloquant sur le motif d'élision. *2,5 j.*
+
+Cible de rédaction : 140-160 caractères, phrase complète, mot-clé principal en tête. Priorité aux 90 descriptions < 30 caractères, puis aux 224 tronquées, puis aux 37 absentes.
+
+### 4.3 Le reste du lot SEO
+
+| Correctif | Fichier | Effort |
+|---|---|---|
+| `image` absolue + `ImageObject` avec dimensions | `post/[slug]/page.tsx:126` (`absoluteUrl()` existe déjà, `seo.tsx:5-10`) | 15 min |
+| `article:author` = nom résolu, plus l'UUID | `page.tsx:53` (`getAuthor()` est déjà appelé l.93) | 15 min |
+| Supprimer `aggregateRating` des pages article | `seo.tsx:135-140` | 15 min |
+| Corriger « ★★★★★ Pas encore de note » | `page.tsx:186-191` | 15 min |
+| `og:site_name` / `og:locale` réinjectés (l'override de page écrase le layout) | `page.tsx:47-57` + factoriser dans `pageOpenGraph` (`seo.tsx:13-25`) | 0,5 j |
+| `dateModified` réel : `updated_at` dans `INDEX_SELECT`, timestamp complet, propagation JSON-LD + sitemap | `posts-db.ts:53` et `:79`, `page.tsx:122`, `sitemap.ts:9` | 1 j |
+| Supprimer les « Dernière mise à jour : juin 2026 » codés en dur dans 15 corps (3 dates contradictoires sur la même page aujourd'hui) | `contenu/articles/*.json` | 0,5 j |
+| Sitemap : `lastmod` réel (mtime ou date de commit git) pour les 27 pages non-articles, percent-encodage des 331 slugs accentués | `sitemap.ts:8,13,30` | 0,5 j |
+| Cover rendue en `<figure>`/`<figcaption>` en tête d'article, `alt` propagé dans le renderer (46/47 images en `alt=""`) | `page.tsx:140-211`, `ricos/render.tsx:211,254,278` | 1 j |
+| Fil d'Ariane **visible** adossé au balisage | nouveau composant | 0,5 j |
+| H2 de méga-navigation → `<p>` stylé (il précède le H1 sur toutes les pages) | `Header.tsx:299-301` | 15 min |
+| Dates en `<time datetime>` | `page.tsx:168`, `:235-237` | 15 min |
+| Artefacts de contenu : `{#reparation-integrale}` visible dans 2 H2, `http://Bordeaux.Il`, section auteur dupliquée + contrôle CI sur ces motifs | contenu + `page.tsx:217` | 0,5 j |
+| RSS : `dc:creator`, `category`, `lastBuildDate`, coupe sur limite de phrase | `rss.xml/route.ts` | 0,5 j |
+| 241 metaTitle > 60 car. (dont 109 > 70, max 194) : mot-clé différenciant dans les 55 premiers caractères | contenu, par lots de catégorie | 3 j |
+
+---
+
+## 5. La gestion des auteurs
+
+C'est le poste **le plus rentable de tout le chantier** en E-E-A-T : le contenu existe déjà et n'est simplement pas relié.
+
+### Modèle
+
+Un référentiel unique, migré de `auteurs.json` + `equipe.json` vers la table `authors` (§2.2). Clé = slug lisible. `wix_id` conservé en colonne d'archive, jamais lu à l'exécution. `posts.author_slug` en clé étrangère : Postgres garantit l'intégrité au lieu d'une convention, et la branche morte de `getAuthor` (`content.ts:418`, qui compare un slug à un GUID) disparaît.
+
+**Quatre décisions à prendre pendant la fusion** :
+- Trancher **Fresneau / Fesneau** (orthographes et fichiers image divergents : `site/public/brand/avatars/axelle-fresneau.jpg` vs `site/public/brand/equipe/axelle-fesneau.jpg`). **Le faire avant de créer les pages auteur**, sinon on crée une URL à corriger et une redirection permanente à maintenir.
+- Exclure Alexia Simonini (assistante, non-autrice) via `is_author = false`.
+- **Réattribuer les 6 articles « Cabinet Plouton » à un avocat nommé.** Une entité morale n'apporte aucun signal d'expertise, et ces 6 articles n'ont ni avatar (fallback initiale « C ») ni bio.
+- **Auditer la concentration à 93,4 %** (394/422 sur Julien Plouton). Soit l'attribution est inexacte et il faut la corriger, soit elle est exacte et c'est un risque de dépendance à documenter. Ne pas laisser la question ouverte.
+
+### Admin
+
+Remplacer l'`<input type=text>` (`AdminPostMeta.tsx:81-84`) par un `<select>` alimenté par `listAuthors()`, valeur = slug, libellé = `short_name`, et **refus côté API de toute valeur hors référentiel** (`api/posts/route.ts:96`). Ajouter un second select optionnel « Relu par » qui alimente `reviewer_slug` + `reviewed_at`. C'est le seul point d'entrée capable de dégrader un corpus aujourd'hui à 100 % sain, et accessoirement cela met fin à l'affichage d'un GUID de 36 caractères à l'écran (`admin/[slug]/page.tsx:214`).
+
+### Pages auteur
+
+Route `/auteur/<slug>` : photo, `job_title`, bio longue, formation, barreau, LinkedIn, `knowsAbout`, et liste paginée des articles du rédacteur. `generateStaticParams` sur les 5 auteurs actifs. JSON-LD `Person` complet (§4.1 bloc 3) avec `@id` **identique** à celui référencé par les `BlogPosting`.
+
+Alimenter `authorBySlug` sur les cartes de la home (`page.tsx:302`), `/recherche` (`page.tsx:84`) et `/blog` — `AffaireCard.tsx:114` sait déjà afficher `authorName`, il manque uniquement la donnée — et lier le nom vers la page auteur. Maillage interne gratuit, et signal auteur visible dès la découverte. Supprimer au passage le wrapper déprécié `PostCard.tsx`.
+
+### Impact SEO
+
+Aujourd'hui, les 394 articles de Julien Plouton créent une entité `Person` anonyme (`{"@type":"Person","name":"..."}`, deux champs) **distincte** du `founder` déclaré avec un `@id` canonique dans `seo.tsx:119-124`. Aux yeux du crawler : deux personnes différentes, et l'autorité se disperse au lieu de se consolider. Après réconciliation par `@id` partagé + `url` vers une page réelle + `sameAs` vers LinkedIn et l'annuaire du barreau + `hasCredential`, les 422 articles pointent vers une entité unique, vérifiable et créditée. Sur des requêtes YMYL juridiques, c'est le levier n°1 depuis la mise à jour E-E-A-T de décembre 2025 — et le seul que les concurrents locaux ne peuvent pas copier.
+
+Effet secondaire immédiat : les 5 bios manquantes viennent de `equipe.json`, donc le bloc « À propos de l'auteur » (`page.tsx:214`, conditionné à `author?.bio`) passe de 394 à 422 articles.
+
+---
+
+## 6. Roadmap ordonnée
+
+**Total estimé : ~42 jours-homme.** Coût récurrent : 588 $/an (Tiptap Start). Aucune autre licence.
+
+### P0 — Arrêter l'hémorragie (5 j-h, à faire cette semaine, aucune dépendance entre eux)
+
+| Lot | Contenu | Effort | Casse si omis |
+|---|---|---|---|
+| **P0-A** | **Gel de l'édition.** Garde-fou côté API `PUT /api/posts` : refus si le slug a un Ricos à nœud riche ou un `bodyHtml` contenant `table`/`details`/`figure`/`h4`/`iframe`. Bandeau bloquant dans l'admin + bouton « éditer quand même » avec avertissement explicite. **128 slugs concernés.** | 1 j | Un seul clic « Enregistrer » détruit irréversiblement 76 tableaux, 104 accordéons, 9 galeries. |
+| **P0-B** | **Neutraliser `scripts/seed-posts.py`** : insert-only par défaut (`Prefer: resolution=ignore-duplicates`), flag `--force` explicite, suppression de la coercition `status → published` (l.82-84). | 0,5 j | Un seed « idempotent » republie les archivés et annule toutes les éditions. Sa docstring invite à le relancer. |
+| **P0-C** | **Fallback metaDescription runtime** (§4.2 point 2) + correction de la regex `baseline.py:79-82`. | 1 j | 224 pages continuent de servir « L » ou « Cour d » à Google, et toute reprise de données est réinfectée. |
+| **P0-D** | **Multi-catégories** dans l'admin + recalcul serveur de `category_ids` depuis les labels. | 1 j | 231 articles perdent jusqu'à 5 catégories à la première sauvegarde → disparition des pages catégorie et des blocs « articles liés ». |
+| **P0-E** | **Quick wins SEO** : `image` absolue, `article:author` résolu, `aggregateRating` retiré, étoiles corrigées, H2 de nav → `<p>`. | 0,5 j | 422 articles inéligibles aux rich results ; risque d'action manuelle « données structurées trompeuses » sur tout le domaine. |
+| **P0-F** | **Instantané avant sauvegarde** : table `post_versions`, écriture à chaque PUT, bouton « Restaurer ». | 1 j | Aucune erreur n'est rattrapable. C'est le prérequis moral de tout ce qui suit. |
+
+> **Ce qui casse si on fait dans le désordre en P0** : P0-A doit précéder toute ouverture de l'admin aux rédacteurs. P0-F doit précéder P1-B (élargir le schéma sans filet de sécurité, c'est autoriser la destruction avec de nouveaux outils). P0-C doit précéder toute régénération de la baseline.
+
+### P1 — Refonder (27 j-h, 6 à 7 semaines, séquencé)
+
+| Lot | Contenu | Effort | Dépend de |
+|---|---|---|---|
+| **P1-A** | **Référentiel auteurs unifié** : migration `0007_authors.sql`, fusion `auteurs.json` + `equipe.json`, arbitrage Fresneau/Fesneau, exclusion Simonini, réattribution des 6 « Cabinet Plouton », `<select>` admin + validation API. | 3 j | — |
+| **P1-B** | **Schéma Tiptap complet** (§3, tableau des extensions) + assainissement serveur du HTML à l'écriture (allowlist), cohérente avec le nouveau schéma. | 5 j | P0-F |
+| **P1-C** | **Convertisseur Ricos → ProseMirror + backfill + diff CI** (§3, 6 étapes). | 8 j | P1-B |
+| **P1-D** | **Bascule du modèle** : `body_doc` source unique, `body_html` cache dérivé, suppression de `resolvePostBodyMode`/`preferDbBody`/`posts.body`/du dual-run JSON/du décodage Editor.js. Réconciliation des vues (UPDATE depuis `stats-posts.json` **puis** suppression du JSON). Migration `0009` taxonomie + vue `category_post_counts`. | 4 j | P1-C |
+| **P1-E** | **Pages auteur `/auteur/<slug>`** + `authorBySlug` sur home/recherche/blog + suppression de `PostCard.tsx`. | 2 j | P1-A |
+| **P1-F** | **Graphe JSON-LD complet** (§4.1) + breadcrumb réel + fil visible + `dateModified` réel + nettoyage des 15 dates en dur + sitemap fiabilisé + OG complet. | 4 j | P1-D (pour `wordCount`/`citation`), P1-E (pour `Person.url`) |
+| **P1-G** | **Confort de rédaction** : autosave 20-30 s + `beforeunload`, aperçu de brouillon via `draftMode` Next.js, Paste Handler + bouton « coller sans mise en forme », modale image avec `alt` obligatoire et légende (fin des `window.prompt`), alignement `.admin-editor` sur `.prose-blog`. | 5 j | P1-B |
+| **P1-H** | **Régénération des 422 metaDescription** depuis les corps + reprise des pages piliers + test CI d'élision. | 3 j | P0-C |
+| **P1-I** | **Promotion `scheduled → published` hors du chemin de rendu** : route `/api/cron/publish` + Vercel Cron + `revalidatePostSurfaces`. | 1 j | — |
+
+> **Ce qui casse si on fait dans le désordre en P1** :
+> - **P1-C avant P1-B** → le convertisseur produit des nœuds que l'éditeur ne sait pas rouvrir : on a converti pour rien et on doit tout rejouer.
+> - **P1-D avant P1-C validé** → on supprime le fallback Ricos avant d'avoir prouvé la fidélité de la conversion. Point de non-retour.
+> - **P1-E avant P1-A** → les URLs `/auteur/axelle-fresneau` sont créées sur la mauvaise orthographe : redirection 301 permanente à maintenir pour rien.
+> - **P1-F avant P1-D** → `wordCount` et `citation` ne sont pas extractibles (pas d'arbre structuré), on écrit des regex sur du HTML qu'il faudra jeter.
+> - **Réconcilier les vues « dans le sens de la spec »** (`docs/17:35`, supprimer le JSON au profit de la DB) → perte de 770 vues sur 116 articles et faussage du tri « les plus consultés ». **La spec est à corriger avant d'être appliquée.**
+> - **Écrire `0007_cms_taxonomie.sql` selon `docs/17:95-120`** → collision : `0006` est déjà pris par `faq`, et la table livrée utilise `expertise_slug`/`sort_order` là où la spec prévoit `expertise_key`/`position`. Renuméroter la spec avant d'écrire quoi que ce soit.
+
+### P2 — Approfondir (10 j-h, après stabilisation)
+
+- **Tags** (2 j de code + extraction semi-automatique sur les 100 articles les plus vus, validation humaine) — seul levier de profondeur restant. Pages `/theme/<tag>` indexables au-delà de 8 articles seulement.
+- **`FAQPage` généré depuis `body_doc`** sur les 26 articles à section FAQ + `speakable` (1,5 j) — valeur GEO, pas SERP.
+- **Sommaire automatique + ancres H2/H3** (1 j) — les 422 importés ont 71 ancres Ricos que l'éditeur ne sait ni lire ni produire aujourd'hui.
+- **241 metaTitle > 60 car.** réécrits par lots de catégorie (3 j).
+- **Compteur de mots + temps de lecture** en pied d'éditeur, calcul serveur de `minutesToRead` (fin du passe-plat `api/posts/route.ts:110`) (0,5 j).
+- **Mobile admin** : barre Publier/Enregistrer fixée en bas sous `lg`, boutons secondaires en menu « … » (0,5 j).
+- **Accessibilité** : audit clavier/ARIA/focus des menus copiés (slash, bubble, drag handle) — ce code devient le vôtre, personne ne le validera à votre place. Un site de cabinet d'avocats est exposé aux obligations RGAA (1,5 j).
+- **RSS enrichi** (0,5 j). **Nettoyage du code mort** : `listArticles`, `publishedArticles`, `getFaq`, `coverImageWix`, `bodyHtml` de `echelle-de-glasgow` (qui contient un document HTML complet avec `<style>` fuyant dans la page) (0,5 j).
+
+---
+
+## Les cinq arbitrages, en une ligne chacun
+
+1. **Format de corps** : ProseMirror JSON source unique, HTML cache dérivé vérifié en CI. *Parce que si le stockage est le format de l'éditeur, ouvrir un article ne peut plus l'abîmer.*
+2. **Éditeur** : Tiptap 3, on reste. *Parce qu'il n'y a pas de migration à faire, que tout ce qui manque est MIT, et qu'aucun concurrent ne gagne sur Word.*
+3. **Word** : on achète le Paste Handler (588 $/an). *Parce que 2-3 j-h de code clipboard coûtent 4 ans d'abonnement pour un résultat inférieur — et que 70 % de la douleur Word disparaît de toute façon en élargissant le schéma.*
+4. **Couleurs et tailles Wix (5 957 nœuds)** : on ne les porte pas. *Parce que c'est de la dette de design importée, déjà perdue sans dommage sur 73 articles.*
+5. **Dual-run DB ∪ JSON** : on le supprime. *Parce qu'un fallback sans champ `status` transforme une panne Supabase en republication de tous les brouillons.*
+
+---
+
+# Annexe — Reconnaissance live de l'éditeur Wix
+
+# Reconnaissance live — éditeur & CMS blog Wix (référence d'ergonomie)
+
+Relevé le 19/07/2026 dans le dashboard Wix (éditeur d'article Ricos + panneaux latéraux).
+C'est la baseline à laquelle les avocats sont habitués : tout ce qui suit doit être égalé ou dépassé.
+
+## A. Éditeur (Ricos) — barre d'outils observée
+Type de bloc (« Paragraphe » ▾) · taille de police (14) · **B** *I* U · couleur de texte · surlignage ·
+lien · citation (2 styles) · code · liste à puces · liste numérotée · alignement ▾ · interligne ▾ ·
+retrait + / − · info. Bouton **+** en marge pour insérer un bloc. Plein écran.
+
+Dans le corps de l'article réel observé :
+- H1 titre, paragraphes, **gras**, liens soulignés
+- liste à puces (« À retenir : »)
+- **images inline** (photo pleine largeur)
+- **cartes de lien enrichies** (embed) : domaine + titre + description
+  → ex. `www.sudouest.fr` « Bordeaux : les permis de conduire étaient frauduleux » + chapô
+  → ex. `www.jplouton-avocat.fr` « Honoraires & prise de rendez-vous… » (maillage interne enrichi)
+
+## B. Barre latérale de l'éditeur
+`Ajouter` · `Outils IA` · `Paramètres` · `Référencement` · `Monétisation` · `Traduire` · `Applis`
+Barre haute : badge **« Modifications non publiées »**, undo/redo, **Enregistrer**, **Aperçu**, **Publier**
+→ séparation nette brouillon / publié, et aperçu avant publication.
+
+## C. « Paramètres du post » → le modèle de métadonnées par article
+- **Catégories** (multi — 2 sur cet article)
+- **Mots-clés / tags** (multi — 10 sur cet article)
+- **Image de couverture** + affichage on/off
+- **Texte alternatif** de la couverture (champ dédié)
+- **Date de publication** (éditable)
+- **Rédacteur** (auteur, sélection)
+- **Extrait** avec compteur **197/500** (limite dure)
+- **Posts similaires** : **3/3 choisis MANUELLEMENT** (« Choisir des posts ») ← pas seulement algorithmique
+- **Définir comme post à l'affiche** (featured)
+- **Autoriser les commentaires sur ce post**
+
+## D. « Paramètres de référencement (SEO) » — 4 onglets par article
+1. **Assistant** : champ **mot-clé principal** (+ « obtenir des idées de mots-clés »), puis check-list priorisée :
+   - ✅ Permettre à ce post d'être indexé — **CRITIQUE**
+   - ✅ Ajouter une image ou une vidéo — **HAUTE**
+   - ❌ Rédiger un texte alternatif pour chaque image — **MOYENNE**
+   - ❌ Rédiger une meta description — **FAIBLE**
+   - ✅ Inclure un balisage pour être éligible aux résultats enrichis — **FAIBLE**
+   - + « Analyses du post » / inspection d'indexation Google
+2. **Bases** : balise title, meta description, slug
+3. **Avancé** : indexation, canonical, balisage structuré
+4. **Partage social** : OG / Twitter (image, titre, description)
+
+## E. Ce que ça implique pour la cible Next
+Fonctions Wix à égaler qui n'existent PAS aujourd'hui dans l'admin Next :
+alt de couverture, date éditable, sélection d'auteur, extrait avec limite, **posts similaires curatés**,
+featured, commentaires, **mot-clé principal + check-list SEO par article**, aperçu, badge
+modifications non publiées, images inline, **cartes de lien enrichies**, tableaux.

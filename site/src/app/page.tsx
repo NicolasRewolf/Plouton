@@ -5,7 +5,7 @@ import { AffaireCard } from "@/components/AffaireCard"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
 import { SiteCta } from "@/components/SiteCta"
-import { getAccueil, getEquipe, getSite } from "@/lib/content"
+import { authorMetaByArticleSlug, getAccueil, getEquipe, getSite } from "@/lib/content"
 import { publishedIndex } from "@/lib/queries"
 import { absoluteUrl, JsonLd, organizationSchema } from "@/lib/seo"
 
@@ -25,7 +25,16 @@ export default async function HomePage() {
   const page = getAccueil()
   const team = getEquipe()
   const posts = await publishedIndex()
+  const authorMeta = authorMetaByArticleSlug()
   const ticker = posts.slice(0, 24)
+  const featured = posts.slice(0, 9).map((p) => {
+    const meta = authorMeta[p.slug]
+    return {
+      ...p,
+      authorName: meta?.name,
+      authorSlug: meta?.id,
+    }
+  })
 
   const schemas = [
     organizationSchema(site),
@@ -298,7 +307,7 @@ export default async function HomePage() {
             </Link>
           </div>
           <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {posts.slice(0, 9).map((p) => (
+            {featured.map((p) => (
               <AffaireCard key={p.slug} article={p} titleAs="h3" />
             ))}
           </div>

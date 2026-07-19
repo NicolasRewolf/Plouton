@@ -47,6 +47,7 @@ export default function EditPostPage() {
   const [versions, setVersions] = useState<VersionMeta[]>([])
   const [serverRisk, setServerRisk] = useState<EditGuardResult>(EMPTY_RISK)
   const [authorSlug, setAuthorSlug] = useState("")
+  const [reviewerSlug, setReviewerSlug] = useState("")
   const [authorLabel, setAuthorLabel] = useState("")
   const [bodyDoc, setBodyDoc] = useState<Record<string, unknown> | null>(null)
   const [dirty, setDirty] = useState(false)
@@ -97,6 +98,7 @@ export default function EditPostPage() {
           setAuthorSlug(
             articleData.authorSlug || articleData.authorId || ""
           )
+          setReviewerSlug(articleData.reviewerSlug || "")
           setAuthorLabel(articleData.author || "")
           if (editGuard) setServerRisk(editGuard)
         }
@@ -129,6 +131,10 @@ export default function EditPostPage() {
       author: authorLabel || String(fd.get("author")),
       authorId: authorSlug || article.authorId,
       authorSlug: authorSlug || article.authorSlug,
+      reviewerSlug: reviewerSlug || undefined,
+      reviewedAt: reviewerSlug
+        ? new Date().toISOString()
+        : undefined,
       publishedAt,
       metaTitle: metaTitle || undefined,
       metaDescription: metaDescription || undefined,
@@ -378,6 +384,7 @@ export default function EditPostPage() {
           <AdminPostMeta
             author={authorLabel || article.author}
             authorSlug={authorSlug}
+            reviewerSlug={reviewerSlug}
             excerpt={article.excerpt}
             publishedAt={publishedAt}
             metaTitle={metaTitle}
@@ -393,6 +400,7 @@ export default function EditPostPage() {
               setAuthorLabel(author)
               setAuthorSlug(s || authorId)
             }}
+            onReviewerChange={setReviewerSlug}
           />
 
           {versions.length > 0 ? (

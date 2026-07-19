@@ -8,6 +8,7 @@ import {
   htmlToParagraphs,
   isEditorJsDoc,
 } from "@/lib/article-body"
+import { isKnownAuthorSlug } from "@/lib/authors-db"
 import { isPostStatus, resolvePersistStatus, type PostStatus } from "@/lib/post-status"
 import { assessEditRisk, editGuardMessage } from "@/lib/post-edit-guard-server"
 import { sanitizeEditorHtml } from "@/lib/tiptap/sanitize"
@@ -70,6 +71,22 @@ function normalizeStatus(
   return resolvePersistStatus(base, publishedAt)
 }
 
+/** P1-A — auteur hors référentiel = refus (plus de GUID libre). */
+async function assertAuthorSlug(
+  slug: string | undefined | null
+): Promise<NextResponse | null> {
+  if (!slug?.trim()) return null
+  const ok = await isKnownAuthorSlug(slug.trim())
+  if (ok) return null
+  return NextResponse.json(
+    {
+      error: `Auteur inconnu « ${slug} ». Choisir dans la liste (pas de saisie libre).`,
+      code: "UNKNOWN_AUTHOR",
+    },
+    { status: 400 }
+  )
+}
+
 export async function GET(req: Request) {
   const user = await requireAdmin()
   if (!user) return NextResponse.json({ error: "non autorisé" }, { status: 401 })
@@ -101,6 +118,10 @@ export async function POST(req: Request) {
   if (!body.slug || !body.title)
     return NextResponse.json({ error: "slug et title requis" }, { status: 400 })
 
+  const authorSlug = body.authorSlug || body.authorId
+  const authorErr = await assertAuthorSlug(authorSlug)
+  if (authorErr) return authorErr
+
   const publishedAt = body.publishedAt || new Date().toISOString().slice(0, 10)
   const normalized = normalizeIncoming(body)
   const categories = body.categories?.length
@@ -118,7 +139,7 @@ export async function POST(req: Request) {
     status: normalizeStatus(body.status, publishedAt),
     author: body.author || "Cabinet Plouton",
     authorId: body.authorId,
-    authorSlug: body.authorSlug || body.authorId,
+    authorSlug,
     categories,
     body: normalized.body,
     bodyHtml: normalized.bodyHtml,
@@ -185,14 +206,24 @@ export async function PUT(req: Request) {
       ? previous.categories
       : ["Ressources et notions juridiques"]
   const categoryIds = resolveCategoryIdsFromLabels(categories)
+  const authorSlug = body.authorSlug || body.authorId || previous?.authorSlug
+  const authorErr = await assertAuthorSlug(authorSlug)
+  if (authorErr) return authorErr
+  const reviewerSlug = body.reviewerSlug || previous?.reviewerSlug
+  const reviewerErr = await assertAuthorSlug(reviewerSlug)
+  if (reviewerErr) return reviewerErr
   const article: Article = {
     ...body,
     publishedAt,
     status: normalizeStatus(body.status, publishedAt),
     categories,
     categoryIds,
-    authorSlug: body.authorSlug || body.authorId || previous?.authorSlug,
+    authorSlug,
     authorId: body.authorId || previous?.authorId,
+    reviewerSlug: reviewerSlug || undefined,
+    reviewedAt: reviewerSlug
+      ? body.reviewedAt || new Date().toISOString()
+      : undefined,
     body: normalized.body,
     bodyHtml: normalized.bodyHtml,
     bodyDoc: normalized.bodyDoc,

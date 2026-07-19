@@ -117,6 +117,103 @@ export const Gallery = Node.create({
   },
 })
 
+/** Vidéo non-YouTube (Vimeo, Facebook, Wix…) — iframe. */
+export const VideoEmbed = Node.create({
+  name: "videoEmbed",
+  group: "block",
+  atom: true,
+  addAttributes() {
+    return {
+      src: { default: null },
+      title: { default: "Vidéo" },
+    }
+  },
+  parseHTML() {
+    return [{ tag: 'div[data-type="video-embed"] iframe' }]
+  },
+  renderHTML({ HTMLAttributes }) {
+    return [
+      "div",
+      {
+        "data-type": "video-embed",
+        class: "prose-video-embed",
+      },
+      [
+        "iframe",
+        mergeAttributes(HTMLAttributes, {
+          src: HTMLAttributes.src,
+          title: HTMLAttributes.title || "Vidéo",
+          loading: "lazy",
+          allowfullscreen: "true",
+          frameborder: "0",
+        }),
+      ],
+    ]
+  },
+})
+
+/** Carte de lien enrichie (Ricos LINK_PREVIEW). */
+export const LinkPreview = Node.create({
+  name: "linkPreview",
+  group: "block",
+  atom: true,
+  addAttributes() {
+    return {
+      href: { default: null },
+      title: { default: "" },
+      description: { default: "" },
+      thumbnailUrl: { default: null },
+    }
+  },
+  parseHTML() {
+    return [{ tag: 'a[data-type="link-preview"]' }]
+  },
+  renderHTML({ HTMLAttributes }) {
+    const { title, description, ...attrs } = HTMLAttributes
+    return [
+      "a",
+      mergeAttributes(attrs, {
+        "data-type": "link-preview",
+        class: "prose-link-preview",
+        href: HTMLAttributes.href,
+      }),
+      ["strong", {}, title || HTMLAttributes.href || "Lien"],
+      description ? ["span", {}, description] : "",
+    ]
+  },
+})
+
+/**
+ * HTML embarqué (Ricos HTML) — ex. calculateur Glasgow.
+ * Conservé tel quel ; ne jamais aplatir en texte (perte / fuite de styles).
+ */
+export const HtmlEmbed = Node.create({
+  name: "htmlEmbed",
+  group: "block",
+  atom: true,
+  addAttributes() {
+    return {
+      html: {
+        default: "",
+        parseHTML: (el) => el.getAttribute("data-html") || el.innerHTML,
+        renderHTML: (attrs) => ({ "data-html": attrs.html || "" }),
+      },
+    }
+  },
+  parseHTML() {
+    return [{ tag: 'div[data-type="html-embed"]' }]
+  },
+  renderHTML({ HTMLAttributes }) {
+    return [
+      "div",
+      mergeAttributes(
+        { "data-type": "html-embed", class: "prose-html-embed" },
+        { "data-html": HTMLAttributes.html || "" }
+      ),
+    ]
+  },
+})
+
 /** Lien enrichi (mark avec title). */
 export const EnrichedLink = Mark.create({
   name: "enrichedLink",
@@ -149,6 +246,7 @@ export function buildEditorExtensions(opts?: {
   const list = [
     StarterKit.configure({
       heading: { levels: [2, 3, 4] },
+      codeBlock: {},
     }),
     Underline,
     Superscript,
@@ -176,6 +274,9 @@ export function buildEditorExtensions(opts?: {
     Callout,
     CtaButton,
     Gallery,
+    VideoEmbed,
+    LinkPreview,
+    HtmlEmbed,
   ]
   return list
 }

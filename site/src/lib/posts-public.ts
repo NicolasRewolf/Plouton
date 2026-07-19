@@ -1,15 +1,17 @@
 /**
- * Couche publique C5 : DB (secret) → fallback JSON.
+ * Couche publique C5 + bascule body_doc (brief #18 P1-D).
  *
- * Corps rendu : si corps DB ≠ JSON seed → bodyHtml/body ;
- * sinon Ricos git (fidélité des 422).
+ * Corps : body_doc (fichier ou DB) → HTML cache. Plus de rendu Ricos runtime.
+ * Dual-run JSON index reste tant que DB incomplete ; articles sans status
+ * dans l’index JSON ne sont servis que s’ils sont `published` dans le JSON article.
  */
 
 import { unstable_cache } from "next/cache"
 import { cache } from "react"
 import {
   getArticle,
-  getRicos,
+  getBodyDoc,
+  getBodyHtmlCache,
   listArticleIndex,
   type Article,
   type ArticleIndexItem,
@@ -46,35 +48,48 @@ function bodySignature(article: Pick<Article, "body" | "bodyHtml">): string {
   return `${html}\n---\n${body}`
 }
 
-/** Corps DB « utile » = différent du JSON seed (édition admin) ou article absent du git. */
+/** Corps DB « utile » = différent du JSON seed (édition admin). */
 export function preferDbBody(article: Article): boolean {
   const jsonTwin = getArticle(article.slug)
   if (!jsonTwin) return true
   return bodySignature(article) !== bodySignature(jsonTwin)
 }
 
-export type PostBodyMode =
-  | "db-html"
-  | "db-blocks"
-  | "ricos"
-  | "html"
-  | "blocks"
-
-/** Chemin de rendu du corps (documenté dans docs/05-decisions.md).
- * P1-D : body_doc prioritaire → HTML cache ; dual-run Ricos si pas encore backfill.
+/**
+ * HTML public (P1-D) :
+ * 1. Édition admin (bodyHtml DB divergente du seed)
+ * 2. Cache dérivé body_doc (`contenu/body-html/`)
+ * 3. bodyHtml seed / DB
+ * 4. vide → blocs texte
  */
+export function resolvePublicBodyHtml(article: Article): string {
+  if (preferDbBody(article) && hasUsableHtml(article.bodyHtml))
+    return article.bodyHtml!.trim()
+
+  const fromCache = getBodyHtmlCache(article.slug)
+  if (fromCache?.trim()) return fromCache
+
+  if (hasUsableHtml(article.bodyHtml)) return article.bodyHtml!.trim()
+  return ""
+}
+
+/** body_doc résolu (DB puis fichier). */
+export function resolveBodyDoc(
+  article: Article
+): Record<string, unknown> | null {
+  if (article.bodyDoc && typeof article.bodyDoc === "object")
+    return article.bodyDoc
+  return getBodyDoc(article.slug)
+}
+
+export type PostBodyMode = "html" | "blocks"
+
+/** @deprecated Prefer resolvePublicBodyHtml — plus de mode ricos. */
 export function resolvePostBodyMode(article: Article): PostBodyMode {
-  if (article.bodyDoc && typeof article.bodyDoc === "object") {
-    return "db-html"
-  }
-  const ricos = getRicos(article.slug)
-  if (preferDbBody(article)) {
-    if (hasUsableHtml(article.bodyHtml)) return "db-html"
-    if (Array.isArray(article.body) && hasUsableArticleBody(article.body))
-      return "db-blocks"
-  }
-  if (ricos) return "ricos"
-  if (hasUsableHtml(article.bodyHtml)) return "html"
+  const html = resolvePublicBodyHtml(article)
+  if (html) return "html"
+  if (Array.isArray(article.body) && hasUsableArticleBody(article.body))
+    return "blocks"
   return "blocks"
 }
 
@@ -95,6 +110,9 @@ async function fetchPublishedIndexMerged(): Promise<ArticleIndexItem[]> {
 
   for (const j of jsonIndex) {
     if (dbBySlug.has(normSlug(j.slug))) continue
+    // Sécurité dual-run : ne pas republier un brouillon JSON si pas en DB
+    const full = getArticle(j.slug)
+    if (full && full.status !== "published") continue
     out.push(j)
   }
 
@@ -114,17 +132,26 @@ const cachedPublishedIndex = unstable_cache(
 async function fetchPublishedArticle(slug: string): Promise<Article | null> {
   const raw = normSlug(slug)
   const fromDb = await getPublishedPost(raw)
-  if (fromDb) return fromDb
+  if (fromDb) {
+    // Enrichir bodyDoc depuis fichier si absent en DB
+    if (!fromDb.bodyDoc) {
+      const doc = getBodyDoc(raw)
+      if (doc) fromDb.bodyDoc = doc
+    }
+    return fromDb
+  }
 
-  // Dual-run : pas en DB (ou erreur) → JSON git si publié
   const fromJson = getArticle(raw)
   if (!fromJson || fromJson.status !== "published") return null
 
-  // Si la DB a un brouillon / archivé / programmé (futur), ne pas servir le JSON
   const status = await getPostStatus(raw)
   if (status === "draft" || status === "archived" || status === "scheduled")
     return null
 
+  if (!fromJson.bodyDoc) {
+    const doc = getBodyDoc(raw)
+    if (doc) fromJson.bodyDoc = doc
+  }
   return fromJson
 }
 
@@ -134,27 +161,23 @@ const cachedPublishedArticle = unstable_cache(
   { tags: [POSTS_CACHE_TAG] }
 )
 
-/** Index public (DB ∪ JSON manquants). Cache tag `posts`. */
 export const resolvePublishedIndex = cache(async function resolvePublishedIndex(): Promise<
   ArticleIndexItem[]
 > {
   return cachedPublishedIndex()
 })
 
-/** Article public par slug. Cache tag `posts`. */
 export const resolvePublishedArticle = cache(async function resolvePublishedArticle(
   slug: string
 ): Promise<Article | null> {
   return cachedPublishedArticle(normSlug(slug))
 })
 
-/** Slugs pour SSG : DB ∪ JSON. */
 export async function resolvePublishedSlugs(): Promise<string[]> {
   const jsonSlugs = listArticleIndex().map((a) => a.slug)
   const dbSlugs = await listPublishedSlugs()
   if (!dbSlugs) return jsonSlugs
   const set = new Set([...dbSlugs, ...jsonSlugs].map(normSlug))
-  // Exclure brouillons DB même s’ils sont encore dans l’index JSON
   const meta = await listAdminPosts()
   if (meta) {
     for (const p of meta) {
@@ -169,7 +192,6 @@ export async function resolvePublishedSlugs(): Promise<string[]> {
   return [...set]
 }
 
-/** Liste admin : DB si dispo, sinon index JSON (tous « published »). */
 export async function resolveAdminArticleList(): Promise<
   (ArticleIndexItem & { status: PostStatus })[]
 > {

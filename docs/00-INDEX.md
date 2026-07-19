@@ -8,6 +8,7 @@ Lis dans cet ordre selon le besoin.
 |-----|---------|
 | [`../LIRE-MOI.md`](../LIRE-MOI.md) | Plan de la maison |
 | [`14-etat.md`](14-etat.md) | 👉 **Où on en est** (état d'avancement) — **next = C5** |
+| [`18-blog-architecture-et-editeur.md`](18-blog-architecture-et-editeur.md) | 👉 **Brief blog #18** (corps, éditeur, auteurs, SEO) — source de vérité chantier |
 | [`PASSATION-2026-07-18.md`](PASSATION-2026-07-18.md) | 👉 Reprise agent (soir 18/07) |
 | [`16-composants-ui.md`](16-composants-ui.md) | 👉 **Composants UI canoniques** (cartes, CTA) |
 | [`15-audit-sante.md`](15-audit-sante.md) | Audit santé du site (archi, contenu, limites) |

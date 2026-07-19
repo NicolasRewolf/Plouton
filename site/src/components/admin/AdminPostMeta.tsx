@@ -19,6 +19,7 @@ interface AuthorOpt {
 interface AdminPostMetaProps {
   author: string
   authorSlug?: string
+  reviewerSlug?: string
   excerpt: string
   publishedAt: string
   metaTitle: string
@@ -38,6 +39,7 @@ interface AdminPostMetaProps {
     authorId: string
     authorSlug: string
   }) => void
+  onReviewerChange?: (slug: string) => void
 }
 
 /**
@@ -46,6 +48,7 @@ interface AdminPostMetaProps {
 export function AdminPostMeta({
   author,
   authorSlug,
+  reviewerSlug = "",
   excerpt,
   publishedAt,
   metaTitle,
@@ -60,10 +63,12 @@ export function AdminPostMeta({
   onMetaTitleChange,
   onMetaDescriptionChange,
   onAuthorChange,
+  onReviewerChange,
 }: AdminPostMetaProps) {
   const [categories, setCategories] = useState<CategoryOpt[]>([])
   const [authors, setAuthors] = useState<AuthorOpt[]>([])
   const [selectedAuthor, setSelectedAuthor] = useState(authorSlug || "")
+  const [selectedReviewer, setSelectedReviewer] = useState(reviewerSlug || "")
 
   useEffect(() => {
     fetch("/api/categories")
@@ -83,6 +88,10 @@ export function AdminPostMeta({
   useEffect(() => {
     setSelectedAuthor(authorSlug || "")
   }, [authorSlug])
+
+  useEffect(() => {
+    setSelectedReviewer(reviewerSlug || "")
+  }, [reviewerSlug])
 
   function toggleCategory(label: string) {
     if (categoryLabels.includes(label)) {
@@ -138,6 +147,25 @@ export function AdminPostMeta({
           </select>
           {/* Compat formulaires qui lisent encore name=author */}
           <input type="hidden" name="author" value={author} />
+        </label>
+        <label className="mt-3 grid gap-1 text-[13px] text-navy">
+          Relu par (optionnel)
+          <select
+            name="reviewerSlug"
+            value={selectedReviewer}
+            onChange={(e) => {
+              setSelectedReviewer(e.target.value)
+              onReviewerChange?.(e.target.value)
+            }}
+            className="admin-input"
+          >
+            <option value="">— aucun —</option>
+            {authors.map((a) => (
+              <option key={`rev-${a.id}`} value={a.id}>
+                {a.shortName}
+              </option>
+            ))}
+          </select>
         </label>
         <label className="mt-3 grid gap-1 text-[13px] text-navy">
           Date de publication

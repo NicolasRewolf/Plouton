@@ -37,6 +37,8 @@ export interface PostRow {
   author: string
   author_id: string | null
   author_slug: string | null
+  reviewer_slug: string | null
+  reviewed_at: string | null
   categories: string[] | null
   tags: string[] | null
   category_ids: string[] | null
@@ -53,7 +55,7 @@ export interface PostRow {
 }
 
 const INDEX_SELECT =
-  "slug, title, excerpt, published_at, status, categories, cover_image, minutes_to_read, url, view_count"
+  "slug, title, excerpt, published_at, status, categories, category_ids, cover_image, minutes_to_read, url, view_count"
 
 function hasSecretEnv(): boolean {
   return Boolean(
@@ -85,6 +87,8 @@ export function articleToPostRow(article: Article) {
     author_id: article.authorId ?? null,
     author_slug:
       article.authorSlug ?? resolveAuthorSlug(article) ?? null,
+    reviewer_slug: article.reviewerSlug ?? null,
+    reviewed_at: article.reviewedAt ?? null,
     categories: article.categories || [],
     tags: article.tags || [],
     category_ids: article.categoryIds || [],
@@ -142,6 +146,8 @@ export function postRowToArticle(row: PostRow): Article {
     author: row.author || "",
     authorId: row.author_id || undefined,
     authorSlug: row.author_slug || row.author_id || undefined,
+    reviewerSlug: row.reviewer_slug || undefined,
+    reviewedAt: row.reviewed_at || undefined,
     categories: row.categories || [],
     tags: row.tags || undefined,
     categoryIds: row.category_ids || undefined,
@@ -166,6 +172,7 @@ export function postRowToIndexItem(
     | "excerpt"
     | "published_at"
     | "categories"
+    | "category_ids"
     | "cover_image"
     | "minutes_to_read"
     | "url"
@@ -178,6 +185,7 @@ export function postRowToIndexItem(
     excerpt: row.excerpt || "",
     publishedAt: row.published_at || "",
     categories: row.categories || [],
+    categoryIds: row.category_ids || undefined,
     coverImage: row.cover_image,
     minutesToRead: row.minutes_to_read,
     url: row.url || `/post/${row.slug}`,
