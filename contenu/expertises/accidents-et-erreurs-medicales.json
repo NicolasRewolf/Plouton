@@ -44,6 +44,24 @@
       "shortLabel": "Je prends rendez-vous"
     }
   ],
+  "contactAside": {
+    "title": "Je prends rendez-vous maintenant !",
+    "text": "Les rendez-vous sont pris dans les 7 jours. En cas d’urgence, le rendez-vous peut être immédiat et même en dehors des horaires habituels du cabinet."
+  },
+  "inlineLinks": [
+    {
+      "text": "Notre équipe d’avocats",
+      "href": "/notre-cabinet"
+    },
+    {
+      "text": "Notre cabinet d’avocats",
+      "href": "/notre-cabinet"
+    },
+    {
+      "text": "Notre cabinet",
+      "href": "/notre-cabinet"
+    }
+  ],
   "sections": [
     {
       "id": "indemnisation-des-prejudices-extrapatrimoniaux",
@@ -53,11 +71,12 @@
       "blocks": [
         {
           "heading": "Les séquelles temporaires et définitives",
-          "body": "Qu’elles soient temporaires ou permanentes, les lésions corporelles résultant d’une faute médicale peuvent entraîner des douleurs, des incapacités, voire des séquelles à vie.\n\nL’Expert évalue :\n\n• Le déficit fonctionnel temporaire\n\n• Le déficit fonctionnel permanent, qui indemnise les séquelles physiques et morales définitives en lien avec l’accident, ainsi que les troubles dans les conditions d’existence\n\nNotre cabinet, expérimenté en droit médical, vous accompagne pour constituer un dossier solide et défendre vos intérêts face aux assurances ou aux tribunaux."
-        },
-        {
-          "heading": "",
-          "body": "L’Expert évalue :"
+          "headingLevel": 3,
+          "body": "Qu’elles soient temporaires ou permanentes, les lésions corporelles résultant d’une faute médicale peuvent entraîner des douleurs, des incapacités, voire des séquelles à vie.\n\nL’Expert évalue :",
+          "bullets": [
+            "Le déficit fonctionnel temporaire",
+            "Le déficit fonctionnel permanent, qui indemnise les séquelles physiques et morales définitives en lien avec l’accident, ainsi que les troubles dans les conditions d’existence"
+          ]
         },
         {
           "heading": "",
@@ -65,34 +84,17 @@
         },
         {
           "heading": "Les souffrances endurées (physiques et morales)",
+          "headingLevel": 3,
           "body": "Elles correspondent aux douleurs physiques ou morales ressenties par la victime après les faits.\n\nLes douleurs physiques sont évaluées en fonction des lésions initiales, mais également d’éventuelles interventions chirurgicales, immobilisations, prises en charge psychologique ou psychiatrique ainsi que la rééducation (à domicile, en ville ou en centre spécialisé).\n\nLe préjudice moral concerne les répercussions psychologiques de l’erreur médicale ou de l’accident sur la victime.\n\nL’indemnisation de ce préjudice est un élément crucial de la réparation pour permettre à la victime de retrouver une vie aussi apaisée que possible. Le soutien de notre cabinet intervient dans les accidents médicaux est essentiel pour bien quantifier cette composante du préjudice.\n\nNos experts vous guident pour obtenir la reconnaissance de ces souffrances."
         },
         {
-          "heading": "",
-          "body": "Elles correspondent aux douleurs physiques ou morales ressenties par la victime après les faits."
-        },
-        {
-          "heading": "",
-          "body": "Les douleurs physiques sont évaluées en fonction des lésions initiales, mais également d’éventuelles interventions chirurgicales, immobilisations, prises en charge psychologique ou psychiatrique ainsi que la rééducation (à domicile, en ville ou en centre spécialisé)."
-        },
-        {
-          "heading": "",
-          "body": "Le préjudice moral concerne les répercussions psychologiques de l’erreur médicale ou de l’accident sur la victime."
-        },
-        {
-          "heading": "",
-          "body": "L’indemnisation de ce préjudice est un élément crucial de la réparation pour permettre à la victime de retrouver une vie aussi apaisée que possible. Le soutien de notre cabinet intervient dans les accidents médicaux est essentiel pour bien quantifier cette composante du préjudice."
-        },
-        {
-          "heading": "",
-          "body": "Nos experts vous guident pour obtenir la reconnaissance de ces souffrances."
-        },
-        {
           "heading": "Le préjudice d’agrément",
+          "headingLevel": 3,
           "body": "Le préjudice d’agrément vise exclusivement à réparer le préjudice « lié à l’impossibilité pour la victime de pratiquer régulièrement une activité spécifique, sportive ou de loisirs ». Il est évalué par l’Expert en tenant compte des activités réalisées par la victime avant l’accident, et qu’elle ne peut plus pratiquer."
         },
         {
           "heading": "Les préjudices esthétiques",
+          "headingLevel": 3,
           "body": "Liés aux blessures physiques, ils désignent l’impact des séquelles esthétiques comme les cicatrices ou les déformations temporaires ou permanentes. Ils sont évalués par des experts médicaux. Nous veillons à une évaluation précise pour garantir une indemnisation à la hauteur des préjudices."
         }
       ]
@@ -105,15 +107,29 @@
       "blocks": [
         {
           "heading": "Le préjudice financier",
-          "body": "Le préjudice matériel concerne les conséquences financières directes de l’erreur médicale ou de l’accident. Cela comprend :\n\n• Les frais médicaux : il s’agit de toutes les dépenses liées aux soins nécessaires post-accident. Que ce soit pour les consultations, les interventions chirurgicales, les traitements médicamenteux ou encore la rééducation. Ces frais peuvent également inclure les coûts de rééducation à long terme ou d’achat d’équipements médicaux spécifiques nécessaires pour compenser une incapacité.\n\n• Les pertes de revenus : si l’erreur médicale vous empêche de reprendre votre activité professionnelle, ou si vous êtes partiellement ou totalement en incapacité de travail, vous pouvez demander une indemnisation pour compenser la perte de vos revenus. Cette perte peut être temporaire, si vous reprenez le travail après un certain temps, ou permanente, en cas d’incapacité totale.\n\n• Les frais de réadaptation ou d’aménagement : en cas de perte d’autonomie, la victime peut avoir besoin d’aménager son domicile (adaptation de la salle de bain, installation de rampes, etc.) ou d’acheter des équipements spéciaux pour maintenir une certaine qualité de vie."
+          "headingLevel": 3,
+          "body": "Le préjudice matériel concerne les conséquences financières directes de l’erreur médicale ou de l’accident. Cela comprend :",
+          "bullets": [
+            "Les frais médicaux : il s’agit de toutes les dépenses liées aux soins nécessaires post-accident. Que ce soit pour les consultations, les interventions chirurgicales, les traitements médicamenteux ou encore la rééducation. Ces frais peuvent également inclure les coûts de rééducation à long terme ou d’achat d’équipements médicaux spécifiques nécessaires pour compenser une incapacité.",
+            "Les pertes de revenus : si l’erreur médicale vous empêche de reprendre votre activité professionnelle, ou si vous êtes partiellement ou totalement en incapacité de travail, vous pouvez demander une indemnisation pour compenser la perte de vos revenus. Cette perte peut être temporaire, si vous reprenez le travail après un certain temps, ou permanente, en cas d’incapacité totale.",
+            "Les frais de réadaptation ou d’aménagement : en cas de perte d’autonomie, la victime peut avoir besoin d’aménager son domicile (adaptation de la salle de bain, installation de rampes, etc.) ou d’acheter des équipements spéciaux pour maintenir une certaine qualité de vie."
+          ]
         },
         {
           "heading": "La perte d’autonomie",
+          "headingLevel": 3,
           "body": "Dans les cas les plus graves, la victime peut devenir partiellement ou totalement dépendante, nécessitant une aide pour accomplir des actes de la vie quotidienne. Ce type de préjudice corporel entraîne généralement une indemnisation plus élevée, pour couvrir le coût de l’assistance nécessaire (aides à domicile, matériel médical, etc.). Notre équipe d’avocats s’assure que chaque besoin est considéré dans l’indemnisation."
         },
         {
           "heading": "Incidence professionnelle",
-          "body": "En complément du préjudice matériel, il existe un préjudice spécifique lié à la carrière professionnelle de la victime. Ce préjudice peut comprendre :\n\n• La perte d’évolution de carrière : si l’erreur médicale empêche la victime d’accéder à une promotion ou d’évoluer dans son travail.\n\n• La reconversion professionnelle : dans certains cas, la victime devra changer de métier ou de secteur d’activité, impliquant des formations ou une perte de revenus liés à cette transition.\n\n• L’augmentation de la pénibilité au travail\n\n• La dévalorisation sur le marché du travail"
+          "headingLevel": 3,
+          "body": "En complément du préjudice matériel, il existe un préjudice spécifique lié à la carrière professionnelle de la victime. Ce préjudice peut comprendre :",
+          "bullets": [
+            "La perte d’évolution de carrière : si l’erreur médicale empêche la victime d’accéder à une promotion ou d’évoluer dans son travail.",
+            "La reconversion professionnelle : dans certains cas, la victime devra changer de métier ou de secteur d’activité, impliquant des formations ou une perte de revenus liés à cette transition.",
+            "L’augmentation de la pénibilité au travail",
+            "La dévalorisation sur le marché du travail"
+          ]
         }
       ]
     },
@@ -125,7 +141,11 @@
       "blocks": [
         {
           "heading": "",
-          "body": "• Le préjudice d’affection : qui correspond à la douleur morale des proches suite à la souffrance ou au décès d’un être cher.\n• Le préjudice économique : dans le cas où la victime décédée ou incapable financièrement soutenait sa famille.\n• Le préjudice d’accompagnement : dans le cas où les proches sont restés au chevet de la victime avant son décès"
+          "bullets": [
+            "Le préjudice d’affection : qui correspond à la douleur morale des proches suite à la souffrance ou au décès d’un être cher.",
+            "Le préjudice économique : dans le cas où la victime décédée ou incapable financièrement soutenait sa famille.",
+            "Le préjudice d’accompagnement : dans le cas où les proches sont restés au chevet de la victime avant son décès"
+          ]
         },
         {
           "heading": "",
@@ -141,31 +161,29 @@
       "blocks": [
         {
           "heading": "La faute médicale",
+          "headingLevel": 3,
           "body": ""
         },
         {
           "heading": "L’aléa thérapeutique",
+          "headingLevel": 3,
           "body": "En cas de défaut d’information (informations sur l’état de santé, sur les risques ou conséquences d’un acte de soins,…), défaut de diagnostic (pathologies anténatales, radiographies,…), déficience dans le traitement ou la méthode exploratoire, ou encore faute technique (oubli de matériel, faute dans les soins préopératoires ou postopératoires,…)\n\nL’aléa thérapeutique désigne un risque médical non maîtrisable inhérent à l’acte médical. Il est indépendant de toute faute."
         },
         {
-          "heading": "",
-          "body": "L’aléa thérapeutique désigne un risque médical non maîtrisable inhérent à l’acte médical. Il est indépendant de toute faute."
-        },
-        {
           "heading": "L’infection nosocomiale",
+          "headingLevel": 3,
           "body": ""
         },
         {
           "heading": "L’affection iatrogène",
-          "body": "Désigne une infection contractée dans un établissement de santé (hôpital, clinique privée).\n\nElle prend en compte les effets indésirables exceptionnels et grave subis à la suite de la prise d’une traitement médicamenteux ou de l’administration d’un vaccin et permet l’indemnisation, par la solidarité nationale, des patients ayant subi des désagréments ayant entrainé :\n\n• un arrêt de travail de plus de six mois\n\n• des séquelles permanentes très graves\n\n• un incapacité fonctionnelle supérieure à 50% pendant plus de six mois\n\n• Des troubles exceptionnels dans les conditions d’existence"
-        },
-        {
-          "heading": "",
-          "body": "Désigne une infection contractée dans un établissement de santé (hôpital, clinique privée)."
-        },
-        {
-          "heading": "",
-          "body": "Elle prend en compte les effets indésirables exceptionnels et grave subis à la suite de la prise d’une traitement médicamenteux ou de l’administration d’un vaccin et permet l’indemnisation, par la solidarité nationale, des patients ayant subi des désagréments ayant entrainé :"
+          "headingLevel": 3,
+          "body": "Désigne une infection contractée dans un établissement de santé (hôpital, clinique privée).\n\nElle prend en compte les effets indésirables exceptionnels et grave subis à la suite de la prise d’une traitement médicamenteux ou de l’administration d’un vaccin et permet l’indemnisation, par la solidarité nationale, des patients ayant subi des désagréments ayant entrainé :",
+          "bullets": [
+            "un arrêt de travail de plus de six mois",
+            "des séquelles permanentes très graves",
+            "un incapacité fonctionnelle supérieure à 50% pendant plus de six mois",
+            "Des troubles exceptionnels dans les conditions d’existence"
+          ]
         }
       ]
     },
@@ -177,59 +195,31 @@
       "blocks": [
         {
           "heading": "Première étape : collecte des pièces",
-          "body": "La première étape pour faire valoir vos droits est de constituer un dossier solide. Pour ce faire, collectons l’ensemble des preuves nécessaires, négocions à l’amiable ou judiciaire avec les responsables ou assureurs, et nous vous assistons lors des expertises médicales pour défendre votre dossier et garantir que tous les préjudices sont correctement évalués et intégrés dans le calcul de l’indemnisation. Ce dossier doit inclure :\n\n• Vos dossiers médicaux : ils peuvent être obtenus auprès de l’hôpital ou du cabinet médical qui vous a soigné.\n\n• Les résultats de vos examens et expertises médicales.\n\n• Les preuves du préjudice que vous avez subi, qu’il soit physique, moral ou économique."
+          "headingLevel": 3,
+          "body": "La première étape pour faire valoir vos droits est de constituer un dossier solide. Pour ce faire, collectons l’ensemble des preuves nécessaires, négocions à l’amiable ou judiciaire avec les responsables ou assureurs, et nous vous assistons lors des expertises médicales pour défendre votre dossier et garantir que tous les préjudices sont correctement évalués et intégrés dans le calcul de l’indemnisation. Ce dossier doit inclure :",
+          "bullets": [
+            "Vos dossiers médicaux : ils peuvent être obtenus auprès de l’hôpital ou du cabinet médical qui vous a soigné.",
+            "Les résultats de vos examens et expertises médicales.",
+            "Les preuves du préjudice que vous avez subi, qu’il soit physique, moral ou économique."
+          ]
         },
         {
           "heading": "Seconde étape : accompagnement durant les négociations à l’amiable",
-          "body": "Notre cabinet d’avocats expert en droit médical et responsabilité médicale, nous vous accompagnerons tout au long du processus de négociation à l’amiable, en vous fournissant des conseils juridiques adaptés à votre situation.\n\nNous vous accompagnons face aux établissements de santé ou les compagnies d’assurance pour obtenir un règlement rapide et équitable. Nous nous engageons à :\n\n• Analyser en profondeur votre dossier pour identifier avec précision les erreurs commises par le médecin ou les autres professionnels de santé.\n\n• Évaluer objectivement vos chances de succès pour tout recours en justice.\n\n• Vous représenter avec rigueur devant les tribunaux afin d’obtenir une indemnisation juste et adaptée à l’ensemble des préjudices subis.\n\n• Obtention du versement d’une provision pour faire face aux dépenses de santé urgentes"
-        },
-        {
-          "heading": "",
-          "body": "Nous vous accompagnons face aux établissements de santé ou les compagnies d’assurance pour obtenir un règlement rapide et équitable. Nous nous engageons à :"
+          "headingLevel": 3,
+          "body": "Notre cabinet d’avocats expert en droit médical et responsabilité médicale, nous vous accompagnerons tout au long du processus de négociation à l’amiable, en vous fournissant des conseils juridiques adaptés à votre situation.\n\nNous vous accompagnons face aux établissements de santé ou les compagnies d’assurance pour obtenir un règlement rapide et équitable. Nous nous engageons à :",
+          "bullets": [
+            "Analyser en profondeur votre dossier pour identifier avec précision les erreurs commises par le médecin ou les autres professionnels de santé.",
+            "Évaluer objectivement vos chances de succès pour tout recours en justice.",
+            "Vous représenter avec rigueur devant les tribunaux afin d’obtenir une indemnisation juste et adaptée à l’ensemble des préjudices subis.",
+            "Obtention du versement d’une provision pour faire face aux dépenses de santé urgentes"
+          ]
         },
         {
           "heading": "Troisième étape : engager une procédure",
-          "body": "Lorsque les négociations amiables n'aboutissent pas à une indemnisation à la hauteur des préjudices subis, engager une procédure devient souvent le seul moyen d'obtenir une juste réparation. Notre cabinet vous accompagne à chaque étape et vous représente avec rigueur devant les Commissions régionales de conciliation et d'indemnisation (CRCI), les tribunaux civils ou les juridictions administratives.\n\n​\n\nNotre travail commence en amont de l'audience. Nous constituons un dossier solide, en réunissant l'ensemble des pièces juridiques, des éléments médicaux et des expertises nécessaires pour caractériser la responsabilité du médecin ou des autres professionnels de santé mis en cause. Une expertise médicale est généralement requise afin d'établir le lien direct entre la faute commise et le préjudice corporel que vous avez subi — une étape déterminante pour la suite de la procédure.\n\n​\n\nDeux voies principales s'ouvrent alors à la victime, selon la gravité des dommages et le contexte du litige.\n\n​\n\n• La saisine d'une Commission régionale de conciliation et d'indemnisation (CRCI)\n\nCette voie présente l'avantage d'une expertise rapide et gratuite. À l'issue de celle-ci, la Commission rend un avis qui invite l'assureur de l'établissement de soins — ou l'ONIAM, selon les situations — à formuler une offre d'indemnisation à la victime.\n\nL'accès à cette procédure suppose toutefois de remplir l'un des critères de gravité suivants :\n\n• un arrêt de travail d'une durée supérieure à six mois ;\n\n• des séquelles permanentes particulièrement graves ;\n\n• une incapacité fonctionnelle supérieure à 50 % pendant plus de six mois ;\n\n• des troubles exceptionnels dans les conditions d'existence.\n\n​\n\n• La procédure judiciaire\n\nLorsque les négociations amiables échouent — qu'elles aient été engagées avec l'assureur de l'établissement de soins ou avec l'ONIAM —, la victime conserve la possibilité de porter ses demandes devant la juridiction compétente : le Tribunal judiciaire pour les établissements privés, le Tribunal administratif pour les structures publiques."
-        },
-        {
-          "heading": "",
-          "body": "Notre travail commence en amont de l'audience. Nous constituons un dossier solide, en réunissant l'ensemble des pièces juridiques, des éléments médicaux et des expertises nécessaires pour caractériser la responsabilité du médecin ou des autres professionnels de santé mis en cause. Une expertise médicale est généralement requise afin d'établir le lien direct entre la faute commise et le préjudice corporel que vous avez subi — une étape déterminante pour la suite de la procédure."
-        },
-        {
-          "heading": "",
-          "body": "Deux voies principales s'ouvrent alors à la victime, selon la gravité des dommages et le contexte du litige."
-        },
-        {
-          "heading": "",
-          "body": "Cette voie présente l'avantage d'une expertise rapide et gratuite. À l'issue de celle-ci, la Commission rend un avis qui invite l'assureur de l'établissement de soins — ou l'ONIAM, selon les situations — à formuler une offre d'indemnisation à la victime."
-        },
-        {
-          "heading": "",
-          "body": "L'accès à cette procédure suppose toutefois de remplir l'un des critères de gravité suivants :"
-        },
-        {
-          "heading": "",
-          "body": "Lorsque les négociations amiables échouent — qu'elles aient été engagées avec l'assureur de l'établissement de soins ou avec l'ONIAM —, la victime conserve la possibilité de porter ses demandes devant la juridiction compétente : le Tribunal judiciaire pour les établissements privés, le Tribunal administratif pour les structures publiques."
+          "headingLevel": 3,
+          "body": "Lorsque les négociations amiables n'aboutissent pas à une indemnisation à la hauteur des préjudices subis, engager une procédure devient souvent le seul moyen d'obtenir une juste réparation. Notre cabinet vous accompagne à chaque étape et vous représente avec rigueur devant les Commissions régionales de conciliation et d'indemnisation (CRCI), les tribunaux civils ou les juridictions administratives.\n\nNotre travail commence en amont de l'audience. Nous constituons un dossier solide, en réunissant l'ensemble des pièces juridiques, des éléments médicaux et des expertises nécessaires pour caractériser la responsabilité du médecin ou des autres professionnels de santé mis en cause. Une expertise médicale est généralement requise afin d'établir le lien direct entre la faute commise et le préjudice corporel que vous avez subi — une étape déterminante pour la suite de la procédure.\n\nDeux voies principales s'ouvrent alors à la victime, selon la gravité des dommages et le contexte du litige.\n\n- La saisine d'une Commission régionale de conciliation et d'indemnisation (CRCI)\n\nCette voie présente l'avantage d'une expertise rapide et gratuite. À l'issue de celle-ci, la Commission rend un avis qui invite l'assureur de l'établissement de soins — ou l'ONIAM, selon les situations — à formuler une offre d'indemnisation à la victime.\n\nL'accès à cette procédure suppose toutefois de remplir l'un des critères de gravité suivants :\n\n1. un arrêt de travail d'une durée supérieure à six mois ;\n2. des séquelles permanentes particulièrement graves ;\n3. une incapacité fonctionnelle supérieure à 50 % pendant plus de six mois ;\n4. des troubles exceptionnels dans les conditions d'existence.\n\n- La procédure judiciaire\n\nLorsque les négociations amiables échouent — qu'elles aient été engagées avec l'assureur de l'établissement de soins ou avec l'ONIAM —, la victime conserve la possibilité de porter ses demandes devant la juridiction compétente : le Tribunal judiciaire pour les établissements privés, le Tribunal administratif pour les structures publiques."
         }
       ]
     }
-  ],
-  "inlineLinks": [
-    {
-      "text": "Notre équipe d’avocats",
-      "href": "/notre-cabinet"
-    },
-    {
-      "text": "Notre cabinet d’avocats",
-      "href": "/notre-cabinet"
-    },
-    {
-      "text": "Notre cabinet",
-      "href": "/notre-cabinet"
-    }
-  ],
-  "contactAside": {
-    "title": "Je prends rendez-vous maintenant !",
-    "text": "Les rendez-vous sont pris dans les 7 jours. En cas d’urgence, le rendez-vous peut être immédiat et même en dehors des horaires habituels du cabinet."
-  }
+  ]
 }
