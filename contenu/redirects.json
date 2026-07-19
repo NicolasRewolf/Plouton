@@ -11,12 +11,12 @@
   },
   {
     "source": "/actualites-contrat-defense-consommateurs",
-    "destination": "/blog/categories/défense-des-consommateurs",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
     "source": "/actualites-contrat-defense-consommateurs/defense-consommateurs",
-    "destination": "/blog/categories/défense-des-consommateurs",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
@@ -36,12 +36,12 @@
   },
   {
     "source": "/actualites-cour-assises",
-    "destination": "/blog/categories/droit-criminel",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
     "source": "/actualites-droit-penal-defense-penale",
-    "destination": "/blog/categories/droit-pénal",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "source": "/actualites-droit-penal-trafic-stupefiants",
-    "destination": "/blog/categories/trafic-de-stupéfiants",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
@@ -71,7 +71,7 @@
   },
   {
     "source": "/actualites-droit-penal-violences-conjugales",
-    "destination": "/blog/categories/violences-conjugales-féminicides",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
@@ -116,12 +116,12 @@
   },
   {
     "source": "/actualites-indemnisations-accidents-medicaux",
-    "destination": "/blog/categories/accidents-erreurs-médicales",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
     "source": "/actualites-indemnisations-accidents-route-circulation",
-    "destination": "/blog/categories/accidents-de-la-route",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
@@ -136,17 +136,17 @@
   },
   {
     "source": "/actualites-indemnisations-accidents-travail",
-    "destination": "/blog/categories/droit-et-accidents-du-travail",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
     "source": "/actualites-indemnisations-accidents-vie-courante",
-    "destination": "/blog/categories/accidents-de-la-vie-courante",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
     "source": "/actualites-indemnisations-victimes-infractions-penales",
-    "destination": "/blog/categories/indemnisation-des-victimes-pénale",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
@@ -161,7 +161,7 @@
   },
   {
     "source": "/actualites-penal-affaires-delinquance-economique-financiere",
-    "destination": "/blog/categories/droit-pénal-des-affaires",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
@@ -696,32 +696,32 @@
   },
   {
     "source": "/nos-affaires/categories/accidents-erreurs-médicales",
-    "destination": "/blog/categories/accidents-erreurs-médicales",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
     "source": "/nos-affaires/categories/droit-criminel",
-    "destination": "/blog/categories/droit-criminel",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
     "source": "/nos-affaires/categories/droit-des-assurances",
-    "destination": "/blog/categories/droit-des-assurances",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
     "source": "/nos-affaires/categories/droit-et-accidents-du-travail",
-    "destination": "/blog/categories/droit-et-accidents-du-travail",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
     "source": "/nos-affaires/categories/droit-pénal",
-    "destination": "/blog/categories/droit-pénal",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
     "source": "/nos-affaires/categories/médias",
-    "destination": "/blog/categories/médias",
+    "destination": "/medias",
     "permanent": true
   },
   {
@@ -731,12 +731,12 @@
   },
   {
     "source": "/nos-affaires/categories/trafic-de-stupéfiants",
-    "destination": "/blog/categories/trafic-de-stupéfiants",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
     "source": "/nos-affaires/categories/violences-conjugales-féminicides",
-    "destination": "/blog/categories/violences-conjugales-féminicides",
+    "destination": "/nos-affaires",
     "permanent": true
   },
   {
