@@ -5,6 +5,15 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : Accidents de la vie courante (texte MD fidèle H2/H3/H4)
+
+- JSON réécrit depuis le MD Wix : 4 sections H2, 16 blocs H3, 0 H4 ; 26 puces
+- Listes imbriquées « Que faire » + Cadre légal / Conséquence conservées ; liens Legifrance, GAV, route/travail, cabinet
+- FAQ / formulaire / carrousel hors sections
+- Tests : `/indemnisation-des-victimes/accidents-de-la-vie-courante` — build OK
+
+---
+
 ## 2026-07-19 — Expertises : Accidents de la route (texte MD fidèle H2/H3/H4)
 
 - JSON réécrit depuis le MD Wix : 7 sections H2, 16 blocs H3, 2 sous-blocs H4 ; 48 puces
