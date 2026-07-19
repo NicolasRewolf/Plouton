@@ -5,6 +5,14 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : Violences conjugales (texte MD fidèle H2/H3/H4)
+
+- JSON réécrit depuis le MD Wix : 7 sections H2, 16 blocs H3, 0 H4 ; 22 puces
+- Listes, liens tel:/post et externes conservés ; FAQ / formulaire / carrousel hors sections
+- Tests : `/defense-penale/violences-conjugales-et-feminicides` — build OK
+
+---
+
 ## 2026-07-19 — Expertises : Trafic de stupéfiants (texte MD fidèle H2/H3/H4)
 
 - JSON réécrit depuis le MD Wix : 5 sections H2, 12 blocs H3, 2 sous-blocs H4 ; 41 puces
