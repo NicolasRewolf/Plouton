@@ -12,6 +12,21 @@ Pas de jargon. 5 lignes max par livraison.
 - Déjà OK post-lots : FAQ 8 questions, SEO canonical/OG, liste d’affaires (20)
 - Tests : `/defense-penale/droit-penal` → sections Complexes / Équipe / Méthodes → titres longs visibles
 
+## 2026-07-19 — Expertises : défense des élus (fidélité Wix)
+
+- Titre « E-réputation et cyberharcèlement » de nouveau visible (le gabarit le faisait disparaître car le texte était un doublon)
+- Doublons inutiles nettoyés dans le JSON (paragraphes répétés sans titre)
+- Note : sur le site Wix live, le texte sous ce titre est **aussi** une copie de « Diffamation… » — on n’a rien inventé ; à réécrire plus tard côté contenu si voulu
+- Déjà OK : 4 blocs « Réagir à l’urgence », FAQ
+- Tests : `/defense-penale/defense-des-elus` → section Presse → voir le titre E-réputation
+
+## 2026-07-19 — Expertises : procès criminel (fidélité Wix)
+
+- Phrase cassée « Et donc également devant : » : liste Charente (Angoulême) + Dordogne (Périgueux) rétablie depuis la source live
+- Audit expertises archivé dans `docs/scratch/audit-expertises.html` (référence pour la suite)
+- Déjà OK post-lots : puces procédure, FAQ, lien indemnisation, SEO canonical/OG
+- Tests : page `/defense-penale/proces-criminel` → section Compétences → liste des deux cours d’assises
+
 ## 2026-07-19 — Lot 6 audit : demandes + nav RDV
 
 - **Demandes admin** : recherche (nom, e-mail, objet…) + pages Suivant/Précédent (plus de plafond 200 sans suite)
