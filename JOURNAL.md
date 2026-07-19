@@ -5,6 +5,14 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : violences conjugales et féminicides (fidélité Wix)
+
+- Liens intro/corps : « Notre cabinet » + article Billon (imprescriptibilité)
+- Texte RDV Wix rétabli ; typo « r etrouver » + espaces avant ponctuation corrigés
+- Blocs orphelins de scrape retirés
+- Skip : SEO/réseaux (lots 1–2) ; tél. urgences déjà lot 1
+- Tests : `/defense-penale/violences-conjugales-et-feminicides`
+
 ## 2026-07-19 — Expertises : droit pénal des affaires (fidélité Wix)
 
 - Lien intro « mise en cause pénale » → page Droit pénal
