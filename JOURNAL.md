@@ -5,6 +5,12 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : accidents de la vie courante (fidélité Wix)
+
+- Méthodologie 7 étapes déjà complète (rien à recréer)
+- Texte RDV Wix rétabli (« hors des horaires habituels »)
+- Tests : `/indemnisation-des-victimes/accidents-de-la-vie-courante`
+
 ## 2026-07-19 — Expertises : droit de la famille (fidélité Wix)
 
 - Sous-titres protection rétablis : ordonnance de protection + accompagnement pénal
