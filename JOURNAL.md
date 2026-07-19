@@ -5,7 +5,25 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
-## 2026-07-19 — Migrations Supabase blog #18 (live)
+## 2026-07-20 — Briefs #17+#18 : lots validés (suite)
+
+- **P1-D** : body_doc×422 en base, vues uniques (258 357), index public = DB
+- **#17 contact** : table `content_singletons` + Footer branché
+- **#17 catégories** : lecture DB + compteurs live
+- **P1-F** : JSON-LD article `@graph` (Person / WebPage / BlogPosting / fil)
+- **P1-G/H/I** : autosave 25s, coller texte, CI metas OK, cron seul pour scheduled
+- Tests : check-body-docs · check-meta-descriptions · tsc
+
+---
+
+## 2026-07-20 — P1-D validé : body_doc en base + vues uniques
+
+- 422 `body_doc` + `body_html` injectés en Supabase ; compteur de mots rempli
+- Vues : 116 articles réconciliés (max Wix/DB) → **258 357** total ; JSON sorti du runtime
+- Index public = DB seule (plus de republication de brouillons via JSON)
+- Tests : check-body-docs OK · tsc OK
+
+---
 
 - Appliqué sur projet Plouton : versions, auteurs, `body_doc`, catégories, champs E-E-A-T
 - 5 avocats seedés + 16 catégories (sans « Défense des élus »)

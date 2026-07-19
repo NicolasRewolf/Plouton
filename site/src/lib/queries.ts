@@ -1,7 +1,4 @@
-import fs from "node:fs"
-import path from "node:path"
 import {
-  contentRoot,
   getExpertise,
   getCategories,
   type Article,
@@ -16,11 +13,9 @@ import {
   resolvePublishedIndex,
 } from "@/lib/posts-public"
 
-/** Light index — listings, related, médias, nos-affaires (C5 : DB ∪ JSON). */
+/** Light index — listings, related, médias, nos-affaires (C5 : DB). */
 export async function publishedIndex(): Promise<ArticleIndexItem[]> {
-  const index = await resolvePublishedIndex()
-  const views = postViewCounts()
-  return index.map((a) => withViews(a, views))
+  return resolvePublishedIndex()
 }
 
 /** Article matches a CMS category (id and/or label). */
@@ -111,53 +106,25 @@ export async function affairesArticles(): Promise<ArticleIndexItem[]> {
   )
 }
 
-/**
- * Snapshot Wix (stats-posts.json). Brief #18 P1-D : après reconcile SQL
- * (GREATEST), ce JSON disparaît — en attendant : max(JSON, DB) pour ne
- * jamais perdre de vues (116 slugs divergent, JSON souvent ≥).
- */
-function postViewCounts(): Record<string, number> {
-  try {
-    const raw = JSON.parse(
-      fs.readFileSync(path.join(contentRoot, "stats-posts.json"), "utf8")
-    ) as Record<string, { views?: number }>
-    const out: Record<string, number> = {}
-    for (const [slug, s] of Object.entries(raw)) out[slug] = s.views ?? 0
-    return out
-  } catch {
-    return {}
-  }
-}
-
-function withViews(
-  item: ArticleIndexItem,
-  views: Record<string, number>
-): ArticleIndexItem {
-  const fromJson = views[item.slug] ?? 0
-  const fromDb = item.viewCount ?? 0
-  return { ...item, viewCount: Math.max(fromJson, fromDb) }
-}
-
 /** Résout une liste de slugs (ordre préservé) depuis l’index. */
 export async function articlesBySlugs(slugs: string[]): Promise<ArticleIndexItem[]> {
   const index = await publishedIndex()
   const bySlug = new Map(index.map((a) => [a.slug.normalize("NFC"), a]))
-  const views = postViewCounts()
   const out: ArticleIndexItem[] = []
   for (const raw of slugs) {
     const hit = bySlug.get(raw.normalize("NFC"))
-    if (hit) out.push(withViews(hit, views))
+    if (hit) out.push(hit)
   }
   return out
 }
 
-/** Articles les plus vus, optionnellement filtrés par catégorie. */
+/** Articles les plus vus, optionnellement filtrés par catégorie.
+ * Source unique : posts.view_count (réconcilié depuis stats-posts, brief #18). */
 export async function mostViewedArticles(opts: {
   limit: number
   categoryLabel?: string
 }): Promise<ArticleIndexItem[]> {
-  const views = postViewCounts()
-  let list = (await publishedIndex()).map((a) => withViews(a, views))
+  let list = await publishedIndex()
   if (opts.categoryLabel)
     list = list.filter((a) => articleMatchesLabels(a, [opts.categoryLabel!]))
   list.sort((a, b) => (b.viewCount ?? 0) - (a.viewCount ?? 0))

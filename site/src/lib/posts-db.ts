@@ -198,7 +198,7 @@ function sortByPublishedDesc(a: { publishedAt: string }, b: { publishedAt: strin
 }
 
 /** Article publié par slug — null si absent / brouillon / pas de Supabase.
- * scheduled avec date passée → promu en published (écriture best-effort). */
+ * La promotion scheduled → published est hors chemin de rendu (cron P1-I). */
 export async function getPublishedPost(slug: string): Promise<Article | null> {
   const client = secretClient()
   if (!client) return null
@@ -216,16 +216,6 @@ export async function getPublishedPost(slug: string): Promise<Article | null> {
   if (!data) return null
   const row = data as PostRow
   if (!isPubliclyVisible(row.status, row.published_at || undefined)) return null
-
-  if (row.status === "scheduled") {
-    const { error: upErr } = await client
-      .from("posts")
-      .update({ status: "published" })
-      .eq("slug", raw)
-    if (upErr) console.warn(`[posts-db] promote scheduled: ${upErr.message}`)
-    row.status = "published"
-  }
-
   return postRowToArticle(row)
 }
 

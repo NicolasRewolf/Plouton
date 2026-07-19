@@ -1,9 +1,9 @@
 /**
  * Couche publique C5 + bascule body_doc (brief #18 P1-D).
  *
- * Corps : body_doc (fichier ou DB) → HTML cache. Plus de rendu Ricos runtime.
- * Dual-run JSON index reste tant que DB incomplete ; articles sans status
- * dans l’index JSON ne sont servis que s’ils sont `published` dans le JSON article.
+ * Corps : body_doc (DB) → body_html cache. Plus de rendu Ricos runtime.
+ * Index public : DB seule si Supabase joignable (plus de republication
+ * de brouillons via articles-index.json sans status).
  */
 
 import { unstable_cache } from "next/cache"
@@ -18,7 +18,6 @@ import {
 } from "@/lib/content"
 import {
   getPublishedPost,
-  getPostStatus,
   listAdminPosts,
   listPublishedSlugs,
   POSTS_CACHE_TAG,
@@ -26,9 +25,6 @@ import {
 import {
   hasUsableArticleBody,
   hasUsableHtml,
-  isEditorJsDoc,
-  htmlToParagraphs,
-  editorJsToHtml,
 } from "@/lib/article-body"
 import { isPubliclyVisible, type PostStatus } from "@/lib/post-status"
 
@@ -38,32 +34,18 @@ function normSlug(slug: string): string {
   return decodeURIComponent(slug).normalize("NFC")
 }
 
-function bodySignature(article: Pick<Article, "body" | "bodyHtml">): string {
-  const html = (article.bodyHtml || "").trim()
-  let body = ""
-  if (isEditorJsDoc(article.body))
-    body = htmlToParagraphs(editorJsToHtml(article.body)).join("\n\n")
-  else if (Array.isArray(article.body))
-    body = article.body.map((p) => p.trim()).join("\n\n")
-  return `${html}\n---\n${body}`
-}
-
-/** Corps DB « utile » = différent du JSON seed (édition admin). */
-export function preferDbBody(article: Article): boolean {
-  const jsonTwin = getArticle(article.slug)
-  if (!jsonTwin) return true
-  return bodySignature(article) !== bodySignature(jsonTwin)
-}
-
 /**
- * HTML public (P1-D) :
- * 1. Édition admin (bodyHtml DB divergente du seed)
- * 2. Cache dérivé body_doc (`contenu/body-html/`)
- * 3. bodyHtml seed / DB
- * 4. vide → blocs texte
+ * HTML public (P1-D, source unique body_doc) :
+ * 1. bodyHtml DB si bodyDoc présent (cache dérivé à l'écriture / backfill)
+ * 2. Cache fichier contenu/body-html/
+ * 3. bodyHtml seed
  */
 export function resolvePublicBodyHtml(article: Article): string {
-  if (preferDbBody(article) && hasUsableHtml(article.bodyHtml))
+  const hasDoc =
+    (article.bodyDoc && typeof article.bodyDoc === "object") ||
+    Boolean(getBodyDoc(article.slug))
+
+  if (hasDoc && hasUsableHtml(article.bodyHtml))
     return article.bodyHtml!.trim()
 
   const fromCache = getBodyHtmlCache(article.slug)
@@ -84,7 +66,6 @@ export function resolveBodyDoc(
 
 export type PostBodyMode = "html" | "blocks"
 
-/** @deprecated Prefer resolvePublicBodyHtml — plus de mode ricos. */
 export function resolvePostBodyMode(article: Article): PostBodyMode {
   const html = resolvePublicBodyHtml(article)
   if (html) return "html"
@@ -94,33 +75,28 @@ export function resolvePostBodyMode(article: Article): PostBodyMode {
 }
 
 async function fetchPublishedIndexMerged(): Promise<ArticleIndexItem[]> {
-  const jsonIndex = listArticleIndex()
   const dbMeta = await listAdminPosts()
 
-  if (!dbMeta) return jsonIndex
-
-  const dbBySlug = new Map(dbMeta.map((p) => [normSlug(p.slug), p]))
-  const out: ArticleIndexItem[] = []
-
-  for (const p of dbMeta) {
-    if (!isPubliclyVisible(p.status, p.publishedAt)) continue
-    const { status: _s, ...item } = p
-    out.push(item)
+  // DB joignable → source unique (brief #18 : fin dual-run dangereux)
+  if (dbMeta) {
+    const out: ArticleIndexItem[] = []
+    for (const p of dbMeta) {
+      if (!isPubliclyVisible(p.status, p.publishedAt)) continue
+      const { status: _s, ...item } = p
+      out.push(item)
+    }
+    out.sort(
+      (a, b) =>
+        new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+    )
+    return out
   }
 
-  for (const j of jsonIndex) {
-    if (dbBySlug.has(normSlug(j.slug))) continue
-    // Sécurité dual-run : ne pas republier un brouillon JSON si pas en DB
+  // Hors ligne / pas de clés : JSON publié seulement (secours local)
+  return listArticleIndex().filter((j) => {
     const full = getArticle(j.slug)
-    if (full && full.status !== "published") continue
-    out.push(j)
-  }
-
-  out.sort(
-    (a, b) =>
-      new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-  )
-  return out
+    return !full || full.status === "published"
+  })
 }
 
 const cachedPublishedIndex = unstable_cache(
@@ -133,24 +109,30 @@ async function fetchPublishedArticle(slug: string): Promise<Article | null> {
   const raw = normSlug(slug)
   const fromDb = await getPublishedPost(raw)
   if (fromDb) {
-    // Enrichir bodyDoc depuis fichier si absent en DB
     if (!fromDb.bodyDoc) {
       const doc = getBodyDoc(raw)
       if (doc) fromDb.bodyDoc = doc
     }
+    if (!hasUsableHtml(fromDb.bodyHtml)) {
+      const html = getBodyHtmlCache(raw)
+      if (html) fromDb.bodyHtml = html
+    }
     return fromDb
   }
 
+  // Secours local uniquement si pas de client DB
+  const dbMeta = await listAdminPosts()
+  if (dbMeta) return null
+
   const fromJson = getArticle(raw)
   if (!fromJson || fromJson.status !== "published") return null
-
-  const status = await getPostStatus(raw)
-  if (status === "draft" || status === "archived" || status === "scheduled")
-    return null
-
   if (!fromJson.bodyDoc) {
     const doc = getBodyDoc(raw)
     if (doc) fromJson.bodyDoc = doc
+  }
+  if (!hasUsableHtml(fromJson.bodyHtml)) {
+    const html = getBodyHtmlCache(raw)
+    if (html) fromJson.bodyHtml = html
   }
   return fromJson
 }
@@ -174,22 +156,15 @@ export const resolvePublishedArticle = cache(async function resolvePublishedArti
 })
 
 export async function resolvePublishedSlugs(): Promise<string[]> {
-  const jsonSlugs = listArticleIndex().map((a) => a.slug)
   const dbSlugs = await listPublishedSlugs()
-  if (!dbSlugs) return jsonSlugs
-  const set = new Set([...dbSlugs, ...jsonSlugs].map(normSlug))
-  const meta = await listAdminPosts()
-  if (meta) {
-    for (const p of meta) {
-      if (p.status === "draft" || p.status === "archived") set.delete(normSlug(p.slug))
-      if (
-        p.status === "scheduled" &&
-        !isPubliclyVisible(p.status, p.publishedAt)
-      )
-        set.delete(normSlug(p.slug))
-    }
-  }
-  return [...set]
+  if (dbSlugs) return dbSlugs.map(normSlug)
+
+  return listArticleIndex()
+    .filter((j) => {
+      const full = getArticle(j.slug)
+      return !full || full.status === "published"
+    })
+    .map((j) => j.slug)
 }
 
 export async function resolveAdminArticleList(): Promise<
@@ -198,4 +173,9 @@ export async function resolveAdminArticleList(): Promise<
   const fromDb = await listAdminPosts()
   if (fromDb?.length) return fromDb
   return listArticleIndex().map((a) => ({ ...a, status: "published" as const }))
+}
+
+/** @deprecated Préférer resolvePublicBodyHtml — plus de bascule signature. */
+export function preferDbBody(article: Article): boolean {
+  return Boolean(article.bodyDoc) || hasUsableHtml(article.bodyHtml)
 }

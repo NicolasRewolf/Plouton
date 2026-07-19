@@ -7,10 +7,8 @@ import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
 import { StickyCta } from "@/components/StickyCta"
 import { TeamCtaBanner } from "@/components/TeamCtaBanner"
-import {
-  getAuthor,
-  getSite,
-} from "@/lib/content"
+import { getSite, resolveAuthorSlug } from "@/lib/content"
+import { resolveAuthorBySlug } from "@/lib/authors-db"
 import { categoryPublicHref } from "@/lib/gallery-filters"
 import {
   resolvePostBodyMode,
@@ -20,6 +18,7 @@ import {
 } from "@/lib/posts-public"
 import { relatedForArticle } from "@/lib/queries"
 import { JsonLd, absoluteUrl, organizationSchema } from "@/lib/seo"
+import { buildArticleGraph } from "@/lib/article-jsonld"
 import { safeMetaDescription } from "@/lib/meta-description"
 
 export const dynamicParams = true
@@ -101,7 +100,8 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const bodyHtml = resolvePublicBodyHtml(article)
   const site = getSite()
   const url = `${site.url}/post/${article.slug}`
-  const author = getAuthor(article)
+  const authorKey = resolveAuthorSlug(article)
+  const author = authorKey ? await resolveAuthorBySlug(authorKey) : null
   const publishedLabel = new Date(article.publishedAt).toLocaleDateString("fr-FR", {
     day: "numeric",
     month: "short",
@@ -125,64 +125,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const authorSlug =
     author?.id || article.authorSlug || article.authorId || null
 
-  const schema = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BlogPosting",
-        "@id": `${url}#article`,
-        headline: article.title,
-        description:
-          safeMetaDescription(article.metaDescription, article.excerpt) ||
-          article.excerpt,
-        datePublished: article.publishedAt,
-        dateModified: article.updatedAt ?? article.publishedAt,
-        author: {
-          "@type": "Person",
-          ...(authorSlug
-            ? { "@id": absoluteUrl(`/auteur/${authorSlug}#person`) }
-            : {}),
-          name: author?.shortName ?? author?.displayName ?? article.author,
-          ...(author?.jobTitle || author?.role
-            ? { jobTitle: author.jobTitle || author.role }
-            : {}),
-          ...(authorSlug
-            ? { url: absoluteUrl(`/auteur/${authorSlug}`) }
-            : {}),
-          ...(author?.linkedin ? { sameAs: [author.linkedin] } : {}),
-        },
-        publisher: { "@id": site.cabinetId },
-        mainEntityOfPage: url,
-        image: article.coverImage
-          ? article.coverImage.startsWith("http")
-            ? article.coverImage
-            : absoluteUrl(article.coverImage)
-          : absoluteUrl("/brand/equipe-home.png"),
-        inLanguage: "fr-FR",
-      },
-      {
-        "@type": "BreadcrumbList",
-        "@id": `${url}#breadcrumb`,
-        itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Accueil", item: site.url },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: article.categories?.[0] || "Ressources",
-            item: absoluteUrl(
-              categoryPublicHref(article.categories?.[0] || "Ressources")
-            ),
-          },
-          {
-            "@type": "ListItem",
-            position: 3,
-            name: article.title,
-            item: url,
-          },
-        ],
-      },
-    ],
-  }
+  const schema = buildArticleGraph({ article, site, author, url })
 
   return (
     <>
