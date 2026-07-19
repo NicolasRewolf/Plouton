@@ -60,8 +60,13 @@ export type PostBodyMode =
   | "html"
   | "blocks"
 
-/** Chemin de rendu du corps (documenté dans docs/05-decisions.md). */
+/** Chemin de rendu du corps (documenté dans docs/05-decisions.md).
+ * P1-D : body_doc prioritaire → HTML cache ; dual-run Ricos si pas encore backfill.
+ */
 export function resolvePostBodyMode(article: Article): PostBodyMode {
+  if (article.bodyDoc && typeof article.bodyDoc === "object") {
+    return "db-html"
+  }
   const ricos = getRicos(article.slug)
   if (preferDbBody(article)) {
     if (hasUsableHtml(article.bodyHtml)) return "db-html"

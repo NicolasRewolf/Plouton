@@ -10,8 +10,15 @@ interface CategoryOpt {
   slug: string
 }
 
+interface AuthorOpt {
+  id: string
+  shortName: string
+  displayName: string
+}
+
 interface AdminPostMetaProps {
   author: string
+  authorSlug?: string
   excerpt: string
   publishedAt: string
   metaTitle: string
@@ -26,13 +33,19 @@ interface AdminPostMetaProps {
   onPublishedAtChange: (iso: string) => void
   onMetaTitleChange: (v: string) => void
   onMetaDescriptionChange: (v: string) => void
+  onAuthorChange?: (opts: {
+    author: string
+    authorId: string
+    authorSlug: string
+  }) => void
 }
 
 /**
- * Panneau métadonnées admin (SEO, date, cover, catégories multi).
+ * Panneau métadonnées admin (SEO, date, cover, catégories multi, auteur).
  */
 export function AdminPostMeta({
   author,
+  authorSlug,
   excerpt,
   publishedAt,
   metaTitle,
@@ -46,8 +59,11 @@ export function AdminPostMeta({
   onPublishedAtChange,
   onMetaTitleChange,
   onMetaDescriptionChange,
+  onAuthorChange,
 }: AdminPostMetaProps) {
   const [categories, setCategories] = useState<CategoryOpt[]>([])
+  const [authors, setAuthors] = useState<AuthorOpt[]>([])
+  const [selectedAuthor, setSelectedAuthor] = useState(authorSlug || "")
 
   useEffect(() => {
     fetch("/api/categories")
@@ -56,13 +72,35 @@ export function AdminPostMeta({
         if (Array.isArray(data)) setCategories(data)
       })
       .catch(() => {})
+    fetch("/api/authors")
+      .then((r) => r.json())
+      .then((data: AuthorOpt[]) => {
+        if (Array.isArray(data)) setAuthors(data)
+      })
+      .catch(() => {})
   }, [])
+
+  useEffect(() => {
+    setSelectedAuthor(authorSlug || "")
+  }, [authorSlug])
 
   function toggleCategory(label: string) {
     if (categoryLabels.includes(label)) {
       onCategoriesChange(categoryLabels.filter((l) => l !== label))
     } else {
       onCategoriesChange([...categoryLabels, label])
+    }
+  }
+
+  function onAuthorSelect(id: string) {
+    setSelectedAuthor(id)
+    const a = authors.find((x) => x.id === id)
+    if (a && onAuthorChange) {
+      onAuthorChange({
+        author: a.shortName,
+        authorId: a.id,
+        authorSlug: a.id,
+      })
     }
   }
 
@@ -85,7 +123,21 @@ export function AdminPostMeta({
         ) : null}
         <label className="mt-3 grid gap-1 text-[13px] text-navy">
           Auteur
-          <input name="author" defaultValue={author} className="admin-input" />
+          <select
+            name="authorSlug"
+            value={selectedAuthor}
+            onChange={(e) => onAuthorSelect(e.target.value)}
+            className="admin-input"
+          >
+            <option value="">— choisir —</option>
+            {authors.map((a) => (
+              <option key={a.id} value={a.id}>
+                {a.shortName}
+              </option>
+            ))}
+          </select>
+          {/* Compat formulaires qui lisent encore name=author */}
+          <input type="hidden" name="author" value={author} />
         </label>
         <label className="mt-3 grid gap-1 text-[13px] text-navy">
           Date de publication
@@ -98,7 +150,9 @@ export function AdminPostMeta({
           />
         </label>
         <fieldset className="mt-3">
-          <legend className="text-[13px] text-navy">Catégories (plusieurs possibles)</legend>
+          <legend className="text-[13px] text-navy">
+            Catégories (plusieurs possibles)
+          </legend>
           <div className="mt-2 flex max-h-48 flex-col gap-1.5 overflow-y-auto rounded-lg border border-[rgba(23,71,94,0.1)] p-2">
             {categories.map((c) => {
               const checked = categoryLabels.includes(c.label)

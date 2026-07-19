@@ -91,6 +91,22 @@ def article_to_row(data: dict) -> dict:
     # Les imports Wix mettent souvent le GUID Wix dans `author`
     if not author_id and isinstance(author, str) and len(author) == 36 and "-" in author:
         author_id = author
+    _WIX_TO_SLUG = {
+        "07454f1f-c54a-4308-b897-19be554db88a": "julien-plouton",
+        "e7ef05f0-d3ab-4133-b386-5d1f783edc44": "mathilde-manson",
+        "8a867897-4e1a-4714-8cc1-9282b3753d5a": "jade-adil",
+        "b6bed89f-af2d-4c3d-b6d9-bf3ff464bef5": "andeol-brachanet",
+        "ec99027d-7c91-42ba-a067-a12c14e1daf3": "axelle-fesneau",
+    }
+    author_slug = data.get("authorSlug")
+    if author_id in _WIX_TO_SLUG:
+        author_slug = _WIX_TO_SLUG[author_id]
+        author_id = author_slug
+    elif isinstance(author, str) and author in _WIX_TO_SLUG:
+        author_slug = _WIX_TO_SLUG[author]
+        author_id = author_slug
+    elif not author_slug and isinstance(author_id, str) and author_id in _WIX_TO_SLUG.values():
+        author_slug = author_id
     categories = data.get("categories") or []
     if not isinstance(categories, list):
         categories = [str(categories)]
@@ -112,6 +128,7 @@ def article_to_row(data: dict) -> dict:
         "status": status,
         "author": str(author),
         "author_id": author_id,
+        "author_slug": author_slug,
         "categories": [str(c) for c in categories],
         "tags": [str(t) for t in tags],
         "category_ids": [str(c) for c in category_ids],
@@ -123,6 +140,7 @@ def article_to_row(data: dict) -> dict:
         "meta_title": data.get("metaTitle"),
         "meta_description": data.get("metaDescription"),
         "body_html": data.get("bodyHtml"),
+        "body_doc": data.get("bodyDoc"),
         "body": body,
     }
 

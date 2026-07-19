@@ -46,11 +46,26 @@ export default function EditPostPage() {
   const [forceRichEdit, setForceRichEdit] = useState(false)
   const [versions, setVersions] = useState<VersionMeta[]>([])
   const [serverRisk, setServerRisk] = useState<EditGuardResult>(EMPTY_RISK)
+  const [authorSlug, setAuthorSlug] = useState("")
+  const [authorLabel, setAuthorLabel] = useState("")
+  const [bodyDoc, setBodyDoc] = useState<Record<string, unknown> | null>(null)
+  const [dirty, setDirty] = useState(false)
+  const autosaveTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const risk = mergeEditRisks(
     serverRisk,
     bodyHtml !== null ? assessHtmlEditRisk(bodyHtml) : EMPTY_RISK
   )
+
+  useEffect(() => {
+    const onBeforeUnload = (e: BeforeUnloadEvent) => {
+      if (!dirty) return
+      e.preventDefault()
+      e.returnValue = ""
+    }
+    window.addEventListener("beforeunload", onBeforeUnload)
+    return () => window.removeEventListener("beforeunload", onBeforeUnload)
+  }, [dirty])
 
   useEffect(() => {
     fetch(`/api/posts?slug=${encodeURIComponent(slug)}`)
@@ -69,6 +84,7 @@ export default function EditPostPage() {
           const { editGuard, ...articleData } = data
           setArticle(articleData)
           setBodyHtml(articleToEditorHtml(articleData))
+          setBodyDoc(articleData.bodyDoc || null)
           setCoverImage(articleData.coverImage || "")
           setCategoryLabels(
             articleData.categories?.length ? articleData.categories : []
@@ -78,6 +94,10 @@ export default function EditPostPage() {
           )
           setMetaTitle(articleData.metaTitle || "")
           setMetaDescription(articleData.metaDescription || "")
+          setAuthorSlug(
+            articleData.authorSlug || articleData.authorId || ""
+          )
+          setAuthorLabel(articleData.author || "")
           if (editGuard) setServerRisk(editGuard)
         }
       )
@@ -106,7 +126,9 @@ export default function EditPostPage() {
       ...article,
       title: String(fd.get("title")),
       excerpt: String(fd.get("excerpt")),
-      author: String(fd.get("author")),
+      author: authorLabel || String(fd.get("author")),
+      authorId: authorSlug || article.authorId,
+      authorSlug: authorSlug || article.authorSlug,
       publishedAt,
       metaTitle: metaTitle || undefined,
       metaDescription: metaDescription || undefined,
@@ -118,6 +140,7 @@ export default function EditPostPage() {
           : ["Ressources et notions juridiques"],
       status,
       bodyHtml,
+      bodyDoc: bodyDoc || undefined,
       body: htmlToParagraphs(bodyHtml),
       forceRichEdit: forceRichEdit || undefined,
     }
@@ -132,8 +155,27 @@ export default function EditPostPage() {
       setError(data.error || "Échec de l’enregistrement")
       return
     }
+    setDirty(false)
+    setArticle(next)
+    if (status === "draft") {
+      // Autosave / brouillon : rester sur la page
+      router.refresh()
+      return
+    }
     router.push("/admin")
     router.refresh()
+  }
+
+  function onBodyChange(html: string, json?: Record<string, unknown>) {
+    setBodyHtml(html)
+    if (json) setBodyDoc(json)
+    setDirty(true)
+    if (autosaveTimer.current) clearTimeout(autosaveTimer.current)
+    autosaveTimer.current = setTimeout(() => {
+      // Autosave brouillon uniquement si déjà connu et pas gelé
+      if (!article || (risk.blocked && !forceRichEdit)) return
+      void save("draft")
+    }, 45000)
   }
 
   async function archive() {
@@ -217,6 +259,12 @@ export default function EditPostPage() {
         </div>
         <div className="flex items-center gap-3 text-[13px]">
           <Link
+            href={`/admin/apercu/${article.slug}`}
+            className="text-muted hover:text-navy"
+          >
+            Aperçu
+          </Link>
+          <Link
             href={`/post/${article.slug}`}
             target="_blank"
             rel="noopener noreferrer"
@@ -269,7 +317,13 @@ export default function EditPostPage() {
               disabled={risk.blocked && !forceRichEdit}
             />
           </label>
-          <AdminEditorLazy initialHtml={bodyHtml} onChange={setBodyHtml} />
+          <AdminEditorLazy initialHtml={bodyHtml} onChange={onBodyChange} />
+          {dirty ? (
+            <p className="text-[12px] text-muted">
+              Modifications non enregistrées
+              {saving ? " — enregistrement…" : ""}
+            </p>
+          ) : null}
         </div>
 
         <aside className="space-y-4 lg:sticky lg:top-6 lg:self-start">
@@ -322,7 +376,8 @@ export default function EditPostPage() {
           </div>
 
           <AdminPostMeta
-            author={article.author}
+            author={authorLabel || article.author}
+            authorSlug={authorSlug}
             excerpt={article.excerpt}
             publishedAt={publishedAt}
             metaTitle={metaTitle}
@@ -334,6 +389,10 @@ export default function EditPostPage() {
             onPublishedAtChange={setPublishedAt}
             onMetaTitleChange={setMetaTitle}
             onMetaDescriptionChange={setMetaDescription}
+            onAuthorChange={({ author, authorId, authorSlug: s }) => {
+              setAuthorLabel(author)
+              setAuthorSlug(s || authorId)
+            }}
           />
 
           {versions.length > 0 ? (

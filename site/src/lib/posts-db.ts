@@ -15,7 +15,7 @@ import {
   type PostStatus,
 } from "@/lib/post-status"
 import type { Article, ArticleIndexItem } from "@/lib/content"
-import { getCategories } from "@/lib/content"
+import { getCategories, resolveAuthorSlug } from "@/lib/content"
 import {
   editorJsToHtml,
   hasUsableHtml,
@@ -36,6 +36,7 @@ export interface PostRow {
   status: PostStatus
   author: string
   author_id: string | null
+  author_slug: string | null
   categories: string[] | null
   tags: string[] | null
   category_ids: string[] | null
@@ -47,6 +48,7 @@ export interface PostRow {
   meta_title: string | null
   meta_description: string | null
   body_html: string | null
+  body_doc: unknown | null
   body: unknown
 }
 
@@ -81,6 +83,8 @@ export function articleToPostRow(article: Article) {
     status,
     author: article.author || "",
     author_id: article.authorId ?? null,
+    author_slug:
+      article.authorSlug ?? resolveAuthorSlug(article) ?? null,
     categories: article.categories || [],
     tags: article.tags || [],
     category_ids: article.categoryIds || [],
@@ -92,6 +96,7 @@ export function articleToPostRow(article: Article) {
     meta_title: article.metaTitle ?? null,
     meta_description: article.metaDescription ?? null,
     body_html: article.bodyHtml ?? null,
+    body_doc: article.bodyDoc ?? null,
     body: normalizeBodyForDb(article.body),
   }
 }
@@ -136,6 +141,7 @@ export function postRowToArticle(row: PostRow): Article {
     status,
     author: row.author || "",
     authorId: row.author_id || undefined,
+    authorSlug: row.author_slug || row.author_id || undefined,
     categories: row.categories || [],
     tags: row.tags || undefined,
     categoryIds: row.category_ids || undefined,
@@ -147,6 +153,7 @@ export function postRowToArticle(row: PostRow): Article {
     metaTitle: row.meta_title || undefined,
     metaDescription: row.meta_description || undefined,
     bodyHtml,
+    bodyDoc: (row.body_doc as Article["bodyDoc"]) || undefined,
     body,
   }
 }

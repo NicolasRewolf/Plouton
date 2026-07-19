@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next"
-import { getSite, listExpertises } from "@/lib/content"
+import { getSite, listAuthors, listExpertises } from "@/lib/content"
 import { publishedIndex } from "@/lib/queries"
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -10,6 +10,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }))
   const expertises = listExpertises().map((e) => ({
     url: `${site.url}${e.path || `/${e.pole}/${e.slug}`}`,
+    lastModified: new Date(),
+  }))
+  const auteurs = listAuthors().map((a) => ({
+    url: `${site.url}/auteur/${a.id}`,
     lastModified: new Date(),
   }))
   const pages = [
@@ -29,5 +33,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url: `${site.url}${path}`,
     lastModified: new Date(),
   }))
-  return [...pages, ...expertises, ...posts]
+  return [...pages, ...expertises, ...auteurs, ...posts]
 }

@@ -93,7 +93,8 @@ Gagné : 15 expertises, 3 hubs pôles, 422 posts, formulaires/admin, légales, H
 | 6a | **Admin** — TipTap (barre fixe Wix) + dashboard | ✅ |
 | 6b | **C5.1** — covers / bucket `medias` | ✅ partiel (URL + upload admin) |
 | 6c | **FAQ** — Supabase + admin + import CSV | ✅ |
-| 6d | **Blog #18 P0** — gel riches + seed sûr + versions + SEO filet | 🟡 PR |
+| 6d | **Blog #18 P0** — gel riches + seed sûr + versions + SEO filet | 🟡 PR #61 |
+| 6e | **Blog #18 P1** — auteurs, TipTap riche, body_doc, `/auteur`, cron | 🟡 PR |
 | 7 | Recherche site | ✅ |
 | 7a | **Simulateurs divorce** (pension + prestation) | ✅ |
 | 8 | Polish UI (accueil, listes, vernis) | au fil de l’eau |
@@ -107,6 +108,8 @@ Gagné : 15 expertises, 3 hubs pôles, 422 posts, formulaires/admin, légales, H
 4. Smoke test C5 : admin → éditer + publier → page `/post/...` à jour **sans** redeploy
 5. Vérifier seed **422** toujours en base (sinon `python3 scripts/seed-posts.py` — **sans** `--force`)
 6. Appliquer migration **`0007_post_versions.sql`** sur Supabase Plouton (filet versions admin)
+7. Appliquer **`0008_authors_body_doc.sql`** + `python3 scripts/seed-authors.py`
+8. (Optionnel) backfill body_doc : `node scripts/backfill-body-doc.mjs --write-files` puis seed DB
 
 ## 🙋 Ce qui dépend de Nicolas
 

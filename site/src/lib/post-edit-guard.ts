@@ -7,22 +7,13 @@
  * `post-edit-guard-server.ts` (API uniquement).
  */
 
-/** Types Ricos que TipTap 3.28 (schéma actuel) ne peut pas round-tripper intact. */
+/** Types encore non round-trippables après TipTap enrichi (P1-B). */
 export const RICH_RICOS_TYPES = new Set([
-  "TABLE",
-  "COLLAPSIBLE_LIST",
-  "COLLAPSIBLE_ITEM",
-  "COLLAPSIBLE_ITEM_TITLE",
-  "COLLAPSIBLE_ITEM_BODY",
-  "GALLERY",
-  "VIDEO",
   "HTML",
-  "BUTTON",
-  "LINK_PREVIEW",
   "FILE",
   "LAYOUT",
   "LAYOUT_CELL",
-  "IMAGE", // images inline perdues au round-trip HTML TipTap basique
+  "LINK_PREVIEW",
 ])
 
 const RICH_HTML_RE = /<(table|details|figure|iframe|video|h4)\b/i
@@ -47,7 +38,6 @@ export function collectRicosRisks(
   for (const n of nodes || []) {
     const t = n.type
     if (t && RICH_RICOS_TYPES.has(t)) out.add(t)
-    if (t === "HEADING" && (n.headingData?.level ?? 0) >= 4) out.add("HEADING_H4")
     if (Array.isArray(n.nodes)) collectRicosRisks(n.nodes, out)
     for (const v of Object.values(n)) {
       if (
