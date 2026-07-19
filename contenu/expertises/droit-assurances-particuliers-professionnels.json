@@ -131,7 +131,19 @@
       "blocks": [
         {
           "heading": "Gestion des Sinistres Complexes (Incendies, Inondations, Vols)",
-          "body": "• Application de l’art. L125-1 du Code des assurances (catastrophes naturelles) : Le cabinet Plouton vous assiste dans la reconnaissance de l'état de catastrophe naturelle, en s'appuyant sur l'article L125-1 du Code des assurances et en vous aidant à rassembler les éléments de preuve nécessaires pour démontrer l'impact du sinistre sur votre activité.\n\n​\n\n• Négociation des pertes d’exploitation et frais de décontamination (expertise comptable Art. 1478 CPC) : Face aux conséquences financières d'un incendie, le cabinet Plouton négocie avec votre assureur la prise en charge des pertes d'exploitation et des frais de décontamination. Le cabinet se base notamment sur l'expertise comptable et sur l'article 1478 du Code de Procédure Civile pour obtenir une indemnisation juste et complète, couvrant la totalité de vos préjudices.\n\n• Reconnaissance de l’état de catastrophe naturelle (Arrêté interministériel requis) : Le cabinet Plouton vous aide à obtenir la reconnaissance de l'état de catastrophe naturelle suite à une inondation. Cette démarche nécessite un arrêté interministériel, et le cabinet vous accompagne dans la constitution de votre dossier et la défense de vos droits auprès des autorités compétentes.\n\n• Contestation des franchises abusives (Art. L121-4 Code assurances) : Le cabinet Plouton analyse les clauses de votre contrat d'assurance et conteste les franchises abusives appliquées par l'assureur en cas d'inondation. L'article L121-4 du Code des assurances est mobilisé pour garantir le respect de vos droits et la limitation des franchises à un niveau raisonnable.\n\n• Couverture des stocks et matériel via garantie « Tous Risques » (Art. L113-1) : Le cabinet Plouton vérifie que votre contrat d'assurance couvre bien les vols et les dommages industriels, notamment via la garantie \"Tous Risques\" prévue à l'article L113-1 du Code des assurances.\n\n​\n\n• Recours contre les exclusions pour défaut d’alarme (Jurisprudence CA Paris, 2021) : En cas de vol ou de dommages industriels, l'assureur peut tenter d'exclure la garantie en raison d'un défaut d'alarme. Le cabinet Plouton s'appuie sur la jurisprudence récente, notamment celle de la Cour d'Appel de Paris en 2021, pour contester ces exclusions et faire valoir vos droits à indemnisation."
+          "body": ""
+        },
+        {
+          "heading": "Incendies",
+          "body": "• Application de l’art. L125-1 du Code des assurances (catastrophes naturelles) : Le cabinet Plouton vous assiste dans la reconnaissance de l'état de catastrophe naturelle, en s'appuyant sur l'article L125-1 du Code des assurances et en vous aidant à rassembler les éléments de preuve nécessaires pour démontrer l'impact du sinistre sur votre activité.\n\n• Négociation des pertes d’exploitation et frais de décontamination (expertise comptable Art. 1478 CPC) : Face aux conséquences financières d'un incendie, le cabinet Plouton négocie avec votre assureur la prise en charge des pertes d'exploitation et des frais de décontamination. Le cabinet se base notamment sur l'expertise comptable et sur l'article 1478 du Code de Procédure Civile pour obtenir une indemnisation juste et complète, couvrant la totalité de vos préjudices."
+        },
+        {
+          "heading": "Inondations/ Sécheresse/ Tempêtes :",
+          "body": "• Reconnaissance de l’état de catastrophe naturelle (Arrêté interministériel requis) : Le cabinet Plouton vous aide à obtenir la reconnaissance de l'état de catastrophe naturelle suite à une inondation. Cette démarche nécessite un arrêté interministériel, et le cabinet vous accompagne dans la constitution de votre dossier et la défense de vos droits auprès des autorités compétentes.\n\n• Contestation des franchises abusives (Art. L121-4 Code assurances) : Le cabinet Plouton analyse les clauses de votre contrat d'assurance et conteste les franchises abusives appliquées par l'assureur en cas d'inondation. L'article L121-4 du Code des assurances est mobilisé pour garantir le respect de vos droits et la limitation des franchises à un niveau raisonnable."
+        },
+        {
+          "heading": "Vols/dommages industriels",
+          "body": "• Couverture des stocks et matériel via garantie « Tous Risques » (Art. L113-1) : Le cabinet Plouton vérifie que votre contrat d'assurance couvre bien les vols et les dommages industriels, notamment via la garantie \"Tous Risques\" prévue à l'article L113-1 du Code des assurances.\n\n• Recours contre les exclusions pour défaut d’alarme (Jurisprudence CA Paris, 2021) : En cas de vol ou de dommages industriels, l'assureur peut tenter d'exclure la garantie en raison d'un défaut d'alarme. Le cabinet Plouton s'appuie sur la jurisprudence récente, notamment celle de la Cour d'Appel de Paris en 2021, pour contester ces exclusions et faire valoir vos droits à indemnisation."
         },
         {
           "heading": "Approche humaine et réactive",
@@ -145,5 +157,9 @@
       "text": "Perte d'exploitation",
       "href": "/droit-des-contrats-et-des-personnes/droit-assurances-particuliers-professionnels"
     }
-  ]
+  ],
+  "contactAside": {
+    "title": "Je prends rendez-vous maintenant !",
+    "text": "Les rendez-vous sont pris dans les 7 jours. En cas d’urgence, le rendez-vous peut être immédiat et même en dehors des horaires habituels du cabinet."
+  }
 }
