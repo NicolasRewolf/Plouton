@@ -34,5 +34,6 @@ export function toGalleryItems(articles: ArticleIndexItem[]) {
     categories: a.categories,
     coverImage: a.coverImage,
     minutesToRead: a.minutesToRead,
+    viewCount: a.viewCount ?? 0,
   }))
 }

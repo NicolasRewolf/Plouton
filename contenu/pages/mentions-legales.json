@@ -7,9 +7,6 @@
   "metaDescription": "Mentions légales du site jplouton-avocat.fr : éditeur SELAS Julien Plouton, hébergement, propriété intellectuelle, médiation.",
   "intro": "Informations obligatoires sur l’éditeur du site, l’hébergement et les conditions d’utilisation.",
   "updatedAt": "2026-07-18",
-  "todos": [
-    "Capital social de la SELAS : à confirmer sur un extrait Kbis / Pappers (non publié ici pour ne pas inventer le montant)."
-  ],
   "relatedLinks": [
     { "href": "/politique-de-confidentialite", "label": "Politique de confidentialité" },
     { "href": "/cookies", "label": "Cookies" }
