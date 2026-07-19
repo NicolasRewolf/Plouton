@@ -77,7 +77,7 @@ export async function loadExpertisePage(
   if (!expertise) return null
 
   const site = getSite()
-  const faq = faqForExpertise(expertise)
+  const faq = await faqForExpertise(expertise)
   const relatedArticles = await relatedForExpertise(expertise, RELATED_LIMIT)
   const related: AffaireCardItem[] = relatedArticles.map((a) => ({
     slug: a.slug,

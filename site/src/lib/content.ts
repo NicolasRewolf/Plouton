@@ -402,10 +402,9 @@ export function readPageJson<T>(slug: string): T | null {
   return readJson<T>(path.join("pages", `${slug}.json`))
 }
 
-export const getFaq = cache(function getFaq(expertiseKey: string): FaqItem[] {
-  const file = path.join(root, "faq", `${expertiseKey}.json`)
-  if (!fs.existsSync(file)) return []
-  return readJson<FaqItem[]>(path.join("faq", `${expertiseKey}.json`))
+/** @deprecated Lecture FAQ = Supabase via getFaqForExpertise — JSON archivés. */
+export const getFaq = cache(function getFaq(_expertiseKey: string): FaqItem[] {
+  return []
 })
 
 export function listAuthors(): Author[] {
