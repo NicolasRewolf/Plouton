@@ -64,7 +64,16 @@ export function organizationSchema(site: {
   legalName: string
   phone: { e164: string }
   email: string
-  address: { street: string; postalCode: string; city: string; country: string }
+  address: {
+    street: string
+    postalCode: string
+    city: string
+    country: string
+    /** Région administrative (SEO local) — ex. « Nouvelle-Aquitaine ». */
+    region?: string
+  }
+  /** Coordonnées du cabinet (SEO local). Renseigner `geo` dans contenu/site.json. */
+  geo?: { latitude: number; longitude: number }
   cabinetId: string
   founderId: string
   rating: { value: string; count: number }
@@ -95,15 +104,33 @@ export function organizationSchema(site: {
       streetAddress: site.address.street,
       postalCode: site.address.postalCode,
       addressLocality: site.address.city,
+      ...(site.address.region ? { addressRegion: site.address.region } : {}),
       addressCountry: site.address.country,
     },
+    ...(site.geo
+      ? {
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: site.geo.latitude,
+            longitude: site.geo.longitude,
+          },
+        }
+      : {}),
     founder: {
       "@type": "Person",
       "@id": site.founderId,
       name: "Julien Plouton",
       jobTitle: "Avocat à la Cour",
     },
-    areaServed: "FR",
+    // SEO local : zone desservie explicite (repris du live Wix, qui exposait
+    // City + AdministrativeArea — signal perdu lors de la migration).
+    areaServed: [
+      { "@type": "City", name: site.address.city },
+      ...(site.address.region
+        ? [{ "@type": "AdministrativeArea", name: site.address.region }]
+        : []),
+      { "@type": "Country", name: "France" },
+    ],
     priceRange: "€€",
     aggregateRating: {
       "@type": "AggregateRating",
