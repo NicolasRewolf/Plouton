@@ -5,6 +5,15 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : Victimes de délits ou crimes (texte MD fidèle H2/H3/H4)
+
+- JSON réécrit depuis le MD Wix : 5 sections H2, 15 blocs H3, 0 H4 ; 26 puces
+- Listes imbriquées CIVI / SARVI sous « Actions civiles » conservées ; double « : : » MD conservé
+- FAQ / formulaire / carrousel hors sections
+- Tests : `/indemnisation-des-victimes/victimes-de-delits-ou-crimes` — build OK
+
+---
+
 ## 2026-07-19 — Expertises : Accidents du travail (texte MD fidèle H2/H3/H4)
 
 - JSON réécrit depuis le MD Wix : 4 sections H2, 7 blocs H3, 0 H4 ; 25 puces
