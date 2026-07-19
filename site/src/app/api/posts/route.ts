@@ -8,6 +8,8 @@ import {
   htmlToParagraphs,
   isEditorJsDoc,
 } from "@/lib/article-body"
+import { isPostStatus, resolvePersistStatus, type PostStatus } from "@/lib/post-status"
+import { archivePost } from "@/lib/posts-db"
 import { resolveAdminArticleList } from "@/lib/posts-public"
 import { revalidatePostSurfaces } from "@/lib/revalidate-posts"
 import { getStore, type ContentStore } from "@/lib/store"
@@ -48,6 +50,14 @@ function normalizeIncoming(body: Partial<Article>): Pick<Article, "body" | "body
   return { body: ["Contenu à rédiger."], bodyHtml: "<p></p>" }
 }
 
+function normalizeStatus(
+  raw: unknown,
+  publishedAt: string | undefined
+): PostStatus {
+  const base: PostStatus = isPostStatus(raw) ? raw : "draft"
+  return resolvePersistStatus(base, publishedAt)
+}
+
 export async function GET(req: Request) {
   const user = await requireAdmin()
   if (!user) return NextResponse.json({ error: "non autorisé" }, { status: 401 })
@@ -75,15 +85,18 @@ export async function POST(req: Request) {
   if (!body.slug || !body.title)
     return NextResponse.json({ error: "slug et title requis" }, { status: 400 })
 
+  const publishedAt = body.publishedAt || new Date().toISOString().slice(0, 10)
   const normalized = normalizeIncoming(body)
   const article: Article = {
     slug: body.slug.replace(/[^a-z0-9-àâäéèêëïîôùûüç]/gi, "-").toLowerCase(),
     title: body.title,
     excerpt: body.excerpt || "",
-    publishedAt: body.publishedAt || new Date().toISOString().slice(0, 10),
-    status: body.status === "published" ? "published" : "draft",
+    publishedAt,
+    status: normalizeStatus(body.status, publishedAt),
     author: body.author || "Cabinet Plouton",
-    categories: body.categories || ["Ressources et notions juridiques"],
+    categories: body.categories?.length
+      ? body.categories
+      : ["Ressources et notions juridiques"],
     body: normalized.body,
     bodyHtml: normalized.bodyHtml,
     metaTitle: body.metaTitle,
@@ -115,8 +128,11 @@ export async function PUT(req: Request) {
   const body = (await req.json()) as Article
   if (!body.slug) return NextResponse.json({ error: "slug requis" }, { status: 400 })
   const normalized = normalizeIncoming(body)
+  const publishedAt = body.publishedAt || new Date().toISOString().slice(0, 10)
   const article: Article = {
     ...body,
+    publishedAt,
+    status: normalizeStatus(body.status, publishedAt),
     body: normalized.body,
     bodyHtml: normalized.bodyHtml,
     updatedAt: body.updatedAt || new Date().toISOString().slice(0, 10),
@@ -129,4 +145,33 @@ export async function PUT(req: Request) {
     return NextResponse.json({ error: msg }, { status: 500 })
   }
   return NextResponse.json(article)
+}
+
+/** Soft-delete : status → archived */
+export async function DELETE(req: Request) {
+  const user = await requireAdmin()
+  if (!user) return NextResponse.json({ error: "non autorisé" }, { status: 401 })
+
+  const { searchParams } = new URL(req.url)
+  const slug = searchParams.get("slug")
+  if (!slug) return NextResponse.json({ error: "slug requis" }, { status: 400 })
+
+  const ok = await archivePost(slug)
+  if (!ok) {
+    // Fallback FsStore : marquer archived via save
+    try {
+      const store = getStore() as StoreWithGet
+      const existing =
+        (store.getArticleBySlug && (await store.getArticleBySlug(slug))) ||
+        getArticle(slug)
+      if (!existing)
+        return NextResponse.json({ error: "introuvable" }, { status: 404 })
+      await store.saveArticle({ ...existing, status: "archived" })
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : "échec archivage"
+      return NextResponse.json({ error: msg }, { status: 500 })
+    }
+  }
+  revalidatePostSurfaces(slug)
+  return NextResponse.json({ ok: true, status: "archived" })
 }

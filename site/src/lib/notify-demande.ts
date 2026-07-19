@@ -85,3 +85,52 @@ export async function notifyNouvelleDemande(demandeId: string, data: DemandeInpu
     console.error("notifyNouvelleDemande failed:", e)
   }
 }
+
+/**
+ * Accusé de réception au demandeur — best-effort, ne bloque jamais l’API.
+ * Même clés Resend que l’alerte interne.
+ */
+export async function notifyAccuseReception(data: DemandeInput): Promise<void> {
+  const apiKey = process.env.RESEND_API_KEY
+  const to = data.email?.trim()
+  if (!apiKey || !to || !to.includes("@")) return
+
+  const from = process.env.RESEND_FROM?.trim() || FROM_FALLBACK
+  const prenom = data.prenom?.trim() || ""
+  const objet = data.objet?.trim() || "votre demande"
+  const sujet = "Cabinet Plouton — nous avons bien reçu votre message"
+
+  const text = [
+    prenom ? `Bonjour ${prenom},` : "Bonjour,",
+    "",
+    `Nous avons bien reçu votre message concernant « ${objet} ».`,
+    "L’équipe du Cabinet Plouton vous recontacte sous 24 à 48 heures ouvrées.",
+    "",
+    "En cas d’urgence, appelez le 05 56 44 35 96.",
+    "",
+    "— Cabinet Julien Plouton",
+    "Place Sainte-Eulalie, Bordeaux",
+  ].join("\n")
+
+  const html = `
+    <p>${prenom ? `Bonjour ${esc(prenom)},` : "Bonjour,"}</p>
+    <p>Nous avons bien reçu votre message concernant <strong>${esc(objet)}</strong>.</p>
+    <p>L’équipe du Cabinet Plouton vous recontacte sous 24 à 48&nbsp;heures ouvrées.</p>
+    <p>En cas d’urgence, appelez le <a href="tel:+33556443596">05&nbsp;56&nbsp;44&nbsp;35&nbsp;96</a>.</p>
+    <p>— Cabinet Julien Plouton<br>Place Sainte-Eulalie, Bordeaux</p>
+  `.trim()
+
+  try {
+    const resend = new Resend(apiKey)
+    const { error } = await resend.emails.send({
+      from,
+      to: [to],
+      subject: sujet,
+      text,
+      html,
+    })
+    if (error) console.error("notifyAccuseReception Resend:", error)
+  } catch (e) {
+    console.error("notifyAccuseReception failed:", e)
+  }
+}

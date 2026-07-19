@@ -5,6 +5,21 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Lot 4 audit : contenu pages expertise / hubs
+
+- FAQ droit pénal restaurée (8 questions + filtres) ; 3ᵉ paragraphe d’intro expertise de nouveau visible
+- Défense des élus : 4 blocs « Réagir à l’urgence » ; procès criminel : puces procédure remises
+- Comprendre le droit : sections thématiques élargies (56 ressources) ; Nos affaires sans les guides
+- Reste : section « Piétons… » accidents de la route vide aussi côté Wix (rien à recopier)
+
+## 2026-07-19 — Lot 5 audit : admin blog + anti-spam formulaires
+
+- Formulaire contact : honeypot + limite anti-spam + **e-mail de confirmation** au client
+- Admin blog : recherche / filtre statut / pagination (plus de liste à 422 d’un coup)
+- Édition : couverture (URL ou upload), SEO, date, catégorie, archiver, programmer
+- TipTap : boutons image + YouTube
+- Tests : envoyer une demande (mail reçu) ; Admin → filtrer → éditer cover/SEO → publier
+
 ## 2026-07-19 — Médias & Ressources filtrables (plus de blog fourre-tout)
 
 - **Médias** = vraie page `/medias` avec filtres (comme Nos affaires)

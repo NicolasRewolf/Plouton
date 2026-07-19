@@ -7,6 +7,13 @@
  */
 
 import { createClient, type SupabaseClient } from "@supabase/supabase-js"
+import {
+  isPostStatus,
+  isPubliclyVisible,
+  resolvePersistStatus,
+  todayIsoDate,
+  type PostStatus,
+} from "@/lib/post-status"
 import type { Article, ArticleIndexItem } from "@/lib/content"
 import {
   editorJsToHtml,
@@ -25,7 +32,7 @@ export interface PostRow {
   excerpt: string
   published_at: string | null
   updated_at: string | null
-  status: "draft" | "published"
+  status: PostStatus
   author: string
   author_id: string | null
   categories: string[] | null
@@ -59,13 +66,18 @@ function secretClient(): SupabaseClient | null {
 }
 
 export function articleToPostRow(article: Article) {
+  const publishedAt = article.publishedAt?.slice(0, 10) || null
+  const rawStatus: PostStatus = isPostStatus(article.status)
+    ? article.status
+    : "draft"
+  const status = resolvePersistStatus(rawStatus, publishedAt || undefined)
   return {
     slug: article.slug,
     title: article.title,
     excerpt: article.excerpt || "",
-    published_at: article.publishedAt?.slice(0, 10) || null,
+    published_at: publishedAt,
     updated_at: article.updatedAt?.slice(0, 10) || null,
-    status: article.status === "published" ? "published" : "draft",
+    status,
     author: article.author || "",
     author_id: article.authorId ?? null,
     categories: article.categories || [],
@@ -113,13 +125,14 @@ export function postRowToArticle(row: PostRow): Article {
     bodyHtml = editorJsToHtml(row.body)
     body = htmlToParagraphs(bodyHtml)
   }
+  const status: PostStatus = isPostStatus(row.status) ? row.status : "draft"
   return {
     slug: row.slug,
     title: row.title,
     excerpt: row.excerpt || "",
     publishedAt: row.published_at || new Date().toISOString().slice(0, 10),
     updatedAt: row.updated_at || undefined,
-    status: row.status === "published" ? "published" : "draft",
+    status,
     author: row.author || "",
     authorId: row.author_id || undefined,
     categories: row.categories || [],
@@ -168,7 +181,8 @@ function sortByPublishedDesc(a: { publishedAt: string }, b: { publishedAt: strin
   return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
 }
 
-/** Article publié par slug — null si absent / brouillon / pas de Supabase. */
+/** Article publié par slug — null si absent / brouillon / pas de Supabase.
+ * scheduled avec date passée → promu en published (écriture best-effort). */
 export async function getPublishedPost(slug: string): Promise<Article | null> {
   const client = secretClient()
   if (!client) return null
@@ -177,20 +191,30 @@ export async function getPublishedPost(slug: string): Promise<Article | null> {
     .from("posts")
     .select("*")
     .eq("slug", raw)
-    .eq("status", "published")
+    .in("status", ["published", "scheduled"])
     .maybeSingle()
   if (error) {
     console.warn(`[posts-db] getPublishedPost(${raw}): ${error.message}`)
     return null
   }
   if (!data) return null
-  return postRowToArticle(data as PostRow)
+  const row = data as PostRow
+  if (!isPubliclyVisible(row.status, row.published_at || undefined)) return null
+
+  if (row.status === "scheduled") {
+    const { error: upErr } = await client
+      .from("posts")
+      .update({ status: "published" })
+      .eq("slug", raw)
+    if (upErr) console.warn(`[posts-db] promote scheduled: ${upErr.message}`)
+    row.status = "published"
+  }
+
+  return postRowToArticle(row)
 }
 
 /** Statut DB d’un slug (sans filtre) — null si absent / pas de Supabase. */
-export async function getPostStatus(
-  slug: string
-): Promise<"draft" | "published" | null> {
+export async function getPostStatus(slug: string): Promise<PostStatus | null> {
   const client = secretClient()
   if (!client) return null
   const raw = decodeURIComponent(slug).normalize("NFC")
@@ -204,19 +228,19 @@ export async function getPostStatus(
     return null
   }
   if (!data) return null
-  return data.status === "published" ? "published" : "draft"
+  return isPostStatus(data.status) ? data.status : "draft"
 }
 
 /** Meta légère tous statuts (admin + merge public). */
 export async function listPostsMeta(): Promise<
-  (ArticleIndexItem & { status: "draft" | "published" })[] | null
+  (ArticleIndexItem & { status: PostStatus })[] | null
 > {
   if (!hasSecretEnv()) return null
   const client = secretClient()
   if (!client) return null
 
   const pageSize = 1000
-  const out: (ArticleIndexItem & { status: "draft" | "published" })[] = []
+  const out: (ArticleIndexItem & { status: PostStatus })[] = []
   let from = 0
 
   for (;;) {
@@ -229,11 +253,12 @@ export async function listPostsMeta(): Promise<
       console.warn(`[posts-db] listPostsMeta: ${error.message}`)
       return null
     }
-    const rows = (data || []) as (PostRow & { status: "draft" | "published" })[]
+    const rows = (data || []) as (PostRow & { status: PostStatus })[]
     for (const row of rows) {
+      const status: PostStatus = isPostStatus(row.status) ? row.status : "draft"
       out.push({
         ...postRowToIndexItem(row),
-        status: row.status === "published" ? "published" : "draft",
+        status,
       })
     }
     if (rows.length < pageSize) break
@@ -248,16 +273,34 @@ export async function listPublishedPostsIndex(): Promise<ArticleIndexItem[] | nu
   const meta = await listPostsMeta()
   if (!meta) return null
   return meta
-    .filter((p) => p.status === "published")
+    .filter((p) => isPubliclyVisible(p.status, p.publishedAt))
     .map(({ status: _s, ...item }) => item)
     .sort(sortByPublishedDesc)
 }
 
 /** Tous les posts pour la liste admin (DB). */
 export async function listAdminPosts(): Promise<
-  (ArticleIndexItem & { status: "draft" | "published" })[] | null
+  (ArticleIndexItem & { status: PostStatus })[] | null
 > {
   return listPostsMeta()
+}
+
+/** Soft-delete : passe en archived. */
+export async function archivePost(slug: string): Promise<boolean> {
+  const client = secretClient()
+  if (!client) return false
+  const { error } = await client
+    .from("posts")
+    .update({
+      status: "archived",
+      updated_at: todayIsoDate(),
+    })
+    .eq("slug", slug)
+  if (error) {
+    console.warn(`[posts-db] archivePost(${slug}): ${error.message}`)
+    return false
+  }
+  return true
 }
 
 /** Slugs publiés (generateStaticParams). */

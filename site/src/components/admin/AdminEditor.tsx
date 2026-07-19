@@ -4,6 +4,8 @@ import { useEffect, type ReactNode } from "react"
 import { EditorContent, useEditor } from "@tiptap/react"
 import StarterKit from "@tiptap/starter-kit"
 import Link from "@tiptap/extension-link"
+import Image from "@tiptap/extension-image"
+import Youtube from "@tiptap/extension-youtube"
 import Placeholder from "@tiptap/extension-placeholder"
 import Underline from "@tiptap/extension-underline"
 import TextAlign from "@tiptap/extension-text-align"
@@ -17,6 +19,7 @@ interface AdminEditorProps {
 
 /**
  * Éditeur TipTap — barre de formatage sticky (style Wix).
+ * Image (URL / upload) + embed YouTube.
  */
 export function AdminEditor({
   initialHtml,
@@ -34,6 +37,14 @@ export function AdminEditor({
       Link.configure({
         openOnClick: false,
         HTMLAttributes: { class: "admin-editor-link" },
+      }),
+      Image.configure({
+        HTMLAttributes: { class: "admin-editor-image" },
+        allowBase64: false,
+      }),
+      Youtube.configure({
+        modestBranding: true,
+        HTMLAttributes: { class: "admin-editor-youtube" },
       }),
       Placeholder.configure({ placeholder }),
     ],
@@ -140,6 +151,27 @@ export function AdminEditor({
           >
             Lien
           </ToolBtn>
+          <ToolBtn
+            label="Image"
+            active={editor.isActive("image")}
+            onClick={() => void insertImage(editor)}
+          >
+            Img
+          </ToolBtn>
+          <ToolBtn
+            label="YouTube"
+            active={editor.isActive("youtube")}
+            onClick={() => {
+              const url = window.prompt(
+                "URL YouTube",
+                "https://www.youtube.com/watch?v="
+              )
+              if (!url?.trim()) return
+              editor.commands.setYoutubeVideo({ src: url.trim() })
+            }}
+          >
+            YT
+          </ToolBtn>
           <Sep />
           <ToolBtn
             label="Aligner à gauche"
@@ -160,6 +192,42 @@ export function AdminEditor({
       <EditorContent editor={editor} />
     </div>
   )
+}
+
+async function insertImage(
+  editor: NonNullable<ReturnType<typeof useEditor>>
+) {
+  const choice = window.prompt(
+    "Image : collez une URL, ou laissez vide pour choisir un fichier",
+    "https://"
+  )
+  if (choice === null) return
+  if (choice.trim() && choice.trim() !== "https://") {
+    editor.chain().focus().setImage({ src: choice.trim() }).run()
+    return
+  }
+  const input = document.createElement("input")
+  input.type = "file"
+  input.accept = "image/jpeg,image/png,image/webp,image/gif"
+  input.onchange = async () => {
+    const file = input.files?.[0]
+    if (!file) return
+    const fd = new FormData()
+    fd.append("file", file)
+    fd.append("folder", "editor")
+    try {
+      const res = await fetch("/api/posts/media", { method: "POST", body: fd })
+      const data = (await res.json()) as { url?: string; error?: string }
+      if (!res.ok || !data.url) {
+        window.alert(data.error || "Upload impossible")
+        return
+      }
+      editor.chain().focus().setImage({ src: data.url }).run()
+    } catch {
+      window.alert("Upload impossible")
+    }
+  }
+  input.click()
 }
 
 function SelectBlock({

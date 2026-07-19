@@ -4,11 +4,13 @@ import Link from "next/link"
 import { useParams, useRouter } from "next/navigation"
 import { useEffect, useRef, useState, type FormEvent } from "react"
 import { AdminEditorLazy } from "@/components/admin/AdminEditorLazy"
+import { AdminPostMeta } from "@/components/admin/AdminPostMeta"
 import {
   articleToEditorHtml,
   htmlToParagraphs,
 } from "@/lib/article-body"
 import type { Article } from "@/lib/content"
+import { statusLabel, todayIsoDate, type PostStatus } from "@/lib/post-status"
 
 export default function EditPostPage() {
   const { slug } = useParams<{ slug: string }>()
@@ -16,6 +18,11 @@ export default function EditPostPage() {
   const formRef = useRef<HTMLFormElement>(null)
   const [article, setArticle] = useState<Article | null>(null)
   const [bodyHtml, setBodyHtml] = useState<string | null>(null)
+  const [coverImage, setCoverImage] = useState("")
+  const [categoryLabel, setCategoryLabel] = useState("")
+  const [publishedAt, setPublishedAt] = useState(todayIsoDate())
+  const [metaTitle, setMetaTitle] = useState("")
+  const [metaDescription, setMetaDescription] = useState("")
   const [error, setError] = useState("")
   const [saving, setSaving] = useState(false)
 
@@ -29,10 +36,15 @@ export default function EditPostPage() {
         }
         setArticle(data)
         setBodyHtml(articleToEditorHtml(data))
+        setCoverImage(data.coverImage || "")
+        setCategoryLabel(data.categories?.[0] || "")
+        setPublishedAt((data.publishedAt || todayIsoDate()).slice(0, 10))
+        setMetaTitle(data.metaTitle || "")
+        setMetaDescription(data.metaDescription || "")
       })
   }, [slug])
 
-  async function save(status: "draft" | "published") {
+  async function save(status: PostStatus) {
     if (!article || bodyHtml === null) return
     const form = formRef.current
     if (!form) return
@@ -44,6 +56,15 @@ export default function EditPostPage() {
       title: String(fd.get("title")),
       excerpt: String(fd.get("excerpt")),
       author: String(fd.get("author")),
+      publishedAt,
+      metaTitle: metaTitle || undefined,
+      metaDescription: metaDescription || undefined,
+      coverImage: coverImage || null,
+      categories: categoryLabel
+        ? [categoryLabel]
+        : article.categories?.length
+          ? article.categories
+          : ["Ressources et notions juridiques"],
       status,
       bodyHtml,
       body: htmlToParagraphs(bodyHtml),
@@ -62,9 +83,33 @@ export default function EditPostPage() {
     router.refresh()
   }
 
+  async function archive() {
+    if (!article) return
+    if (
+      !window.confirm(
+        `Archiver « ${article.title} » ? Il disparaîtra du site public (récupérable en changeant le statut).`
+      )
+    )
+      return
+    setSaving(true)
+    setError("")
+    const res = await fetch(`/api/posts?slug=${encodeURIComponent(article.slug)}`, {
+      method: "DELETE",
+    })
+    setSaving(false)
+    if (!res.ok) {
+      setError("Archivage impossible")
+      return
+    }
+    router.push("/admin")
+    router.refresh()
+  }
+
   function onSubmit(e: FormEvent) {
     e.preventDefault()
-    void save(article?.status === "published" ? "published" : "draft")
+    const current = article?.status
+    if (current === "published" || current === "scheduled") void save(current)
+    else void save("draft")
   }
 
   if (!article || bodyHtml === null)
@@ -124,7 +169,7 @@ export default function EditPostPage() {
             <p className="mt-2 text-[12px] text-muted">
               Actuellement :{" "}
               <span className="font-medium text-navy">
-                {article.status === "published" ? "Publié" : "Brouillon"}
+                {statusLabel(article.status)}
               </span>
             </p>
             <div className="mt-4 flex flex-col gap-2">
@@ -144,32 +189,41 @@ export default function EditPostPage() {
               >
                 Publier
               </button>
+              <button
+                type="button"
+                disabled={saving}
+                className="admin-btn admin-btn-secondary w-full"
+                onClick={() => void save("scheduled")}
+                title="Visible le jour de la date de publication"
+              >
+                Programmer
+              </button>
             </div>
             {error ? <p className="mt-3 text-[13px] text-accent">{error}</p> : null}
+            <button
+              type="button"
+              disabled={saving || article.status === "archived"}
+              className="mt-4 w-full text-[12px] text-accent/90 hover:text-accent disabled:opacity-40"
+              onClick={() => void archive()}
+            >
+              Archiver l’article…
+            </button>
           </div>
 
-          <div className="rounded-[14px] border border-[rgba(23,71,94,0.1)] bg-white p-4 shadow-[0_1px_2px_rgba(23,71,94,0.04)]">
-            <p className="text-[12px] font-semibold tracking-wide text-navy/50 uppercase">
-              Métadonnées
-            </p>
-            <label className="mt-3 grid gap-1 text-[13px] text-navy">
-              Auteur
-              <input
-                name="author"
-                defaultValue={article.author}
-                className="admin-input"
-              />
-            </label>
-            <label className="mt-3 grid gap-1 text-[13px] text-navy">
-              Extrait
-              <textarea
-                name="excerpt"
-                defaultValue={article.excerpt}
-                rows={3}
-                className="admin-input resize-y"
-              />
-            </label>
-          </div>
+          <AdminPostMeta
+            author={article.author}
+            excerpt={article.excerpt}
+            publishedAt={publishedAt}
+            metaTitle={metaTitle}
+            metaDescription={metaDescription}
+            coverImage={coverImage}
+            categoryLabel={categoryLabel}
+            onCoverChange={setCoverImage}
+            onCategoryChange={setCategoryLabel}
+            onPublishedAtChange={setPublishedAt}
+            onMetaTitleChange={setMetaTitle}
+            onMetaDescriptionChange={setMetaDescription}
+          />
         </aside>
       </form>
     </main>
