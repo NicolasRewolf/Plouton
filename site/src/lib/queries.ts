@@ -100,6 +100,18 @@ export async function mediasArticles(fallbackLimit = 24): Promise<ArticleIndexIt
   return medias.length ? medias : all.slice(0, fallbackLimit)
 }
 
+/** Affaires = hors guides « Ressources » (ceux-ci vivent sur `/comprendre-le-droit`). */
+export async function affairesArticles(): Promise<ArticleIndexItem[]> {
+  const all = await publishedIndex()
+  return all.filter(
+    (a) =>
+      !a.categories.some((c) => {
+        const n = c.toLowerCase().normalize("NFC")
+        return n.includes("ressources et notions")
+      })
+  )
+}
+
 /** Vues Wix (stats-posts.json) — pour hubs / tri « plus consultés ». */
 function postViewCounts(): Record<string, number> {
   try {

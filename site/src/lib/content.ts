@@ -406,7 +406,9 @@ export function getAuthor(article: Article): Author | null {
 /** slug → shortName (GUID Wix des articles JSON). */
 export const authorNamesBySlug = cache(function authorNamesBySlug(): Record<string, string> {
   const authors = listAuthors()
-  const byWix = new Map(authors.map((a) => [a.wixId, a.shortName] as const))
+  const byWix = new Map(
+    authors.filter((a) => a.wixId).map((a) => [a.wixId as string, a.shortName] as const)
+  )
   const map: Record<string, string> = {}
   const dir = path.join(root, "articles")
   if (!fs.existsSync(dir)) return map

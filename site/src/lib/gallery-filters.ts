@@ -25,7 +25,10 @@ export function categoryPublicHref(label: string): string {
   return "/nos-affaires"
 }
 
-export function toGalleryItems(articles: ArticleIndexItem[]) {
+export function toGalleryItems(
+  articles: ArticleIndexItem[],
+  extras?: { authorBySlug?: Record<string, string> }
+) {
   return articles.map((a) => ({
     slug: a.slug,
     title: a.title,
@@ -35,5 +38,6 @@ export function toGalleryItems(articles: ArticleIndexItem[]) {
     coverImage: a.coverImage,
     minutesToRead: a.minutesToRead,
     viewCount: a.viewCount ?? 0,
+    authorName: extras?.authorBySlug?.[a.slug],
   }))
 }

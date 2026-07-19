@@ -1,22 +1,42 @@
 [
   {
-    "question": "Quand faut-il appeler un avocat pénaliste ?",
-    "answer": "Dès la convocation à une audition libre, une garde à vue, ou dès que vous apprenez qu'une enquête vous concerne — ou si vous êtes victime d'une infraction. Plus l'intervention est précoce, plus la défense est efficace.",
-    "sousExpertise": "Procédure"
+    "question": "Qu'est-ce que la période de Sûreté ?",
+    "answer": "La période de sûreté est une durée d'incarcération incompressible pendant laquelle le condamné ne peut bénéficier d'aucun aménagement de peine : ni placement à l'extérieur, ni semi-liberté, ni permissions de sortir, ni libération conditionnelle. Elle s'applique aux peines privatives de liberté sans sursis.\n\nElle peut être légale (automatique) : un texte spécifique la prévoit pour les infractions les plus graves (meurtres aggravés, empoisonnement, extorsions aggravées…). Le juge n'a pas à la prononcer, il peut seulement en modifier la durée.\n\nElle peut aussi être décidée (spéciale) : en dehors de tout texte spécifique, le juge peut l'ordonner dès lors que la condamnation est d'au moins 5 ans d'emprisonnement ferme (article 132-23 du Code pénal).\n\nAu fil des réformes, des infractions d'une gravité moindre — comme l'administration de substances nuisibles — ont progressivement intégré le champ de la sûreté légale.",
+    "sousExpertise": "Période de sûreté"
   },
   {
-    "question": "Le cabinet intervient-il hors de Bordeaux ?",
-    "answer": "Oui. Basé à Bordeaux, le Cabinet Plouton plaide devant les juridictions de toute la France, y compris les cours d'assises et les JIRS.",
-    "sousExpertise": "Cabinet"
+    "question": "Quelle est la différence entre la préméditation et l'intention ?",
+    "answer": "Lʼintention est la volonté consciente de commettre une infraction : elle conditionne la caractérisation des infractions intentionnelles comme le meurtre (art. 221-1 du Code pénal) ou le vol (art. 311-1 du Code pénal). La préméditation, définie à lʼarticle 132-72 du Code pénal, est le dessein formé avant lʼaction de commettre un crime ou un délit déterminé. Elle nʼest pas un élément constitutif de lʼinfraction, mais une circonstance aggravante.\n\nConcrètement, la préméditation aggrave notamment :\n— le meurtre (art. 221-3)\n— lʼempoisonnement (art. 221-5)\n— les tortures et actes de barbarie (art. 222-3, 9°)\n— les violences ayant entraîné la mort sans intention de la donner (art. 222-8, 9°)\n— les violences ayant entraîné une mutilation ou une infirmité permanente (art. 222-10, 9°)\n— les violences ayant entraîné une ITT supérieure à huit jours (art. 222-12, 9°)\n— les violences nʼayant pas entraîné une telle incapacité (art. 222-13, 9°).",
+    "sousExpertise": "Préméditation"
   },
   {
-    "question": "Que faire en cas de garde à vue ?",
-    "answer": "Demandez immédiatement l'assistance d'un avocat, gardez le silence si besoin jusqu'à son arrivée, et ne signez rien sans conseil. Le cabinet assure une réactivité pour les urgences.",
+    "question": "Quels sont les éléments constitutifs de l'abus de confiance ?",
+    "answer": "Lʼabus de confiance (article 314-1 du Code pénal) suppose la réunion de trois éléments cumulatifs : une remise préalable du bien, un détournement de ce bien, et une intention frauduleuse.\n\nLa remise préalable : la victime doit avoir volontairement confié le bien à lʼauteur — argent, document, objet — à titre précaire (mandat, dépôt, prêt, travail).\n\nLe détournement : lʼauteur utilise le bien à des fins autres que celles convenues, ou refuse de le restituer.\n\nLʼintention frauduleuse : lʼauteur agit en connaissance de cause, sachant quʼil nʼa pas le droit dʼagir ainsi.\n\nLa peine encourue est de 3 ans dʼemprisonnement et 375 000 € dʼamende, portée à 7 ans et 750 000 € en cas de circonstances aggravantes (abus de faiblesse, qualité de mandataire public, etc.).",
+    "sousExpertise": "Abus de confiance"
+  },
+  {
+    "question": "Comment savoir si je suis victime d'un abus de confiance ?",
+    "answer": "L'abus de confiance est défini par l'article 314-1 du Code pénal : il suppose une remise volontaire d'un bien, son détournement par le bénéficiaire, et un préjudice pour la victime. Si ces trois conditions sont réunies, vous êtes potentiellement victime de ce délit, puni de 3 ans d'emprisonnement et 375 000 € d'amende.\n\nVous avez remis un bien ou des fonds à quelqu'un — par contrat, accord verbal ou simple geste de confiance — et cette personne en a fait un usage contraire à ce qui était convenu : c'est le détournement. Il peut s'agir d'un employé qui utilise la trésorerie de l'entreprise à des fins personnelles, d'un proche qui conserve un objet prêté et refuse de le restituer, ou encore d'une personne mandatée qui détourne les sommes qu'elle gérait.\n\nLe préjudice peut être matériel (perte d'argent, d'un bien) ou moral. La plainte peut être déposée auprès du commissariat, de la gendarmerie ou directement entre les mains du procureur de la République.\n\nUn avocat pénaliste peut vous aider à qualifier les faits et à constituer votre dossier avant le dépôt de plainte.",
+    "sousExpertise": "Abus de confiance"
+  },
+  {
+    "question": "Quelles sont les conséquences de la préméditation ?",
+    "answer": "La préméditation est une circonstance aggravante qui alourdit significativement la peine encourue, et peut même modifier la nature juridique de l'infraction.\n\nL'exemple le plus frappant est celui du meurtre : l'homicide volontaire est puni de 30 ans de réclusion criminelle (art. 221-1 du Code pénal), mais s'il est commis avec préméditation, il devient un assassinat, puni de la réclusion criminelle à perpétuité (art. 221-3 du Code pénal).\n\nL'effet de la préméditation peut aussi transformer la nature même de l'infraction. Des violences ayant entraîné une ITT inférieure ou égale à 8 jours constituent une contravention de 5ème classe (art. R625-1 du Code pénal). Retenues avec préméditation, ces mêmes violences deviennent un délit puni de 3 ans d'emprisonnement et 45 000 € d'amende (art. 222-13, 9° du Code pénal).\n\nEn défense comme en accusation, il est donc essentiel que cette circonstance soit établie de manière claire et certaine avant d'être retenue par les juges.",
+    "sousExpertise": "Préméditation"
+  },
+  {
+    "question": "Que faire en cas de refus de plainte ?",
+    "answer": "En cas de refus de prendre votre plainte, vous disposez de recours concrets. L'article 15-3 du Code de procédure pénale oblige les forces de l'ordre à enregistrer toute plainte : vous pouvez rappeler cette obligation au guichet ou demander à parler au responsable de service.\n\nSi le refus persiste, adressez votre plainte directement au Procureur de la République par lettre recommandée avec accusé de réception, en exposant les faits et en joignant vos éléments de preuve. Le Procureur est compétent pour ordonner l'ouverture d'une enquête.\n\nVous pouvez également signaler le refus au Défenseur des droits, autorité indépendante habilitée à intervenir en cas de manquement des forces de l'ordre à leurs obligations légales.",
+    "sousExpertise": "Dépôt de plainte"
+  },
+  {
+    "question": "Quelle est la différence entre la garde à vue et l'audition libre ?",
+    "answer": "La garde à vue est une mesure privative de liberté : vous êtes retenu contre votre volonté pour une durée de principe de 24 heures, prolongeable à 48 heures sur autorisation écrite et motivée du Procureur de la République si la peine encourue dépasse 1 an d'emprisonnement. L'audition libre, à l'inverse, suppose que vous vous présentez volontairement : vous pouvez quitter les locaux à tout moment et ne pouvez être retenu contre votre gré.\n\nEn matière de délinquance ou criminalité organisée, la garde à vue peut être prolongée jusqu'à 72 ou 96 heures, sur décision du juge des libertés et de la détention (JLD) ou du juge d'instruction. En matière terroriste, la durée peut atteindre 144 heures.\n\nL'audition libre ne s'applique qu'à une personne se déplaçant d'elle-même : en cas d'arrestation, seule la garde à vue est possible.",
     "sousExpertise": "Garde à vue"
   },
   {
-    "question": "Puis-je contester une détention provisoire ?",
-    "answer": "Oui, devant le JLD puis éventuellement la chambre de l'instruction. L'avocat vérifie que les conditions de l'article 144 du CPP sont réunies et plaide la remise en liberté ou un aménagement.",
-    "sousExpertise": "Détention"
+    "question": "Que faire si je suis victime d'un abus de confiance ?",
+    "answer": "En cas d'abus de confiance (article 314-1 du Code pénal), commencez par rassembler toutes les preuves de la remise initiale du bien ou des fonds : contrats, reçus, relevés bancaires, échanges écrits. Notez précisément les dates, lieux et circonstances des faits.\n\nDéposez ensuite une plainte auprès de la police, de la gendarmerie ou directement auprès du procureur de la République. Le dépôt en ligne est possible via le portail de l'aide aux victimes. Le délai de prescription est de 6 ans à compter du jour où vous avez eu connaissance des faits.\n\nSi les preuves sont suffisantes, le procureur engage des poursuites. Vous pouvez alors vous constituer partie civile pour obtenir réparation de votre préjudice devant le tribunal correctionnel.\n\nFace à une situation complexe — détournement de fonds importants, auteur dans votre entourage professionnel, preuves difficiles à réunir — un avocat pénaliste peut vous aider à structurer votre dossier dès le dépôt de plainte.",
+    "sousExpertise": "Abus de confiance"
   }
 ]

@@ -86,7 +86,7 @@ export function ExpertisePageView({
             </h1>
 
             <div className="mt-6 space-y-3.5 text-[15px] leading-[1.65] text-pretty text-navy/85">
-              {introParas.slice(0, 2).map((para, i) => (
+              {introParas.map((para, i) => (
                 <p key={i}>{linkify(para, expertise.inlineLinks || [])}</p>
               ))}
             </div>
