@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : trafic de stupéfiants (fidélité Wix)
+
+- Sous-titres « Faire annuler… » / « Mettre en doute… » rétablis ; section défense dédoublonnée
+- Puce « Plaider la peine et le contexte » de nouveau visible ; texte RDV Wix
+- Skip : SEO/réseaux ; carrousel = 20 plus récentes (4 dossiers 2022 hors fenêtre, normal)
+- Tests : `/defense-penale/trafic-de-stupefiants`
+
 ## 2026-07-19 — Expertises : violences conjugales et féminicides (fidélité Wix)
 
 - Liens intro/corps : « Notre cabinet » + article Billon (imprescriptibilité)
