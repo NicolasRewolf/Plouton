@@ -201,8 +201,8 @@ Page `/comprendre-le-droit` — **pas** un listing blog plat.
 - Données : `contenu/pages/comprendre-le-droit.json` (intro + sections + slugs)
 - UI : `RessourcesHub` + `AffaireCard`
 - « Articles les plus consultés » = tri `viewCount` (`stats-posts.json`), filtre catégorie Ressources
-- Sections thématiques = **slugs hardcodés** (les Tags Wix dans `Posts.csv` ne sont que des UUID, pas de libellés dans le produit)
-- Grille **Toutes les ressources** = `AffairesGallery` (chips) ; « Voir tout » → ancre `#toutes-les-ressources`
+- Sections thématiques = **aperçus** (slugs hardcodés, ~2–6 cartes) — pas le catalogue complet (les Tags Wix dans `Posts.csv` ne sont que des UUID)
+- Grille **Toutes les ressources** = `AffairesGallery` (chips, catalogue complet) ; « Voir tout » → ancre `#toutes-les-ressources`
 - Nav **Médias** → `/medias` (`AffairesGallery`) ; anciennes URLs `/blog/categories/…` → 301
 
 ### Gabarit `PoleHub` (3 pôles)
