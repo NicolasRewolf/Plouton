@@ -5,6 +5,14 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : Droit pénal (texte MD fidèle H2/H3/H4)
+
+- JSON réécrit depuis le MD Wix : 5 sections H2, 15 blocs H3, 13 sous-blocs H4 (plus d’aplatissement)
+- Listes en puces ; liens conservés ; FAQ / formulaire / carrousel hors sections
+- Tests : `/defense-penale/droit-penal` — build OK
+
+---
+
 ## 2026-07-19 — Sources MD expertises : exports Wix frais
 
 - 14 MD rafraîchis depuis Downloads (8 vraiment différents ; 6 déjà à jour)
