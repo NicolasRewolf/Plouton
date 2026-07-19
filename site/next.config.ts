@@ -83,6 +83,7 @@ const nextConfig: NextConfig = {
         destination: "/nos-affaires",
         permanent: true,
       },
+      { source: "/blog-feed.xml", destination: "/rss.xml", permanent: true },
     ]
     const manualSources = new Set(manual.map((r) => r.source))
     return [...manual, ...wixRedirects.filter((r) => !manualSources.has(r.source))]

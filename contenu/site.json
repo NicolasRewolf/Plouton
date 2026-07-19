@@ -20,5 +20,10 @@
   "rating": { "value": "4.6", "count": 193 },
   "googleReviewsUrl": "https://www.google.com/maps?cid=13977668972170869158",
   "cabinetId": "https://www.jplouton-avocat.fr/#cabinet",
-  "founderId": "https://www.jplouton-avocat.fr/#julien-plouton"
+  "founderId": "https://www.jplouton-avocat.fr/#julien-plouton",
+  "social": {
+    "facebook": "https://www.facebook.com/jploutonavocat/",
+    "instagram": "https://www.instagram.com/jploutonavocat/",
+    "linkedin": "https://www.linkedin.com/in/julien-plouton-12255b37/"
+  }
 }

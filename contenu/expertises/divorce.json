@@ -378,45 +378,17 @@
       "id": "je-simule-une-prestation-compensatoire",
       "title": "Je simule une prestation compensatoire",
       "titleAccent": null,
-      "lead": "Peu importe le type de divorce prononcé elle est destinée à compenser le changement de niveau de vie après la rupture du mariage, la prestation compensatoire vous sécurise.",
-      "blocks": [
-        {
-          "heading": "",
-          "body": "Estimation"
-        },
-        {
-          "heading": "",
-          "body": "Simulation indicative et simplifiée. Elle ne remplace pas le conseil d’un avocat ni la décision d’un juge."
-        }
-      ]
+      "lead": "Peu importe le type de divorce prononcé : destinée à compenser le changement de niveau de vie après la rupture du mariage, la prestation compensatoire vous sécurise. Estimation indicative, sans valeur juridique.",
+      "blocks": [],
+      "simulator": "prestation-compensatoire"
     },
     {
       "id": "je-calcule-la-pension-alimentaire",
       "title": "Je calcule la pension alimentaire",
       "titleAccent": null,
-      "lead": "Estimez en quelques clics le montant d’une pension alimentaire dans le cadre d’un divorce. Cet outil vous donne une première idée des sommes en jeu, en tenant compte de vos revenus et de la situation familiale. Référence : Ministère de la Justice - 2025",
-      "blocks": [
-        {
-          "heading": "",
-          "body": "Barème offciel 2025"
-        },
-        {
-          "heading": "",
-          "body": "Simulateur de pension alimentaire"
-        },
-        {
-          "heading": "",
-          "body": "0 €"
-        },
-        {
-          "heading": "",
-          "body": "pension mensuelle"
-        },
-        {
-          "heading": "",
-          "body": "0 €"
-        }
-      ]
+      "lead": "Estimez en quelques clics le montant d’une pension alimentaire dans le cadre d’un divorce. Cet outil vous donne une première idée des sommes en jeu, en tenant compte de vos revenus et de la situation familiale. Référence : table de référence du Ministère de la Justice (indicatif).",
+      "blocks": [],
+      "simulator": "pension-alimentaire"
     }
   ],
   "inlineLinks": [

@@ -1,11 +1,24 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
+import { AffaireCard } from "@/components/AffaireCard"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
 import { SiteCta } from "@/components/SiteCta"
 import { getAccueil, getEquipe, getSite } from "@/lib/content"
 import { publishedIndex } from "@/lib/queries"
-import { JsonLd, organizationSchema } from "@/lib/seo"
+import { absoluteUrl, JsonLd, organizationSchema } from "@/lib/seo"
+
+
+export const metadata: Metadata = {
+  alternates: { canonical: absoluteUrl("/") },
+  openGraph: {
+    url: absoluteUrl("/"),
+    title: getSite().title,
+    description: getSite().description,
+    images: [{ url: "/brand/equipe-home.png" }],
+  },
+}
 
 export default async function HomePage() {
   const site = getSite()
@@ -251,6 +264,17 @@ export default async function HomePage() {
           <div className="mt-12 grid gap-10 sm:grid-cols-2 md:grid-cols-3">
             {team.map((m) => (
               <div key={m.id}>
+                {m.image ? (
+                  <div className="relative mb-4 aspect-[3/4] overflow-hidden bg-white">
+                    <Image
+                      src={m.image}
+                      alt=""
+                      fill
+                      className="object-cover object-top"
+                      sizes="(max-width: 640px) 90vw, (max-width: 768px) 45vw, 30vw"
+                    />
+                  </div>
+                ) : null}
                 <p className="text-[13px] text-muted">{m.role}</p>
                 <p className="mt-1 font-display text-[18px] text-navy">{m.name}</p>
                 {m.short ? (
@@ -273,14 +297,9 @@ export default async function HomePage() {
               {page.affaires.cta.label} →
             </Link>
           </div>
-          <div className="mt-10 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {posts.slice(0, 9).map((p) => (
-              <Link key={p.slug} href={`/post/${p.slug}`} className="group block">
-                <h3 className="font-display text-[18px] font-medium leading-snug text-navy group-hover:text-accent">
-                  {p.title}
-                </h3>
-                <p className="mt-2 line-clamp-3 text-[14px] leading-relaxed text-muted">{p.excerpt}</p>
-              </Link>
+              <AffaireCard key={p.slug} article={p} titleAs="h3" />
             ))}
           </div>
         </div>

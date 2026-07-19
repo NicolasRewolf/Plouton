@@ -1,17 +1,37 @@
 import Link from "next/link"
+import dynamic from "next/dynamic"
 import type { ReactNode } from "react"
+
+/** Simulateurs divorce — client islands, hors bundle hero. */
+const SimulatorPension = dynamic(() =>
+  import("@/components/simulators/SimulatorPension").then((m) => m.SimulatorPension)
+)
+const SimulatorPrestation = dynamic(() =>
+  import("@/components/simulators/SimulatorPrestation").then(
+    (m) => m.SimulatorPrestation
+  )
+)
 
 interface Block {
   heading: string
   body: string
 }
 
+type SectionSimulator = "pension-alimentaire" | "prestation-compensatoire"
+
 interface Section {
   id: string
   title: string
   titleAccent?: string | null
   lead?: string | null
+  simulator?: SectionSimulator
   blocks: Block[]
+}
+
+function SectionSimulatorSlot({ type }: { type: SectionSimulator }) {
+  if (type === "pension-alimentaire") return <SimulatorPension />
+  if (type === "prestation-compensatoire") return <SimulatorPrestation />
+  return null
 }
 
 export interface InlineLink {
@@ -45,18 +65,37 @@ function escapeRegExp(s: string) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
 }
 
-/** Réinjecte les liens internes harvestés du live (phrases → URLs). */
-function linkify(text: string, links: InlineLink[]): ReactNode[] {
-  if (!text) return []
-  if (!links.length) return [text]
+/** Numéros d’urgence — cliquables en `tel:` (violences conjugales, etc.). */
+const EMERGENCY_TELS: InlineLink[] = [
+  { text: "3919", href: "tel:3919" },
+  { text: "119", href: "tel:119" },
+  { text: "17", href: "tel:17" },
+]
 
-  const usable = [...links]
-    .filter((l) => l.text && l.href && l.text.length >= 3)
+function isTelHref(href: string) {
+  return href.startsWith("tel:")
+}
+
+/** Token court alphanumérique → bornes de mot (évite CIVI dans « civile »). */
+function linkPattern(text: string) {
+  const escaped = escapeRegExp(text)
+  if (text.length <= 6 && /^[A-Za-zÀ-ÖØ-öø-ÿ0-9]+$/i.test(text))
+    return `\\b${escaped}\\b`
+  return escaped
+}
+
+/** Réinjecte les liens internes harvestés du live (phrases → URLs) + urgences. */
+export function linkify(text: string, links: InlineLink[] = []): ReactNode[] {
+  if (!text) return []
+
+  const usable = [...links, ...EMERGENCY_TELS]
+    .filter((l) => l.text && l.href)
+    .filter((l) => isTelHref(l.href) || l.text.length >= 4)
     .sort((a, b) => b.text.length - a.text.length)
 
   if (!usable.length) return [text]
 
-  const pattern = usable.map((l) => escapeRegExp(l.text)).join("|")
+  const pattern = usable.map((l) => linkPattern(l.text)).join("|")
   const re = new RegExp(`(${pattern})`, "gi")
   const hrefByLower = new Map(usable.map((l) => [l.text.toLowerCase(), l.href]))
 
@@ -64,6 +103,12 @@ function linkify(text: string, links: InlineLink[]): ReactNode[] {
   return parts.map((part, i) => {
     const href = hrefByLower.get(part.toLowerCase())
     if (!href) return <span key={i}>{part}</span>
+    if (isTelHref(href))
+      return (
+        <a key={i} href={href} className="link-inline font-medium">
+          {part}
+        </a>
+      )
     return (
       <Link key={i} href={href} className="link-inline font-medium">
         {part}
@@ -71,6 +116,7 @@ function linkify(text: string, links: InlineLink[]): ReactNode[] {
     )
   })
 }
+
 
 function accentSplit(title: string, titleAccent?: string | null) {
   if (titleAccent && title.includes(titleAccent)) {
@@ -194,11 +240,24 @@ function Paragraphs({
 }) {
   return (
     <>
-      {proseParas(text).map((para, i) => (
-        <p key={i} className={className || "text-[15px] leading-[1.7] text-pretty text-navy/90"}>
-          {linkify(para, links)}
-        </p>
-      ))}
+      {proseParas(text).map((para, i) => {
+        const mdHeading = para.match(/^#{2,4}\s+(.+)$/)
+        if (mdHeading) {
+          return (
+            <h4
+              key={i}
+              className="font-display text-[16px] font-medium leading-snug tracking-[-0.015em] text-navy text-balance sm:text-[17px]"
+            >
+              {linkify(mdHeading[1], links)}
+            </h4>
+          )
+        }
+        return (
+          <p key={i} className={className || "text-[15px] leading-[1.7] text-pretty text-navy/90"}>
+            {linkify(para, links)}
+          </p>
+        )
+      })}
     </>
   )
 }
@@ -464,6 +523,9 @@ export function ExpertiseBody({
                     className="text-[15px] leading-[1.7] text-pretty text-navy/85"
                   />
                 </Lead>
+              ) : null}
+              {section.simulator ? (
+                <SectionSimulatorSlot type={section.simulator} />
               ) : null}
               {blocks.length ? renderSectionBody(blocks, links) : null}
             </div>
