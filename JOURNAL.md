@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : défense des consommateurs (fidélité Wix)
+
+- Doublons de scrape retirés ; typo « rapports technique s » corrigée
+- Texte RDV Wix rétabli (« hors des horaires habituels »)
+- Déjà OK : corps éditorial, FAQ enrichie (17 Q), carrousel (limite 20), SEO/réseaux
+- Tests : `/droit-des-contrats-et-des-personnes/defense-des-consommateurs`
+
 ## 2026-07-19 — Expertises : victimes de délits ou crimes (fidélité Wix)
 
 - Doublons de scrape retirés ; typo « : : » corrigée
