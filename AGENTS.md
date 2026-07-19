@@ -61,6 +61,11 @@ Détail : `docs/16-composants-ui.md`.
 - Blog : **slugs intouchables** ; catégories = liste fermée.
 - Formulaires : pièces jointes + UTM + Cooked + `page_source`.
 - Sources Wix brutes → `contenu/sources/wix/` uniquement.
+- **Expertises — fidélité MD Wix (non négociable) :**  
+  `contenu/sources/live-md/expertises/{slug}.md` = source rédactionnelle.  
+  H2 → `section` · H3 → bloc (`headingLevel: 3`) · H4 → `headingLevel: 4` / `children` (pas aplatir).  
+  Listes et liens : conserver. Interdit : fusionner, inventer, simplifier en prose.  
+  Voir `docs/05-decisions.md` + `contenu/sources/live-md/LIRE-MOI.md`.
 
 ### Perf
 - LCP / INP mobiles d’abord.
@@ -83,6 +88,7 @@ Détail : `docs/16-composants-ui.md`.
 - Réécrire les 422 articles à la main / à l’IA
 - Inventer un type de page sans mettre à jour `09-architecture-site.md`
 - Inventer une carte article ou un style de CTA public hors canon
+- Aplatir H4 au niveau H3, fusionner des sections expertise, inventer du texte, « simplifier » des listes Wix en prose
 - Committer CSV formulaires (PII) ou secrets `.env`
 - Mettre des chemins absolus machine dans les scripts
 - Mélanger exports bruts dans `articles/` (produit)

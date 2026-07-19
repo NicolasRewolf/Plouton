@@ -15,6 +15,12 @@ const SimulatorPrestation = dynamic(() =>
 interface Block {
   heading: string
   body: string
+  /** 3 = H3 (défaut), 4 = H4 — fidélité MD Wix. */
+  headingLevel?: 3 | 4
+  /** Liste à puces explicite (sinon markdown `- ` dans body). */
+  bullets?: string[]
+  /** Sous-blocs H4 sous un H3. */
+  children?: Block[]
 }
 
 type SectionSimulator = "pension-alimentaire" | "prestation-compensatoire"
@@ -152,10 +158,16 @@ function normalizeBlocks(blocks: Block[]): Block[] {
   for (const b of blocks) {
     const heading = cleanText(b.heading || "")
     const body = (b.body || "").replace(/\u200b/g, "").trim()
-    if (isJunk(body) && !heading) continue
+    const headingLevel = b.headingLevel === 4 ? 4 : b.headingLevel === 3 ? 3 : undefined
+    const bullets = Array.isArray(b.bullets)
+      ? b.bullets.map((x) => cleanText(x)).filter(Boolean)
+      : undefined
+    const children = b.children?.length ? normalizeBlocks(b.children) : undefined
+
+    if (isJunk(body) && !heading && !bullets?.length && !children?.length) continue
 
     const bodyKey = cleanText(body).slice(0, 160).toLowerCase()
-    if (bodyKey && seenBodies.has(bodyKey) && !heading) continue
+    if (bodyKey && seenBodies.has(bodyKey) && !heading && !bullets?.length) continue
     if (bodyKey) seenBodies.add(bodyKey)
 
     // Drop body that only echoes the previous block (Wix scrape double),
@@ -165,10 +177,22 @@ function normalizeBlocks(blocks: Block[]): Block[] {
       const bodyEchoesPrev =
         Boolean(bodyKey) &&
         cleanText(prev.body).slice(0, 120).toLowerCase() === bodyKey.slice(0, 120)
-      if (bodyEchoesPrev && (!heading || heading === prev.heading)) continue
+      if (
+        bodyEchoesPrev &&
+        (!heading || heading === prev.heading) &&
+        !bullets?.length &&
+        !children?.length
+      )
+        continue
     }
 
-    out.push({ heading, body })
+    out.push({
+      heading,
+      body,
+      ...(headingLevel ? { headingLevel } : {}),
+      ...(bullets?.length ? { bullets } : {}),
+      ...(children?.length ? { children } : {}),
+    })
   }
   return out
 }
@@ -228,6 +252,72 @@ function proseParas(text: string) {
     .filter((p) => p && !isJunk(p))
 }
 
+function isBulletLine(line: string) {
+  return /^[•\-–—*]\s+/.test(line) || /^\d+[\.)]\s+/.test(line)
+}
+
+function stripBulletPrefix(line: string) {
+  return line.replace(/^[•\-–—*]\s+/, "").replace(/^\d+[\.)]\s+/, "").trim()
+}
+
+/** Découpe body en paragraphes + groupes de listes (conserve les puces). */
+function splitBodyChunks(text: string): { type: "p" | "ul" | "h4"; value: string | string[] }[] {
+  const lines = text.replace(/\u200b/g, "").split(/\n/)
+  const chunks: { type: "p" | "ul" | "h4"; value: string | string[] }[] = []
+  let paraBuf: string[] = []
+  let listBuf: string[] = []
+
+  function flushPara() {
+    const t = paraBuf.join("\n").trim()
+    paraBuf = []
+    if (!t || isJunk(t)) return
+    const mdHeading = t.match(/^#{2,4}\s+(.+)$/)
+    if (mdHeading) {
+      chunks.push({ type: "h4", value: mdHeading[1].trim() })
+      return
+    }
+    chunks.push({ type: "p", value: t })
+  }
+
+  function flushList() {
+    if (!listBuf.length) return
+    chunks.push({ type: "ul", value: [...listBuf] })
+    listBuf = []
+  }
+
+  for (const raw of lines) {
+    const line = raw.trim()
+    if (!line) {
+      flushList()
+      flushPara()
+      continue
+    }
+    if (isBulletLine(line)) {
+      flushPara()
+      listBuf.push(stripBulletPrefix(line))
+      continue
+    }
+    flushList()
+    paraBuf.push(line)
+  }
+  flushList()
+  flushPara()
+  return chunks
+}
+
+function BulletList({ items, links }: { items: string[]; links: InlineLink[] }) {
+  if (!items.length) return null
+  return (
+    <ul className="mt-3 list-disc space-y-2 pl-5 text-[15px] leading-[1.7] text-pretty text-navy/90 marker:text-accent">
+      {items.map((item, i) => (
+        <li key={i} className="pl-1">
+          {linkify(item, links)}
+        </li>
+      ))}
+    </ul>
+  )
+}
+
 function Paragraphs({
   text,
   className,
@@ -237,27 +327,78 @@ function Paragraphs({
   className?: string
   links: InlineLink[]
 }) {
+  const chunks = splitBodyChunks(text)
+  if (!chunks.length) return null
+
   return (
     <>
-      {proseParas(text).map((para, i) => {
-        const mdHeading = para.match(/^#{2,4}\s+(.+)$/)
-        if (mdHeading) {
+      {chunks.map((chunk, i) => {
+        if (chunk.type === "ul")
+          return <BulletList key={i} items={chunk.value as string[]} links={links} />
+        if (chunk.type === "h4")
           return (
             <h4
               key={i}
-              className="font-display text-[16px] font-medium leading-snug tracking-[-0.015em] text-navy text-balance sm:text-[17px]"
+              className="font-display text-[15px] font-medium leading-snug tracking-[-0.015em] text-navy text-balance sm:text-[16px]"
             >
-              {linkify(mdHeading[1], links)}
+              {linkify(chunk.value as string, links)}
             </h4>
           )
-        }
         return (
           <p key={i} className={className || "text-[15px] leading-[1.7] text-pretty text-navy/90"}>
-            {linkify(para, links)}
+            {linkify(chunk.value as string, links)}
           </p>
         )
       })}
     </>
+  )
+}
+
+function BlockHeading({
+  heading,
+  level,
+  links,
+}: {
+  heading: string
+  level: 3 | 4
+  links: InlineLink[]
+}) {
+  if (level === 4)
+    return (
+      <h4 className="font-display text-[15px] font-medium leading-snug tracking-[-0.015em] text-navy text-balance sm:text-[16px]">
+        {linkify(heading, links)}
+      </h4>
+    )
+  return (
+    <h3 className="font-display text-[17px] font-medium leading-snug tracking-[-0.015em] text-navy text-balance sm:text-[18px]">
+      {linkify(heading, links)}
+    </h3>
+  )
+}
+
+function BlockContent({ block, links }: { block: Block; links: InlineLink[] }) {
+  const level: 3 | 4 = block.headingLevel === 4 ? 4 : 3
+  const hasBody = Boolean(block.body && !isJunk(block.body))
+  const hasBullets = Boolean(block.bullets?.length)
+  const hasChildren = Boolean(block.children?.length)
+
+  return (
+    <div className="max-w-3xl">
+      {block.heading ? <BlockHeading heading={block.heading} level={level} links={links} /> : null}
+      {hasBody ? (
+        <div className={block.heading ? "mt-2.5 space-y-3" : "space-y-3"}>
+          <Paragraphs text={block.body} links={links} />
+        </div>
+      ) : null}
+      {hasBullets ? <BulletList items={block.bullets!} links={links} /> : null}
+      {hasChildren ? (
+        <div className={`space-y-5 ${block.heading || hasBody || hasBullets ? "mt-5" : ""}`}>
+          {block.children!.map((child, i) => (
+            <BlockContent key={i} block={{ ...child, headingLevel: child.headingLevel || 4 }} links={links} />
+          ))}
+        </div>
+      ) : null}
+    </div>
   )
 }
 
@@ -343,9 +484,11 @@ function HeadedSteps({ blocks, links }: { blocks: Block[]; links: InlineLink[] }
               ) : null}
             </div>
             <div className={`min-w-0 ${i < steps.length - 1 ? "pb-8" : ""}`}>
-              <h3 className="font-display text-[17px] font-medium leading-snug tracking-[-0.015em] text-navy text-balance sm:text-[18px]">
-                {linkify(step.heading, links)}
-              </h3>
+              <BlockHeading
+                heading={step.heading}
+                headingLevel={step.headingLevel === 4 ? 4 : 3}
+                links={links}
+              />
               {intro ? (
                 <div className="mt-2.5 space-y-3">
                   <Paragraphs text={intro} links={links} />
@@ -358,6 +501,12 @@ function HeadedSteps({ blocks, links }: { blocks: Block[]; links: InlineLink[] }
               ) : step.body && !isJunk(step.body) && !intro ? (
                 <div className="mt-2.5 space-y-3">
                   <Paragraphs text={step.body} links={links} />
+                </div>
+              ) : null}
+              {step.bullets?.length ? <SimpleBullets items={step.bullets} links={links} /> : null}
+              {step.children?.length ? (
+                <div className="mt-5 space-y-6">
+                  <ProseBlocks blocks={step.children} links={links} />
                 </div>
               ) : null}
             </div>
@@ -422,24 +571,25 @@ function ProseBlocks({ blocks, links }: { blocks: Block[]; links: InlineLink[] }
   return (
     <div className="mt-7 space-y-8">
       {blocks.map((b, i) => (
-        <div key={i} className="max-w-3xl">
-          {b.heading ? (
-            <h3 className="font-display text-[17px] font-medium leading-snug tracking-[-0.015em] text-navy">
-              {linkify(b.heading, links)}
-            </h3>
-          ) : null}
-          {b.body && !isJunk(b.body) ? (
-            <div className={b.heading ? "mt-2.5 space-y-3" : "space-y-3"}>
-              <Paragraphs text={b.body} links={links} />
-            </div>
-          ) : null}
-        </div>
+        <BlockContent key={i} block={b} links={links} />
       ))}
     </div>
   )
 }
 
+function wantsFidelityLayout(blocks: Block[]) {
+  return blocks.some(
+    (b) =>
+      b.headingLevel === 4 ||
+      Boolean(b.bullets?.length) ||
+      Boolean(b.children?.length)
+  )
+}
+
 function renderSectionBody(blocks: Block[], links: InlineLink[]) {
+  // Structure explicite H3/H4 / bullets / children → rendu fidèle (pas d’heuristiques cartes).
+  if (wantsFidelityLayout(blocks)) return <ProseBlocks blocks={blocks} links={links} />
+
   if (blocks.length === 1 && !blocks[0].heading) {
     const bullets = parseBulletItems(blocks[0].body)
     if (bullets && bullets.length >= 3) {
@@ -473,9 +623,11 @@ function renderSectionBody(blocks: Block[], links: InlineLink[]) {
     return (
       <div className="mt-7 space-y-8">
         {defBlock.heading ? (
-          <h3 className="font-display text-[17px] font-medium leading-snug tracking-[-0.015em] text-navy">
-            {linkify(defBlock.heading, links)}
-          </h3>
+          <BlockHeading
+            heading={defBlock.heading}
+            headingLevel={defBlock.headingLevel === 4 ? 4 : 3}
+            links={links}
+          />
         ) : null}
         {introLines.length ? (
           <div className="max-w-3xl space-y-3">

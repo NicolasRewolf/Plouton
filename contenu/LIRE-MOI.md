@@ -19,9 +19,16 @@ contenu/
 ├── pages/                 ← pages structure (accueil, honoraires…)
 ├── medias/                ← réservé (médias / presse)
 ├── sources/wix/           ← exports bruts Wix (ré-import)
+├── sources/live-md/       ← MD Wix expertises = source rédactionnelle
 ├── imports/               ← 301, exports divers (PII gitignorés)
 └── identite/              ← lien Drive logos / typos
 ```
+
+## Expertises — source MD Wix
+
+Ces `.md` (`sources/live-md/expertises/`) = **source de vérité rédactionnelle Wix**.  
+Le JSON expertise doit respecter la hiérarchie titres (H2 → section, H3 → bloc, H4 → sous-bloc).  
+Détail : [`sources/live-md/LIRE-MOI.md`](./sources/live-md/LIRE-MOI.md) + `docs/05-decisions.md`.
 
 ## Règles
 

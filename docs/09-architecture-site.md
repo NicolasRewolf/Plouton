@@ -164,6 +164,20 @@ Slots ordonnés (tous optionnels sauf hero + form) :
 
 Une nouvelle expertise = **données + contenu**, presque **zéro nouveau composant**.
 
+#### Fidélité structurelle (non négociable)
+
+Source rédactionnelle : `contenu/sources/live-md/expertises/{slug}.md` (= Wix).
+
+| MD Wix | JSON `sections` / `blocks` |
+|--------|----------------------------|
+| **H2** | `section.title` (1 section = 1 H2) |
+| **H3** | `blocks[].heading` + `headingLevel: 3` (défaut) |
+| **H4** | `headingLevel: 4` ou `blocks[].children[]` — **pas** le même niveau que H3 |
+| Listes | `body` avec `- ` **ou** `bullets: string[]` |
+
+Rendu : `ExpertiseBody` (H3 ≠ H4, listes en `<ul>`).  
+Décision : `docs/05-decisions.md`. **Interdit** de fusionner / inventer / aplatir.
+
 ### Gabarit `LegalPageView` (pages légales)
 
 Un seul gabarit pour :
