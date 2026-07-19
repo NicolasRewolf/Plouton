@@ -1,6 +1,6 @@
 # Avocat Droit des Assurances Bordeaux | Cabinet Plouton
 
-![Droit des assurances particuler et professionnel - Avocat Julien Plouton](https://static.wixstatic.com/media/d05c9e_6593e840f39c42f49c2fded0528a62e4~mv2.jpg/v1/fill/w_1292,h_862,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Droit%20des%20assurances%20particuler%20et%20professionnel%20-%20Avocat%20Julien%20Plouton.jpg)
+![Droit des assurances particuler et professionnel - Avocat Julien Plouton](https://static.wixstatic.com/media/d05c9e_6593e840f39c42f49c2fded0528a62e4~mv2.jpg/v1/fill/w_1034,h_690,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Droit%20des%20assurances%20particuler%20et%20professionnel%20-%20Avocat%20Julien%20Plouton.jpg)
 
 Cabinet Plouton /
 
@@ -304,6 +304,20 @@ En voir plus
 2012 > 2025
 
 ## Affaires récentes / Droit des assurances particuliers et professionnels
+
+[
+
+![Droit des assurances particuler et professionnel - Avocat Julien Plouton](https://static.wixstatic.com/media/nsplsh_684c5554527a63566b7167~mv2_d_3000_1993_s_2.jpg/v1/fill/w_147,h_98,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/nsplsh_684c5554527a63566b7167~mv2_d_3000_1993_s_2.jpg)
+
+](https://www.jplouton-avocat.fr/post/sinistre-habitation-recours-assurance)
+
+Ressources et notions juridiques
+
+9 juil. 2026
+
+### Sinistre habitation : vos recours quand l'assureur refuse, traîne ou sous-indemnise
+
+[Lire](https://www.jplouton-avocat.fr/post/sinistre-habitation-recours-assurance)
 
 [
 

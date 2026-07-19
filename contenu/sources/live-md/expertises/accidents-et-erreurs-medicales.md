@@ -1,6 +1,6 @@
 # Avocat Erreur Médicale Bordeaux | Cabinet Plouton
 
-![Droit Médical - Julien Plouton Avocat](https://static.wixstatic.com/media/d05c9e_093883f0c2a14b78a199e38d7515a265~mv2.jpg/v1/fill/w_1248,h_832,fp_0.47_0.24,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Droit%20M%C3%A9dical%20-%20Julien%20Plouton%20Avocat.jpg)
+![Droit Médical - Julien Plouton Avocat](https://static.wixstatic.com/media/d05c9e_093883f0c2a14b78a199e38d7515a265~mv2.jpg/v1/fill/w_998,h_666,fp_0.47_0.24,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Droit%20M%C3%A9dical%20-%20Julien%20Plouton%20Avocat.jpg)
 
 Cabinet Plouton /
 

@@ -287,7 +287,7 @@ Pour les jeunes, l’IP permet de réparer l’atteinte à une trajectoire profe
 
 Les chiffres et les stratégies ne remplacent pas les résultats. Voici quelques exemples de combats que le cabinet Plouton a mené pour ses clients, illustrant notre détermination à obtenir la meilleure indemnisation pour nos clients, quelle que soit la complexité du dossier.
 
-![Indemnisation de 236 879 euros pour une victime polytraumatisée après un choc frontal en Gironde](https://static.wixstatic.com/media/nsplsh_62425a746f6f4d5a41776f~mv2_d_4207_2905_s_4_2.jpg/v1/fill/w_1000,h_1000,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20de%20Daniel%20van%20den%20Berg.jpg)
+![Indemnisation de 236 879 euros pour une victime polytraumatisée après un choc frontal en Gironde](https://static.wixstatic.com/media/nsplsh_62425a746f6f4d5a41776f~mv2_d_4207_2905_s_4_2.jpg/v1/fill/w_147,h_102,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/Image%20de%20Daniel%20van%20den%20Berg.jpg)
 
 ### Indemnisation de 236 879 € pour une septuagénaire polytraumatisée après un choc frontal dans le Libournais
 
@@ -300,7 +300,7 @@ Ce dossier témoigne de l’engagement du cabinet Plouton à défendre méthodiq
 
 [Découvrir l'affaire](https://www.jplouton-avocat.fr/post/accident-route-septuagenaire-indemnisation-200000-euros)
 
-![Soutien juridique et indemnisation de 200 000 euros pour la famille d'un piéton décédé à Bordeaux](https://static.wixstatic.com/media/nsplsh_cc0d95e9ecce4b859766f14daea671c5~mv2.jpg/v1/fill/w_1000,h_1000,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20de%20Jochen%20van%20Wylick.jpg)
+![Soutien juridique et indemnisation de 200 000 euros pour la famille d'un piéton décédé à Bordeaux](https://static.wixstatic.com/media/nsplsh_cc0d95e9ecce4b859766f14daea671c5~mv2.jpg/v1/fill/w_147,h_98,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/Image%20de%20Jochen%20van%20Wylick.jpg)
 
 ### Soutien et indemnisation de 200 000 € pour la famille d'un piéton décédé
 
@@ -312,7 +312,7 @@ Nous avons obtenu une indemnisation de près de 200 000 € pour réparer les pr
 
 [Découvrir l'affaire](https://www.jplouton-avocat.fr/post/accident-la-circulation-et-homicide-involontaire-indemnisation-de-pr%C3%A8s-de-200-000)
 
-![Indemnisation multipliée par 8 pour une fracture du pied suite à un accident de la route](https://static.wixstatic.com/media/nsplsh_228c11d3475e4b568ccab90c7266bcfc~mv2.jpg/v1/fill/w_1000,h_1000,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20de%20Tom%20Claes.jpg)
+![Indemnisation multipliée par 8 pour une fracture du pied suite à un accident de la route](https://static.wixstatic.com/media/nsplsh_228c11d3475e4b568ccab90c7266bcfc~mv2.jpg/v1/fill/w_147,h_98,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/Image%20de%20Tom%20Claes.jpg)
 
 ### Indemnisation multipliée par 8 pour une fracture du pied
 

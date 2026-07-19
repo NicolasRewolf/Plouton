@@ -5,6 +5,14 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Sources MD expertises : exports Wix frais
+
+- 14 MD rafraîchis depuis Downloads (8 vraiment différents ; 6 déjà à jour)
+- Doublon ignoré : `page-…-14.md` = Accident du travail
+- Manque encore : **défense des élus** (pas d’export frais)
+
+---
+
 ## 2026-07-19 — Expertises : règle H2/H3 + sources MD Wix
 
 - 15 MD Wix synchronisés dans `contenu/sources/live-md/expertises/` (dont `defense-des-elus` ajouté)

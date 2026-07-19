@@ -1,6 +1,6 @@
 # Avocat Divorce Bordeaux | Amiable ou Contentieux | Cabinet Plouton
 
-![Cabinet Plouton - Divorce Bordeaux](https://static.wixstatic.com/media/d05c9e_0a34199aa5894ca28e7cceae0a1c8782~mv2.jpg/v1/fill/w_3000,h_1211,fp_0.70_0.49,q_90,enc_avif,quality_auto/Divorce%20Good.jpg)
+![Cabinet Plouton - Divorce Bordeaux](https://static.wixstatic.com/media/d05c9e_0a34199aa5894ca28e7cceae0a1c8782~mv2.jpg/v1/fill/w_2994,h_1362,fp_0.70_0.49,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Divorce%20Good.jpg)
 
 Mis à jour le 17/04/2026
 
@@ -10,7 +10,7 @@ Clarté sur la procédure, protection de vos intérêts, priorité à l'apaiseme
 
 [
 
-![Logo de Google Avis](https://static.wixstatic.com/media/d05c9e_cf0a4239b5a9454e84a5a2081f17aa95~mv2.png/v1/fill/w_94,h_94,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/google_g_icon_download.png)
+![Logo de Google Avis](https://static.wixstatic.com/media/d05c9e_cf0a4239b5a9454e84a5a2081f17aa95~mv2.png/v1/fill/w_54,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/google_g_icon_download.png)
 
 ](https://www.google.com/maps?cid=13977668972170869158)
 

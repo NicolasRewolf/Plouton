@@ -1,6 +1,6 @@
 # Avocat Droit de la Famille Bordeaux | Cabinet Plouton
 
-![Droit de la famille - Avocat Julien Plouton](https://static.wixstatic.com/media/d05c9e_b0a3c78cd4c447f8b7ab0ecdd054c039~mv2.jpg/v1/fill/w_972,h_648,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Droit%20de%20la%20famille%20-%20Avocat%20Julien%20Plouton.jpg)
+![Droit de la famille - Avocat Julien Plouton](https://static.wixstatic.com/media/d05c9e_b0a3c78cd4c447f8b7ab0ecdd054c039~mv2.jpg/v1/fill/w_778,h_518,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Droit%20de%20la%20famille%20-%20Avocat%20Julien%20Plouton.jpg)
 
 Cabinet Plouton
 

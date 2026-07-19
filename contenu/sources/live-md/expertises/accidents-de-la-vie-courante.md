@@ -1,6 +1,6 @@
 # Avocat Accident de la Vie Bordeaux | Cabinet Plouton
 
-![Accident de la vie courante - Avocat Julien Plouton](https://static.wixstatic.com/media/d05c9e_20a0374d917c43eaa27e9190f9285120~mv2.jpg/v1/fill/w_1292,h_862,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Accident%20de%20la%20vie%20courante%20-%20Avocat%20Julien%20Plouton.jpg)
+![Accident de la vie courante - Avocat Julien Plouton](https://static.wixstatic.com/media/d05c9e_20a0374d917c43eaa27e9190f9285120~mv2.jpg/v1/fill/w_1034,h_690,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Accident%20de%20la%20vie%20courante%20-%20Avocat%20Julien%20Plouton.jpg)
 
 Cabinet Plouton /
 
@@ -19,7 +19,7 @@ La définition du Code de la Santé public définit les accidents de la vie cour
 
 Contrairement aux [accidents de la route](https://www.jplouton-avocat.fr/indemnisation-des-victimes/accidents-de-la-route) ou [du travail](https://www.jplouton-avocat.fr/indemnisation-des-victimes/droit-et-accidents-du-travail) (qui relèvent de régimes particuliers), les accidents de la vie courante recouvrent l’ensemble des incidents non professionnels et non routiers : chutes, brûlures, blessures lors d’un sport, intoxications domestiques, morsures d’animaux, accidents liés à un produit défectueux…
 
-![Accident de la vie courante - Avocat Julien Plouton](https://static.wixstatic.com/media/nsplsh_354679776968646e4b4f4d~mv2_d_3885_5828_s_4_2.jpg/v1/fill/w_800,h_1000,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20de%20lilartsy.jpg)
+![Accident de la vie courante - Avocat Julien Plouton](https://static.wixstatic.com/media/nsplsh_354679776968646e4b4f4d~mv2_d_3885_5828_s_4_2.jpg/v1/fill/w_640,h_800,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20de%20lilartsy.jpg)
 
 ### Accidents domestiques
 
@@ -29,7 +29,7 @@ Si personne d’autre n’est responsable, seule la souscription d’une Garanti
 
 **Vos droits** : Vous pouvez solliciter une prise en charge auprès de votre assureur GAV. En cas de tiers responsable (ex : installation défectueuse posée par un artisan), la responsabilité civile du fautif s’applique. Contactez un avocat pour analyser vos garanties et sécuriser vos démarches.
 
-![Accident de la vie courante - Avocat Julien Plouton](https://static.wixstatic.com/media/nsplsh_044e98a1be794df8b2f73884a0d7b574~mv2.jpg/v1/fill/w_800,h_1000,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20de%20saeed%20karimi.jpg)
+![Accident de la vie courante - Avocat Julien Plouton](https://static.wixstatic.com/media/nsplsh_044e98a1be794df8b2f73884a0d7b574~mv2.jpg/v1/fill/w_640,h_800,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20de%20saeed%20karimi.jpg)
 
 ### Accidents scolaires
 
@@ -39,7 +39,7 @@ Selon le contexte, la responsabilité peut incomber à l’établissement, à la
   
 **Vos droits** : Demandez un rapport détaillé de l’accident. Si la responsabilité est engagée, la famille de la victime peut obtenir réparation via l’assurance du responsable (état, commune, autre élève…). Un avocat sécurise l’instruction du dossier et veille à la juste évaluation du préjudice.
 
-![Accident de la vie courante - Avocat Julien Plouton](https://static.wixstatic.com/media/nsplsh_8cdc5e06ab5b47a490c050ed2525aa8e~mv2.jpg/v1/fill/w_800,h_1000,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20de%20Emily%20budd.jpg)
+![Accident de la vie courante - Avocat Julien Plouton](https://static.wixstatic.com/media/nsplsh_8cdc5e06ab5b47a490c050ed2525aa8e~mv2.jpg/v1/fill/w_640,h_800,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20de%20Emily%20budd.jpg)
 
 ### Accidents de sports
 
@@ -50,7 +50,7 @@ Selon le contexte, la responsabilité peut incomber à l’établissement, à la
 
 **Vos droits** : Faites consigner les faits (procès-verbal, témoins, rapport médical). Contactez rapidement l’organisme ou le club. Un avocat identifie la meilleure voie d’indemnisation et défend vos intérêts lors de l’expertise ou face à l’assurance.
 
-![Accident de la vie courante - Avocat Julien Plouton](https://static.wixstatic.com/media/nsplsh_907dac22ca804422ae06df4c04f56eb0~mv2.jpg/v1/fill/w_800,h_1000,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20de%20Anna%20Dziubinska.jpg)
+![Accident de la vie courante - Avocat Julien Plouton](https://static.wixstatic.com/media/nsplsh_907dac22ca804422ae06df4c04f56eb0~mv2.jpg/v1/fill/w_640,h_800,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20de%20Anna%20Dziubinska.jpg)
 
 ### Accidents survenus dans un lieu acceuillant du public
 

@@ -1,6 +1,6 @@
 # Avocat Victimes d'Infractions Bordeaux | Cabinet Plouton
 
-![Indemnisation de la victime d'une infraction pénale - Avocat Julien Plouton](https://static.wixstatic.com/media/d05c9e_1d4314b6d0d74595a4495fbf61f4d894~mv2.jpg/v1/fill/w_1292,h_862,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Indemnisation%20de%20la%20victime%20d'une%20infraction%20p%C3%A9nale%20-%20Avocat%20Julien%20Plouton.jpg)
+![Indemnisation de la victime d'une infraction pénale - Avocat Julien Plouton](https://static.wixstatic.com/media/d05c9e_1d4314b6d0d74595a4495fbf61f4d894~mv2.jpg/v1/fill/w_1034,h_690,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Indemnisation%20de%20la%20victime%20d'une%20infraction%20p%C3%A9nale%20-%20Avocat%20Julien%20Plouton.jpg)
 
 Cabinet Plouton /
 
@@ -283,6 +283,20 @@ En voir plus
 
 [
 
+![Indemnisation de la victime d'une infraction pénale - Avocat Julien Plouton](https://static.wixstatic.com/media/nsplsh_14babf0c6da4404b97dd65ce26abcfa7~mv2.jpg/v1/fill/w_147,h_147,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/nsplsh_14babf0c6da4404b97dd65ce26abcfa7~mv2.jpg)
+
+](https://www.jplouton-avocat.fr/post/indemnisation-tetraplegie)
+
+Ressources et notions juridiques
+
+5 juil. 2026
+
+### Indemnisation d'une tétraplégie : ce qu'elle doit vraiment couvrir (et pourquoi la première offre est rarement la dernière)
+
+[Lire](https://www.jplouton-avocat.fr/post/indemnisation-tetraplegie)
+
+[
+
 ![Indemnisation de la victime d'une infraction pénale - Avocat Julien Plouton](https://static.wixstatic.com/media/nsplsh_9555e630b278494595b9587e7d01d430~mv2.jpg/v1/fill/w_147,h_221,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/nsplsh_9555e630b278494595b9587e7d01d430~mv2.jpg)
 
 ](https://www.jplouton-avocat.fr/post/echelle-de-glasgow)
@@ -546,20 +560,6 @@ Violences Conjugales et féminicides
 ### Féminicide de Nelly à Moulis-en-Médoc : le Cabinet Plouton
 
 [Lire](https://www.jplouton-avocat.fr/post/feminicide-nelly-moulis-medoc-cabinet-plouton-parties-civiles)
-
-[
-
-![Indemnisation de la victime d'une infraction pénale - Avocat Julien Plouton](https://static.wixstatic.com/media/d05c9e_2f328eb922324ff6a7209191bebb8fff~mv2.png/v1/fill/w_49,h_55,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/d05c9e_2f328eb922324ff6a7209191bebb8fff~mv2.png)
-
-](https://www.jplouton-avocat.fr/post/feminicide-martigues-iannello-cabinet-plouton)
-
-Violences Conjugales et féminicides
-
-20 oct. 2025
-
-### Féminicide de Martigues : Notre Cabinet intervient aux côtés de la famille de Sylvia Iannello
-
-[Lire](https://www.jplouton-avocat.fr/post/feminicide-martigues-iannello-cabinet-plouton)
 
 [Read More](https://www.jplouton-avocat.fr/indemnisation-des-victimes/victimes-de-delits-ou-crimes) [Read More](tel:0556443596)
 
