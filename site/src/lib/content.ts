@@ -184,6 +184,11 @@ export interface ExpertisePage {
     title: string
     titleAccent?: string | null
     lead?: string | null
+    /**
+     * Bloc interactif monté sous le lead (lazy client).
+     * Aujourd’hui : simulateurs divorce uniquement.
+     */
+    simulator?: "pension-alimentaire" | "prestation-compensatoire"
     blocks: { heading: string; body: string }[]
   }[]
 }

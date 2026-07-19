@@ -1,17 +1,37 @@
 import Link from "next/link"
+import dynamic from "next/dynamic"
 import type { ReactNode } from "react"
+
+/** Simulateurs divorce — client islands, hors bundle hero. */
+const SimulatorPension = dynamic(() =>
+  import("@/components/simulators/SimulatorPension").then((m) => m.SimulatorPension)
+)
+const SimulatorPrestation = dynamic(() =>
+  import("@/components/simulators/SimulatorPrestation").then(
+    (m) => m.SimulatorPrestation
+  )
+)
 
 interface Block {
   heading: string
   body: string
 }
 
+type SectionSimulator = "pension-alimentaire" | "prestation-compensatoire"
+
 interface Section {
   id: string
   title: string
   titleAccent?: string | null
   lead?: string | null
+  simulator?: SectionSimulator
   blocks: Block[]
+}
+
+function SectionSimulatorSlot({ type }: { type: SectionSimulator }) {
+  if (type === "pension-alimentaire") return <SimulatorPension />
+  if (type === "prestation-compensatoire") return <SimulatorPrestation />
+  return null
 }
 
 export interface InlineLink {
@@ -45,18 +65,26 @@ function escapeRegExp(s: string) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
 }
 
+/** Token court alphanumérique → bornes de mot (évite CIVI dans « civile »). */
+function linkPattern(text: string) {
+  const escaped = escapeRegExp(text)
+  if (text.length <= 6 && /^[A-Za-zÀ-ÖØ-öø-ÿ0-9]+$/i.test(text))
+    return `\\b${escaped}\\b`
+  return escaped
+}
+
 /** Réinjecte les liens internes harvestés du live (phrases → URLs). */
 function linkify(text: string, links: InlineLink[]): ReactNode[] {
   if (!text) return []
   if (!links.length) return [text]
 
   const usable = [...links]
-    .filter((l) => l.text && l.href && l.text.length >= 3)
+    .filter((l) => l.text && l.href && l.text.length >= 4)
     .sort((a, b) => b.text.length - a.text.length)
 
   if (!usable.length) return [text]
 
-  const pattern = usable.map((l) => escapeRegExp(l.text)).join("|")
+  const pattern = usable.map((l) => linkPattern(l.text)).join("|")
   const re = new RegExp(`(${pattern})`, "gi")
   const hrefByLower = new Map(usable.map((l) => [l.text.toLowerCase(), l.href]))
 
@@ -71,6 +99,7 @@ function linkify(text: string, links: InlineLink[]): ReactNode[] {
     )
   })
 }
+
 
 function accentSplit(title: string, titleAccent?: string | null) {
   if (titleAccent && title.includes(titleAccent)) {
@@ -464,6 +493,9 @@ export function ExpertiseBody({
                     className="text-[15px] leading-[1.7] text-pretty text-navy/85"
                   />
                 </Lead>
+              ) : null}
+              {section.simulator ? (
+                <SectionSimulatorSlot type={section.simulator} />
               ) : null}
               {blocks.length ? renderSectionBody(blocks, links) : null}
             </div>

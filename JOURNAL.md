@@ -5,6 +5,23 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Audit Wix→Next lot 2 (contenu / SEO / front)
+
+- Réseaux FB / IG / LinkedIn dans le footer (URLs du site live)
+- Loupe → page Recherche (titres / extraits) ; flux RSS `/rss.xml`
+- Fix « civile » cassé par le lien CIVI ; carrousel expertises 20 affaires
+- Articles : date avec année, 3 similaires, contact honnête (plus de faux commentaires)
+- Nos affaires : tri + récentes / + consultées ; canonical / partage social pages clés
+- Tests : loupe Header ; `/recherche?q=civi` ; `/rss.xml` ; page violences conjugales ; `/nos-affaires`
+
+## 2026-07-19 — Simulateurs divorce (lot audit 3)
+
+- Deux calculateurs de retour sur la page Divorce : **pension alimentaire** + **prestation compensatoire**
+- Pension = barème officiel Ministère de la Justice (pas de formule Wix trouvée dans les exports)
+- Prestation = estimation indicative (méthodes courantes des avocats) — pas de barème légal
+- Chaque outil rappelle : estimation indicative, sans valeur juridique + bouton pour contacter
+- Tests : page Divorce → ancres « Je simule… » / « Je calcule… » → remplir → voir le montant
+
 ## 2026-07-19 — Médias & Ressources filtrables (plus de blog fourre-tout)
 
 - **Médias** = vraie page `/medias` avec filtres (comme Nos affaires)
