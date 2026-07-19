@@ -1,6 +1,7 @@
 # État d'avancement — Plouton
 
-_Mis à jour : 2026-07-19 (brief #18 P1-C/D en cours sur `fix/blog-18-brief-fidele`)_
+_Mis à jour : 2026-07-20 (briefs #17+#18 — lots P1-D / contact / SEO en cours sur `fix/blog-17-18-complet`)_
+
 
 Vue unique de « où on en est ». À relire en premier, mettre à jour à chaque grande étape.
 Détail des livraisons dans [`../JOURNAL.md`](../JOURNAL.md).
@@ -71,12 +72,20 @@ Blog / éditeur : [`18-blog-architecture-et-editeur.md`](18-blog-architecture-et
 - **Admin** = TipTap + liste DB · publish → revalidate
 - **Pas** de RLS anon (lecture via `SUPABASE_SECRET_KEY` serveur)
 
-## ⚠ Brief #18 — reste à faire (branche `fix/blog-18-brief-fidele`)
+## ⚠ Brief #18 + #17 — avancement (branche `fix/blog-17-18-complet`)
 
-- ✅ Migrations `0007`–`0010` + seed auteurs **appliquées** sur Supabase (2026-07-19)
-- Fin dual-run JSON (quand DB 100 % sûre) ; backfill `body_doc` en base encore à lancer
-- Confort éditeur (autosave, collage Word) + graphe JSON-LD §4.1 complet
-- **Merge seulement sur ton feu vert**
+| Lot | Statut |
+|-----|--------|
+| P1-C convertisseur + CI | ✅ |
+| P1-D body_doc DB + vues + index DB | ✅ |
+| #17 FAQ / auteurs / catégories / contact | ✅ (contact + cat DB ; FAQ déjà) |
+| P1-F JSON-LD §4.1 | ✅ socle article |
+| P1-G confort éditeur | 🟡 autosave + coller texte (Paste Start / modale image = suite) |
+| P1-H metas CI | ✅ |
+| P1-I cron scheduled | ✅ |
+| P2 tags / sommaire / RGAA | ⏳ |
+
+**Merge seulement sur ton feu vert.**
 
 ## ⚠ Réalité pages publiques (hors articles)
 

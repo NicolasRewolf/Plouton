@@ -178,6 +178,22 @@ export function AdminEditor({
             Lien
           </ToolBtn>
           <ToolBtn
+            label="Coller sans mise en forme"
+            onClick={async () => {
+              try {
+                const text = await navigator.clipboard.readText()
+                if (!text.trim()) return
+                editor.commands.insertContent(text.replace(/\n+/g, "</p><p>"))
+              } catch {
+                window.alert(
+                  "Impossible de lire le presse-papiers. Utilisez Cmd+Shift+V."
+                )
+              }
+            }}
+          >
+            Txt
+          </ToolBtn>
+          <ToolBtn
             label="Image"
             active={editor.isActive("image")}
             onClick={() => void insertImage(editor)}

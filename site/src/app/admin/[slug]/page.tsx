@@ -181,7 +181,7 @@ export default function EditPostPage() {
       // Autosave brouillon uniquement si déjà connu et pas gelé
       if (!article || (risk.blocked && !forceRichEdit)) return
       void save("draft")
-    }, 45000)
+    }, 25000)
   }
 
   async function archive() {

@@ -32,7 +32,7 @@ Wix imposait des contraintes qu'on **ne reproduit pas** :
 
 1. **Une seule table `faq`**, pas les 3 collections versionnées Wix (`FAQ`, `FAQ V2`, `FAQ Divorce`). Discriminée par `expertise_key`.
 2. **`categories.postCount` n'est PAS stocké** → calculé en live depuis `posts` (vue SQL). Corrige les compteurs périmés (« Défense des élus : 0 post », etc.).
-3. **`view_count` : une seule source** = `posts.view_count` (déjà seedé). On **supprime `stats-posts.json`** et sa double lecture → corrige le bug « 0 vue » sur `/nos-affaires`.
+3. **`view_count` : une seule source** = `posts.view_count`, **après** réconciliation `GREATEST(db, stats-posts)`. Puis archive du JSON hors runtime. ❌ Ne pas écraser la DB avec un snapshot plus bas.
 4. **Équipe = une seule source** (`equipe.json` / composant), pas la double collection Wix `Membres` + `Équipe`. Reste du contenu de page (hors DB) — voir périmètre révisé.
 5. **Contenu éditable en DB, config structurelle en fichiers.** Tout n'a pas vocation à être « CMS » : `navigation.json`, `redirects.json` et l'identité technique (`url`, `siren`, `cabinetId`) restent des fichiers de build. Ce qui est **éditable par le cabinet** (FAQ, équipe, expertises, catégories, textes de pages, coordonnées, rating) va en DB. → évite de rendre `getSite` async partout (voir §4).
 6. **(Phase 2) Un seul format de corps d'article** : migrer `ricos`/`bodyHtml`/`string[]` → Editor.js et supprimer la triple-cascade de fallback. Gros chantier séparé, hors de cette spec.
