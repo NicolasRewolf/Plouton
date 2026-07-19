@@ -219,7 +219,6 @@ export interface ContentPage {
 export interface LegalPageContent extends ContentPage {
   h1?: string
   updatedAt?: string
-  todos?: string[]
   relatedLinks?: { href: string; label: string }[]
   sections?: LegalSection[]
 }

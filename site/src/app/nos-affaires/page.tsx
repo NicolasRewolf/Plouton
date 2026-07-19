@@ -8,7 +8,7 @@ import {
   toGalleryItems,
 } from "@/lib/gallery-filters"
 import { publishedIndex } from "@/lib/queries"
-import { JsonLd, organizationSchema } from "@/lib/seo"
+import { JsonLd, absoluteUrl, organizationSchema, pageOpenGraph } from "@/lib/seo"
 
 const AffairesGallery = dynamic(() =>
   import("@/components/AffairesGallery").then((m) => m.AffairesGallery)
@@ -19,11 +19,19 @@ const INTRO =
 
 export function generateMetadata(): Metadata {
   const page = getContentPage("nos-affaires")
+  const title = page?.metaTitle || "Nos affaires"
+  const description =
+    page?.metaDescription ||
+    "Affaires et dossiers traités par le Cabinet Plouton à Bordeaux : droit pénal, victimes, famille."
   return {
-    title: { absolute: page?.metaTitle || "Nos affaires" },
-    description:
-      page?.metaDescription ||
-      "Affaires et dossiers traités par le Cabinet Plouton à Bordeaux : droit pénal, victimes, famille.",
+    title: { absolute: title },
+    description,
+    alternates: { canonical: absoluteUrl("/nos-affaires") },
+    openGraph: pageOpenGraph({
+      path: "/nos-affaires",
+      title,
+      description,
+    }),
   }
 }
 
