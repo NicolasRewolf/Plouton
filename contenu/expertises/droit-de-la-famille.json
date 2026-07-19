@@ -6,7 +6,7 @@
   "title": "Avocat droit de la famille",
   "metaTitle": "Avocat Droit de la Famille Bordeaux | Cabinet Plouton",
   "metaDescription": "Avocat en droit de la famille à Bordeaux. Cabinet Plouton : divorce, garde d'enfants, pension alimentaire, succession, adoption. Consultation rapide.",
-  "intro": "Cabinet Plouton\n\nLe droit de la famille, ce n’est pas seulement des textes et des procédures : c’est ce qui protège vos liens les plus intimes — couple, enfants, patrimoine. Derrière chaque dossier, il y a une histoire de vie, souvent chargée d’émotion et d’enjeux décisifs.\n\n​\n\nNotre rôle : transformer ces moments de fragilité en décisions claires, sécurisées et justes. Divorce, garde des enfants, partage des biens, urgences familiales… nous plaçons l’humain au centre de la stratégie juridique, avec une seule priorité : défendre ce qui compte le plus pour vous.",
+  "intro": "Cabinet Plouton\n\nLe droit de la famille, ce n’est pas seulement des textes et des procédures : c’est ce qui protège vos liens les plus intimes — couple, enfants, patrimoine. Derrière chaque dossier, il y a une histoire de vie, souvent chargée d’émotion et d’enjeux décisifs.\n\nNotre rôle : transformer ces moments de fragilité en décisions claires, sécurisées et justes. Divorce, garde des enfants, partage des biens, urgences familiales… nous plaçons l’humain au centre de la stratégie juridique, avec une seule priorité : défendre ce qui compte le plus pour vous.",
   "formObjet": "Droit de la famille",
   "faqExpertise": "droit-de-la-famille",
   "blogCategories": [
@@ -39,128 +39,10 @@
       "shortLabel": "Je prends rendez-vous"
     }
   ],
-  "sections": [
-    {
-      "id": "le-couple-anticiper-et-se-proteger",
-      "title": "Le couple : anticiper et se protéger",
-      "titleAccent": "Le couple :",
-      "lead": null,
-      "blocks": [
-        {
-          "heading": "Liquidation et partage de l’indivision (PACS / concubinage)",
-          "body": "Même sans mariage, un couple peut investir ensemble dans un bien immobilier. Lors de la séparation, il faut régler la question du partage de ce bien. Le Cabinet Plouton vous accompagne pour :\n\n​\n\n• déterminer les créances entre concubins ou partenaires de PACS,\n\n• calculer l’indemnité d’occupation du logement commun,\n\n• procéder au partage équitable (vente, rachat de part, désintéressement).\n\nNous veillons à défendre vos droits patrimoniaux tout en favorisant des solutions amiables lorsque c’est possible.\n\n​\n\nVous êtes marié(e) ? Découvrez notre accompagnement dédié au divorce et au partage des biens."
-        },
-        {
-          "heading": "",
-          "body": "Nous veillons à défendre vos droits patrimoniaux tout en favorisant des solutions amiables lorsque c’est possible."
-        },
-        {
-          "heading": "",
-          "body": "Vous êtes marié(e) ? Découvrez notre accompagnement dédié au divorce et au partage des biens."
-        },
-        {
-          "heading": "Protection face au conjoint ou partenaire violent",
-          "body": "Lorsqu’une situation de violences conjugales apparaît, il est essentiel d’agir vite. Notre cabinet met son expertise pénale et familiale au service des victimes, avec une prise en charge complète et humaine.\n\n#### L’ordonnance de protection : les étapes essentielles\n\nNous vous assistons dès la rédaction de la requête et jusqu’à l’audience devant le juge, généralement fixée sous sept jours. Grâce à la réactivité du cabinet et à une préparation rigoureuse, une décision peut être rendue sous quinze jours lorsque le dossier est complet.\n\nNos avocats vous aident à constituer un dossier de preuves solide (plaintes, témoignages, certificats médicaux, photos, vidéos) pour démontrer le danger actuel et vraisemblable.\n\nLe juge peut alors ordonner :\n\n• l’interdiction de contact ou d’approcher certains lieux,\n\n• la suspension de l’autorité parentale,\n\n• l’attribution gratuite du logement, voire le maintien du paiement par le conjoint violent.\n\n#### Accompagnement pénal et expertise spécifique\n\nNous vous accompagnons également dans la procédure pénale : dépôt de plainte, audience, constitution de partie civile, représentation en cas de féminicide ou de contrôle coercitif.\n\nPour les violences dans le cadre d’un mariage, découvrez notre accompagnement en divorce pour faute ou violences. (CTA page divorce)"
-        }
-      ]
-    },
-    {
-      "id": "les-enfants-garantir-leur-securite-et-leur-equilibre",
-      "title": "Les enfants : garantir leur sécurité et leur équilibre",
-      "titleAccent": "Les enfants :",
-      "lead": null,
-      "blocks": [
-        {
-          "heading": "L’autorité parentale",
-          "body": "L’autorité parentale regroupe les droits et devoirs des parents dans toutes les décisions importantes : éducation, santé, scolarité, suivi psychologique, choix religieux, nationalité. Le Cabinet Plouton intervient :\n\n• en cas de désaccord grave entre parents (ex. choix d’école, déménagement, soins médicaux),\n\n• lors d’une demande de retrait ou suspension de l’autorité parentale (violences, abus, abandon),\n\n• pour une délégation (ex. aux grands-parents si les parents sont absents ou défaillants).\n\nNous défendons toujours l’intérêt supérieur de l’enfant, dans un cadre juridique stable et protecteur."
-        },
-        {
-          "heading": "",
-          "body": "Nous défendons toujours l’intérêt supérieur de l’enfant, dans un cadre juridique stable et protecteur."
-        },
-        {
-          "heading": "Droit de visite et d’hébergement",
-          "body": "Chaque situation familiale est unique. Nous vous aidons à définir ou adapter :\n\n• la résidence alternée,\n\n• la résidence principale avec droit de visite classique,\n\n• le droit de visite médiatisé si la protection du mineur l’exige.\n\nAu pénal, nous intervenons également en cas de non-représentation d’enfant ou d’enlèvement parental, pour défendre vos droits et préserver la stabilité de l’enfant."
-        },
-        {
-          "heading": "",
-          "body": "Chaque situation familiale est unique. Nous vous aidons à définir ou adapter :"
-        },
-        {
-          "heading": "",
-          "body": "Au pénal, nous intervenons également en cas de non-représentation d’enfant ou d’enlèvement parental, pour défendre vos droits et préserver la stabilité de l’enfant."
-        },
-        {
-          "heading": "Pension alimentaire",
-          "body": "La pension alimentaire est fixée selon : les besoins de l’enfant, le lieu de résidence et les revenus de chaque parent.\n\nLe cabinet vous accompagne pour :\n\n​\n\n• calculer la pension, à l’amiable ou devant le juge,\n\n• réviser son montant si votre situation évolue,\n\n• recouvrer les sommes impayées (saisie sur salaire, recouvrement forcé),\n\n• agir au pénal en cas d’abandon de famille."
-        },
-        {
-          "heading": "",
-          "body": "La pension alimentaire est fixée selon : les besoins de l’enfant, le lieu de résidence et les revenus de chaque parent."
-        },
-        {
-          "heading": "",
-          "body": "Le cabinet vous accompagne pour :"
-        },
-        {
-          "heading": "Enfant en danger – saisine du juge des enfants",
-          "body": "Quand la santé, la sécurité ou le développement d’un mineur sont menacés, le juge des enfants peut ordonner des mesures de protection. La procédure est rapide et les décisions sont prises pour une durée de 6 mois ou 1 an, renouvelable après réévaluation de la situation.\n\n• Mesure d’investigation éducative (MIE) : évaluation approfondie de la situation familiale (ex. avec l’OREAG) pour éclairer la décision du juge.\n\n• AEMO (Accompagnement Éducatif en Milieu Ouvert) : suivi par un éducateur de l’ASE, soutien à la parentalité, objectifs concrets et bilans réguliers.\n\n• Placement (famille d’accueil ou établissement) si nécessaire, avec droits de visite encadrés et travail préparé de retour au domicile dès que les conditions de sécurité sont réunies.\n\n​\n\nDans ces situations, le Cabinet Plouton saisit le juge ou répond aux signalements, prépare le dossier (éléments factuels, attestations, bilans), vous représente à l’audience et veille à ce que les mesures soient proportionnées, révisables et centrées sur l’intérêt supérieur de l’enfant."
-        },
-        {
-          "heading": "",
-          "body": "Dans ces situations, le Cabinet Plouton saisit le juge ou répond aux signalements, prépare le dossier (éléments factuels, attestations, bilans), vous représente à l’audience et veille à ce que les mesures soient proportionnées, révisables et centrées sur l’intérêt supérieur de l’enfant."
-        }
-      ]
-    },
-    {
-      "id": "laccompagnement-du-cabinet-plouton-amiable-ou-contentieux",
-      "title": "L’accompagnement du Cabinet Plouton : amiable ou contentieux",
-      "titleAccent": ": amiable ou contentieux",
-      "lead": null,
-      "blocks": [
-        {
-          "heading": "L’approche amiable : négociation, notaire, convention parentale",
-          "body": "Lorsque le dialogue reste possible, nous privilégions l’amiable : une voie plus rapide, moins conflictuelle et durable. Notre rôle est de sécuriser juridiquement vos accords tout en préservant les liens familiaux.\n\nNotre méthode, étape par étape :\n\n​\n\n• Cadrage des besoins : clarification des objectifs patrimoniaux et parentaux (logement, répartition des charges, organisation des enfants).\n\n• Échanges et négociation entre avocats : propositions écrites, réunions de travail, recherche d’un équilibre concret et opposable.\n\n• Actes patrimoniaux chez le notaire : accompagnement pour le partage de biens, soulte ou désintéressement, afin de formaliser un accord clair et sécurisé.\n\n• Convention parentale : rédaction précise (autorité parentale, résidence, droit de visite, pension) puis dépôt/homologation devant le JAF pour lui donner force exécutoire.\n\n• Sécurisation et suivi : check-list de pièces, calculs (barème de référence pour la pension), et ajustements possibles en cas d’évolution de la situation.\n\nObjectif : une solution apaisée, solide et immédiatement applicable, qui protège vos droits et l’intérêt supérieur des enfants."
-        },
-        {
-          "heading": "",
-          "body": "Notre méthode, étape par étape :"
-        },
-        {
-          "heading": "",
-          "body": "Objectif : une solution apaisée, solide et immédiatement applicable, qui protège vos droits et l’intérêt supérieur des enfants."
-        },
-        {
-          "heading": "L’approche contentieuse : requête et audience",
-          "body": "Quand l’accord est impossible ou qu’une situation l’exige, nous saisissons le juge pour faire trancher le litige rapidement et protéger vos droits (et ceux de vos enfants). Notre méthode, étape par étape :\n\n• Analyse juridique & preuves : cadrage du dossier, collecte des pièces utiles (revenus, charges, attestations, éléments relatifs aux enfants…).\n\n• Saisine du juge compétent : JAF pour les questions relatives aux enfants (autorité parentale, résidence, droit de visite, pension), par requête ; Tribunal judiciaire pour les questions patrimoniales (partage, désintéressement, indemnité d’occupation), par assignation.\n\n• Échanges d’écritures : rédaction de conclusions motivées et communication des pièces adverses, jusqu’à stabiliser les demandes.\n\n• Audience & décision : plaidoirie ciblée, défense des intérêts en factuel et en droit ; obtention d’un jugement exécutoire.\n\n• Exécution & suivi : mise en œuvre pratique (signification, recouvrement, saisie sur rémunération si besoin), ajustements en cas d’évolution.\n\nEn cas d’urgence :\n\n• Procédure à bref délai (assignation + requête de fixation) pour obtenir une audience accélérée (violences, danger pour un enfant, logement, impayés critiques).\n\n• Possibilité de mesures provisoires pour sécuriser la situation dans l’attente de la décision au fond.\n\nObjectif : une défense rigoureuse, réactive et lisible, pour des décisions applicables tout de suite et conformes à l’intérêt supérieur de l’enfant."
-        },
-        {
-          "heading": "",
-          "body": "En cas d’urgence :"
-        },
-        {
-          "heading": "",
-          "body": "Objectif : une défense rigoureuse, réactive et lisible, pour des décisions applicables tout de suite et conformes à l’intérêt supérieur de l’enfant."
-        }
-      ]
-    },
-    {
-      "id": "tutelles-et-curatelles",
-      "title": "Tutelles et curatelles",
-      "titleAccent": "Tutelles et curatelles",
-      "lead": "Le cabinet intervient également pour la protection juridique des majeurs vulnérables :",
-      "blocks": [
-        {
-          "heading": "",
-          "body": "• ouverture, modification ou contestation d’une tutelle ou d’une curatelle,\n• désignation du tuteur ou du curateur,\n• suivi de l’exécution des mesures."
-        },
-        {
-          "heading": "",
-          "body": "Nous accompagnons les familles dans la constitution du dossier et veillons à la transparence et au respect des droits de la personne protégée."
-        }
-      ]
-    }
-  ],
+  "contactAside": {
+    "title": "Je prends rendez-vous maintenant !",
+    "text": "Les rendez-vous sont pris dans les 7 jours. En cas d’urgence, le rendez-vous peut être immédiat et même en dehors des horaires habituels du cabinet."
+  },
   "inlineLinks": [
     {
       "text": "Découvrez notre accompagnement dédié au divorce et au partage des biens.",
@@ -175,8 +57,195 @@
       "href": "/post/contrôle-coercitif-reconnaître-agir"
     }
   ],
-  "contactAside": {
-    "title": "Je prends rendez-vous maintenant !",
-    "text": "Les rendez-vous sont pris dans les 7 jours. En cas d’urgence, le rendez-vous peut être immédiat et même en dehors des horaires habituels du cabinet."
-  }
+  "sections": [
+    {
+      "id": "le-couple-anticiper-et-se-proteger",
+      "title": "Le couple : anticiper et se protéger",
+      "titleAccent": "Le couple :",
+      "lead": null,
+      "blocks": [
+        {
+          "heading": "Liquidation et partage de l’indivision (PACS / concubinage)",
+          "headingLevel": 3,
+          "body": "Même sans mariage, un couple peut investir ensemble dans un bien immobilier. Lors de la séparation, il faut régler la question du partage de ce bien. Le Cabinet Plouton vous accompagne pour :",
+          "bullets": [
+            "déterminer les créances entre concubins ou partenaires de PACS,",
+            "calculer l’indemnité d’occupation du logement commun,",
+            "procéder au partage équitable (vente, rachat de part, désintéressement)."
+          ],
+          "children": [
+            {
+              "heading": "",
+              "body": "Nous veillons à défendre vos droits patrimoniaux tout en favorisant des solutions amiables lorsque c’est possible.\n\nVous êtes marié(e) ? Découvrez notre accompagnement dédié au divorce et au partage des biens."
+            }
+          ]
+        },
+        {
+          "heading": "Protection face au conjoint ou partenaire violent",
+          "headingLevel": 3,
+          "body": "Lorsqu’une situation de violences conjugales apparaît, il est essentiel d’agir vite. Notre cabinet met son expertise pénale et familiale au service des victimes, avec une prise en charge complète et humaine.",
+          "children": [
+            {
+              "heading": "L’ordonnance de protection : les étapes essentielles",
+              "headingLevel": 4,
+              "body": "Nous vous assistons dès la rédaction de la requête et jusqu’à l’audience devant le juge, généralement fixée sous sept jours.\nGrâce à la réactivité du cabinet et à une préparation rigoureuse, une décision peut être rendue sous quinze jours lorsque le dossier est complet.\n\nNos avocats vous aident à constituer un dossier de preuves solide (plaintes, témoignages, certificats médicaux, photos, vidéos) pour démontrer le danger actuel et vraisemblable.\n\nLe juge peut alors ordonner :",
+              "bullets": [
+                "l’interdiction de contact ou d’approcher certains lieux,",
+                "la suspension de l’autorité parentale,",
+                "l’attribution gratuite du logement, voire le maintien du paiement par le conjoint violent."
+              ]
+            },
+            {
+              "heading": "Accompagnement pénal et expertise spécifique",
+              "headingLevel": 4,
+              "body": "Nous vous accompagnons également dans la procédure pénale : dépôt de plainte, audience, constitution de partie civile, représentation en cas de féminicide ou de contrôle coercitif.\n\nPour les violences dans le cadre d’un mariage, découvrez notre accompagnement en divorce pour faute ou violences. (CTA page divorce)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-enfants-garantir-leur-securite-et-leur-equilibre",
+      "title": "Les enfants : garantir leur sécurité et leur équilibre",
+      "titleAccent": "Les enfants :",
+      "lead": null,
+      "blocks": [
+        {
+          "heading": "L’autorité parentale",
+          "headingLevel": 3,
+          "body": "L’autorité parentale regroupe les droits et devoirs des parents dans toutes les décisions importantes : éducation, santé, scolarité, suivi psychologique, choix religieux, nationalité.\n\nLe Cabinet Plouton intervient :",
+          "bullets": [
+            "en cas de désaccord grave entre parents (ex. choix d’école, déménagement, soins médicaux),",
+            "lors d’une demande de retrait ou suspension de l’autorité parentale (violences, abus, abandon),",
+            "pour une délégation (ex. aux grands-parents si les parents sont absents ou défaillants)."
+          ],
+          "children": [
+            {
+              "heading": "",
+              "body": "Nous défendons toujours l’intérêt supérieur de l’enfant, dans un cadre juridique stable et protecteur."
+            }
+          ]
+        },
+        {
+          "heading": "Droit de visite et d’hébergement",
+          "headingLevel": 3,
+          "body": "Chaque situation familiale est unique. Nous vous aidons à définir ou adapter :",
+          "bullets": [
+            "la résidence alternée,",
+            "la résidence principale avec droit de visite classique,",
+            "le droit de visite médiatisé si la protection du mineur l’exige."
+          ],
+          "children": [
+            {
+              "heading": "",
+              "body": "Au pénal, nous intervenons également en cas de non-représentation d’enfant ou d’enlèvement parental, pour défendre vos droits et préserver la stabilité de l’enfant."
+            }
+          ]
+        },
+        {
+          "heading": "Pension alimentaire",
+          "headingLevel": 3,
+          "body": "La pension alimentaire est fixée selon : les besoins de l’enfant, le lieu de résidence et les revenus de chaque parent.\n\nLe cabinet vous accompagne pour :",
+          "bullets": [
+            "calculer la pension, à l’amiable ou devant le juge,",
+            "réviser son montant si votre situation évolue,",
+            "recouvrer les sommes impayées (saisie sur salaire, recouvrement forcé),",
+            "agir au pénal en cas d’abandon de famille."
+          ]
+        },
+        {
+          "heading": "Enfant en danger – saisine du juge des enfants",
+          "headingLevel": 3,
+          "body": "Quand la santé, la sécurité ou le développement d’un mineur sont menacés, le juge des enfants peut ordonner des mesures de protection. La procédure est rapide et les décisions sont prises pour une durée de 6 mois ou 1 an, renouvelable après réévaluation de la situation.",
+          "bullets": [
+            "Mesure d’investigation éducative (MIE) : évaluation approfondie de la situation familiale (ex. avec l’OREAG) pour éclairer la décision du juge.",
+            "AEMO (Accompagnement Éducatif en Milieu Ouvert) : suivi par un éducateur de l’ASE, soutien à la parentalité, objectifs concrets et bilans réguliers.",
+            "Placement (famille d’accueil ou établissement) si nécessaire, avec droits de visite encadrés et travail préparé de retour au domicile dès que les conditions de sécurité sont réunies."
+          ],
+          "children": [
+            {
+              "heading": "",
+              "body": "Dans ces situations, le Cabinet Plouton saisit le juge ou répond aux signalements, prépare le dossier (éléments factuels, attestations, bilans), vous représente à l’audience et veille à ce que les mesures soient proportionnées, révisables et centrées sur l’intérêt supérieur de l’enfant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laccompagnement-du-cabinet-plouton-amiable-ou-contentieux",
+      "title": "L’accompagnement du Cabinet Plouton : amiable ou contentieux",
+      "titleAccent": "L’accompagnement du Cabinet Plouton :",
+      "lead": null,
+      "blocks": [
+        {
+          "heading": "L’approche amiable : négociation, notaire, convention parentale",
+          "headingLevel": 3,
+          "body": "Lorsque le dialogue reste possible, nous privilégions l’amiable : une voie plus rapide, moins conflictuelle et durable. Notre rôle est de sécuriser juridiquement vos accords tout en préservant les liens familiaux.\n\nNotre méthode, étape par étape :",
+          "bullets": [
+            "Cadrage des besoins : clarification des objectifs patrimoniaux et parentaux (logement, répartition des charges, organisation des enfants).",
+            "Échanges et négociation entre avocats : propositions écrites, réunions de travail, recherche d’un équilibre concret et opposable.",
+            "Actes patrimoniaux chez le notaire : accompagnement pour le partage de biens, soulte ou désintéressement, afin de formaliser un accord clair et sécurisé.",
+            "Convention parentale : rédaction précise (autorité parentale, résidence, droit de visite, pension) puis dépôt/homologation devant le JAF pour lui donner force exécutoire.",
+            "Sécurisation et suivi : check-list de pièces, calculs (barème de référence pour la pension), et ajustements possibles en cas d’évolution de la situation."
+          ],
+          "children": [
+            {
+              "heading": "",
+              "body": "Objectif : une solution apaisée, solide et immédiatement applicable, qui protège vos droits et l’intérêt supérieur des enfants."
+            }
+          ]
+        },
+        {
+          "heading": "L’approche contentieuse : requête et audience",
+          "headingLevel": 3,
+          "body": "Quand l’accord est impossible ou qu’une situation l’exige, nous saisissons le juge pour faire trancher le litige rapidement et protéger vos droits (et ceux de vos enfants). Notre méthode, étape par étape :",
+          "bullets": [
+            "Analyse juridique & preuves : cadrage du dossier, collecte des pièces utiles (revenus, charges, attestations, éléments relatifs aux enfants…).",
+            "Saisine du juge compétent :",
+            "JAF pour les questions relatives aux enfants (autorité parentale, résidence, droit de visite, pension), par requête ;",
+            "Tribunal judiciaire pour les questions patrimoniales (partage, désintéressement, indemnité d’occupation), par assignation.",
+            "Échanges d’écritures : rédaction de conclusions motivées et communication des pièces adverses, jusqu’à stabiliser les demandes.",
+            "Audience & décision : plaidoirie ciblée, défense des intérêts en factuel et en droit ; obtention d’un jugement exécutoire.",
+            "Exécution & suivi : mise en œuvre pratique (signification, recouvrement, saisie sur rémunération si besoin), ajustements en cas d’évolution."
+          ],
+          "children": [
+            {
+              "heading": "",
+              "body": "En cas d’urgence :",
+              "bullets": [
+                "Procédure à bref délai (assignation + requête de fixation) pour obtenir une audience accélérée (violences, danger pour un enfant, logement, impayés critiques).",
+                "Possibilité de mesures provisoires pour sécuriser la situation dans l’attente de la décision au fond."
+              ]
+            },
+            {
+              "heading": "",
+              "body": "Objectif : une défense rigoureuse, réactive et lisible, pour des décisions applicables tout de suite et conformes à l’intérêt supérieur de l’enfant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tutelles-et-curatelles",
+      "title": "Tutelles et curatelles",
+      "titleAccent": "Tutelles et curatelles",
+      "lead": "Le cabinet intervient également pour la protection juridique des majeurs vulnérables :",
+      "blocks": [
+        {
+          "heading": "",
+          "bullets": [
+            "ouverture, modification ou contestation d’une tutelle ou d’une curatelle,",
+            "désignation du tuteur ou du curateur,",
+            "suivi de l’exécution des mesures."
+          ],
+          "children": [
+            {
+              "heading": "",
+              "body": "Nous accompagnons les familles dans la constitution du dossier et veillons à la transparence et au respect des droits de la personne protégée."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

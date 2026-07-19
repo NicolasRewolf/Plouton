@@ -5,6 +5,15 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : Droit de la famille (texte MD fidèle H2/H3/H4)
+
+- JSON réécrit depuis le MD Wix : 4 sections H2, 8 blocs H3, 2 H4 ; 36 puces
+- H4 ordonnance / accompagnement pénal sous « Protection » ; listes imbriquées sous « Saisine du juge » ; liens divorce / féminicide / contrôle coercitif
+- FAQ / formulaire / carrousel hors sections
+- Tests : `/droit-des-contrats-et-des-personnes/droit-de-la-famille` — build OK
+
+---
+
 ## 2026-07-19 — Expertises : Défense des consommateurs (texte MD fidèle H2/H3/H4)
 
 - JSON réécrit depuis le MD Wix : 5 sections H2, 13 blocs H3, 0 H4 ; 32 puces
