@@ -5,6 +5,13 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : droit pénal (fidélité Wix)
+
+- Titres complets rétablis (Atteintes personnes / biens, Délinquance organisée, Cybercriminalité, JIRS, Préparation intensive, Travail de personnalisation, Outils concrets)
+- Meta description remise comme sur Wix (garde à vue / 20 ans / 24h/24)
+- Déjà OK post-lots : FAQ 8 questions, SEO canonical/OG, liste d’affaires (20)
+- Tests : `/defense-penale/droit-penal` → sections Complexes / Équipe / Méthodes → titres longs visibles
+
 ## 2026-07-19 — Expertises : défense des élus (fidélité Wix)
 
 - Titre « E-réputation et cyberharcèlement » de nouveau visible (le gabarit le faisait disparaître car le texte était un doublon)
