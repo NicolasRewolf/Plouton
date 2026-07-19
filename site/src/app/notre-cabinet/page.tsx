@@ -3,6 +3,7 @@ import Image from "next/image"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
 import { SiteCta } from "@/components/SiteCta"
+import { TeamMurBlanc } from "@/components/TeamMurBlanc"
 import { getEquipe, getSite, readPageJson } from "@/lib/content"
 import { JsonLd, organizationSchema } from "@/lib/seo"
 
@@ -38,11 +39,18 @@ export default function NotreCabinetPage() {
     ? page.title.split("—").map((s) => s.trim())
     : [page.title, ""]
 
+  const introParas = page.intro
+    .replace(/\u200b/g, "")
+    .split(/\n\n+/)
+    .map((p) => p.trim())
+    .filter((p) => p && p !== "​")
+
   return (
     <>
       <Header variant="site" />
       <JsonLd data={schema} />
 
+      {/* Hero live : carte texte + photo de groupe (comme le site actuel) */}
       <section className="bg-fog px-5 py-10 lg:px-8">
         <div className="relative mx-auto max-w-6xl overflow-hidden rounded-2xl bg-fog">
           <div className="grid items-center gap-8 lg:grid-cols-[1fr_1.1fr]">
@@ -61,75 +69,30 @@ export default function NotreCabinetPage() {
                 <span className="text-accent">{titleMain}</span>
                 {titleRest ? <span className="text-navy"> — {titleRest}</span> : null}
               </h1>
-              {page.intro
-                .replace(/\u200b/g, "")
-                .split(/\n\n+/)
-                .filter((p) => p.trim() && p.trim() !== "​")
-                .map((p, i) => (
-                  <p key={i} className="mt-4 text-[15px] leading-relaxed text-navy">
-                    {p.trim()}
-                  </p>
-                ))}
+              {introParas.map((p, i) => (
+                <p key={i} className="mt-4 text-[15px] leading-relaxed text-navy">
+                  {p}
+                </p>
+              ))}
               <SiteCta href="/honoraires-rendez-vous" variant="primary" arrow className="mt-6">
                 Je prends rendez-vous
               </SiteCta>
             </div>
-            <div className="relative hidden min-h-[320px] lg:block">
-              {equipe[0]?.image ? (
-                <Image
-                  src={equipe[0].image}
-                  alt=""
-                  fill
-                  className="object-cover object-top opacity-90"
-                  sizes="50vw"
-                  priority
-                />
-              ) : null}
+            <div className="relative min-h-[280px] sm:min-h-[360px] lg:min-h-[420px]">
+              <Image
+                src="/brand/equipe-home.png"
+                alt="L’équipe du Cabinet Plouton"
+                fill
+                className="object-cover object-[center_22%]"
+                sizes="(max-width: 1024px) 100vw, 55vw"
+                priority
+              />
             </div>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-5 py-16 lg:px-8">
-        <div className="grid gap-14 md:grid-cols-2">
-          {equipe.map((m) => (
-            <article key={m.id} className="grid gap-5 sm:grid-cols-[200px_1fr] sm:items-start">
-              <div>
-                <p className="text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
-                  {m.role}
-                </p>
-                <h2 className="mt-2 font-display text-2xl font-semibold text-navy">{m.name}</h2>
-                {m.image ? (
-                  <div className="relative mt-4 aspect-[3/4] w-full max-w-[200px] overflow-hidden bg-fog">
-                    <Image
-                      src={m.image}
-                      alt={m.name}
-                      fill
-                      className="object-cover object-top"
-                      sizes="200px"
-                    />
-                  </div>
-                ) : null}
-              </div>
-              <div className="space-y-3 text-[15px] leading-relaxed text-navy">
-                {m.bio.split(/\n\n+/).map((p, i) => (
-                  <p key={i}>{p.trim()}</p>
-                ))}
-                {m.linkedin ? (
-                  <a
-                    href={m.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block text-sm font-medium text-accent hover:underline"
-                  >
-                    LinkedIn →
-                  </a>
-                ) : null}
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
+      <TeamMurBlanc equipe={equipe} />
 
       <Footer />
     </>
