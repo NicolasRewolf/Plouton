@@ -92,7 +92,7 @@
       "blocks": [
         {
           "heading": "",
-          "body": "• Enquête et Instruction : Nous vous assistons dès la garde à vue pour garantir vos droits. Durant l'instruction, nous analysons le dossier, soulevons les nullités de procédure et formulons des demandes d'actes (expertises, auditions) pour construire activement votre défense.\n• Audience et Plaidoirie : Nous vous préparons pour l'audience devant le tribunal correctionnel et portons votre voix à travers une plaidoirie rigoureuse et convaincante.\n• Procédures Négociées (CRPC, CJIP) : Nous maîtrisons les alternatives au procès. Nous négocions les peines en Comparution sur Reconnaissance Préalable de Culpabilité (CRPC). Surtout, nous vous assistons dans la négociation de Conventions Judiciaires d'Intérêt Public (CJIP) avec les autorités comme le Parquet National Financier (PNF). Cette procédure permet à l'entreprise de mettre fin aux poursuites via une amende, sans reconnaissance de culpabilité, et donc sans inscription au casier judiciaire B2, préservant ainsi son accès aux marchés publics."
+          "body": "• Enquête et Instruction : Nous vous assistons dès la garde à vue pour garantir vos droits. Durant l'instruction, nous analysons le dossier, soulevons les nullités de procédure et formulons des demandes d'actes (expertises, auditions) pour construire activement votre défense.\n\n• Audience et Plaidoirie : Nous vous préparons pour l'audience devant le tribunal correctionnel et portons votre voix à travers une plaidoirie rigoureuse et convaincante.\n\n• Procédures Négociées (CRPC, CJIP) : Nous maîtrisons les alternatives au procès. Nous négocions les peines en Comparution sur Reconnaissance Préalable de Culpabilité (CRPC). Surtout, nous vous assistons dans la négociation de Conventions Judiciaires d'Intérêt Public (CJIP) avec les autorités comme le Parquet National Financier (PNF). Cette procédure permet à l'entreprise de mettre fin aux poursuites via une amende, sans reconnaissance de culpabilité, et donc sans inscription au casier judiciaire B2, préservant ainsi son accès aux marchés publics."
         }
       ]
     },
@@ -104,12 +104,16 @@
       "blocks": [
         {
           "heading": "",
-          "body": "• Dossier : Travail dissimulé & vice de procédure Contexte : Un chef d'entreprise était poursuivi pour travail dissimulé sur la base d'un procès-verbal complexe. Stratégie du Cabinet : Notre analyse juridique a révélé une faille majeure dans l'acte d'accusation, rendant les poursuites irrégulières. Résultat : Le tribunal a suivi notre argumentation et a annulé la totalité de la procédure. En savoir plus...\n• Dossier : Blanchiment international Contexte : Notre client était mis en cause dans une affaire complexe de blanchiment à dimension internationale. Stratégie du Cabinet : Une défense rigoureuse a été élaborée, démontant les mécanismes de l'accusation. Résultat : Une décision favorable a été obtenue en appel, protégeant sa situation personnelle et professionnelle. Lire les détails...\n• Dossier : Accusation d'escroquerie Contexte : Un directeur d'agence bancaire était accusé d'escroquerie, mettant en péril sa carrière. Stratégie du Cabinet : La défense s'est concentrée sur la preuve de l'absence de toute manœuvre frauduleuse. Résultat : Le cabinet a obtenu une relaxe complète, lavant notre client de tout soupçon. Consulter l'affaire..."
+          "body": "• Travail dissimulé & vice de procédure : Contexte : Un chef d'entreprise était poursuivi pour travail dissimulé sur la base d'un procès-verbal complexe. Stratégie du Cabinet : Notre analyse juridique a révélé une faille majeure dans l'acte d'accusation, rendant les poursuites irrégulières. Résultat : Le tribunal a suivi notre argumentation et a annulé la totalité de la procédure. En savoir plus...\n\n• Blanchiment international : Contexte : Notre client était mis en cause dans une affaire complexe de blanchiment à dimension internationale. Stratégie du Cabinet : Une défense rigoureuse a été élaborée, démontant les mécanismes de l'accusation. Résultat : Une décision favorable a été obtenue en appel, protégeant sa situation personnelle et professionnelle. Lire les détails...\n\n• Accusation d'escroquerie : Contexte : Un directeur d'agence bancaire était accusé d'escroquerie, mettant en péril sa carrière. Stratégie du Cabinet : La défense s'est concentrée sur la preuve de l'absence de toute manœuvre frauduleuse. Résultat : Le cabinet a obtenu une relaxe complète, lavant notre client de tout soupçon. Consulter l'affaire..."
         }
       ]
     }
   ],
   "inlineLinks": [
+    {
+      "text": "mise en cause pénale",
+      "href": "/defense-penale/droit-penal"
+    },
     {
       "text": "le cabinet",
       "href": "/notre-cabinet"
@@ -142,5 +146,9 @@
       "text": "Anticiper et préparer le dirigeant",
       "href": "/defense-penale/droit-penal-des-affaires"
     }
-  ]
+  ],
+  "contactAside": {
+    "title": "Je prends rendez-vous maintenant !",
+    "text": "Les rendez-vous sont pris dans les 7 jours. En cas d’urgence, le rendez-vous peut être immédiat et même en dehors des horaires habituels du cabinet."
+  }
 }

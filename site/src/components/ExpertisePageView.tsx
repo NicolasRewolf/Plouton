@@ -5,6 +5,7 @@ import { ExpertiseBody, linkify } from "@/components/ExpertiseBody"
 import { ExpertiseToc, type ExpertiseTocItem } from "@/components/ExpertiseToc"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
+import { SiteCta } from "@/components/SiteCta"
 import type { ExpertisePage, FaqItem, SiteConfig } from "@/lib/content"
 import { getRegistryExpertise, formObjets } from "@/lib/registry"
 import { JsonLd } from "@/lib/seo"
@@ -90,6 +91,14 @@ export function ExpertisePageView({
                 <p key={i}>{linkify(para, expertise.inlineLinks || [])}</p>
               ))}
             </div>
+
+            {expertise.heroCta?.label && expertise.heroCta?.href ? (
+              <div className="mt-7">
+                <SiteCta href={expertise.heroCta.href} variant="primary" arrow>
+                  {expertise.heroCta.label}
+                </SiteCta>
+              </div>
+            ) : null}
           </div>
 
           <div className="relative mx-auto w-full max-w-[520px] lg:mx-0 lg:justify-self-end">
