@@ -5,6 +5,15 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : Défense des consommateurs (texte MD fidèle H2/H3/H4)
+
+- JSON réécrit depuis le MD Wix : 5 sections H2, 13 blocs H3, 0 H4 ; 32 puces
+- Listes CGV / produits défectueux / pratiques trompeuses / indemnisations en `bullets` ; texte exact
+- FAQ / formulaire / carrousel hors sections
+- Tests : `/droit-des-contrats-et-des-personnes/defense-des-consommateurs` — build OK
+
+---
+
 ## 2026-07-19 — Expertises : Victimes de délits ou crimes (texte MD fidèle H2/H3/H4)
 
 - JSON réécrit depuis le MD Wix : 5 sections H2, 15 blocs H3, 0 H4 ; 26 puces
