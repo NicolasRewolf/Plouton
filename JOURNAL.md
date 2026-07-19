@@ -5,6 +5,15 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : Accidents et erreurs médicales (texte MD fidèle H2/H3/H4)
+
+- JSON réécrit depuis le MD Wix : 5 sections H2, 14 blocs H3, 0 H4 ; 29 puces
+- H3 vides « faute médicale » / « infection nosocomiale » conservés (contenu sous le H3 suivant, comme MD) ; listes et liens cabinet
+- FAQ / formulaire / carrousel hors sections
+- Tests : `/indemnisation-des-victimes/accidents-et-erreurs-medicales` — build OK
+
+---
+
 ## 2026-07-19 — Expertises : Accidents de la vie courante (texte MD fidèle H2/H3/H4)
 
 - JSON réécrit depuis le MD Wix : 4 sections H2, 16 blocs H3, 0 H4 ; 26 puces
