@@ -87,6 +87,7 @@ export async function loadExpertisePage(
     categories: a.categories,
     coverImage: a.coverImage,
     minutesToRead: a.minutesToRead,
+    viewCount: a.viewCount ?? 0,
   }))
 
   const sections = cleanSections(expertise)

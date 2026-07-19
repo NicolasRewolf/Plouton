@@ -51,7 +51,9 @@ export async function generateMetadata({
       description: article.excerpt,
       publishedTime: article.publishedAt,
       authors: [article.author],
-      images: [{ url: article.coverImage || "/brand/equipe-home.png" }],
+      images: article.coverImage
+        ? [article.coverImage]
+        : [{ url: "/brand/equipe-home.png" }],
     },
   }
 }

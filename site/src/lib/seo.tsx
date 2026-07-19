@@ -24,7 +24,7 @@ export function pageOpenGraph(opts: {
   }
 }
 
-/** Canonical + Open Graph pour les pages clés. */
+/** Canonical + Open Graph pour les pages clés (chemins relatifs OK avec metadataBase). */
 export function withCanonicalOg(opts: {
   title: string | { absolute: string }
   description?: string | null

@@ -1,7 +1,7 @@
 import Image from "next/image"
 import dynamic from "next/dynamic"
 import type { AffaireCardItem } from "@/components/AffaireCard"
-import { ExpertiseBody } from "@/components/ExpertiseBody"
+import { ExpertiseBody, linkify } from "@/components/ExpertiseBody"
 import { ExpertiseToc, type ExpertiseTocItem } from "@/components/ExpertiseToc"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
@@ -87,7 +87,7 @@ export function ExpertisePageView({
 
             <div className="mt-6 space-y-3.5 text-[15px] leading-[1.65] text-pretty text-navy/85">
               {introParas.slice(0, 2).map((para, i) => (
-                <p key={i}>{para}</p>
+                <p key={i}>{linkify(para, expertise.inlineLinks || [])}</p>
               ))}
             </div>
           </div>

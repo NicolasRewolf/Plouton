@@ -89,20 +89,6 @@ export function LegalPageView({ page }: { page: LegalPageContent }) {
           </aside>
 
           <article className="min-w-0">
-            {page.todos?.length ? (
-              <aside
-                className="mb-10 rounded-[14px] border border-accent/25 bg-accent/[0.06] px-4 py-3.5 text-[14px] leading-relaxed text-navy"
-                role="note"
-              >
-                <p className="font-medium text-accent">À confirmer</p>
-                <ul className="mt-2 list-disc space-y-1 pl-5 text-navy/80">
-                  {page.todos.map((t) => (
-                    <li key={t}>{t}</li>
-                  ))}
-                </ul>
-              </aside>
-            ) : null}
-
             <div className="space-y-12">
               {(page.sections || []).map((section) => (
                 <section
