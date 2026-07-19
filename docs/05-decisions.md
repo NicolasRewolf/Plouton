@@ -4,6 +4,14 @@ On note ici les choix importants, pour ne pas les rejouer à chaque fois.
 
 ---
 
+## 2026-07-19 — Trois hubs contenus (plus de blog fourre-tout)
+
+**Décision :** les surfaces publiques de listes d’articles sont **Affaires** (`/nos-affaires`), **Médias** (`/medias`) et **Ressources** (`/comprendre-le-droit`). `/blog` et `/blog/categories/…` ne sont plus des pages à indexer : **301** vers ces hubs.  
+**Pourquoi :** éviter un hub blog générique ; filtres (chips) sur Médias et Ressources comme sur Affaires. Les articles individuels `/post/…` restent.  
+**Sitemap :** pas de `/blog` ni de catégories ; garder les 3 hubs + posts + expertises + cabinet.
+
+---
+
 ## 2026-07-18 — Uniformité UI (cartes + CTA)
 
 **Décision :** une seule carte article (`AffaireCard`) et un seul style de CTA public (`SiteCta` / `.btn-pill`).  

@@ -35,7 +35,7 @@ Taxonomie déjà utilisée par **Cooked** (`cooked_page_type`) — on la reprend
 | **hub** | `/defense-penale`, `/indemnisation-des-victimes`, `/droit-des-contrats-et-des-personnes` | Entrée d’un pôle (3) |
 | **expertise** | `/…/accidents-de-la-route`, `/…/avocat-divorce-bordeaux`, etc. | Page SEO longue + FAQ + form + preuves |
 | **post** | `/post/{slug}` | Article |
-| **blog-nav** | `/blog`, `/blog/categories/…`, `/nos-affaires` | Listes / filtres d’articles |
+| **blog-nav** | `/nos-affaires`, `/medias`, `/comprendre-le-droit` | Listes / filtres d’articles (3 hubs) |
 
 **~25 URLs “structure”** + **422 posts** + **16–17 catégories**.
 
@@ -75,14 +75,15 @@ Nav secondaire **Affaires / Médias / Ressources** = **vues filtrées du blog**,
 | Surface | Comment |
 |---------|---------|
 | Homepage | Fil d’actu + cartes “dernières affaires” |
-| `/nos-affaires` | Liste + **filtres catégories** + tri (+ consultées / + récents) |
-| `/blog/categories/{slug}` | Liste d’une catégorie |
-| Nav Médias | Catégorie `médias` → `/blog/categories/médias` (`BlogListing`) |
-| Nav Ressources | Hub éditorial `/comprendre-le-droit` (`RessourcesHub` + JSON sections) |
+| `/nos-affaires` | Liste + **filtres catégories** (`AffairesGallery`) |
+| `/medias` | Articles Médias + **chips** (thèmes présents) |
+| `/comprendre-le-droit` | Hub éditorial + grille **Toutes les ressources** filtrable |
+| Nav Médias | `/medias` |
+| Nav Ressources | `/comprendre-le-droit` |
 | Page expertise | Articles liés (même thème / catégorie) |
 | Page post | Corps + tags + related posts |
 
-**Règle smart :** un seul composant `AffaireCard` + un seul `BlogListing` paramétré (catégorie, tri, limite). CTA public = `SiteCta` / `.btn-pill` ([`16-composants-ui.md`](16-composants-ui.md)).
+**Règle smart :** un seul composant `AffaireCard` + `AffairesGallery` paramétré (hub). CTA public = `SiteCta` / `.btn-pill` ([`16-composants-ui.md`](16-composants-ui.md)). `/blog` et `/blog/categories/…` = **301** vers les hubs (plus de surface publique).
 
 ### FAQ (plusieurs collections Wix aujourd’hui — à unifier demain)
 
@@ -182,7 +183,8 @@ Page `/comprendre-le-droit` — **pas** un listing blog plat.
 - UI : `RessourcesHub` + `AffaireCard`
 - « Articles les plus consultés » = tri `viewCount` (`stats-posts.json`), filtre catégorie Ressources
 - Sections thématiques = **slugs hardcodés** (les Tags Wix dans `Posts.csv` ne sont que des UUID, pas de libellés dans le produit)
-- Nav **Médias** → `/blog/categories/médias` (grille `BlogListing`) ; `/medias` = redirect 301
+- Grille **Toutes les ressources** = `AffairesGallery` (chips) ; « Voir tout » → ancre `#toutes-les-ressources`
+- Nav **Médias** → `/medias` (`AffairesGallery`) ; anciennes URLs `/blog/categories/…` → 301
 
 ### Gabarit `PoleHub` (3 pôles)
 

@@ -8,6 +8,7 @@ export function revalidatePostSurfaces(slug: string) {
   revalidatePath("/blog")
   revalidatePath("/blog", "layout")
   revalidatePath("/nos-affaires")
+  revalidatePath("/medias")
   revalidatePath("/comprendre-le-droit")
   revalidatePath("/")
   revalidatePath("/sitemap.xml")

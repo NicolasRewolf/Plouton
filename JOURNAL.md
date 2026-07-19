@@ -5,6 +5,14 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Médias & Ressources filtrables (plus de blog fourre-tout)
+
+- **Médias** = vraie page `/medias` avec filtres (comme Nos affaires)
+- **Ressources** = grille filtrable en bas de « Comprendre le droit »
+- Plus de page Blog publique : l’ancien `/blog` renvoie vers Affaires
+- Sitemap nettoyé : Affaires / Médias / Ressources (+ articles individuels)
+- Tests : menu → Médias ; Ressources → descendre à « Toutes les ressources » ; chips
+
 ## 2026-07-18 — TipTap (barre fixe façon Wix)
 
 - Editor.js retiré — remplacé par **TipTap**

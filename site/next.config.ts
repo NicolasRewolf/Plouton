@@ -45,10 +45,37 @@ const nextConfig: NextConfig = {
         destination: "/indemnisation-des-victimes/accidents-de-la-route",
         permanent: true,
       },
-      // Live Wix : /medias = 404 ; grille réelle = catégorie blog Médias
+      // Plus de hub blog fourre-tout : 3 surfaces = Affaires / Médias / Ressources
+      { source: "/blog", destination: "/nos-affaires", permanent: true },
+      { source: "/blog/page/:n", destination: "/nos-affaires", permanent: true },
       {
-        source: "/medias",
-        destination: "/blog/categories/médias",
+        source: "/blog/categories/médias",
+        destination: "/medias",
+        permanent: true,
+      },
+      {
+        source: "/blog/categories/médias/page/:n",
+        destination: "/medias",
+        permanent: true,
+      },
+      {
+        source: "/blog/categories/ressources-et-notions-juridiques",
+        destination: "/comprendre-le-droit",
+        permanent: true,
+      },
+      {
+        source: "/blog/categories/ressources-et-notions-juridiques/page/:n",
+        destination: "/comprendre-le-droit",
+        permanent: true,
+      },
+      {
+        source: "/blog/categories/:slug",
+        destination: "/nos-affaires",
+        permanent: true,
+      },
+      {
+        source: "/blog/categories/:slug/page/:n",
+        destination: "/nos-affaires",
         permanent: true,
       },
     ]

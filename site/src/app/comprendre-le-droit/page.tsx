@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import dynamic from "next/dynamic"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
 import { RessourcesHub } from "@/components/RessourcesHub"
@@ -7,8 +8,22 @@ import {
   getSite,
   type RessourcesHubContent,
 } from "@/lib/content"
-import { articlesBySlugs, mostViewedArticles } from "@/lib/queries"
+import {
+  filterCategoryOptions,
+  toGalleryItems,
+} from "@/lib/gallery-filters"
+import {
+  articlesBySlugs,
+  articlesMatchingLabels,
+  mostViewedArticles,
+} from "@/lib/queries"
 import { JsonLd, organizationSchema } from "@/lib/seo"
+
+const AffairesGallery = dynamic(() =>
+  import("@/components/AffairesGallery").then((m) => m.AffairesGallery)
+)
+
+const RESSOURCES_LABEL = "Ressources et notions juridiques"
 
 function loadHub(): RessourcesHubContent {
   const hub = readPageJson<RessourcesHubContent>("comprendre-le-droit")
@@ -37,6 +52,10 @@ export default async function ComprendreLeDroitPage() {
       articles: await articlesBySlugs(section.slugs),
     }))
   )
+  const allRessources = toGalleryItems(
+    await articlesMatchingLabels([RESSOURCES_LABEL])
+  )
+  const categoryOptions = filterCategoryOptions(allRessources, [RESSOURCES_LABEL])
 
   return (
     <>
@@ -53,7 +72,21 @@ export default async function ComprendreLeDroitPage() {
           },
         ]}
       />
-      <RessourcesHub hub={hub} mostConsulted={mostConsulted} sections={sections} />
+      <RessourcesHub
+        hub={hub}
+        mostConsulted={mostConsulted}
+        sections={sections}
+        allGallery={
+          <AffairesGallery
+            articles={allRessources}
+            categories={categoryOptions}
+            itemSingular="ressource"
+            itemPlural="ressources"
+            emptyMessage="Aucune ressource dans cette catégorie pour le moment."
+            loadMoreLabel="Voir plus de ressources"
+          />
+        }
+      />
       <Footer />
     </>
   )

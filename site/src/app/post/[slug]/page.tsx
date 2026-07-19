@@ -8,11 +8,11 @@ import { Header } from "@/components/Header"
 import { StickyCta } from "@/components/StickyCta"
 import { TeamCtaBanner } from "@/components/TeamCtaBanner"
 import {
-  categorySlug,
   getAuthor,
   getRicos,
   getSite,
 } from "@/lib/content"
+import { categoryPublicHref } from "@/lib/gallery-filters"
 import {
   resolvePostBodyMode,
   resolvePublishedArticle,
@@ -246,7 +246,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             {article.categories.map((c) => (
               <Link
                 key={c}
-                href={`/blog/categories/${categorySlug(c)}`}
+                href={categoryPublicHref(c)}
                 className="text-sm text-ink underline underline-offset-2 hover:text-accent"
               >
                 {c}
