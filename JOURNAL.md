@@ -5,6 +5,14 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : Trafic de stupéfiants (texte MD fidèle H2/H3/H4)
+
+- JSON réécrit depuis le MD Wix : 5 sections H2, 12 blocs H3, 2 sous-blocs H4 ; 41 puces
+- Listes et lien Air Cocaïne conservés ; FAQ / formulaire / carrousel hors sections
+- Tests : `/defense-penale/trafic-de-stupefiants` — build OK
+
+---
+
 ## 2026-07-19 — Expertises : Procès criminel (texte MD fidèle H2/H3/H4)
 
 - JSON réécrit depuis le MD Wix : 5 sections H2, 4 blocs H3, 0 H4 ; 13 puces
