@@ -5,6 +5,14 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : Droit pénal des affaires (texte MD fidèle H2/H3/H4)
+
+- JSON réécrit depuis le MD Wix : 4 sections H2, 7 blocs H3, 0 H4 ; 37 puces (dont 3 dossiers exemples imbriqués)
+- Listes et liens /post conservés ; FAQ / formulaire / carrousel hors sections
+- Tests : `/defense-penale/droit-penal-des-affaires` — build OK
+
+---
+
 ## 2026-07-19 — Expertises : Violences conjugales (texte MD fidèle H2/H3/H4)
 
 - JSON réécrit depuis le MD Wix : 7 sections H2, 16 blocs H3, 0 H4 ; 22 puces
