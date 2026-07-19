@@ -139,7 +139,12 @@ https://www.ui-skills.com/skills/jakubkrehel
 ### FAQ — une seule collection
 **Décision :** **un seul FAQ** dans le nouveau système.  
 À l’import : fusionner Wix `FAQ` + `Import1` (FAQ V2) + `FAQDivorce` → table unique avec étiquettes expertise / sous-sujet.  
-**Conséquence :** un composant `FaqAccordion`, un écran admin FAQ plus tard, plus de triple maintenance.
+**Conséquence :** un composant `FaqAccordion`, un écran admin FAQ, plus de triple maintenance.
+
+**Implémenté 2026-07-19 :** table Supabase `public.faq` (migration `0006_faq.sql`), import CSV
+`contenu/sources/wix/FAQ.csv` via `scripts/import-faq-csv.py` + map
+`scripts/faq-expertise-map.json`. Site public lit la DB (`getFaqForExpertise`) — plus de JSON
+runtime. Admin : `/admin/faq`. Multi-labels CSV → une ligne par `expertise_slug`.
 
 ### Wix Sandbox
 **Décision :** **ne pas activer**. Inutile pour migrer vers Next/Supabase (on lit le Live via API).  

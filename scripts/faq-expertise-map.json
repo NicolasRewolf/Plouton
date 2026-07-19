@@ -1,0 +1,18 @@
+{
+  "_comment": "Labels Wix (colonne Expertise du CSV) → slug Plouton. 14 labels présents dans FAQ.csv ; Divorce existe sur le site mais absent du CSV.",
+  "Droit Pénal": "droit-penal",
+  "Procès criminel": "proces-criminel",
+  "Trafic de stupéfiants": "trafic-de-stupefiants",
+  "Violences conjugales et féminicides": "violences-conjugales-et-feminicides",
+  "Droit pénal des affaires": "droit-penal-des-affaires",
+  "Défense des élus": "defense-des-elus",
+  "Victimes de délits ou de crimes": "victimes-de-delits-ou-crimes",
+  "Accidents de la route": "accidents-de-la-route",
+  "Droit et accidents du travail": "droit-et-accidents-du-travail",
+  "Accidents et erreurs médicales": "accidents-et-erreurs-medicales",
+  "Accidents de la vie courante": "accidents-de-la-vie-courante",
+  "Droit des assurances particuliers et professionnels": "droit-assurances-particuliers-professionnels",
+  "Droit du consommateur": "defense-des-consommateurs",
+  "Droit de la famille": "droit-de-la-famille",
+  "Divorce": "divorce"
+}

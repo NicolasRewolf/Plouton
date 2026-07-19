@@ -85,17 +85,17 @@ Nav secondaire **Affaires / Médias / Ressources** = **vues filtrées du blog**,
 
 **Règle smart :** un seul composant `AffaireCard` + `AffairesGallery` paramétré (hub). CTA public = `SiteCta` / `.btn-pill` ([`16-composants-ui.md`](16-composants-ui.md)). `/blog` et `/blog/categories/…` = **301** vers les hubs (plus de surface publique).
 
-### FAQ (plusieurs collections Wix aujourd’hui — à unifier demain)
+### FAQ (unifiée dans Supabase)
 
-| Collection Wix | Volume | Usage observé |
-|----------------|--------|----------------|
-| `FAQ` | ~238 | Pages expertise : filtre `domaine1` + `sousdomaine1` (ex. Accidents de la route → Grands blessés, Loi Badinter…) |
-| `Import1` (FAQ V2) | ~248 | Pages plus récentes (ex. Défense des élus) : `expertise` + `sousExpertise` |
-| `FAQDivorce` | ~7 | Page divorce uniquement |
+| Ancienne collection Wix | Volume | Usage |
+|-------------------------|--------|--------|
+| `FAQ` / `Import1` / `FAQDivorce` | ~248 CSV + archive | Pages expertise |
 
-Sur la page accidents de la route : **filtres UI** (cases) = les **sous-domaines** FAQ, pas du contenu en dur.
+**Implémenté :** table `public.faq` (`expertise_slug` + `sous_expertise`), CSV
+`contenu/sources/wix/FAQ.csv`, admin `/admin/faq`, lecture `getFaqForExpertise`.
+Filtres UI sous-expertise = `FaqAccordion`.
 
-**Règle smart V1 data :** **une seule table `faq`** avec `expertise_slug` + `sous_expertise` + question/réponse. Migrer FAQ + FAQ V2 + FAQDivorce dedans. **Validé Nicolas 17/07/2026.** Plus de 3 collections.
+**Règle :** **une seule table `faq`**. Plus de 3 collections. **Validé Nicolas 17/07/2026.**
 
 ### Expertises (CMS `Expertises`, 14)
 
@@ -201,8 +201,8 @@ Page `/comprendre-le-droit` — **pas** un listing blog plat.
 - Données : `contenu/pages/comprendre-le-droit.json` (intro + sections + slugs)
 - UI : `RessourcesHub` + `AffaireCard`
 - « Articles les plus consultés » = tri `viewCount` (`stats-posts.json`), filtre catégorie Ressources
-- Sections thématiques = **slugs hardcodés** (les Tags Wix dans `Posts.csv` ne sont que des UUID, pas de libellés dans le produit)
-- Grille **Toutes les ressources** = `AffairesGallery` (chips) ; « Voir tout » → ancre `#toutes-les-ressources`
+- Sections thématiques = **aperçus** (slugs hardcodés, ~2–6 cartes) — pas le catalogue complet (les Tags Wix dans `Posts.csv` ne sont que des UUID)
+- Grille **Toutes les ressources** = `AffairesGallery` (chips, catalogue complet) ; « Voir tout » → ancre `#toutes-les-ressources`
 - Nav **Médias** → `/medias` (`AffairesGallery`) ; anciennes URLs `/blog/categories/…` → 301
 
 ### Gabarit `PoleHub` (3 pôles)

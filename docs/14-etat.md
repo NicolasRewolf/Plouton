@@ -1,6 +1,6 @@
 # État d'avancement — Plouton
 
-_Mis à jour : 2026-07-19 (lot 6 demandes + nav RDV)_
+_Mis à jour : 2026-07-19 (FAQ Supabase + admin)_
 
 Vue unique de « où on en est ». À relire en premier, mettre à jour à chaque grande étape.
 Détail des livraisons dans [`../JOURNAL.md`](../JOURNAL.md).
@@ -35,7 +35,7 @@ UI canonique : [`16-composants-ui.md`](16-composants-ui.md).
 - **Site en production sur Vercel** — build au vert, pages générées.
   URL : <https://plouton-rewolf-s-projects.vercel.app>
   🔒 Protégé par **login Vercel + `noindex`** → invisible pour le public et Google.
-- **Base Supabase** (projet `Plouton`) — tables **`demandes`** + **`posts`** (RLS authenticated) + buckets + auth.
+- **Base Supabase** (projet `Plouton`) — tables **`demandes`** + **`posts`** + **`faq`** (RLS authenticated) + buckets + auth.
 - **Clés Supabase** sur Vercel (Production + Preview).
 - **Déploiement auto** : push / merge `main` → redéploie.
 - **C0–C4 ✅ mergés** sur `main` (PR #7 C0–C3 · PR #8 C4)
@@ -92,16 +92,19 @@ Gagné : 15 expertises, 3 hubs pôles, 422 posts, formulaires/admin, légales, H
 | 6 | **C5** — site public lit Supabase + publish live | ✅ |
 | 6a | **Admin** — TipTap (barre fixe Wix) + dashboard | ✅ |
 | 6b | **C5.1** — covers / bucket `medias` | ✅ partiel (URL + upload admin) |
+| 6c | **FAQ** — Supabase + admin + import CSV | ✅ |
 | 7 | Recherche site | ✅ |
 | 7a | **Simulateurs divorce** (pension + prestation) | ✅ |
 | 8 | Polish UI (accueil, listes, vernis) | au fil de l’eau |
 
 ## 🔧 À brancher côté Nicolas
 
-1. **Supabase Auth → URL Configuration** (si pas déjà fait)
-2. **Resend** : `RESEND_API_KEY` sur Vercel
-3. Smoke test C5 : admin → éditer + publier → page `/post/...` à jour **sans** redeploy
-4. Vérifier seed **422** toujours en base (sinon `python3 scripts/seed-posts.py`)
+1. **FAQ** : déjà migrée + importée sur le projet Supabase Plouton (re-run possible :
+   `python3 scripts/import-faq-csv.py`)
+2. **Supabase Auth → URL Configuration** (si pas déjà fait)
+3. **Resend** : `RESEND_API_KEY` sur Vercel
+4. Smoke test C5 : admin → éditer + publier → page `/post/...` à jour **sans** redeploy
+5. Vérifier seed **422** toujours en base (sinon `python3 scripts/seed-posts.py`)
 
 ## 🙋 Ce qui dépend de Nicolas
 

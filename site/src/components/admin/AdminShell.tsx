@@ -10,9 +10,16 @@ const NAV = [
     label: "Blog",
     match: (p: string) =>
       p === "/admin" ||
+      p === "/admin/nouveau" ||
       (p.startsWith("/admin/") &&
         !p.startsWith("/admin/demandes") &&
+        !p.startsWith("/admin/faq") &&
         p !== "/admin/login"),
+  },
+  {
+    href: "/admin/faq",
+    label: "FAQ",
+    match: (p: string) => p.startsWith("/admin/faq"),
   },
   {
     href: "/admin/demandes",
