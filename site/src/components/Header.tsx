@@ -296,9 +296,9 @@ function MegaPanel({
             <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-accent">
               {pole.id === "rdv" ? "Cabinet" : "Expertise"}
             </p>
-            <h2 className="mt-3 font-display text-[22px] font-medium leading-[1.15] tracking-[-0.02em] text-navy text-balance">
+            <p className="mt-3 font-display text-[22px] font-medium leading-[1.15] tracking-[-0.02em] text-navy text-balance">
               {pole.label}
-            </h2>
+            </p>
             <Link
               href={pole.href}
               onClick={onNavigate}

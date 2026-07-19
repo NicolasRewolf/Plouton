@@ -1,0 +1,56 @@
+import { NextResponse } from "next/server"
+import { createClient } from "@supabase/supabase-js"
+import { revalidatePostSurfaces } from "@/lib/revalidate-posts"
+import { todayIsoDate } from "@/lib/post-status"
+
+export const runtime = "nodejs"
+export const dynamic = "force-dynamic"
+
+/**
+ * P1-I — Passe scheduled → published hors du rendu public.
+ * Sécurisé par CRON_SECRET (Vercel Cron Authorization: Bearer …).
+ */
+export async function GET(req: Request) {
+  const secret = process.env.CRON_SECRET
+  const auth = req.headers.get("authorization") || ""
+  if (secret && auth !== `Bearer ${secret}`) {
+    return NextResponse.json({ error: "non autorisé" }, { status: 401 })
+  }
+
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL
+  const key = process.env.SUPABASE_SECRET_KEY
+  if (!url || !key) {
+    return NextResponse.json({ error: "supabase manquant" }, { status: 500 })
+  }
+
+  const client = createClient(url, key, { auth: { persistSession: false } })
+  const today = todayIsoDate()
+  const { data, error } = await client
+    .from("posts")
+    .select("slug")
+    .eq("status", "scheduled")
+    .lte("published_at", today)
+
+  if (error) {
+    return NextResponse.json({ error: error.message }, { status: 500 })
+  }
+
+  const slugs = (data || []).map((r) => r.slug as string)
+  if (!slugs.length) {
+    return NextResponse.json({ published: 0, slugs: [] })
+  }
+
+  const { error: upErr } = await client
+    .from("posts")
+    .update({ status: "published" })
+    .in("slug", slugs)
+    .eq("status", "scheduled")
+
+  if (upErr) {
+    return NextResponse.json({ error: upErr.message }, { status: 500 })
+  }
+
+  for (const slug of slugs) revalidatePostSurfaces(slug)
+
+  return NextResponse.json({ published: slugs.length, slugs })
+}

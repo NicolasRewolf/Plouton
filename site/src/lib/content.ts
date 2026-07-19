@@ -54,6 +54,8 @@ export interface Article {
   status: "draft" | "published" | "archived" | "scheduled"
   author: string
   authorId?: string
+  /** Slug authors.id — URL /auteur/{authorSlug} (P1-A) */
+  authorSlug?: string
   categories: string[]
   tags?: string[]
   categoryIds?: string[]
@@ -67,6 +69,8 @@ export interface Article {
   metaDescription?: string
   /** HTML structuré (titres, listes, liens) depuis Rich Content Wix */
   bodyHtml?: string
+  /** Document ProseMirror TipTap (source de vérité P1-D) */
+  bodyDoc?: Record<string, unknown> | null
   /**
    * Corps article :
    * - `string[]` = seed / ancien admin (paragraphes)
@@ -166,6 +170,9 @@ export interface Author {
   shortName: string
   avatar: string
   bio: string
+  /** Rôle cabinet (fusion équipe) — P1-A */
+  role?: string
+  linkedin?: string | null
 }
 
 export interface ExpertisePage {
@@ -414,11 +421,25 @@ export function listAuthors(): Author[] {
 export function getAuthor(article: Article): Author | null {
   const authors = listAuthors()
   return (
-    authors.find((a) => a.wixId === article.author) ??
+    authors.find((a) => a.id === article.authorSlug) ??
     authors.find((a) => a.id === article.authorId) ??
+    authors.find((a) => a.wixId === article.author) ??
     authors.find((a) => a.displayName === article.author) ??
+    authors.find((a) => a.shortName === article.author) ??
     null
   )
+}
+
+/** Résout authors.id depuis author / authorId (seed + admin). */
+export function resolveAuthorSlug(article: Pick<Article, "author" | "authorId" | "authorSlug">): string | null {
+  if (article.authorSlug) return article.authorSlug
+  const authors = listAuthors()
+  const hit =
+    authors.find((a) => a.id === article.authorId) ??
+    authors.find((a) => a.wixId === article.author) ??
+    authors.find((a) => a.shortName === article.author) ??
+    authors.find((a) => a.displayName === article.author)
+  return hit?.id ?? null
 }
 
 /** slug → shortName (GUID Wix des articles JSON). */

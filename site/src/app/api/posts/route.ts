@@ -9,7 +9,10 @@ import {
   isEditorJsDoc,
 } from "@/lib/article-body"
 import { isPostStatus, resolvePersistStatus, type PostStatus } from "@/lib/post-status"
-import { archivePost } from "@/lib/posts-db"
+import { assessEditRisk, editGuardMessage } from "@/lib/post-edit-guard-server"
+import { sanitizeEditorHtml } from "@/lib/tiptap/sanitize"
+import { bodyDocToHtml } from "@/lib/tiptap/body-doc"
+import { archivePost, insertPostVersion, resolveCategoryIdsFromLabels } from "@/lib/posts-db"
 import { resolveAdminArticleList } from "@/lib/posts-public"
 import { revalidatePostSurfaces } from "@/lib/revalidate-posts"
 import { getStore, type ContentStore } from "@/lib/store"
@@ -34,20 +37,29 @@ async function requireAdmin() {
   }
 }
 
-function normalizeIncoming(body: Partial<Article>): Pick<Article, "body" | "bodyHtml"> {
-  const html = (body.bodyHtml || "").trim()
+function normalizeIncoming(body: Partial<Article>): Pick<Article, "body" | "bodyHtml" | "bodyDoc"> {
+  const doc = body.bodyDoc
+  if (doc && typeof doc === "object") {
+    const html = sanitizeEditorHtml(bodyDocToHtml(doc))
+    return {
+      bodyDoc: doc,
+      bodyHtml: html,
+      body: htmlToParagraphs(html),
+    }
+  }
+  const html = sanitizeEditorHtml((body.bodyHtml || "").trim() || "<p></p>")
   if (hasUsableHtml(html) || html === "<p></p>") {
     return {
-      bodyHtml: html || "<p></p>",
-      body: htmlToParagraphs(html || "<p></p>"),
+      bodyHtml: html,
+      body: htmlToParagraphs(html),
+      bodyDoc: body.bodyDoc ?? null,
     }
   }
   if (Array.isArray(body.body) && body.body.length)
-    return { body: body.body, bodyHtml: body.bodyHtml }
-  // Legacy Editor.js encore en DB
+    return { body: body.body, bodyHtml: body.bodyHtml, bodyDoc: body.bodyDoc ?? null }
   if (isEditorJsDoc(body.body))
-    return { body: body.body, bodyHtml: body.bodyHtml }
-  return { body: ["Contenu à rédiger."], bodyHtml: "<p></p>" }
+    return { body: body.body, bodyHtml: body.bodyHtml, bodyDoc: body.bodyDoc ?? null }
+  return { body: ["Contenu à rédiger."], bodyHtml: "<p></p>", bodyDoc: null }
 }
 
 function normalizeStatus(
@@ -68,11 +80,15 @@ export async function GET(req: Request) {
     const store = getStore() as StoreWithGet
     if (store.getArticleBySlug) {
       const fromDb = await store.getArticleBySlug(slug)
-      if (fromDb) return NextResponse.json(fromDb)
+      if (fromDb) {
+        const editGuard = assessEditRisk(slug, fromDb.bodyHtml)
+        return NextResponse.json({ ...fromDb, editGuard })
+      }
     }
     const article = getArticle(slug)
     if (!article) return NextResponse.json({ error: "introuvable" }, { status: 404 })
-    return NextResponse.json(article)
+    const editGuard = assessEditRisk(slug, article.bodyHtml)
+    return NextResponse.json({ ...article, editGuard })
   }
   return NextResponse.json(await resolveAdminArticleList())
 }
@@ -87,6 +103,13 @@ export async function POST(req: Request) {
 
   const publishedAt = body.publishedAt || new Date().toISOString().slice(0, 10)
   const normalized = normalizeIncoming(body)
+  const categories = body.categories?.length
+    ? body.categories
+    : ["Ressources et notions juridiques"]
+  const categoryIds =
+    body.categoryIds?.length
+      ? body.categoryIds
+      : resolveCategoryIdsFromLabels(categories)
   const article: Article = {
     slug: body.slug.replace(/[^a-z0-9-àâäéèêëïîôùûüç]/gi, "-").toLowerCase(),
     title: body.title,
@@ -94,17 +117,17 @@ export async function POST(req: Request) {
     publishedAt,
     status: normalizeStatus(body.status, publishedAt),
     author: body.author || "Cabinet Plouton",
-    categories: body.categories?.length
-      ? body.categories
-      : ["Ressources et notions juridiques"],
+    authorId: body.authorId,
+    authorSlug: body.authorSlug || body.authorId,
+    categories,
     body: normalized.body,
     bodyHtml: normalized.bodyHtml,
+    bodyDoc: normalized.bodyDoc,
     metaTitle: body.metaTitle,
     metaDescription: body.metaDescription,
     coverImage: body.coverImage,
     tags: body.tags,
-    categoryIds: body.categoryIds,
-    authorId: body.authorId,
+    categoryIds,
     wixId: body.wixId,
     url: body.url,
     minutesToRead: body.minutesToRead,
@@ -125,16 +148,54 @@ export async function PUT(req: Request) {
   const user = await requireAdmin()
   if (!user) return NextResponse.json({ error: "non autorisé" }, { status: 401 })
 
-  const body = (await req.json()) as Article
+  const body = (await req.json()) as Article & { forceRichEdit?: boolean }
   if (!body.slug) return NextResponse.json({ error: "slug requis" }, { status: 400 })
+
+  // P0-A — gel articles riches (Ricos / HTML) sauf override explicite
+  const risk = assessEditRisk(body.slug, body.bodyHtml)
+  if (risk.blocked && !body.forceRichEdit) {
+    return NextResponse.json(
+      {
+        error: editGuardMessage(risk),
+        code: "RICH_EDIT_BLOCKED",
+        reasons: risk.reasons,
+        source: risk.source,
+      },
+      { status: 409 }
+    )
+  }
+
+  const store = getStore() as StoreWithGet
+  const previous =
+    (store.getArticleBySlug && (await store.getArticleBySlug(body.slug))) ||
+    getArticle(body.slug)
+  if (previous) {
+    await insertPostVersion({
+      slug: body.slug,
+      article: previous,
+      authorEmail: user.email,
+    })
+  }
+
   const normalized = normalizeIncoming(body)
   const publishedAt = body.publishedAt || new Date().toISOString().slice(0, 10)
+  const categories = body.categories?.length
+    ? body.categories
+    : previous?.categories?.length
+      ? previous.categories
+      : ["Ressources et notions juridiques"]
+  const categoryIds = resolveCategoryIdsFromLabels(categories)
   const article: Article = {
     ...body,
     publishedAt,
     status: normalizeStatus(body.status, publishedAt),
+    categories,
+    categoryIds,
+    authorSlug: body.authorSlug || body.authorId || previous?.authorSlug,
+    authorId: body.authorId || previous?.authorId,
     body: normalized.body,
     bodyHtml: normalized.bodyHtml,
+    bodyDoc: normalized.bodyDoc,
     updatedAt: body.updatedAt || new Date().toISOString().slice(0, 10),
   }
   try {

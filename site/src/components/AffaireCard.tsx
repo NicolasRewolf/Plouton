@@ -12,6 +12,8 @@ export interface AffaireCardItem {
   viewCount?: number
   /** Nom court auteur (si résolu depuis auteurs.json) */
   authorName?: string
+  /** Lien /auteur/{slug} — P1-E */
+  authorSlug?: string
 }
 
 export function formatAffaireViews(n: number) {

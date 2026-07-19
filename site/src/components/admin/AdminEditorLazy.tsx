@@ -16,7 +16,7 @@ const AdminEditorInner = dynamic(
 
 interface AdminEditorLazyProps {
   initialHtml: string
-  onChange: (html: string) => void
+  onChange: (html: string, json?: Record<string, unknown>) => void
   placeholder?: string
 }
 

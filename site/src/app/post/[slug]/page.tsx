@@ -22,6 +22,7 @@ import { relatedForArticle } from "@/lib/queries"
 import { RicosBody } from "@/lib/ricos/render"
 import type { RicosDoc } from "@/lib/ricos/types"
 import { JsonLd, absoluteUrl, organizationSchema } from "@/lib/seo"
+import { safeMetaDescription } from "@/lib/meta-description"
 
 export const dynamicParams = true
 
@@ -39,21 +40,33 @@ export async function generateMetadata({
   const article = await resolvePublishedArticle(slug)
   if (!article) return {}
   const path = `/post/${article.slug}`
+  const description = safeMetaDescription(
+    article.metaDescription,
+    article.excerpt
+  )
+  const authorName = article.author?.includes("-") && article.author.length === 36
+    ? undefined
+    : article.author
+  const coverAbs = article.coverImage
+    ? article.coverImage.startsWith("http")
+      ? article.coverImage
+      : absoluteUrl(article.coverImage)
+    : absoluteUrl("/brand/equipe-home.png")
   return {
     // Titre/meta du live Wix (baseline) — identiques au byte près
     title: { absolute: article.metaTitle ?? article.title },
-    description: article.metaDescription ?? article.excerpt,
+    description: description || undefined,
     alternates: { canonical: absoluteUrl(path) },
     openGraph: {
       type: "article",
       url: absoluteUrl(path),
       title: article.title,
-      description: article.excerpt,
+      description: description || article.excerpt,
       publishedTime: article.publishedAt,
-      authors: [article.author],
-      images: article.coverImage
-        ? [article.coverImage]
-        : [{ url: "/brand/equipe-home.png" }],
+      authors: authorName ? [authorName] : undefined,
+      siteName: "Cabinet Plouton",
+      locale: "fr_FR",
+      images: [{ url: coverAbs }],
     },
   }
 }
@@ -111,35 +124,65 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   }))
   const stats = { views: article.viewCount ?? 0, likes: 0 }
 
-  const schema = [
-    organizationSchema(site),
-    {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      headline: article.title,
-      description: article.excerpt,
-      datePublished: article.publishedAt,
-      dateModified: article.updatedAt ?? article.publishedAt,
-      author: { "@type": "Person", name: author?.shortName ?? article.author },
-      publisher: { "@id": site.cabinetId },
-      mainEntityOfPage: url,
-      image: article.coverImage,
-      inLanguage: "fr-FR",
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Accueil", item: site.url },
-        { "@type": "ListItem", position: 2, name: "Ressources", item: `${site.url}/#affaires` },
-        { "@type": "ListItem", position: 3, name: article.title, item: url },
-      ],
-    },
-  ]
+  const authorSlug =
+    author?.id || article.authorSlug || article.authorId || null
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": `${url}#article`,
+        headline: article.title,
+        description:
+          safeMetaDescription(article.metaDescription, article.excerpt) ||
+          article.excerpt,
+        datePublished: article.publishedAt,
+        dateModified: article.updatedAt ?? article.publishedAt,
+        author: {
+          "@type": "Person",
+          name: author?.shortName ?? author?.displayName ?? article.author,
+          ...(authorSlug
+            ? { url: absoluteUrl(`/auteur/${authorSlug}`) }
+            : {}),
+        },
+        publisher: { "@id": site.cabinetId },
+        mainEntityOfPage: url,
+        image: article.coverImage
+          ? article.coverImage.startsWith("http")
+            ? article.coverImage
+            : absoluteUrl(article.coverImage)
+          : absoluteUrl("/brand/equipe-home.png"),
+        inLanguage: "fr-FR",
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${url}#breadcrumb`,
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Accueil", item: site.url },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: article.categories?.[0] || "Ressources",
+            item: absoluteUrl(
+              categoryPublicHref(article.categories?.[0] || "Ressources")
+            ),
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: article.title,
+            item: url,
+          },
+        ],
+      },
+    ],
+  }
 
   return (
     <>
       <Header variant="site" />
+      <JsonLd data={organizationSchema(site)} />
       <JsonLd data={schema} />
       {/* Fond gris + article en feuille blanche, comme le live */}
       <div className="bg-page px-3 py-8 sm:px-5">
@@ -163,7 +206,18 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
                 )}
               </span>
               <p className="min-w-0">
-                <span className="truncate">{author?.displayName ?? article.author}</span>
+                {authorSlug ? (
+                  <Link
+                    href={`/auteur/${authorSlug}`}
+                    className="truncate underline-offset-2 hover:underline"
+                  >
+                    {author?.displayName ?? article.author}
+                  </Link>
+                ) : (
+                  <span className="truncate">
+                    {author?.displayName ?? article.author}
+                  </span>
+                )}
                 <span className="mx-1.5 text-ink/50">·</span>
                 <span>{publishedLabel}</span>
                 {article.minutesToRead ? (
@@ -181,14 +235,6 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             <h1 className="font-display mt-8 text-[27px] leading-[1.4] font-normal sm:text-[39px]">
               {article.title}
             </h1>
-
-            {/* Note par étoiles (données : import Wix → Supabase) */}
-            <div className="mt-5 flex items-center gap-2 text-sm text-ink/70">
-              <span aria-hidden className="tracking-[0.2em] text-[#c4cdd2]">
-                ★★★★★
-              </span>
-              <span>Pas encore de note</span>
-            </div>
           </header>
 
           {bodyMode === "ricos" && ricos ? (

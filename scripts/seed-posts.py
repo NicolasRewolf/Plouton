@@ -3,14 +3,17 @@
 Seed one-shot des articles JSON → table Supabase `posts` (C4).
 
 Usage :
-  python3 scripts/seed-posts.py
+  python3 scripts/seed-posts.py              # insert-only (n'écrase pas)
+  python3 scripts/seed-posts.py --force      # upsert (écrase les lignes existantes)
   python3 scripts/seed-posts.py --dry-run
   python3 scripts/seed-posts.py --limit 5
 
 Source : contenu/articles/*.json (422 slugs — jamais renommés).
 Credentials : site/.env.local (NEXT_PUBLIC_SUPABASE_URL + SUPABASE_SECRET_KEY).
 
-Idempotent : upsert sur `slug` (on conflict update).
+Par défaut : insert-only (Prefer: resolution=ignore-duplicates) — ne touche
+pas aux articles déjà édités en admin. Utiliser --force uniquement à
+connaissance de cause (réécrit title/body/status…).
 """
 
 from __future__ import annotations
@@ -80,13 +83,30 @@ def article_to_row(data: dict) -> dict:
     if not isinstance(body, list):
         body = [str(body)] if body else []
     status = data.get("status")
-    if status not in ("draft", "published"):
-        status = "published"
+    # Conserver le statut JSON s'il est connu ; sinon draft (jamais forcer published)
+    if status not in ("draft", "published", "scheduled", "archived"):
+        status = "draft"
     author = data.get("author") or ""
     author_id = data.get("authorId")
     # Les imports Wix mettent souvent le GUID Wix dans `author`
     if not author_id and isinstance(author, str) and len(author) == 36 and "-" in author:
         author_id = author
+    _WIX_TO_SLUG = {
+        "07454f1f-c54a-4308-b897-19be554db88a": "julien-plouton",
+        "e7ef05f0-d3ab-4133-b386-5d1f783edc44": "mathilde-manson",
+        "8a867897-4e1a-4714-8cc1-9282b3753d5a": "jade-adil",
+        "b6bed89f-af2d-4c3d-b6d9-bf3ff464bef5": "andeol-brachanet",
+        "ec99027d-7c91-42ba-a067-a12c14e1daf3": "axelle-fesneau",
+    }
+    author_slug = data.get("authorSlug")
+    if author_id in _WIX_TO_SLUG:
+        author_slug = _WIX_TO_SLUG[author_id]
+        author_id = author_slug
+    elif isinstance(author, str) and author in _WIX_TO_SLUG:
+        author_slug = _WIX_TO_SLUG[author]
+        author_id = author_slug
+    elif not author_slug and isinstance(author_id, str) and author_id in _WIX_TO_SLUG.values():
+        author_slug = author_id
     categories = data.get("categories") or []
     if not isinstance(categories, list):
         categories = [str(categories)]
@@ -108,6 +128,7 @@ def article_to_row(data: dict) -> dict:
         "status": status,
         "author": str(author),
         "author_id": author_id,
+        "author_slug": author_slug,
         "categories": [str(c) for c in categories],
         "tags": [str(t) for t in tags],
         "category_ids": [str(c) for c in category_ids],
@@ -119,6 +140,7 @@ def article_to_row(data: dict) -> dict:
         "meta_title": data.get("metaTitle"),
         "meta_description": data.get("metaDescription"),
         "body_html": data.get("bodyHtml"),
+        "body_doc": data.get("bodyDoc"),
         "body": body,
     }
 
@@ -190,9 +212,14 @@ class SupabaseRest:
         # Without header we can't know — return 0 and rely on upsert
         return 0 if not isinstance(rows, list) else -1
 
-    def upsert_many(self, rows: list[dict]) -> int:
+    def upsert_many(self, rows: list[dict], *, force: bool) -> int:
         if not rows:
             return 0
+        prefer = (
+            "resolution=merge-duplicates,return=minimal"
+            if force
+            else "resolution=ignore-duplicates,return=minimal"
+        )
         done = 0
         for i in range(0, len(rows), BATCH):
             chunk = rows[i : i + BATCH]
@@ -201,7 +228,7 @@ class SupabaseRest:
                 "/posts",
                 params={"on_conflict": "slug"},
                 body=chunk,
-                prefer="resolution=merge-duplicates,return=minimal",
+                prefer=prefer,
             )
             done += len(chunk)
             print(f"  … {done}/{len(rows)}", flush=True)
@@ -237,6 +264,11 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Seed posts depuis contenu/articles/")
     parser.add_argument("--dry-run", action="store_true", help="Charge les JSON sans écrire")
     parser.add_argument("--limit", type=int, default=None, help="Limiter le nombre d'articles")
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Upsert (écrase les lignes existantes). Sans ce flag : insert-only.",
+    )
     args = parser.parse_args()
 
     if not ARTICLES_DIR.is_dir():
@@ -248,6 +280,7 @@ def main() -> None:
     if len(slugs) != len(set(slugs)):
         raise SystemExit("Doublons de slug dans contenu/articles/ — abort")
     print(f"Sample slugs : {slugs[:3]}")
+    print(f"Mode : {'FORCE upsert' if args.force else 'insert-only (ignore duplicates)'}")
 
     if args.dry_run:
         print("Dry-run : aucune écriture.")
@@ -263,8 +296,8 @@ def main() -> None:
         )
 
     client = SupabaseRest(url, key)
-    print("Upsert vers public.posts …")
-    client.upsert_many(rows)
+    print("Écriture vers public.posts …")
+    client.upsert_many(rows, force=args.force)
 
     # Vérif count via select
     check = client._request(
