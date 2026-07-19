@@ -21,7 +21,8 @@ function isExternalHref(href: string) {
     href.startsWith("tel:") ||
     href.startsWith("mailto:") ||
     href.startsWith("http://") ||
-    href.startsWith("https://")
+    href.startsWith("https://") ||
+    href.startsWith("#")
   )
 }
 

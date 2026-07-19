@@ -5,6 +5,14 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : Divorce Bordeaux (fidélité Wix)
+
+- Procédure contentieuse : titres d’étapes rétablis (assignation, mesures provisoires, jugement, finalisation, mise en état) + puces
+- FAQ Wix (7 questions) restaurée en tête ; les 14 questions déjà présentes sont gardées
+- CTA « Obtenir un premier avis » dans le hero ; texte RDV Wix ; section Garde de nouveau remplie
+- Doublons de scrape nettoyés ; simulateurs / SEO / réseaux déjà OK (lots précédents)
+- Tests : `/droit-des-contrats-et-des-personnes/droit-de-la-famille/avocat-divorce-bordeaux`
+
 ## 2026-07-19 — Expertises : droit pénal (fidélité Wix)
 
 - Titres complets rétablis (Atteintes personnes / biens, Délinquance organisée, Cybercriminalité, JIRS, Préparation intensive, Travail de personnalisation, Outils concrets)
