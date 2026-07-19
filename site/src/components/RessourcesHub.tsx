@@ -14,7 +14,7 @@ interface RessourcesHubProps {
   allGallery?: ReactNode
 }
 
-/** Hub éditorial Ressources — hero + plus consultés + sections + grille filtrable. */
+/** Hub éditorial Ressources — hero + plus consultés + aperçus thématiques + grille filtrable (catalogue). */
 export function RessourcesHub({
   hub,
   mostConsulted,

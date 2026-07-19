@@ -5,6 +5,15 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Fix doublon /comprendre-le-droit
+
+- Les thèmes (Procédure pénale, Victimes, etc.) affichaient presque tout le catalogue, puis la grille du bas le montrait encore une fois
+- Remis des **aperçus** par thème (~2–6 articles) ; le catalogue complet reste en bas (« Toutes les ressources »)
+- Section Santé conservée (3 cartes en aperçu)
+- Tests : `/comprendre-le-droit` — thèmes courts + grille filtrable en bas ; build OK
+
+---
+
 ## 2026-07-19 — Expertises : Droit des assurances (texte MD fidèle H2/H3/H4)
 
 - JSON réécrit depuis le MD Wix : 3 sections H2, 7 blocs H3, 3 H4 ; 16 puces
