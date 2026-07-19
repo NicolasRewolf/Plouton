@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server"
 import { intakeDemande } from "@/lib/demande-intake"
-import { notifyNouvelleDemande } from "@/lib/notify-demande"
+import { notifyAccuseReception, notifyNouvelleDemande } from "@/lib/notify-demande"
+import { checkRateLimit, clientIpFromHeaders } from "@/lib/rate-limit"
 import { getStore } from "@/lib/store"
 
 export const runtime = "nodejs"
@@ -27,7 +28,28 @@ function fichierRefuse(f: File): string | null {
   return null
 }
 
+/** Honeypot rempli = bot — réponse OK silencieuse (pas d’insert). */
+function isHoneypotFilled(raw: unknown): boolean {
+  if (!raw || typeof raw !== "object") return false
+  const hp = (raw as Record<string, unknown>).website
+  return typeof hp === "string" && hp.trim().length > 0
+}
+
 export async function POST(req: Request) {
+  const ip = clientIpFromHeaders(req.headers)
+  const limited = checkRateLimit(`contact:${ip}`)
+  if (!limited.ok) {
+    return NextResponse.json(
+      { ok: false, error: "Trop de demandes. Réessayez dans quelques minutes." },
+      {
+        status: 429,
+        headers: limited.retryAfterSec
+          ? { "Retry-After": String(limited.retryAfterSec) }
+          : undefined,
+      }
+    )
+  }
+
   const contentType = req.headers.get("content-type") || ""
   let raw: unknown
   let files: File[] = []
@@ -65,6 +87,9 @@ export async function POST(req: Request) {
     }
   }
 
+  if (isHoneypotFilled(raw))
+    return NextResponse.json({ ok: true, id: "ok" })
+
   const intake = intakeDemande(raw)
   if (!intake.ok)
     return NextResponse.json({ ok: false, error: intake.error }, { status: intake.status })
@@ -80,9 +105,12 @@ export async function POST(req: Request) {
     )
   }
 
-  // Mail alerte : best-effort — ne bloque jamais la réponse OK.
+  // Mails : best-effort — ne bloquent jamais la réponse OK.
   void notifyNouvelleDemande(id, intake.data).catch((e) =>
     console.error("notifyNouvelleDemande unhandled:", e)
+  )
+  void notifyAccuseReception(intake.data).catch((e) =>
+    console.error("notifyAccuseReception unhandled:", e)
   )
 
   // La demande est enregistrée : un échec d'upload ne doit jamais la perdre.

@@ -28,6 +28,7 @@ import {
   htmlToParagraphs,
   editorJsToHtml,
 } from "@/lib/article-body"
+import { isPubliclyVisible, type PostStatus } from "@/lib/post-status"
 
 export { POSTS_CACHE_TAG }
 
@@ -82,7 +83,7 @@ async function fetchPublishedIndexMerged(): Promise<ArticleIndexItem[]> {
   const out: ArticleIndexItem[] = []
 
   for (const p of dbMeta) {
-    if (p.status !== "published") continue
+    if (!isPubliclyVisible(p.status, p.publishedAt)) continue
     const { status: _s, ...item } = p
     out.push(item)
   }
@@ -114,9 +115,10 @@ async function fetchPublishedArticle(slug: string): Promise<Article | null> {
   const fromJson = getArticle(raw)
   if (!fromJson || fromJson.status !== "published") return null
 
-  // Si la DB a un brouillon pour ce slug, ne pas servir le JSON publié
+  // Si la DB a un brouillon / archivé / programmé (futur), ne pas servir le JSON
   const status = await getPostStatus(raw)
-  if (status === "draft") return null
+  if (status === "draft" || status === "archived" || status === "scheduled")
+    return null
 
   return fromJson
 }
@@ -151,7 +153,12 @@ export async function resolvePublishedSlugs(): Promise<string[]> {
   const meta = await listAdminPosts()
   if (meta) {
     for (const p of meta) {
-      if (p.status === "draft") set.delete(normSlug(p.slug))
+      if (p.status === "draft" || p.status === "archived") set.delete(normSlug(p.slug))
+      if (
+        p.status === "scheduled" &&
+        !isPubliclyVisible(p.status, p.publishedAt)
+      )
+        set.delete(normSlug(p.slug))
     }
   }
   return [...set]
@@ -159,7 +166,7 @@ export async function resolvePublishedSlugs(): Promise<string[]> {
 
 /** Liste admin : DB si dispo, sinon index JSON (tous « published »). */
 export async function resolveAdminArticleList(): Promise<
-  (ArticleIndexItem & { status: "draft" | "published" })[]
+  (ArticleIndexItem & { status: PostStatus })[]
 > {
   const fromDb = await listAdminPosts()
   if (fromDb?.length) return fromDb

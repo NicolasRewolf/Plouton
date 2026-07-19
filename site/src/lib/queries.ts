@@ -19,7 +19,9 @@ import {
 
 /** Light index — listings, related, médias, nos-affaires (C5 : DB ∪ JSON). */
 export async function publishedIndex(): Promise<ArticleIndexItem[]> {
-  return resolvePublishedIndex()
+  const index = await resolvePublishedIndex()
+  const views = postViewCounts()
+  return index.map((a) => withViews(a, views))
 }
 
 /** Article matches a CMS category (id and/or label). */
@@ -66,7 +68,7 @@ export async function articlesMatchingLabels(
 /** Related for expertise pages — same blogCategories labels. */
 export async function relatedForExpertise(
   expertise: ExpertisePage,
-  limit = 16
+  limit = 20
 ): Promise<ArticleIndexItem[]> {
   return articlesMatchingLabels(expertise.blogCategories || [], { limit })
 }
@@ -76,7 +78,7 @@ export async function relatedForExpertise(
  */
 export async function relatedForArticle(
   article: Pick<Article, "slug" | "categories">,
-  limit = 2
+  limit = 3
 ): Promise<ArticleIndexItem[]> {
   const index = await publishedIndex()
   const others = index.filter((a) => a.slug !== article.slug)

@@ -4,16 +4,18 @@ import { Header } from "@/components/Header"
 import { PoleHub } from "@/components/PoleHub"
 import { getSite } from "@/lib/content"
 import { loadPoleHub } from "@/lib/pole-hub"
-import { JsonLd, organizationSchema } from "@/lib/seo"
+import { JsonLd, organizationSchema, withCanonicalOg } from "@/lib/seo"
 
 export function poleHubMetadata(poleSlug: string): Metadata {
   const loaded = loadPoleHub(poleSlug)
   if (!loaded) return { title: "Pôle" }
   const { page } = loaded
-  return {
+  const path = page.path || `/${poleSlug}`
+  return withCanonicalOg({
     title: { absolute: page.metaTitle || page.title },
     description: page.metaDescription || page.intro,
-  }
+    path,
+  })
 }
 
 export function PoleHubRoutePage({ poleSlug }: { poleSlug: string }) {

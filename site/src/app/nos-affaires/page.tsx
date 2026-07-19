@@ -8,7 +8,7 @@ import {
   toGalleryItems,
 } from "@/lib/gallery-filters"
 import { affairesArticles } from "@/lib/queries"
-import { JsonLd, organizationSchema } from "@/lib/seo"
+import { JsonLd, organizationSchema, withCanonicalOg } from "@/lib/seo"
 
 const AffairesGallery = dynamic(() =>
   import("@/components/AffairesGallery").then((m) => m.AffairesGallery)
@@ -21,12 +21,13 @@ const HUB_EXCLUDE = ["Ressources et notions juridiques", "Médias"]
 
 export function generateMetadata(): Metadata {
   const page = getContentPage("nos-affaires")
-  return {
+  return withCanonicalOg({
     title: { absolute: page?.metaTitle || "Nos affaires" },
     description:
       page?.metaDescription ||
       "Affaires et dossiers traités par le Cabinet Plouton à Bordeaux : droit pénal, victimes, famille.",
-  }
+    path: "/nos-affaires",
+  })
 }
 
 export default async function NosAffairesPage() {
@@ -74,7 +75,11 @@ export default async function NosAffairesPage() {
           </header>
 
           <div className="mt-12 lg:mt-14">
-            <AffairesGallery articles={articles} categories={categoryOptions} />
+            <AffairesGallery
+              articles={articles}
+              categories={categoryOptions}
+              enableSort
+            />
           </div>
         </div>
       </main>

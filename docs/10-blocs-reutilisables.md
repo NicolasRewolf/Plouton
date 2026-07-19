@@ -20,7 +20,7 @@ Pas de copie-colle entre pages.
 | `CaseStudyCards` | page_blocks ou CMS legacy | accidents route, etc. |
 | `ContactForm` | schema unique | expertise, honoraires, divorce |
 | `TableOfContents` | titres du corps | expertise longues |
-| `SimulatorPension` / `SimulatorPrestation` | — | **seulement** divorce, lazy |
+| `SimulatorPension` / `SimulatorPrestation` | `section.simulator` dans JSON expertise | **seulement** divorce, lazy |
 | `CookedTracker` | — | layout site |
 | `Search` | index pages+posts | header |
 

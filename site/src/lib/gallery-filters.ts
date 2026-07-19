@@ -37,7 +37,7 @@ export function toGalleryItems(
     categories: a.categories,
     coverImage: a.coverImage,
     minutesToRead: a.minutesToRead,
-    viewCount: a.viewCount,
+    viewCount: a.viewCount ?? 0,
     authorName: extras?.authorBySlug?.[a.slug],
   }))
 }
