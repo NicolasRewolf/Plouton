@@ -79,7 +79,7 @@ export function AffaireCard({
           {article.coverImage ? (
             <Image
               src={article.coverImage}
-              alt=""
+              alt={article.title}
               fill
               sizes={
                 featured

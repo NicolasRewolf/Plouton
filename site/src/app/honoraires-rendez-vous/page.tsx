@@ -82,7 +82,7 @@ export default function HonorairesRendezVousPage() {
 
         <div className="mx-auto grid max-w-6xl gap-10 px-5 pb-16 lg:grid-cols-2 lg:px-8">
           <div className="space-y-10 text-[15px] leading-relaxed text-navy">
-            <section>
+            <section id="honoraires" className="scroll-mt-28">
               <h2 className="font-display text-2xl font-semibold">{page.honoraires.heading}</h2>
               <p className="mt-3 font-medium">{page.honoraires.lead}</p>
               {page.honoraires.body.split(/\n\n+/).map((p, i) => (
@@ -100,7 +100,7 @@ export default function HonorairesRendezVousPage() {
               </div>
             </section>
 
-            <section>
+            <section id="horaires" className="scroll-mt-28">
               <h2 className="font-display text-2xl font-semibold">{page.horaires.heading}</h2>
               <p className="mt-3">{page.horaires.body}</p>
               <p className="mt-4">
@@ -126,7 +126,7 @@ export default function HonorairesRendezVousPage() {
             </section>
           </div>
 
-          <div className="lg:sticky lg:top-24 lg:self-start">
+          <div id="formulaire" className="scroll-mt-28 lg:sticky lg:top-24 lg:self-start">
             <ContactForm
               pageSource="honoraires-rendez-vous"
               defaultObjet="Droit Pénal"
