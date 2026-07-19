@@ -141,14 +141,15 @@ export function Header({ variant = "site" }: HeaderProps) {
               ))}
             </nav>
 
-            <button
-              type="button"
+            <Link
+              href="/recherche"
+              onClick={closeNow}
               aria-label="Recherche sur le site"
               className="flex h-10 w-10 items-center justify-center rounded-full text-navy transition-[color,background-color,transform] duration-200 hover:bg-fog hover:text-accent active:scale-[0.96]"
               style={{ transitionTimingFunction: EASE }}
             >
               <SearchIcon />
-            </button>
+            </Link>
 
             <Link
               href="/honoraires-rendez-vous"

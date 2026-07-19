@@ -5,7 +5,7 @@
   "h1": "Comprendre le droit",
   "metaTitle": "Ressources — Comprendre le droit | Cabinet Plouton",
   "metaDescription": "Le droit expliqué clairement par le Cabinet Plouton. Guides et notions juridiques : procédure pénale, victimes, famille, affaires.",
-  "intro": "Le droit expliqué clairement, par des avocats. Articles pour comprendre vos droits, quelle que soit votre situation.",
+  "intro": "Le droit expliqué clairement, par des avocats. Guides et notions juridiques pour comprendre vos droits, quelle que soit votre situation.",
   "tagsNote": "Dans Posts.csv, le champ Tags ne contient que des UUID Wix (pas de libellés utilisables). Les sections ci-dessous listent des slugs d’articles hardcodés. Tri « plus consultés » = viewCount (stats Wix / articles JSON).",
   "mostConsulted": {
     "title": "Articles les plus consultés",
@@ -21,9 +21,18 @@
         "durée-de-la-garde-à-vue-24h-48h-96h-combien-de-temps-maximum",
         "mis-en-cause-temoin-assiste-prevenu-accuse-differences",
         "garde-à-vue-ou-audition-libre-différences-essentielles-à-connaître",
+        "la-garde-à-vue-définition-droits-et-conséquences",
+        "que-se-passe-t-il-après-une-garde-à-vue",
+        "garde-à-vue-et-casier-judiciaire-quelles-traces-sont-conservées",
         "qu-est-ce-qu-une-période-de-sureté",
         "l-aménagement-de-peine-comment-peut-il-s-appliquer",
-        "casier-judiciaire-comprendre-et-effacer"
+        "casier-judiciaire-comprendre-et-effacer",
+        "qu-est-ce-que-la-comparution-immédiate",
+        "l-assignation-à-résidence-sous-surveillance-électronique-arse-comprendre",
+        "la-détention-domiciliaire-sous-surveillance-électronique-ddse-comprendre",
+        "réforme-de-la-prescription-pénale-comprendre-les-délais-et-les-nouvelles-règles",
+        "la-préméditation-en-droit-pénal-français-définition-et-conséquences-juridiques",
+        "dépôt-de-plainte-en-france-comment-porter-plainte-efficacement"
       ],
       "seeAllHref": "#toutes-les-ressources",
       "seeAllLabel": "Toutes les ressources"
@@ -34,11 +43,23 @@
       "description": "CIVI, ITT, loi Badinter, accidents : comment obtenir réparation.",
       "slugs": [
         "indemnisation-civi-2025-guide-complet-pour-les-victimes-d-infractions",
+        "sarvi-ou-civi-indemnisation-victimes",
         "itt-pénale-définition-en-2025",
         "sarvi-comment-récupérer-vos-dommages-et-intérêts-après-une-condamnation-pénale",
         "loi-badinter-85-comprendre-vos-droits-à-indemnisation-après-un-accident-de-la-route",
         "accident-du-travail-comment-obtenir-votre-indemnisation",
-        "piéton-renversé-quel-est-le-montant-de-l-indemnisation"
+        "piéton-renversé-quel-est-le-montant-de-l-indemnisation",
+        "cycliste-renverse-preuves-indemnisation",
+        "indemnisation-passager-accident-route",
+        "indemnisation-accident-moto-motard",
+        "traumatisme-cranien-accident-voiture",
+        "indemnisation-tetraplegie",
+        "le-pretium-doloris-guide-complet-pour-les-victimes-d-accidents",
+        "comment-bien-préparer-mon-dossier-médical",
+        "echelle-de-glasgow",
+        "auto-entrepreneur-victime-d-un-accident-comment-justifier-une-perte-de-revenus-ou-d-exploitation",
+        "ma-procédure-judiciaire-n-avance-pas-puis-je-obtenir-une-indemnisation-pour-ce-délai-déraisonnable",
+        "responsabilité-du-fait-des-choses-quels-recours-en-cas-de-chute-d-objet-tombé-ou-d-équipement-déf"
       ],
       "seeAllHref": "#toutes-les-ressources",
       "seeAllLabel": "Toutes les ressources"
@@ -50,7 +71,10 @@
       "slugs": [
         "contrôle-coercitif-reconnaître-agir",
         "demander-une-ordonnance-de-protection-en-2025",
-        "qu-est-ce-que-le-bracelet-anti-rapprochement"
+        "qu-est-ce-que-le-bracelet-anti-rapprochement",
+        "prestation-compensatoire-comment-est-elle-calculée-guide-complet",
+        "proposition-de-loi-inceste-et-imprescriptibilité-le-cabinet-plouton-au-cœur-des-avancées-législati",
+        "plaidoirie-pour-chahinez"
       ],
       "seeAllHref": "#toutes-les-ressources",
       "seeAllLabel": "Toutes les ressources"
@@ -62,8 +86,14 @@
       "slugs": [
         "l-abus-de-confiance-en-droit-français-ce-que-vous-devez-savoir-en-2025",
         "bail-commercial-la-révision-du-loyer-comment-est-ce-que-cela-fonctionne",
+        "bail-commercial-recours-exercer-preneur-a-lencontre-bailleur-cas-loyer-eleve",
         "abandon-de-poste-quels-risques",
-        "comprendre-et-prévenir-la-responsabilité-pénale-du-dirigeant"
+        "comprendre-et-prévenir-la-responsabilité-pénale-du-dirigeant",
+        "quelles-sont-les-principales-infractions-en-droit-pénal-des-affaires",
+        "l-interdiction-de-gérer-une-sanction-professionnelle-pour-dirigeants-d-entreprises-en-difficulté",
+        "que-faire-en-cas-d-arnaque-au-contrat-de-leasing-d-un-photocopieur-caisse-enregistreuse",
+        "arnaque-en-ligne-victime-escroquerie-recours",
+        "comment-assigner-l-état-en-responsabilité-pour-faute-lourde"
       ],
       "seeAllHref": "#toutes-les-ressources",
       "seeAllLabel": "Toutes les ressources"
@@ -75,6 +105,20 @@
       "slugs": [
         "sinistre-automobile-mon-assurance-de-véhicule-me-réclame-la-preuve-achat",
         "sinistre-habitation-recours-assurance"
+      ],
+      "seeAllHref": "#toutes-les-ressources",
+      "seeAllLabel": "Toutes les ressources"
+    },
+    {
+      "id": "sante-medical",
+      "title": "Santé & accidents médicaux",
+      "description": "Erreur médicale, ONIAM, chirurgie esthétique, vaccins.",
+      "slugs": [
+        "accident-médical-responsabilité-médicale-et-aléa-thérapeutique",
+        "accident-médical-oniam-dans-quels-cas-pouvez-vous-être-indemnisé",
+        "chirurgie-esthetique-ratee-indemnisation",
+        "indemnisation-vaccin-effets-indesirables-graves-oniam",
+        "accident-voyage-organise-etranger-responsabilite-agence"
       ],
       "seeAllHref": "#toutes-les-ressources",
       "seeAllLabel": "Toutes les ressources"

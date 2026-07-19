@@ -4,7 +4,9 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useRef, useState, type FormEvent } from "react"
 import { AdminEditorLazy } from "@/components/admin/AdminEditorLazy"
+import { AdminPostMeta } from "@/components/admin/AdminPostMeta"
 import { htmlToParagraphs } from "@/lib/article-body"
+import { todayIsoDate, type PostStatus } from "@/lib/post-status"
 
 export default function NewPostPage() {
   const router = useRouter()
@@ -12,8 +14,15 @@ export default function NewPostPage() {
   const [error, setError] = useState("")
   const [saving, setSaving] = useState(false)
   const [bodyHtml, setBodyHtml] = useState("<p></p>")
+  const [coverImage, setCoverImage] = useState("")
+  const [categoryLabel, setCategoryLabel] = useState(
+    "Ressources et notions juridiques"
+  )
+  const [publishedAt, setPublishedAt] = useState(todayIsoDate())
+  const [metaTitle, setMetaTitle] = useState("")
+  const [metaDescription, setMetaDescription] = useState("")
 
-  async function save(status: "draft" | "published") {
+  async function save(status: PostStatus) {
     const form = formRef.current
     if (!form) return
     setSaving(true)
@@ -37,6 +46,11 @@ export default function NewPostPage() {
         excerpt: fd.get("excerpt"),
         status,
         author: fd.get("author"),
+        publishedAt,
+        metaTitle: metaTitle || undefined,
+        metaDescription: metaDescription || undefined,
+        coverImage: coverImage || null,
+        categories: categoryLabel ? [categoryLabel] : undefined,
         bodyHtml,
         body: htmlToParagraphs(bodyHtml),
       }),
@@ -95,7 +109,8 @@ export default function NewPostPage() {
               Publication
             </p>
             <p className="mt-2 text-[12px] leading-relaxed text-muted">
-              Brouillon = visible seulement ici. Publier = en ligne tout de suite.
+              Brouillon = visible seulement ici. Publier = en ligne. Programmer =
+              le jour de la date choisie.
             </p>
             <div className="mt-4 flex flex-col gap-2">
               <button
@@ -113,35 +128,33 @@ export default function NewPostPage() {
               >
                 Publier
               </button>
+              <button
+                type="button"
+                disabled={saving}
+                className="admin-btn admin-btn-secondary w-full"
+                onClick={() => void save("scheduled")}
+              >
+                Programmer
+              </button>
             </div>
             {error ? <p className="mt-3 text-[13px] text-accent">{error}</p> : null}
           </div>
 
-          <div className="rounded-[14px] border border-[rgba(23,71,94,0.1)] bg-white p-4 shadow-[0_1px_2px_rgba(23,71,94,0.04)]">
-            <p className="text-[12px] font-semibold tracking-wide text-navy/50 uppercase">
-              Métadonnées
-            </p>
-            <label className="mt-3 grid gap-1 text-[13px] text-navy">
-              Slug (URL)
-              <input
-                name="slug"
-                placeholder="auto si vide"
-                className="admin-input font-mono text-[12px]"
-              />
-            </label>
-            <label className="mt-3 grid gap-1 text-[13px] text-navy">
-              Auteur
-              <input
-                name="author"
-                defaultValue="Cabinet Plouton"
-                className="admin-input"
-              />
-            </label>
-            <label className="mt-3 grid gap-1 text-[13px] text-navy">
-              Extrait
-              <textarea name="excerpt" rows={3} className="admin-input resize-y" />
-            </label>
-          </div>
+          <AdminPostMeta
+            author="Cabinet Plouton"
+            excerpt=""
+            publishedAt={publishedAt}
+            metaTitle={metaTitle}
+            metaDescription={metaDescription}
+            coverImage={coverImage}
+            categoryLabel={categoryLabel}
+            showSlug
+            onCoverChange={setCoverImage}
+            onCategoryChange={setCategoryLabel}
+            onPublishedAtChange={setPublishedAt}
+            onMetaTitleChange={setMetaTitle}
+            onMetaDescriptionChange={setMetaDescription}
+          />
         </aside>
       </form>
     </main>

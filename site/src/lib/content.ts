@@ -38,6 +38,11 @@ export interface SiteConfig {
   googleReviewsUrl: string
   cabinetId: string
   founderId: string
+  social?: {
+    facebook?: string
+    instagram?: string
+    linkedin?: string
+  }
 }
 
 export interface Article {
@@ -46,7 +51,7 @@ export interface Article {
   excerpt: string
   publishedAt: string
   updatedAt?: string
-  status: "draft" | "published"
+  status: "draft" | "published" | "archived" | "scheduled"
   author: string
   authorId?: string
   categories: string[]
@@ -184,6 +189,11 @@ export interface ExpertisePage {
     title: string
     titleAccent?: string | null
     lead?: string | null
+    /**
+     * Bloc interactif monté sous le lead (lazy client).
+     * Aujourd’hui : simulateurs divorce uniquement.
+     */
+    simulator?: "pension-alimentaire" | "prestation-compensatoire"
     blocks: { heading: string; body: string }[]
   }[]
 }
@@ -219,8 +229,9 @@ export interface ContentPage {
 export interface LegalPageContent extends ContentPage {
   h1?: string
   updatedAt?: string
-  todos?: string[]
   relatedLinks?: { href: string; label: string }[]
+  /** Points à confirmer (affichés en bandeau « À confirmer »). */
+  todos?: string[]
   sections?: LegalSection[]
 }
 
@@ -391,6 +402,29 @@ export function getAuthor(article: Article): Author | null {
     null
   )
 }
+
+/** slug → shortName (GUID Wix des articles JSON). */
+export const authorNamesBySlug = cache(function authorNamesBySlug(): Record<string, string> {
+  const authors = listAuthors()
+  const byWix = new Map(
+    authors.filter((a) => a.wixId).map((a) => [a.wixId as string, a.shortName] as const)
+  )
+  const map: Record<string, string> = {}
+  const dir = path.join(root, "articles")
+  if (!fs.existsSync(dir)) return map
+  for (const file of fs.readdirSync(dir)) {
+    if (!file.endsWith(".json")) continue
+    try {
+      const raw = readJson<{ slug?: string; author?: string }>(path.join("articles", file))
+      if (!raw.slug || !raw.author) continue
+      const name = byWix.get(raw.author)
+      if (name) map[raw.slug] = name
+    } catch {
+      /* ignore */
+    }
+  }
+  return map
+})
 
 export function getExpertiseCards() {
   return readJson<

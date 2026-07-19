@@ -8,7 +8,7 @@ import {
   toGalleryItems,
 } from "@/lib/gallery-filters"
 import { mediasArticles } from "@/lib/queries"
-import { JsonLd, organizationSchema } from "@/lib/seo"
+import { JsonLd, organizationSchema, withCanonicalOg } from "@/lib/seo"
 
 const AffairesGallery = dynamic(() =>
   import("@/components/AffairesGallery").then((m) => m.AffairesGallery)
@@ -16,12 +16,13 @@ const AffairesGallery = dynamic(() =>
 
 export async function generateMetadata(): Promise<Metadata> {
   const page = getContentPage("medias")
-  return {
+  return withCanonicalOg({
     title: { absolute: page?.metaTitle || "Médias" },
     description:
       page?.metaDescription ||
       "Affaires du Cabinet Plouton relayées par la presse écrite et audiovisuelle.",
-  }
+    path: "/medias",
+  })
 }
 
 export default async function MediasPage() {

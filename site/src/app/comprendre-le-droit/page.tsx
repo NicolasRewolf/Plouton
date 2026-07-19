@@ -17,7 +17,7 @@ import {
   articlesMatchingLabels,
   mostViewedArticles,
 } from "@/lib/queries"
-import { JsonLd, organizationSchema } from "@/lib/seo"
+import { JsonLd, organizationSchema, withCanonicalOg } from "@/lib/seo"
 
 const AffairesGallery = dynamic(() =>
   import("@/components/AffairesGallery").then((m) => m.AffairesGallery)
@@ -33,10 +33,11 @@ function loadHub(): RessourcesHubContent {
 
 export function generateMetadata(): Metadata {
   const hub = loadHub()
-  return {
+  return withCanonicalOg({
     title: { absolute: hub.metaTitle || hub.title },
     description: hub.metaDescription || hub.intro,
-  }
+    path: "/comprendre-le-droit",
+  })
 }
 
 export default async function ComprendreLeDroitPage() {

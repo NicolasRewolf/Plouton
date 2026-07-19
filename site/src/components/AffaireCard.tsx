@@ -10,6 +10,8 @@ export interface AffaireCardItem {
   coverImage?: string | null
   minutesToRead?: number | null
   viewCount?: number
+  /** Nom court auteur (si résolu depuis auteurs.json) */
+  authorName?: string
 }
 
 export function formatAffaireViews(n: number) {
@@ -109,6 +111,14 @@ export function AffaireCard({
             <span className="text-[12px] tabular-nums text-muted">
               {formatAffaireDate(article.publishedAt)}
             </span>
+            {article.authorName ? (
+              <>
+                <span aria-hidden className="text-line">
+                  ·
+                </span>
+                <span className="text-[12px] text-muted">{article.authorName}</span>
+              </>
+            ) : null}
           </div>
 
           <TitleTag

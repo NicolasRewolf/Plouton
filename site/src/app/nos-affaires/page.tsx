@@ -2,13 +2,13 @@ import type { Metadata } from "next"
 import dynamic from "next/dynamic"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
-import { getContentPage, getSite } from "@/lib/content"
+import { authorNamesBySlug, getContentPage, getSite } from "@/lib/content"
 import {
   filterCategoryOptions,
   toGalleryItems,
 } from "@/lib/gallery-filters"
-import { publishedIndex } from "@/lib/queries"
-import { JsonLd, organizationSchema } from "@/lib/seo"
+import { affairesArticles } from "@/lib/queries"
+import { JsonLd, organizationSchema, withCanonicalOg } from "@/lib/seo"
 
 const AffairesGallery = dynamic(() =>
   import("@/components/AffairesGallery").then((m) => m.AffairesGallery)
@@ -17,23 +17,28 @@ const AffairesGallery = dynamic(() =>
 const INTRO =
   "Derrière chaque affaire, une stratégie. Voici une sélection de dossiers traités par le cabinet — dans le respect du secret professionnel, pour éclairer nos méthodes et les décisions obtenues."
 
+const HUB_EXCLUDE = ["Ressources et notions juridiques", "Médias"]
+
 export function generateMetadata(): Metadata {
   const page = getContentPage("nos-affaires")
-  return {
+  return withCanonicalOg({
     title: { absolute: page?.metaTitle || "Nos affaires" },
     description:
       page?.metaDescription ||
       "Affaires et dossiers traités par le Cabinet Plouton à Bordeaux : droit pénal, victimes, famille.",
-  }
+    path: "/nos-affaires",
+  })
 }
 
 export default async function NosAffairesPage() {
   const page = getContentPage("nos-affaires")
   const site = getSite()
 
-  const articles = toGalleryItems(await publishedIndex())
-  // Filtres = catégories réellement présentes sur les articles (labels exacts)
-  const categoryOptions = filterCategoryOptions(articles)
+  const articles = toGalleryItems(await affairesArticles(), {
+    authorBySlug: authorNamesBySlug(),
+  })
+  // Filtres = catégories métier (pas les hubs Ressources / Médias)
+  const categoryOptions = filterCategoryOptions(articles, HUB_EXCLUDE)
 
   return (
     <>
@@ -70,7 +75,11 @@ export default async function NosAffairesPage() {
           </header>
 
           <div className="mt-12 lg:mt-14">
-            <AffairesGallery articles={articles} categories={categoryOptions} />
+            <AffairesGallery
+              articles={articles}
+              categories={categoryOptions}
+              enableSort
+            />
           </div>
         </div>
       </main>

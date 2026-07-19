@@ -14,6 +14,47 @@ Pas de jargon. 5 lignes max par livraison.
 - Images cartes / hero : texte alternatif = titre (plus de `alt` vide)
 - Skip (volontaire) : kanban 6 étapes, inbox réponse, commentaires blog, rôles fins (éditeur vs admin)
 
+## 2026-07-19 — Lot 5 audit : admin blog + anti-spam formulaires
+
+- Formulaire contact : honeypot + limite anti-spam + **e-mail de confirmation** au client
+- Admin blog : recherche / filtre statut / pagination (plus de liste à 422 d’un coup)
+- Édition : couverture (URL ou upload), SEO, date, catégorie, archiver, programmer
+- TipTap : boutons image + YouTube
+- Tests : envoyer une demande (mail reçu) ; Admin → filtrer → éditer cover/SEO → publier
+
+## 2026-07-19 — Lot 4 audit : contenu pages expertise / hubs
+
+- FAQ droit pénal restaurée (8 questions + filtres) ; 3ᵉ paragraphe d’intro expertise de nouveau visible
+- Défense des élus : 4 blocs « Réagir à l’urgence » ; procès criminel : puces procédure remises
+- Comprendre le droit : sections thématiques élargies (56 ressources) ; Nos affaires sans les guides
+- Reste : section « Piétons… » accidents de la route vide aussi côté Wix (rien à recopier)
+
+## 2026-07-19 — Simulateurs divorce (lot audit 3)
+
+- Deux calculateurs de retour sur la page Divorce : **pension alimentaire** + **prestation compensatoire**
+- Pension = barème officiel Ministère de la Justice (pas de formule Wix trouvée dans les exports)
+- Prestation = estimation indicative (méthodes courantes des avocats) — pas de barème légal
+- Chaque outil rappelle : estimation indicative, sans valeur juridique + bouton pour contacter
+- Tests : page Divorce → ancres « Je simule… » / « Je calcule… » → remplir → voir le montant
+
+## 2026-07-19 — Audit Wix→Next lot 2 (contenu / SEO / front)
+
+- Réseaux FB / IG / LinkedIn dans le footer (URLs du site live)
+- Loupe → page Recherche (titres / extraits) ; flux RSS `/rss.xml`
+- Fix « civile » cassé par le lien CIVI ; carrousel expertises 20 affaires
+- Articles : date avec année, 3 similaires, contact honnête (plus de faux commentaires)
+- Nos affaires : tri + récentes / + consultées ; canonical / partage social pages clés
+- Tests : loupe Header ; `/recherche?q=civi` ; `/rss.xml` ; page violences conjugales ; `/nos-affaires`
+
+## 2026-07-19 — Audit Wix→Next lot 1 (urgents)
+
+- Mentions légales : note interne « À confirmer / Kbis » retirée du site public
+- Violences conjugales : 17, 3919, 119 cliquables (appel téléphone)
+- Accueil : photos équipe + cartes affaires avec images ; Nos affaires : vues réelles
+- Titres `####` propres ; page 404 Plouton ; SEO canonical / partage social
+- Tests : Mentions légales ; `/defense-penale/violences-conjugales-et-feminicides` ; Accueil ; `/nos-affaires` ; page inventée → 404
+
+
 ## 2026-07-19 — Médias & Ressources filtrables (plus de blog fourre-tout)
 
 - **Médias** = vraie page `/medias` avec filtres (comme Nos affaires)

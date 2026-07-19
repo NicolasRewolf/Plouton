@@ -24,6 +24,11 @@ const nextConfig: NextConfig = {
         hostname: "static.wixstatic.com",
         pathname: "/media/**",
       },
+      {
+        protocol: "https",
+        hostname: "iofhcxwgqvorpmaexjwb.supabase.co",
+        pathname: "/storage/v1/object/public/**",
+      },
     ],
   },
   async redirects() {
@@ -78,6 +83,7 @@ const nextConfig: NextConfig = {
         destination: "/nos-affaires",
         permanent: true,
       },
+      { source: "/blog-feed.xml", destination: "/rss.xml", permanent: true },
     ]
     const manualSources = new Set(manual.map((r) => r.source))
     return [...manual, ...wixRedirects.filter((r) => !manualSources.has(r.source))]

@@ -13,9 +13,9 @@ import {
 import { isLegacyScrapedBlock } from "@/lib/expertise-hygiene"
 import { faqForExpertise, relatedForExpertise } from "@/lib/queries"
 import { heroForSlug } from "@/lib/registry"
-import { organizationSchema } from "@/lib/seo"
+import { absoluteUrl, organizationSchema, pageOpenGraph } from "@/lib/seo"
 
-const RELATED_LIMIT = 16
+const RELATED_LIMIT = 20
 
 export interface LoadedExpertisePage {
   expertise: ExpertisePage
@@ -87,6 +87,7 @@ export async function loadExpertisePage(
     categories: a.categories,
     coverImage: a.coverImage,
     minutesToRead: a.minutesToRead,
+    viewCount: a.viewCount ?? 0,
   }))
 
   const sections = cleanSections(expertise)
@@ -157,8 +158,16 @@ export async function loadExpertisePage(
 export function expertiseMetadata(slug: string) {
   const expertise = getExpertise(slug)
   if (!expertise) return {}
+  const path = expertise.path || `/${expertise.pole}/${expertise.slug}`
   return {
     title: { absolute: expertise.metaTitle },
     description: expertise.metaDescription,
+    alternates: { canonical: absoluteUrl(path) },
+    openGraph: pageOpenGraph({
+      path,
+      title: expertise.metaTitle,
+      description: expertise.metaDescription,
+      image: heroForSlug(slug, expertise.pole) || undefined,
+    }),
   }
 }
