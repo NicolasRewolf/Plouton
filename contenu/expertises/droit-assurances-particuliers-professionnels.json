@@ -6,7 +6,7 @@
   "title": "Avocat droit des assurances particuliers et professionnels",
   "metaTitle": "Avocat Droit des Assurances Bordeaux | Cabinet Plouton",
   "metaDescription": "Refus d'indemnisation, sinistre majeur ? Cabinet Plouton à Bordeaux : recours contre assureurs pour particuliers et professionnels. Incendie, vol, RC pro.",
-  "intro": "Cabinet Plouton /\n\nLe cabinet Plouton, fort de son expertise en droit des assurances, accompagne ses clients, particuliers et professionnels, dans toutes les étapes d'un sinistre, de la déclaration à l'indemnisation. En analysant méticuleusement les contrats d'assurance et en s'appuyant sur les dispositions légales applicables, le cabinet défend les droits de ses clients face aux pratiques abusives des assureurs, telles que les clauses illicites ou le défaut de conseil des courtiers.",
+  "intro": "Le cabinet Plouton, fort de son expertise en droit des assurances, accompagne ses clients, particuliers et professionnels, dans toutes les étapes d'un sinistre, de la déclaration à l'indemnisation. En analysant méticuleusement les contrats d'assurance et en s'appuyant sur les dispositions légales applicables, le cabinet défend les droits de ses clients face aux pratiques abusives des assureurs, telles que les clauses illicites ou le défaut de conseil des courtiers.",
   "formObjet": "Droit des assurances",
   "faqExpertise": "droit-assurances-particuliers-professionnels",
   "blogCategories": [
@@ -34,6 +34,11 @@
       "shortLabel": "Je prends rendez-vous"
     }
   ],
+  "contactAside": {
+    "title": "Je prends rendez-vous maintenant !",
+    "text": "Les rendez-vous sont pris dans les 7 jours. En cas d’urgence, le rendez-vous peut être immédiat et même en dehors des horaires habituels du cabinet."
+  },
+  "inlineLinks": [],
   "sections": [
     {
       "id": "indemnisation-des-pertes-dexploitation",
@@ -43,11 +48,21 @@
       "blocks": [
         {
           "heading": "Analyse Contractuelle et Recours",
-          "body": "Le cabinet Plouton s'appuie sur une analyse approfondie de votre contrat d'assurance et sur les dispositions légales applicables pour maximiser vos chances d'indemnisation :\n\n​\n\n• Vérification des clauses de continuité d’activité (Art. 1218 Code civil – force majeure) : Le cabinet analyse les clauses de votre contrat d'assurance relatives à la continuité d'activité et à la force majeure, en s'appuyant sur l'article 1218 du Code civil. Cette analyse permet de déterminer l'étendue de la couverture offerte par votre assurance en cas de sinistre et de vérifier si l'événement peut être considéré comme un cas de force majeure.\n\n• Le cabinet Plouton calcule précisément l'ensemble des pertes subies suite au sinistre, en prenant en compte le chiffre d'affaires perdu, les frais fixes, les coûts de relocalisation, et tous les autres préjudices financiers liés à l'interruption de votre activité. Une méthode de calcul rigoureuse, comme la méthode ABC*, est utilisée pour garantir la fiabilité et la précision des estimations."
+          "headingLevel": 3,
+          "body": "Le cabinet Plouton s'appuie sur une analyse approfondie de votre contrat d'assurance et sur les dispositions légales applicables pour maximiser vos chances d'indemnisation :",
+          "bullets": [
+            "Vérification des clauses de continuité d’activité (Art. 1218 Code civil – force majeure) : Le cabinet analyse les clauses de votre contrat d'assurance relatives à la continuité d'activité et à la force majeure, en s'appuyant sur l'article 1218 du Code civil. Cette analyse permet de déterminer l'étendue de la couverture offerte par votre assurance en cas de sinistre et de vérifier si l'événement peut être considéré comme un cas de force majeure.",
+            "Le cabinet Plouton calcule précisément l'ensemble des pertes subies suite au sinistre, en prenant en compte le chiffre d'affaires perdu, les frais fixes, les coûts de relocalisation, et tous les autres préjudices financiers liés à l'interruption de votre activité. Une méthode de calcul rigoureuse, comme la méthode ABC*, est utilisée pour garantir la fiabilité et la précision des estimations."
+          ]
         },
         {
           "heading": "Stratégies pour les Entreprises",
-          "body": "Le cabinet Plouton met en place des stratégies spécifiques pour accompagner les entreprises confrontées à des difficultés suite à un sinistre :\n\n​\n\n• Négociation de délais de paiement avec créanciers (Accords de moratoire) : Le cabinet Plouton intervient auprès de vos créanciers afin de négocier des délais de paiement et de mettre en place des accords de moratoire. Ces accords permettent de reporter le paiement des dettes et de soulager la trésorerie de l'entreprise pendant la période de reconstruction.\n\n​\n\n• Actions en responsabilité contre les tiers (ex. fournisseur défaillant Art. 1240 Code civil) : Si le sinistre est la conséquence d'une faute commise par un tiers, comme un fournisseur défaillant, le cabinet Plouton engage des actions en responsabilité pour obtenir la réparation du préjudice subi. L'article 1240 du Code civil est mobilisé pour établir la responsabilité du tiers et obtenir des dommages et intérêts. Le cabinet s'appuie sur une analyse approfondie des circonstances du sinistre et sur les preuves disponibles pour démontrer la faute du tiers et le lien de causalité avec le préjudice de l'entreprise."
+          "headingLevel": 3,
+          "body": "Le cabinet Plouton met en place des stratégies spécifiques pour accompagner les entreprises confrontées à des difficultés suite à un sinistre :",
+          "bullets": [
+            "Négociation de délais de paiement avec créanciers (Accords de moratoire) : Le cabinet Plouton intervient auprès de vos créanciers afin de négocier des délais de paiement et de mettre en place des accords de moratoire. Ces accords permettent de reporter le paiement des dettes et de soulager la trésorerie de l'entreprise pendant la période de reconstruction.",
+            "Actions en responsabilité contre les tiers (ex. fournisseur défaillant Art. 1240 Code civil) : Si le sinistre est la conséquence d'une faute commise par un tiers, comme un fournisseur défaillant, le cabinet Plouton engage des actions en responsabilité pour obtenir la réparation du préjudice subi. L'article 1240 du Code civil est mobilisé pour établir la responsabilité du tiers et obtenir des dommages et intérêts. Le cabinet s'appuie sur une analyse approfondie des circonstances du sinistre et sur les preuves disponibles pour démontrer la faute du tiers et le lien de causalité avec le préjudice de l'entreprise."
+          ]
         }
       ]
     },
@@ -59,67 +74,32 @@
       "blocks": [
         {
           "heading": "Lutte contre les Pratiques Abusives des Assureurs",
-          "body": "Le cabinet Plouton s'engage à lutter contre les pratiques abusives des assureurs et à faire respecter vos droits en cas de litige :\n\n​\n\n• Clauses illicites : Exclusions non signalées (Art. L112-4 Code assurances) : Le cabinet Plouton analyse attentivement les clauses de votre contrat d'assurance et détecte les clauses illicites, notamment les exclusions de garantie non signalées de manière claire et précise. L'article L112-4 du Code des assurances impose à l'assureur de vous informer de manière précise des exclusions de garantie. Le cabinet Plouton s'appuie sur cet article pour contester les exclusions abusives et obtenir la prise en charge de votre sinistre.\n\n• Défaut de conseil des courtiers (Art. L520-1 Code des assurances) : Le cabinet Plouton vous assiste en cas de défaut de conseil de la part de votre courtier en assurances. L'article L520-1 du Code des assurances encadre la relation entre les entreprises d'assurance et leurs agents généraux, et le cabinet Plouton s'appuie sur cet article pour engager la responsabilité du courtier en cas de manquement à son devoir de conseil."
+          "headingLevel": 3,
+          "body": "Le cabinet Plouton s'engage à lutter contre les pratiques abusives des assureurs et à faire respecter vos droits en cas de litige :",
+          "bullets": [
+            "Clauses illicites : Exclusions non signalées (Art. L112-4 Code assurances) : Le cabinet Plouton analyse attentivement les clauses de votre contrat d'assurance et détecte les clauses illicites, notamment les exclusions de garantie non signalées de manière claire et précise. L'article L112-4 du Code des assurances impose à l'assureur de vous informer de manière précise des exclusions de garantie. Le cabinet Plouton s'appuie sur cet article pour contester les exclusions abusives et obtenir la prise en charge de votre sinistre.",
+            "Défaut de conseil des courtiers (Art. L520-1 Code des assurances) : Le cabinet Plouton vous assiste en cas de défaut de conseil de la part de votre courtier en assurances. L'article L520-1 du Code des assurances encadre la relation entre les entreprises d'assurance et leurs agents généraux, et le cabinet Plouton s'appuie sur cet article pour engager la responsabilité du courtier en cas de manquement à son devoir de conseil."
+          ]
         },
         {
           "heading": "Contentieux dans les contrats civils et commerciaux",
+          "headingLevel": 3,
           "body": "Parce qu’il ne résulte pas uniquement d’un écrit, le contrat est omniprésent. L’emprise du droit contractuel a vocation à s’étendre à tous les domaines. Nous sommes tous liés dans notre vie quotidienne, professionnelle, sociale, ou associative, par une multitude de contrats. Or, parfois, nous n’en avons pas négocié les termes. Nous ne les avons peut-être jamais lus. Et nous en découvrirons les subtilités parfois trop tard, notamment en cas de litige.\n\nOr, le contrat se définit comme un acte de prévision par lequel les parties, cocontractantes, décident d’organiser leur(s) relation(s) future(s). C’est la loi des parties à laquelle se réfèrera le juge en cas de litige.\n\nNotre cabinet vous accompagnera pour la négociation et la rédaction de vos contrats civils et commerciaux et vous aidera en analysant les actions contentieuses envisageables.\n\nElles vont de l’assignation en référé (pour un recouvrement de créance par exemple), ou en exécution forcée à la demande de résiliation judiciaire du contrat, en passant par l’action en responsabilité contractuelle qui tend à obtenir des dommages intérêts."
         },
         {
-          "heading": "",
-          "body": "Or, le contrat se définit comme un acte de prévision par lequel les parties, cocontractantes, décident d’organiser leur(s) relation(s) future(s). C’est la loi des parties à laquelle se réfèrera le juge en cas de litige."
-        },
-        {
-          "heading": "",
-          "body": "Notre cabinet vous accompagnera pour la négociation et la rédaction de vos contrats civils et commerciaux et vous aidera en analysant les actions contentieuses envisageables."
-        },
-        {
-          "heading": "",
-          "body": "Elles vont de l’assignation en référé (pour un recouvrement de créance par exemple), ou en exécution forcée à la demande de résiliation judiciaire du contrat, en passant par l’action en responsabilité contractuelle qui tend à obtenir des dommages intérêts."
-        },
-        {
           "heading": "Action en garantie contre les vices cachés",
-          "body": "Le Cabinet Plouton vous accompagne dans l’action en garantie contre les vices cachés (Art. 1641 du Code civil), que vous soyez particulier ou professionnel. Lorsqu'un défaut caché affecte un bien acquis (immobilier, industriel ou véhicule), une action rapide est essentielle pour protéger vos droits.\n\n​\n\nIdentification et preuve des vices cachés\n\nLe Cabinet Plouton identifie précisément les défauts qui rendent votre bien impropre à l’usage prévu ou diminuent sensiblement sa valeur. En s’appuyant sur l’article 1641 du Code civil, nous collectons rigoureusement les preuves (expertise amiable ou judiciaire, rapports techniques, constats d’huissiers) démontrant l'existence du vice et son antériorité à la vente.\n\n​\n\nActions en justice adaptées\n\nSelon vos objectifs et la gravité du vice, deux actions principales peuvent être engagées :\n\n• Action rédhibitoire (Art. 1644 du Code civil) : annulation de la vente avec restitution du bien au vendeur et remboursement intégral du prix.\n\n• Action estimatoire : conservation du bien avec réduction du prix proportionnelle à la diminution de sa valeur réelle.\n\n​\n\nExpertise judiciaire et négociation amiable\n\nLe Cabinet Plouton organise rapidement une expertise judiciaire pour évaluer précisément la nature et l’étendue du vice, tout en conservant les preuves nécessaires. Nous privilégions également les négociations amiables afin de résoudre efficacement le différend en évitant des procédures judiciaires longues et coûteuses.\n\n​\n\nProtection contre les exclusions abusives\n\nGrâce à notre expertise en droit des assurances et des contrats, nous contestons toute exclusion abusive de garantie introduite par l'assureur ou le vendeur, notamment les clauses de renonciation au recours en garantie.\n\n​\n\nCas particulier des véhicules\n\nLors de l'achat d'un véhicule, les vices cachés sont des défauts graves, non apparents à l’achat, et antérieurs à la vente, rendant le véhicule impropre à son usage ou réduisant significativement sa valeur. Vous disposez d’un délai de deux ans à compter de la découverte du défaut pour agir en justice. Les recours possibles incluent l'annulation de la vente avec restitution du véhicule et remboursement du prix, ou la conservation du véhicule avec réduction du prix d’achat."
-        },
-        {
-          "heading": "",
-          "body": "Identification et preuve des vices cachés"
-        },
-        {
-          "heading": "",
-          "body": "Le Cabinet Plouton identifie précisément les défauts qui rendent votre bien impropre à l’usage prévu ou diminuent sensiblement sa valeur. En s’appuyant sur l’article 1641 du Code civil, nous collectons rigoureusement les preuves (expertise amiable ou judiciaire, rapports techniques, constats d’huissiers) démontrant l'existence du vice et son antériorité à la vente."
-        },
-        {
-          "heading": "",
-          "body": "Actions en justice adaptées"
-        },
-        {
-          "heading": "",
-          "body": "Selon vos objectifs et la gravité du vice, deux actions principales peuvent être engagées :"
-        },
-        {
-          "heading": "",
-          "body": "Expertise judiciaire et négociation amiable"
-        },
-        {
-          "heading": "",
-          "body": "Le Cabinet Plouton organise rapidement une expertise judiciaire pour évaluer précisément la nature et l’étendue du vice, tout en conservant les preuves nécessaires. Nous privilégions également les négociations amiables afin de résoudre efficacement le différend en évitant des procédures judiciaires longues et coûteuses."
-        },
-        {
-          "heading": "",
-          "body": "Protection contre les exclusions abusives"
-        },
-        {
-          "heading": "",
-          "body": "Grâce à notre expertise en droit des assurances et des contrats, nous contestons toute exclusion abusive de garantie introduite par l'assureur ou le vendeur, notamment les clauses de renonciation au recours en garantie."
-        },
-        {
-          "heading": "",
-          "body": "Cas particulier des véhicules"
-        },
-        {
-          "heading": "",
-          "body": "Lors de l'achat d'un véhicule, les vices cachés sont des défauts graves, non apparents à l’achat, et antérieurs à la vente, rendant le véhicule impropre à son usage ou réduisant significativement sa valeur. Vous disposez d’un délai de deux ans à compter de la découverte du défaut pour agir en justice. Les recours possibles incluent l'annulation de la vente avec restitution du véhicule et remboursement du prix, ou la conservation du véhicule avec réduction du prix d’achat."
+          "headingLevel": 3,
+          "body": "Le Cabinet Plouton vous accompagne dans l’action en garantie contre les vices cachés (Art. 1641 du Code civil), que vous soyez particulier ou professionnel. Lorsqu'un défaut caché affecte un bien acquis (immobilier, industriel ou véhicule), une action rapide est essentielle pour protéger vos droits.\n\nIdentification et preuve des vices cachés\n\nLe Cabinet Plouton identifie précisément les défauts qui rendent votre bien impropre à l’usage prévu ou diminuent sensiblement sa valeur. En s’appuyant sur l’article 1641 du Code civil, nous collectons rigoureusement les preuves (expertise amiable ou judiciaire, rapports techniques, constats d’huissiers) démontrant l'existence du vice et son antériorité à la vente.\n\nActions en justice adaptées\n\nSelon vos objectifs et la gravité du vice, deux actions principales peuvent être engagées :",
+          "bullets": [
+            "Action rédhibitoire (Art. 1644 du Code civil) : annulation de la vente avec restitution du bien au vendeur et remboursement intégral du prix.",
+            "Action estimatoire : conservation du bien avec réduction du prix proportionnelle à la diminution de sa valeur réelle."
+          ],
+          "children": [
+            {
+              "heading": "",
+              "body": "Expertise judiciaire et négociation amiable\n\nLe Cabinet Plouton organise rapidement une expertise judiciaire pour évaluer précisément la nature et l’étendue du vice, tout en conservant les preuves nécessaires. Nous privilégions également les négociations amiables afin de résoudre efficacement le différend en évitant des procédures judiciaires longues et coûteuses.\n\nProtection contre les exclusions abusives\n\nGrâce à notre expertise en droit des assurances et des contrats, nous contestons toute exclusion abusive de garantie introduite par l'assureur ou le vendeur, notamment les clauses de renonciation au recours en garantie.\n\nCas particulier des véhicules\n\nLors de l'achat d'un véhicule, les vices cachés sont des défauts graves, non apparents à l’achat, et antérieurs à la vente, rendant le véhicule impropre à son usage ou réduisant significativement sa valeur. Vous disposez d’un délai de deux ans à compter de la découverte du défaut pour agir en justice. Les recours possibles incluent l'annulation de la vente avec restitution du véhicule et remboursement du prix, ou la conservation du véhicule avec réduction du prix d’achat."
+            }
+          ]
         }
       ]
     },
@@ -131,35 +111,45 @@
       "blocks": [
         {
           "heading": "Gestion des Sinistres Complexes (Incendies, Inondations, Vols)",
-          "body": ""
-        },
-        {
-          "heading": "Incendies",
-          "body": "• Application de l’art. L125-1 du Code des assurances (catastrophes naturelles) : Le cabinet Plouton vous assiste dans la reconnaissance de l'état de catastrophe naturelle, en s'appuyant sur l'article L125-1 du Code des assurances et en vous aidant à rassembler les éléments de preuve nécessaires pour démontrer l'impact du sinistre sur votre activité.\n\n• Négociation des pertes d’exploitation et frais de décontamination (expertise comptable Art. 1478 CPC) : Face aux conséquences financières d'un incendie, le cabinet Plouton négocie avec votre assureur la prise en charge des pertes d'exploitation et des frais de décontamination. Le cabinet se base notamment sur l'expertise comptable et sur l'article 1478 du Code de Procédure Civile pour obtenir une indemnisation juste et complète, couvrant la totalité de vos préjudices."
-        },
-        {
-          "heading": "Inondations/ Sécheresse/ Tempêtes :",
-          "body": "• Reconnaissance de l’état de catastrophe naturelle (Arrêté interministériel requis) : Le cabinet Plouton vous aide à obtenir la reconnaissance de l'état de catastrophe naturelle suite à une inondation. Cette démarche nécessite un arrêté interministériel, et le cabinet vous accompagne dans la constitution de votre dossier et la défense de vos droits auprès des autorités compétentes.\n\n• Contestation des franchises abusives (Art. L121-4 Code assurances) : Le cabinet Plouton analyse les clauses de votre contrat d'assurance et conteste les franchises abusives appliquées par l'assureur en cas d'inondation. L'article L121-4 du Code des assurances est mobilisé pour garantir le respect de vos droits et la limitation des franchises à un niveau raisonnable."
-        },
-        {
-          "heading": "Vols/dommages industriels",
-          "body": "• Couverture des stocks et matériel via garantie « Tous Risques » (Art. L113-1) : Le cabinet Plouton vérifie que votre contrat d'assurance couvre bien les vols et les dommages industriels, notamment via la garantie \"Tous Risques\" prévue à l'article L113-1 du Code des assurances.\n\n• Recours contre les exclusions pour défaut d’alarme (Jurisprudence CA Paris, 2021) : En cas de vol ou de dommages industriels, l'assureur peut tenter d'exclure la garantie en raison d'un défaut d'alarme. Le cabinet Plouton s'appuie sur la jurisprudence récente, notamment celle de la Cour d'Appel de Paris en 2021, pour contester ces exclusions et faire valoir vos droits à indemnisation."
+          "headingLevel": 3,
+          "body": "",
+          "children": [
+            {
+              "heading": "Incendies",
+              "headingLevel": 4,
+              "bullets": [
+                "Application de l’art. L125-1 du Code des assurances (catastrophes naturelles) : Le cabinet Plouton vous assiste dans la reconnaissance de l'état de catastrophe naturelle, en s'appuyant sur l'article L125-1 du Code des assurances et en vous aidant à rassembler les éléments de preuve nécessaires pour démontrer l'impact du sinistre sur votre activité.",
+                "Négociation des pertes d’exploitation et frais de décontamination (expertise comptable Art. 1478 CPC) : Face aux conséquences financières d'un incendie, le cabinet Plouton négocie avec votre assureur la prise en charge des pertes d'exploitation et des frais de décontamination. Le cabinet se base notamment sur l'expertise comptable et sur l'article 1478 du Code de Procédure Civile pour obtenir une indemnisation juste et complète, couvrant la totalité de vos préjudices."
+              ]
+            },
+            {
+              "heading": "Inondations/ Sécheresse/ Tempêtes :",
+              "headingLevel": 4,
+              "bullets": [
+                "Reconnaissance de l’état de catastrophe naturelle (Arrêté interministériel requis) : Le cabinet Plouton vous aide à obtenir la reconnaissance de l'état de catastrophe naturelle suite à une inondation. Cette démarche nécessite un arrêté interministériel, et le cabinet vous accompagne dans la constitution de votre dossier et la défense de vos droits auprès des autorités compétentes.",
+                "Contestation des franchises abusives (Art. L121-4 Code assurances) : Le cabinet Plouton analyse les clauses de votre contrat d'assurance et conteste les franchises abusives appliquées par l'assureur en cas d'inondation. L'article L121-4 du Code des assurances est mobilisé pour garantir le respect de vos droits et la limitation des franchises à un niveau raisonnable."
+              ]
+            },
+            {
+              "heading": "Vols/dommages industriels",
+              "headingLevel": 4,
+              "bullets": [
+                "Couverture des stocks et matériel via garantie « Tous Risques » (Art. L113-1) : Le cabinet Plouton vérifie que votre contrat d'assurance couvre bien les vols et les dommages industriels, notamment via la garantie \"Tous Risques\" prévue à l'article L113-1 du Code des assurances.",
+                "Recours contre les exclusions pour défaut d’alarme (Jurisprudence CA Paris, 2021) : En cas de vol ou de dommages industriels, l'assureur peut tenter d'exclure la garantie en raison d'un défaut d'alarme. Le cabinet Plouton s'appuie sur la jurisprudence récente, notamment celle de la Cour d'Appel de Paris en 2021, pour contester ces exclusions et faire valoir vos droits à indemnisation."
+              ]
+            }
+          ]
         },
         {
           "heading": "Approche humaine et réactive",
-          "body": "Le cabinet Plouton met en œuvre des procédures spécifiques pour défendre au mieux les intérêts de ses clients professionnels :\n\n• Avances sur indemnisation (référé-provision Art. 809 CPC) : En cas de sinistre majeur impactant l'activité d'une entreprise, le cabinet Plouton peut solliciter une avance sur indemnisation auprès de la compagnie d'assurance via une procédure de référé-provision. Cette procédure, encadrée par l'article 809 du Code de Procédure Civile, permet d'obtenir rapidement des fonds pour faire face aux premières difficultés financières et relancer l'activité.\n\n• Sauvegarde des preuves : constats d’huissiers, rapports de pompiers (Art. 145 CPC) : La sauvegarde des preuves est essentielle pour obtenir une indemnisation complète et juste. Le cabinet Plouton met en œuvre tous les moyens nécessaires pour préserver les éléments de preuve du sinistre, notamment par le biais de constats d'huissiers et de rapports de pompiers. L'article 145 du Code de Procédure Civile permet de solliciter des mesures d'instruction pour conserver ou établir la preuve de faits importants pour la résolution du litige."
+          "headingLevel": 3,
+          "body": "Le cabinet Plouton met en œuvre des procédures spécifiques pour défendre au mieux les intérêts de ses clients professionnels :",
+          "bullets": [
+            "Avances sur indemnisation (référé-provision Art. 809 CPC) : En cas de sinistre majeur impactant l'activité d'une entreprise, le cabinet Plouton peut solliciter une avance sur indemnisation auprès de la compagnie d'assurance via une procédure de référé-provision. Cette procédure, encadrée par l'article 809 du Code de Procédure Civile, permet d'obtenir rapidement des fonds pour faire face aux premières difficultés financières et relancer l'activité.",
+            "Sauvegarde des preuves : constats d’huissiers, rapports de pompiers (Art. 145 CPC) : La sauvegarde des preuves est essentielle pour obtenir une indemnisation complète et juste. Le cabinet Plouton met en œuvre tous les moyens nécessaires pour préserver les éléments de preuve du sinistre, notamment par le biais de constats d'huissiers et de rapports de pompiers. L'article 145 du Code de Procédure Civile permet de solliciter des mesures d'instruction pour conserver ou établir la preuve de faits importants pour la résolution du litige."
+          ]
         }
       ]
     }
-  ],
-  "inlineLinks": [
-    {
-      "text": "Perte d'exploitation",
-      "href": "/droit-des-contrats-et-des-personnes/droit-assurances-particuliers-professionnels"
-    }
-  ],
-  "contactAside": {
-    "title": "Je prends rendez-vous maintenant !",
-    "text": "Les rendez-vous sont pris dans les 7 jours. En cas d’urgence, le rendez-vous peut être immédiat et même en dehors des horaires habituels du cabinet."
-  }
+  ]
 }

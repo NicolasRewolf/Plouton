@@ -5,6 +5,16 @@ Pas de jargon. 5 lignes max par livraison.
 
 ---
 
+## 2026-07-19 — Expertises : Droit des assurances (texte MD fidèle H2/H3/H4)
+
+- JSON réécrit depuis le MD Wix : 3 sections H2, 7 blocs H3, 3 H4 ; 16 puces
+- H4 Incendies / Inondations / Vols sous « Gestion des Sinistres Complexes » ; listes et texte exact
+- FAQ / formulaire / carrousel hors sections
+- Tests : `/droit-des-contrats-et-des-personnes/droit-assurances-particuliers-professionnels` — build OK
+- **15/15 expertises réécrites fidèles MD (chaîne #41–#56)**
+
+---
+
 ## 2026-07-19 — Expertises : Droit de la famille (texte MD fidèle H2/H3/H4)
 
 - JSON réécrit depuis le MD Wix : 4 sections H2, 8 blocs H3, 2 H4 ; 36 puces
