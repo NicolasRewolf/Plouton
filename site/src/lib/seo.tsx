@@ -68,7 +68,18 @@ export function organizationSchema(site: {
   cabinetId: string
   founderId: string
   rating: { value: string; count: number }
+  social?: {
+    facebook?: string
+    instagram?: string
+    linkedin?: string
+  }
 }) {
+  const sameAs = [
+    site.social?.facebook,
+    site.social?.instagram,
+    site.social?.linkedin,
+  ].filter(Boolean) as string[]
+
   return {
     "@context": "https://schema.org",
     "@type": ["Organization", "LegalService"],
@@ -78,6 +89,7 @@ export function organizationSchema(site: {
     url: site.url,
     telephone: site.phone.e164,
     email: site.email,
+    ...(sameAs.length ? { sameAs } : {}),
     address: {
       "@type": "PostalAddress",
       streetAddress: site.address.street,

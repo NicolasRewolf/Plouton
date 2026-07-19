@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
 import { getSite, readPageJson } from "@/lib/content"
 import { formObjets } from "@/lib/registry"
-import { JsonLd, organizationSchema } from "@/lib/seo"
+import { JsonLd, organizationSchema, withCanonicalOg } from "@/lib/seo"
 
 interface HonorairesPage {
   title: string
@@ -34,10 +34,11 @@ interface HonorairesPage {
 export function generateMetadata(): Metadata {
   const page = readPageJson<HonorairesPage>("honoraires-rendez-vous")
   if (!page) return {}
-  return {
+  return withCanonicalOg({
     title: { absolute: page.metaTitle },
     description: page.metaDescription,
-  }
+    path: "/honoraires-rendez-vous",
+  })
 }
 
 export default function HonorairesRendezVousPage() {

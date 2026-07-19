@@ -9,6 +9,7 @@ import { getAccueil, getEquipe, getSite } from "@/lib/content"
 import { publishedIndex } from "@/lib/queries"
 import { absoluteUrl, JsonLd, organizationSchema } from "@/lib/seo"
 
+
 export const metadata: Metadata = {
   alternates: { canonical: absoluteUrl("/") },
   openGraph: {

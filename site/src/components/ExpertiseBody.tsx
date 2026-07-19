@@ -97,6 +97,7 @@ export function linkify(text: string, links: InlineLink[] = []): ReactNode[] {
   })
 }
 
+
 function accentSplit(title: string, titleAccent?: string | null) {
   if (titleAccent && title.includes(titleAccent)) {
     const idx = title.indexOf(titleAccent)
