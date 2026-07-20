@@ -58,6 +58,11 @@ export interface PostRow {
 const INDEX_SELECT =
   "slug, title, excerpt, published_at, status, categories, category_ids, cover_image, minutes_to_read, url, view_count, author_slug"
 
+/** Supabase est-il configuré pour la lecture serveur ? (décision de source) */
+export function isSupabaseConfigured(): boolean {
+  return hasSecretEnv()
+}
+
 function hasSecretEnv(): boolean {
   return Boolean(
     process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.SUPABASE_SECRET_KEY
@@ -260,6 +265,26 @@ export async function listPostsMeta(): Promise<
   }
 
   return out
+}
+
+/**
+ * Article par slug, TOUS statuts (lecture admin).
+ * `null` = absent OU base injoignable ; l'appelant retombe sur l'instantané.
+ */
+export async function getPostAnyStatus(slug: string): Promise<Article | null> {
+  const client = secretClient()
+  if (!client) return null
+  const raw = decodeURIComponent(slug).normalize("NFC")
+  const { data, error } = await client
+    .from("posts")
+    .select("*")
+    .eq("slug", raw)
+    .maybeSingle()
+  if (error) {
+    console.warn(`[posts-db] getPostAnyStatus(${raw}): ${error.message}`)
+    return null
+  }
+  return data ? postRowToArticle(data as PostRow) : null
 }
 
 /** Index publié uniquement (listings publics). */
