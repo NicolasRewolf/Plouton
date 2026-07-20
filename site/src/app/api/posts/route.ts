@@ -6,7 +6,12 @@ import {
   isEditorJsDoc,
 } from "@/lib/article-body"
 import { isKnownAuthorSlug } from "@/lib/authors-db"
-import { isPostStatus, resolvePersistStatus, type PostStatus } from "@/lib/post-status"
+import {
+  DEFAULT_CATEGORY,
+  normalizeSlug,
+  readStatus,
+  validateSubmission,
+} from "@/lib/article-submission"
 import { detectNodeLoss, nodeLossMessage } from "@/lib/post-edit-loss"
 import { sanitizeEditorHtml } from "@/lib/tiptap/sanitize"
 import { bodyDocToHtml } from "@/lib/tiptap/body-doc"
@@ -49,29 +54,12 @@ function normalizeIncoming(body: Partial<Article>): Pick<Article, "body" | "body
   return { body: ["Contenu à rédiger."], bodyHtml: "<p></p>", bodyDoc: null }
 }
 
-/**
- * Statut absent = brouillon (cas légitime d'une création). Statut FOURNI mais
- * non reconnu = refus : l'ancienne version le coerçait silencieusement en
- * « draft », si bien qu'une demande de publication mal formée dépubliait
- * l'article en répondant 200 OK.
- */
-function readStatus(
-  raw: unknown,
-  publishedAt: string | undefined
-): { status: PostStatus } | { error: NextResponse } {
-  if (raw === undefined || raw === null || raw === "")
-    return { status: resolvePersistStatus("draft", publishedAt) }
-  if (!isPostStatus(raw))
-    return {
-      error: NextResponse.json(
-        {
-          error: `Statut inconnu « ${String(raw)} ». Attendu : draft, published, scheduled ou archived.`,
-          code: "UNKNOWN_STATUS",
-        },
-        { status: 400 }
-      ),
-    }
-  return { status: resolvePersistStatus(raw, publishedAt) }
+/** Erreurs de forme → 400 unique, avec le détail par champ. */
+function badRequest(errors: { field: string; message: string }[]) {
+  return NextResponse.json(
+    { error: errors.map((e) => e.message).join(" · "), code: "INVALID_SUBMISSION", errors },
+    { status: 400 }
+  )
 }
 
 /** P1-A — auteur hors référentiel = refus (plus de GUID libre). */
@@ -108,13 +96,12 @@ export async function POST(req: Request) {
   const user = await requireAdmin()
   if (!user) return NextResponse.json({ error: "non autorisé" }, { status: 401 })
 
-  const body = await readJsonBody<Partial<Article>>(req)
-  if (!body)
-    return NextResponse.json({ error: "corps JSON illisible" }, { status: 400 })
-  if (!body.slug || !body.title)
-    return NextResponse.json({ error: "slug et title requis" }, { status: 400 })
+  const raw = await readJsonBody<unknown>(req)
+  const parsed = validateSubmission(raw, { requireTitle: true })
+  if (!parsed.ok) return badRequest(parsed.errors)
+  const body = parsed.value
 
-  const slug = body.slug.replace(/[^a-z0-9-àâäéèêëïîôùûüç]/gi, "-").toLowerCase()
+  const slug = normalizeSlug(body.slug)
 
   // `saveArticle` fait un upsert sur `slug` : sans ce contrôle, créer un
   // article dont le slug existe déjà écrasait l'article en ligne — sans
@@ -136,15 +123,12 @@ export async function POST(req: Request) {
 
   const publishedAt = body.publishedAt || new Date().toISOString().slice(0, 10)
   const statusRead = readStatus(body.status, publishedAt)
-  if ("error" in statusRead) return statusRead.error
+  if (!statusRead.ok) return badRequest([{ field: "status", message: statusRead.message }])
   const normalized = normalizeIncoming(body)
-  const categories = body.categories?.length
-    ? body.categories
-    : ["Ressources et notions juridiques"]
-  const categoryIds =
-    body.categoryIds?.length
-      ? body.categoryIds
-      : await resolveCategoryIdsFromLabels(categories)
+  const categories = body.categories?.length ? body.categories : [DEFAULT_CATEGORY]
+  // Les identifiants de rubrique sont DÉRIVÉS, jamais reçus : les accepter du
+  // client, c'était le laisser rattacher un article à n'importe quelle rubrique.
+  const categoryIds = await resolveCategoryIdsFromLabels(categories)
   const article: Article = {
     slug,
     title: body.title,
@@ -163,11 +147,8 @@ export async function POST(req: Request) {
     coverImage: body.coverImage,
     tags: body.tags,
     categoryIds,
-    wixId: body.wixId,
-    url: body.url,
     minutesToRead: body.minutesToRead,
-    viewCount: body.viewCount,
-    updatedAt: body.updatedAt || new Date().toISOString().slice(0, 10),
+    updatedAt: new Date().toISOString().slice(0, 10),
   }
   try {
     await getStore().saveArticle(article)
@@ -183,10 +164,10 @@ export async function PUT(req: Request) {
   const user = await requireAdmin()
   if (!user) return NextResponse.json({ error: "non autorisé" }, { status: 401 })
 
-  const body = await readJsonBody<Article & { confirmContentLoss?: boolean }>(req)
-  if (!body)
-    return NextResponse.json({ error: "corps JSON illisible" }, { status: 400 })
-  if (!body.slug) return NextResponse.json({ error: "slug requis" }, { status: 400 })
+  const raw = await readJsonBody<unknown>(req)
+  const parsed = validateSubmission(raw)
+  if (!parsed.ok) return badRequest(parsed.errors)
+  const body = parsed.value
 
   const previous = await resolveAnyArticle(body.slug)
 
@@ -217,7 +198,7 @@ export async function PUT(req: Request) {
     ? body.categories
     : previous?.categories?.length
       ? previous.categories
-      : ["Ressources et notions juridiques"]
+      : [DEFAULT_CATEGORY]
   const categoryIds = await resolveCategoryIdsFromLabels(categories)
   const authorSlug = body.authorSlug || body.authorId || previous?.authorSlug
   const authorErr = await assertAuthorSlug(authorSlug)
@@ -226,7 +207,7 @@ export async function PUT(req: Request) {
   const reviewerErr = await assertAuthorSlug(reviewerSlug)
   if (reviewerErr) return reviewerErr
   const statusRead = readStatus(body.status, publishedAt)
-  if ("error" in statusRead) return statusRead.error
+  if (!statusRead.ok) return badRequest([{ field: "status", message: statusRead.message }])
 
   if (previous) {
     await insertPostVersion({
@@ -236,22 +217,42 @@ export async function PUT(req: Request) {
     })
   }
 
+  // Construit CHAMP PAR CHAMP, plus par étalement du corps reçu.
+  // `{ ...body }` laissait le client écrire n'importe quelle colonne — un
+  // compteur de vues, une URL canonique, une date de relecture antidatée —
+  // en glissant simplement un champ de plus dans le JSON. Ce qui n'est pas
+  // saisi par l'avocat vient désormais de l'article existant, ou du serveur.
   const article: Article = {
-    ...body,
+    slug: body.slug,
+    title: body.title ?? previous?.title ?? "",
+    excerpt: body.excerpt ?? previous?.excerpt ?? "",
     publishedAt,
     status: statusRead.status,
+    author: body.author ?? previous?.author ?? "Cabinet Plouton",
+    authorId: body.authorId || previous?.authorId,
+    authorSlug,
+    reviewerSlug: reviewerSlug || undefined,
+    // Horodatage posé par le SERVEUR : une relecture ne s'antidate pas.
+    reviewedAt: reviewerSlug
+      ? previous?.reviewerSlug === reviewerSlug && previous?.reviewedAt
+        ? previous.reviewedAt
+        : new Date().toISOString()
+      : undefined,
     categories,
     categoryIds,
-    authorSlug,
-    authorId: body.authorId || previous?.authorId,
-    reviewerSlug: reviewerSlug || undefined,
-    reviewedAt: reviewerSlug
-      ? body.reviewedAt || new Date().toISOString()
-      : undefined,
+    tags: body.tags ?? previous?.tags,
+    metaTitle: body.metaTitle ?? previous?.metaTitle,
+    metaDescription: body.metaDescription ?? previous?.metaDescription,
+    coverImage: body.coverImage ?? previous?.coverImage,
+    minutesToRead: body.minutesToRead ?? previous?.minutesToRead,
+    // Dérivés ou hérités — jamais reçus du client.
+    url: previous?.url,
+    wixId: previous?.wixId,
+    viewCount: previous?.viewCount,
     body: normalized.body,
     bodyHtml: normalized.bodyHtml,
     bodyDoc: normalized.bodyDoc,
-    updatedAt: body.updatedAt || new Date().toISOString().slice(0, 10),
+    updatedAt: new Date().toISOString().slice(0, 10),
   }
   try {
     await getStore().saveArticle(article)

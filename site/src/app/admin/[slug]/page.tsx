@@ -5,10 +5,7 @@ import { useParams, useRouter } from "next/navigation"
 import { useEffect, useRef, useState, type FormEvent } from "react"
 import { AdminEditorLazy } from "@/components/admin/AdminEditorLazy"
 import { AdminPostMeta } from "@/components/admin/AdminPostMeta"
-import {
-  articleToEditorHtml,
-  htmlToParagraphs,
-} from "@/lib/article-body"
+import { articleToEditorHtml } from "@/lib/article-body"
 import type { Article } from "@/lib/content"
 import { statusLabel, todayIsoDate, type PostStatus } from "@/lib/post-status"
 
@@ -110,22 +107,14 @@ export default function EditPostPage() {
       authorId: authorSlug || article.authorId,
       authorSlug: authorSlug || article.authorSlug,
       reviewerSlug: reviewerSlug || undefined,
-      reviewedAt: reviewerSlug
-        ? new Date().toISOString()
-        : undefined,
       publishedAt,
       metaTitle: metaTitle || undefined,
       metaDescription: metaDescription || undefined,
       coverImage: coverImage || null,
-      categories: categoryLabels.length
-        ? categoryLabels
-        : article.categories?.length
-          ? article.categories
-          : ["Ressources et notions juridiques"],
+      categories: categoryLabels.length ? categoryLabels : article.categories,
       status,
       bodyHtml,
       bodyDoc: bodyDoc || undefined,
-      body: htmlToParagraphs(bodyHtml),
       confirmContentLoss: confirmContentLoss || undefined,
     }
     const res = await fetch("/api/posts", {
