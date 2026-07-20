@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation"
 import { useRef, useState, type FormEvent } from "react"
 import { AdminEditorLazy } from "@/components/admin/AdminEditorLazy"
 import { AdminPostMeta } from "@/components/admin/AdminPostMeta"
-import { htmlToParagraphs } from "@/lib/article-body"
+import { normalizeSlug } from "@/lib/article-submission"
 import { todayIsoDate, type PostStatus } from "@/lib/post-status"
 
 export default function NewPostPage() {
@@ -32,14 +32,9 @@ export default function NewPostPage() {
     setError("")
     const fd = new FormData(form)
     const title = String(fd.get("title") || "")
-    const slug =
-      String(fd.get("slug") || "") ||
-      title
-        .toLowerCase()
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/^-|-$/g, "")
+    // Règle unique, partagée avec le serveur : les accents sont conservés,
+    // comme sur les 422 articles migrés depuis Wix.
+    const slug = normalizeSlug(String(fd.get("slug") || "") || title)
     const res = await fetch("/api/posts", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -58,7 +53,6 @@ export default function NewPostPage() {
         categories: categoryLabels.length ? categoryLabels : undefined,
         bodyHtml,
         bodyDoc: bodyDoc || undefined,
-        body: htmlToParagraphs(bodyHtml),
       }),
     })
     setSaving(false)

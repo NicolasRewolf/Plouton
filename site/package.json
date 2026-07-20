@@ -10,7 +10,8 @@
     "check:roundtrip": "tsx scripts/check-editor-roundtrip.mjs",
     "check:edit-loss": "tsx scripts/check-edit-loss.mjs",
     "regen:body-html": "tsx scripts/regen-body-html.mjs",
-    "check:sources": "tsx scripts/check-content-source.mjs"
+    "check:sources": "tsx scripts/check-content-source.mjs",
+    "check:submission": "tsx scripts/check-submission.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.3",
