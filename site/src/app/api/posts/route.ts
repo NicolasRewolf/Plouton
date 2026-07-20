@@ -1,8 +1,5 @@
 import { NextResponse } from "next/server"
-import {
-  getArticle,
-  type Article,
-} from "@/lib/content"
+import { type Article } from "@/lib/content"
 import {
   hasUsableHtml,
   htmlToParagraphs,
@@ -14,16 +11,16 @@ import { detectNodeLoss, nodeLossMessage } from "@/lib/post-edit-loss"
 import { sanitizeEditorHtml } from "@/lib/tiptap/sanitize"
 import { bodyDocToHtml } from "@/lib/tiptap/body-doc"
 import { archivePost, insertPostVersion, resolveCategoryIdsFromLabels } from "@/lib/posts-db"
-import { resolveAdminArticleList, resolveBodyDoc } from "@/lib/posts-public"
+import {
+  resolveAdminArticleList,
+  resolveAnyArticle,
+  resolveBodyDoc,
+} from "@/lib/posts-public"
 import { revalidatePostSurfaces } from "@/lib/revalidate-posts"
-import { getStore, type ContentStore } from "@/lib/store"
+import { getStore } from "@/lib/store"
 import { requireAdmin, readJsonBody } from "@/lib/require-admin"
 
 export const runtime = "nodejs"
-
-interface StoreWithGet extends ContentStore {
-  getArticleBySlug?(slug: string): Promise<Article | null>
-}
 
 
 
@@ -100,12 +97,7 @@ export async function GET(req: Request) {
   const { searchParams } = new URL(req.url)
   const slug = searchParams.get("slug")
   if (slug) {
-    const store = getStore() as StoreWithGet
-    if (store.getArticleBySlug) {
-      const fromDb = await store.getArticleBySlug(slug)
-      if (fromDb) return NextResponse.json(fromDb)
-    }
-    const article = getArticle(slug)
+    const article = await resolveAnyArticle(slug)
     if (!article) return NextResponse.json({ error: "introuvable" }, { status: 404 })
     return NextResponse.json(article)
   }
@@ -128,11 +120,7 @@ export async function POST(req: Request) {
   // article dont le slug existe déjà écrasait l'article en ligne — sans
   // snapshot de version (POST n'en prend pas) et sans garde anti-perte
   // (réservée au PUT). Le seul chemin de destruction totale et silencieuse.
-  const storeForCheck = getStore() as StoreWithGet
-  const existing =
-    (storeForCheck.getArticleBySlug &&
-      (await storeForCheck.getArticleBySlug(slug))) ||
-    getArticle(slug)
+  const existing = await resolveAnyArticle(slug)
   if (existing)
     return NextResponse.json(
       {
@@ -200,10 +188,7 @@ export async function PUT(req: Request) {
     return NextResponse.json({ error: "corps JSON illisible" }, { status: 400 })
   if (!body.slug) return NextResponse.json({ error: "slug requis" }, { status: 400 })
 
-  const store = getStore() as StoreWithGet
-  const previous =
-    (store.getArticleBySlug && (await store.getArticleBySlug(body.slug))) ||
-    getArticle(body.slug)
+  const previous = await resolveAnyArticle(body.slug)
 
   const normalized = normalizeIncoming(body)
 
@@ -291,13 +276,10 @@ export async function DELETE(req: Request) {
   if (!ok) {
     // Fallback FsStore : marquer archived via save
     try {
-      const store = getStore() as StoreWithGet
-      const existing =
-        (store.getArticleBySlug && (await store.getArticleBySlug(slug))) ||
-        getArticle(slug)
+      const existing = await resolveAnyArticle(slug)
       if (!existing)
         return NextResponse.json({ error: "introuvable" }, { status: 404 })
-      await store.saveArticle({ ...existing, status: "archived" })
+      await getStore().saveArticle({ ...existing, status: "archived" })
     } catch (e) {
       const msg = e instanceof Error ? e.message : "échec archivage"
       return NextResponse.json({ error: msg }, { status: 500 })

@@ -1,19 +1,15 @@
 import { NextResponse } from "next/server"
-import { getArticle } from "@/lib/content"
 import {
   getPostVersion,
   insertPostVersion,
   listPostVersions,
 } from "@/lib/posts-db"
+import { resolveAnyArticle } from "@/lib/posts-public"
 import { revalidatePostSurfaces } from "@/lib/revalidate-posts"
-import { getStore, type ContentStore } from "@/lib/store"
+import { getStore } from "@/lib/store"
 import { requireAdmin } from "@/lib/require-admin"
 
 export const runtime = "nodejs"
-
-interface StoreWithGet extends ContentStore {
-  getArticleBySlug?(slug: string): Promise<import("@/lib/content").Article | null>
-}
 
 
 /** GET ?slug=… — liste des versions. POST { versionId } — restaurer. */
@@ -46,11 +42,7 @@ export async function POST(req: Request) {
   if (!version)
     return NextResponse.json({ error: "version introuvable" }, { status: 404 })
 
-  const store = getStore() as StoreWithGet
-  const current =
-    (store.getArticleBySlug &&
-      (await store.getArticleBySlug(version.post_slug))) ||
-    getArticle(version.post_slug)
+  const current = await resolveAnyArticle(version.post_slug)
   if (!current)
     return NextResponse.json({ error: "article introuvable" }, { status: 404 })
 
@@ -83,7 +75,7 @@ export async function POST(req: Request) {
   }
 
   try {
-    await store.saveArticle(restored)
+    await getStore().saveArticle(restored)
     revalidatePostSurfaces(version.post_slug)
   } catch (e) {
     const msg = e instanceof Error ? e.message : "échec restauration"
