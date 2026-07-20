@@ -71,3 +71,6 @@ yarn-error.log*
 .cache/
 reports/
 scripts/visual/node_modules/
+
+# État local de la CLI Supabase (project-ref, versions, pooler) — jamais versionné.
+supabase/.temp/
