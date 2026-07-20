@@ -84,6 +84,8 @@ export interface Article {
 
 export interface ArticleIndexItem {
   slug: string
+  /** Auteur porté par l'index (DB) — absent des entrées JSON héritées. */
+  authorSlug?: string
   title: string
   excerpt: string
   publishedAt: string
@@ -320,25 +322,6 @@ export const getArticle = cache(function getArticle(slug: string): Article | nul
   return readJson<Article>(path.join("articles", hit))
 })
 
-/** Arbre Ricos — archive git uniquement (gel admin P0-A).
- * Runtime public : `body_doc` / `body-html/` (brief #18 P1-D). */
-export const getRicos = cache(function getRicos(
-  slug: string
-): { slug: string; ricos: { nodes: unknown[] } } | null {
-  const raw = decodeURIComponent(slug).normalize("NFC")
-  const candidates = [raw, slug.normalize("NFC"), slug]
-  for (const s of candidates) {
-    const rel = path.join("ricos", `${s}.json`)
-    if (fs.existsSync(path.join(root, rel))) return readJson(rel)
-  }
-  const dir = path.join(root, "ricos")
-  if (!fs.existsSync(dir)) return null
-  const target = raw.normalize("NFC")
-  const hit = fs
-    .readdirSync(dir)
-    .find((f) => f.endsWith(".json") && f.slice(0, -5).normalize("NFC") === target)
-  return hit ? readJson(path.join("ricos", hit)) : null
-})
 
 /** Document ProseMirror (contenu/body-docs/) — source de vérité corps. */
 export const getBodyDoc = cache(function getBodyDoc(
@@ -449,17 +432,6 @@ export function listAuthors(): Author[] {
   return readJson<Author[]>("auteurs.json")
 }
 
-export function getAuthor(article: Article): Author | null {
-  const authors = listAuthors()
-  return (
-    authors.find((a) => a.id === article.authorSlug) ??
-    authors.find((a) => a.id === article.authorId) ??
-    authors.find((a) => a.wixId === article.author) ??
-    authors.find((a) => a.displayName === article.author) ??
-    authors.find((a) => a.shortName === article.author) ??
-    null
-  )
-}
 
 /** Résout authors.id depuis author / authorId (seed + admin). */
 export function resolveAuthorSlug(article: Pick<Article, "author" | "authorId" | "authorSlug">): string | null {
@@ -511,19 +483,6 @@ export const authorMetaByArticleSlug = cache(function authorMetaByArticleSlug():
   return map
 })
 
-/** @deprecated Preférer authorMetaByArticleSlug */
-export const authorNamesBySlug = cache(function authorNamesBySlug(): Record<string, string> {
-  const meta = authorMetaByArticleSlug()
-  const map: Record<string, string> = {}
-  for (const [slug, m] of Object.entries(meta)) map[slug] = m.name
-  return map
-})
-
-export function getExpertiseCards() {
-  return readJson<
-    { title: string; domaineFiltre: string; url: string; synthese: string }[]
-  >("expertises-cards.json")
-}
 
 export function getEquipe(): TeamMember[] {
   return readJson<TeamMember[]>("equipe.json")

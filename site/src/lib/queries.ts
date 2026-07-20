@@ -1,12 +1,12 @@
 import {
   getExpertise,
-  getCategories,
   type Article,
   type ArticleIndexItem,
   type Category,
   type ExpertisePage,
   type FaqItem,
 } from "@/lib/content"
+import { resolveCategories } from "@/lib/categories-db"
 import { labelEquals, labelsOverlap } from "@/lib/category-match"
 import {
   resolvePublishedArticle,
@@ -42,9 +42,17 @@ export async function articlesOfCategory(category: Category): Promise<ArticleInd
   return index.filter((a) => articleMatchesCategory(a, category))
 }
 
-export function findCategoryBySlug(slugParam: string): Category | null {
+/**
+ * Rubrique par slug — sur le référentiel RÉSOLU (base puis JSON).
+ * Sur le seul JSON, une rubrique créée en base s'affichait dans les filtres
+ * mais sa page répondait 404.
+ */
+export async function findCategoryBySlug(
+  slugParam: string
+): Promise<Category | null> {
   const target = decodeURIComponent(slugParam).normalize("NFC")
-  return getCategories().find((c) => c.slug.normalize("NFC") === target) ?? null
+  const cats = await resolveCategories()
+  return cats.find((c) => c.slug.normalize("NFC") === target) ?? null
 }
 
 export async function articlesMatchingLabels(

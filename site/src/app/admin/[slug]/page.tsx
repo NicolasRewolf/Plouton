@@ -20,7 +20,7 @@ type VersionMeta = {
 }
 
 /** Sauvegarde en attente de confirmation : elle supprimerait du contenu. */
-type PendingLoss = { message: string; status: PostStatus }
+type PendingLoss = { message: string; status: PostStatus; stayOnPage: boolean }
 
 export default function EditPostPage() {
   const { slug } = useParams<{ slug: string }>()
@@ -91,7 +91,11 @@ export default function EditPostPage() {
       .catch(() => {})
   }, [slug])
 
-  async function save(status: PostStatus, confirmContentLoss = false) {
+  async function save(
+    status: PostStatus,
+    opts: { confirmContentLoss?: boolean; stayOnPage?: boolean } = {}
+  ) {
+    const { confirmContentLoss = false, stayOnPage = false } = opts
     if (!article || bodyHtml === null) return
     const form = formRef.current
     if (!form) return
@@ -138,7 +142,7 @@ export default function EditPostPage() {
       // Le serveur a mesuré une suppression de contenu : on la montre et on
       // laisse trancher, plutôt que d'échouer sur un message d'erreur.
       if (data.code === "CONTENT_LOSS" && data.error) {
-        setPendingLoss({ message: data.error, status })
+        setPendingLoss({ message: data.error, status, stayOnPage })
         return
       }
       setError(data.error || "Échec de l’enregistrement")
@@ -147,8 +151,10 @@ export default function EditPostPage() {
     setPendingLoss(null)
     setDirty(false)
     setArticle(next)
-    if (status === "draft") {
-      // Autosave / brouillon : rester sur la page
+    // L'autosave reste sur la page quel que soit le statut : il sauvegarde
+    // désormais en « published » quand l'article l'est, et renvoyer l'avocat
+    // vers la liste au milieu d'une phrase serait pire que le bug d'origine.
+    if (stayOnPage || status === "draft") {
       router.refresh()
       return
     }
@@ -165,7 +171,10 @@ export default function EditPostPage() {
       // Pas d'autosave tant qu'une suppression attend confirmation : elle
       // relancerait le même refus en boucle, bandeau après bandeau.
       if (!article || pendingLoss) return
-      void save("draft")
+      // Sauvegarder DANS le statut courant, jamais en « draft » : l'autosave
+      // envoyait "draft" en dur, si bien que modifier un article en ligne et
+      // s'interrompre 25 s le retirait du site public sans rien dire.
+      void save(article.status, { stayOnPage: true })
     }, 25000)
   }
 
@@ -280,7 +289,12 @@ export default function EditPostPage() {
               type="button"
               className="admin-btn admin-btn-primary"
               disabled={saving}
-              onClick={() => void save(pendingLoss.status, true)}
+              onClick={() =>
+                void save(pendingLoss.status, {
+                  confirmContentLoss: true,
+                  stayOnPage: pendingLoss.stayOnPage,
+                })
+              }
             >
               Oui, enregistrer quand même
             </button>

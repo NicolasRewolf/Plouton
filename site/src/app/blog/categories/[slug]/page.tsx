@@ -19,7 +19,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>
 }): Promise<Metadata> {
   const { slug } = await params
-  const category = findCategory(slug)
+  const category = await findCategory(slug)
   if (!category) return {}
   return {
     title: { absolute: category.metaTitle ?? `Nos affaires | ${category.label}` },
@@ -36,7 +36,7 @@ export default async function CategoryPage({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params
-  const category = findCategory(slug)
+  const category = await findCategory(slug)
   if (!category) notFound()
   const site = getSite()
   const articles = await articlesOfCategory(category)

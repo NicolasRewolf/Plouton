@@ -15,7 +15,8 @@ import {
   type PostStatus,
 } from "@/lib/post-status"
 import type { Article, ArticleIndexItem } from "@/lib/content"
-import { getCategories, resolveAuthorSlug } from "@/lib/content"
+import { resolveAuthorSlug } from "@/lib/content"
+import { resolveCategories } from "@/lib/categories-db"
 import {
   editorJsToHtml,
   hasUsableHtml,
@@ -55,7 +56,7 @@ export interface PostRow {
 }
 
 const INDEX_SELECT =
-  "slug, title, excerpt, published_at, status, categories, category_ids, cover_image, minutes_to_read, url, view_count"
+  "slug, title, excerpt, published_at, status, categories, category_ids, cover_image, minutes_to_read, url, view_count, author_slug"
 
 function hasSecretEnv(): boolean {
   return Boolean(
@@ -177,10 +178,14 @@ export function postRowToIndexItem(
     | "minutes_to_read"
     | "url"
     | "view_count"
+    | "author_slug"
   >
 ): ArticleIndexItem {
   return {
     slug: row.slug,
+    // Porté par l'index pour que la page auteur n'ait plus à relire un
+    // fichier JSON — inexistant pour un article créé depuis l'admin.
+    authorSlug: row.author_slug || undefined,
     title: row.title,
     excerpt: row.excerpt || "",
     publishedAt: row.published_at || "",
@@ -219,23 +224,6 @@ export async function getPublishedPost(slug: string): Promise<Article | null> {
   return postRowToArticle(row)
 }
 
-/** Statut DB d’un slug (sans filtre) — null si absent / pas de Supabase. */
-export async function getPostStatus(slug: string): Promise<PostStatus | null> {
-  const client = secretClient()
-  if (!client) return null
-  const raw = decodeURIComponent(slug).normalize("NFC")
-  const { data, error } = await client
-    .from("posts")
-    .select("status")
-    .eq("slug", raw)
-    .maybeSingle()
-  if (error) {
-    console.warn(`[posts-db] getPostStatus(${raw}): ${error.message}`)
-    return null
-  }
-  if (!data) return null
-  return isPostStatus(data.status) ? data.status : "draft"
-}
 
 /** Meta légère tous statuts (admin + merge public). */
 export async function listPostsMeta(): Promise<
@@ -309,9 +297,16 @@ export async function archivePost(slug: string): Promise<boolean> {
   return true
 }
 
-/** Labels → category_ids (référentiel contenu/categories.json). */
-export function resolveCategoryIdsFromLabels(labels: string[]): string[] {
-  const cats = getCategories()
+/**
+ * Labels → category_ids, sur le référentiel RÉSOLU (base puis JSON).
+ *
+ * Sur le seul JSON, une rubrique créée en base restait inconnue ici : les
+ * articles sauvegardés ne recevaient aucun `category_id` pour elle.
+ */
+export async function resolveCategoryIdsFromLabels(
+  labels: string[]
+): Promise<string[]> {
+  const cats = await resolveCategories()
   const byLabel = new Map(cats.map((c) => [c.label, c.id]))
   const ids: string[] = []
   for (const label of labels) {
@@ -325,6 +320,8 @@ export type PostVersionRow = {
   id: number
   post_slug: string
   body_html: string | null
+  /** Source ProseMirror. NULL pour les versions d'avant la migration 0012. */
+  body_doc: Article["bodyDoc"] | null
   body: unknown
   title: string | null
   categories: string[] | null
@@ -345,6 +342,9 @@ export async function insertPostVersion(opts: {
   const { error } = await client.from("post_versions").insert({
     post_slug: opts.slug,
     body_html: opts.article.bodyHtml ?? null,
+    // La source, pas seulement son rendu (migration 0012) : sans elle, une
+    // restauration était défaite par la sauvegarde suivante.
+    body_doc: opts.article.bodyDoc ?? null,
     body: opts.article.body ?? null,
     title: opts.article.title ?? null,
     categories: opts.article.categories ?? [],

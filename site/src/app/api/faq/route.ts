@@ -10,22 +10,10 @@ import {
 import { FAQ_EXPERTISE_OPTIONS } from "@/lib/faq-expertises"
 import { revalidatePath, revalidateTag } from "next/cache"
 import { FAQ_CACHE_TAG } from "@/lib/faq-db"
-import { supabaseServer } from "@/lib/supabase/server"
+import { requireAdmin } from "@/lib/require-admin"
 
 export const runtime = "nodejs"
 
-async function requireAdmin() {
-  try {
-    const supabase = await supabaseServer()
-    const {
-      data: { user },
-    } = await supabase.auth.getUser()
-    if (!user) return null
-    return user
-  } catch {
-    return null
-  }
-}
 
 function isValidSlug(slug: string): boolean {
   return FAQ_EXPERTISE_OPTIONS.some((o) => o.slug === slug)

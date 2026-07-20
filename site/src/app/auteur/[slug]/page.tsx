@@ -53,6 +53,13 @@ export default async function AuteurPage({
   const index = await resolvePublishedIndex()
   const cards = index
     .filter((item) => {
+      // L'auteur est porté par l'index. Le filtre relisait auparavant
+      // `contenu/articles/{slug}.json` et écartait l'article quand le fichier
+      // n'existait pas — c'est-à-dire pour tout article écrit depuis l'admin,
+      // qui disparaissait donc de la page de son propre auteur.
+      if (item.authorSlug) return item.authorSlug === author.id
+      // Entrées héritées de l'index JSON : pas d'auteur porté, on retombe
+      // sur le fichier.
       const full = getArticle(item.slug)
       if (!full) return false
       return (

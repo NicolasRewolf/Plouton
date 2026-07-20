@@ -72,7 +72,15 @@ async function fetchAuthorsFromDb(): Promise<Author[] | null> {
 const cachedAuthors = unstable_cache(
   async () => fetchAuthorsFromDb(),
   ["authors-list"],
-  { tags: [AUTHORS_CACHE_TAG] }
+  {
+    tags: [AUTHORS_CACHE_TAG],
+    // Ces données se modifient aussi DIRECTEMENT en base (console
+    // Supabase), sans passer par une route qui pourrait invalider.
+    // Sans fenêtre, `unstable_cache` les gardait indéfiniment — et il
+    // persiste à travers les redéploiements, donc même une remise en
+    // ligne ne les rafraîchissait pas. Une heure borne la dérive.
+    revalidate: 3600,
+  }
 )
 
 /** DB puis JSON (signatures blog uniquement). */

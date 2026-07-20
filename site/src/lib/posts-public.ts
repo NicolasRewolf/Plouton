@@ -158,6 +158,11 @@ export async function resolveAdminArticleList(): Promise<
   (ArticleIndexItem & { status: PostStatus })[]
 > {
   const fromDb = await listAdminPosts()
-  if (fromDb?.length) return fromDb
+  // Même sémantique que `fetchPublishedIndexMerged` : c'est la JOIGNABILITÉ de
+  // la base qui décide, pas le fait qu'elle contienne des lignes. L'ancien
+  // `fromDb?.length` retombait sur le JSON dès que la table était vide — la
+  // liste admin affichait alors 422 articles « publiés » pendant que le site
+  // public, lui, n'en montrait aucun. Le tableau de bord masquait la panne.
+  if (fromDb) return fromDb
   return listArticleIndex().map((a) => ({ ...a, status: "published" as const }))
 }

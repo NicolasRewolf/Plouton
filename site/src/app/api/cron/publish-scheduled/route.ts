@@ -13,7 +13,18 @@ export const dynamic = "force-dynamic"
 export async function GET(req: Request) {
   const secret = process.env.CRON_SECRET
   const auth = req.headers.get("authorization") || ""
-  if (secret && auth !== `Bearer ${secret}`) {
+  // Échouer FERMÉ. La garde s'écrivait `if (secret && auth !== …)` : sans
+  // CRON_SECRET défini, la condition tombait et la route — qui publie en
+  // masse — devenait appelable par n'importe qui. Un secret absent est une
+  // erreur de configuration, pas une permission.
+  if (!secret) {
+    console.error("[cron] CRON_SECRET absente — route refusée")
+    return NextResponse.json(
+      { error: "cron non configuré (CRON_SECRET absente)" },
+      { status: 503 }
+    )
+  }
+  if (auth !== `Bearer ${secret}`) {
     return NextResponse.json({ error: "non autorisé" }, { status: 401 })
   }
 
