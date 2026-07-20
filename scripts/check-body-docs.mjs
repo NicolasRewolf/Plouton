@@ -59,14 +59,22 @@ if (orphanDocs.length) {
 
 const ricosTotals = {}
 const pmTotals = {}
-/** HTML vides → null côté convertisseur (comme TS) : on ne les compte pas pour l'assertion. */
+/**
+ * Un nœud HTML est convertible s'il porte du markup inline (`html`) OU une
+ * `url` d'embed distant (Wix stocke les deux formes — ex. un replay TF1).
+ * Seuls les nœuds sans l'un ni l'autre sont réellement vides.
+ */
 let convertibleHtml = 0
 let compared = 0
 
 function countConvertibleHtml(nodes) {
   let n = 0
   for (const node of nodes || []) {
-    if (node.type === "HTML" && (node.htmlData?.html || "").trim()) n++
+    if (
+      node.type === "HTML" &&
+      ((node.htmlData?.html || "").trim() || (node.htmlData?.url || "").trim())
+    )
+      n++
     if (node.nodes) n += countConvertibleHtml(node.nodes)
   }
   return n

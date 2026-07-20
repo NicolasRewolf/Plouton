@@ -67,8 +67,6 @@ export function AdminPostMeta({
 }: AdminPostMetaProps) {
   const [categories, setCategories] = useState<CategoryOpt[]>([])
   const [authors, setAuthors] = useState<AuthorOpt[]>([])
-  const [selectedAuthor, setSelectedAuthor] = useState(authorSlug || "")
-  const [selectedReviewer, setSelectedReviewer] = useState(reviewerSlug || "")
 
   useEffect(() => {
     fetch("/api/categories")
@@ -85,13 +83,9 @@ export function AdminPostMeta({
       .catch(() => {})
   }, [])
 
-  useEffect(() => {
-    setSelectedAuthor(authorSlug || "")
-  }, [authorSlug])
-
-  useEffect(() => {
-    setSelectedReviewer(reviewerSlug || "")
-  }, [reviewerSlug])
+  // Composant contrôlé : `authorSlug` / `reviewerSlug` SONT la valeur.
+  // Pas de state miroir + useEffect (renders en cascade, et la valeur
+  // affichée pouvait diverger de la prop le temps d'un rendu).
 
   function toggleCategory(label: string) {
     if (categoryLabels.includes(label)) {
@@ -102,7 +96,6 @@ export function AdminPostMeta({
   }
 
   function onAuthorSelect(id: string) {
-    setSelectedAuthor(id)
     const a = authors.find((x) => x.id === id)
     if (a && onAuthorChange) {
       onAuthorChange({
@@ -134,7 +127,7 @@ export function AdminPostMeta({
           Auteur
           <select
             name="authorSlug"
-            value={selectedAuthor}
+            value={authorSlug || ""}
             onChange={(e) => onAuthorSelect(e.target.value)}
             className="admin-input"
           >
@@ -152,11 +145,8 @@ export function AdminPostMeta({
           Relu par (optionnel)
           <select
             name="reviewerSlug"
-            value={selectedReviewer}
-            onChange={(e) => {
-              setSelectedReviewer(e.target.value)
-              onReviewerChange?.(e.target.value)
-            }}
+            value={reviewerSlug || ""}
+            onChange={(e) => onReviewerChange?.(e.target.value)}
             className="admin-input"
           >
             <option value="">— aucun —</option>

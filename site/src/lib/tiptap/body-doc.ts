@@ -3,7 +3,7 @@
  */
 import { renderToHTMLString } from "@tiptap/static-renderer"
 import { buildEditorExtensions } from "@/lib/tiptap/extensions"
-import type { PMNode } from "@/lib/tiptap/ricos-to-pm"
+import type { PMNode } from "@/lib/tiptap/pm-types"
 
 export function bodyDocToHtml(doc: PMNode | Record<string, unknown> | null | undefined): string {
   if (!doc || typeof doc !== "object") return "<p></p>"

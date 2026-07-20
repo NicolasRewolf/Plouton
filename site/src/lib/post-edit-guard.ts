@@ -1,7 +1,8 @@
 /**
  * P0-A — Empêche la destruction silencieuse des articles à markup riche.
- * TipTap actuel ne sait pas rouvrir TABLE / accordéons / galeries / etc.
- * Dès qu’on sauvegarde, preferDbBody bascule sur un HTML amputé.
+ * TipTap ne sait pas encore rouvrir certains nœuds (HTML brut, etc.) :
+ * ProseMirror les supprime au parsing, et la sauvegarde réécrit alors un
+ * corps amputé sans avertissement.
  *
  * Version **sans FS** (safe client + serveur). La couche Ricos est dans
  * `post-edit-guard-server.ts` (API uniquement).

@@ -22,10 +22,7 @@ import {
   listPublishedSlugs,
   POSTS_CACHE_TAG,
 } from "@/lib/posts-db"
-import {
-  hasUsableArticleBody,
-  hasUsableHtml,
-} from "@/lib/article-body"
+import { hasUsableHtml } from "@/lib/article-body"
 import { isPubliclyVisible, type PostStatus } from "@/lib/post-status"
 
 export { POSTS_CACHE_TAG }
@@ -62,16 +59,6 @@ export function resolveBodyDoc(
   if (article.bodyDoc && typeof article.bodyDoc === "object")
     return article.bodyDoc
   return getBodyDoc(article.slug)
-}
-
-export type PostBodyMode = "html" | "blocks"
-
-export function resolvePostBodyMode(article: Article): PostBodyMode {
-  const html = resolvePublicBodyHtml(article)
-  if (html) return "html"
-  if (Array.isArray(article.body) && hasUsableArticleBody(article.body))
-    return "blocks"
-  return "blocks"
 }
 
 async function fetchPublishedIndexMerged(): Promise<ArticleIndexItem[]> {
@@ -173,9 +160,4 @@ export async function resolveAdminArticleList(): Promise<
   const fromDb = await listAdminPosts()
   if (fromDb?.length) return fromDb
   return listArticleIndex().map((a) => ({ ...a, status: "published" as const }))
-}
-
-/** @deprecated Préférer resolvePublicBodyHtml — plus de bascule signature. */
-export function preferDbBody(article: Article): boolean {
-  return Boolean(article.bodyDoc) || hasUsableHtml(article.bodyHtml)
 }

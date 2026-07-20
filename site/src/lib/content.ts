@@ -280,13 +280,11 @@ export interface FaqItem {
   sousExpertise?: string
 }
 
-/** Cache process-wide for 422-file scans (SSG + hot paths). */
-let articlesCache: Article[] | null = null
+/** Cache process-wide (SSG + hot paths). */
 let articleIndexCache: ArticleIndexItem[] | null = null
 let categoriesCache: Category[] | null = null
 
 export function invalidateContentCaches() {
-  articlesCache = null
   articleIndexCache = null
   categoriesCache = null
 }
@@ -300,24 +298,6 @@ export function listArticleIndex(): ArticleIndexItem[] {
   if (articleIndexCache) return articleIndexCache
   articleIndexCache = readJson<ArticleIndexItem[]>("articles-index.json")
   return articleIndexCache
-}
-
-export function listArticles(): Article[] {
-  if (articlesCache) return articlesCache
-  const dir = path.join(root, "articles")
-  if (!fs.existsSync(dir)) {
-    articlesCache = []
-    return articlesCache
-  }
-  articlesCache = fs
-    .readdirSync(dir)
-    .filter((f) => f.endsWith(".json"))
-    .map((f) => readJson<Article>(path.join("articles", f)))
-    .sort(
-      (a, b) =>
-        new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-    )
-  return articlesCache
 }
 
 export const getArticle = cache(function getArticle(slug: string): Article | null {
@@ -465,11 +445,6 @@ export function readPageJson<T>(slug: string): T | null {
   return readJson<T>(path.join("pages", `${slug}.json`))
 }
 
-/** @deprecated Lecture FAQ = Supabase via getFaqForExpertise — JSON archivés. */
-export const getFaq = cache(function getFaq(_expertiseKey: string): FaqItem[] {
-  return []
-})
-
 export function listAuthors(): Author[] {
   return readJson<Author[]>("auteurs.json")
 }
@@ -605,7 +580,3 @@ export function getAccueil() {
   }>("pages/accueil.json")
 }
 
-export function publishedArticles(): ArticleIndexItem[] {
-  // Sync JSON only — listings publics C5 = `publishedIndex()` (async, DB ∪ JSON).
-  return listArticleIndex()
-}

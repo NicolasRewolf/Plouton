@@ -238,11 +238,13 @@ export const EnrichedLink = Mark.create({
   },
 })
 
-/** Extensions admin + rendu. Placeholder / Youtube optionnels côté serveur. */
-export function buildEditorExtensions(opts?: {
-  placeholder?: string
-  withPlaceholder?: boolean
-}) {
+/**
+ * Schéma partagé par l'éditeur admin et le rendu serveur (`body-doc.ts`) —
+ * c'est ce qui garantit qu'un article s'affiche comme il a été écrit.
+ * Le Placeholder est ajouté par `AdminEditor` seul (il n'a pas de sens au
+ * rendu) : ne pas réintroduire d'options ici sans les utiliser.
+ */
+export function buildEditorExtensions() {
   const list = [
     StarterKit.configure({
       heading: { levels: [2, 3, 4] },
