@@ -1,6 +1,21 @@
 import Link from "next/link"
 import dynamic from "next/dynamic"
 import type { ReactNode } from "react"
+import {
+  chooseSectionLayout,
+  isJunk,
+  isTelHref,
+  makeLinkResolver,
+  normalizeBlocks,
+  parseBulletItems,
+  splitBodyChunks,
+  type Block,
+  type BulletItem,
+  type CaseItem,
+  type InlineLink,
+  type LinkResolver,
+  type Rich as RichText,
+} from "@/lib/expertise-content"
 
 /** Simulateurs divorce — client islands, hors bundle hero. */
 const SimulatorPension = dynamic(() =>
@@ -11,17 +26,6 @@ const SimulatorPrestation = dynamic(() =>
     (m) => m.SimulatorPrestation
   )
 )
-
-interface Block {
-  heading: string
-  body: string
-  /** 3 = H3 (défaut), 4 = H4 — fidélité MD Wix. */
-  headingLevel?: 3 | 4
-  /** Liste à puces explicite (sinon markdown `- ` dans body). */
-  bullets?: string[]
-  /** Sous-blocs H4 sous un H3. */
-  children?: Block[]
-}
 
 type SectionSimulator = "pension-alimentaire" | "prestation-compensatoire"
 
@@ -40,121 +44,31 @@ function SectionSimulatorSlot({ type }: { type: SectionSimulator }) {
   return null
 }
 
-export interface InlineLink {
-  text: string
-  href: string
-}
-
-interface BulletItem {
-  title: string
-  body: string
-}
-
-interface CaseItem {
-  title: string
-  amount?: string
-  paragraphs: string[]
-}
-
-function cleanText(raw: string) {
-  return raw.replace(/\u200b/g, "").replace(/\s+/g, " ").trim()
-}
-
-function isJunk(text: string) {
-  const t = cleanText(text)
-  if (!t) return true
-  if (/^\d+$/.test(t)) return true
-  return false
-}
-
-function escapeRegExp(s: string) {
-  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-}
-
-/** Numéros d’urgence — cliquables en `tel:` (violences conjugales, etc.). */
-const EMERGENCY_TELS: InlineLink[] = [
-  { text: "3919", href: "tel:3919" },
-  { text: "119", href: "tel:119" },
-  { text: "17", href: "tel:17" },
-]
-
-function isTelHref(href: string) {
-  return href.startsWith("tel:")
-}
-
-/** Token court alphanumérique → bornes de mot (évite CIVI dans « civile »). */
-function linkPattern(text: string) {
-  const escaped = escapeRegExp(text)
-  if (text.length <= 6 && /^[A-Za-zÀ-ÖØ-öø-ÿ0-9]+$/i.test(text))
-    return `\\b${escaped}\\b`
-  return escaped
-}
-
 /**
- * Porte les liens d'une page ET la mémoire de ceux déjà posés.
+ * Affiche du texte déjà résolu en segments.
  *
- * Créé une fois par rendu de page puis passé aux sous-composants : c'est ce
- * qui permet de ne lier une expression qu'à sa PREMIÈRE occurrence sur toute
- * la page, et non une fois par bloc.
+ * Les liens ne sont plus recollés ici par une regex : ils arrivent en données,
+ * décidés une fois pour toute la page par `makeLinkResolver`.
  */
-export type Linker = { all: InlineLink[]; seen: Set<string> }
-
-export function makeLinker(links: InlineLink[] = []): Linker {
-  return { all: links, seen: new Set<string>() }
+export function Rich({ parts }: { parts: RichText }) {
+  return (
+    <>
+      {parts.map((part, i) =>
+        !part.href ? (
+          <span key={i}>{part.text}</span>
+        ) : isTelHref(part.href) ? (
+          <a key={i} href={part.href} className="link-inline font-medium">
+            {part.text}
+          </a>
+        ) : (
+          <Link key={i} href={part.href} className="link-inline font-medium">
+            {part.text}
+          </Link>
+        )
+      )}
+    </>
+  )
 }
-
-/** Réinjecte les liens internes harvestés du live (phrases → URLs) + urgences. */
-export function linkify(
-  text: string,
-  source: Linker | InlineLink[] = []
-): ReactNode[] {
-  if (!text) return []
-  // Un tableau nu (appelant hors ExpertiseBody) obtient une mémoire jetable :
-  // la déduplication vaut alors pour l'appel seul.
-  const linker: Linker = Array.isArray(source) ? makeLinker(source) : source
-  const links = linker.all
-
-  const usable = [...links, ...EMERGENCY_TELS]
-    .filter((l) => l.text && l.href)
-    .filter((l) => isTelHref(l.href) || l.text.length >= 4)
-    .sort((a, b) => b.text.length - a.text.length)
-
-  if (!usable.length) return [text]
-
-  const pattern = usable.map((l) => linkPattern(l.text)).join("|")
-  const re = new RegExp(`(${pattern})`, "gi")
-  const hrefByLower = new Map(usable.map((l) => [l.text.toLowerCase(), l.href]))
-
-  // Une même expression n'est liée qu'à sa PREMIÈRE occurrence DE LA PAGE.
-  // Sans ça, « garde à vue » devenait un lien à chacune de ses apparitions —
-  // sept fois sur /defense-penale/droit-penal — ce qui alourdit la lecture et
-  // dilue le maillage interne. Les numéros d'urgence font exception : on veut
-  // qu'ils restent composables partout où ils sont cités.
-  const linked = linker.seen
-
-  const parts = text.split(re)
-  return parts.map((part, i) => {
-    const key = part.toLowerCase()
-    const href = hrefByLower.get(key)
-    if (!href) return <span key={i}>{part}</span>
-    if (!isTelHref(href)) {
-      if (linked.has(key)) return <span key={i}>{part}</span>
-      linked.add(key)
-    }
-    if (isTelHref(href))
-      return (
-        <a key={i} href={href} className="link-inline font-medium">
-          {part}
-        </a>
-      )
-    return (
-      <Link key={i} href={href} className="link-inline font-medium">
-        {part}
-      </Link>
-    )
-  })
-}
-
 
 function accentSplit(title: string, titleAccent?: string | null) {
   if (titleAccent && title.includes(titleAccent)) {
@@ -182,171 +96,13 @@ function accentSplit(title: string, titleAccent?: string | null) {
   return { before: "", accent: null, after: title }
 }
 
-/** Dédoublonne le scrape Wix (paragraphes / titres répétés, numéros orphelins). */
-function normalizeBlocks(blocks: Block[]): Block[] {
-  const out: Block[] = []
-  const seenBodies = new Set<string>()
-
-  for (const b of blocks) {
-    const heading = cleanText(b.heading || "")
-    const body = (b.body || "").replace(/\u200b/g, "").trim()
-    const headingLevel = b.headingLevel === 4 ? 4 : b.headingLevel === 3 ? 3 : undefined
-    const bullets = Array.isArray(b.bullets)
-      ? b.bullets.map((x) => cleanText(x)).filter(Boolean)
-      : undefined
-    const children = b.children?.length ? normalizeBlocks(b.children) : undefined
-
-    if (isJunk(body) && !heading && !bullets?.length && !children?.length) continue
-
-    const bodyKey = cleanText(body).slice(0, 160).toLowerCase()
-    if (bodyKey && seenBodies.has(bodyKey) && !heading && !bullets?.length) continue
-    if (bodyKey) seenBodies.add(bodyKey)
-
-    // Drop body that only echoes the previous block (Wix scrape double),
-    // but keep a distinct heading even if the body was wrongly duplicated on Wix.
-    if (out.length) {
-      const prev = out[out.length - 1]
-      const bodyEchoesPrev =
-        Boolean(bodyKey) &&
-        cleanText(prev.body).slice(0, 120).toLowerCase() === bodyKey.slice(0, 120)
-      if (
-        bodyEchoesPrev &&
-        (!heading || heading === prev.heading) &&
-        !bullets?.length &&
-        !children?.length
-      )
-        continue
-    }
-
-    out.push({
-      heading,
-      body,
-      ...(headingLevel ? { headingLevel } : {}),
-      ...(bullets?.length ? { bullets } : {}),
-      ...(children?.length ? { children } : {}),
-    })
-  }
-  return out
-}
-
-function parseBulletItems(text: string): BulletItem[] | null {
-  const lines = text
-    .split(/\n+/)
-    .map((l) => l.trim())
-    .filter(Boolean)
-  const bulletLines = lines.filter((l) => /^[•\-–—]\s*/.test(l) || /^\d+[\.)]\s+/.test(l))
-  if (bulletLines.length < 2) return null
-
-  const items: BulletItem[] = []
-  for (const line of bulletLines) {
-    const raw = line.replace(/^[•\-–—]\s*/, "").replace(/^\d+[\.)]\s+/, "").trim()
-    const m = raw.match(/^(.{3,90}?)(?:\s*[:：]\s*|\s+[—–-]\s+)([\s\S]+)$/)
-    if (m) items.push({ title: m[1].trim(), body: m[2].trim() })
-    else items.push({ title: "", body: raw })
-  }
-  return items.length ? items : null
-}
-
-function extractAmount(title: string) {
-  const m = title.match(/(\d[\d\s.,]*\s*€)/)
-  return m ? m[1].replace(/\s+/g, "\u00a0") : undefined
-}
-
-/**
- * Titre d'affaire = résultat chiffré (montant €, gain multiplié, réévaluation).
- * Les mots seuls « indemnisation » / « soutien » sont trop courants dans les
- * titres d'étapes ordinaires : les inclure faisait basculer des sections
- * d'accompagnement en grille d'affaires (contenu perdu).
- */
-function looksLikeCaseTitle(title: string) {
-  return /\d[\d\s.,]*\s*€|multipliée\s+par\s+\d|réévaluation/i.test(title)
-}
-
-function groupCases(blocks: Block[]): CaseItem[] | null {
-  const headedBlocks = blocks.filter((b) => b.heading)
-  const headed = headedBlocks.filter((b) => looksLikeCaseTitle(b.heading))
-  if (headed.length < 2) return null
-  // Section mixte (titres d'étapes + titres d'affaires) → ce n'est pas une
-  // grille d'affaires : on laisse HeadedSteps rendre tous les titres.
-  if (headed.length !== headedBlocks.length) return null
-
-  const cases: CaseItem[] = []
-  let current: CaseItem | null = null
-  for (const b of blocks) {
-    if (b.heading && looksLikeCaseTitle(b.heading)) {
-      current = {
-        title: b.heading,
-        amount: extractAmount(b.heading),
-        paragraphs: b.body && !isJunk(b.body) ? [b.body] : [],
-      }
-      cases.push(current)
-      continue
-    }
-    if (current && b.body && !isJunk(b.body)) current.paragraphs.push(b.body)
-  }
-  return cases.length >= 2 ? cases : null
-}
-
-function isBulletLine(line: string) {
-  return /^[•\-–—*]\s+/.test(line) || /^\d+[\.)]\s+/.test(line)
-}
-
-function stripBulletPrefix(line: string) {
-  return line.replace(/^[•\-–—*]\s+/, "").replace(/^\d+[\.)]\s+/, "").trim()
-}
-
-/** Découpe body en paragraphes + groupes de listes (conserve les puces). */
-function splitBodyChunks(text: string): { type: "p" | "ul" | "h4"; value: string | string[] }[] {
-  const lines = text.replace(/\u200b/g, "").split(/\n/)
-  const chunks: { type: "p" | "ul" | "h4"; value: string | string[] }[] = []
-  let paraBuf: string[] = []
-  let listBuf: string[] = []
-
-  function flushPara() {
-    const t = paraBuf.join("\n").trim()
-    paraBuf = []
-    if (!t || isJunk(t)) return
-    const mdHeading = t.match(/^#{2,4}\s+(.+)$/)
-    if (mdHeading) {
-      chunks.push({ type: "h4", value: mdHeading[1].trim() })
-      return
-    }
-    chunks.push({ type: "p", value: t })
-  }
-
-  function flushList() {
-    if (!listBuf.length) return
-    chunks.push({ type: "ul", value: [...listBuf] })
-    listBuf = []
-  }
-
-  for (const raw of lines) {
-    const line = raw.trim()
-    if (!line) {
-      flushList()
-      flushPara()
-      continue
-    }
-    if (isBulletLine(line)) {
-      flushPara()
-      listBuf.push(stripBulletPrefix(line))
-      continue
-    }
-    flushList()
-    paraBuf.push(line)
-  }
-  flushList()
-  flushPara()
-  return chunks
-}
-
-function BulletList({ items, links }: { items: string[]; links: Linker }) {
+function BulletList({ items, links }: { items: string[]; links: LinkResolver }) {
   if (!items.length) return null
   return (
     <ul className="mt-3 list-disc space-y-2 pl-5 text-[15px] leading-[1.7] text-pretty text-navy/90 marker:text-accent">
       {items.map((item, i) => (
         <li key={i} className="pl-1">
-          {linkify(item, links)}
+          {<Rich parts={links.resolve(item)} />}
         </li>
       ))}
     </ul>
@@ -360,7 +116,7 @@ function Paragraphs({
 }: {
   text: string
   className?: string
-  links: Linker
+  links: LinkResolver
 }) {
   const chunks = splitBodyChunks(text)
   if (!chunks.length) return null
@@ -376,12 +132,12 @@ function Paragraphs({
               key={i}
               className="font-display text-[15px] font-medium leading-snug tracking-[-0.015em] text-navy text-balance sm:text-[16px]"
             >
-              {linkify(chunk.value as string, links)}
+              {<Rich parts={links.resolve(chunk.value as string)} />}
             </h4>
           )
         return (
           <p key={i} className={className || "text-[15px] leading-[1.7] text-pretty text-navy/90"}>
-            {linkify(chunk.value as string, links)}
+            {<Rich parts={links.resolve(chunk.value as string)} />}
           </p>
         )
       })}
@@ -396,22 +152,22 @@ function BlockHeading({
 }: {
   heading: string
   level: 3 | 4
-  links: Linker
+  links: LinkResolver
 }) {
   if (level === 4)
     return (
       <h4 className="font-display text-[15px] font-medium leading-snug tracking-[-0.015em] text-navy text-balance sm:text-[16px]">
-        {linkify(heading, links)}
+        {<Rich parts={links.resolve(heading)} />}
       </h4>
     )
   return (
     <h3 className="font-display text-[17px] font-medium leading-snug tracking-[-0.015em] text-navy text-balance sm:text-[18px]">
-      {linkify(heading, links)}
+      {<Rich parts={links.resolve(heading)} />}
     </h3>
   )
 }
 
-function BlockContent({ block, links }: { block: Block; links: Linker }) {
+function BlockContent({ block, links }: { block: Block; links: LinkResolver }) {
   const level: 3 | 4 = block.headingLevel === 4 ? 4 : 3
   const hasBody = Boolean(block.body && !isJunk(block.body))
   const hasBullets = Boolean(block.bullets?.length)
@@ -462,7 +218,7 @@ function Lead({ children }: { children: ReactNode }) {
   )
 }
 
-function StepList({ items, links }: { items: BulletItem[]; links: Linker }) {
+function StepList({ items, links }: { items: BulletItem[]; links: LinkResolver }) {
   return (
     <ol className="mt-8 space-y-4">
       {items.map((item, i) => (
@@ -476,13 +232,13 @@ function StepList({ items, links }: { items: BulletItem[]; links: Linker }) {
           <div className="min-w-0 pt-0.5">
             {item.title ? (
               <p className="font-display text-[16px] font-medium leading-snug tracking-[-0.015em] text-navy">
-                {linkify(item.title, links)}
+                {<Rich parts={links.resolve(item.title)} />}
               </p>
             ) : null}
             <p
               className={`text-[14px] leading-[1.65] text-pretty text-navy/80 sm:text-[15px] ${item.title ? "mt-1.5" : ""}`}
             >
-              {linkify(item.body, links)}
+              {<Rich parts={links.resolve(item.body)} />}
             </p>
           </div>
         </li>
@@ -491,7 +247,7 @@ function StepList({ items, links }: { items: BulletItem[]; links: Linker }) {
   )
 }
 
-function HeadedSteps({ blocks, links }: { blocks: Block[]; links: Linker }) {
+function HeadedSteps({ blocks, links }: { blocks: Block[]; links: LinkResolver }) {
   const steps = blocks.filter((b) => b.heading)
   if (!steps.length) return null
   return (
@@ -554,7 +310,7 @@ function HeadedSteps({ blocks, links }: { blocks: Block[]; links: Linker }) {
   )
 }
 
-function CaseGrid({ cases, links }: { cases: CaseItem[]; links: Linker }) {
+function CaseGrid({ cases, links }: { cases: CaseItem[]; links: LinkResolver }) {
   return (
     <div className="mt-8 grid gap-4 md:grid-cols-2">
       {cases.map((c) => (
@@ -568,12 +324,12 @@ function CaseGrid({ cases, links }: { cases: CaseItem[]; links: Linker }) {
             </p>
           ) : null}
           <h3 className="mt-2 font-display text-[16px] font-medium leading-snug tracking-[-0.015em] text-navy text-balance sm:text-[17px]">
-            {linkify(c.title, links)}
+            {<Rich parts={links.resolve(c.title)} />}
           </h3>
           <div className="mt-3 flex-1 space-y-2.5 text-[14px] leading-[1.65] text-navy/80">
             {c.paragraphs.map((p, i) => (
               <p key={i} className="text-pretty">
-                {linkify(p, links)}
+                {<Rich parts={links.resolve(p)} />}
               </p>
             ))}
           </div>
@@ -583,20 +339,20 @@ function CaseGrid({ cases, links }: { cases: CaseItem[]; links: Linker }) {
   )
 }
 
-function DefGrid({ items, links }: { items: BulletItem[]; links: Linker }) {
+function DefGrid({ items, links }: { items: BulletItem[]; links: LinkResolver }) {
   return (
     <div className="mt-8 grid gap-3 sm:grid-cols-2">
       {items.map((item, i) => (
         <div key={`${item.title}-${i}`} className="rounded-[16px] bg-fog/70 px-4 py-4 sm:px-5">
           {item.title ? (
             <p className="text-[14px] font-semibold leading-snug text-navy">
-              {linkify(item.title, links)}
+              {<Rich parts={links.resolve(item.title)} />}
             </p>
           ) : null}
           <p
             className={`text-[13px] leading-[1.6] text-pretty text-navy/75 sm:text-[14px] ${item.title ? "mt-1.5" : ""}`}
           >
-            {linkify(item.body, links)}
+            {<Rich parts={links.resolve(item.body)} />}
           </p>
         </div>
       ))}
@@ -604,7 +360,7 @@ function DefGrid({ items, links }: { items: BulletItem[]; links: Linker }) {
   )
 }
 
-function ProseBlocks({ blocks, links }: { blocks: Block[]; links: Linker }) {
+function ProseBlocks({ blocks, links }: { blocks: Block[]; links: LinkResolver }) {
   return (
     <div className="mt-7 space-y-8">
       {blocks.map((b, i) => (
@@ -614,70 +370,50 @@ function ProseBlocks({ blocks, links }: { blocks: Block[]; links: Linker }) {
   )
 }
 
-function wantsFidelityLayout(blocks: Block[]) {
-  return blocks.some(
-    (b) =>
-      b.headingLevel === 4 ||
-      Boolean(b.bullets?.length) ||
-      Boolean(b.children?.length)
-  )
-}
+/**
+ * Rend le corps d'une section.
+ *
+ * Le CHOIX de la disposition n'est plus fait ici : `chooseSectionLayout` le
+ * décide sur le contenu seul, et se teste sans monter un composant. Cette
+ * fonction ne fait plus que traduire cette décision en balisage.
+ */
+function renderSectionBody(blocks: Block[], links: LinkResolver) {
+  const layout = chooseSectionLayout(blocks)
 
-function renderSectionBody(blocks: Block[], links: Linker) {
-  // Structure explicite H3/H4 / bullets / children → rendu fidèle (pas d’heuristiques cartes).
-  if (wantsFidelityLayout(blocks)) return <ProseBlocks blocks={blocks} links={links} />
-
-  if (blocks.length === 1 && !blocks[0].heading) {
-    const bullets = parseBulletItems(blocks[0].body)
-    if (bullets && bullets.length >= 3) {
-      const titled = bullets.filter((b) => b.title).length
-      if (titled >= Math.ceil(bullets.length * 0.5)) return <StepList items={bullets} links={links} />
-      if (titled >= 4) return <DefGrid items={bullets} links={links} />
-      return <StepList items={bullets} links={links} />
-    }
+  switch (layout.kind) {
+    case "fidelity":
+    case "prose":
+      return <ProseBlocks blocks={blocks} links={links} />
+    case "steps":
+      return <StepList items={layout.items} links={links} />
+    case "definitions-only":
+      return <DefGrid items={layout.items} links={links} />
+    case "cases":
+      return <CaseGrid cases={layout.cases} links={links} />
+    case "headed-steps":
+      return <HeadedSteps blocks={blocks} links={links} />
+    case "definitions":
+      return (
+        <div className="mt-7 space-y-8">
+          {layout.block.heading ? (
+            <BlockHeading
+              heading={layout.block.heading}
+              level={layout.block.headingLevel === 4 ? 4 : 3}
+              links={links}
+            />
+          ) : null}
+          {layout.intro.length ? (
+            <div className="max-w-3xl space-y-3">
+              <Paragraphs text={layout.intro.join("\n\n")} links={links} />
+            </div>
+          ) : null}
+          <DefGrid items={layout.items} links={links} />
+          {layout.others.length ? (
+            <ProseBlocks blocks={layout.others} links={links} />
+          ) : null}
+        </div>
+      )
   }
-
-  const cases = groupCases(blocks)
-  if (cases) return <CaseGrid cases={cases} links={links} />
-
-  const headed = blocks.filter((b) => b.heading)
-  if (headed.length >= 2 && headed.length >= blocks.length * 0.4)
-    return <HeadedSteps blocks={blocks} links={links} />
-
-  const defBlock = blocks.find((b) => {
-    if (!b.body) return false
-    const bullets = parseBulletItems(b.body)
-    return !!bullets && bullets.filter((x) => x.title).length >= 4
-  })
-  if (defBlock) {
-    const bullets = parseBulletItems(defBlock.body)!
-    const introLines = defBlock.body
-      .split(/\n+/)
-      .map((l) => l.trim())
-      .filter((l) => l && !/^[•\-–—]/.test(l) && !/^\d+[\.)]\s+/.test(l) && !isJunk(l))
-    const otherBlocks = blocks.filter((b) => b !== defBlock)
-
-    return (
-      <div className="mt-7 space-y-8">
-        {defBlock.heading ? (
-          <BlockHeading
-            heading={defBlock.heading}
-            level={defBlock.headingLevel === 4 ? 4 : 3}
-            links={links}
-          />
-        ) : null}
-        {introLines.length ? (
-          <div className="max-w-3xl space-y-3">
-            <Paragraphs text={introLines.join("\n\n")} links={links} />
-          </div>
-        ) : null}
-        <DefGrid items={bullets.filter((x) => x.title)} links={links} />
-        {otherBlocks.length ? <ProseBlocks blocks={otherBlocks} links={links} /> : null}
-      </div>
-    )
-  }
-
-  return <ProseBlocks blocks={blocks} links={links} />
 }
 
 /** Corps éditorial expertise — étapes, cartes, grilles + liens internes du live. */
@@ -688,11 +424,11 @@ export function ExpertiseBody({
 }: {
   sections: Section[]
   /** Linker partagé avec le reste de la page (chapô compris). */
-  linker?: Linker
+  linker?: LinkResolver
   /** Rétrocompat : liens nus, mémoire limitée à ce composant. */
   links?: InlineLink[]
 }) {
-  const pageLinker = linker ?? makeLinker(links)
+  const pageLinker = linker ?? makeLinkResolver(links)
   return (
     <div className="bg-[#f7f8f9]">
       {sections.map((section, si) => {
@@ -728,3 +464,6 @@ export function ExpertiseBody({
     </div>
   )
 }
+
+// Réexport : la page englobante crée LE resolver de la page.
+export { makeLinkResolver }
