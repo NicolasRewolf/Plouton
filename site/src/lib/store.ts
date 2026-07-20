@@ -1,6 +1,6 @@
 import fs from "node:fs"
 import path from "node:path"
-import { createClient } from "@supabase/supabase-js"
+import { isAdminConfigured, requireAdminClient } from "@/lib/supabase/admin"
 import { contentRoot, saveArticle, type Article } from "@/lib/content"
 import {
   articleToPostRow,
@@ -87,12 +87,9 @@ class FsStore implements ContentStore {
 }
 
 class SupabaseStore implements ContentStore {
+  // Écriture : sans clé, mieux vaut une exception qu'un échec silencieux.
   private client() {
-    const url = process.env.NEXT_PUBLIC_SUPABASE_URL
-    const key = process.env.SUPABASE_SECRET_KEY
-    if (!url || !key) throw new Error("Supabase : NEXT_PUBLIC_SUPABASE_URL / SUPABASE_SECRET_KEY manquants.")
-    // Clé secrète — serveur uniquement (API routes), jamais exposée au client.
-    return createClient(url, key, { auth: { persistSession: false } })
+    return requireAdminClient()
   }
 
   async createDemande(data: DemandeInput): Promise<{ id: string }> {
@@ -157,7 +154,7 @@ class SupabaseStore implements ContentStore {
 }
 
 export function getStore(): ContentStore {
-  if (process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.SUPABASE_SECRET_KEY)
+  if (isAdminConfigured())
     return new SupabaseStore()
   return new FsStore()
 }

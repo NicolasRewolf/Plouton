@@ -5,8 +5,8 @@
  * (`SUPABASE_SECRET_KEY`) — pas de RLS anon (comme posts C5).
  */
 
-import { createClient, type SupabaseClient } from "@supabase/supabase-js"
-import { unstable_cache } from "next/cache"
+import { defineKeyedCollection } from "@/lib/cms-collection"
+import { adminClient } from "@/lib/supabase/admin"
 import type { FaqItem } from "@/lib/content"
 
 export const FAQ_CACHE_TAG = "faq"
@@ -41,13 +41,6 @@ function hasSecretEnv(): boolean {
   return Boolean(
     process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.SUPABASE_SECRET_KEY
   )
-}
-
-function secretClient(): SupabaseClient | null {
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL
-  const key = process.env.SUPABASE_SECRET_KEY
-  if (!url || !key) return null
-  return createClient(url, key, { auth: { persistSession: false } })
 }
 
 export function isFaqConfigured(): boolean {
@@ -86,18 +79,20 @@ function rowToAdminItem(row: FaqRow): FaqAdminItem {
  * reposait en fait sur un `revalidatePath("/", "layout")` de secours, sauté
  * dès que la requête ne précisait pas d'expertise.
  */
-export const getFaqForExpertise = (slug: string): Promise<FaqItem[]> =>
-  unstable_cache(
-    () => fetchFaqForExpertise(slug),
-    ["faq-expertise", slug],
-    { tags: [FAQ_CACHE_TAG], revalidate: 3600 }
-  )()
+export const getFaqForExpertise = defineKeyedCollection<FaqItem[]>({
+  tag: FAQ_CACHE_TAG,
+  key: ["faq-expertise"],
+  fromDb: fetchFaqForExpertise,
+  // La FAQ n'a pas d'instantané JSON (archivé, cf. queries.ts) : sans base,
+  // une expertise s'affiche sans sa FAQ plutôt qu'avec une FAQ périmée.
+  fallback: () => [],
+})
 
-async function fetchFaqForExpertise(slug: string): Promise<FaqItem[]> {
-  const client = secretClient()
+async function fetchFaqForExpertise(slug: string): Promise<FaqItem[] | null> {
+  const client = adminClient()
   if (!client) {
     console.warn("[faq] SUPABASE_SECRET_KEY absente — FAQ vide pour", slug)
-    return []
+    return null
   }
 
   const { data, error } = await client
@@ -112,7 +107,7 @@ async function fetchFaqForExpertise(slug: string): Promise<FaqItem[]> {
 
   if (error) {
     console.error("[faq] lecture expertise", slug, error.message)
-    return []
+    return null
   }
 
   return ((data || []) as FaqRow[]).map(rowToFaqItem)
@@ -129,7 +124,7 @@ export interface ListFaqAdminOpts {
 export async function listFaqAdmin(
   opts: ListFaqAdminOpts = {}
 ): Promise<{ items: FaqAdminItem[]; total: number } | null> {
-  const client = secretClient()
+  const client = adminClient()
   if (!client) return null
 
   const page = Math.max(1, opts.page || 1)
@@ -166,7 +161,7 @@ export async function listFaqAdmin(
 }
 
 export async function getFaqById(id: string): Promise<FaqAdminItem | null> {
-  const client = secretClient()
+  const client = adminClient()
   if (!client) return null
 
   const { data, error } = await client
@@ -197,7 +192,7 @@ export interface FaqWriteInput {
 }
 
 export async function createFaq(input: FaqWriteInput): Promise<FaqAdminItem | null> {
-  const client = secretClient()
+  const client = adminClient()
   if (!client) return null
 
   const { data, error } = await client
@@ -228,7 +223,7 @@ export async function updateFaq(
   id: string,
   input: Partial<FaqWriteInput>
 ): Promise<FaqAdminItem | null> {
-  const client = secretClient()
+  const client = adminClient()
   if (!client) return null
 
   const patch: Record<string, unknown> = {}
@@ -261,7 +256,7 @@ export async function updateFaq(
 }
 
 export async function deleteFaq(id: string): Promise<boolean> {
-  const client = secretClient()
+  const client = adminClient()
   if (!client) return false
 
   const { error } = await client.from("faq").delete().eq("id", id)

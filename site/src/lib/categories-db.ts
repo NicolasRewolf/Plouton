@@ -2,8 +2,8 @@
  * Lecture `public.categories` + vue `category_post_counts` (docs/17 / P1-D).
  * Fallback : contenu/categories.json.
  */
-import { createClient, type SupabaseClient } from "@supabase/supabase-js"
-import { unstable_cache } from "next/cache"
+import { defineCollection } from "@/lib/cms-collection"
+import { adminClient } from "@/lib/supabase/admin"
 import { getCategories, type Category } from "@/lib/content"
 
 export const CATEGORIES_CACHE_TAG = "categories"
@@ -24,13 +24,6 @@ type CountRow = {
   post_count: number
 }
 
-function secretClient(): SupabaseClient | null {
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL
-  const key = process.env.SUPABASE_SECRET_KEY
-  if (!url || !key) return null
-  return createClient(url, key, { auth: { persistSession: false } })
-}
-
 function rowToCategory(r: CategoryRow, postCount: number): Category {
   return {
     id: r.id,
@@ -47,7 +40,7 @@ function rowToCategory(r: CategoryRow, postCount: number): Category {
 }
 
 async function fetchCategoriesFromDb(): Promise<Category[] | null> {
-  const client = secretClient()
+  const client = adminClient()
   if (!client) return null
 
   const [{ data: cats, error: cErr }, { data: counts, error: nErr }] =
@@ -76,23 +69,10 @@ async function fetchCategoriesFromDb(): Promise<Category[] | null> {
   )
 }
 
-const cachedCategories = unstable_cache(
-  async () => fetchCategoriesFromDb(),
-  ["categories-list"],
-  {
-    tags: [CATEGORIES_CACHE_TAG],
-    // Ces données se modifient aussi DIRECTEMENT en base (console
-    // Supabase), sans passer par une route qui pourrait invalider.
-    // Sans fenêtre, `unstable_cache` les gardait indéfiniment — et il
-    // persiste à travers les redéploiements, donc même une remise en
-    // ligne ne les rafraîchissait pas. Une heure borne la dérive.
-    revalidate: 3600,
-  }
-)
-
-/** DB (+ compteurs live) puis JSON. */
-export async function resolveCategories(): Promise<Category[]> {
-  const fromDb = await cachedCategories()
-  if (fromDb?.length) return fromDb
-  return getCategories()
-}
+/** Rubriques (+ compteurs d'articles) — base puis instantané JSON. */
+export const resolveCategories = defineCollection<Category[]>({
+  tag: CATEGORIES_CACHE_TAG,
+  key: ["categories-list"],
+  fromDb: fetchCategoriesFromDb,
+  fallback: getCategories,
+})

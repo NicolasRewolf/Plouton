@@ -2,8 +2,8 @@
  * Lecture `public.authors` (P1-A) — secret serveur, fallback JSON.
  * Filtre `is_author` : exclut assistantes / non-signatures.
  */
-import { createClient, type SupabaseClient } from "@supabase/supabase-js"
-import { unstable_cache } from "next/cache"
+import { defineCollection } from "@/lib/cms-collection"
+import { adminClient } from "@/lib/supabase/admin"
 import { listAuthors, type Author } from "@/lib/content"
 
 export const AUTHORS_CACHE_TAG = "authors"
@@ -26,13 +26,6 @@ type AuthorRow = {
   position: number
 }
 
-function secretClient(): SupabaseClient | null {
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL
-  const key = process.env.SUPABASE_SECRET_KEY
-  if (!url || !key) return null
-  return createClient(url, key, { auth: { persistSession: false } })
-}
-
 function rowToAuthor(r: AuthorRow): Author {
   return {
     id: r.id,
@@ -53,7 +46,7 @@ function rowToAuthor(r: AuthorRow): Author {
 }
 
 async function fetchAuthorsFromDb(): Promise<Author[] | null> {
-  const client = secretClient()
+  const client = adminClient()
   if (!client) return null
   const { data, error } = await client
     .from("authors")
@@ -69,26 +62,17 @@ async function fetchAuthorsFromDb(): Promise<Author[] | null> {
     .filter((a) => a.isAuthor !== false)
 }
 
-const cachedAuthors = unstable_cache(
-  async () => fetchAuthorsFromDb(),
-  ["authors-list"],
-  {
-    tags: [AUTHORS_CACHE_TAG],
-    // Ces données se modifient aussi DIRECTEMENT en base (console
-    // Supabase), sans passer par une route qui pourrait invalider.
-    // Sans fenêtre, `unstable_cache` les gardait indéfiniment — et il
-    // persiste à travers les redéploiements, donc même une remise en
-    // ligne ne les rafraîchissait pas. Une heure borne la dérive.
-    revalidate: 3600,
-  }
-)
-
-/** DB puis JSON (signatures blog uniquement). */
-export async function resolveAuthors(): Promise<Author[]> {
-  const fromDb = await cachedAuthors()
-  if (fromDb?.length) return fromDb
-  return listAuthors().filter((a) => a.isAuthor !== false)
-}
+/**
+ * Auteurs — base puis instantané JSON.
+ * `fetchAuthorsFromDb` renvoie déjà `null` sur table vide : une table
+ * d'auteurs vide signifie « pas encore semée », pas « aucun auteur ».
+ */
+export const resolveAuthors = defineCollection<Author[]>({
+  tag: AUTHORS_CACHE_TAG,
+  key: ["authors-list"],
+  fromDb: fetchAuthorsFromDb,
+  fallback: () => listAuthors().filter((a) => a.isAuthor !== false),
+})
 
 export async function resolveAuthorBySlug(
   slug: string

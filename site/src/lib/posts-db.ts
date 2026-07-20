@@ -6,7 +6,7 @@
  * Admin : tous les statuts.
  */
 
-import { createClient, type SupabaseClient } from "@supabase/supabase-js"
+import { adminClient, isAdminConfigured } from "@/lib/supabase/admin"
 import {
   isPostStatus,
   isPubliclyVisible,
@@ -59,22 +59,7 @@ const INDEX_SELECT =
   "slug, title, excerpt, published_at, status, categories, category_ids, cover_image, minutes_to_read, url, view_count, author_slug"
 
 /** Supabase est-il configuré pour la lecture serveur ? (décision de source) */
-export function isSupabaseConfigured(): boolean {
-  return hasSecretEnv()
-}
-
-function hasSecretEnv(): boolean {
-  return Boolean(
-    process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.SUPABASE_SECRET_KEY
-  )
-}
-
-function secretClient(): SupabaseClient | null {
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL
-  const key = process.env.SUPABASE_SECRET_KEY
-  if (!url || !key) return null
-  return createClient(url, key, { auth: { persistSession: false } })
-}
+export const isSupabaseConfigured = isAdminConfigured
 
 export function articleToPostRow(article: Article) {
   const publishedAt = article.publishedAt?.slice(0, 10) || null
@@ -210,7 +195,7 @@ function sortByPublishedDesc(a: { publishedAt: string }, b: { publishedAt: strin
 /** Article publié par slug — null si absent / brouillon / pas de Supabase.
  * La promotion scheduled → published est hors chemin de rendu (cron P1-I). */
 export async function getPublishedPost(slug: string): Promise<Article | null> {
-  const client = secretClient()
+  const client = adminClient()
   if (!client) return null
   const raw = decodeURIComponent(slug).normalize("NFC")
   const { data, error } = await client
@@ -234,8 +219,8 @@ export async function getPublishedPost(slug: string): Promise<Article | null> {
 export async function listPostsMeta(): Promise<
   (ArticleIndexItem & { status: PostStatus })[] | null
 > {
-  if (!hasSecretEnv()) return null
-  const client = secretClient()
+  if (!isAdminConfigured()) return null
+  const client = adminClient()
   if (!client) return null
 
   const pageSize = 1000
@@ -272,7 +257,7 @@ export async function listPostsMeta(): Promise<
  * `null` = absent OU base injoignable ; l'appelant retombe sur l'instantané.
  */
 export async function getPostAnyStatus(slug: string): Promise<Article | null> {
-  const client = secretClient()
+  const client = adminClient()
   if (!client) return null
   const raw = decodeURIComponent(slug).normalize("NFC")
   const { data, error } = await client
@@ -306,7 +291,7 @@ export async function listAdminPosts(): Promise<
 
 /** Soft-delete : passe en archived. */
 export async function archivePost(slug: string): Promise<boolean> {
-  const client = secretClient()
+  const client = adminClient()
   if (!client) return false
   const { error } = await client
     .from("posts")
@@ -362,7 +347,7 @@ export async function insertPostVersion(opts: {
   article: Article
   authorEmail?: string | null
 }): Promise<boolean> {
-  const client = secretClient()
+  const client = adminClient()
   if (!client) return false
   const { error } = await client.from("post_versions").insert({
     post_slug: opts.slug,
@@ -388,7 +373,7 @@ export async function listPostVersions(
   slug: string,
   limit = 20
 ): Promise<PostVersionRow[] | null> {
-  const client = secretClient()
+  const client = adminClient()
   if (!client) return null
   const { data, error } = await client
     .from("post_versions")
@@ -406,7 +391,7 @@ export async function listPostVersions(
 export async function getPostVersion(
   id: number
 ): Promise<PostVersionRow | null> {
-  const client = secretClient()
+  const client = adminClient()
   if (!client) return null
   const { data, error } = await client
     .from("post_versions")
