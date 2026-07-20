@@ -2,8 +2,8 @@
  * Lecture `content_singletons` clé `contact` (docs/17).
  * Fallback : contenu/site.json (getSite) pour les coordonnées.
  */
-import { createClient, type SupabaseClient } from "@supabase/supabase-js"
-import { unstable_cache } from "next/cache"
+import { defineCollection } from "@/lib/cms-collection"
+import { adminClient } from "@/lib/supabase/admin"
 import { getSite } from "@/lib/content"
 
 export const CONTACT_CACHE_TAG = "contact"
@@ -27,13 +27,6 @@ type ContactRow = {
   key: string
   data: Partial<ContactInfo> | null
   status: string
-}
-
-function secretClient(): SupabaseClient | null {
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL
-  const key = process.env.SUPABASE_SECRET_KEY
-  if (!url || !key) return null
-  return createClient(url, key, { auth: { persistSession: false } })
 }
 
 function fromSiteJson(): ContactInfo {
@@ -62,7 +55,7 @@ function mergeContact(data: Partial<ContactInfo> | null | undefined): ContactInf
 }
 
 async function fetchContactFromDb(): Promise<ContactInfo | null> {
-  const client = secretClient()
+  const client = adminClient()
   if (!client) return null
   const { data, error } = await client
     .from("content_singletons")
@@ -78,23 +71,10 @@ async function fetchContactFromDb(): Promise<ContactInfo | null> {
   return mergeContact((data as ContactRow).data)
 }
 
-const cachedContact = unstable_cache(
-  async () => fetchContactFromDb(),
-  ["contact-singleton"],
-  {
-    tags: [CONTACT_CACHE_TAG],
-    // Ces données se modifient aussi DIRECTEMENT en base (console
-    // Supabase), sans passer par une route qui pourrait invalider.
-    // Sans fenêtre, `unstable_cache` les gardait indéfiniment — et il
-    // persiste à travers les redéploiements, donc même une remise en
-    // ligne ne les rafraîchissait pas. Une heure borne la dérive.
-    revalidate: 3600,
-  }
-)
-
-/** DB puis site.json. */
-export async function resolveContact(): Promise<ContactInfo> {
-  const fromDb = await cachedContact()
-  if (fromDb) return fromDb
-  return fromSiteJson()
-}
+/** Coordonnées du cabinet — base puis site.json. */
+export const resolveContact = defineCollection<ContactInfo>({
+  tag: CONTACT_CACHE_TAG,
+  key: ["contact-singleton"],
+  fromDb: fetchContactFromDb,
+  fallback: fromSiteJson,
+})
