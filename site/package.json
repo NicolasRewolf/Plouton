@@ -11,7 +11,8 @@
     "check:edit-loss": "tsx scripts/check-edit-loss.mjs",
     "regen:body-html": "tsx scripts/regen-body-html.mjs",
     "check:sources": "tsx scripts/check-content-source.mjs",
-    "check:submission": "tsx scripts/check-submission.mjs"
+    "check:submission": "tsx scripts/check-submission.mjs",
+    "check:expertise": "tsx scripts/check-expertise.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.3",
