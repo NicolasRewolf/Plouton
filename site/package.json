@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check:roundtrip": "tsx scripts/check-editor-roundtrip.mjs",
+    "check:edit-loss": "tsx scripts/check-edit-loss.mjs",
+    "regen:body-html": "tsx scripts/regen-body-html.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.3",
@@ -34,12 +37,15 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@tiptap/html": "^3.28.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.10",
+    "jsdom": "^29.1.1",
     "tailwindcss": "^4",
+    "tsx": "^4.23.1",
     "typescript": "^5"
   }
 }

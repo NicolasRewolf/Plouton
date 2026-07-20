@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef, useState, type DragEvent, type FormEvent, type ReactNode } from "react"
+import { useRef, useState, type DragEvent, type FormEvent, type ReactNode } from "react"
 
 interface ContactFormProps {
   defaultObjet?: string
@@ -81,14 +81,14 @@ export function ContactForm({
   const [urgence, setUrgence] = useState(false)
   const [files, setFiles] = useState<File[]>([])
   const [isDragging, setIsDragging] = useState(false)
-  const [utm, setUtm] = useState<Record<string, string>>({})
-  const [cooked, setCooked] = useState<{ aid?: string; sid?: string }>({})
-  const fileInputRef = useRef<HTMLInputElement>(null)
-
-  useEffect(() => {
-    if (typeof window === "undefined") return
+  // Paramètres d'acquisition figés au montage, via initialiseurs paresseux :
+  // un setState dans un useEffect déclenchait un render en cascade. Ces
+  // valeurs ne sont jamais rendues (uniquement envoyées au submit), donc
+  // aucun risque de divergence d'hydratation.
+  const [utm] = useState<Record<string, string>>(() => {
+    if (typeof window === "undefined") return {}
     const params = new URLSearchParams(window.location.search)
-    const nextUtm: Record<string, string> = {}
+    const out: Record<string, string> = {}
     for (const key of [
       "utm_source",
       "utm_medium",
@@ -98,14 +98,20 @@ export function ContactForm({
       "gclid",
     ]) {
       const v = params.get(key)
-      if (v) nextUtm[key] = v
+      if (v) out[key] = v
     }
-    setUtm(nextUtm)
-    setCooked({
+    return out
+  })
+  const [cooked] = useState<{ aid?: string; sid?: string }>(() => {
+    if (typeof window === "undefined") return {}
+    const params = new URLSearchParams(window.location.search)
+    return {
       aid: params.get("cooked_aid") || undefined,
       sid: params.get("cooked_sid") || undefined,
-    })
-  }, [])
+    }
+  })
+  const fileInputRef = useRef<HTMLInputElement>(null)
+
 
   const [uploadWarning, setUploadWarning] = useState("")
 

@@ -12,6 +12,8 @@
 .idea/
 .vscode/
 .mcp.json
+# Skills tierces installées par `npx skills add` — outillage local, pas du produit.
+.agents/
 *.swp
 *.swo
 
@@ -71,3 +73,6 @@ yarn-error.log*
 .cache/
 reports/
 scripts/visual/node_modules/
+
+# État local de la CLI Supabase (project-ref, versions, pooler) — jamais versionné.
+supabase/.temp/

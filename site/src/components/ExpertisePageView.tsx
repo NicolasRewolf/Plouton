@@ -1,7 +1,7 @@
 import Image from "next/image"
 import dynamic from "next/dynamic"
 import type { AffaireCardItem } from "@/components/AffaireCard"
-import { ExpertiseBody, linkify } from "@/components/ExpertiseBody"
+import { ExpertiseBody, linkify, makeLinker } from "@/components/ExpertiseBody"
 import { ExpertiseToc, type ExpertiseTocItem } from "@/components/ExpertiseToc"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
@@ -46,6 +46,9 @@ export function ExpertisePageView({
   schema,
 }: ExpertisePageViewProps) {
   void _pageUrl
+  // Un seul linker pour TOUTE la page (chapô + corps) : sans lui, le chapô et
+  // le corps liaient chacun de leur côté la même expression.
+  const linker = makeLinker(expertise.inlineLinks || [])
   const intro = expertise.intro
     .replace(/^Cabinet Plouton\s*\/\s*/i, "")
     .replace(/\u200b/g, "")
@@ -88,7 +91,7 @@ export function ExpertisePageView({
 
             <div className="mt-6 space-y-3.5 text-[15px] leading-[1.65] text-pretty text-navy/85">
               {introParas.map((para, i) => (
-                <p key={i}>{linkify(para, expertise.inlineLinks || [])}</p>
+                <p key={i}>{linkify(para, linker)}</p>
               ))}
             </div>
 
@@ -124,7 +127,7 @@ export function ExpertisePageView({
 
       <ExpertiseToc items={tocItems} />
 
-      <ExpertiseBody sections={sections} links={expertise.inlineLinks || []} />
+      <ExpertiseBody sections={sections} linker={linker} />
 
       <div className="bg-white">
         <div className="mx-auto max-w-6xl px-5 py-14 lg:px-8">

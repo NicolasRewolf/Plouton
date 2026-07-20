@@ -7,7 +7,7 @@ import type { ArticleIndexItem, Category } from "@/lib/content"
 
 export { publishedIndex as publishedFull, articlesOfCategory }
 
-export function findCategory(slugParam: string): Category | null {
+export function findCategory(slugParam: string): Promise<Category | null> {
   return findCategoryBySlug(slugParam)
 }
 

@@ -6,6 +6,7 @@
  */
 
 import { createClient, type SupabaseClient } from "@supabase/supabase-js"
+import { unstable_cache } from "next/cache"
 import type { FaqItem } from "@/lib/content"
 
 export const FAQ_CACHE_TAG = "faq"
@@ -76,8 +77,23 @@ function rowToAdminItem(row: FaqRow): FaqAdminItem {
   }
 }
 
-/** FAQ publiées pour une page expertise. */
-export async function getFaqForExpertise(slug: string): Promise<FaqItem[]> {
+/**
+ * FAQ publiées pour une page expertise.
+ *
+ * Passe par `unstable_cache` porteur de FAQ_CACHE_TAG : la route
+ * `/api/faq` appelait déjà `revalidateTag(FAQ_CACHE_TAG)`, mais aucune entrée
+ * de cache ne portait ce tag — l'invalidation ne touchait rien. La fraîcheur
+ * reposait en fait sur un `revalidatePath("/", "layout")` de secours, sauté
+ * dès que la requête ne précisait pas d'expertise.
+ */
+export const getFaqForExpertise = (slug: string): Promise<FaqItem[]> =>
+  unstable_cache(
+    () => fetchFaqForExpertise(slug),
+    ["faq-expertise", slug],
+    { tags: [FAQ_CACHE_TAG], revalidate: 3600 }
+  )()
+
+async function fetchFaqForExpertise(slug: string): Promise<FaqItem[]> {
   const client = secretClient()
   if (!client) {
     console.warn("[faq] SUPABASE_SECRET_KEY absente — FAQ vide pour", slug)

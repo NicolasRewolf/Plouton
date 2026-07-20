@@ -1,9 +1,9 @@
-<h2>L'échelle de Glasgow : mesurer la gravité d'un traumatisme crânien</h2><p></p><div data-type="html-embed" class="prose-html-embed" data-html="&lt;!DOCTYPE html&gt;
+<h2>L'échelle de Glasgow : mesurer la gravité d'un traumatisme crânien</h2><p></p><div data-html="&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;fr&quot;&gt;
 &lt;head&gt;
 &lt;meta charset=&quot;UTF-8&quot;&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-&lt;title&gt;Calculateur de l&#39;échelle de Glasgow&lt;/title&gt;
+&lt;title&gt;Calculateur de l'échelle de Glasgow&lt;/title&gt;
 &lt;style&gt;
   :root{
     --petrole:#17475E; --petrole-2:#3F6E84; --bleu-clair:#83ACF8;
@@ -11,14 +11,14 @@
     --g2:#F0F0F0; --g3:#D9D9D9; --ink:#17475E; --muted:#6E7C84;
     --petrole-soft:#EAF0F3;
     --shadow:0 1px 2px rgba(23,71,94,.05),0 10px 30px rgba(23,71,94,.08);
-    --font:&#39;Source Sans 3&#39;,&#39;Google Sans&#39;,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Helvetica,Arial,sans-serif;
+    --font:'Source Sans 3','Google Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{background:transparent}
   body{font-family:var(--font);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased;padding:8px}
   .wrap{max-width:100%;margin:0 auto;background:var(--white);border:1px solid var(--g2);border-radius:16px;overflow:hidden;box-shadow:var(--shadow)}
   .head{padding:22px 26px 20px;background:linear-gradient(180deg,var(--petrole),var(--petrole-2));color:#fff;position:relative}
-  .head::after{content:&#39;&#39;;position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--corail)}
+  .head::after{content:'';position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--corail)}
   .head h1{font-weight:700;font-size:1.35rem;line-height:1.15}
   .progress{display:flex;gap:6px;margin-top:14px}
   .progress span{flex:1;height:4px;border-radius:3px;background:rgba(255,255,255,.25);transition:background .2s}
@@ -69,7 +69,7 @@
 &lt;body&gt;
 &lt;div class=&quot;wrap&quot;&gt;
   &lt;header class=&quot;head&quot;&gt;
-    &lt;h1&gt;Calculateur de l&#39;échelle de Glasgow&lt;/h1&gt;
+    &lt;h1&gt;Calculateur de l'échelle de Glasgow&lt;/h1&gt;
     &lt;div class=&quot;progress&quot; id=&quot;progress&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;
   &lt;/header&gt;
 
@@ -84,11 +84,11 @@
         &lt;small id=&quot;sevText&quot;&gt;&lt;/small&gt;
       &lt;/div&gt;
     &lt;/div&gt;
-    &lt;button class=&quot;restart&quot; id=&quot;restart&quot;&gt;Recommencer l&#39;évaluation&lt;/button&gt;
+    &lt;button class=&quot;restart&quot; id=&quot;restart&quot;&gt;Recommencer l'évaluation&lt;/button&gt;
   &lt;/div&gt;
 
   &lt;p class=&quot;note&quot;&gt;
-    &lt;strong&gt;À titre informatif.&lt;/strong&gt; Cet outil reproduit l&#39;échelle de Glasgow (révision 2014) à des fins de compréhension et ne remplace pas un avis médical. Si une composante est « non testable » (NT), le total ne s&#39;additionne pas&amp;nbsp;: seuls les sous-scores font foi.
+    &lt;strong&gt;À titre informatif.&lt;/strong&gt; Cet outil reproduit l'échelle de Glasgow (révision 2014) à des fins de compréhension et ne remplace pas un avis médical. Si une composante est « non testable » (NT), le total ne s'additionne pas&amp;nbsp;: seuls les sous-scores font foi.
   &lt;/p&gt;
 &lt;/div&gt;
 
@@ -98,7 +98,7 @@ const steps = [
     {s:4,t:&quot;Spontanée&quot;,d:&quot;Yeux ouverts avant tout stimulus&quot;},
     {s:3,t:&quot;À la parole&quot;,d:&quot;Ouvre les yeux à la demande verbale&quot;},
     {s:2,t:&quot;À la pression&quot;,d:&quot;Ouvre les yeux à un stimulus de pression&quot;},
-    {s:1,t:&quot;Aucune&quot;,d:&quot;Pas d&#39;ouverture, sans facteur interférent&quot;},
+    {s:1,t:&quot;Aucune&quot;,d:&quot;Pas d'ouverture, sans facteur interférent&quot;},
     {s:&quot;NT&quot;,t:&quot;Non testable&quot;,d:&quot;Œdème, traumatisme facial…&quot;}
   ]},
   { key:&quot;V&quot;, q:&quot;Réponse verbale&quot;, opts:[
@@ -121,26 +121,26 @@ const steps = [
 ];
 const sel = {E:null,V:null,M:null};
 let cur = 0;
-const stage=document.getElementById(&#39;stage&#39;);
-const result=document.getElementById(&#39;result&#39;);
-const prog=document.getElementById(&#39;progress&#39;).children;
+const stage=document.getElementById('stage');
+const result=document.getElementById('result');
+const prog=document.getElementById('progress').children;
 
 function runningTotal(){
   let parts=[];
-  [&#39;E&#39;,&#39;V&#39;,&#39;M&#39;].forEach(k=&gt;{ if(sel[k]!==null) parts.push(k+sel[k]); });
-  return parts.join(&#39; &#39;);
+  ['E','V','M'].forEach(k=&gt;{ if(sel[k]!==null) parts.push(k+sel[k]); });
+  return parts.join(' ');
 }
 function renderStep(){
-  result.classList.add(&#39;hidden&#39;);
-  stage.classList.remove(&#39;hidden&#39;);
+  result.classList.add('hidden');
+  stage.classList.remove('hidden');
   const st=steps[cur];
   for(let i=0;i&lt;3;i++){
-    prog[i].className = i&lt;cur?&#39;done&#39;:(i===cur?&#39;active&#39;:&#39;&#39;);
+    prog[i].className = i&lt;cur?'done':(i===cur?'active':'');
   }
   let html=`&lt;div class=&quot;step-label&quot;&gt;Étape ${cur+1} sur 3 · « ${st.key} »&lt;/div&gt;
     &lt;div class=&quot;step-q&quot;&gt;${st.q}&lt;/div&gt;&lt;div class=&quot;options&quot;&gt;`;
   st.opts.forEach((o,idx)=&gt;{
-    html+=`&lt;button class=&quot;opt${o.s===&#39;NT&#39;?&#39; nt&#39;:&#39;&#39;}&quot; data-i=&quot;${idx}&quot;&gt;
+    html+=`&lt;button class=&quot;opt${o.s==='NT'?' nt':''}&quot; data-i=&quot;${idx}&quot;&gt;
       &lt;span class=&quot;opt-text&quot;&gt;${o.t}&lt;small&gt;${o.d}&lt;/small&gt;&lt;/span&gt;
       &lt;span class=&quot;chip&quot;&gt;${o.s}&lt;/span&gt;&lt;/button&gt;`;
   });
@@ -150,43 +150,234 @@ function renderStep(){
   if(rt) html+=`&lt;span class=&quot;running&quot;&gt;En cours&amp;nbsp;: &lt;b&gt;${rt}&lt;/b&gt;&lt;/span&gt;`;
   html+=`&lt;/div&gt;`;
   stage.innerHTML=html;
-  stage.querySelectorAll(&#39;.opt&#39;).forEach(b=&gt;{
-    b.addEventListener(&#39;click&#39;,()=&gt;{
+  stage.querySelectorAll('.opt').forEach(b=&gt;{
+    b.addEventListener('click',()=&gt;{
       sel[st.key]=st.opts[+b.dataset.i].s;
       if(cur&lt;2){cur++;renderStep();} else {renderResult();}
     });
   });
-  const back=document.getElementById(&#39;back&#39;);
-  if(back) back.addEventListener(&#39;click&#39;,()=&gt;{cur--;renderStep();});
+  const back=document.getElementById('back');
+  if(back) back.addEventListener('click',()=&gt;{cur--;renderStep();});
 }
 function renderResult(){
-  stage.classList.add(&#39;hidden&#39;);
-  result.classList.remove(&#39;hidden&#39;);
-  for(let i=0;i&lt;3;i++) prog[i].className=&#39;done&#39;;
-  document.getElementById(&#39;breakdown&#39;).innerHTML=
+  stage.classList.add('hidden');
+  result.classList.remove('hidden');
+  for(let i=0;i&lt;3;i++) prog[i].className='done';
+  document.getElementById('breakdown').innerHTML=
     `E${sel.E} V${sel.V} M${sel.M}&lt;small&gt;Détail par composante&lt;/small&gt;`;
-  const totalN=document.getElementById(&#39;totalN&#39;);
-  const totalD=document.getElementById(&#39;totalD&#39;);
-  const badge=document.getElementById(&#39;sevBadge&#39;);
-  const sevText=document.getElementById(&#39;sevText&#39;);
-  if([sel.E,sel.V,sel.M].includes(&#39;NT&#39;)){
-    totalN.textContent=&#39;NT&#39;; totalD.style.display=&#39;none&#39;;
-    badge.className=&#39;sev-badge nt&#39;; badge.textContent=&#39;Non additionnable&#39;;
-    sevText.textContent=&#39;Une composante non testable empêche le calcul du total.&#39;;
+  const totalN=document.getElementById('totalN');
+  const totalD=document.getElementById('totalD');
+  const badge=document.getElementById('sevBadge');
+  const sevText=document.getElementById('sevText');
+  if([sel.E,sel.V,sel.M].includes('NT')){
+    totalN.textContent='NT'; totalD.style.display='none';
+    badge.className='sev-badge nt'; badge.textContent='Non additionnable';
+    sevText.textContent='Une composante non testable empêche le calcul du total.';
     return;
   }
   const sum=sel.E+sel.V+sel.M;
-  totalN.textContent=sum; totalD.style.display=&#39;&#39;;
+  totalN.textContent=sum; totalD.style.display='';
   let cls,txt,desc;
-  if(sum&lt;=8){cls=&#39;severe&#39;;txt=&#39;Atteinte sévère&#39;;desc=&#39;GCS 3–8&#39;;}
-  else if(sum&lt;=12){cls=&#39;moderate&#39;;txt=&#39;Atteinte modérée&#39;;desc=&#39;GCS 9–12&#39;;}
-  else{cls=&#39;mild&#39;;txt=&#39;Atteinte légère&#39;;desc=&#39;GCS 13–15&#39;;}
-  badge.className=&#39;sev-badge &#39;+cls; badge.textContent=txt; sevText.textContent=desc;
+  if(sum&lt;=8){cls='severe';txt='Atteinte sévère';desc='GCS 3–8';}
+  else if(sum&lt;=12){cls='moderate';txt='Atteinte modérée';desc='GCS 9–12';}
+  else{cls='mild';txt='Atteinte légère';desc='GCS 13–15';}
+  badge.className='sev-badge '+cls; badge.textContent=txt; sevText.textContent=desc;
 }
-document.getElementById(&#39;restart&#39;).addEventListener(&#39;click&#39;,()=&gt;{
+document.getElementById('restart').addEventListener('click',()=&gt;{
   sel.E=sel.V=sel.M=null; cur=0; renderStep();
 });
 renderStep();
 &lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;"></div><p></p><p></p><p>L'échelle de Glasgow (Glasgow Coma Scale, ou GCS) est l'outil de référence pour évaluer l'état de conscience d'une personne après un <a href="https://www.jplouton-avocat.fr/post/traumatisme-cranien-accident-voiture"><u>traumatisme crânien</u></a>. Mise au point en 1974 et révisée en 2014, elle attribue un score à trois réponses observées : l'ouverture des yeux, la réponse verbale et la réponse motrice. Le total varie de 3 (état le plus grave) à 15 (conscience normale) : un GCS de 3 à 8 traduit une atteinte sévère, de 9 à 12 une atteinte modérée, de 13 à 15 une atteinte légère.</p><p></p><p>Ce score, consigné dès les premiers secours, ne reste pas un simple chiffre médical : il devient une donnée juridique. Il sert de point de départ aux experts comme aux juridictions pour apprécier la gravité de l'atteinte et l'ampleur du préjudice. L'affaire jugée par le <a href="https://www.jplouton-avocat.fr/post/accident-mortel-angoisse-mort-imminente-tj-pau"><u>Tribunal judiciaire de Pau, où un « score de Glasgow à 4 » a fondé la reconnaissance d'un préjudice d'angoisse de mort imminente</u></a>, illustre à quel point ce relevé initial pèse sur l'issue d'un dossier.</p><p></p><h2>Exemples d'affaires traitées par le cabinet concernant des traumatismes crâniens</h2><p></p><p>Le traumatisme crânien se rencontre dans des contextes très variés que le cabinet défend régulièrement : un <a href="https://www.jplouton-avocat.fr/post/accident-de-moto-en-corse-le-cabinet-obtient-une-indemnisation-%C3%A0-hauteur-de-2-millions-d-euros-pou"><u>accident de moto ayant entraîné contusions cérébrales et plus de 2 millions d'euros d'indemnisation</u></a>, un <a href="https://www.jplouton-avocat.fr/post/accident-de-la-route-%C3%A0-moto-indemnisation-de-70-000-pour-le-motard"><u>motard percuté et projeté à plusieurs mètres</u></a>, mais aussi des violences volontaires — qu'il s'agisse d'un <a href="https://www.jplouton-avocat.fr/post/indemnisation-d-un-joueur-de-rugby-victime-de-violences-avec-arme"><u>joueur de rugby frappé au crâne</u></a> ou d'un <a href="https://www.jplouton-avocat.fr/post/indemnisation-d-un-client-agress%C3%A9-par-un-portier-de-discoth%C3%A8que-quai-de-paludate-13-000-pour-12"><u>client laissé inconscient après une agression en discothèque</u></a>.</p><p></p><p>Le calculateur ci-dessus vous permet de comprendre concrètement comment ce score est construit. Que la lésion résulte d'un <a href="https://www.jplouton-avocat.fr/indemnisation-des-victimes/accidents-de-la-route"><u>accident de la route</u></a>, d'un <a href="https://www.jplouton-avocat.fr/indemnisation-des-victimes/droit-et-accidents-du-travail"><u>accident du travail</u></a>, d'une <a href="https://www.jplouton-avocat.fr/indemnisation-des-victimes/accidents-et-erreurs-medicales"><u>erreur médicale</u></a> ou d'une agression, le cabinet vous accompagne dans <a href="https://www.jplouton-avocat.fr/indemnisation-des-victimes"><u>l'indemnisation des victimes</u></a>.</p><p></p><p></p>
+&lt;/html&gt;" data-type="html-embed" class="prose-html-embed"><!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculateur de l'échelle de Glasgow</title>
+<style>
+  :root{
+    --petrole:#17475E; --petrole-2:#3F6E84; --bleu-clair:#83ACF8;
+    --corail:#FE4B42; --taupe:#C1B1A2; --white:#FFFFFF;
+    --g2:#F0F0F0; --g3:#D9D9D9; --ink:#17475E; --muted:#6E7C84;
+    --petrole-soft:#EAF0F3;
+    --shadow:0 1px 2px rgba(23,71,94,.05),0 10px 30px rgba(23,71,94,.08);
+    --font:'Source Sans 3','Google Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:transparent}
+  body{font-family:var(--font);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased;padding:8px}
+  .wrap{max-width:100%;margin:0 auto;background:var(--white);border:1px solid var(--g2);border-radius:16px;overflow:hidden;box-shadow:var(--shadow)}
+  .head{padding:22px 26px 20px;background:linear-gradient(180deg,var(--petrole),var(--petrole-2));color:#fff;position:relative}
+  .head::after{content:'';position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--corail)}
+  .head h1{font-weight:700;font-size:1.35rem;line-height:1.15}
+  .progress{display:flex;gap:6px;margin-top:14px}
+  .progress span{flex:1;height:4px;border-radius:3px;background:rgba(255,255,255,.25);transition:background .2s}
+  .progress span.done{background:var(--bleu-clair)}
+  .progress span.active{background:#fff}
+  .stage{padding:22px 26px}
+  .step-label{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--petrole-2);font-weight:700;margin-bottom:4px}
+  .step-q{font-size:1.05rem;font-weight:700;margin-bottom:16px}
+  .options{display:flex;flex-direction:column;gap:8px}
+  .opt{display:flex;align-items:center;gap:13px;padding:11px 14px;border:1.5px solid var(--g2);border-radius:10px;background:var(--white);cursor:pointer;transition:border-color .12s,background .12s,transform .08s;text-align:left;width:100%;font-family:inherit;color:inherit}
+  .opt:hover{border-color:var(--petrole);background:var(--petrole-soft)}
+  .opt:active{transform:scale(.99)}
+  .opt-text{flex:1;font-size:.9rem;font-weight:600}
+  .opt-text small{display:block;color:var(--muted);font-size:.78rem;font-weight:400;margin-top:1px}
+  .chip{font-weight:700;font-size:.82rem;min-width:30px;text-align:center;padding:3px 9px;border-radius:6px;background:var(--petrole-soft);color:var(--petrole)}
+  .opt.nt .chip{background:var(--g2);color:var(--muted)}
+  .nav{display:flex;align-items:center;gap:10px;margin-top:18px}
+  .back{background:none;border:none;color:var(--muted);font-family:inherit;font-size:.85rem;font-weight:600;cursor:pointer;padding:6px 4px}
+  .back:hover{color:var(--petrole)}
+  .running{margin-left:auto;font-size:.8rem;color:var(--muted);font-weight:600}
+  .running b{color:var(--petrole)}
+  /* Result */
+  .result{padding:26px}
+  .res-card{background:var(--petrole);color:#fff;border-radius:13px;padding:22px 24px;display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+  .total{display:flex;align-items:baseline;gap:4px}
+  .total .n{font-size:3rem;font-weight:700;line-height:.9}
+  .total .d{font-size:1rem;color:rgba(255,255,255,.6);font-weight:600}
+  .breakdown{font-size:.95rem;font-weight:700}
+  .breakdown small{display:block;font-weight:500;color:rgba(255,255,255,.6);font-size:.7rem;letter-spacing:.04em;margin-top:3px;text-transform:uppercase}
+  .sev{margin-left:auto;text-align:right}
+  .sev-badge{display:inline-block;padding:5px 13px;border-radius:30px;font-size:.8rem;font-weight:700}
+  .sev-badge.severe{background:var(--corail)}
+  .sev-badge.moderate{background:var(--taupe);color:#3a2f26}
+  .sev-badge.mild{background:var(--bleu-clair);color:#10324a}
+  .sev-badge.nt{background:rgba(255,255,255,.16)}
+  .sev small{display:block;color:rgba(255,255,255,.65);font-size:.74rem;margin-top:6px;max-width:24ch}
+  .restart{margin-top:16px;width:100%;background:var(--petrole-soft);border:none;color:var(--petrole);font-family:inherit;font-size:.85rem;font-weight:700;padding:11px;border-radius:9px;cursor:pointer;transition:background .12s}
+  .restart:hover{background:#dde7ec}
+  .note{padding:0 26px 22px;font-size:.76rem;color:var(--muted);line-height:1.55}
+  .note strong{color:var(--petrole-2)}
+  .hidden{display:none}
+  @media(max-width:480px){
+    .head{padding:20px}.stage{padding:20px}.result{padding:20px}
+    .sev{margin-left:0;text-align:left;width:100%}.total .n{font-size:2.6rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="head">
+    <h1>Calculateur de l'échelle de Glasgow</h1>
+    <div class="progress" id="progress"><span></span><span></span><span></span></div>
+  </header>
+
+  <div class="stage" id="stage"></div>
+
+  <div class="result hidden" id="result">
+    <div class="res-card">
+      <div class="total"><span class="n" id="totalN">—</span><span class="d" id="totalD">/15</span></div>
+      <div class="breakdown" id="breakdown">E– V– M–<small>Détail par composante</small></div>
+      <div class="sev">
+        <span class="sev-badge nt" id="sevBadge">—</span>
+        <small id="sevText"></small>
+      </div>
+    </div>
+    <button class="restart" id="restart">Recommencer l'évaluation</button>
+  </div>
+
+  <p class="note">
+    <strong>À titre informatif.</strong> Cet outil reproduit l'échelle de Glasgow (révision 2014) à des fins de compréhension et ne remplace pas un avis médical. Si une composante est « non testable » (NT), le total ne s'additionne pas&nbsp;: seuls les sous-scores font foi.
+  </p>
+</div>
+
+<script>
+const steps = [
+  { key:"E", q:"Ouverture des yeux", opts:[
+    {s:4,t:"Spontanée",d:"Yeux ouverts avant tout stimulus"},
+    {s:3,t:"À la parole",d:"Ouvre les yeux à la demande verbale"},
+    {s:2,t:"À la pression",d:"Ouvre les yeux à un stimulus de pression"},
+    {s:1,t:"Aucune",d:"Pas d'ouverture, sans facteur interférent"},
+    {s:"NT",t:"Non testable",d:"Œdème, traumatisme facial…"}
+  ]},
+  { key:"V", q:"Réponse verbale", opts:[
+    {s:5,t:"Orientée",d:"Nom, lieu et date corrects"},
+    {s:4,t:"Confuse",d:"Communique mais désorientée"},
+    {s:3,t:"Mots inappropriés",d:"Mots isolés intelligibles"},
+    {s:2,t:"Sons",d:"Gémissements, grognements"},
+    {s:1,t:"Aucune",d:"Pas de réponse audible, sans facteur interférent"},
+    {s:"NT",t:"Non testable",d:"Intubation, trachéotomie…"}
+  ]},
+  { key:"M", q:"Réponse motrice", opts:[
+    {s:6,t:"Obéit aux ordres",d:"Exécute une consigne en deux temps"},
+    {s:5,t:"Localise",d:"Porte la main au-dessus de la clavicule"},
+    {s:4,t:"Flexion normale",d:"Retrait rapide du bras"},
+    {s:3,t:"Flexion anormale",d:"Décortication"},
+    {s:2,t:"Extension",d:"Décérébration"},
+    {s:1,t:"Aucune",d:"Aucun mouvement, sans facteur interférent"},
+    {s:"NT",t:"Non testable",d:"Paralysie, curarisation…"}
+  ]}
+];
+const sel = {E:null,V:null,M:null};
+let cur = 0;
+const stage=document.getElementById('stage');
+const result=document.getElementById('result');
+const prog=document.getElementById('progress').children;
+
+function runningTotal(){
+  let parts=[];
+  ['E','V','M'].forEach(k=>{ if(sel[k]!==null) parts.push(k+sel[k]); });
+  return parts.join(' ');
+}
+function renderStep(){
+  result.classList.add('hidden');
+  stage.classList.remove('hidden');
+  const st=steps[cur];
+  for(let i=0;i<3;i++){
+    prog[i].className = i<cur?'done':(i===cur?'active':'');
+  }
+  let html=`<div class="step-label">Étape ${cur+1} sur 3 · « ${st.key} »</div>
+    <div class="step-q">${st.q}</div><div class="options">`;
+  st.opts.forEach((o,idx)=>{
+    html+=`<button class="opt${o.s==='NT'?' nt':''}" data-i="${idx}">
+      <span class="opt-text">${o.t}<small>${o.d}</small></span>
+      <span class="chip">${o.s}</span></button>`;
+  });
+  html+=`</div><div class="nav">`;
+  if(cur>0) html+=`<button class="back" id="back">← Retour</button>`;
+  const rt=runningTotal();
+  if(rt) html+=`<span class="running">En cours&nbsp;: <b>${rt}</b></span>`;
+  html+=`</div>`;
+  stage.innerHTML=html;
+  stage.querySelectorAll('.opt').forEach(b=>{
+    b.addEventListener('click',()=>{
+      sel[st.key]=st.opts[+b.dataset.i].s;
+      if(cur<2){cur++;renderStep();} else {renderResult();}
+    });
+  });
+  const back=document.getElementById('back');
+  if(back) back.addEventListener('click',()=>{cur--;renderStep();});
+}
+function renderResult(){
+  stage.classList.add('hidden');
+  result.classList.remove('hidden');
+  for(let i=0;i<3;i++) prog[i].className='done';
+  document.getElementById('breakdown').innerHTML=
+    `E${sel.E} V${sel.V} M${sel.M}<small>Détail par composante</small>`;
+  const totalN=document.getElementById('totalN');
+  const totalD=document.getElementById('totalD');
+  const badge=document.getElementById('sevBadge');
+  const sevText=document.getElementById('sevText');
+  if([sel.E,sel.V,sel.M].includes('NT')){
+    totalN.textContent='NT'; totalD.style.display='none';
+    badge.className='sev-badge nt'; badge.textContent='Non additionnable';
+    sevText.textContent='Une composante non testable empêche le calcul du total.';
+    return;
+  }
+  const sum=sel.E+sel.V+sel.M;
+  totalN.textContent=sum; totalD.style.display='';
+  let cls,txt,desc;
+  if(sum<=8){cls='severe';txt='Atteinte sévère';desc='GCS 3–8';}
+  else if(sum<=12){cls='moderate';txt='Atteinte modérée';desc='GCS 9–12';}
+  else{cls='mild';txt='Atteinte légère';desc='GCS 13–15';}
+  badge.className='sev-badge '+cls; badge.textContent=txt; sevText.textContent=desc;
+}
+document.getElementById('restart').addEventListener('click',()=>{
+  sel.E=sel.V=sel.M=null; cur=0; renderStep();
+});
+renderStep();
+</script>
+</body>
+</html></div><p></p><p></p><p>L'échelle de Glasgow (Glasgow Coma Scale, ou GCS) est l'outil de référence pour évaluer l'état de conscience d'une personne après un <u><a target="_blank" rel="noopener noreferrer nofollow" class="admin-editor-link" href="https://www.jplouton-avocat.fr/post/traumatisme-cranien-accident-voiture">traumatisme crânien</a></u>. Mise au point en 1974 et révisée en 2014, elle attribue un score à trois réponses observées : l'ouverture des yeux, la réponse verbale et la réponse motrice. Le total varie de 3 (état le plus grave) à 15 (conscience normale) : un GCS de 3 à 8 traduit une atteinte sévère, de 9 à 12 une atteinte modérée, de 13 à 15 une atteinte légère.</p><p></p><p>Ce score, consigné dès les premiers secours, ne reste pas un simple chiffre médical : il devient une donnée juridique. Il sert de point de départ aux experts comme aux juridictions pour apprécier la gravité de l'atteinte et l'ampleur du préjudice. L'affaire jugée par le <u><a target="_blank" rel="noopener noreferrer nofollow" class="admin-editor-link" href="https://www.jplouton-avocat.fr/post/accident-mortel-angoisse-mort-imminente-tj-pau">Tribunal judiciaire de Pau, où un « score de Glasgow à 4 » a fondé la reconnaissance d'un préjudice d'angoisse de mort imminente</a></u>, illustre à quel point ce relevé initial pèse sur l'issue d'un dossier.</p><p></p><h2>Exemples d'affaires traitées par le cabinet concernant des traumatismes crâniens</h2><p></p><p>Le traumatisme crânien se rencontre dans des contextes très variés que le cabinet défend régulièrement : un <u><a target="_blank" rel="noopener noreferrer nofollow" class="admin-editor-link" href="https://www.jplouton-avocat.fr/post/accident-de-moto-en-corse-le-cabinet-obtient-une-indemnisation-%C3%A0-hauteur-de-2-millions-d-euros-pou">accident de moto ayant entraîné contusions cérébrales et plus de 2 millions d'euros d'indemnisation</a></u>, un <u><a target="_blank" rel="noopener noreferrer nofollow" class="admin-editor-link" href="https://www.jplouton-avocat.fr/post/accident-de-la-route-%C3%A0-moto-indemnisation-de-70-000-pour-le-motard">motard percuté et projeté à plusieurs mètres</a></u>, mais aussi des violences volontaires — qu'il s'agisse d'un <u><a target="_blank" rel="noopener noreferrer nofollow" class="admin-editor-link" href="https://www.jplouton-avocat.fr/post/indemnisation-d-un-joueur-de-rugby-victime-de-violences-avec-arme">joueur de rugby frappé au crâne</a></u> ou d'un <u><a target="_blank" rel="noopener noreferrer nofollow" class="admin-editor-link" href="https://www.jplouton-avocat.fr/post/indemnisation-d-un-client-agress%C3%A9-par-un-portier-de-discoth%C3%A8que-quai-de-paludate-13-000-pour-12">client laissé inconscient après une agression en discothèque</a></u>.</p><p></p><p>Le calculateur ci-dessus vous permet de comprendre concrètement comment ce score est construit. Que la lésion résulte d'un <u><a target="_blank" rel="noopener noreferrer nofollow" class="admin-editor-link" href="https://www.jplouton-avocat.fr/indemnisation-des-victimes/accidents-de-la-route">accident de la route</a></u>, d'un <u><a target="_blank" rel="noopener noreferrer nofollow" class="admin-editor-link" href="https://www.jplouton-avocat.fr/indemnisation-des-victimes/droit-et-accidents-du-travail">accident du travail</a></u>, d'une <u><a target="_blank" rel="noopener noreferrer nofollow" class="admin-editor-link" href="https://www.jplouton-avocat.fr/indemnisation-des-victimes/accidents-et-erreurs-medicales">erreur médicale</a></u> ou d'une agression, le cabinet vous accompagne dans <u><a target="_blank" rel="noopener noreferrer nofollow" class="admin-editor-link" href="https://www.jplouton-avocat.fr/indemnisation-des-victimes">l'indemnisation des victimes</a></u>.</p><p></p><p></p>

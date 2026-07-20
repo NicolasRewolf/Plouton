@@ -90,9 +90,29 @@ function linkPattern(text: string) {
   return escaped
 }
 
+/**
+ * Porte les liens d'une page ET la mémoire de ceux déjà posés.
+ *
+ * Créé une fois par rendu de page puis passé aux sous-composants : c'est ce
+ * qui permet de ne lier une expression qu'à sa PREMIÈRE occurrence sur toute
+ * la page, et non une fois par bloc.
+ */
+export type Linker = { all: InlineLink[]; seen: Set<string> }
+
+export function makeLinker(links: InlineLink[] = []): Linker {
+  return { all: links, seen: new Set<string>() }
+}
+
 /** Réinjecte les liens internes harvestés du live (phrases → URLs) + urgences. */
-export function linkify(text: string, links: InlineLink[] = []): ReactNode[] {
+export function linkify(
+  text: string,
+  source: Linker | InlineLink[] = []
+): ReactNode[] {
   if (!text) return []
+  // Un tableau nu (appelant hors ExpertiseBody) obtient une mémoire jetable :
+  // la déduplication vaut alors pour l'appel seul.
+  const linker: Linker = Array.isArray(source) ? makeLinker(source) : source
+  const links = linker.all
 
   const usable = [...links, ...EMERGENCY_TELS]
     .filter((l) => l.text && l.href)
@@ -105,10 +125,22 @@ export function linkify(text: string, links: InlineLink[] = []): ReactNode[] {
   const re = new RegExp(`(${pattern})`, "gi")
   const hrefByLower = new Map(usable.map((l) => [l.text.toLowerCase(), l.href]))
 
+  // Une même expression n'est liée qu'à sa PREMIÈRE occurrence DE LA PAGE.
+  // Sans ça, « garde à vue » devenait un lien à chacune de ses apparitions —
+  // sept fois sur /defense-penale/droit-penal — ce qui alourdit la lecture et
+  // dilue le maillage interne. Les numéros d'urgence font exception : on veut
+  // qu'ils restent composables partout où ils sont cités.
+  const linked = linker.seen
+
   const parts = text.split(re)
   return parts.map((part, i) => {
-    const href = hrefByLower.get(part.toLowerCase())
+    const key = part.toLowerCase()
+    const href = hrefByLower.get(key)
     if (!href) return <span key={i}>{part}</span>
+    if (!isTelHref(href)) {
+      if (linked.has(key)) return <span key={i}>{part}</span>
+      linked.add(key)
+    }
     if (isTelHref(href))
       return (
         <a key={i} href={href} className="link-inline font-medium">
@@ -308,7 +340,7 @@ function splitBodyChunks(text: string): { type: "p" | "ul" | "h4"; value: string
   return chunks
 }
 
-function BulletList({ items, links }: { items: string[]; links: InlineLink[] }) {
+function BulletList({ items, links }: { items: string[]; links: Linker }) {
   if (!items.length) return null
   return (
     <ul className="mt-3 list-disc space-y-2 pl-5 text-[15px] leading-[1.7] text-pretty text-navy/90 marker:text-accent">
@@ -328,7 +360,7 @@ function Paragraphs({
 }: {
   text: string
   className?: string
-  links: InlineLink[]
+  links: Linker
 }) {
   const chunks = splitBodyChunks(text)
   if (!chunks.length) return null
@@ -364,7 +396,7 @@ function BlockHeading({
 }: {
   heading: string
   level: 3 | 4
-  links: InlineLink[]
+  links: Linker
 }) {
   if (level === 4)
     return (
@@ -379,7 +411,7 @@ function BlockHeading({
   )
 }
 
-function BlockContent({ block, links }: { block: Block; links: InlineLink[] }) {
+function BlockContent({ block, links }: { block: Block; links: Linker }) {
   const level: 3 | 4 = block.headingLevel === 4 ? 4 : 3
   const hasBody = Boolean(block.body && !isJunk(block.body))
   const hasBullets = Boolean(block.bullets?.length)
@@ -430,7 +462,7 @@ function Lead({ children }: { children: ReactNode }) {
   )
 }
 
-function StepList({ items, links }: { items: BulletItem[]; links: InlineLink[] }) {
+function StepList({ items, links }: { items: BulletItem[]; links: Linker }) {
   return (
     <ol className="mt-8 space-y-4">
       {items.map((item, i) => (
@@ -459,7 +491,7 @@ function StepList({ items, links }: { items: BulletItem[]; links: InlineLink[] }
   )
 }
 
-function HeadedSteps({ blocks, links }: { blocks: Block[]; links: InlineLink[] }) {
+function HeadedSteps({ blocks, links }: { blocks: Block[]; links: Linker }) {
   const steps = blocks.filter((b) => b.heading)
   if (!steps.length) return null
   return (
@@ -522,7 +554,7 @@ function HeadedSteps({ blocks, links }: { blocks: Block[]; links: InlineLink[] }
   )
 }
 
-function CaseGrid({ cases, links }: { cases: CaseItem[]; links: InlineLink[] }) {
+function CaseGrid({ cases, links }: { cases: CaseItem[]; links: Linker }) {
   return (
     <div className="mt-8 grid gap-4 md:grid-cols-2">
       {cases.map((c) => (
@@ -551,7 +583,7 @@ function CaseGrid({ cases, links }: { cases: CaseItem[]; links: InlineLink[] }) 
   )
 }
 
-function DefGrid({ items, links }: { items: BulletItem[]; links: InlineLink[] }) {
+function DefGrid({ items, links }: { items: BulletItem[]; links: Linker }) {
   return (
     <div className="mt-8 grid gap-3 sm:grid-cols-2">
       {items.map((item, i) => (
@@ -572,7 +604,7 @@ function DefGrid({ items, links }: { items: BulletItem[]; links: InlineLink[] })
   )
 }
 
-function ProseBlocks({ blocks, links }: { blocks: Block[]; links: InlineLink[] }) {
+function ProseBlocks({ blocks, links }: { blocks: Block[]; links: Linker }) {
   return (
     <div className="mt-7 space-y-8">
       {blocks.map((b, i) => (
@@ -591,7 +623,7 @@ function wantsFidelityLayout(blocks: Block[]) {
   )
 }
 
-function renderSectionBody(blocks: Block[], links: InlineLink[]) {
+function renderSectionBody(blocks: Block[], links: Linker) {
   // Structure explicite H3/H4 / bullets / children → rendu fidèle (pas d’heuristiques cartes).
   if (wantsFidelityLayout(blocks)) return <ProseBlocks blocks={blocks} links={links} />
 
@@ -651,11 +683,16 @@ function renderSectionBody(blocks: Block[], links: InlineLink[]) {
 /** Corps éditorial expertise — étapes, cartes, grilles + liens internes du live. */
 export function ExpertiseBody({
   sections,
-  links = [],
+  linker,
+  links,
 }: {
   sections: Section[]
+  /** Linker partagé avec le reste de la page (chapô compris). */
+  linker?: Linker
+  /** Rétrocompat : liens nus, mémoire limitée à ce composant. */
   links?: InlineLink[]
 }) {
+  const pageLinker = linker ?? makeLinker(links)
   return (
     <div className="bg-[#f7f8f9]">
       {sections.map((section, si) => {
@@ -675,7 +712,7 @@ export function ExpertiseBody({
                 <Lead>
                   <Paragraphs
                     text={lead}
-                    links={links}
+                    links={pageLinker}
                     className="text-[15px] leading-[1.7] text-pretty text-navy/85"
                   />
                 </Lead>
@@ -683,7 +720,7 @@ export function ExpertiseBody({
               {section.simulator ? (
                 <SectionSimulatorSlot type={section.simulator} />
               ) : null}
-              {blocks.length ? renderSectionBody(blocks, links) : null}
+              {blocks.length ? renderSectionBody(blocks, pageLinker) : null}
             </div>
           </section>
         )

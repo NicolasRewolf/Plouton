@@ -11,7 +11,6 @@ import { getSite, resolveAuthorSlug } from "@/lib/content"
 import { resolveAuthorBySlug } from "@/lib/authors-db"
 import { categoryPublicHref } from "@/lib/gallery-filters"
 import {
-  resolvePostBodyMode,
   resolvePublicBodyHtml,
   resolvePublishedArticle,
   resolvePublishedSlugs,
@@ -68,35 +67,10 @@ export async function generateMetadata({
   }
 }
 
-/** Corps riche : "## " titre, "> " encadré bordure gauche, "---" séparateur, sinon paragraphe */
-function BodyBlocks({ blocks }: { blocks: string[] }) {
-  return (
-    <>
-      {blocks.map((block, i) => {
-        if (block === "---")
-          return <hr key={i} className="mx-auto my-10 w-56 border-line" />
-        if (block.startsWith("## "))
-          return <h2 key={i}>{block.replace(/^## /, "")}</h2>
-        if (block.startsWith("> "))
-          return (
-            <blockquote
-              key={i}
-              className="my-6 border-l-4 border-[#c4cdd2] py-1 pl-4 text-[13px] leading-relaxed text-ink/70"
-            >
-              {block.replace(/^> /, "")}
-            </blockquote>
-          )
-        return <p key={i}>{block}</p>
-      })}
-    </>
-  )
-}
-
 export default async function PostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
   const article = await resolvePublishedArticle(slug)
   if (!article) notFound()
-  const bodyMode = resolvePostBodyMode(article)
   const bodyHtml = resolvePublicBodyHtml(article)
   const site = getSite()
   const url = `${site.url}/post/${article.slug}`
@@ -185,18 +159,15 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             </h1>
           </header>
 
-          {bodyMode === "html" && bodyHtml ? (
+          {/* Source unique : body_html, cache dérivé de body_doc. Pas de mode
+              dégradé — un corps vide est un bug de données à corriger, pas à
+              masquer par un rendu appauvri. */}
+          {bodyHtml ? (
             <div
               className="prose-plouton prose-blog mt-8"
               dangerouslySetInnerHTML={{ __html: bodyHtml }}
             />
-          ) : (
-            <div className="prose-plouton prose-blog mt-8">
-              <BodyBlocks
-                blocks={Array.isArray(article.body) ? article.body : []}
-              />
-            </div>
-          )}
+          ) : null}
 
           {/* À propos de l'auteur */}
           {author?.bio ? (

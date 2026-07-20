@@ -79,7 +79,15 @@ async function fetchCategoriesFromDb(): Promise<Category[] | null> {
 const cachedCategories = unstable_cache(
   async () => fetchCategoriesFromDb(),
   ["categories-list"],
-  { tags: [CATEGORIES_CACHE_TAG] }
+  {
+    tags: [CATEGORIES_CACHE_TAG],
+    // Ces données se modifient aussi DIRECTEMENT en base (console
+    // Supabase), sans passer par une route qui pourrait invalider.
+    // Sans fenêtre, `unstable_cache` les gardait indéfiniment — et il
+    // persiste à travers les redéploiements, donc même une remise en
+    // ligne ne les rafraîchissait pas. Une heure borne la dérive.
+    revalidate: 3600,
+  }
 )
 
 /** DB (+ compteurs live) puis JSON. */

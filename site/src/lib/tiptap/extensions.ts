@@ -58,6 +58,10 @@ export const CtaButton = Node.create({
   name: "ctaButton",
   group: "block",
   atom: true,
+  // Priorité > Link (1000) : les deux règles matchent `<a>`. Sans ça, la
+  // marque Link gagne, le nœud est parsé en simple texte lié et le bouton
+  // disparaît à la réouverture dans l'éditeur.
+  priority: 1100,
   addAttributes() {
     return {
       href: { default: "#" },
@@ -66,7 +70,7 @@ export const CtaButton = Node.create({
     }
   },
   parseHTML() {
-    return [{ tag: 'a[data-type="cta-button"]' }]
+    return [{ tag: 'a[data-type="cta-button"]', priority: 60 }]
   },
   renderHTML({ HTMLAttributes }) {
     const { label, ...attrs } = HTMLAttributes
@@ -157,6 +161,9 @@ export const LinkPreview = Node.create({
   name: "linkPreview",
   group: "block",
   atom: true,
+  // Idem CtaButton : doit primer sur la marque Link, sinon l'aperçu de lien
+  // est aplati en texte lié dès l'ouverture dans l'éditeur.
+  priority: 1100,
   addAttributes() {
     return {
       href: { default: null },
@@ -166,7 +173,9 @@ export const LinkPreview = Node.create({
     }
   },
   parseHTML() {
-    return [{ tag: 'a[data-type="link-preview"]' }]
+    // priority au niveau de la RÈGLE : c'est elle que ProseMirror arbitre
+    // face à la règle `a[href]` de la marque Link.
+    return [{ tag: 'a[data-type="link-preview"]', priority: 60 }]
   },
   renderHTML({ HTMLAttributes }) {
     const { title, description, ...attrs } = HTMLAttributes
@@ -204,12 +213,15 @@ export const HtmlEmbed = Node.create({
     return [{ tag: 'div[data-type="html-embed"]' }]
   },
   renderHTML({ HTMLAttributes }) {
+    // `HTMLAttributes` contient DÉJÀ `data-html` (produit par le renderHTML de
+    // l'attribut ci-dessus). Relire `.html` ici renvoyait undefined et vidait
+    // l'embed — les 6 vidéos/replays étaient perdues au rendu.
     return [
       "div",
-      mergeAttributes(
-        { "data-type": "html-embed", class: "prose-html-embed" },
-        { "data-html": HTMLAttributes.html || "" }
-      ),
+      mergeAttributes(HTMLAttributes, {
+        "data-type": "html-embed",
+        class: "prose-html-embed",
+      }),
     ]
   },
 })
@@ -238,15 +250,23 @@ export const EnrichedLink = Mark.create({
   },
 })
 
-/** Extensions admin + rendu. Placeholder / Youtube optionnels côté serveur. */
-export function buildEditorExtensions(opts?: {
-  placeholder?: string
-  withPlaceholder?: boolean
-}) {
+/**
+ * Schéma partagé par l'éditeur admin et le rendu serveur (`body-doc.ts`) —
+ * c'est ce qui garantit qu'un article s'affiche comme il a été écrit.
+ * Le Placeholder est ajouté par `AdminEditor` seul (il n'a pas de sens au
+ * rendu) : ne pas réintroduire d'options ici sans les utiliser.
+ */
+export function buildEditorExtensions() {
   const list = [
     StarterKit.configure({
       heading: { levels: [2, 3, 4] },
       codeBlock: {},
+      // StarterKit v3 embarque déjà Link et Underline : on les coupe ici pour
+      // garder nos versions configurées (classes CSS) sans enregistrer deux
+      // extensions du même nom — TipTap avertit et le comportement devient
+      // indéterminé.
+      link: false,
+      underline: false,
     }),
     Underline,
     Superscript,

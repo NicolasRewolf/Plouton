@@ -7,7 +7,7 @@ import {
 } from "@/lib/posts-db"
 import { revalidatePostSurfaces } from "@/lib/revalidate-posts"
 import { getStore, type ContentStore } from "@/lib/store"
-import { supabaseServer } from "@/lib/supabase/server"
+import { requireAdmin } from "@/lib/require-admin"
 
 export const runtime = "nodejs"
 
@@ -15,18 +15,6 @@ interface StoreWithGet extends ContentStore {
   getArticleBySlug?(slug: string): Promise<import("@/lib/content").Article | null>
 }
 
-async function requireAdmin() {
-  try {
-    const supabase = await supabaseServer()
-    const {
-      data: { user },
-    } = await supabase.auth.getUser()
-    if (!user) return null
-    return user
-  } catch {
-    return null
-  }
-}
 
 /** GET ?slug=… — liste des versions. POST { versionId } — restaurer. */
 export async function GET(req: Request) {
@@ -73,13 +61,21 @@ export async function POST(req: Request) {
     authorEmail: user.email,
   })
 
+  // Restaurer la source (`body_doc`) et non le seul cache HTML : sinon la
+  // sauvegarde suivante régénère le HTML depuis le body_doc resté courant et
+  // annule la restauration en silence. Les versions antérieures à la migration
+  // 0012 n'ont pas de body_doc — on retombe alors sur le HTML seul.
+  const restoredDoc = version.body_doc ?? null
   const restored = {
     ...current,
     title: version.title || current.title,
     categories: version.categories || current.categories,
-    metaTitle: version.meta_title || undefined,
-    metaDescription: version.meta_description || undefined,
+    // `|| undefined` effaçait une meta existante quand la version n'en avait
+    // pas ; on ne retire une valeur que si la version en portait vraiment une.
+    metaTitle: version.meta_title ?? current.metaTitle,
+    metaDescription: version.meta_description ?? current.metaDescription,
     bodyHtml: version.body_html || current.bodyHtml,
+    bodyDoc: restoredDoc ?? current.bodyDoc,
     body: (Array.isArray(version.body)
       ? version.body
       : current.body) as typeof current.body,

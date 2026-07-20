@@ -1,23 +1,12 @@
 import { NextResponse } from "next/server"
 import { createClient } from "@supabase/supabase-js"
-import { supabaseServer } from "@/lib/supabase/server"
+import { requireAdmin } from "@/lib/require-admin"
 
 export const runtime = "nodejs"
 
 const MAX_OCTETS = 5 * 1024 * 1024
 const MIMES_OK = new Set(["image/jpeg", "image/png", "image/webp", "image/gif"])
 
-async function requireAdmin() {
-  try {
-    const supabase = await supabaseServer()
-    const {
-      data: { user },
-    } = await supabase.auth.getUser()
-    return user
-  } catch {
-    return null
-  }
-}
 
 function safeName(name: string): string {
   return (

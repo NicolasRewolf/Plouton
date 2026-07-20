@@ -10,14 +10,14 @@ import {
 } from "@/lib/article-body"
 import { isKnownAuthorSlug } from "@/lib/authors-db"
 import { isPostStatus, resolvePersistStatus, type PostStatus } from "@/lib/post-status"
-import { assessEditRisk, editGuardMessage } from "@/lib/post-edit-guard-server"
+import { detectNodeLoss, nodeLossMessage } from "@/lib/post-edit-loss"
 import { sanitizeEditorHtml } from "@/lib/tiptap/sanitize"
 import { bodyDocToHtml } from "@/lib/tiptap/body-doc"
 import { archivePost, insertPostVersion, resolveCategoryIdsFromLabels } from "@/lib/posts-db"
-import { resolveAdminArticleList } from "@/lib/posts-public"
+import { resolveAdminArticleList, resolveBodyDoc } from "@/lib/posts-public"
 import { revalidatePostSurfaces } from "@/lib/revalidate-posts"
 import { getStore, type ContentStore } from "@/lib/store"
-import { supabaseServer } from "@/lib/supabase/server"
+import { requireAdmin, readJsonBody } from "@/lib/require-admin"
 
 export const runtime = "nodejs"
 
@@ -25,18 +25,7 @@ interface StoreWithGet extends ContentStore {
   getArticleBySlug?(slug: string): Promise<Article | null>
 }
 
-async function requireAdmin() {
-  try {
-    const supabase = await supabaseServer()
-    const {
-      data: { user },
-    } = await supabase.auth.getUser()
-    if (!user) return null
-    return user
-  } catch {
-    return null
-  }
-}
+
 
 function normalizeIncoming(body: Partial<Article>): Pick<Article, "body" | "bodyHtml" | "bodyDoc"> {
   const doc = body.bodyDoc
@@ -63,12 +52,29 @@ function normalizeIncoming(body: Partial<Article>): Pick<Article, "body" | "body
   return { body: ["Contenu à rédiger."], bodyHtml: "<p></p>", bodyDoc: null }
 }
 
-function normalizeStatus(
+/**
+ * Statut absent = brouillon (cas légitime d'une création). Statut FOURNI mais
+ * non reconnu = refus : l'ancienne version le coerçait silencieusement en
+ * « draft », si bien qu'une demande de publication mal formée dépubliait
+ * l'article en répondant 200 OK.
+ */
+function readStatus(
   raw: unknown,
   publishedAt: string | undefined
-): PostStatus {
-  const base: PostStatus = isPostStatus(raw) ? raw : "draft"
-  return resolvePersistStatus(base, publishedAt)
+): { status: PostStatus } | { error: NextResponse } {
+  if (raw === undefined || raw === null || raw === "")
+    return { status: resolvePersistStatus("draft", publishedAt) }
+  if (!isPostStatus(raw))
+    return {
+      error: NextResponse.json(
+        {
+          error: `Statut inconnu « ${String(raw)} ». Attendu : draft, published, scheduled ou archived.`,
+          code: "UNKNOWN_STATUS",
+        },
+        { status: 400 }
+      ),
+    }
+  return { status: resolvePersistStatus(raw, publishedAt) }
 }
 
 /** P1-A — auteur hors référentiel = refus (plus de GUID libre). */
@@ -97,15 +103,11 @@ export async function GET(req: Request) {
     const store = getStore() as StoreWithGet
     if (store.getArticleBySlug) {
       const fromDb = await store.getArticleBySlug(slug)
-      if (fromDb) {
-        const editGuard = assessEditRisk(slug, fromDb.bodyHtml)
-        return NextResponse.json({ ...fromDb, editGuard })
-      }
+      if (fromDb) return NextResponse.json(fromDb)
     }
     const article = getArticle(slug)
     if (!article) return NextResponse.json({ error: "introuvable" }, { status: 404 })
-    const editGuard = assessEditRisk(slug, article.bodyHtml)
-    return NextResponse.json({ ...article, editGuard })
+    return NextResponse.json(article)
   }
   return NextResponse.json(await resolveAdminArticleList())
 }
@@ -114,15 +116,39 @@ export async function POST(req: Request) {
   const user = await requireAdmin()
   if (!user) return NextResponse.json({ error: "non autorisé" }, { status: 401 })
 
-  const body = (await req.json()) as Partial<Article>
+  const body = await readJsonBody<Partial<Article>>(req)
+  if (!body)
+    return NextResponse.json({ error: "corps JSON illisible" }, { status: 400 })
   if (!body.slug || !body.title)
     return NextResponse.json({ error: "slug et title requis" }, { status: 400 })
+
+  const slug = body.slug.replace(/[^a-z0-9-àâäéèêëïîôùûüç]/gi, "-").toLowerCase()
+
+  // `saveArticle` fait un upsert sur `slug` : sans ce contrôle, créer un
+  // article dont le slug existe déjà écrasait l'article en ligne — sans
+  // snapshot de version (POST n'en prend pas) et sans garde anti-perte
+  // (réservée au PUT). Le seul chemin de destruction totale et silencieuse.
+  const storeForCheck = getStore() as StoreWithGet
+  const existing =
+    (storeForCheck.getArticleBySlug &&
+      (await storeForCheck.getArticleBySlug(slug))) ||
+    getArticle(slug)
+  if (existing)
+    return NextResponse.json(
+      {
+        error: `Un article existe déjà à l'adresse « ${slug} ». Choisissez un autre titre, ou ouvrez l'article existant pour le modifier.`,
+        code: "SLUG_TAKEN",
+      },
+      { status: 409 }
+    )
 
   const authorSlug = body.authorSlug || body.authorId
   const authorErr = await assertAuthorSlug(authorSlug)
   if (authorErr) return authorErr
 
   const publishedAt = body.publishedAt || new Date().toISOString().slice(0, 10)
+  const statusRead = readStatus(body.status, publishedAt)
+  if ("error" in statusRead) return statusRead.error
   const normalized = normalizeIncoming(body)
   const categories = body.categories?.length
     ? body.categories
@@ -130,13 +156,13 @@ export async function POST(req: Request) {
   const categoryIds =
     body.categoryIds?.length
       ? body.categoryIds
-      : resolveCategoryIdsFromLabels(categories)
+      : await resolveCategoryIdsFromLabels(categories)
   const article: Article = {
-    slug: body.slug.replace(/[^a-z0-9-àâäéèêëïîôùûüç]/gi, "-").toLowerCase(),
+    slug,
     title: body.title,
     excerpt: body.excerpt || "",
     publishedAt,
-    status: normalizeStatus(body.status, publishedAt),
+    status: statusRead.status,
     author: body.author || "Cabinet Plouton",
     authorId: body.authorId,
     authorSlug,
@@ -169,27 +195,54 @@ export async function PUT(req: Request) {
   const user = await requireAdmin()
   if (!user) return NextResponse.json({ error: "non autorisé" }, { status: 401 })
 
-  const body = (await req.json()) as Article & { forceRichEdit?: boolean }
+  const body = await readJsonBody<Article & { confirmContentLoss?: boolean }>(req)
+  if (!body)
+    return NextResponse.json({ error: "corps JSON illisible" }, { status: 400 })
   if (!body.slug) return NextResponse.json({ error: "slug requis" }, { status: 400 })
-
-  // P0-A — gel articles riches (Ricos / HTML) sauf override explicite
-  const risk = assessEditRisk(body.slug, body.bodyHtml)
-  if (risk.blocked && !body.forceRichEdit) {
-    return NextResponse.json(
-      {
-        error: editGuardMessage(risk),
-        code: "RICH_EDIT_BLOCKED",
-        reasons: risk.reasons,
-        source: risk.source,
-      },
-      { status: 409 }
-    )
-  }
 
   const store = getStore() as StoreWithGet
   const previous =
     (store.getArticleBySlug && (await store.getArticleBySlug(body.slug))) ||
     getArticle(body.slug)
+
+  const normalized = normalizeIncoming(body)
+
+  // Alerte sur une perte MESURÉE (et non pronostiquée par nom de balise).
+  // Se place avant toute écriture : une sauvegarde refusée ne doit pas
+  // laisser de version d'archive derrière elle.
+  if (previous && !body.confirmContentLoss) {
+    const losses = detectNodeLoss(resolveBodyDoc(previous), normalized.bodyDoc)
+    if (losses.length) {
+      return NextResponse.json(
+        {
+          error: nodeLossMessage(losses),
+          code: "CONTENT_LOSS",
+          losses,
+        },
+        { status: 409 }
+      )
+    }
+  }
+
+  // Toute la validation AVANT la moindre écriture. L'archivage de version se
+  // faisait auparavant avant ces contrôles : un PUT refusé pour auteur inconnu
+  // répondait 400 mais avait déjà laissé une version derrière lui.
+  const publishedAt = body.publishedAt || new Date().toISOString().slice(0, 10)
+  const categories = body.categories?.length
+    ? body.categories
+    : previous?.categories?.length
+      ? previous.categories
+      : ["Ressources et notions juridiques"]
+  const categoryIds = await resolveCategoryIdsFromLabels(categories)
+  const authorSlug = body.authorSlug || body.authorId || previous?.authorSlug
+  const authorErr = await assertAuthorSlug(authorSlug)
+  if (authorErr) return authorErr
+  const reviewerSlug = body.reviewerSlug || previous?.reviewerSlug
+  const reviewerErr = await assertAuthorSlug(reviewerSlug)
+  if (reviewerErr) return reviewerErr
+  const statusRead = readStatus(body.status, publishedAt)
+  if ("error" in statusRead) return statusRead.error
+
   if (previous) {
     await insertPostVersion({
       slug: body.slug,
@@ -198,24 +251,10 @@ export async function PUT(req: Request) {
     })
   }
 
-  const normalized = normalizeIncoming(body)
-  const publishedAt = body.publishedAt || new Date().toISOString().slice(0, 10)
-  const categories = body.categories?.length
-    ? body.categories
-    : previous?.categories?.length
-      ? previous.categories
-      : ["Ressources et notions juridiques"]
-  const categoryIds = resolveCategoryIdsFromLabels(categories)
-  const authorSlug = body.authorSlug || body.authorId || previous?.authorSlug
-  const authorErr = await assertAuthorSlug(authorSlug)
-  if (authorErr) return authorErr
-  const reviewerSlug = body.reviewerSlug || previous?.reviewerSlug
-  const reviewerErr = await assertAuthorSlug(reviewerSlug)
-  if (reviewerErr) return reviewerErr
   const article: Article = {
     ...body,
     publishedAt,
-    status: normalizeStatus(body.status, publishedAt),
+    status: statusRead.status,
     categories,
     categoryIds,
     authorSlug,
