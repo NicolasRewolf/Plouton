@@ -72,6 +72,15 @@ function textMarks(decorations: unknown[] | undefined): PMMark[] {
   return marks
 }
 
+/** Échappe une URL destinée à un attribut HTML (embeds synthétisés). */
+function escapeAttr(value: string): string {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+}
+
 function inlineFromNodes(nodes: RicosNode[] | undefined): PMNode[] {
   const out: PMNode[] = []
   for (const n of nodes || []) {
@@ -80,7 +89,12 @@ function inlineFromNodes(nodes: RicosNode[] | undefined): PMNode[] {
       if (!text) continue // ProseMirror interdit les text nodes vides
       const marks = textMarks(n.textData.decorations as unknown[])
       out.push(marks.length ? { type: "text", text, marks } : { type: "text", text })
+      continue
     }
+    // Ricos enveloppe souvent l'inline dans un bloc (HEADING/PARAGRAPH) — c'est
+    // le cas des titres d'accordéon (COLLAPSIBLE_ITEM_TITLE > HEADING > TEXT).
+    // Sans cette descente, les 104 titres retombaient sur le libellé générique.
+    if (n.nodes?.length) out.push(...inlineFromNodes(n.nodes))
   }
   return out
 }
@@ -278,10 +292,19 @@ function convertNode(node: RicosNode): PMNode | PMNode[] | null {
       return convertChildren(node.nodes)
     case "HTML": {
       const html = node.htmlData?.html || ""
-      if (!html.trim()) return null
+      if (html.trim()) return { type: "htmlEmbed", attrs: { html } }
+      // Wix stocke aussi les embeds distants sous `url` seul (sans `html`) —
+      // ex. un replay TF1. Sans ce cas, l'embed disparaissait silencieusement.
+      // On synthétise l'iframe pour rester sur la même forme que les 5 autres
+      // embeds (le nœud ne déclare que l'attribut `html`).
+      const url = node.htmlData?.url || ""
+      if (!url.trim()) return null
+      const height = Number(node.htmlData?.containerData?.height?.custom) || 550
       return {
         type: "htmlEmbed",
-        attrs: { html },
+        attrs: {
+          html: `<iframe src="${escapeAttr(url)}" width="100%" height="${height}" frameborder="0" allowfullscreen loading="lazy"></iframe>`,
+        },
       }
     }
     case "LINK_PREVIEW": {
