@@ -34,6 +34,12 @@ const { generateJSON, generateHTML } = await import("@tiptap/html")
 const { buildEditorExtensions } = await import(
   "../src/lib/tiptap/extensions.ts"
 )
+// Même définition de « perte » que la garde en ligne (API PUT) : sans ce
+// partage, le test pourrait déclarer sain un nœud que la garde refuse — ou
+// l'inverse.
+const { TRACKED_NODE_TYPES, countNodeTypes, detectNodeLoss } = await import(
+  "../src/lib/post-edit-loss.ts"
+)
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..")
 const HTML_DIR = path.join(ROOT, "contenu", "body-html")
@@ -44,34 +50,7 @@ const verbose = args.includes("--verbose")
 const limIdx = args.indexOf("--limit")
 const limit = limIdx >= 0 ? Number(args[limIdx + 1] || 0) : 0
 
-/** Nœuds structurants dont la perte est un vrai dommage éditorial. */
-const TRACKED = [
-  "table",
-  "tableRow",
-  "tableCell",
-  "details",
-  "image",
-  "gallery",
-  "ctaButton",
-  "linkPreview",
-  "htmlEmbed",
-  "videoEmbed",
-  "youtube",
-  "heading",
-  "bulletList",
-  "orderedList",
-  "listItem",
-  "blockquote",
-  "codeBlock",
-  "horizontalRule",
-]
-
-function countTypes(node, acc = {}) {
-  if (!node || typeof node !== "object") return acc
-  if (node.type) acc[node.type] = (acc[node.type] || 0) + 1
-  for (const child of node.content || []) countTypes(child, acc)
-  return acc
-}
+const TRACKED = TRACKED_NODE_TYPES
 
 function plainText(node, out = []) {
   if (!node || typeof node !== "object") return out
@@ -107,18 +86,14 @@ for (const file of files) {
   const saved = generateHTML(opened, extensions)
   const reopened = generateJSON(saved, extensions)
 
-  const before = countTypes(source)
-  const after = countTypes(reopened)
+  const before = countNodeTypes(source)
+  const after = countNodeTypes(reopened)
   for (const [k, v] of Object.entries(before))
     totalsBefore[k] = (totalsBefore[k] || 0) + v
   for (const [k, v] of Object.entries(after))
     totalsAfter[k] = (totalsAfter[k] || 0) + v
 
-  for (const type of TRACKED) {
-    const b = before[type] || 0
-    const a = after[type] || 0
-    if (a < b) lost.push({ slug, type, before: b, after: a })
-  }
+  for (const loss of detectNodeLoss(source, reopened)) lost.push({ slug, ...loss })
 
   const tb = norm(plainText(source))
   const ta = norm(plainText(reopened))

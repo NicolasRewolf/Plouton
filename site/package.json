@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "check:roundtrip": "tsx scripts/check-editor-roundtrip.mjs",
+    "check:edit-loss": "tsx scripts/check-edit-loss.mjs",
     "regen:body-html": "tsx scripts/regen-body-html.mjs"
   },
   "dependencies": {

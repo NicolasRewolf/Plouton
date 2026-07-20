@@ -10,11 +10,6 @@ import {
   htmlToParagraphs,
 } from "@/lib/article-body"
 import type { Article } from "@/lib/content"
-import {
-  assessHtmlEditRisk,
-  mergeEditRisks,
-  type EditGuardResult,
-} from "@/lib/post-edit-guard"
 import { statusLabel, todayIsoDate, type PostStatus } from "@/lib/post-status"
 
 type VersionMeta = {
@@ -24,11 +19,8 @@ type VersionMeta = {
   authorEmail: string | null
 }
 
-const EMPTY_RISK: EditGuardResult = {
-  blocked: false,
-  reasons: [],
-  source: "none",
-}
+/** Sauvegarde en attente de confirmation : elle supprimerait du contenu. */
+type PendingLoss = { message: string; status: PostStatus }
 
 export default function EditPostPage() {
   const { slug } = useParams<{ slug: string }>()
@@ -43,20 +35,14 @@ export default function EditPostPage() {
   const [metaDescription, setMetaDescription] = useState("")
   const [error, setError] = useState("")
   const [saving, setSaving] = useState(false)
-  const [forceRichEdit, setForceRichEdit] = useState(false)
+  const [pendingLoss, setPendingLoss] = useState<PendingLoss | null>(null)
   const [versions, setVersions] = useState<VersionMeta[]>([])
-  const [serverRisk, setServerRisk] = useState<EditGuardResult>(EMPTY_RISK)
   const [authorSlug, setAuthorSlug] = useState("")
   const [reviewerSlug, setReviewerSlug] = useState("")
   const [authorLabel, setAuthorLabel] = useState("")
   const [bodyDoc, setBodyDoc] = useState<Record<string, unknown> | null>(null)
   const [dirty, setDirty] = useState(false)
   const autosaveTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
-
-  const risk = mergeEditRisks(
-    serverRisk,
-    bodyHtml !== null ? assessHtmlEditRisk(bodyHtml) : EMPTY_RISK
-  )
 
   useEffect(() => {
     const onBeforeUnload = (e: BeforeUnloadEvent) => {
@@ -72,17 +58,12 @@ export default function EditPostPage() {
     fetch(`/api/posts?slug=${encodeURIComponent(slug)}`)
       .then((r) => r.json())
       .then(
-        (
-          data: Article & {
-            error?: string
-            editGuard?: EditGuardResult
-          }
-        ) => {
+        (data: Article & { error?: string }) => {
           if (data.error) {
             setArticle(null)
             return
           }
-          const { editGuard, ...articleData } = data
+          const articleData = data
           setArticle(articleData)
           setBodyHtml(articleToEditorHtml(articleData))
           setBodyDoc(articleData.bodyDoc || null)
@@ -100,7 +81,6 @@ export default function EditPostPage() {
           )
           setReviewerSlug(articleData.reviewerSlug || "")
           setAuthorLabel(articleData.author || "")
-          if (editGuard) setServerRisk(editGuard)
         }
       )
     fetch(`/api/posts/versions?slug=${encodeURIComponent(slug)}`)
@@ -111,20 +91,14 @@ export default function EditPostPage() {
       .catch(() => {})
   }, [slug])
 
-  async function save(status: PostStatus) {
+  async function save(status: PostStatus, confirmContentLoss = false) {
     if (!article || bodyHtml === null) return
     const form = formRef.current
     if (!form) return
-    if (risk.blocked && !forceRichEdit) {
-      setError(
-        "Édition gelée : contenu riche. Cochez « éditer quand même » seulement si vous acceptez la perte."
-      )
-      return
-    }
     setSaving(true)
     setError("")
     const fd = new FormData(form)
-    const next: Article & { forceRichEdit?: boolean } = {
+    const next: Article & { confirmContentLoss?: boolean } = {
       ...article,
       title: String(fd.get("title")),
       excerpt: String(fd.get("excerpt")),
@@ -148,7 +122,7 @@ export default function EditPostPage() {
       bodyHtml,
       bodyDoc: bodyDoc || undefined,
       body: htmlToParagraphs(bodyHtml),
-      forceRichEdit: forceRichEdit || undefined,
+      confirmContentLoss: confirmContentLoss || undefined,
     }
     const res = await fetch("/api/posts", {
       method: "PUT",
@@ -157,10 +131,20 @@ export default function EditPostPage() {
     })
     setSaving(false)
     if (!res.ok) {
-      const data = (await res.json().catch(() => ({}))) as { error?: string }
+      const data = (await res.json().catch(() => ({}))) as {
+        error?: string
+        code?: string
+      }
+      // Le serveur a mesuré une suppression de contenu : on la montre et on
+      // laisse trancher, plutôt que d'échouer sur un message d'erreur.
+      if (data.code === "CONTENT_LOSS" && data.error) {
+        setPendingLoss({ message: data.error, status })
+        return
+      }
       setError(data.error || "Échec de l’enregistrement")
       return
     }
+    setPendingLoss(null)
     setDirty(false)
     setArticle(next)
     if (status === "draft") {
@@ -178,8 +162,9 @@ export default function EditPostPage() {
     setDirty(true)
     if (autosaveTimer.current) clearTimeout(autosaveTimer.current)
     autosaveTimer.current = setTimeout(() => {
-      // Autosave brouillon uniquement si déjà connu et pas gelé
-      if (!article || (risk.blocked && !forceRichEdit)) return
+      // Pas d'autosave tant qu'une suppression attend confirmation : elle
+      // relancerait le même refus en boucle, bandeau après bandeau.
+      if (!article || pendingLoss) return
       void save("draft")
     }, 25000)
   }
@@ -284,27 +269,29 @@ export default function EditPostPage() {
         </div>
       </div>
 
-      {risk.blocked ? (
+      {pendingLoss ? (
         <div className="mb-6 rounded-[14px] border border-amber-300 bg-amber-50 px-4 py-3 text-[13px] text-navy">
-          <p className="font-semibold text-amber-900">Édition gelée (contenu riche)</p>
-          <p className="mt-1 text-navy/80">
-            Cet article contient des éléments (tableaux, accordéons, images,
-            embeds…) que l’éditeur actuel détruirait à la sauvegarde. Attendez
-            la mise à jour TipTap, ou forcez uniquement en connaissance de
-            cause.
+          <p className="font-semibold text-amber-900">
+            Confirmer la suppression de contenu
           </p>
-          <p className="mt-1 font-mono text-[11px] text-navy/60">
-            {risk.reasons.slice(0, 10).join(", ")}
-            {risk.reasons.length > 10 ? "…" : ""}
-          </p>
-          <label className="mt-3 flex items-center gap-2 text-[12px] text-amber-950">
-            <input
-              type="checkbox"
-              checked={forceRichEdit}
-              onChange={(e) => setForceRichEdit(e.target.checked)}
-            />
-            Éditer quand même (je comprends le risque de perte)
-          </label>
+          <p className="mt-1 text-navy/80">{pendingLoss.message}</p>
+          <div className="mt-3 flex flex-wrap items-center gap-2">
+            <button
+              type="button"
+              className="admin-btn admin-btn-primary"
+              disabled={saving}
+              onClick={() => void save(pendingLoss.status, true)}
+            >
+              Oui, enregistrer quand même
+            </button>
+            <button
+              type="button"
+              className="admin-btn admin-btn-secondary"
+              onClick={() => setPendingLoss(null)}
+            >
+              Annuler
+            </button>
+          </div>
         </div>
       ) : null}
 
@@ -320,7 +307,6 @@ export default function EditPostPage() {
               name="title"
               defaultValue={article.title}
               className="admin-input text-[16px] font-medium"
-              disabled={risk.blocked && !forceRichEdit}
             />
           </label>
           <AdminEditorLazy initialHtml={bodyHtml} onChange={onBodyChange} />
@@ -346,7 +332,7 @@ export default function EditPostPage() {
             <div className="mt-4 flex flex-col gap-2">
               <button
                 type="button"
-                disabled={saving || (risk.blocked && !forceRichEdit)}
+                disabled={saving}
                 className="admin-btn admin-btn-secondary w-full"
                 onClick={() => void save("draft")}
               >
@@ -354,7 +340,7 @@ export default function EditPostPage() {
               </button>
               <button
                 type="button"
-                disabled={saving || (risk.blocked && !forceRichEdit)}
+                disabled={saving}
                 className="admin-btn admin-btn-primary w-full"
                 onClick={() => void save("published")}
               >
@@ -362,7 +348,7 @@ export default function EditPostPage() {
               </button>
               <button
                 type="button"
-                disabled={saving || (risk.blocked && !forceRichEdit)}
+                disabled={saving}
                 className="admin-btn admin-btn-secondary w-full"
                 onClick={() => void save("scheduled")}
                 title="Visible le jour de la date de publication"

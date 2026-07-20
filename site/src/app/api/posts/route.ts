@@ -10,11 +10,11 @@ import {
 } from "@/lib/article-body"
 import { isKnownAuthorSlug } from "@/lib/authors-db"
 import { isPostStatus, resolvePersistStatus, type PostStatus } from "@/lib/post-status"
-import { assessEditRisk, editGuardMessage } from "@/lib/post-edit-guard-server"
+import { detectNodeLoss, nodeLossMessage } from "@/lib/post-edit-loss"
 import { sanitizeEditorHtml } from "@/lib/tiptap/sanitize"
 import { bodyDocToHtml } from "@/lib/tiptap/body-doc"
 import { archivePost, insertPostVersion, resolveCategoryIdsFromLabels } from "@/lib/posts-db"
-import { resolveAdminArticleList } from "@/lib/posts-public"
+import { resolveAdminArticleList, resolveBodyDoc } from "@/lib/posts-public"
 import { revalidatePostSurfaces } from "@/lib/revalidate-posts"
 import { getStore, type ContentStore } from "@/lib/store"
 import { supabaseServer } from "@/lib/supabase/server"
@@ -97,15 +97,11 @@ export async function GET(req: Request) {
     const store = getStore() as StoreWithGet
     if (store.getArticleBySlug) {
       const fromDb = await store.getArticleBySlug(slug)
-      if (fromDb) {
-        const editGuard = assessEditRisk(slug, fromDb.bodyHtml)
-        return NextResponse.json({ ...fromDb, editGuard })
-      }
+      if (fromDb) return NextResponse.json(fromDb)
     }
     const article = getArticle(slug)
     if (!article) return NextResponse.json({ error: "introuvable" }, { status: 404 })
-    const editGuard = assessEditRisk(slug, article.bodyHtml)
-    return NextResponse.json({ ...article, editGuard })
+    return NextResponse.json(article)
   }
   return NextResponse.json(await resolveAdminArticleList())
 }
@@ -169,27 +165,33 @@ export async function PUT(req: Request) {
   const user = await requireAdmin()
   if (!user) return NextResponse.json({ error: "non autorisé" }, { status: 401 })
 
-  const body = (await req.json()) as Article & { forceRichEdit?: boolean }
+  const body = (await req.json()) as Article & { confirmContentLoss?: boolean }
   if (!body.slug) return NextResponse.json({ error: "slug requis" }, { status: 400 })
-
-  // P0-A — gel articles riches (Ricos / HTML) sauf override explicite
-  const risk = assessEditRisk(body.slug, body.bodyHtml)
-  if (risk.blocked && !body.forceRichEdit) {
-    return NextResponse.json(
-      {
-        error: editGuardMessage(risk),
-        code: "RICH_EDIT_BLOCKED",
-        reasons: risk.reasons,
-        source: risk.source,
-      },
-      { status: 409 }
-    )
-  }
 
   const store = getStore() as StoreWithGet
   const previous =
     (store.getArticleBySlug && (await store.getArticleBySlug(body.slug))) ||
     getArticle(body.slug)
+
+  const normalized = normalizeIncoming(body)
+
+  // Alerte sur une perte MESURÉE (et non pronostiquée par nom de balise).
+  // Se place avant toute écriture : une sauvegarde refusée ne doit pas
+  // laisser de version d'archive derrière elle.
+  if (previous && !body.confirmContentLoss) {
+    const losses = detectNodeLoss(resolveBodyDoc(previous), normalized.bodyDoc)
+    if (losses.length) {
+      return NextResponse.json(
+        {
+          error: nodeLossMessage(losses),
+          code: "CONTENT_LOSS",
+          losses,
+        },
+        { status: 409 }
+      )
+    }
+  }
+
   if (previous) {
     await insertPostVersion({
       slug: body.slug,
@@ -198,7 +200,6 @@ export async function PUT(req: Request) {
     })
   }
 
-  const normalized = normalizeIncoming(body)
   const publishedAt = body.publishedAt || new Date().toISOString().slice(0, 10)
   const categories = body.categories?.length
     ? body.categories
