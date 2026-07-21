@@ -1,5 +1,8 @@
 # Passation — 2026-07-18 (soir)
 
+> ⛔ **ARCHIVE — ne décrit PAS le code actuel.**
+> État courant : [`../etat/etat.md`](../etat/etat.md) · Architecture : [`../socle/architecture-contenu.md`](../socle/architecture-contenu.md) · Changements : [`/CHANGELOG.md`](../../CHANGELOG.md)
+
 _Pour le prochain agent. Lis tout avant de coder. **Ne démarre pas C5 sans feu vert Nicolas.**_
 
 Photo matin (pré-C0, 0 row / sans auth) → [`archive/PASSATION-2026-07-18-matin-pre-C0.md`](archive/PASSATION-2026-07-18-matin-pre-C0.md).

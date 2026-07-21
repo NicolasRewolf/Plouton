@@ -1,52 +1,61 @@
-# Plouton — le plan de la maison
+# Plan de la maison
 
-Site public + backoffice du Cabinet Plouton.  
-**Cooked** (mesure) reste dans un autre repo.
+Le site du Cabinet Plouton, en migration de Wix vers Next.js.
+Pour l'état d'avancement : [`docs/etat/etat.md`](docs/etat/etat.md) — c'est le
+**seul** document qui porte une date.
 
----
+## Les dossiers
 
-## Carte du repo
+| Dossier | Ce qu'il contient | À savoir |
+|---|---|---|
+| **`site/`** | Toute l'application Next.js | Le site public **et** le backoffice |
+| **`contenu/`** | Instantané JSON du contenu | ⚠️ **Ce n'est pas la source de vérité** — c'est le relais de panne (voir plus bas) |
+| **`supabase/migrations/`** | Les 12 migrations SQL | Convention `000N_nom.sql`, appliquées par `supabase db push` |
+| **`scripts/`** | Imports de migration **et gardes exécutables** | Les deux cohabitent : `check-body-docs.mjs` et `check-meta-descriptions.mjs` sont des gardes, pas des imports |
+| **`docs/`** | La documentation, classée par durée de vie | Entrée : [`docs/00-INDEX.md`](docs/00-INDEX.md) |
+| **`admin/`** | Rien qu'un placeholder | ⚠️ **Le vrai backoffice est `site/src/app/admin/`** |
 
-| Dossier | Rôle | Devient demain |
-|---------|------|----------------|
-| **`site/`** | Site Next.js (visiteurs) | Vercel `www` |
-| **`admin/`** | Backoffice (placeholder) | Vercel `admin.` |
-| **`contenu/`** | Contenu produit + sources Wix | Tables Supabase + Storage |
-| **`base/`** / **`supabase/`** | Migrations SQL | Projet Supabase |
-| **`scripts/`** | Imports & scrapers migration | Gardés pour rejouabilité |
-| **`docs/`** | Décisions & architecture | Toujours |
+## Les trois pièges
 
-Fichiers racine : `LIRE-MOI.md` (toi) · `JOURNAL.md` (livraisons) · `AGENTS.md` (IA) · `README.md` (GitHub)
+**1. `admin/` n'est pas le backoffice.** C'est un dossier réservé pour un
+éventuel futur sous-domaine. Le code de l'admin est dans `site/src/app/admin/`.
 
----
+**2. `contenu/` n'est pas la source de vérité.** Depuis la bascule C5, le site
+lit **Supabase**, et ne retombe sur `contenu/` que si la base ne répond pas.
+C'est expliqué en un document :
+[`docs/socle/architecture-contenu.md`](docs/socle/architecture-contenu.md).
 
-## Démarrer en local
+**3. Il n'y a pas de `noindex`.** Le code déclare `index: true` et `robots.ts`
+autorise tout. La seule protection actuelle de la préproduction est le **login
+Vercel**. À décider consciemment au moment du cutover.
+
+## Démarrer
 
 ```bash
+cp site/.env.example site/.env.local
 cd site && npm install && npm run dev
 ```
 
-→ http://127.0.0.1:3000
+⚠️ Sans `SUPABASE_SECRET_KEY`, le site démarre **sans avertissement** en servant
+l'instantané figé — [`docs/guides/demarrer.md`](docs/guides/demarrer.md).
 
----
+## Avant de livrer
 
-## Par où lire ?
+Cinq gardes, à lancer depuis `site/`. Ce sont les seuls tests du projet :
+[`docs/guides/gardes.md`](docs/guides/gardes.md).
 
-1. [`docs/14-etat.md`](./docs/14-etat.md) — **où on en est**  
-2. [`JOURNAL.md`](./JOURNAL.md) — dernières livraisons  
-3. [`docs/PASSATION-2026-07-18.md`](./docs/PASSATION-2026-07-18.md) — reprise agent (Fable)  
-4. [`docs/09-architecture-site.md`](./docs/09-architecture-site.md) — gabarits + CMS  
-5. [`docs/11-stack-technique.md`](./docs/11-stack-technique.md) — Supabase / Vercel  
-6. [`contenu/LIRE-MOI.md`](./contenu/LIRE-MOI.md) — organisation contenu  
+## Par où lire
 
----
+1. [`docs/socle/vocabulaire.md`](docs/socle/vocabulaire.md) — « C5 » désigne deux chantiers différents
+2. [`docs/socle/architecture-contenu.md`](docs/socle/architecture-contenu.md) — d'où vient un article
+3. [`docs/etat/etat.md`](docs/etat/etat.md) — où on en est
+4. [`docs/00-INDEX.md`](docs/00-INDEX.md) — tout le reste
+5. [`CHANGELOG.md`](CHANGELOG.md) — ce qui a changé, PR par PR
 
-## État (2026-07-18 soir)
+## Où vit quoi
 
-- Site **riche** en local + **preview Vercel** (login, noindex) — pas encore le vrai domaine
-- **C5** : public lit Supabase (`posts`) + publish live · covers = C5.1
-- Pixel Phases 4–6 **en pause**
-- Registry expertises : `contenu/reference/poles-registry.json`
-
-Site live actuel (Wix) : https://www.jplouton-avocat.fr  
-Preview : https://plouton-rewolf-s-projects.vercel.app
+- **Taxonomie des pôles / menu / objets de formulaire** →
+  `contenu/reference/poles-registry.json` (miroir dans `site/src/data/`, synchro
+  par `scripts/sync-poles-registry.py`)
+- **Contenu des 15 pages d'expertise** → `contenu/expertises/*.json`
+- **Corps des articles** → `body_doc` en base ; `contenu/body-html/` est un cache

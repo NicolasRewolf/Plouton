@@ -1,6 +1,6 @@
 # Données
 
-> **Fondation 16/07** — état courant : [`14-etat.md`](14-etat.md) · stack : [`11-stack-technique.md`](11-stack-technique.md).  
+> **Fondation 16/07** — état courant : [`14-etat.md`](../etat/etat.md) · stack : [`11-stack-technique.md`](stack-technique.md).  
 > Soir 18/07 : tables `demandes` + `posts` (seed 422) · public encore dual-run JSON → **C5**.
 
 Dossier technique : `base/` / `supabase/`

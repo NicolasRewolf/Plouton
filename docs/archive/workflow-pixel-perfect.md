@@ -1,5 +1,8 @@
 # Workflow pixel-perfect v2 — boucle de convergence outillée
 
+> ⛔ **ARCHIVE — ne décrit PAS le code actuel.**
+> État courant : [`../etat/etat.md`](../etat/etat.md) · Architecture : [`../socle/architecture-contenu.md`](../socle/architecture-contenu.md) · Changements : [`/CHANGELOG.md`](../../CHANGELOG.md)
+
 > ## ⏸ EN PAUSE (2026-07-18 soir)
 >
 > **Priorité produit = C5** (site public ← Supabase).  

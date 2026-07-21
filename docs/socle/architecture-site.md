@@ -83,7 +83,7 @@ Nav secondaire **Affaires / Médias / Ressources** = **vues filtrées du blog**,
 | Page expertise | Articles liés (même thème / catégorie) |
 | Page post | Corps + tags + related posts |
 
-**Règle smart :** un seul composant `AffaireCard` + `AffairesGallery` paramétré (hub). CTA public = `SiteCta` / `.btn-pill` ([`16-composants-ui.md`](16-composants-ui.md)). `/blog` et `/blog/categories/…` = **301** vers les hubs (plus de surface publique).
+**Règle smart :** un seul composant `AffaireCard` + `AffairesGallery` paramétré (hub). CTA public = `SiteCta` / `.btn-pill` ([`16-composants-ui.md`](composants-ui.md)). `/blog` et `/blog/categories/…` = **301** vers les hubs (plus de surface publique).
 
 ### FAQ (unifiée dans Supabase)
 

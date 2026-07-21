@@ -1,3 +1,6 @@
+> ⛔ **ARCHIVE — ne décrit PAS le code actuel.**
+> État courant : [`../etat/etat.md`](../etat/etat.md) · Architecture : [`../socle/architecture-contenu.md`](../socle/architecture-contenu.md) · Changements : [`/CHANGELOG.md`](../../CHANGELOG.md)
+
 > **ARCHIVE HISTORIQUE — matin 18/07/2026 (pré-C0)**  
 > Photo obsolète : « 0 row / sans auth / Footer en attente ».  
 > État courant : [`../PASSATION-2026-07-18.md`](../PASSATION-2026-07-18.md) + [`../14-etat.md`](../14-etat.md).

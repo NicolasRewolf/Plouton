@@ -1,6 +1,6 @@
 # Vue d’ensemble
 
-> **Fondation 16/07** — pour l’état **courant**, lire [`14-etat.md`](14-etat.md) et [`11-stack-technique.md`](11-stack-technique.md).  
+> **Fondation 16/07** — pour l’état **courant**, lire [`14-etat.md`](../etat/etat.md) et [`11-stack-technique.md`](stack-technique.md).  
 > Soir 18/07 : C0–C4 ✅ · next **C5** · pixel Phases 4–6 en pause.
 
 ## Le problème

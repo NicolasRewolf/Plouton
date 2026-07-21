@@ -1,5 +1,8 @@
 # Audit santé — site web
 
+> ⛔ **ARCHIVE — ne décrit PAS le code actuel.**
+> État courant : [`../etat/etat.md`](../etat/etat.md) · Architecture : [`../socle/architecture-contenu.md`](../socle/architecture-contenu.md) · Changements : [`/CHANGELOG.md`](../../CHANGELOG.md)
+
 _Fait le 2026-07-17, sur le code réel. **Addendum 2026-07-18 soir** ci-dessous._
 
 **Note globale : V1 solide (~8,5/10).** Fondations excellentes, contenu sain.

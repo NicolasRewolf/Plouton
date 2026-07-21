@@ -1,5 +1,8 @@
 # Journal des livraisons
 
+> ⛔ **ARCHIVE — ne décrit PAS le code actuel.**
+> État courant : [`../etat/etat.md`](../etat/etat.md) · Architecture : [`../socle/architecture-contenu.md`](../socle/architecture-contenu.md) · Changements : [`/CHANGELOG.md`](../../CHANGELOG.md)
+
 Chaque entrée = ce qui a changé, en français, pour Nicolas.  
 Pas de jargon. 5 lignes max par livraison.
 
