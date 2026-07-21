@@ -12,6 +12,29 @@ le fait, pas six mois plus tard en audit.
 
 ## 2026-07-21
 
+### Liens internes : points plus espacés
+
+**UI** — `.link-inline` / `.prose-plouton a` : soulignement en points
+espacés (choix B) à la place du `dotted` navigateur trop serré.
+
+**Docs périmés** — néant.
+
+### Photos équipe : portraits, avatars, bandeau CTA, hero Divorce
+
+**Contenu** — portraits HD dans `site/public/brand/equipe/` (série studio),
+avatars blog 256×256, carrés `imageSquare` renseignés dans `equipe.json`,
+bandeau articles (`equipe-groupe.jpg`) en paysage, hero Divorce rafraîchi.
+Avatar Axelle : fichier corrigé `axelle-fesneau.jpg` (plus `fresneau`),
+chemin mis à jour dans `auteurs.json` **et** en base `authors`.
+
+**Nettoyage** — dossier temporaire de tri des photos retiré du disque ; seules
+les versions web restent sous `brand/`.
+
+**Docs périmés** — `site/public/brand/LIRE-MOI.md` ne documentait que logo +
+hero + expertises (équipe / avatars absents). Archive brief blog : l’écart
+Fresneau / Fesneau côté fichiers image est refermé ; l’URL auteur reste
+`axelle-fesneau`.
+
 ### Les simulateurs de divorce, la garde qui les épingle, et le PUT qui ne dédoublait plus
 
 **Portage** — déjà sur la branche : `prestation-compensatoire.ts` reprend le
