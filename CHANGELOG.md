@@ -12,6 +12,14 @@ le fait, pas six mois plus tard en audit.
 
 ## 2026-07-21
 
+### Cartes affaires : ombre au hover plus coupée
+
+**UI** — retirée la règle `overflow-hidden` sur les `<main>` des hubs
+(affaires, médias, ressources, pôles) qui rognait l’ombre au survol des
+`AffaireCard`. Léger `pt-2` sur la grille pour laisser respirer le translate.
+
+**Docs périmés** — néant.
+
 ### Liens internes : points plus espacés
 
 **UI** — `.link-inline` / `.prose-plouton a` : soulignement en points

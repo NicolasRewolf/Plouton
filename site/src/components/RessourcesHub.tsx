@@ -22,7 +22,7 @@ export function RessourcesHub({
   allGallery,
 }: RessourcesHubProps) {
   return (
-    <main className="relative min-h-screen overflow-hidden bg-[linear-gradient(180deg,#ffffff_0%,#f5f7f8_42%,#eef2f4_100%)]">
+    <main className="relative min-h-screen bg-[linear-gradient(180deg,#ffffff_0%,#f5f7f8_42%,#eef2f4_100%)]">
       <div
         aria-hidden
         className="pointer-events-none absolute inset-x-0 top-0 h-[380px] bg-[radial-gradient(ellipse_at_top,_rgba(23,71,94,0.06),_transparent_60%)]"
