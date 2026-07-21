@@ -8,6 +8,14 @@ touche au contenu, à l'éditeur ou aux sources de données.**
 
 Aucune n'écrit quoi que ce soit : toutes sont en lecture seule.
 
+⚠️ **`npm install` d'abord.** Cinq d'entre elles passent par `tsx` (pour importer
+le TypeScript réel du site plutôt qu'une copie). Sur un checkout qui n'a pas
+réinstallé depuis le 2026-07-20, elles échouent sur `tsx: command not found` —
+ce n'est pas un échec de garde, c'est une dépendance manquante.
+
+`check:sources`, `check:submission` et `check:expertise` lisent aussi la base :
+sans `SUPABASE_SECRET_KEY`, elles testent le volet dégradé seulement.
+
 ## Depuis `site/`
 
 | Commande | Ce qu'elle prouve | Un échec veut dire |
