@@ -12,6 +12,21 @@ le fait, pas six mois plus tard en audit.
 
 ## 2026-07-21
 
+### [à venir] Audit de parité Wix → Next — outillage + lot 1
+
+**Ajouté** — [`docs/etat/audit-parite-wix-next.md`](docs/etat/audit-parite-wix-next.md)
+(registre durable) + `docs/etat/audit-parite-inventaire.csv` (449 URLs classées
+par vues Wix réelles) + `scripts/audit-parite/` (outil de comparaison **lecture
+seule** Wix ↔ Next : texte, titres H1–H4, liens, SEO).
+**Contrôlé** — lot 1 : top 25 posts par vues. Fidélité du corps **excellente**
+(0 omission réelle). Écart systémique relevé : meta descriptions Next ≠ Wix sur
+> la moitié des posts → classées `bloquée`, **non corrigées** (arbitrage
+SEO/éditorial requis, cf. registre « Décisions attendues »).
+**Non fait volontairement** — aucune réécriture de contenu (prudence : pas de
+modif massive de textes de ma propre initiative). Cooked inaccessible en agent
+cloud (OAuth MCP + pas de clé) → repli sur les vues Wix réelles, signalé.
+**Docs périmés** — aucun.
+
 ### [à venir] Layout bas de page honoraires & RDV
 
 **Changé** — `/honoraires-rendez-vous` : le haut (titre + infos + formulaire)
