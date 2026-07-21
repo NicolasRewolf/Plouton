@@ -12,6 +12,36 @@ le fait, pas six mois plus tard en audit.
 
 ## 2026-07-21
 
+### Les simulateurs de divorce, la garde qui les épingle, et le PUT qui ne dédoublait plus
+
+**Portage** — déjà sur la branche : `prestation-compensatoire.ts` reprend le
+modèle Wix « Grenoble prior » v2.5.2 ; `pension-alimentaire.ts` aligne minimum
+vital (648 €) et plancher (700 €). Le modèle **refuse** un âge hors 16–100
+plutôt que d'inventer un montant (−20 % silencieux ou NaN).
+
+**Corrigé (UI)** — `SimulatorPrestation.tsx` : un refus du modèle n'affiche plus
+« 0 € » comme une estimation ; la phrase d'erreur est montrée telle quelle.
+Bornes d'âge du formulaire ramenées à 16 (comme le modèle). Affichage via
+`afficherCapital` (arrondi 500 €).
+
+**Corrigé (modèle)** — à revenus égaux, l'échange de santé suit la règle Wix
+(`revConjoint < revVous`), pas `vousCreancier` ; apostrophes typographiques des
+messages d'erreur alignées sur `calc.web.js`.
+
+**Corrigé (PUT article)** — `api/posts` : lecture et écriture partagent désormais
+le même `normalizeSlug`. Avant, une variante NFD/casse/espaces créait un second
+article en répondant 200 OK.
+
+**Garde** — `check:baremes` réécrite pour le modèle Wix (plus l'ancien
+tiers/demi-durée). Section « le refus, pas la conjecture » à la place de
+« l'âge non assaini ». `check:submission` : section « clé d'identité » + les
+422 slugs stockés restent intacts sous normalisation.
+
+**Docs périmés** — l'entrée « Trouvé, non corrigé » sur l'âge non assaini (si
+présente plus bas dans ce CHANGELOG / notes de garde) : corrigé par le refus
+Wix. La mention « PUT ne contrôle pas l'unicité du slug » reste ouverte ; seul
+le dédoublement par variante de normalisation est fermé.
+
 ### Les routes d'écriture admin — un seul échafaudage, et une garde qui l'exige
 
 **Ajouté** — `site/src/lib/admin-route.ts`. `require-admin.ts` avait supprimé les

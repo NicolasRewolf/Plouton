@@ -143,7 +143,14 @@ export const PUT = routeAdmin(async ({ user, corps }) => {
   if (!parsed.ok) badRequest(parsed.errors)
   const body = parsed.value
 
-  const previous = await resolveAnyArticle(body.slug)
+  // Même normalisation qu'au POST : la LECTURE (`resolveAnyArticle`) normalise
+  // en interne, mais l'ÉCRITURE repartait du slug brut. Un PUT portant une
+  // variante (NFD macOS, casse, espaces) retrouvait l'article puis en créait
+  // un SECOND via l'upsert sur `slug` — 200 OK, original intact, archive
+  // orpheline. Lecture et écriture partagent désormais cette clé unique.
+  const slug = normalizeSlug(body.slug)
+
+  const previous = await resolveAnyArticle(slug)
 
   const normalized = normalizeIncoming(body)
 
@@ -176,7 +183,7 @@ export const PUT = routeAdmin(async ({ user, corps }) => {
 
   if (previous) {
     await insertPostVersion({
-      slug: body.slug,
+      slug,
       article: previous,
       authorEmail: user.email,
     })
@@ -188,7 +195,7 @@ export const PUT = routeAdmin(async ({ user, corps }) => {
   // en glissant simplement un champ de plus dans le JSON. Ce qui n'est pas
   // saisi par l'avocat vient désormais de l'article existant, ou du serveur.
   const article: Article = {
-    slug: body.slug,
+    slug,
     title: body.title ?? previous?.title ?? "",
     excerpt: body.excerpt ?? previous?.excerpt ?? "",
     publishedAt,

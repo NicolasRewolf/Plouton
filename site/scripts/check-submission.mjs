@@ -54,6 +54,49 @@ await garde("règles de soumission d'article", async (t) => {
     slugifyTitle("Accident de la route")
   )
 
+  t.section("slug : clé d'identité (lecture = écriture)")
+
+  // Le PUT lisait via `resolveAnyArticle` (NFC) mais écrivait le slug brut.
+  // Une variante non normalisée créait un SECOND article — 200 OK, original
+  // intact. Les cas ci-dessous fixent la convergence.
+  const canon = "affaire-chahinez-un-féminicide-évité"
+  t.eq(
+    "accents décomposés (NFD, copier-coller macOS) → forme stockée",
+    normalizeSlug(canon.normalize("NFD")),
+    canon
+  )
+  t.eq(
+    "casse → forme stockée",
+    normalizeSlug("Affaire-Chahinez-un-Féminicide-Évité"),
+    canon
+  )
+  t.eq(
+    "espaces → forme stockée",
+    normalizeSlug("affaire chahinez un féminicide évité"),
+    canon
+  )
+
+  // Normaliser à l'écriture ne doit RENOMMER aucun des articles migrés
+  // (URLs indexées, intouchables par décision).
+  const { readFileSync } = await import("node:fs")
+  const index = JSON.parse(
+    readFileSync(
+      path.join(here, "..", "..", "contenu", "articles-index.json"),
+      "utf8"
+    )
+  )
+  const stored = (Array.isArray(index) ? index : index.articles ?? []).map(
+    (a) => a.slug
+  )
+  const renamed = stored.filter(
+    (s) => typeof s === "string" && normalizeSlug(s) !== s
+  )
+  t.eq(
+    `aucun des ${stored.length} slugs stockés n'est modifié par la normalisation`,
+    renamed.slice(0, 5),
+    []
+  )
+
   t.section("statut")
 
   t.eq("absent → brouillon", readStatus(undefined, "2020-01-01"), {

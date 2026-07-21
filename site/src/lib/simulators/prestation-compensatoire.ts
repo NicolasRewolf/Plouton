@@ -191,7 +191,9 @@ export function estimatePrestationCompensatoire(
   const enfants = nombre(input.enfants)
 
   // Les messages sont ceux de `calc.web.js`, mot pour mot : le justiciable qui
-  // passe d'un site à l'autre doit lire la même phrase.
+  // passe d'un site à l'autre doit lire la même phrase. Y compris l'apostrophe
+  // typographique de « L’âge » et « d’enfants » — deux d'entre eux avaient été
+  // recopiés avec l'apostrophe droite, ce que la garde a vu.
   const erreurs: string[] = []
   if (!Number.isFinite(revVous) || revVous < 0)
     erreurs.push("Votre revenu mensuel doit être un nombre positif.")
@@ -202,22 +204,30 @@ export function estimatePrestationCompensatoire(
   if (!Number.isFinite(ageVous) || ageVous < BORNES.age[0] || ageVous > BORNES.age[1])
     erreurs.push("Votre âge doit être compris entre 16 et 100 ans.")
   if (!Number.isFinite(ageConjoint) || ageConjoint < BORNES.age[0] || ageConjoint > BORNES.age[1])
-    erreurs.push("L'âge de votre conjoint doit être compris entre 16 et 100 ans.")
+    erreurs.push("L’âge de votre conjoint doit être compris entre 16 et 100 ans.")
   if (!Number.isFinite(enfants) || enfants < BORNES.enfants[0] || enfants > BORNES.enfants[1])
-    erreurs.push("Le nombre d'enfants doit être compris entre 0 et 20.")
+    erreurs.push("Le nombre d’enfants doit être compris entre 0 et 20.")
 
   if (erreurs.length) return REFUS(erreurs.join(" "))
 
   // Auto-bénéficiaire : le créancier est celui aux revenus les plus faibles.
   // Côté Wix, cet échange est fait par la page (`AUTO_RECEIVER_MODE`) avant
   // l'appel ; ici il vit dans le modèle, pour qu'il n'y ait qu'un endroit où se
-  // tromper. À revenus ÉGAUX, « vous » n'êtes pas créancier — comme Wix, dont
-  // l'échange ne se déclenche que sur `partnerIncome < yourIncome`.
+  // tromper.
+  //
+  // L'échange se lit sur `revConjoint < revVous`, et non sur « vous êtes
+  // créancier ». Les deux ne se séparent qu'à revenus ÉGAUX : là, l'échange
+  // Wix ne se déclenche pas et le bénéficiaire reste « vous », alors que
+  // `vousCreancier` vaut déjà `false`. Faire porter le rôle par ce dernier
+  // attribuait la santé du CONJOINT au créancier — sans un euro d'écart,
+  // puisque la disparité est nulle, mais `anneesCompensation` en changeait, et
+  // il est affiché. Écart relevé par la garde sur 2 454 des 25 920 points.
+  const echange = revConjoint < revVous
   const vousCreancier = revVous < revConjoint
   const revCreancier = Math.min(revVous, revConjoint)
   const revDebiteur = Math.max(revVous, revConjoint)
-  const santeCreancier = vousCreancier ? input.santeVous : input.santeConjoint
-  const santeDebiteur = vousCreancier ? input.santeConjoint : input.santeVous
+  const santeCreancier = echange ? input.santeConjoint : input.santeVous
+  const santeDebiteur = echange ? input.santeVous : input.santeConjoint
 
   // L'âge n'entre PAS par le rôle : le modèle lit le plus âgé des deux et leur
   // écart. Échanger les conjoints ne déplace donc pas ces deux contributions —
