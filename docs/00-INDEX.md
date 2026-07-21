@@ -1,37 +1,65 @@
 # Documentation Plouton
 
-Lis dans cet ordre selon le besoin.
+Les documents sont classés par **durée de vie**, pas par sujet. C'est ce qui
+évite qu'un document volatil et un document stable se ressemblent — la cause
+principale du pourrissement précédent.
 
-## Pour Nicolas (métier)
+## 📍 `etat/` — volatil (jours)
 
-| Doc | Contenu |
-|-----|---------|
-| [`../LIRE-MOI.md`](../LIRE-MOI.md) | Plan de la maison |
-| [`14-etat.md`](14-etat.md) | 👉 **Où on en est** (état d'avancement) — **next = C5** |
-| [`18-blog-architecture-et-editeur.md`](18-blog-architecture-et-editeur.md) | 👉 **Brief blog #18** (corps, éditeur, auteurs, SEO) — source de vérité chantier |
-| [`PASSATION-2026-07-18.md`](PASSATION-2026-07-18.md) | 👉 Reprise agent (soir 18/07) |
-| [`16-composants-ui.md`](16-composants-ui.md) | 👉 **Composants UI canoniques** (cartes, CTA) |
-| [`15-audit-sante.md`](15-audit-sante.md) | Audit santé du site (archi, contenu, limites) |
-| [`../JOURNAL.md`](../JOURNAL.md) | Dernières livraisons |
-| [`05-decisions.md`](05-decisions.md) | Décisions figées |
-| [`06-ne-pas-perdre.md`](06-ne-pas-perdre.md) | Ce qu’il ne faut pas casser |
-| [`11-stack-technique.md`](11-stack-technique.md) | Supabase / Vercel / Cooked |
+Le **seul** endroit où l'on écrit une date. Si un autre document dit
+« aujourd'hui », c'est un bug.
 
-## Pour construire (IA + toi)
+| Doc | Quand le lire |
+|---|---|
+| [`etat/etat.md`](etat/etat.md) | Pour savoir où on en est |
+| [`etat/feuille-de-route.md`](etat/feuille-de-route.md) | Pour savoir ce qui reste ouvert |
 
-| Doc | Contenu |
-|-----|---------|
-| [`09-architecture-site.md`](09-architecture-site.md) | Gabarits + collections CMS |
-| [`10-blocs-reutilisables.md`](10-blocs-reutilisables.md) | Briques UI (→ canon 16) |
-| [`03-site-public.md`](03-site-public.md) | Site public |
-| [`02-backoffice.md`](02-backoffice.md) | Admin |
-| [`04-donnees.md`](04-donnees.md) | Modèle données |
-| [`07-taxonomie-blog.md`](07-taxonomie-blog.md) | Catégories / tags |
-| [`08-migration-blog.md`](08-migration-blog.md) | Migration blog — **FAIT** (JSON + seed C4) |
-| [`12-seo-geo.md`](12-seo-geo.md) | SEO / GEO |
-| [`13-workflow-pixel-perfect.md`](13-workflow-pixel-perfect.md) | Référence technique pixel — **EN PAUSE** (Phases 4–6) |
+## 🧱 `socle/` — stable (mois)
 
-## Règle
+Décrit le système **tel qu'il est**. Ne devrait bouger que si le code bouge.
 
-Toute **nouvelle décision métier** → `05-decisions.md`  
-Toute **livraison** → `JOURNAL.md`
+| Doc | Quand le lire |
+|---|---|
+| [`socle/architecture-contenu.md`](socle/architecture-contenu.md) | **👉 En premier.** D'où vient un article, et pourquoi |
+| [`socle/vocabulaire.md`](socle/vocabulaire.md) | Avant de lire quoi que ce soit d'autre — « C5 » désigne deux choses |
+| [`socle/modules-canoniques.md`](socle/modules-canoniques.md) | Avant d'écrire du code : ce qui existe, et ce qu'il ne faut pas ressusciter |
+| [`socle/architecture-site.md`](socle/architecture-site.md) | Les routes et les gabarits |
+| [`socle/donnees.md`](socle/donnees.md) | Le modèle de données |
+| [`socle/composants-ui.md`](socle/composants-ui.md) | Les composants canoniques (cartes, CTA) |
+| [`socle/taxonomie-blog.md`](socle/taxonomie-blog.md) | Rubriques et tags |
+| [`socle/seo-geo.md`](socle/seo-geo.md) | SEO et référencement local |
+| [`socle/stack-technique.md`](socle/stack-technique.md) | Supabase, Vercel, Cooked |
+| [`socle/ne-pas-perdre.md`](socle/ne-pas-perdre.md) | Les contraintes client. Ne périme jamais. |
+| [`socle/vue-ensemble.md`](socle/vue-ensemble.md) | Le projet en une page |
+
+## 🛠 `guides/` — procédural
+
+« Comment je fais X. »
+
+| Doc | Quand le lire |
+|---|---|
+| [`guides/demarrer.md`](guides/demarrer.md) | Première installation — **contient le piège n°1** |
+| [`guides/gardes.md`](guides/gardes.md) | **Avant toute livraison.** Les seuls tests du projet |
+| [`guides/migrations-supabase.md`](guides/migrations-supabase.md) | Toucher à la base |
+| [`guides/backoffice.md`](guides/backoffice.md) | Comprendre l'admin |
+| [`guides/migration-wix.md`](guides/migration-wix.md) | Rejouer un import |
+
+## ⚖️ `decisions/`
+
+[`decisions/journal-decisions.md`](decisions/journal-decisions.md) — les
+décisions figées, avec leur statut (actif / remplacée).
+
+## 📦 `archive/`
+
+[`archive/LIRE-MOI.md`](archive/LIRE-MOI.md) — **rien ici ne décrit le code
+actuel.** Conservé pour comprendre le *pourquoi*, jamais le *comment*.
+
+---
+
+## Les règles
+
+| Quoi | Où |
+|---|---|
+| Une livraison | [`/CHANGELOG.md`](../CHANGELOG.md) — une entrée par PR, rubrique « Docs périmés » obligatoire |
+| Une décision métier | `decisions/journal-decisions.md` |
+| Un état qui change | `etat/etat.md` — et **nulle part ailleurs** |

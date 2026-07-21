@@ -15,7 +15,7 @@ Où vit quoi. Pour Nicolas + pour l’IA.
 - Contenu **public** = **Supabase `posts`** (C5, secret key serveur) + fallback JSON git.
   Publish admin → `revalidateTag` / `revalidatePath` (pas de redeploy).
   Covers Storage = **C5.1**.
-- Vue complète : [`14-etat.md`](14-etat.md) · passation : [`PASSATION-2026-07-18.md`](PASSATION-2026-07-18.md).
+- Vue complète : [`14-etat.md`](../etat/etat.md) · passation : [`PASSATION-2026-07-18.md`](../archive/PASSATION-2026-07-18.md).
 
 ---
 

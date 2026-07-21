@@ -14,7 +14,7 @@ On note ici les choix importants, pour ne pas les rejouer à chaque fois.
 ## 2026-07-19 — Blog #18 P0 : gel admin + TipTap + body_doc (cible)
 
 **Décision :** rester sur **TipTap 3** (pas de migration d’éditeur). Source de vérité cible = `posts.body_doc` (JSON ProseMirror) ; `body_html` = cache dérivé.  
-**Gel P0 :** tant que le schéma TipTap ne couvre pas Ricos (table/details/galerie…), l’API `PUT /api/posts` **refuse** les slugs riches sauf `forceRichEdit: true`.  
+**Gel P0 :** ~~tant que le schéma TipTap ne couvre pas Ricos, l'API refuse les slugs riches~~ — **REMPLACÉ le 2026-07-20 (PR #66)**. Ce gel jugeait par nom de balise et figeait 53 articles sur 422 à tort. Remplacé par une **mesure** de perte réelle (`post-edit-loss.ts`) : une confirmation, plus un refus. Voir [`../socle/modules-canoniques.md`](../socle/modules-canoniques.md).  
 **Seed :** `scripts/seed-posts.py` = insert-only par défaut (`--force` pour upsert) ; ne jamais forcer `status → published`.  
 **Versions :** table `post_versions` (migration `0007`) — snapshot avant chaque PUT + restauration admin.  
 **Pourquoi :** ~128/422 articles détruits au premier save TipTap (`preferDbBody` bascule sur HTML amputé).

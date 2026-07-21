@@ -1,5 +1,8 @@
 # 17 — Spec : peupler le CMS Supabase & débrancher les `.json`
 
+> ⛔ **ARCHIVE — ne décrit PAS le code actuel.**
+> État courant : [`../etat/etat.md`](../etat/etat.md) · Architecture : [`../socle/architecture-contenu.md`](../socle/architecture-contenu.md) · Changements : [`/CHANGELOG.md`](../../CHANGELOG.md)
+
 _Rédigé le 2026-07-19. Spec d'implémentation (Claude audite/spécifie → Cursor/Grok applique)._
 Projet Supabase : `iofhcxwgqvorpmaexjwb`. ⚠️ Dernière migration existante : `0005_posts_admin_statuses.sql`. Style : voir [`0003_posts.sql`](../supabase/migrations/0003_posts.sql).
 

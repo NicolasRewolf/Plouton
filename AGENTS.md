@@ -1,21 +1,34 @@
 # AGENTS.md — règles pour construire Plouton
 
 Tu construis le site + backoffice du Cabinet Plouton.  
-Nicolas n’est pas développeur : livrer clair, noter dans `JOURNAL.md`.
+Nicolas n'est pas développeur : livrer clair, et **noter chaque livraison dans
+[`CHANGELOG.md`](CHANGELOG.md)** — une entrée par PR, rubrique « Docs périmés »
+comprise. C'est ce qui empêche la documentation de repourrir.
 
-## Lire d’abord
+## Lire d'abord
 
-1. `LIRE-MOI.md`
-2. `docs/14-etat.md` ← **où on en est**
-3. `docs/18-blog-architecture-et-editeur.md` si chantier blog / éditeur / auteurs / SEO articles
-4. `docs/PASSATION-2026-07-18.md` si reprise après un autre agent
-5. `docs/00-INDEX.md`
-6. `docs/09-architecture-site.md` ← gabarits + CMS (**obligatoire**)
-7. `docs/16-composants-ui.md` ← **composants UI canoniques**
-8. `docs/06-ne-pas-perdre.md`
-9. `docs/05-decisions.md`
-10. `docs/11-stack-technique.md` si infra / déploiement
+1. `docs/socle/vocabulaire.md` ← ⚠️ **« C5 » désigne deux chantiers différents**
+2. `docs/socle/architecture-contenu.md` ← **d'où vient un article** (le doc central)
+3. `docs/socle/modules-canoniques.md` ← ce qui existe, et **ce qu'il ne faut pas ressusciter**
+4. `docs/etat/etat.md` ← où on en est
+5. `LIRE-MOI.md` ← le plan de la maison, et les trois pièges
+6. `docs/guides/gardes.md` ← **avant toute livraison**
+7. `docs/socle/architecture-site.md` ← gabarits + routes (**obligatoire**)
+8. `docs/socle/composants-ui.md` ← composants canoniques
+9. `docs/socle/ne-pas-perdre.md` · `docs/decisions/journal-decisions.md`
+10. `docs/guides/migrations-supabase.md` si tu touches à la base
 11. `contenu/LIRE-MOI.md` si tu touches au contenu
+
+## Avant de livrer — non négociable
+
+```bash
+cd site
+npm run check:roundtrip && npm run check:edit-loss && npm run check:sources \
+  && npm run check:submission && npm run check:expertise && npm run check:docs
+```
+
+Ce sont les **seuls** tests du projet ; aucune CI ne les lance. Détail et
+signification de chaque échec : `docs/guides/gardes.md`.
 
 ## Structure (ne pas mélanger)
 
@@ -23,10 +36,16 @@ Nicolas n’est pas développeur : livrer clair, noter dans `JOURNAL.md`.
 |------|----------|-----------------|
 | `site/` | Code Next.js public | Exports CSV, docs métier |
 | `contenu/` | JSON produit + `sources/wix/` | `node_modules`, secrets |
-| `scripts/` | Imports one-shot | Runtime site |
-| `docs/` | Décisions | Code |
+| `scripts/` | Imports one-shot **et gardes exécutables** | Runtime site |
+| `site/scripts/` | Gardes qui importent le TypeScript réel (via `tsx`) | — |
+| `docs/` | Doc classée par durée de vie (`etat/` `socle/` `guides/` `decisions/` `archive/`) | Code |
 | `admin/` | Placeholder (vrai admin = `site/src/app/admin/`) | Contenu |
-| `base/` / `supabase/` | Migrations SQL | Contenu |
+| `supabase/migrations/` | Migrations SQL, convention `000N_nom.sql` | Contenu |
+
+## Base de données
+
+`supabase db push` (CLI installée et liée). **Ne pas proposer le MCP Supabase :
+son OAuth est cassé.** Pièges détaillés dans `docs/guides/migrations-supabase.md`.
 
 ## Principes non négociables
 
