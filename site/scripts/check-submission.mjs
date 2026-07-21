@@ -8,82 +8,123 @@
  * cas ci-dessous fixent le comportement des deux bords : ce qui doit passer,
  * et ce qui doit être refusé au lieu d'être silencieusement corrigé.
  *
- * Exit 1 si un cas dévie.
+ * Rien n'est réénoncé ici : slugification, lecture de statut et contrôles de
+ * forme sont importés du module réel. Une garde qui recopierait la règle
+ * finirait par vérifier une règle que le site n'utilise pas.
  *
  * Usage : (depuis site/) npm run check:submission
  */
 import path from "node:path"
 import { fileURLToPath } from "node:url"
 
+import { garde } from "../../scripts/lib/garde.mjs"
+
 const here = path.dirname(fileURLToPath(import.meta.url))
 const { slugifyTitle, normalizeSlug, readStatus, validateSubmission } =
   await import(path.join(here, "..", "src", "lib", "article-submission.ts"))
 
-let failed = 0
-function eq(label, got, want) {
-  const ok = JSON.stringify(got) === JSON.stringify(want)
-  if (!ok) failed++
-  console.log(`  ${ok ? "✅" : "❌"} ${label}`)
-  if (!ok) console.log(`       attendu ${JSON.stringify(want)} · obtenu ${JSON.stringify(got)}`)
-}
+await garde("règles de soumission d'article", async (t) => {
+  t.section("slug")
 
-console.log("\n── slug ──")
-// Les 422 articles migrés portent leurs accents : un nouvel article doit
-// suivre la même convention, sinon le blog en a deux.
-eq(
-  "les accents sont conservés",
-  slugifyTitle("Affaire Chahinez : un féminicide évité ?"),
-  "affaire-chahinez-un-féminicide-évité"
-)
-eq("apostrophes et ponctuation deviennent des tirets",
-   slugifyTitle("L'ITT pénale, c'est quoi ?"), "l-itt-pénale-c-est-quoi")
-eq("pas de tirets doublés ni en bordure",
-   slugifyTitle("  Garde à vue — 48h  "), "garde-à-vue-48h")
-eq("un slug déjà saisi suit la MÊME règle",
-   normalizeSlug("Droit Pénal Des Affaires"), "droit-pénal-des-affaires")
-eq("idempotent", normalizeSlug(slugifyTitle("Accident de la route")),
-   slugifyTitle("Accident de la route"))
+  // Les 422 articles migrés portent leurs accents : un nouvel article doit
+  // suivre la même convention, sinon le blog en a deux.
+  t.eq(
+    "les accents sont conservés",
+    slugifyTitle("Affaire Chahinez : un féminicide évité ?"),
+    "affaire-chahinez-un-féminicide-évité"
+  )
+  t.eq(
+    "apostrophes et ponctuation deviennent des tirets",
+    slugifyTitle("L'ITT pénale, c'est quoi ?"),
+    "l-itt-pénale-c-est-quoi"
+  )
+  t.eq(
+    "pas de tirets doublés ni en bordure",
+    slugifyTitle("  Garde à vue — 48h  "),
+    "garde-à-vue-48h"
+  )
+  t.eq(
+    "un slug déjà saisi suit la MÊME règle",
+    normalizeSlug("Droit Pénal Des Affaires"),
+    "droit-pénal-des-affaires"
+  )
+  t.eq(
+    "idempotent",
+    normalizeSlug(slugifyTitle("Accident de la route")),
+    slugifyTitle("Accident de la route")
+  )
 
-console.log("\n── statut ──")
-eq("absent → brouillon", readStatus(undefined, "2020-01-01"),
-   { ok: true, status: "draft" })
-eq("vide → brouillon", readStatus("", "2020-01-01"),
-   { ok: true, status: "draft" })
-eq("published avec date passée reste published",
-   readStatus("published", "2020-01-01"), { ok: true, status: "published" })
-// Le cœur du défaut corrigé : une faute de frappe dépubliait en répondant 200.
-eq("statut inconnu → REFUS (et non « draft » en silence)",
-   readStatus("publised", "2020-01-01").ok, false)
-eq("statut inconnu → message exploitable",
-   readStatus("banana").message.includes("banana"), true)
+  t.section("statut")
 
-console.log("\n── forme de la soumission ──")
-const okCase = validateSubmission(
-  { slug: "test", title: "Test", categories: ["Droit pénal"] },
-  { requireTitle: true }
-)
-eq("soumission valide passe", okCase.ok, true)
+  t.eq("absent → brouillon", readStatus(undefined, "2020-01-01"), {
+    ok: true,
+    status: "draft",
+  })
+  t.eq("vide → brouillon", readStatus("", "2020-01-01"), {
+    ok: true,
+    status: "draft",
+  })
+  t.eq(
+    "published avec date passée reste published",
+    readStatus("published", "2020-01-01"),
+    { ok: true, status: "published" }
+  )
+  // Le cœur du défaut corrigé : une faute de frappe dépubliait en répondant 200.
+  t.eq(
+    "statut inconnu → REFUS (et non « draft » en silence)",
+    readStatus("publised", "2020-01-01").ok,
+    false
+  )
+  t.eq(
+    "statut inconnu → message exploitable",
+    readStatus("banana").message.includes("banana"),
+    true
+  )
 
-eq("slug manquant → refus",
-   validateSubmission({ title: "Test" }, { requireTitle: true }).ok, false)
-eq("titre requis à la création",
-   validateSubmission({ slug: "x" }, { requireTitle: true }).ok, false)
-eq("titre facultatif à la mise à jour",
-   validateSubmission({ slug: "x" }).ok, true)
-// `"droit".length` est non nul : l'ancien code l'acceptait et l'itérait
-// caractère par caractère.
-eq("categories en chaîne → refus",
-   validateSubmission({ slug: "x", categories: "droit" }).ok, false)
-eq("bodyDoc en tableau → refus",
-   validateSubmission({ slug: "x", bodyDoc: [1, 2] }).ok, false)
-eq("bodyDoc null accepté (article hérité)",
-   validateSubmission({ slug: "x", bodyDoc: null }).ok, true)
-eq("corps non-objet → refus", validateSubmission("nope").ok, false)
-eq("statut invalide remonté comme erreur de champ",
-   validateSubmission({ slug: "x", status: "banana" }).errors?.[0]?.field, "status")
+  t.section("forme de la soumission")
 
-if (failed) {
-  console.error(`\n❌ ${failed} cas dévient du comportement attendu.`)
-  process.exit(1)
-}
-console.log("\n✅ règles de soumission conformes")
+  const okCase = validateSubmission(
+    { slug: "test", title: "Test", categories: ["Droit pénal"] },
+    { requireTitle: true }
+  )
+  t.eq("soumission valide passe", okCase.ok, true)
+
+  t.eq(
+    "slug manquant → refus",
+    validateSubmission({ title: "Test" }, { requireTitle: true }).ok,
+    false
+  )
+  t.eq(
+    "titre requis à la création",
+    validateSubmission({ slug: "x" }, { requireTitle: true }).ok,
+    false
+  )
+  t.eq(
+    "titre facultatif à la mise à jour",
+    validateSubmission({ slug: "x" }).ok,
+    true
+  )
+  // `"droit".length` est non nul : l'ancien code l'acceptait et l'itérait
+  // caractère par caractère.
+  t.eq(
+    "categories en chaîne → refus",
+    validateSubmission({ slug: "x", categories: "droit" }).ok,
+    false
+  )
+  t.eq(
+    "bodyDoc en tableau → refus",
+    validateSubmission({ slug: "x", bodyDoc: [1, 2] }).ok,
+    false
+  )
+  t.eq(
+    "bodyDoc null accepté (article hérité)",
+    validateSubmission({ slug: "x", bodyDoc: null }).ok,
+    true
+  )
+  t.eq("corps non-objet → refus", validateSubmission("nope").ok, false)
+  t.eq(
+    "statut invalide remonté comme erreur de champ",
+    validateSubmission({ slug: "x", status: "banana" }).errors?.[0]?.field,
+    "status"
+  )
+})

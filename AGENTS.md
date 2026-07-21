@@ -22,13 +22,23 @@ comprise. C'est ce qui empêche la documentation de repourrir.
 ## Avant de livrer — non négociable
 
 ```bash
-cd site
-npm run check:roundtrip && npm run check:edit-loss && npm run check:sources \
-  && npm run check:submission && npm run check:expertise && npm run check:docs
+cd site && npm install && npm run check
 ```
 
-Ce sont les **seuls** tests du projet ; aucune CI ne les lance. Détail et
-signification de chaque échec : `docs/guides/gardes.md`.
+Ce sont les **seuls** tests du projet ; aucune CI ne les lance. `npm run check`
+enchaîne les onze gardes et s'arrête à la première qui bronche.
+
+Trois issues, à ne pas confondre : **0** conforme · **1** un défaut est prouvé ·
+**2** rien n'a échoué mais tout n'a pas pu être vérifié (typiquement : pas de
+`SUPABASE_SECRET_KEY` en local). En local on peut assumer le trou avec
+`GARDES_TOLERE_SKIP=1` — **jamais avant une livraison.**
+
+Détail et signification de chaque échec : `docs/guides/gardes.md`.
+
+⚠️ Une garde **importe** la règle qu'elle vérifie depuis `site/src/lib`. Ne
+jamais y recopier une expression régulière, un seuil ou une table : une garde
+qui teste sa propre copie ne teste plus le site — c'est exactement comme ça que
+`check-meta-descriptions` a passé des mois à valider une règle inexistante.
 
 ## Structure (ne pas mélanger)
 

@@ -11,7 +11,7 @@ Pour l'état d'avancement : [`docs/etat/etat.md`](docs/etat/etat.md) — c'est l
 | **`site/`** | Toute l'application Next.js | Le site public **et** le backoffice |
 | **`contenu/`** | Instantané JSON du contenu | ⚠️ **Ce n'est pas la source de vérité** — c'est le relais de panne (voir plus bas) |
 | **`supabase/migrations/`** | Les 12 migrations SQL | Convention `000N_nom.sql`, appliquées par `supabase db push` |
-| **`scripts/`** | Imports de migration **et gardes exécutables** | Les deux cohabitent : `check-body-docs.mjs` et `check-meta-descriptions.mjs` sont des gardes, pas des imports |
+| **`scripts/`** | Imports de migration **et deux gardes** | Le préfixe `check-` ne suffit pas : seuls `check-body-docs.mjs` et `check-docs-links.mjs` sont des gardes. Le harnais commun est dans `scripts/lib/garde.mjs` |
 | **`docs/`** | La documentation, classée par durée de vie | Entrée : [`docs/00-INDEX.md`](docs/00-INDEX.md) |
 | **`admin/`** | Rien qu'un placeholder | ⚠️ **Le vrai backoffice est `site/src/app/admin/`** |
 

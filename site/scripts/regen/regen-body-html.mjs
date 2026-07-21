@@ -10,7 +10,12 @@
  * `div[data-type="video-embed"] iframe`).
  *
  * Écrit par défaut ; `--dry-run` pour prévisualiser.
- * Usage : (depuis site/) npx tsx scripts/regen-body-html.mjs [--dry-run] [--limit N]
+ *
+ * Il vit dans `scripts/regen/` et non parmi les gardes : celles-ci sont toutes
+ * en lecture seule, celui-ci écrit 422 fichiers. La séparation est structurelle
+ * pour que la promesse « une garde ne modifie rien » se lise sur le dossier.
+ *
+ * Usage : (depuis site/) npm run regen:body-html -- [--dry-run] [--limit N]
  */
 import fs from "node:fs"
 import path from "node:path"
@@ -25,9 +30,14 @@ globalThis.DOMParser = dom.window.DOMParser
 globalThis.Node = dom.window.Node
 globalThis.navigator ??= dom.window.navigator
 
-const { bodyDocToHtml } = await import("../src/lib/tiptap/body-doc.ts")
+const { bodyDocToHtml } = await import("../../src/lib/tiptap/body-doc.ts")
 
-const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..")
+const ROOT = path.resolve(
+  path.dirname(fileURLToPath(import.meta.url)),
+  "..",
+  "..",
+  ".."
+)
 const DOCS = path.join(ROOT, "contenu", "body-docs")
 const OUT = path.join(ROOT, "contenu", "body-html")
 

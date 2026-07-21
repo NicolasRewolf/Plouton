@@ -7,13 +7,19 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "check": "npm run check:roundtrip && npm run check:edit-loss && npm run check:sources && npm run check:precedence && npm run check:submission && npm run check:statuts && npm run check:baremes && npm run check:expertise && npm run check:meta && npm run check:body-docs && npm run check:docs",
     "check:roundtrip": "tsx scripts/check-editor-roundtrip.mjs",
     "check:edit-loss": "tsx scripts/check-edit-loss.mjs",
-    "regen:body-html": "tsx scripts/regen-body-html.mjs",
     "check:sources": "tsx scripts/check-content-source.mjs",
+    "check:precedence": "tsx scripts/check-precedence.mjs",
     "check:submission": "tsx scripts/check-submission.mjs",
+    "check:statuts": "tsx scripts/check-statuts.mjs",
+    "check:baremes": "tsx scripts/check-baremes.mjs",
     "check:expertise": "tsx scripts/check-expertise.mjs",
-    "check:docs": "node ../scripts/check-docs-links.mjs"
+    "check:meta": "tsx scripts/check-meta-descriptions.mjs",
+    "check:body-docs": "node ../scripts/check-body-docs.mjs",
+    "check:docs": "node ../scripts/check-docs-links.mjs",
+    "regen:body-html": "tsx scripts/regen/regen-body-html.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.3",
