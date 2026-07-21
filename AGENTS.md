@@ -112,3 +112,17 @@ Détail : `docs/16-composants-ui.md`.
 - Committer CSV formulaires (PII) ou secrets `.env`
 - Mettre des chemins absolus machine dans les scripts
 - Mélanger exports bruts dans `articles/` (produit)
+
+## Cursor Cloud specific instructions
+
+- Toutes les commandes vivent dans `site/` (Next.js 16, React 19, Node 22). Les
+  dépendances sont réinstallées automatiquement au démarrage (`npm install --prefix site`).
+- Lancer le site : `cd site && npm run dev` → http://localhost:3000. Build/lint/typecheck :
+  `npm run build`, `npx eslint .`, `npx tsc --noEmit` (tous depuis `site/`).
+- Gardes (seuls tests, en lecture seule) : voir `docs/guides/gardes.md`. Elles ont
+  besoin des dépendances installées (elles passent par `tsx`).
+- ⚠️ Sans `SUPABASE_SECRET_KEY`, le site démarre **sans avertissement** en mode
+  instantané JSON (422 articles servis, compteurs de vues à zéro, écritures base
+  invisibles). C'est le mode par défaut ici, suffisant pour naviguer/tester le
+  contenu. Détail : `docs/guides/demarrer.md`. Pour Supabase/Resend réels,
+  renseigner les secrets dans `site/.env.local`.

@@ -12,6 +12,14 @@ le fait, pas six mois plus tard en audit.
 
 ## 2026-07-21
 
+### [à venir] Environnement Cursor Cloud — notes de démarrage
+
+**Ajouté** — `AGENTS.md` : section « Cursor Cloud specific instructions »
+(commandes dans `site/`, mode instantané sans secrets Supabase, où lancer
+build/lint/dev). Script de mise à jour VM : `npm install --prefix site`.
+**Docs périmés** — aucun (renvoie vers `docs/guides/demarrer.md` et
+`docs/guides/gardes.md`, inchangés).
+
 ### [à venir] Layout bas de page honoraires & RDV
 
 **Changé** — `/honoraires-rendez-vous` : le haut (titre + infos + formulaire)
