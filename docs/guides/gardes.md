@@ -16,10 +16,10 @@ veut dire » raconte lequel.
 cd site && npm run check
 ```
 
-Elle enchaîne les onze gardes et s'arrête à la première qui bronche. C'est ce
+Elle enchaîne les douze gardes et s'arrête à la première qui bronche. C'est ce
 qu'il faut lancer avant de livrer.
 
-⚠️ **`npm install` d'abord.** Neuf d'entre elles passent par `tsx`, pour importer
+⚠️ **`npm install` d’abord.** Dix d'entre elles passent par `tsx`, pour importer
 le TypeScript réel du site plutôt qu'une copie. Sur un checkout qui n'a pas
 réinstallé, elles échouent sur `tsx: command not found` — ce n'est pas un échec
 de garde, c'est une dépendance manquante.
@@ -58,6 +58,7 @@ Depuis `site/` :
 | `check:edit-loss` | La garde anti-suppression tient ses deux bords : elle laisse passer une édition normale, elle arrête une perte réelle. | Soit elle bloque des articles sains, soit elle laisse détruire du contenu. |
 | `check:sources` | Les **deux** sources répondent, y compris sans clé serveur, c'est-à-dire quand Supabase est injoignable. | Le repli sur l'instantané ne fonctionne plus : une panne de base deviendrait un site vide. |
 | `check:precedence` | La règle « Supabase répond, sinon l'instantané » tranche juste dans les cas qu'on ne peut pas provoquer en production : base muette, base joignable mais vide, article supprimé qui traîne encore dans l'instantané. | Le symptôme historique revient : 422 articles côté admin et zéro côté public, ou un article supprimé qui ressuscite. |
+| `check:admin-routes` | **Aucune route d'écriture ne répond à un appelant sans session**, et toutes refusent de la même façon. La garde énumère `src/app/api/**` : une route ajoutée sans protection la fait rougir sans qu'on ait eu à l'inscrire. | Une table est ouverte à l'internet. Le proxy applique l'allowlist sur `/admin/:path*` mais **ne voit jamais `/api/*`**, et ces routes écrivent avec la clé secrète, sans RLS derrière. |
 | `check:submission` | Les règles d'écriture (slug, statut, forme) refusent ce qui doit l'être au lieu de le corriger en silence. | Une soumission malformée passerait — c'est ainsi qu'un statut mal orthographié dépubliait un article en répondant 200. |
 | `check:statuts` | Le calcul de date des statuts : publié + date future devient programmé, programmé + date passée devient publié, brouillon et archivé ne bougent jamais. | Un article programmé ne sortirait pas le bon jour, ou un archivé réapparaîtrait. |
 | `check:baremes` | Les deux simulateurs (pension alimentaire, prestation compensatoire) rendent les mêmes montants qu'aujourd'hui, planchers compris. | Un chiffre affiché à un justiciable a changé sans que personne l'ait décidé. |
@@ -86,7 +87,7 @@ propre copie.
 
 | Dossier | Contient | Pourquoi séparé |
 |---|---|---|
-| `site/scripts/` | Les 9 gardes qui importent le TypeScript réel du site (via `tsx`) | Elles doivent voir le vrai code, pas une copie |
+| `site/scripts/` | Les 10 gardes qui importent le TypeScript réel du site (via `tsx`) | Elles doivent voir le vrai code, pas une copie |
 | `scripts/` | Les 2 gardes qui ne touchent pas au TypeScript, + le harnais dans `lib/` | Elles tournent sous `node` nu |
 | `site/scripts/regen/` | **Ce qui écrit** — aujourd'hui `regen-body-html.mjs` seul | Pour que « une garde ne modifie rien » se lise sur le dossier |
 

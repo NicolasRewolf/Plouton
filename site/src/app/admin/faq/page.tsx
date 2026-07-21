@@ -5,7 +5,7 @@ import {
   FAQ_EXPERTISE_OPTIONS,
   faqExpertiseLabel,
 } from "@/lib/faq-expertises"
-import { supabaseServer } from "@/lib/supabase/server"
+import { requireAdmin } from "@/lib/require-admin"
 
 export const dynamic = "force-dynamic"
 
@@ -50,11 +50,12 @@ export default async function AdminFaqPage({
     sp.status === "draft" || sp.status === "published" ? sp.status : "all"
   const page = Math.max(1, Number.parseInt(sp.page || "1", 10) || 1)
 
-  const supabase = await supabaseServer()
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-  if (!user) redirect("/admin/login")
+  // `requireAdmin` et non `auth.getUser()` : le contrôle recopié ici ne lisait
+  // que l'authentification, jamais l'allowlist `ADMIN_EMAILS`. Le proxy, lui,
+  // applique bien les deux sur `/admin/:path*` — mais son commentaire promet
+  // que « les pages revérifient l'utilisateur », et une défense en profondeur
+  // qui vérifie la moitié de la règle n'en est pas une.
+  if (!(await requireAdmin())) redirect("/admin/login")
 
   const result = await listFaqAdmin({
     q: q || undefined,

@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
 import { revalidatePath } from "next/cache"
+import { requireAdmin } from "@/lib/require-admin"
 import { supabaseServer } from "@/lib/supabase/server"
 import { STATUTS, badgeClass } from "../statuts"
 
@@ -33,11 +34,11 @@ async function enregistrerNotes(formData: FormData) {
 
 export default async function DemandePage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params
+  // Voir `admin/faq/page.tsx` : le contrôle recopié ici ne lisait que
+  // l'authentification, pas l'allowlist `ADMIN_EMAILS`.
+  if (!(await requireAdmin())) redirect("/admin/login")
+
   const supabase = await supabaseServer()
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-  if (!user) redirect("/admin/login")
 
   const { data: d, error } = await supabase.from("demandes").select("*").eq("id", id).single()
   if (error || !d) notFound()

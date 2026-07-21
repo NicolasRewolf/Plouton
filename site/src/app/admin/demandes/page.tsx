@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { redirect } from "next/navigation"
+import { requireAdmin } from "@/lib/require-admin"
 import { supabaseServer } from "@/lib/supabase/server"
 import { STATUTS, badgeClass } from "./statuts"
 
@@ -48,11 +49,12 @@ export default async function DemandesPage({
   const q = sanitizeQuery(sp.q)
   const page = Math.max(1, Number.parseInt(sp.page || "1", 10) || 1)
 
-  const supabase = await supabaseServer()
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
+  // Voir `admin/faq/page.tsx` : le contrôle recopié ici ne lisait que
+  // l'authentification, pas l'allowlist `ADMIN_EMAILS`.
+  const user = await requireAdmin()
   if (!user) redirect("/admin/login")
+
+  const supabase = await supabaseServer()
 
   const from = (page - 1) * PAGE_SIZE
   const to = from + PAGE_SIZE - 1

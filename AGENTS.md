@@ -26,7 +26,7 @@ cd site && npm install && npm run check
 ```
 
 Ce sont les **seuls** tests du projet ; aucune CI ne les lance. `npm run check`
-enchaîne les onze gardes et s'arrête à la première qui bronche.
+enchaîne les douze gardes et s'arrête à la première qui bronche.
 
 Trois issues, à ne pas confondre : **0** conforme · **1** un défaut est prouvé ·
 **2** rien n'a échoué mais tout n'a pas pu être vérifié (typiquement : pas de

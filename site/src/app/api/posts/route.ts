@@ -1,4 +1,3 @@
-import { NextResponse } from "next/server"
 import { type Article } from "@/lib/content"
 import {
   hasUsableHtml,
@@ -23,7 +22,7 @@ import {
 } from "@/lib/posts-public"
 import { revalidatePostSurfaces } from "@/lib/revalidate-posts"
 import { getStore } from "@/lib/store"
-import { requireAdmin, readJsonBody } from "@/lib/require-admin"
+import { refus, routeAdmin } from "@/lib/admin-route"
 
 export const runtime = "nodejs"
 
@@ -55,50 +54,36 @@ function normalizeIncoming(body: Partial<Article>): Pick<Article, "body" | "body
 }
 
 /** Erreurs de forme → 400 unique, avec le détail par champ. */
-function badRequest(errors: { field: string; message: string }[]) {
-  return NextResponse.json(
-    { error: errors.map((e) => e.message).join(" · "), code: "INVALID_SUBMISSION", errors },
-    { status: 400 }
-  )
+function badRequest(errors: { field: string; message: string }[]): never {
+  refus(400, errors.map((e) => e.message).join(" · "), "INVALID_SUBMISSION", { errors })
 }
 
 /** P1-A — auteur hors référentiel = refus (plus de GUID libre). */
-async function assertAuthorSlug(
-  slug: string | undefined | null
-): Promise<NextResponse | null> {
-  if (!slug?.trim()) return null
+async function assertAuthorSlug(slug: string | undefined | null): Promise<void> {
+  if (!slug?.trim()) return
   const ok = await isKnownAuthorSlug(slug.trim())
-  if (ok) return null
-  return NextResponse.json(
-    {
-      error: `Auteur inconnu « ${slug} ». Choisir dans la liste (pas de saisie libre).`,
-      code: "UNKNOWN_AUTHOR",
-    },
-    { status: 400 }
+  if (ok) return
+  refus(
+    400,
+    `Auteur inconnu « ${slug} ». Choisir dans la liste (pas de saisie libre).`,
+    "UNKNOWN_AUTHOR"
   )
 }
 
-export async function GET(req: Request) {
-  const user = await requireAdmin()
-  if (!user) return NextResponse.json({ error: "non autorisé" }, { status: 401 })
-
-  const { searchParams } = new URL(req.url)
-  const slug = searchParams.get("slug")
+export const GET = routeAdmin(async ({ params }) => {
+  const slug = params.get("slug")
   if (slug) {
     const article = await resolveAnyArticle(slug)
-    if (!article) return NextResponse.json({ error: "introuvable" }, { status: 404 })
-    return NextResponse.json(article)
+    if (!article) refus(404, "introuvable", "INTROUVABLE")
+    return article
   }
-  return NextResponse.json(await resolveAdminArticleList())
-}
+  return await resolveAdminArticleList()
+})
 
-export async function POST(req: Request) {
-  const user = await requireAdmin()
-  if (!user) return NextResponse.json({ error: "non autorisé" }, { status: 401 })
-
-  const raw = await readJsonBody<unknown>(req)
+export const POST = routeAdmin(async ({ corps }) => {
+  const raw = await corps<unknown>()
   const parsed = validateSubmission(raw, { requireTitle: true })
-  if (!parsed.ok) return badRequest(parsed.errors)
+  if (!parsed.ok) badRequest(parsed.errors)
   const body = parsed.value
 
   const slug = normalizeSlug(body.slug)
@@ -109,21 +94,18 @@ export async function POST(req: Request) {
   // (réservée au PUT). Le seul chemin de destruction totale et silencieuse.
   const existing = await resolveAnyArticle(slug)
   if (existing)
-    return NextResponse.json(
-      {
-        error: `Un article existe déjà à l'adresse « ${slug} ». Choisissez un autre titre, ou ouvrez l'article existant pour le modifier.`,
-        code: "SLUG_TAKEN",
-      },
-      { status: 409 }
+    refus(
+      409,
+      `Un article existe déjà à l'adresse « ${slug} ». Choisissez un autre titre, ou ouvrez l'article existant pour le modifier.`,
+      "SLUG_TAKEN"
     )
 
   const authorSlug = body.authorSlug || body.authorId
-  const authorErr = await assertAuthorSlug(authorSlug)
-  if (authorErr) return authorErr
+  await assertAuthorSlug(authorSlug)
 
   const publishedAt = body.publishedAt || new Date().toISOString().slice(0, 10)
   const statusRead = readStatus(body.status, publishedAt)
-  if (!statusRead.ok) return badRequest([{ field: "status", message: statusRead.message }])
+  if (!statusRead.ok) badRequest([{ field: "status", message: statusRead.message }])
   const normalized = normalizeIncoming(body)
   const categories = body.categories?.length ? body.categories : [DEFAULT_CATEGORY]
   // Les identifiants de rubrique sont DÉRIVÉS, jamais reçus : les accepter du
@@ -150,23 +132,15 @@ export async function POST(req: Request) {
     minutesToRead: body.minutesToRead,
     updatedAt: new Date().toISOString().slice(0, 10),
   }
-  try {
-    await getStore().saveArticle(article)
-    revalidatePostSurfaces(article.slug)
-  } catch (e) {
-    const msg = e instanceof Error ? e.message : "échec enregistrement"
-    return NextResponse.json({ error: msg }, { status: 500 })
-  }
-  return NextResponse.json(article)
-}
+  await getStore().saveArticle(article)
+  revalidatePostSurfaces(article.slug)
+  return article
+})
 
-export async function PUT(req: Request) {
-  const user = await requireAdmin()
-  if (!user) return NextResponse.json({ error: "non autorisé" }, { status: 401 })
-
-  const raw = await readJsonBody<unknown>(req)
+export const PUT = routeAdmin(async ({ user, corps }) => {
+  const raw = await corps<unknown>()
   const parsed = validateSubmission(raw)
-  if (!parsed.ok) return badRequest(parsed.errors)
+  if (!parsed.ok) badRequest(parsed.errors)
   const body = parsed.value
 
   const previous = await resolveAnyArticle(body.slug)
@@ -179,14 +153,7 @@ export async function PUT(req: Request) {
   if (previous && !body.confirmContentLoss) {
     const losses = detectNodeLoss(resolveBodyDoc(previous), normalized.bodyDoc)
     if (losses.length) {
-      return NextResponse.json(
-        {
-          error: nodeLossMessage(losses),
-          code: "CONTENT_LOSS",
-          losses,
-        },
-        { status: 409 }
-      )
+      refus(409, nodeLossMessage(losses), "CONTENT_LOSS", { losses })
     }
   }
 
@@ -201,13 +168,11 @@ export async function PUT(req: Request) {
       : [DEFAULT_CATEGORY]
   const categoryIds = await resolveCategoryIdsFromLabels(categories)
   const authorSlug = body.authorSlug || body.authorId || previous?.authorSlug
-  const authorErr = await assertAuthorSlug(authorSlug)
-  if (authorErr) return authorErr
+  await assertAuthorSlug(authorSlug)
   const reviewerSlug = body.reviewerSlug || previous?.reviewerSlug
-  const reviewerErr = await assertAuthorSlug(reviewerSlug)
-  if (reviewerErr) return reviewerErr
+  await assertAuthorSlug(reviewerSlug)
   const statusRead = readStatus(body.status, publishedAt)
-  if (!statusRead.ok) return badRequest([{ field: "status", message: statusRead.message }])
+  if (!statusRead.ok) badRequest([{ field: "status", message: statusRead.message }])
 
   if (previous) {
     await insertPostVersion({
@@ -254,38 +219,23 @@ export async function PUT(req: Request) {
     bodyDoc: normalized.bodyDoc,
     updatedAt: new Date().toISOString().slice(0, 10),
   }
-  try {
-    await getStore().saveArticle(article)
-    revalidatePostSurfaces(article.slug)
-  } catch (e) {
-    const msg = e instanceof Error ? e.message : "échec enregistrement"
-    return NextResponse.json({ error: msg }, { status: 500 })
-  }
-  return NextResponse.json(article)
-}
+  await getStore().saveArticle(article)
+  revalidatePostSurfaces(article.slug)
+  return article
+})
 
 /** Soft-delete : status → archived */
-export async function DELETE(req: Request) {
-  const user = await requireAdmin()
-  if (!user) return NextResponse.json({ error: "non autorisé" }, { status: 401 })
-
-  const { searchParams } = new URL(req.url)
-  const slug = searchParams.get("slug")
-  if (!slug) return NextResponse.json({ error: "slug requis" }, { status: 400 })
+export const DELETE = routeAdmin(async ({ requis }) => {
+  const slug = requis("slug")
 
   const ok = await archivePost(slug)
   if (!ok) {
     // Fallback FsStore : marquer archived via save
-    try {
-      const existing = await resolveAnyArticle(slug)
-      if (!existing)
-        return NextResponse.json({ error: "introuvable" }, { status: 404 })
-      await getStore().saveArticle({ ...existing, status: "archived" })
-    } catch (e) {
-      const msg = e instanceof Error ? e.message : "échec archivage"
-      return NextResponse.json({ error: msg }, { status: 500 })
-    }
+    const existing = await resolveAnyArticle(slug)
+    if (!existing) refus(404, "introuvable", "INTROUVABLE")
+    await getStore().saveArticle({ ...existing, status: "archived" })
   }
   revalidatePostSurfaces(slug)
-  return NextResponse.json({ ok: true, status: "archived" })
-}
+  // Donnée lue par le client, pas une enveloppe : l'admin affiche l'état atteint.
+  return { ok: true, status: "archived" }
+})

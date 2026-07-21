@@ -20,7 +20,7 @@ cd site && npm run check
 ```
 
 Ce sont les seuls tests du projet — [`docs/guides/gardes.md`](docs/guides/gardes.md).
-Onze gardes, trois issues : **0** conforme · **1** un défaut est prouvé ·
+Douze gardes, trois issues : **0** conforme · **1** un défaut est prouvé ·
 **2** tout n'a pas pu être vérifié.
 
 ## Par où lire

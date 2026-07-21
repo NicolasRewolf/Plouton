@@ -12,6 +12,73 @@ le fait, pas six mois plus tard en audit.
 
 ## 2026-07-21
 
+### Les routes d'écriture admin — un seul échafaudage, et une garde qui l'exige
+
+**Ajouté** — `site/src/lib/admin-route.ts`. `require-admin.ts` avait supprimé les
+cinq copies du contrôle d'identité, mais chaque route réassemblait encore à la
+main les cinq étapes autour. Le seul préambule d'autorisation était recopié
+**douze fois mot pour mot** dans cinq fichiers. `routeAdmin` acquiert l'identité
+avant d'entrer dans le handler ; `refus(statut, message, code)` **lève** au lieu
+de renvoyer, ce qui supprime le motif « rendre `Response | null` que l'appelant
+doit penser à tester ».
+
+**Corrigé — un corps JSON malformé ne peut plus devenir un 500 opaque.**
+`readJsonBody` existait pour ça, mais seule `/api/posts` l'appelait : le même
+corps donnait un 400 propre là et un 500 sans forme sur `/api/faq` et
+`/api/posts/versions`. Toutes passent par `corps()`.
+
+**Corrigé — une seule enveloppe d'erreur.** Trois coexistaient et l'admin devait
+brancher selon la route appelée. Les routes admin rendent désormais
+`{error, code}` — ajout strictement additif, aucun client ne casse.
+`/api/contact` garde `{ok, error}` : c'est un contrat public de formulaire, pas
+une route admin.
+
+**Corrigé — les deux derniers `createClient` échappés.** `posts/media` et
+`cron/publish-scheduled` reconstruisaient leur propre client avec la clé
+secrète, alors que `lib/supabase/admin.ts` existe pour tenir cette copie unique.
+Son en-tête affirmait avoir consolidé six copies ; deux lui avaient échappé.
+
+**Corrigé — les trois écrans admin vérifiaient l'authentification, pas
+l'autorisation.** `admin/faq`, `admin/demandes` et `admin/demandes/[id]`
+recopiaient `supabaseServer() + auth.getUser()` sans jamais lire l'allowlist
+`ADMIN_EMAILS`. Le proxy la fait respecter sur `/admin/:path*` — le risque était
+donc faible — mais son commentaire promet que les pages revérifient, et une
+défense en profondeur qui vérifie la moitié de la règle n'en est pas une.
+
+**Corrigé — une écriture FAQ n'invalide plus le site entier.**
+`revalidatePath("/", "layout")` périmait les 422 articles et les 87 pages à
+chaque question modifiée, faute de savoir quelle page montre une FAQ. Le
+registry sait répondre : `expertisePathFor` dérive le chemin, et
+`revalidate-posts.ts` réutilise le même helper au lieu du sien. Vérifié : les 15
+options FAQ résolvent toutes, et les 15 chemins correspondent à une vraie route.
+
+**Garde** — `npm run check:admin-routes`, la propriété la plus sensible du dépôt
+et que rien ne testait : **aucune route d'écriture ne répond à un appelant sans
+session**, et toutes refusent de la même façon. Elle ÉNUMÈRE `src/app/api/**`
+plutôt que de lister — une route ajoutée sans protection la fait rougir sans
+qu'on ait eu à l'inscrire. Les trois routes légitimement publiques sont
+déclarées une par une avec leur raison.
+
+**Preuve** — 12/12 gardes conformes · `tsc`, `eslint`, `next build` verts ·
+**−56 lignes nettes** dans `site/src` tout en ajoutant des codes d'erreur ·
+plus aucun préambule d'authentification ni `createClient` hors
+`lib/supabase/admin.ts` · test de mutation refait **en série** (les six
+parallèles se marchaient dessus sur le même fichier) : casser `requireAdmin`
+fait rougir la garde, la restaurer la fait reverdir.
+
+**Non corrigé, signalé** — `PUT /api/posts` ne contrôle pas l'unicité du slug
+comme le fait `POST` (`SLUG_TAKEN`) : c'est le même chemin de destruction
+silencieuse, laissé ouvert d'un côté. Préexistant à ce changement.
+`GET /api/authors` se replie en silence sur l'instantané JSON dès qu'une erreur
+survient — une panne de base y devient invisible. Le cron appelle
+`revalidatePostSurfaces` dans une boucle, soit N balayages de ~25 chemins.
+
+**Docs périmés** — le décompte « onze gardes » (`AGENTS.md`, `README.md`,
+`gardes.md`) ; toute mention laissant croire que `/api/*` est protégé par le
+proxy — il ne l'a jamais été, son matcher est `/admin/:path*`.
+
+---
+
 ### Le harnais des gardes — un instrument qui ne peut plus mentir
 
 **Ajouté** — `scripts/lib/garde.mjs` : assertion, rapport, troncature et code de

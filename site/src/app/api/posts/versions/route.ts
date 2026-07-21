@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server"
+import { refus, routeAdmin } from "@/lib/admin-route"
 import {
   getPostVersion,
   insertPostVersion,
@@ -7,44 +7,36 @@ import {
 import { resolveAnyArticle } from "@/lib/posts-public"
 import { revalidatePostSurfaces } from "@/lib/revalidate-posts"
 import { getStore } from "@/lib/store"
-import { requireAdmin } from "@/lib/require-admin"
 
 export const runtime = "nodejs"
 
 
 /** GET ?slug=… — liste des versions. POST { versionId } — restaurer. */
-export async function GET(req: Request) {
-  const user = await requireAdmin()
-  if (!user) return NextResponse.json({ error: "non autorisé" }, { status: 401 })
-  const slug = new URL(req.url).searchParams.get("slug")
-  if (!slug) return NextResponse.json({ error: "slug requis" }, { status: 400 })
+export const GET = routeAdmin(async ({ requis }) => {
+  const slug = requis("slug")
   const rows = await listPostVersions(slug)
-  if (!rows) return NextResponse.json({ versions: [] })
-  return NextResponse.json({
+  // Table absente ou requête en échec : l'historique est une commodité, pas
+  // une donnée dont l'écran dépend. On rend une liste vide plutôt qu'un refus.
+  if (!rows) return { versions: [] }
+  return {
     versions: rows.map((v) => ({
       id: v.id,
       createdAt: v.created_at,
       title: v.title,
       authorEmail: v.author_email,
     })),
-  })
-}
+  }
+})
 
-export async function POST(req: Request) {
-  const user = await requireAdmin()
-  if (!user) return NextResponse.json({ error: "non autorisé" }, { status: 401 })
-
-  const body = (await req.json()) as { versionId?: number }
-  if (!body.versionId)
-    return NextResponse.json({ error: "versionId requis" }, { status: 400 })
+export const POST = routeAdmin(async ({ user, corps }) => {
+  const body = await corps<{ versionId?: number }>()
+  if (!body.versionId) refus(400, "versionId requis", "CHAMP_MANQUANT")
 
   const version = await getPostVersion(body.versionId)
-  if (!version)
-    return NextResponse.json({ error: "version introuvable" }, { status: 404 })
+  if (!version) refus(404, "version introuvable", "INTROUVABLE")
 
   const current = await resolveAnyArticle(version.post_slug)
-  if (!current)
-    return NextResponse.json({ error: "article introuvable" }, { status: 404 })
+  if (!current) refus(404, "article introuvable", "INTROUVABLE")
 
   // Snapshot de l'état actuel avant restauration
   await insertPostVersion({
@@ -74,13 +66,8 @@ export async function POST(req: Request) {
     updatedAt: new Date().toISOString().slice(0, 10),
   }
 
-  try {
-    await getStore().saveArticle(restored)
-    revalidatePostSurfaces(version.post_slug)
-  } catch (e) {
-    const msg = e instanceof Error ? e.message : "échec restauration"
-    return NextResponse.json({ error: msg }, { status: 500 })
-  }
+  await getStore().saveArticle(restored)
+  revalidatePostSurfaces(version.post_slug)
 
-  return NextResponse.json(restored)
-}
+  return restored
+})
