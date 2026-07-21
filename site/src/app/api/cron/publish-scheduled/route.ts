@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server"
-import { createClient } from "@supabase/supabase-js"
+import { adminClient } from "@/lib/supabase/admin"
 import { revalidatePostSurfaces } from "@/lib/revalidate-posts"
 import { todayIsoDate } from "@/lib/post-status"
 
@@ -28,13 +28,16 @@ export async function GET(req: Request) {
     return NextResponse.json({ error: "non autorisé" }, { status: 401 })
   }
 
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL
-  const key = process.env.SUPABASE_SECRET_KEY
-  if (!url || !key) {
+  // Cette route construisait son propre `createClient` avec la clé secrète :
+  // une septième copie, échappée au regroupement de `supabase/admin.ts`. Elle
+  // aurait survécu à un changement de politique (rotation de clé, timeout,
+  // en-tête) appliqué aux six autres. `adminClient()` rend `null` plutôt que de
+  // lever, ce qui conserve ici le refus explicite quand l'environnement manque.
+  const client = adminClient()
+  if (!client) {
     return NextResponse.json({ error: "supabase manquant" }, { status: 500 })
   }
 
-  const client = createClient(url, key, { auth: { persistSession: false } })
   const today = todayIsoDate()
   const { data, error } = await client
     .from("posts")

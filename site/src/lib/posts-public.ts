@@ -28,6 +28,14 @@ import {
 import { getBodyDoc, getBodyHtmlCache } from "@/lib/content"
 import { isSupabaseConfigured, POSTS_CACHE_TAG } from "@/lib/posts-db"
 import { hasUsableHtml } from "@/lib/article-body"
+import {
+  decideAdminList,
+  decideAnyArticle,
+  decidePublishedArticle,
+  decidePublishedIndex,
+  decidePublishedSlugs,
+  type Precedence,
+} from "@/lib/posts-precedence"
 
 export { POSTS_CACHE_TAG }
 export type { AdminIndexItem }
@@ -51,6 +59,21 @@ const supabaseAnswers = cache(async function supabaseAnswers(): Promise<boolean>
   if (!isSupabaseConfigured()) return false
   return (await SUPABASE.adminIndex()) !== null
 })
+
+/**
+ * Les sources réelles, câblées à la règle.
+ *
+ * La règle elle-même vit dans `posts-precedence.ts` et ne connaît que
+ * l'interface : c'est ce qui permet à `check:precedence` de lui présenter des
+ * adapters de papier et d'exercer les cas qu'on ne peut pas provoquer en
+ * production (base joignable mais vide, base muette, article supprimé qui
+ * traîne encore dans l'instantané).
+ */
+const SOURCES: Precedence = {
+  supabase: SUPABASE,
+  snapshot: SNAPSHOT,
+  supabaseAnswers,
+}
 
 /**
  * HTML public : `body_html` de la source si un `body_doc` existe (c'est son
@@ -82,27 +105,20 @@ export function resolveBodyDoc(
 /* ────────────── la précédence, une fois pour toutes ────────────── */
 
 async function fetchPublishedIndex(): Promise<ArticleIndexItem[]> {
-  return (await SUPABASE.publishedIndex()) ?? (await SNAPSHOT.publishedIndex())!
+  return decidePublishedIndex(SOURCES)
 }
 
 async function fetchPublishedArticle(slug: string): Promise<Article | null> {
   const raw = normSlug(slug)
-
-  const fromDb = await SUPABASE.publishedArticle(raw)
-  if (fromDb) return withBodyFromFiles(fromDb, raw)
-
-  // Absent de Supabase : est-ce parce qu'il n'existe pas, ou parce que la
-  // source est muette ? Si elle répond, son silence fait autorité.
-  if (await supabaseAnswers()) return null
-
-  const fromSnapshot = await SNAPSHOT.publishedArticle(raw)
-  return fromSnapshot ? withBodyFromFiles(fromSnapshot, raw) : null
+  // La règle choisit la source ; la complétion du corps s'applique ensuite, à
+  // l'article retenu quel qu'il soit.
+  const found = await decidePublishedArticle(SOURCES, raw)
+  return found ? withBodyFromFiles(found, raw) : null
 }
 
 /** Article tous statuts (admin / écriture). Même précédence. */
 export async function resolveAnyArticle(slug: string): Promise<Article | null> {
-  const raw = normSlug(slug)
-  return (await SUPABASE.anyArticle(raw)) ?? (await SNAPSHOT.anyArticle(raw))
+  return decideAnyArticle(SOURCES, normSlug(slug))
 }
 
 /**
@@ -149,15 +165,9 @@ export const resolvePublishedArticle = cache(
 )
 
 export async function resolvePublishedSlugs(): Promise<string[]> {
-  const slugs =
-    (await SUPABASE.publishedSlugs()) ?? (await SNAPSHOT.publishedSlugs())!
-  return slugs.map(normSlug)
+  return (await decidePublishedSlugs(SOURCES)).map(normSlug)
 }
 
 export async function resolveAdminArticleList(): Promise<AdminIndexItem[]> {
-  // C'est la DISPONIBILITÉ de la source qui décide, pas le nombre de lignes
-  // qu'elle renvoie : une base vide mais joignable doit donner une liste vide
-  // à l'admin, sans quoi le tableau de bord affiche 422 articles pendant que
-  // le site public n'en montre aucun — et masque la panne.
-  return (await SUPABASE.adminIndex()) ?? (await SNAPSHOT.adminIndex())!
+  return decideAdminList(SOURCES)
 }

@@ -1,18 +1,40 @@
 /**
- * Estimation indicative — table de référence Ministère de la Justice
- * (justice.fr/simulateurs/pension-alimentaire/bareme, mise à jour 02/04/2024).
- *
- * Formule Wix introuvable dans les sources exportées : on reproduit le barème
- * officiel (pas une copie de JS Wix). Sans valeur juridique.
+ * Pension alimentaire — aligné sur la table qui tourne en production.
  *
  * Montant = max(0, revenuNet − minimumVital) × taux(enfants, garde)
  * Le taux est un % du revenu disponible pour le total des enfants (pas « par enfant »).
+ *
+ * ⚠️ Ce fichier reproduit `contenu/sources/wix/simulateurs/pension.js`. Cette
+ * source portait une TABLE de 44 lignes de revenu × 6 enfants × 3 modes de
+ * garde, pas une formule. Vérifié : la table est exactement
+ * `(revenu − 648) × taux`, à 0,004 € près sur 90 points de contrôle.
+ *
+ * L'en-tête précédent disait « Formule Wix introuvable dans les sources
+ * exportées ». Elle a été retrouvée le 21/07/2026 ; ce fichier n'est plus une
+ * reconstitution.
+ *
+ * Sans valeur juridique.
  */
 
 export type CustodyMode = "reduit" | "classique" | "alterne"
 
-/** Minimum vital retenu sur la table justice.fr (col. « MINIMUM VITAL »). */
-export const MINIMUM_VITAL_EUR = 652
+/**
+ * Minimum vital — 648 €, valeur du site en ligne.
+ *
+ * Ce fichier retenait 652 € en citant justice.fr au 02/04/2024. L'écart vaut
+ * 4 € × taux, soit 0,54 €/mois pour un enfant en garde classique — constant à
+ * tout revenu. **Lequel est juste reste ouvert** : 652 est peut-être la
+ * révision plus récente, auquel cas c'est le site en ligne qui est périmé.
+ * Décision du 21/07 : on reproduit l'existant. Si un avocat tranche pour 652,
+ * c'est cette ligne, et elle seule, qui change.
+ */
+export const MINIMUM_VITAL_EUR = 648
+
+/**
+ * Plancher de la table officielle : elle commence à 700 € de revenu.
+ * En dessous, le site en ligne ne verse rien plutôt que d'extrapoler.
+ */
+export const REVENU_PLANCHER_EUR = 700
 
 /**
  * Taux officiels (proportion du revenu disponible).
@@ -57,7 +79,9 @@ export function estimatePensionAlimentaire({
   const kids = Math.max(0, Math.floor(Number(enfants) || 0))
   const disponible = Math.max(0, revenu - MINIMUM_VITAL_EUR)
 
-  if (kids < 1 || disponible <= 0) {
+  // Sous le plancher de la table, le site en ligne ne verse rien — il
+  // n'extrapole pas sous le premier barreau du barème.
+  if (revenu < REVENU_PLANCHER_EUR || kids < 1 || disponible <= 0) {
     return {
       montantMensuel: 0,
       revenuDisponible: disponible,

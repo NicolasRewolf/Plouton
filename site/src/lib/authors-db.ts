@@ -6,6 +6,13 @@ import { defineCollection } from "@/lib/cms-collection"
 import { adminClient } from "@/lib/supabase/admin"
 import { listAuthors, type Author } from "@/lib/content"
 
+/**
+ * Aucun `revalidateTag(AUTHORS_CACHE_TAG)` n'existe dans le dépôt, et c'est
+ * normal : rien n'écrit `public.authors`. La table se modifie à la console
+ * Supabase, et la fenêtre de revalidation de `defineCollection` suffit à
+ * rattraper le changement. Le jour où un écran admin des auteurs apparaîtra,
+ * c'est ici qu'il faudra venir invalider — d'où le tag, exporté d'avance.
+ */
 export const AUTHORS_CACHE_TAG = "authors"
 
 type AuthorRow = {

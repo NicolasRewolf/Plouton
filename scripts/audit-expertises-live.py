@@ -2,11 +2,18 @@
 """
 Maintenance expertises : snapshot Markdown live + deep-check contenu.
 
+CE N'EST PAS UNE GARDE. Il s'appelait `check-expertises-live.py`, ce que son
+préfixe faisait passer pour un test : il sort **toujours 0**, même quand son
+rapport compte des erreurs, et `--fix` **réécrit** `contenu/expertises/*.json`.
+Il a aussi besoin du réseau (il aspire le site live). Renommé en `audit-` pour
+que le nom dise ce qu'il fait. Les vraies gardes sont listées dans
+`docs/guides/gardes.md` ; elles sont en lecture seule et sortent non nul.
+
 Usage :
-  python3 scripts/check-expertises-live.py              # fetch MD + rapport
-  python3 scripts/check-expertises-live.py --fix        # nettoie junk + refresh liens
-  python3 scripts/check-expertises-live.py --slug divorce
-  python3 scripts/check-expertises-live.py --skip-fetch # check seul (MD déjà là)
+  python3 scripts/audit-expertises-live.py              # fetch MD + rapport
+  python3 scripts/audit-expertises-live.py --fix        # nettoie junk + refresh liens
+  python3 scripts/audit-expertises-live.py --slug divorce
+  python3 scripts/audit-expertises-live.py --skip-fetch # check seul (MD déjà là)
 
 Sorties :
   contenu/sources/live-md/expertises/{slug}.md
