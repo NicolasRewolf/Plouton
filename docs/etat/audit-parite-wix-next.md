@@ -26,32 +26,30 @@ initiative.
 ## Cooked — statut d'accès
 
 **Cooked est le système de mesure du site** (dépôt privé `NicolasRewolf/cooked`,
-base Supabase `mxycmjkeotrycyneacje`). Il devait servir à traiter d'abord les
-URLs les plus consultées.
+base Supabase `mxycmjkeotrycyneacje`) : traceur maison sans cookies + Google
+Search Console ingéré dans la même base.
 
-**Signalé une fois : Cooked est inaccessible depuis un agent cloud.**
+**✅ Accessible depuis le 2026-07-21.** Deux secrets fournis par Nicolas
+permettent d'interroger la base **en lecture directe** (sans MCP) :
+`COOKED_SUPABASE_URL` + `COOKED_SUPABASE_SECRET_KEY`.
 
-- Le MCP Supabase (`.cursor/mcp.json`) exige une authentification OAuth qui ne
-  se complète que dans Cursor Desktop ; un agent cloud ne peut pas la réaliser,
-  et le serveur n'est pas injecté à chaud dans une session en cours.
-- Aucune clé de service Supabase du projet Cooked n'est présente dans
-  l'environnement (aucun secret `SUPABASE_*` pour ce projet).
+> Note : le **MCP Supabase** (`.cursor/mcp.json`) ne fonctionne **pas** depuis un
+> agent cloud (OAuth possible seulement dans Cursor Desktop, pas d'injection à
+> chaud). On passe donc par l'API REST du projet avec la clé de service.
 
-**Pour débloquer** (au choix, à faire par Nicolas) :
+### Signal de priorité — clics Google Search Console (Cooked)
 
-1. Ajouter un secret **clé Supabase en lecture** du projet Cooked
-   (`COOKED_SUPABASE_URL` + `COOKED_SUPABASE_SECRET_KEY`) dans les Secrets de
-   l'agent — l'agent interrogera alors Cooked directement, sans MCP.
-2. Ou authentifier le MCP Supabase dans Cursor Desktop puis relancer l'agent.
+Le rang vient de la vue Cooked `gsc_path_metrics_28d` (**clics GSC, 28 jours
+glissants**), tous types de pages confondus (409 pages avec clics). C'est le
+signal « pages réellement les plus consultées » demandé. Il est recalculé à
+chaque `build_inventaire.py`.
 
-### Signal de priorité utilisé en attendant (données réelles, non inventées)
+L'agrégat plus lourd `cooked_pages_snapshot` (sessions traceur) dépasse le
+timeout REST ; la vue GSC 28 j, indexée, répond instantanément et suffit au
+classement.
 
-À défaut de Cooked, on classe par **vues Wix réelles** issues de
-[`../../contenu/sources/wix/stats-posts.json`](../../contenu/sources/wix/stats-posts.json)
-(422 posts, ~258 000 vues cumulées). C'est le même type de signal
-« pages les plus consultées », pour les posts. Quand Cooked sera accessible, on
-recalculera le rang (y compris pour les pages structure, absentes de ce
-fichier) et on complétera la colonne `rang`.
+Colonne `clics_gsc_28j` du CSV = valeur réelle au moment du contrôle. La colonne
+`vues_wix` (instantané Wix hérité) est conservée comme second signal.
 
 ## Méthode & outil
 
@@ -62,8 +60,10 @@ Outil de comparaison **en lecture seule** (ne modifie rien) :
   pages, puis rapporte omissions (Wix→absent Next), ajouts et reformulations.
 - [`../../scripts/audit-parite/run_batch.py`](../../scripts/audit-parite/run_batch.py)
   — lance un lot et classe chaque URL. `--posts-top N` / `--structure`.
+- [`../../scripts/audit-parite/cooked_rank.py`](../../scripts/audit-parite/cooked_rank.py)
+  — classement Cooked (clics GSC 28 j) via l'API REST Supabase.
 - [`../../scripts/audit-parite/build_inventaire.py`](../../scripts/audit-parite/build_inventaire.py)
-  — (re)génère l'inventaire CSV.
+  — (re)génère l'inventaire CSV, classé Cooked, en **préservant** les statuts.
 
 Le serveur Next doit tourner en local (`cd site && npm run dev`) : la prod Vercel
 est protégée par login, on compare donc **Wix live** ↔ **Next local**.
@@ -92,21 +92,24 @@ d'article.
 | | |
 |---|---|
 | URLs inventoriées | **449** (27 structure/hub/expertise + 422 posts) |
-| Contrôlées | **25** (top 25 posts par vues) |
-| `conforme` | 11 · `bloquée` 14 · `corrigée` 0 |
-| Reste | 424 `à faire` |
+| Contrôlées | **50** (top 50 posts par clics GSC) |
+| `conforme` | 25 · `bloquée` 25 · `corrigée` 0 |
+| Reste | 399 `à faire` |
 
-### Lot 1 — top 25 posts par vues (2026-07-21)
+### Résultat d'ensemble (lots 1 + 2 — 2026-07-21)
 
-**Fidélité du corps : excellente.** Sur les 25 posts les plus consultés,
-**aucune omission réelle de texte** (hors un bloc « Cabinet Plouton » — probable
-signature — sur un post, à vérifier). Titres et listes conformes.
+**Fidélité du corps : excellente.** Sur les 50 posts les plus consultés,
+**aucune omission réelle de texte**. Titres, listes et **FAQ** (accordéons
+`<details>`) conformes. Les seuls « manques » détectés étaient des **faux
+positifs** de l'outil (voir plus bas) ou des **cartes d'aperçu de lien Wix**
+(le titre de la page cible affiché en vignette) — présentation propre à Wix, le
+lien lui-même existe côté Next. Ignoré, comme prévu.
 
-**Écart systémique constaté — meta descriptions.** Next utilise le champ
-`excerpt` du post comme meta description. Sur > la moitié des posts contrôlés,
-elle diffère de la meta live Wix. Trois cas de figure :
+**Seul écart réel et récurrent — meta descriptions.** Next utilise le champ
+`excerpt` du post comme meta description ; sur ~la moitié des posts elle diffère
+de la meta live Wix. Trois cas :
 
-1. Wix a une meta rédigée, Next affiche un **extrait du corps** (`excerpt` pollué
+1. Wix a une meta rédigée, Next affiche un **extrait de corps** (`excerpt` pollué
    à la migration) — ex. `durée-de-la-garde-à-vue…`. Régression probable.
 2. Les deux ont une meta valide mais **différente** — ex. `casier-judiciaire…`.
    Dérive éditoriale.
@@ -114,11 +117,17 @@ elle diffère de la meta live Wix. Trois cas de figure :
    Amélioration côté Next.
 
 **Décision (prudente, conforme à la consigne) :** je **n'ai pas** réécrit ces
-meta descriptions. Réécrire 200+ metas depuis Wix serait une modification de
+meta descriptions. Réécrire ~200 metas depuis Wix serait une modification de
 contenu massive prise de ma propre initiative, et le sens « juste » (restaurer
 Wix ? garder la nouvelle ?) est une **décision SEO/éditoriale** qui revient à
-Nicolas. Ces pages sont classées `bloquée` avec le détail Wix vs Next dans le
-CSV. → **À arbitrer par Nicolas** (voir « Décisions attendues »).
+Nicolas. Ces pages sont `bloquée` avec le détail dans le CSV.
+
+**Correctif d'outil appliqué en cours de route.** Le premier jet signalait à
+tort les questions de FAQ comme « absentes côté Next » : elles vivent dans des
+balises `<summary>`/`<details>` que l'extracteur ne lisait pas. Corrigé (ajout
+de `summary`, `dt`, `dd`) ; les lots ont été rejoués. Aucune perte de FAQ
+réelle : la FAQ est bien rendue côté Next (accordéon), et présente dans le
+`body_doc` canonique.
 
 Détail par URL : colonnes `statut` / `ecarts` / `date_controle` de
 [`audit-parite-inventaire.csv`](audit-parite-inventaire.csv).
@@ -134,17 +143,21 @@ deux côtés. C'est le **prochain lot** ; ces pages restent `à faire`.
 
 ## Décisions attendues (Nicolas)
 
-1. **Meta descriptions** : pour les posts où Next diffère de Wix, que faut-il
-   faire ? (a) restaurer la meta Wix, (b) garder l'`excerpt` actuel de Next,
-   (c) cas par cas. Sans réponse, elles restent `bloquée`.
-2. **Accès Cooked** : fournir une clé Supabase en lecture (voir plus haut) pour
-   classer par vraies stats Cooked et couvrir les pages structure.
+1. **Meta descriptions** (seul point ouvert) : pour les posts où Next diffère de
+   Wix, que faut-il faire ? (a) restaurer la meta Wix, (b) garder l'`excerpt`
+   actuel de Next, (c) cas par cas. Sans réponse, elles restent `bloquée`.
+   Une fois la règle connue, la correction se fait côté source canonique
+   (`excerpt` / `seo` du post) et repasse les pages en `corrigée`.
 
 ## Pour reprendre (prochain agent)
 
 1. `cd site && npm run dev` (serveur local sur :3000).
-2. Lot posts suivant : `python3 scripts/audit-parite/run_batch.py --posts-top 50`
-   puis reporter les nouveaux résultats (au-delà du top 25) dans le CSV.
-3. Ou attaquer les pages structure avec le mapping d'URL Wix (voir note ci-dessus).
-4. À chaque lot : gardes AGENTS.md, `CHANGELOG.md`, commit + push, PR brouillon.
+2. Rafraîchir le classement Cooked : `python3 scripts/audit-parite/build_inventaire.py`
+   (préserve les statuts déjà saisis).
+3. Lot suivant — les prochaines lignes `à faire` par rang. Lister les chemins :
+   `awk -F';' '$6=="à faire" && $3=="post"{print $2}' docs/etat/audit-parite-inventaire.csv | head -25`
+   puis les passer à `run_batch.py`, et reporter statut/date/ecarts dans le CSV.
+4. Pages structure/expertise : établir d'abord le mapping d'URL Wix (plusieurs
+   chemins Next sont neufs), puis cadrer les régions des deux côtés.
+5. À chaque lot : gardes AGENTS.md, `CHANGELOG.md`, commit + push, PR brouillon.
    Ne rien fusionner ni déployer.

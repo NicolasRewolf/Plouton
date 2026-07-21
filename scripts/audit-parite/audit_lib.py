@@ -22,7 +22,7 @@ WIX = "https://www.jplouton-avocat.fr"
 NEXT = "http://localhost:3000"
 
 BLOCK_TAGS = {"h1", "h2", "h3", "h4", "p", "li", "blockquote", "td", "th",
-              "figcaption"}
+              "figcaption", "summary", "dt", "dd"}
 HEADING_TAGS = {"h1", "h2", "h3", "h4"}
 SKIP_TAGS = {"script", "style", "noscript", "svg", "template"}
 

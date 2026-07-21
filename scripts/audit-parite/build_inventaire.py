@@ -1,16 +1,22 @@
 #!/usr/bin/env python3
-"""Génère l'inventaire d'URLs classé par popularité (lecture seule).
+"""Génère / met à jour l'inventaire d'URLs classé par consultation (lecture seule).
 
 Sortie : docs/etat/audit-parite-inventaire.csv
-Colonnes : rang;chemin;type;vues_wix;statut;date_controle;ecarts
+Colonnes : rang;chemin;type;clics_gsc_28j;vues_wix;statut;date_controle;ecarts
 
-Priorité (Cooked inaccessible en cloud agent — voir le registre) :
-  1. pages structure / hub / expertise (piliers SEO + points d'entrée)
-  2. posts triés par vues Wix réelles (contenu/sources/wix/stats-posts.json)
+Priorité :
+  - si Cooked est accessible (secrets COOKED_SUPABASE_*) → rang = clics Google
+    Search Console 28 j (vue `gsc_path_metrics_28d`), tous types de pages ;
+  - sinon → repli sur les vues Wix (contenu/sources/wix/stats-posts.json).
+
+Les statuts déjà saisis (statut / date_controle / ecarts) sont **préservés**
+par chemin : régénérer l'inventaire ne perd aucun contrôle déjà fait.
 """
 import json
 import os
 import csv
+
+import cooked_rank
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUT = os.path.join(ROOT, "docs", "etat", "audit-parite-inventaire.csv")
@@ -46,28 +52,57 @@ STRUCTURE = [
 ]
 
 
+def load_existing_status():
+    status = {}
+    if not os.path.exists(OUT):
+        return status
+    with open(OUT, encoding="utf-8") as f:
+        for row in csv.DictReader(f, delimiter=";"):
+            status[row["chemin"]] = (row.get("statut", "à faire"),
+                                     row.get("date_controle", ""),
+                                     row.get("ecarts", ""))
+    return status
+
+
 def main():
     stats = json.load(open(os.path.join(ROOT, "contenu", "sources", "wix",
                                          "stats-posts.json"), encoding="utf-8"))
-    ranked = sorted(stats.items(), key=lambda kv: kv[1].get("views", 0), reverse=True)
+    wix_views = {f"/post/{s}": v.get("views", 0) for s, v in stats.items()}
+    types = {p: t for p, t in STRUCTURE}
 
+    universe = [p for p, _ in STRUCTURE] + list(wix_views.keys())
+    universe = list(dict.fromkeys(universe))
+
+    clicks = {}
+    src = "vues Wix (repli)"
+    if cooked_rank.available():
+        try:
+            for r in cooked_rank.fetch_ranking():
+                clicks[r["path"]] = r["clicks"]
+            src = "clics GSC 28 j (Cooked)"
+        except Exception as e:  # noqa: BLE001
+            print(f"⚠️  Cooked injoignable ({e}) — repli sur les vues Wix.")
+
+    def sort_key(p):
+        return (-(clicks.get(p, 0)), -(wix_views.get(p, 0)), p)
+
+    universe.sort(key=sort_key)
+
+    status = load_existing_status()
     rows = []
-    rank = 0
-    for path, typ in STRUCTURE:
-        rank += 1
-        rows.append([rank, path, typ, "", "à faire", "", ""])
-    for slug, v in ranked:
-        rank += 1
-        rows.append([rank, f"/post/{slug}", "post", v.get("views", 0),
-                     "à faire", "", ""])
+    for rank, p in enumerate(universe, 1):
+        typ = types.get(p, "post")
+        st, dt, ec = status.get(p, ("à faire", "", ""))
+        rows.append([rank, p, typ, clicks.get(p, ""), wix_views.get(p, ""),
+                     st, dt, ec])
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f, delimiter=";")
-        w.writerow(["rang", "chemin", "type", "vues_wix", "statut",
-                    "date_controle", "ecarts"])
+        w.writerow(["rang", "chemin", "type", "clics_gsc_28j", "vues_wix",
+                    "statut", "date_controle", "ecarts"])
         w.writerows(rows)
-    print(f"écrit {len(rows)} lignes → {OUT}")
+    print(f"écrit {len(rows)} lignes → {OUT}  (classement : {src})")
 
 
 if __name__ == "__main__":

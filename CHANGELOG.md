@@ -12,6 +12,20 @@ le fait, pas six mois plus tard en audit.
 
 ## 2026-07-21
 
+### [à venir] Audit de parité — Cooked branché + lot 2
+
+**Ajouté** — `scripts/audit-parite/cooked_rank.py` : classement réel par clics
+Google Search Console 28 j (vue Cooked `gsc_path_metrics_28d`, via secrets
+`COOKED_SUPABASE_*`). L'inventaire est désormais **classé par vraies stats
+Cooked**, tous types de pages.
+**Corrigé (outil)** — l'extracteur ignorait les balises `<summary>`/`<details>` :
+les FAQ étaient signalées à tort comme manquantes côté Next. Ajout de `summary`,
+`dt`, `dd` ; lots rejoués.
+**Contrôlé** — 50 posts les plus consultés au total (lots 1+2) :
+**0 omission réelle de texte** (FAQ incluses). Seul écart récurrent = meta
+descriptions → `bloquée` (arbitrage SEO). Bilan : 25 `conforme`, 25 `bloquée`.
+**Docs périmés** — aucun (registre mis à jour).
+
 ### [à venir] Audit de parité Wix → Next — outillage + lot 1
 
 **Ajouté** — [`docs/etat/audit-parite-wix-next.md`](docs/etat/audit-parite-wix-next.md)
