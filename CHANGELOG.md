@@ -10,6 +10,16 @@ le fait, pas six mois plus tard en audit.
 
 ---
 
+## 2026-07-21
+
+### [à venir] Layout bas de page honoraires & RDV
+
+**Changé** — `/honoraires-rendez-vous` : le haut (titre + infos + formulaire)
+reste tel quel. Sous le formulaire : **Accès** en grille (adresse / voiture /
+tram) + photo d’équipe ; **Convention** et **Protection** côte à côte, médiateur
+mis en avant.
+**Docs périmés** — aucun (mêmes ancres `#acces` `#convention` `#protection`).
+
 ## 2026-07-20
 
 ### [#70] C5 — l'interprétation des expertises, séparée de l'affichage · `405a0b0`

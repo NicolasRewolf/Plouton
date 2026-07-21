@@ -1,11 +1,20 @@
 import type { Metadata } from "next"
-import Link from "next/link"
+import Image from "next/image"
 import { ContactForm } from "@/components/ContactForm"
 import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
+import { SiteCta } from "@/components/SiteCta"
 import { getSite, readPageJson } from "@/lib/content"
 import { formObjets } from "@/lib/registry"
 import { JsonLd, organizationSchema, withCanonicalOg } from "@/lib/seo"
+
+const EASE = "cubic-bezier(0.2, 0, 0, 1)"
+
+function splitTitleBody(raw: string) {
+  const parts = raw.split(/\n+/).map((s) => s.trim()).filter(Boolean)
+  if (parts.length <= 1) return { title: null as string | null, body: raw.trim() }
+  return { title: parts[0], body: parts.slice(1).join(" ") }
+}
 
 interface HonorairesPage {
   title: string
@@ -45,6 +54,15 @@ export default function HonorairesRendezVousPage() {
   const page = readPageJson<HonorairesPage>("honoraires-rendez-vous")
   const site = getSite()
   if (!page) return null
+
+  const addressLine = `${site.address.street}, ${site.address.postalCode} ${site.address.city}`
+  const mapsUrl = `https://maps.google.com/?q=${encodeURIComponent(addressLine)}`
+  const voiture = splitTitleBody(page.acces.voiture)
+  const tram = splitTitleBody(page.acces.tram)
+  const protectionParas = page.protection.body
+    .split(/\n\n+/)
+    .map((p) => p.trim())
+    .filter(Boolean)
 
   const schema = [
     organizationSchema(site),
@@ -111,14 +129,12 @@ export default function HonorairesRendezVousPage() {
               </p>
               <p className="mt-2">
                 <a
-                  href={`https://maps.google.com/?q=${encodeURIComponent(
-                    `${site.address.street}, ${site.address.postalCode} ${site.address.city}`
-                  )}`}
+                  href={mapsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline-offset-2 hover:underline"
                 >
-                  {site.address.street}, {site.address.postalCode} {site.address.city}
+                  {addressLine}
                 </a>
               </p>
               <a href="#acces" className="mt-3 inline-block text-sm font-medium text-accent hover:underline">
@@ -136,68 +152,127 @@ export default function HonorairesRendezVousPage() {
           </div>
         </div>
 
-        <div className="mx-auto max-w-3xl space-y-14 px-5 pb-20 lg:px-8">
-          <section id="acces" className="scroll-mt-28">
-            <h2 className="font-display text-2xl font-semibold text-navy">{page.acces.heading}</h2>
-            <p className="mt-4 text-sm font-semibold text-navy">{page.acces.adresseLabel}</p>
-            <p className="mt-1 text-navy">
-              {site.address.street}, {site.address.postalCode} {site.address.city}
-            </p>
-            <p className="mt-4 whitespace-pre-line text-[15px] leading-relaxed text-navy">
-              {page.acces.voiture}
-            </p>
-            <p className="mt-4 whitespace-pre-line text-[15px] leading-relaxed text-navy">
-              {page.acces.tram}
-            </p>
-          </section>
+        <section
+          id="acces"
+          className="scroll-mt-28 border-t border-line/70 bg-white px-5 py-14 lg:px-8 lg:py-16"
+        >
+          <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:items-center lg:gap-14">
+            <div>
+              <h2 className="font-display text-[clamp(1.5rem,2.4vw,1.85rem)] font-semibold tracking-tight text-navy">
+                {page.acces.heading}
+              </h2>
+              <p className="mt-2 text-[15px] text-navy-soft">Cabinet principal · Bordeaux centre</p>
 
-          <section id="convention" className="scroll-mt-28">
-            <h2 className="font-display text-2xl font-semibold text-navy">
-              {page.convention.heading}
-            </h2>
-            <p className="mt-4 text-[15px] leading-relaxed text-navy">{page.convention.lead}</p>
-            <ul className="mt-4 list-disc space-y-2 pl-5 text-[15px] text-navy">
-              {page.convention.criteres.map((c) => (
-                <li key={c}>{c}</li>
-              ))}
-            </ul>
-            <p className="mt-6 text-[15px] leading-relaxed text-navy">
-              {page.convention.dommageCorporel}
-            </p>
-            <ul className="mt-4 list-disc space-y-2 pl-5 text-[15px] text-navy">
-              {page.convention.parties.map((c) => (
-                <li key={c}>{c}</li>
-              ))}
-            </ul>
-            <Link
-              href="/notre-cabinet"
-              className="mt-6 inline-flex text-sm font-medium text-accent hover:underline"
-            >
-              Découvrir notre équipe →
-            </Link>
-          </section>
+              <div className="mt-9 grid gap-8 sm:grid-cols-3 sm:gap-6">
+                <div>
+                  <p className="text-[12px] font-semibold tracking-[0.06em] text-navy-soft uppercase">
+                    {page.acces.adresseLabel}
+                  </p>
+                  <a
+                    href={mapsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 block text-[15px] font-medium leading-snug text-navy underline-offset-2 transition-colors duration-200 hover:text-accent hover:underline"
+                    style={{ transitionTimingFunction: EASE }}
+                  >
+                    {addressLine}
+                  </a>
+                </div>
+                <div>
+                  <p className="text-[12px] font-semibold tracking-[0.06em] text-navy-soft uppercase">
+                    {voiture.title ?? "En voiture"}
+                  </p>
+                  <p className="mt-3 text-[15px] leading-snug text-navy/90">{voiture.body}</p>
+                </div>
+                <div>
+                  <p className="text-[12px] font-semibold tracking-[0.06em] text-navy-soft uppercase">
+                    {tram.title ?? "En tramway"}
+                  </p>
+                  <p className="mt-3 text-[15px] leading-snug text-navy/90">{tram.body}</p>
+                </div>
+              </div>
+            </div>
 
-          <section id="protection" className="scroll-mt-28">
-            <h2 className="font-display text-2xl font-semibold text-navy">
-              {page.protection.heading}
-            </h2>
-            {page.protection.body.split(/\n\n+/).map((p, i) => (
-              <p key={i} className="mt-4 whitespace-pre-line text-[15px] leading-relaxed text-navy">
-                {p}
-              </p>
-            ))}
-            <p className="mt-4">
-              <a
-                href={page.mediateurUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-accent hover:underline"
-              >
-                Site Internet
-              </a>
+            <div className="relative mx-auto aspect-[5/6] w-full max-w-md overflow-hidden rounded-[22px] shadow-[0_1px_2px_rgba(23,71,94,0.04),0_14px_36px_rgba(23,71,94,0.08)] lg:mx-0 lg:max-w-none">
+              <Image
+                src="/brand/equipe-home.png"
+                alt="L’équipe du Cabinet Plouton"
+                fill
+                className="object-cover object-[center_22%]"
+                sizes="(max-width: 1024px) 90vw, 40vw"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section className="border-t border-line/70 px-5 py-14 lg:px-8 lg:py-16">
+          <div className="mx-auto max-w-6xl">
+            <p className="text-[12px] font-semibold tracking-[0.08em] text-navy-soft uppercase">
+              Informations complémentaires
             </p>
-          </section>
-        </div>
+            <div className="mt-8 grid gap-12 lg:grid-cols-2 lg:gap-16">
+              <article id="convention" className="scroll-mt-28">
+                <h2 className="font-display text-[1.35rem] font-semibold tracking-tight text-navy">
+                  {page.convention.heading}
+                </h2>
+                <p className="mt-4 text-[15px] leading-relaxed text-navy/90">{page.convention.lead}</p>
+                <ul className="mt-4 space-y-2.5">
+                  {page.convention.criteres.map((c) => (
+                    <li key={c} className="flex gap-3 text-[15px] text-navy">
+                      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" aria-hidden />
+                      <span>{c}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-6 text-[15px] leading-relaxed text-navy/90">
+                  {page.convention.dommageCorporel}
+                </p>
+                <ul className="mt-4 space-y-2.5">
+                  {page.convention.parties.map((c) => (
+                    <li key={c} className="flex gap-3 text-[15px] text-navy">
+                      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" aria-hidden />
+                      <span>{c}</span>
+                    </li>
+                  ))}
+                </ul>
+                <SiteCta href="/notre-cabinet" variant="secondary" arrow className="mt-8">
+                  Découvrir notre équipe
+                </SiteCta>
+              </article>
+
+              <article id="protection" className="scroll-mt-28">
+                <h2 className="font-display text-[1.35rem] font-semibold tracking-tight text-navy">
+                  {page.protection.heading}
+                </h2>
+                {protectionParas.map((p, i) => {
+                  if (p.startsWith("Médiateur"))
+                    return (
+                      <address
+                        key={i}
+                        className="mt-5 rounded-[18px] bg-white p-5 text-[14px] leading-relaxed text-navy not-italic shadow-[0_1px_2px_rgba(23,71,94,0.04),0_8px_22px_rgba(23,71,94,0.05)]"
+                      >
+                        <p className="whitespace-pre-line font-medium">{p}</p>
+                        <a
+                          href={page.mediateurUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-3 inline-block text-[13px] font-medium text-accent transition-colors duration-200 hover:text-accent-hover"
+                          style={{ transitionTimingFunction: EASE }}
+                        >
+                          mediateur-consommation-avocat.fr →
+                        </a>
+                      </address>
+                    )
+                  return (
+                    <p key={i} className="mt-4 text-[15px] leading-relaxed text-navy/90">
+                      {p}
+                    </p>
+                  )
+                })}
+              </article>
+            </div>
+          </div>
+        </section>
       </div>
 
       <Footer />
