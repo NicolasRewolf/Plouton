@@ -223,18 +223,18 @@ body {
 a.link-inline {
   color: var(--color-accent);
   text-decoration: none;
-  background-image: radial-gradient(circle, var(--color-accent) 1px, transparent 1.2px);
-  background-size: 6px 2px;
+  background-image: radial-gradient(circle, var(--color-accent) 1.25px, transparent 1.6px);
+  background-size: 11px 3px;
   background-repeat: repeat-x;
   background-position: 0 100%;
-  padding-bottom: 0.15em;
+  padding-bottom: 0.2em;
   transition: color 0.15s ease;
 }
 
 .prose-plouton a:hover,
 a.link-inline:hover {
   color: var(--color-accent-hover);
-  background-image: radial-gradient(circle, var(--color-accent-hover) 1px, transparent 1.2px);
+  background-image: radial-gradient(circle, var(--color-accent-hover) 1.25px, transparent 1.6px);
 }
 
 .prose-plouton ul,

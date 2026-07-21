@@ -15,7 +15,8 @@ le fait, pas six mois plus tard en audit.
 ### Liens internes : points plus espacés
 
 **UI** — `.link-inline` / `.prose-plouton a` : soulignement en points
-espacés (choix B) à la place du `dotted` navigateur trop serré.
+espacés (choix B) à la place du `dotted` navigateur trop serré. Espacement
+renforcé (11px) pour que l’air entre les points se voie vraiment.
 
 **Docs périmés** — néant.
 
