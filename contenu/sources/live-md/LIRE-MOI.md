@@ -14,7 +14,7 @@ Noms = slugs JSON (`droit-penal.md`, `defense-des-elus.md`, …) — **15 fichie
 ## Origine
 
 - Export Wix « Page - … » / dumps rédactionnels (Downloads, archives Domtom, etc.)
-- Ou snapshot live via `python3 scripts/check-expertises-live.py`
+- Ou snapshot live via `python3 scripts/audit-expertises-live.py`
 - Optionnel : `{slug}.live.json` (métadonnées scrape)
 
 ## Règle de fidélité (non négociable)

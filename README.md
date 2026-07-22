@@ -16,12 +16,12 @@ l'instantané JSON figé. Détail : [`docs/guides/demarrer.md`](docs/guides/dema
 ## Avant de livrer
 
 ```bash
-cd site
-npm run check:roundtrip && npm run check:edit-loss && npm run check:sources \
-  && npm run check:submission && npm run check:expertise
+cd site && npm run check
 ```
 
 Ce sont les seuls tests du projet — [`docs/guides/gardes.md`](docs/guides/gardes.md).
+Douze gardes, trois issues : **0** conforme · **1** un défaut est prouvé ·
+**2** tout n'a pas pu être vérifié.
 
 ## Par où lire
 
