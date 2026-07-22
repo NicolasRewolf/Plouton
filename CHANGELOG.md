@@ -12,69 +12,36 @@ le fait, pas six mois plus tard en audit.
 
 ## 2026-07-21
 
-### Cartes affaires : ombre au hover plus coupée
+### [à venir] Audit de parité — Cooked branché + lot 2
 
-**UI** — retirée la règle `overflow-hidden` sur les `<main>` des hubs
-(affaires, médias, ressources, pôles) qui rognait l’ombre au survol des
-`AffaireCard`. Léger `pt-2` sur la grille pour laisser respirer le translate.
+**Ajouté** — `scripts/audit-parite/cooked_rank.py` : classement réel par clics
+Google Search Console 28 j (vue Cooked `gsc_path_metrics_28d`, via secrets
+`COOKED_SUPABASE_*`). L'inventaire est désormais **classé par vraies stats
+Cooked**, tous types de pages.
+**Corrigé (outil)** — l'extracteur ignorait les balises `<summary>`/`<details>` :
+les FAQ étaient signalées à tort comme manquantes côté Next. Ajout de `summary`,
+`dt`, `dd` ; lots rejoués.
+**Contrôlé** — 50 posts les plus consultés au total (lots 1+2) :
+**0 omission réelle de texte** (FAQ incluses). Seul écart récurrent = meta
+descriptions → `bloquée` (arbitrage SEO). Bilan : 25 `conforme`, 25 `bloquée`.
+**Docs périmés** — aucun (registre mis à jour).
 
-**Docs périmés** — néant.
+### [à venir] Audit de parité Wix → Next — outillage + lot 1
 
-### Liens internes : points plus espacés
+**Ajouté** — [`docs/etat/audit-parite-wix-next.md`](docs/etat/audit-parite-wix-next.md)
+(registre durable) + `docs/etat/audit-parite-inventaire.csv` (449 URLs classées
+par vues Wix réelles) + `scripts/audit-parite/` (outil de comparaison **lecture
+seule** Wix ↔ Next : texte, titres H1–H4, liens, SEO).
+**Contrôlé** — lot 1 : top 25 posts par vues. Fidélité du corps **excellente**
+(0 omission réelle). Écart systémique relevé : meta descriptions Next ≠ Wix sur
+> la moitié des posts → classées `bloquée`, **non corrigées** (arbitrage
+SEO/éditorial requis, cf. registre « Décisions attendues »).
+**Non fait volontairement** — aucune réécriture de contenu (prudence : pas de
+modif massive de textes de ma propre initiative). Cooked inaccessible en agent
+cloud (OAuth MCP + pas de clé) → repli sur les vues Wix réelles, signalé.
+**Docs périmés** — aucun.
 
-**UI** — `.link-inline` / `.prose-plouton a` : soulignement en points
-espacés (choix B) à la place du `dotted` navigateur trop serré. Espacement
-renforcé (11px) pour que l’air entre les points se voie vraiment.
-
-**Docs périmés** — néant.
-
-### Photos équipe : portraits, avatars, bandeau CTA, hero Divorce
-
-**Contenu** — portraits HD dans `site/public/brand/equipe/` (série studio),
-avatars blog 256×256, carrés `imageSquare` renseignés dans `equipe.json`,
-bandeau articles (`equipe-groupe.jpg`) en paysage, hero Divorce rafraîchi.
-Avatar Axelle : fichier corrigé `axelle-fesneau.jpg` (plus `fresneau`),
-chemin mis à jour dans `auteurs.json` **et** en base `authors`.
-
-**Nettoyage** — dossier temporaire de tri des photos retiré du disque ; seules
-les versions web restent sous `brand/`.
-
-**Docs périmés** — `site/public/brand/LIRE-MOI.md` ne documentait que logo +
-hero + expertises (équipe / avatars absents). Archive brief blog : l’écart
-Fresneau / Fesneau côté fichiers image est refermé ; l’URL auteur reste
-`axelle-fesneau`.
-
-### Les simulateurs de divorce, la garde qui les épingle, et le PUT qui ne dédoublait plus
-
-**Portage** — déjà sur la branche : `prestation-compensatoire.ts` reprend le
-modèle Wix « Grenoble prior » v2.5.2 ; `pension-alimentaire.ts` aligne minimum
-vital (648 €) et plancher (700 €). Le modèle **refuse** un âge hors 16–100
-plutôt que d'inventer un montant (−20 % silencieux ou NaN).
-
-**Corrigé (UI)** — `SimulatorPrestation.tsx` : un refus du modèle n'affiche plus
-« 0 € » comme une estimation ; la phrase d'erreur est montrée telle quelle.
-Bornes d'âge du formulaire ramenées à 16 (comme le modèle). Affichage via
-`afficherCapital` (arrondi 500 €).
-
-**Corrigé (modèle)** — à revenus égaux, l'échange de santé suit la règle Wix
-(`revConjoint < revVous`), pas `vousCreancier` ; apostrophes typographiques des
-messages d'erreur alignées sur `calc.web.js`.
-
-**Corrigé (PUT article)** — `api/posts` : lecture et écriture partagent désormais
-le même `normalizeSlug`. Avant, une variante NFD/casse/espaces créait un second
-article en répondant 200 OK.
-
-**Garde** — `check:baremes` réécrite pour le modèle Wix (plus l'ancien
-tiers/demi-durée). Section « le refus, pas la conjecture » à la place de
-« l'âge non assaini ». `check:submission` : section « clé d'identité » + les
-422 slugs stockés restent intacts sous normalisation.
-
-**Docs périmés** — l'entrée « Trouvé, non corrigé » sur l'âge non assaini (si
-présente plus bas dans ce CHANGELOG / notes de garde) : corrigé par le refus
-Wix. La mention « PUT ne contrôle pas l'unicité du slug » reste ouverte ; seul
-le dédoublement par variante de normalisation est fermé.
-
-### Layout bas de page honoraires & RDV · `93b87ff`
+### [à venir] Layout bas de page honoraires & RDV
 
 **Changé** — `/honoraires-rendez-vous` : le haut (titre + infos + formulaire)
 reste tel quel. Sous le formulaire : **Accès** en grille (adresse / voiture /
