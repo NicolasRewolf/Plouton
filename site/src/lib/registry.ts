@@ -43,6 +43,34 @@ export function getRegistryExpertise(slug: string): RegistryExpertise | undefine
   return listRegistryExpertises().find((e) => e.slug === slug)
 }
 
+/**
+ * Chemin public d'une expertise — dérivé du registry, jamais tenu à la main.
+ *
+ * `revalidate-posts.ts` calculait déjà ces chemins pour son propre usage, mais
+ * la route FAQ ne pouvait pas les atteindre : faute de savoir quelle page
+ * montre une FAQ donnée, elle invalidait `/` en `layout`, c'est-à-dire le site
+ * entier, à chaque écriture. Une seule question sur les 15 expertises périmait
+ * les 422 articles et les 87 pages.
+ *
+ * `undefined` quand le slug est inconnu — c'est un cas que l'appelant doit
+ * traiter, et le traiter par une invalidation large est la bonne réponse : on
+ * préfère un cache trop froid à une page qui ne se met jamais à jour.
+ */
+export function expertisePathFor(slug: string): string | undefined {
+  for (const pole of data.poles) {
+    const hit = pole.expertises.find((e) => e.slug === slug)
+    if (hit) return hit.path || `${pole.href}/${hit.slug}`
+  }
+  return undefined
+}
+
+/** Les chemins publics des 15 expertises. */
+export function allExpertisePaths(): string[] {
+  return data.poles.flatMap((pole) =>
+    pole.expertises.map((e) => e.path || `${pole.href}/${e.slug}`)
+  )
+}
+
 export function heroForSlug(slug: string, poleSlug?: string): string {
   const hit = getRegistryExpertise(slug)
   if (hit?.hero) return hit.hero

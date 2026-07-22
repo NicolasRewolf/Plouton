@@ -127,7 +127,8 @@ export function AffairesGallery({
         {activeSlug ? " dans cette catégorie" : ""}
       </p>
 
-      <div className="mt-8 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+      {/* pt : laisse respirer l’ombre + translate au hover (pas de overflow parent) */}
+      <div className="mt-8 grid gap-6 pt-2 sm:grid-cols-2 xl:grid-cols-3">
         {shown.map((article, index) => (
           <AffaireCard
             key={article.slug}

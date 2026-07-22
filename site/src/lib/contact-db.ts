@@ -6,6 +6,7 @@ import { defineCollection } from "@/lib/cms-collection"
 import { adminClient } from "@/lib/supabase/admin"
 import { getSite } from "@/lib/content"
 
+/** Même remarque que `AUTHORS_CACHE_TAG` : aucun écrivain, donc aucun invalidateur. */
 export const CONTACT_CACHE_TAG = "contact"
 
 export interface ContactInfo {

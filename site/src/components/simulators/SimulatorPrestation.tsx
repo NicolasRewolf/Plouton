@@ -3,8 +3,8 @@
 import { useState, type FormEvent } from "react"
 import { SiteCta } from "@/components/SiteCta"
 import {
+  afficherCapital,
   estimatePrestationCompensatoire,
-  formatEuroCapital,
   HEALTH_LABELS,
   type HealthImpact,
 } from "@/lib/simulators/prestation-compensatoire"
@@ -72,7 +72,7 @@ export function SimulatorPrestation() {
           <input
             id="pc-age-vous"
             type="number"
-            min={18}
+            min={16}
             max={100}
             required
             value={ageVous}
@@ -88,7 +88,7 @@ export function SimulatorPrestation() {
           <input
             id="pc-age-conjoint"
             type="number"
-            min={18}
+            min={16}
             max={100}
             required
             value={ageConjoint}
@@ -218,29 +218,43 @@ export function SimulatorPrestation() {
 
       {result ? (
         <div className="border-t border-line/60 bg-fog/30 px-5 py-6 sm:px-7">
-          <p className="text-[12px] font-semibold uppercase tracking-[0.1em] text-muted">
-            Estimation
-          </p>
-          {result.montant === 0 ? (
-            <p className="mt-2 text-[15px] leading-relaxed text-navy/85">
-              Selon ces éléments, aucune prestation compensatoire n&apos;est
-              suggérée (pas de déséquilibre de revenus, ou durée nulle).
+          {/* Un refus du modèle n'est pas une estimation à zéro : on montre la
+              phrase du modèle et AUCUN montant, sinon le justiciable lit
+              « 0 € » là où le calcul n'a simplement pas eu lieu. */}
+          {!result.ok ? (
+            <p
+              className="rounded-[12px] bg-accent/10 px-3.5 py-3 text-[13px] text-accent"
+              role="alert"
+            >
+              {result.erreur}
             </p>
           ) : (
             <>
-              <p className="mt-2 font-display text-[clamp(1.75rem,4vw,2.25rem)] font-medium tabular-nums tracking-[-0.02em] text-accent">
-                {formatEuroCapital(result.montant)}
+              <p className="text-[12px] font-semibold uppercase tracking-[0.1em] text-muted">
+                Estimation
               </p>
-              <p className="mt-1 text-[14px] text-navy/75">
-                capital indicatif
-                {result.vousCreancier
-                  ? " (vous seriez créancier potentiel)"
-                  : " (votre conjoint serait créancier potentiel)"}
-              </p>
-              <p className="mt-3 text-[13px] leading-relaxed text-navy/65">
-                Fourchette : {formatEuroCapital(result.fourchetteBasse)} –{" "}
-                {formatEuroCapital(result.fourchetteHaute)}
-              </p>
+              {result.montant === 0 ? (
+                <p className="mt-2 text-[15px] leading-relaxed text-navy/85">
+                  Selon ces éléments, aucune prestation compensatoire n&apos;est
+                  suggérée (pas de déséquilibre de revenus, ou durée nulle).
+                </p>
+              ) : (
+                <>
+                  <p className="mt-2 font-display text-[clamp(1.75rem,4vw,2.25rem)] font-medium tabular-nums tracking-[-0.02em] text-accent">
+                    {afficherCapital(result.montant)}
+                  </p>
+                  <p className="mt-1 text-[14px] text-navy/75">
+                    capital indicatif
+                    {result.vousCreancier
+                      ? " (vous seriez créancier potentiel)"
+                      : " (votre conjoint serait créancier potentiel)"}
+                  </p>
+                  <p className="mt-3 text-[13px] leading-relaxed text-navy/65">
+                    Fourchette : {afficherCapital(result.fourchetteBasse)} –{" "}
+                    {afficherCapital(result.fourchetteHaute)}
+                  </p>
+                </>
+              )}
             </>
           )}
         </div>

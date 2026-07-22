@@ -22,13 +22,23 @@ comprise. C'est ce qui empêche la documentation de repourrir.
 ## Avant de livrer — non négociable
 
 ```bash
-cd site
-npm run check:roundtrip && npm run check:edit-loss && npm run check:sources \
-  && npm run check:submission && npm run check:expertise && npm run check:docs
+cd site && npm install && npm run check
 ```
 
-Ce sont les **seuls** tests du projet ; aucune CI ne les lance. Détail et
-signification de chaque échec : `docs/guides/gardes.md`.
+Ce sont les **seuls** tests du projet ; aucune CI ne les lance. `npm run check`
+enchaîne les douze gardes et s'arrête à la première qui bronche.
+
+Trois issues, à ne pas confondre : **0** conforme · **1** un défaut est prouvé ·
+**2** rien n'a échoué mais tout n'a pas pu être vérifié (typiquement : pas de
+`SUPABASE_SECRET_KEY` en local). En local on peut assumer le trou avec
+`GARDES_TOLERE_SKIP=1` — **jamais avant une livraison.**
+
+Détail et signification de chaque échec : `docs/guides/gardes.md`.
+
+⚠️ Une garde **importe** la règle qu'elle vérifie depuis `site/src/lib`. Ne
+jamais y recopier une expression régulière, un seuil ou une table : une garde
+qui teste sa propre copie ne teste plus le site — c'est exactement comme ça que
+`check-meta-descriptions` a passé des mois à valider une règle inexistante.
 
 ## Structure (ne pas mélanger)
 
@@ -112,3 +122,29 @@ Détail : `docs/16-composants-ui.md`.
 - Committer CSV formulaires (PII) ou secrets `.env`
 - Mettre des chemins absolus machine dans les scripts
 - Mélanger exports bruts dans `articles/` (produit)
+
+## Cursor Cloud specific instructions
+
+L'app unique est dans `site/` (npm, Node 22). Commandes standard dans
+`site/package.json` : `npm run dev` (port 3000), `npm run lint`, `npm run check`.
+Le script de mise à jour du VM lance déjà `npm install` dans `site/`.
+
+- **`.env.local` requis pour démarrer.** Créer via `cp site/.env.example site/.env.local`
+  s'il manque. Le dev serveur démarre sans aucune clé remplie.
+- **Sans `SUPABASE_SECRET_KEY`, aucun avertissement** : le site sert l'instantané
+  JSON figé de `contenu/` (422 articles en lecture seule). Compteurs de vues à
+  zéro et login admin (`/admin/*`) indisponibles sont les témoins de ce mode.
+  Voir `docs/guides/demarrer.md`.
+- **Clés Supabase injectées comme secrets = variables d'environnement du VM.**
+  L'app lit `site/.env.local`, pas l'environnement brut : recopier
+  `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`,
+  `SUPABASE_SECRET_KEY` dans `site/.env.local` puis **redémarrer `npm run dev`**
+  pour passer en mode base live. Témoin : compteurs de vues non nuls sur les
+  cartes (icône œil). Avec les clés, `npm run check` passe sans
+  `GARDES_TOLERE_SKIP`.
+- **`npm run check` sans clé Supabase** : lancer `GARDES_TOLERE_SKIP=1 npm run check`
+  (sinon `check:sources` sort en 2 `INCOMPLET`, ce qui est normal en local mais
+  jamais toléré avant livraison réelle). Détail : `docs/guides/gardes.md`.
+- Les routes publiques `/blog`, `/contact` renvoient des redirections 308
+  (`/blog` → `/nos-affaires`) ; c'est voulu, pas une erreur.
+- Aucune CI, aucun test unitaire : les gardes `npm run check` sont les seuls tests.
