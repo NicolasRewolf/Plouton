@@ -125,26 +125,14 @@ Détail : `docs/16-composants-ui.md`.
 
 ## Cursor Cloud specific instructions
 
-L'app unique est dans `site/` (npm, Node 22). Commandes standard dans
-`site/package.json` : `npm run dev` (port 3000), `npm run lint`, `npm run check`.
-Le script de mise à jour du VM lance déjà `npm install` dans `site/`.
-
-- **`.env.local` requis pour démarrer.** Créer via `cp site/.env.example site/.env.local`
-  s'il manque. Le dev serveur démarre sans aucune clé remplie.
-- **Sans `SUPABASE_SECRET_KEY`, aucun avertissement** : le site sert l'instantané
-  JSON figé de `contenu/` (422 articles en lecture seule). Compteurs de vues à
-  zéro et login admin (`/admin/*`) indisponibles sont les témoins de ce mode.
-  Voir `docs/guides/demarrer.md`.
-- **Clés Supabase injectées comme secrets = variables d'environnement du VM.**
-  L'app lit `site/.env.local`, pas l'environnement brut : recopier
-  `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`,
-  `SUPABASE_SECRET_KEY` dans `site/.env.local` puis **redémarrer `npm run dev`**
-  pour passer en mode base live. Témoin : compteurs de vues non nuls sur les
-  cartes (icône œil). Avec les clés, `npm run check` passe sans
-  `GARDES_TOLERE_SKIP`.
-- **`npm run check` sans clé Supabase** : lancer `GARDES_TOLERE_SKIP=1 npm run check`
-  (sinon `check:sources` sort en 2 `INCOMPLET`, ce qui est normal en local mais
-  jamais toléré avant livraison réelle). Détail : `docs/guides/gardes.md`.
-- Les routes publiques `/blog`, `/contact` renvoient des redirections 308
-  (`/blog` → `/nos-affaires`) ; c'est voulu, pas une erreur.
-- Aucune CI, aucun test unitaire : les gardes `npm run check` sont les seuls tests.
+- Toutes les commandes vivent dans `site/` (Next.js 16, React 19, Node 22). Les
+  dépendances sont réinstallées automatiquement au démarrage (`npm install --prefix site`).
+- Lancer le site : `cd site && npm run dev` → http://localhost:3000. Build/lint/typecheck :
+  `npm run build`, `npx eslint .`, `npx tsc --noEmit` (tous depuis `site/`).
+- Gardes (seuls tests, en lecture seule) : voir `docs/guides/gardes.md`. Elles ont
+  besoin des dépendances installées (elles passent par `tsx`).
+- ⚠️ Sans `SUPABASE_SECRET_KEY`, le site démarre **sans avertissement** en mode
+  instantané JSON (422 articles servis, compteurs de vues à zéro, écritures base
+  invisibles). C'est le mode par défaut ici, suffisant pour naviguer/tester le
+  contenu. Détail : `docs/guides/demarrer.md`. Pour Supabase/Resend réels,
+  renseigner les secrets dans `site/.env.local`.

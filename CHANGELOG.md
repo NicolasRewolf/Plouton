@@ -12,34 +12,13 @@ le fait, pas six mois plus tard en audit.
 
 ## 2026-07-21
 
-### [à venir] Audit de parité — Cooked branché + lot 2
+### [à venir] Environnement Cursor Cloud — notes de démarrage
 
-**Ajouté** — `scripts/audit-parite/cooked_rank.py` : classement réel par clics
-Google Search Console 28 j (vue Cooked `gsc_path_metrics_28d`, via secrets
-`COOKED_SUPABASE_*`). L'inventaire est désormais **classé par vraies stats
-Cooked**, tous types de pages.
-**Corrigé (outil)** — l'extracteur ignorait les balises `<summary>`/`<details>` :
-les FAQ étaient signalées à tort comme manquantes côté Next. Ajout de `summary`,
-`dt`, `dd` ; lots rejoués.
-**Contrôlé** — 50 posts les plus consultés au total (lots 1+2) :
-**0 omission réelle de texte** (FAQ incluses). Seul écart récurrent = meta
-descriptions → `bloquée` (arbitrage SEO). Bilan : 25 `conforme`, 25 `bloquée`.
-**Docs périmés** — aucun (registre mis à jour).
-
-### [à venir] Audit de parité Wix → Next — outillage + lot 1
-
-**Ajouté** — [`docs/etat/audit-parite-wix-next.md`](docs/etat/audit-parite-wix-next.md)
-(registre durable) + `docs/etat/audit-parite-inventaire.csv` (449 URLs classées
-par vues Wix réelles) + `scripts/audit-parite/` (outil de comparaison **lecture
-seule** Wix ↔ Next : texte, titres H1–H4, liens, SEO).
-**Contrôlé** — lot 1 : top 25 posts par vues. Fidélité du corps **excellente**
-(0 omission réelle). Écart systémique relevé : meta descriptions Next ≠ Wix sur
-> la moitié des posts → classées `bloquée`, **non corrigées** (arbitrage
-SEO/éditorial requis, cf. registre « Décisions attendues »).
-**Non fait volontairement** — aucune réécriture de contenu (prudence : pas de
-modif massive de textes de ma propre initiative). Cooked inaccessible en agent
-cloud (OAuth MCP + pas de clé) → repli sur les vues Wix réelles, signalé.
-**Docs périmés** — aucun.
+**Ajouté** — `AGENTS.md` : section « Cursor Cloud specific instructions »
+(commandes dans `site/`, mode instantané sans secrets Supabase, où lancer
+build/lint/dev). Script de mise à jour VM : `npm install --prefix site`.
+**Docs périmés** — aucun (renvoie vers `docs/guides/demarrer.md` et
+`docs/guides/gardes.md`, inchangés).
 
 ### [à venir] Layout bas de page honoraires & RDV
 
